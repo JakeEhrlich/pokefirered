@@ -1,0 +1,56 @@
+Arcanine @ Charcoal  
+Ability: Intimidate  
+EVs: 80 Atk / 252 SpA / 176 Spe  
+Naive Nature  
+- Fire Blast  
+- Overheat  
+- Hidden Power [Grass]  
+- Extreme Speed  
+
+Gligar @ Leftovers  
+Ability: Hyper Cutter  
+EVs: 92 HP / 252 Atk / 16 Def / 148 Spe  
+Impish Nature  
+- Swords Dance  
+- Earthquake  
+- Hidden Power [Flying]  
+- Iron Tail  
+
+Kangaskhan (F) @ Leftovers  
+Ability: Early Bird  
+EVs: 212 HP / 16 Atk / 12 Def / 252 SpD / 16 Spe  
+Adamant Nature  
+- Wish  
+- Body Slam  
+- Focus Punch  
+- Rest  
+
+Ampharos @ Leftovers  
+Ability: Static  
+EVs: 252 HP / 92 Def / 16 SpA / 124 SpD / 24 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Heal Bell  
+- Thunder Wave  
+
+Omastar @ Leftovers  
+Ability: Swift Swim  
+EVs: 156 HP / 120 Def / 136 SpA / 96 Spe  
+Modest Nature  
+IVs: 3 Atk / 30 SpA  
+- Spikes  
+- Surf  
+- Hidden Power [Electric]  
+- Rain Dance  
+
+Tentacruel @ Leftovers  
+Ability: Clear Body  
+EVs: 108 HP / 232 Atk / 16 SpA / 152 Spe  
+Hasty Nature  
+- Swords Dance  
+- Sludge Bomb  
+- Hydro Pump  
+- Rapid Spin  
+

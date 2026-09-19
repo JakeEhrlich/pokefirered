@@ -6,7 +6,7 @@ import re, sys
 SYMBOLS = ['gSimHarness', 'gBattleMons', 'gStatuses3', 'gSideStatuses', 'gSideTimers', 'gDisableStructs',
            'gBattleWeather', 'gWishFutureKnock', 'gPlayerParty', 'gEnemyParty', 'gBattlerPartyIndexes',
            'gAbsentBattlerFlags', 'gBattleOutcome', 'gBattleResults', 'gProtectStructs', 'gRngValue',
-           'gBattlersCount', 'gBattleTypeFlags', 'gBattleCommunication', 'gBattleControllerExecFlags']
+           'gBattlersCount', 'gBattleTypeFlags', 'gBattleCommunication', 'gBattleControllerExecFlags', 'gSimHarnessShadow']
 # Objects whose Random() calls the simulator also makes (everything else is UI/animation noise).
 # Functions inside engine objects whose Random() calls are frame-driven (not made by the simulator).
 EXCLUDE_FUNCS = ['VBlankCB_Battle']

@@ -1,0 +1,32 @@
+Melanie goes boating said:
+
+Raikou @ Leftovers
+Ability: Pressure
+EVs: 116 Def / 140 SpA / 252 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Thunderbolt
+- Hidden Power [Grass]
+- Calm Mind
+- Crunch / Roar / Rest
+
+Hey! Today i bring a cool little Raikou set that might interest some people!
+
+116 defense EVs mean that the standard bulky attacker Metagross does a max of 94.7% damage with Earthquake, while full 252+ atk metagross also STILL doesn't ohko with max 99.4 or .6 % damage! Tho that one u can die to sand after, still it's fine.
+
+The beauty of this spread is that it keeps Raikou speedier than base 100s and pretty powerful, while punishing people who use their Gross as an offensive Raikou check. Some games this will give your Tar or another DDer a much easier time to setup and sweep, or maybe even Kingdra since it won't be able to get Boomed!
+
+Fill the last move as you see the need to. Crunch for Gar, Roar for other CMers and Stuff, etc. Raikou is very customizable and that's another beauty of this mon.
+
+Have a nice one!
+
+Click to expand...
+
+Cool set! Just wanted to chime in and point out that somehow the universe perfectly aligns for that agilgross eq benchmark to also be the benchmark for taking less than 25% from defensive rachi body slam:
+
+0 Atk Jirachi Body Slam vs. 0 HP / 116 Def Raikou: 68-80 (21.1 - 24.9%) -- possible 6HKO
+
+I therefore recommend considering subsitute as the 4th move. This lets this raikou set serve an additional function of breaking certain stall teams. I think this set could be a great fit on a sandless offense - those do tend to be frail into agilgross, so having raikou be an emergency check is great, sandless lets sub kou abuse stall, which is an otherwise terrible matchup for sandless offense, and if you do end up facing sand you still have a potent sweeper and get to "cheat" having sand without needing to bring tar (although ofc, that isn't too big of an issue when the sand setter is the best mon in the tier).
+
+Let me also make another point: I have seen similar raikou sets where the bulk is invested in hp instead of defense. This requires a lot more evs, but hp gives kou more general bulk, which is especially useful in combination with calm mind's spdef boost. Essentially, more hp lets you set up sub on walls with special attacks (eg milo) more easily. I'm not sure what's bettter here. It comes down to whether losing special attack makes you miss any important benchmarks I think.
+

@@ -1,0 +1,56 @@
+Sky Pillar (Pidgeot) @ Choice Band  
+Ability: Keen Eye  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Double-Edge  
+- Aerial Ace  
+- Hidden Power [Ground]  
+- Quick Attack  
+
+Craggy Hammer (Metang) @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 28 Def / 228 SpD  
+Impish Nature  
+- Meteor Mash  
+- Earthquake  
+- Toxic  
+- Protect  
+
+The Belle (Roselia) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 12 Def / 236 SpD / 8 Spe  
+Calm Nature  
+- Spikes  
+- Synthesis  
+- Giga Drain  
+- Stun Spore  
+
+Gem-Eyed Bandit (Sableye) @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 252 Def / 4 SpD  
+Impish Nature  
+IVs: 0 Atk  
+- Shadow Ball  
+- Recover  
+- Toxic  
+- Seismic Toss  
+
+Round Table (Wailord) @ Leftovers  
+Ability: Water Veil  
+EVs: 212 Def / 252 SpD / 44 Spe  
+Calm Nature  
+- Surf  
+- Rest  
+- Sleep Talk  
+- Roar  
+
+Serene Ocean (Chimecho) @ Leftovers  
+Ability: Levitate  
+EVs: 212 HP / 252 SpA / 44 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Calm Mind  
+- Psychic  
+- Hidden Power [Fire]  
+- Heal Bell  
+

@@ -1,0 +1,173 @@
+Tyranitar (M) @ Choice Band
+Ability: Sand Stream
+EVs: 76 HP / 216 Atk / 36 Def / 180 Spd
+IVs: 30 SDef / 30 Spd
+Adamant Nature (+Atk, -SAtk)
+- Focus Punch
+- Earthquake
+- Hidden Power [Bug]
+- Rock Slide
+
+Skarmory (M) @ Leftovers
+Ability: Keen Eye
+EVs: 248 HP / 116 Def / 136 SDef / 8 Spd
+Impish Nature (+Def, -SAtk)
+- Toxic
+- Protect
+- Spikes
+- Whirlwind
+
+Blissey (F) @ Leftovers
+Ability: Natural Cure
+EVs: 4 HP / 252 Def / 252 SAtk
+Bold Nature (+Def, -Atk)
+- Seismic Toss
+- Ice Beam
+- Wish
+- Soft-Boiled
+
+Flygon (M) @ Choice Band
+Ability: Levitate
+EVs: 4 HP / 252 Atk / 252 Spd
+IVs: 30 Atk / 30 SDef
+Jolly Nature (+Spd, -SAtk)
+- Earthquake
+- Rock Slide
+- Hidden Power [Ghost]
+- Fire Blast
+
+ThunderRealm (Zapdos) @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 24 Def / 204 SDef / 28 Spd
+Calm Nature (+SDef, -Atk)
+- Roar
+- Rest
+- Sleep Talk
+- Thunderbolt
+
+Avalon (Gengar) (M) @ Leftovers
+Ability: Levitate
+EVs: 96 HP / 96 Atk / 96 Def / 40 SAtk / 180 Spd
+Naive Nature (+Spd, -SDef)
+- Thunderbolt
+- Ice Punch
+- Will-O-Wisp
+- Taunt
+
+--
+
+Demon Realm (Tyranitar) (M) @ Leftovers
+Ability: Sand Stream
+EVs: 252 HP / 216 SAtk / 40 Spd
+IVs: 30 Atk / 30 SAtk
+Modest Nature (+SAtk, -Atk)
+- Flamethrower
+- Pursuit
+- Hidden Power [Grass]
+- Crunch
+
+God Realm (Suicune) @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 212 Def / 44 Spd
+Bold Nature (+Def, -Atk)
+- Surf
+- Roar
+- Rest
+- Sleep Talk
+
+Ghost Realm (Gengar) (M) @ Leftovers
+Ability: Levitate
+EVs: 188 HP / 112 Def / 32 SAtk / 176 Spd
+Timid Nature (+Spd, -Atk)
+- Destiny Bond
+- Ice Punch
+- Thunderbolt
+- Will-O-Wisp
+
+AncientRealm (Forretress) (M) @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 120 SAtk / 120 SDef / 16 Spd
+IVs: 30 Atk / 30 SAtk / 30 Spd
+Calm Nature (+SDef, -Atk)
+- Toxic
+- Hidden Power [Fire]
+- Rapid Spin
+- Spikes
+
+Human Realm (Blissey) (F) @ Leftovers
+Ability: Natural Cure
+EVs: 4 HP / 252 Def / 216 SAtk / 36 Spd
+Modest Nature (+SAtk, -Atk)
+- Ice Beam
+- Seismic Toss
+- Soft-Boiled
+- Toxic
+
+Dragon Realm (Flygon) (M) @ Leftovers
+Ability: Levitate
+EVs: 128 HP / 220 Atk / 160 Spd
+IVs: 30 SDef / 30 Spd
+Adamant Nature (+Atk, -SAtk)
+- Earthquake
+- Fire Blast
+- Rock Slide
+- Hidden Power [Bug]
+
+--
+
+Tyranitar (M) @ Choice Band
+Ability: Sand Stream
+EVs: 76 HP / 216 Atk / 36 Def / 180 Spd
+IVs: 30 SDef / 30 Spd
+Adamant Nature (+Atk, -SAtk)
+- Focus Punch
+- Earthquake
+- Hidden Power [Bug]
+- Rock Slide
+
+Dragon Realm (Flygon) (M) @ Choice Band
+Ability: Levitate
+EVs: 4 HP / 252 Atk / 252 Spd
+IVs: 30 Atk / 30 SDef
+Jolly Nature (+Spd, -SAtk)
+- Earthquake
+- Fire Blast
+- Rock Slide
+- Hidden Power [Ghost]
+
+Blissey (F) @ Leftovers
+Ability: Natural Cure
+EVs: 252 Def / 252 SAtk / 4 Spd
+Modest Nature (+SAtk, -Atk)
+- Calm Mind
+- Ice Beam
+- Soft-Boiled
+- Thunderbolt
+
+Plastic Factory (Skarmory) (M) @ Leftovers
+Ability: Keen Eye
+EVs: 252 HP / 252 SDef / 4 Spd
+Impish Nature (+Def, -SAtk)
+- Toxic
+- Protect
+- Spikes
+- Whirlwind
+
+Mud Realm (Swampert) (M) @ Leftovers
+Ability: Torrent
+EVs: 252 HP / 176 Def / 24 SAtk / 48 SDef / 8 Spd
+Relaxed Nature (+Def, -Spd)
+- Earthquake
+- Ice Beam
+- Protect
+- Roar
+
+Magneton @ Magnet
+Ability: Magnet Pull
+EVs: 80 HP / 240 SAtk / 188 Spd
+IVs: 30 Atk / 30 SAtk / 30 Spd
+Modest Nature (+SAtk, -Atk)
+- Thunderbolt
+- Hidden Power [Fire]
+- Toxic
+- Protect

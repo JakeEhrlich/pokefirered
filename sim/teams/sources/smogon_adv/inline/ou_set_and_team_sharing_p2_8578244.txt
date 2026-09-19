@@ -1,0 +1,163 @@
+With my exit from the 4th Callous Cup, I have pretty much completed my Serious Tournaments circuit until SPL. I've overall pretty satisfied with my performances in ADV Cup, Callous Cup and that Team Tour we had on PP and I think it's a good time to share some of the sets/techs/teams I've used thoughout this time.
+
+Sets:
+
+Celebi @ Leftovers
+Ability: Natural Cure
+EVs: 144 HP / 80 Atk / 104 Def / 180 Spe
+Impish Nature
+- Swords Dance
+- Ancient Power
+- Baton Pass
+- Hidden Power [Fighting]
+
+Celebi probably has been my favorite Pokemon to use in the past year. The Baton Pass sets make offensive strategies snowball like nothing else. SDPass has always been a thing and I think Ancient Power is a good call to combat some of the premier Phazers atm that are Moltres and Zapdos. AP boosts can also be quite funny (for you...) when you get them, making the Baton Pass even more potent. This set is better than the Leech Seed variants on more offensive teams imo, since they don't have the time and backbone to play around Celebi answers, even if they get seeded.
+The current spread also OHKOs 252/0 Tyranitar with HP Fight, while outspeeding Moltres. You also always survive +1 HP Fly from CB Mence from full.
+
+Celebi @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 128 Def / 52 SpD / 76 Spe
+Jolly Nature
+- Swords Dance
+- Ancient Power
+- Baton Pass
+- Hidden Power [Grass]
+
+The biggest problem with SDPass Celebi is Roar Swampert. It is sand immune, so can't quite be chipped like a Suicune and highly resistant to every move even a +2 Celebi can throw at it. Here comes HP Grass in the second slot, which is also good at actively pressuring Roar Suicune. Ancient Power is my second move of choice, once again for Zapdos and Moltres.
+This spread is bulkier because you don't need Atk EVs to OHKO Moltres or pressure Zapdos. You can even invest a bit more defense for Aero HP Bug if you want.
+
+Ronflex (Snorlax) @ Leftovers
+Ability: Immunity
+EVs: 80 HP / 176 Atk / 52 Def / 184 SpD / 16 Spe
+Adamant Nature
+- Curse
+- Self-Destruct
+- Body Slam
+- Shadow Ball
+
+Technically, there is nothing special about this set, it's a classic. What I want to emphasize is that I think Magneton is a very subpar Pokemon, and a lot of teams gains from seeking other ways to remove Skarmory from the game. Snorlax for example, with the current spread will always OHKO Skarmory with a +1 Boom. If you don't face Skarm, you still have an awesome Pokemon that pretty much soaks any hits, switch into special attackers and guarantee at least a trade with Boom. It's also a good Tyranitar/Metagross remover, or you can pair it with a Pursuiter to afford a superior Normal/Ground coverage.
+
+Magnéton (Magneton) @ Leftovers
+Ability: Magnet Pull
+EVs: 240 HP / 80 Def / 188 Spe
+Timid Nature
+IVs: 2 Atk / 30 SpA / 30 Spe
+- Protect
+- Thunderbolt
+- Hidden Power [Fire]
+- Toxic
+
+Talking about Magneton, I'm putting in the open this godforsaken spread that some players love to hate. The idea is simple, this Magneton always tanks EQ from Forretress. As a result, it also always tank HP Ground from Skarmory. Watch out for Counter Forretress though. Something I've also quite liked with this spread is that Magneton becomes quite a good Electric pivot, with all those HPs and Protect, which is quite valuable on some trap/reset teams it likes to lend itself on.
+There is a lot of room for variation when it comes to SpA/Speed here. Currently you're outspeeding as fast as MixTtar, Adamant YoloSkarm, EndPert and everything below. I've run slower on some teams for Tbolt to pack a better punch though.
+
+Jirachi @ Leftovers
+Ability: Serene Grace
+EVs: 252 HP / 36 Def / 84 SpA / 136 Spe
+Modest Nature
+- Body Slam
+- Fire Punch
+- Substitute
+- Hidden Power [Grass]
+
+This little demon came to mind when I wanted to build a ParaSpam team in ADV. There is not much to say about it beside the obvious. You can toy around with the coverage, I like Fire Punch because you can spread burns on top of paralysis. HP grass is solid so Refresh Pert doesn't entirely blank you. Sub is status/leech protection. It doesn't look too strong on paper but it's quite terrific in Sand and will leaves its mark on the battle.
+The current spread creeps Heracross while surviving Jolly Dug's EQ from full.
+
+Électhor (Zapdos) @ Salac Berry
+Ability: Pressure
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 2 Atk / 30 SpA
+- Thunderbolt
+- Hidden Power [Grass]
+- Baton Pass
+- Roar / Endure
+
+Salac Berry Zapdos is an interesting fit in Baton Pass chain teams. You may ask why not just Agility, but this allows you to keep your coverage while running clutch moves like Roar or Endure. Endure will fit weather reset teams and allow Zapdos to get a late game revenge killing option/speed boost to pass for a final sweep (think Jirachi as recipient here). Roar is there as a set-up deterrant or instant win button if your CM Pass Celebi found itself in a CM War a few turns prior.
+
+Raikou @ Lum Berry
+Ability: Pressure
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 2 Atk / 30 Def
+- Substitute
+- Thunderbolt
+- Toxic
+- Hidden Power [Ice]
+
+The catch with this Raikou is to use it as a lead. It's an interesting opener because it completely shits on the so popular Zapdos, giving you the upper hand in that match-up. The idea is to pair it with Dugtrio to remove Special Sweepers checks, namely Tyranitar, Snorlax, Blissey and Metagross. Against Blissey, you have all the tools between Sub, Toxic and Lum to give you a free switch to Dugtrio as the Blissey is poisoned. You will effectively remove it from the battle, especially if you're using Beat Up Dugtrio (deserving of a post in this thread, but I'm leaving it to vapicuno if he wants to share it).
+Since you're not setting up, Modest is encouraged as you will dent some Pokemons harder with it. You're still outspeeding Salamence and all the 100 base speed.
+
+Léviator (Gyarados) @ Leftovers
+Ability: Intimidate
+EVs: 80 HP / 252 Atk / 176 Spe
+Jolly Nature
+IVs: 30 SpA / 30 SpD / 30 Spe
+- Hidden Power [Flying]
+- Substitute
+- Earthquake
+- Dragon Dance
+
+Something that came to mind when I was using a SDPass team was that Gyarados is often a good receiver but gets boomed on quite easily by various Pokemons it can't quite OHKO, even at +3, such as Claydol, Snorlax or Cloyster. Here comes Substitute to play around it. It has other benefits such as allowing you to have a strong option vs status and Intimidate, typically would-be answers to Gyarados (think Blissey soaking a hit and paralyzing).
+
+Cacturne (M) @ Leftovers
+Ability: Sand Veil
+EVs: 32 HP / 244 SpD / 232 Spe
+Timid Nature
+IVs: 2 Atk / 30 SpA
+- Substitute
+- Leech Seed
+- Hidden Power [Grass]
+- Spikes
+
+I might be stealing the show of players who've used Cacturne much more than me, like ABR or marcop here. I've experimented  quite a bit with it in the past and it had left me a poor impression. However I believe that the current spread and moveset made it a much better Pokemon in the metagame. Highly loaded on SpDef and with a Grass stab, you're now actively checking the like of Swampert and Suicune. Not only that, you're a spiker that has a positive match-up against Starmie and Claydol.
+Make sure you have good Forretress countermeasure with it though. I also don't believe you have to go full-blown Sand Veil abuse with Cacturne, it's a pretty good spiker by itself, which is why I'm featuring it here. Of course, that doesn't mean you can't push your luck with it here and there, as long as it's allowed in the tier ;)
+
+Tyranocif (Tyranitar) @ Leftovers
+Ability: Sand Stream
+EVs: 240 HP / 252 SpA / 16 Spe
+Modest Nature
+IVs: 0 Atk
+- Crunch
+- Pursuit
+- Sunny Day
+- Thunder Wave
+
+This one is pretty out there and I'd understand an eyebrow raise if you're reading this post. The idea is simple though, some trap/reset teams naturally look for a way to remove Gengar from the battle. The choice in Pursuiters is limited, and Tyranitar is the best Pokemon at it in my opinion. Now you often want to reset the weather for Pokemons like Suicune and Snorlax that fit those teams. I wasn't able to find a spot somewhere else on the team and didn't want to use Umbreon and that's how I ended with Sunny Day Ttar.
+
+Umbreon @ Leftovers
+Ability: Synchronize
+EVs: 252 HP / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Taunt
+- Charm
+- Mean Look
+- Baton Pass
+
+Another set worthy of disdain, the infamous ChaosBreon. A lethal weapon against defensively inclined teams, with a very high payout when it works. The spread and moveset has been revisited for a few reasons. First of all, Pursuit Umbreon has started to see some usage, so you can effectively hide your intentions if you play cleverly. Charm is a strong option against Pokemons that would otherwise prevent anything from truely abusing them. For example a 4 Atk Ttar could come and just spam Focus Punch/Rock Slide to prevent a Suicune from fully setting up on it, but Charm will effectively change this scenario. It's also a good first move to throw to check their answer to MeanPass and gives you an easier time switching out if need be. Such a fast Umbreon can also take your opponent by surprise if they thought about sending a bulky Baton Pass Celebi for example.
+
+Registeel @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 156 Atk / 100 SpD
+Careful Nature
+- Curse
+- Explosion
+- Earthquake
+- Hidden Power [Rock]
+
+When I was exploring options for Exploders, Registeel caught my eye. I didn't have much experience with it but after using it, it proved to be quite a good Pokemon. It pretty much tanks any attacks, and most importantly, it allows you to have an answer to Special Attackers after you throw your Snorlax away in some match-ups, think trading with Skarmory and being naked vs a late game Starmie, Zapdos or Jolteon for example. It's also a useful Normal/Rock resist, which comes handy if you've boomed your Metagross early for example.
+The current spread allows it to OHKO 252/216+ Celebi at +1 with Sand, useful for deconstructing some defensive builds.
+
+Ptéra (Aerodactyl) @ White Herb
+Ability: Rock Head
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Rock Slide
+- Double-Edge
+- Earthquake
+- Curse
+
+I will finish the post with this little gimmick. I remember seeing this set on a german website full of ADV ressource (I think it was Vertigo's) and for some reason I never quite forgot it. Anyway, the idea is to use a +1 Aero that doesn't lock itself on moves. Now we've seen some Sub Lichii Aero recently so why White Herb? Aero is actually just bulky enough to often tank one hit. This way you'd have the attack boost while staying at full (example: Milotic's Surf). It can also prevent counterplay from the currently popular Breloom, or help you survive a Boom from Claydol/Snorlax. I wouldn't really advice it, but well, you know about its existence now at least. Imo you want Spikes with it, as well as a Swampert weakener/remover. If their rock resist turns out to be anything but Swampert, this Aero is actually quite dangerous in the endgame (as a result DDGrass Ttar goes perfectly with it).
+
+Before making a separate message for teams, I'd like to finish this post by giving a shout-out to vapicuno whom I often talk with to discuss set/team ideas and he's pretty good at optimizing some of the things I come up with.
+

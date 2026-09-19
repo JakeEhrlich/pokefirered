@@ -1,0 +1,9 @@
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 252 HP / 84 SpA / 140 SpD / 32 Spe  
+Calm Nature  
+- Wish  
+- Fire Blast  
+- Brick Break  
+- Dragon Claw  
+

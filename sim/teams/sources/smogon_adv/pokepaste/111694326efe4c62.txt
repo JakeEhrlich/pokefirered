@@ -1,0 +1,56 @@
+Qwilfish @ Choice Band  
+Ability: Swift Swim  
+EVs: 252 Atk / 40 SpD / 216 Spe  
+Jolly Nature  
+- Sludge Bomb  
+- Self-Destruct  
+- Hydro Pump  
+- Shadow Ball  
+
+Nidoking (M) @ Leftovers  
+Ability: Poison Point  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Focus Punch  
+- Earthquake  
+- Ice Beam  
+- Shadow Ball  
+
+Kangaskhan (F) @ Leftovers  
+Ability: Early Bird  
+EVs: 176 HP / 24 Def / 120 SpD / 188 Spe  
+Adamant Nature  
+- Body Slam  
+- Earthquake  
+- Shadow Ball  
+- Rest  
+
+Omastar @ Leftovers  
+Ability: Swift Swim  
+EVs: 24 HP / 252 SpA / 232 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Spikes  
+- Rain Dance  
+- Hydro Pump  
+- Ice Beam  
+
+Gorebyss @ Mystic Water  
+Ability: Swift Swim  
+EVs: 52 HP / 252 SpA / 204 Spe  
+Modest Nature  
+IVs: 3 Atk / 30 SpA  
+- Hydro Pump  
+- Ice Beam  
+- Rain Dance  
+- Hidden Power [Electric]  
+
+Solrock @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 36 Atk / 164 Def / 56 Spe  
+Impish Nature  
+- Rock Slide  
+- Earthquake  
+- Explosion  
+- Reflect  
+

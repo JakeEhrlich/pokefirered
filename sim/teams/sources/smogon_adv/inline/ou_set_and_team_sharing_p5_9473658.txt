@@ -1,0 +1,119 @@
+My Advanced League debut run just ended as my team(the Psychic Guardians) got eliminated inbthe first week of playoffs. I had a pretty good debut run, going 4-1 in the regular season.  I would like to thank all the players of the Psychic Guardians for helping me with teambuilding, especially pkThunderbolt .
+I will now post interesting sets, teams and cores I used or saw at this time.
+Cores
+CM Pass Celebi + Kingdra
++
+
+Sets
+
+Forest Fairy (Celebi) @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 76 SpA / 180 Spe
+Timid Nature
+- Calm Mind
+- Giga Drain
+- Hidden Power [Fire]
+- Baton Pass
+
+Seahorse (Kingdra) @ Lum Berry
+Ability: Swift Swim
+EVs: 104 HP / 252 SpA / 152 Spe
+Modest Nature
+IVs: 3 Atk / 30 SpA
+- Rain Dance
+- Hydro Pump
+- Ice Beam
+- Hidden Power [Electric]
+
+CM Pass support helps Kingdra get a lot of crucial 0hkos in the rain such as Metagross,  Forretress, Zapdos etc. Specifically bulky Dug is almost mandatory to remove Blissey and Tyranitar. Other good partners include Suicune, Offensive Zapdos and MixMetagross. CM Pass Celebi also helps  vs defensive Milotic and Suicune teams, which Kingdra struggles with. I used the below 6 with this core:
+
+I used Offensive SubPass Zapdos and SubCM Suicune,  but the sets are fairly customizable,  so feel free to experiment. Darth Tyros also had a lot of success spamming the above team, but with Ludicolo over Suicune. I even faced him in week 2, and in G1 both of us brought the same team from above  with 1 mon different.
+Replay: https://replay.pokemonshowdown.com/smogtours-gen3ou-660732
+
+Scizor + Breloom
+
+Sets
+
+Mushroom (Breloom) @ Leftovers
+Ability: Effect Spore
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Spore
+- Focus Punch
+- Sky Uppercut
+- Mach Punch
+
+Ironman (Scizor) @ Salac Berry
+Ability: Swarm
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Swords Dance
+- Reversal
+- Endure
+- Hidden Power [Rock]
+
+SD Endure Salac Scizor is used as a late game cleaber on spikeless offense teams. Breloom lures flying types like Salamence and chips them, heloing Scizor to clean. Spore also provides Scizor with more setup opportunities. Pursuit Tyranitar is almost mandatory as this core is very Gengar weak without it. You can also run Pursuit Metagross if you choose to run HP Ghost Breloom.
+I used it on this team: https://pokepast.es/6a060de72f4584b1
+See pokepaste for descriptions. The team's a bit jank, but it's fun to use on ladder.
+
+Sets
+
+Curse OffPert
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 252 HP / 4 Atk / 252 SpA
+Quiet Nature
+- Hydro Pump
+- Ice Beam
+- Earthquake
+- Curse
+Thie set allows Swampert to break through Defensive Starmie. This is great on spikes teams that are weak to it.
+
+Impish Metagross
+
+Angry Computer (Metagross) @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 52 Atk / 204 Def
+Impish Nature
+- Meteor Mash
+- Earthquake
+- Protect
+- Explosion
+The EVs allow you to survive +2 DD Mence from full. The physical bulk is insane, but the power drop is also significant. For example,  this set will never 0hko bulkless Tyranitar from full. It's very Skarmory weak, so it needs Mag or Spin support.
+
+Physical Gengar by Smurf
+Gengar (M) @ Leftovers
+Ability: Levitate
+Shiny: Yes
+EVs: 76 HP / 96 Atk / 152 Def / 184 Spe
+Jolly Nature
+- Will-O-Wisp
+- Night Shade
+- Focus Punch
+- Explosion
+This is the most jank out of the all the sets posted so far. This lures pursuit Tyranitar and removes it with FP + Night Shade. This originally came from Smurf's RMT New Wave. WOW also helps vs Snorlax teams. It alao helps you get the weather advantage vs Pursuit Tar teams. Also helps lure Blissey alongside Dugtrio support. EVs live +1 DD Mence.
+
+Mean Look Gar
+Gengar @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 60 SpD / 196 Spe
+Timid Nature
+- Thunderbolt
+- Explosion
+- Will-O-Wisp
+- Mean Look
+Mean Looks makes you more reliable at nailing Blissey with Explosion.  Use on special offense/rain to lure Blissey. WOW helps with Snorlax builds. I got this set from one of TLC's teamdumps.
+
+Sing Blissey by Astamatitos
+Blissey (F) @ Leftovers
+Ability: Natural Cure
+EVs: 252 Def / 252 SpA / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Soft-Boiled
+- Ice Beam
+- Thunderbolt
+- Sing
+This is my favourite tech option on Blissey. It's very useful on offensive Spikes teams to give your wallbreakers free turns. Sing also helps deal with Milotic, which the team I used this on was very weak to. Modest Thunderbolt Blissey was used to hit defensive Starmie hard and provide outs vs Defensive Suicune. The team I used this with was an offensive spikes team with MixMence,  MixTar and CB Aero. I heard about this set from a BKC video on ADV creative sets. The team with it one of my favourites to use in both tours  and ladder.
+Replay: https://replay.pokemonshowdown.com/gen3ou-1758845444-fy1xisdmh8mggufbsiogd36hfgzo0m0pw
+

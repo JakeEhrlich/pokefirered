@@ -1,0 +1,105 @@
+Gen3 OU: Earlier in the summer I made this team. I do not ladder with it anymore. Hope you enjoy. Features include double Intimidate and pretty unique sets.
+
+As with anything, it is all in how the team is wielded it and if it fits the user's style.
+
+The at a glance, as displayed above, will show just how electric/Zapdos weak this team is. But that's what I get for creativity and trying not to be boring. I'll try my best to justify the tweaks present within the team to handle it (Zapdos).
+
+Some sets are obvious and won't need lengthy explanation -- they just fit well. (CBTar, standard jolly Gyara)
+Showdown replays under "PureBeefPatty" if you want to see the team in action (good player vs  other good players, usually ).
+
+Salamence @ Leftovers
+Ability: Intimidate
+EVs: 16 HP / 216 SpA / 24 SpD / 252 Spe
+Rash Nature
+- Dragon Claw
+- Wish
+- Rock Slide
+- Fire Blast
+
+I would play this as an aggressive lead and then it still has that powerful combo of unresisted attacks for middle and endgame too if it gets there. Rock Slide is ultra-specific so we'll get to that in a bit. Speaking of lead, I feel that the Lead viability thread should get more elaborate attention. The general viability thread is just a re-hash of things over and over again we have all heard and will always have subjective bias. I still like reading them anyway, not gonna lie!
+
+Here, the lead strategy is to stay in against Meta/Tar/other Mence/ and sometimes Zap. Crazy I know, but that is the conclusion I have come to. Important to balance that out with the other option against Zap, the best (and only other option) being ...going to Alakazam. I like going to Hariyama against Jolteon. More on that later.
+
+First off, the obvious is that Salamence's speed is a good lead trait and its other stats are strong. +SpAtk Dragon Claw is a feel good move. I would never recommend +Sp.Atk MixMence drop it now that I have used it. Fire Blast should come close to killing, or kill Metagross. If Salamence does not live and Metagross is weakened enough to around <12%, the follow up can be Alakazam.
+
+I believe that this spread is favored to win a lot of Salamence mirrors, since any guaranteed faster Sala would have a ~47.3% chance to OHKO with Dragon Claw, factoring in crit. Rash Dragon Claw with the given EVs retaliates for a guaranteed OHKO if the opposing Mence is -SpD and bulkless.
+I will stay in and play the speed tie game, as well, so then it's essentially 50/50 if both Salamence are +Sp.Atk. I would not recommend going on the backfoot, given the odds. Roll the dice turn 1.
+
+No HP Grass. No Brick Break. But there is the bluff of having them that creates a threat that isn't even there, once you show Dragon Claw! So that's a bit of a perk. Any Tyranitar lead has to respect this Salamence lead anyway. So just Dragon Claw. Because this Salamence doesn't have Brick Break! >90% of the time the Tyranitar user switches. So some nice chip damage will be achieved with the D-claw, or chipping of the Tyranitar itself if it happened to stay in (rarely will it). Kudos if the Tar stays in and happens to kill the Salamence. Just move on with the game. You will also clearly have a more difficult time against Swampert now without HP Grass, but if it's monoPert then at least there is the utility of hanging around a bit in the face of Pert and Wishing to extend the game.
+
+BUT more on what you gain-- You gain Wish and a flinching move when the best course of action might be to flinch a not 252 speed Zap or low health Bliss or something. It's different. To give it a bit more depth, Wish is really sweet sauce mid-game when Salamence gets in slighlty weakened but is threatening the opposing team. So the opponent expects an attack and is saccing something. Wishing first as they bring in the sac, and then attacking the likely slower sac, can be soul-crushing, as Mence gets to heal! Probably greatest feeling in the world is also doing that strategy against a Moltres, since this Mence has Rock Slide. Rock Slide may also be the most damaging move to use against Aerodactyl if it comes down to it. Wish is also going to extend the life of the other mons in this team, like Hariyama, CBTar, and possibly Forretress and Gyarados if it seems integral to keep them at high health. (you can create interesting sac scenarios to heal a teammate)
+
+OK so I admit Rock Slide is somewhat filler, but I deem it necessary as that will be what you want to click when you stay in a portion of the time against Zapdos and pray those times that you do stay you get to attack first (ideally) or you'll see if it attacks first (or second if no flinch). Regarding the lead situation again, I would probably go Tar if Salamence dies and Zapdos is still out on the opposing side, especially if Zapdos received any chip damage at all from the Salamance encounter. If the trend is that lead Zap become bulkier then that will be a good thing for a Salamence like this. It sucks that you might end up with a paralyzed Salamence if Zap does T-wave. It is a real guessing game. That is why I , probably most of the time, go to Alakazam.
+
+Alakazam @ Leftovers
+Ability: Synchronize
+EVs: 112 HP / 144 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Psychic
+- Encore
+- Recover
+- Light Screen
+
+I think my motivation was to have something that screamed "fast and dangerous" and can still sit in on Wish/Softboiled/Seismic Toss/Ice Beam Bliss. So that is a big reason why I came up with this. I forget why I settled on 279 hit points. Perhaps it had something to do with Seismic Tosses in non-sand. Anyway...this will at least speed tie Dugtrio. If 1 layer of Spikes is down it is a real bonus as it really makes it a risk for Dugtrio to come in. Dugtrio has no chance to survive Psychic then, so the only shot it has is winning a speed tie.
+
+Synchronize para back at Zapdos and burn back at Gar. So it's got at least some switch-in utility. Having to take para is definitely not ideal, but then maybe Salamence can paraflinch the Zapdos some.
+
+Not for the faint of heart who think mono attacking Alakazam is bad. Hey it's STAB and quite strong. Encore is amazing, if you are good at predicting set-up mons you will love it. Light Screen + Recover is also kind of amazing. Light Screen is there to buffer Electrics/electric attacks (much easier to do when non-leading) and Waters without having to show Gyarados too soon. More practical examples of uses with this mon are as follows: buffers Pursuits (you need to read the Tar situation if you should put a screen up or not), switches into Gar, can stifle Starmie (Starmie does not OHKO so Alakazam can leave a parting Light Screen if unable to stall Starmie out), and is a complete counter to most any Celebi, and again, anything trying to set-up (Jirachi). Even Encores +1 DDTar if in that awkward situation. Making a teammate like CBTar, Hariyama, DDGyara,  Mence, or Forry come in handily. Heck all these teammates love getting a way in for free and are threatening in their own right. Suicune users could outplay your Encores with Pressure, though. This thing is crit-prone -- especially the turn you set up Light Screen; it always made me angry when that happened.
+
+Forretress @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Spikes
+- Rapid Spin
+- Explosion
+- Zap Cannon
+
+Eschewing Earthquake to get these 4 other moves in one set. Holy! Zap Cannon make this thing able to hit and disrupt Aero, Gengar, and Starmie. Drill Peck or Toxic Skarmory? Get real. Hates this thing.
+
+Full Sp. Def is going to get you a layer up even against Mag usually if played smart. You explode on it sometimes at full health, and for sure from >49% health if Light Screen is active. If not HP Fire you can feel frisky and try cheesing it with Zap Cannon to buy another layer before exploding. Alakazam can follow up if you had to explode on Magneton, as it will be too low to tank a Psychic then. A little synergy again (like the Mence Fire Blast against Metagross). Explosion to chip and then go to either intimidate poke is nice.  Paralysis of Zap Cannon with its 50% hit chance-- say cheese! This is nice insurance against Aero, DD Gyara, and DD Mence if healthy enough. Its explosion is certainly useful against Milo-Dol.
+
+Hariyama @ Leftovers
+Ability: Thick Fat
+EVs: 32 HP / 252 Def / 224 SpD
+Impish Nature
+- Whirlwind
+- Knock Off
+- Brick Break
+- Protect
+
+Defensive Hari. Since 2007.
+https://www.smogon.com/forums/threads/the-smallest-kiss-in-the-world-rmt.33077/
+Walls stuff. Knocks stuff off. Scouts/Stalls a bit. Phazes. Good against Tyranitar/Lax/Bliss. Protect + Brick Break is the new tweak more fitting for this meta. Rather than the Rest + Focus Punch I used back in the day.
+Since I am not leading Tar I am really a fan of Protect for healing when no sand. It's very good with Knock Off once sand is up too. I've recommended Protect before in theory in other threads, so I finally put my money where my mouth is. Rest is too much of a liability and/or needs specific team support.
+
+Tyranitar @ Choice Band
+Ability: Sand Stream
+EVs: 8 HP / 248 Atk / 40 SpD / 212 Spe
+Adamant Nature
+IVs: 30 SpD / 30 Spe
+- Rock Slide
+- Hidden Power [Bug]
+- Earthquake
+- Focus Punch
+
+When you just need to hit annoying stuff like Jirachi, Snorlax, Claydol, other Tyranitar, Fliers, etc. hard.
+
+Gyarados @ Leftovers
+Ability: Intimidate
+EVs: 88 HP / 240 Atk / 8 SpD / 172 Spe
+Jolly Nature
+IVs: 30 SpA / 30 SpD / 30 Spe
+- Taunt
+- Dragon Dance
+- Hidden Power [Flying]
+- Earthquake
+
+Jolly because it needs to outspeed Jolteon at +1. Outspeeding Aero at +1 is nice too.
+This and CB Tar create the usual win condition.
+In a pinch this is the best thing to fend off Metagross/ take a CB hit from it. (The hope is Salamence can be around to threaten Metagross, and/or Tyranitar is faster). But it is not really trying to take damage. Becuase sometimes you have to set this up on Swampert in Sand, and that is no easy feat. Careful play is required. In fact with Light Screen, you want to make sure it has plenty of health so it can set-up on stuff it is not supposed to, like Gengar/Starmie.
+Creates "double intimidate" with Salamence. Excellent.
+
+The end. Try to weaken Aero and Zapdos. They're going to be pricks. Any poke can be an MVP with this squad!
+

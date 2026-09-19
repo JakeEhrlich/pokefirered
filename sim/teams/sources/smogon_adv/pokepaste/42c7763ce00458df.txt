@@ -1,0 +1,55 @@
+Skarmory (M) @ Leftovers
+Ability: Keen Eye
+EVs: 248 HP / 252 SDef / 8 Spd
+Impish Nature (+Def, -SAtk)
+- Toxic
+- Rest
+- Spikes
+- Whirlwind
+
+Gengar (M) @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 44 Def / 128 SDef / 84 Spd
+Timid Nature (+Spd, -Atk)
+- Giga Drain
+- Taunt
+- Thunderbolt
+- Will-O-Wisp
+
+JoyToy (Blissey) (F) @ Leftovers
+Ability: Natural Cure
+EVs: 4 HP / 252 Def / 252 SAtk
+Modest Nature (+SAtk, -Atk)
+- Calm Mind
+- Ice Beam
+- Thunderbolt
+- Soft-Boiled
+
+AncientRealm (Claydol) @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 100 Atk / 112 Def / 32 SDef / 12 Spd
+Relaxed Nature (+Def, -Spd)
+- Earthquake
+- Explosion
+- Psychic
+- Rapid Spin
+
+Orion (Dugtrio) (M) @ Choice Band
+Ability: Arena Trap
+EVs: 220 Atk / 36 SDef / 252 Spd
+IVs: 30 Atk / 30 Def / 30 SDef
+Jolly Nature (+Spd, -SAtk)
+- Aerial Ace
+- Earthquake
+- Hidden Power [Bug]
+- Rock Slide
+
+DivB=0 (Magneton) @ Leftovers
+Ability: Magnet Pull
+EVs: 100 HP / 252 SAtk / 156 Spd
+IVs: 30 Atk / 30 SAtk / 30 Spd
+Modest Nature (+SAtk, -Atk)
+- Hidden Power [Fire]
+- Metal Sound
+- Thunder Wave
+- Thunderbolt

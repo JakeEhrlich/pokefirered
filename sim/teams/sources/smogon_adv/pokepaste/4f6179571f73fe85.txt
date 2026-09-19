@@ -1,0 +1,57 @@
+Hitmonchan (M) @ Leftovers  
+Ability: Keen Eye  
+EVs: 88 HP / 252 Atk / 168 Spe  
+Adamant Nature  
+- Sky Uppercut  
+- Hidden Power [Ghost]  
+- Earthquake  
+- Mach Punch  
+
+Pelipper @ Leftovers  
+Ability: Keen Eye  
+EVs: 236 HP / 252 Def / 20 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Ice Beam  
+- Protect  
+- Toxic  
+
+Haunter @ Petaya Berry  
+Ability: Levitate  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Thunderbolt  
+- Psychic  
+- Hidden Power [Fire]  
+- Substitute  
+
+Roselia @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 4 Def / 252 SpD  
+Calm Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Giga Drain  
+- Hidden Power [Fire]  
+- Synthesis  
+- Spikes  
+
+Relicanth @ Leftovers  
+Ability: Swift Swim  
+EVs: 160 HP / 252 Atk / 96 Spe  
+Adamant Nature  
+- Rock Slide  
+- Earthquake  
+- Toxic  
+- Substitute  
+
+Kecleon @ Leftovers  
+Ability: Color Change  
+EVs: 252 HP / 4 Def / 252 SpD  
+Careful Nature  
+- Return  
+- Shadow Ball  
+- Thunder Wave  
+- Rest  
+

@@ -1,0 +1,21 @@
+After a lot of tinkering and math I finished my countertrap Gardevoir. It can trap Dugtrio and Magneton in one Pokemon. A role usually done by Porygon2 but Gardevoir has certain advantages. For one it is a more offensive pokemon, which is usually what you want on CM Pass Teams. Those Teams are the once that want a Trace user the most. Then Porygon2 can struggle against certain Magneton sets where this set always wins the 1v1.
+
+Gardevoir @ Salac Berry
+Ability: Trace
+EVs: 156 Def / 140 SpA / 212 Spe
+Modest Nature
+IVs: 30 HP / 3 Atk / 30 Def
+- Thunderbolt
+- Hidden Power [Ice]
+- Toxic
+- Imprison
+
+Hidden Power [Ice] over Ice Punch even tho it is lower Basepower. With this plus Thunderbolt plus Toxic you can remove every damaging move Magneton runs and fully pacify them with Imprison.
+With the 212 Spe EVs you outrun modest Magneton and at +1 jolly Dugtrio.
+When you switch in after Dugtrio trapped one of your mons you still take the sand damage of the turn. The 156 Def EVs are there to survive an Earthquake + 2 turns of sandstorm and 2hKO with HP Ice.
+252 Atk 30 IVs Choice Band Dugtrio Earthquake vs. 0 HP 30 IVs / 156 Def 30 IVs Gardevoir: 204-241 (73.9 - 87.3%) -- guaranteed 2HKO after sandstorm damage - Possible damage amounts: (204, 207, 209, 212, 214, 216, 219, 221, 224, 226, 228, 231, 233, 236, 238, 241)
+There is an HP Ice EV spread with 31 HP we use the one with 30 HP. This allows us to activate Salac Berry even when they roll 207 while sand is not up while not opening up other KO rolls.
+Porygon2 finishes its trap with full HP and Gardevoir only remains on 1% with a Speedboost for one final attack/sack. But Gardevoir only needs to avoid one crit at 1/16 while Porygon2 needs to avoid to many crits from the 15 Earthquakes. The standard set has a chance of ~1/7 to fail the trap in sand. (Calculating those odds was more involved and I could be wrong on it)
+
+I hope sharing a singular set in 'set and team sharing' is ok. Maybe someone with better team building can make use of this.
+

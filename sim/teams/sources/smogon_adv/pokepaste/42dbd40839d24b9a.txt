@@ -1,0 +1,56 @@
+Hitmonlee (M) @ Choice Band  
+Ability: Limber  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Brick Break  
+- Earthquake  
+- Hidden Power [Ghost]  
+- Mach Punch  
+
+Golem @ Leftovers  
+Ability: Rock Head  
+EVs: 252 HP / 108 Atk / 16 Def / 132 Spe  
+Adamant Nature  
+- Earthquake  
+- Rock Slide  
+- Focus Punch  
+- Explosion  
+
+Kangaskhan (F) @ Leftovers  
+Ability: Early Bird  
+EVs: 252 HP / 24 Atk / 216 SpD / 16 Spe  
+Adamant Nature  
+- Body Slam  
+- Shadow Ball  
+- Wish  
+- Rest  
+
+Blastoise @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 204 Def / 52 SpA / 4 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Rapid Spin  
+- Haze  
+- Toxic  
+
+Scyther @ Lum Berry  
+Ability: Swarm  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Swords Dance  
+- Silver Wind  
+- Aerial Ace  
+- Hidden Power [Ground]  
+
+Ampharos @ Leftovers  
+Ability: Static  
+EVs: 232 HP / 80 Def / 88 SpA / 92 SpD / 16 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Heal Bell  
+- Toxic  
+

@@ -1,0 +1,843 @@
+=== [gen3ou] Mag+Suicune/Mag AgiliBPZap IBCune CurseBLax Meta EndPert ===
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 20 SpA / 100 SpD / 136 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Agility  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Baton Pass  
+
+Magneton @ Salac Berry  
+Ability: Magnet Pull  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Endure  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Rain Dance  
+
+Snorlax @ Leftovers  
+Ability: Immunity  
+EVs: 32 HP / 176 Atk / 128 Def / 172 SpD  
+Adamant Nature  
+- Curse  
+- Return  
+- Shadow Ball  
+- Self-Destruct  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 180 Atk / 16 Def / 48 SpA / 96 Spe  
+Naughty Nature  
+- Meteor Mash  
+- Earthquake  
+- Hidden Power [Grass]  
+- Explosion  
+
+Swampert @ Salac Berry  
+Ability: Torrent  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Substitute  
+- Toxic  
+- Surf  
+- Endeavor  
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 124 SpA / 68 SpD / 64 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Rest  
+- Calm Mind  
+- Surf  
+- Ice Beam  
+
+
+=== [gen3ou] Mag+Suicune/Mag AgiliBPZap IBCune SeedCMCele CurseBLax Meta ===
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 28 SpA / 104 SpD / 136 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Agility  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Baton Pass  
+
+Magneton @ Salac Berry  
+Ability: Magnet Pull  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Endure  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Rain Dance  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 248 HP / 220 SpA / 40 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Leech Seed  
+- Calm Mind  
+- Giga Drain  
+- Hidden Power [Fire]  
+
+Snorlax @ Leftovers  
+Ability: Immunity  
+EVs: 32 HP / 176 Atk / 128 Def / 172 SpD  
+Adamant Nature  
+- Curse  
+- Return  
+- Shadow Ball  
+- Self-Destruct  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 180 Atk / 16 Def / 48 SpA / 96 Spe  
+Naughty Nature  
+- Meteor Mash  
+- Earthquake  
+- Hidden Power [Grass]  
+- Explosion  
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 124 SpA / 68 SpD / 64 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Rest  
+- Calm Mind  
+- Surf  
+- Ice Beam  
+
+
+=== [gen3ou] Mag+Suicune/Mag AgiliBPZap SubIBCune Wak FPLax Meta ===
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 192 SpA / 64 Spe  
+Modest Nature  
+- Substitute  
+- Calm Mind  
+- Surf  
+- Ice Beam  
+
+Magneton @ Salac Berry  
+Ability: Magnet Pull  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Endure  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Rain Dance  
+
+Snorlax @ Leftovers  
+Ability: Immunity  
+EVs: 32 HP / 176 Atk / 108 Def / 172 SpD / 20 Spe  
+Adamant Nature  
+- Body Slam  
+- Shadow Ball  
+- Focus Punch  
+- Self-Destruct  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 28 SpA / 104 SpD / 136 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Agility  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Baton Pass  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 180 Atk / 16 Def / 48 SpA / 96 Spe  
+Naughty Nature  
+- Meteor Mash  
+- Earthquake  
+- Hidden Power [Grass]  
+- Explosion  
+
+Marowak @ Thick Club  
+Ability: Rock Head  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Rock Slide  
+- Double-Edge  
+- Double-Edge  
+
+
+=== [gen3ou] Mag+Suicune/Mag AgiliBPZap SubIBCune SeedCMCele CBRock Meta ===
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 96 SpA / 160 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Substitute  
+- Calm Mind  
+- Surf  
+- Ice Beam  
+
+Magneton @ Leftovers  
+Ability: Magnet Pull  
+EVs: 8 HP / 252 SpA / 28 SpD / 220 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Substitute  
+- Toxic  
+- Thunderbolt  
+- Hidden Power [Grass]  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 220 SpA / 36 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Leech Seed  
+- Calm Mind  
+- Giga Drain  
+- Psychic  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 28 SpA / 104 SpD / 136 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Agility  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Baton Pass  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 180 Atk / 16 Def / 48 SpA / 96 Spe  
+Naughty Nature  
+- Meteor Mash  
+- Earthquake  
+- Hidden Power [Grass]  
+- Explosion  
+
+Regirock @ Choice Band  
+Ability: Clear Body  
+EVs: 200 HP / 252 Atk / 56 Spe  
+Adamant Nature  
+- Rock Slide  
+- Hidden Power [Ghost]  
+- Superpower  
+- Explosion  
+
+
+=== [gen3ou] Mag+Suicune/Mag AgiliZap RockGyara SubCune CurseLax Meta ===
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 96 SpA / 160 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Substitute  
+- Calm Mind  
+- Surf  
+- Ice Beam  
+
+Magneton @ Magnet  
+Ability: Magnet Pull  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Toxic  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Rain Dance  
+
+Snorlax @ Leftovers  
+Ability: Immunity  
+EVs: 32 HP / 176 Atk / 128 Def / 172 SpD  
+Adamant Nature  
+- Curse  
+- Return  
+- Earthquake  
+- Shadow Ball  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 28 SpA / 104 SpD / 136 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Agility  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Baton Pass  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 180 Atk / 16 Def / 48 SpA / 96 Spe  
+Naughty Nature  
+- Meteor Mash  
+- Earthquake  
+- Hidden Power [Grass]  
+- Explosion  
+
+Gyarados @ Leftovers  
+Ability: Intimidate  
+EVs: 40 HP / 188 Atk / 100 SpD / 180 Spe  
+Jolly Nature  
+- Dragon Dance  
+- Earthquake  
+- Hidden Power [Rock]  
+- Double-Edge  
+
+
+=== [gen3ou] Mag+Suicune/Mag DDBBMence CroCune Medi FPLax Meta ===
+
+Medicham @ Leftovers  
+Ability: Pure Power  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Brick Break  
+- Rock Slide  
+- Shadow Ball  
+- Focus Punch  
+
+Magneton @ Leftovers  
+Ability: Magnet Pull  
+EVs: 8 HP / 252 SpA / 28 SpD / 220 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Toxic  
+- Thunderbolt  
+- Hidden Power [Fire]  
+- Rain Dance  
+
+Snorlax @ Leftovers  
+Ability: Immunity  
+EVs: 32 HP / 176 Atk / 108 Def / 172 SpD / 20 Spe  
+Adamant Nature  
+- Body Slam  
+- Shadow Ball  
+- Focus Punch  
+- Self-Destruct  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 180 Atk / 16 Def / 48 SpA / 96 Spe  
+Naughty Nature  
+- Meteor Mash  
+- Earthquake  
+- Hidden Power [Grass]  
+- Explosion  
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 240 SpD / 16 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Rest  
+- Sleep Talk  
+- Calm Mind  
+- Surf  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 192 Atk / 200 SpD / 116 Spe  
+Adamant Nature  
+IVs: 30 SpA / 30 SpD / 30 Spe  
+- Dragon Dance  
+- Hidden Power [Flying]  
+- Rock Slide  
+- Brick Break  
+
+
+=== [gen3ou] Mag+Suicune/Mag RockGyara SubCune SeedCM CurseLax Meta ===
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 96 SpA / 160 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Substitute  
+- Calm Mind  
+- Surf  
+- Ice Beam  
+
+Magneton @ Salac Berry  
+Ability: Magnet Pull  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Endure  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Rain Dance  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 248 HP / 220 SpA / 40 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Leech Seed  
+- Calm Mind  
+- Giga Drain  
+- Hidden Power [Fire]  
+
+Snorlax @ Leftovers  
+Ability: Immunity  
+EVs: 32 HP / 184 Atk / 120 Def / 172 SpD  
+Adamant Nature  
+- Curse  
+- Return  
+- Earthquake  
+- Shadow Ball  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 180 Atk / 16 Def / 48 SpA / 96 Spe  
+Naughty Nature  
+- Meteor Mash  
+- Earthquake  
+- Hidden Power [Grass]  
+- Explosion  
+
+Gyarados @ Leftovers  
+Ability: Intimidate  
+EVs: 40 HP / 188 Atk / 100 SpD / 180 Spe  
+Jolly Nature  
+- Dragon Dance  
+- Earthquake  
+- Hidden Power [Rock]  
+- Double-Edge  
+
+
+=== [gen3ou] Mag+Suicune/Mag DDBBMence IBCune FPLax CBRock Meta ===
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 124 SpA / 68 SpD / 64 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Rest  
+- Calm Mind  
+- Surf  
+- Ice Beam  
+
+Magneton @ Leftovers  
+Ability: Magnet Pull  
+EVs: 8 HP / 252 SpA / 28 SpD / 220 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Toxic  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Rain Dance  
+
+Snorlax @ Leftovers  
+Ability: Immunity  
+EVs: 32 HP / 176 Atk / 108 Def / 172 SpD / 20 Spe  
+Adamant Nature  
+- Body Slam  
+- Shadow Ball  
+- Focus Punch  
+- Self-Destruct  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 180 Atk / 16 Def / 144 Spe  
+Naughty Nature  
+- Meteor Mash  
+- Rock Slide  
+- Hidden Power [Grass]  
+- Explosion  
+
+Regirock @ Choice Band  
+Ability: Clear Body  
+EVs: 200 HP / 252 Atk / 56 Spe  
+Adamant Nature  
+- Rock Slide  
+- Hidden Power [Ghost]  
+- Superpower  
+- Explosion  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 192 Atk / 200 SpD / 116 Spe  
+Adamant Nature  
+IVs: 30 SpA / 30 SpD / 30 Spe  
+- Dragon Dance  
+- Hidden Power [Flying]  
+- Rock Slide  
+- Brick Break  
+
+
+=== [gen3ou] Mag+Suicune/Mag SubBPCele DDQBFMence IBCune FPLax Meta ===
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 124 SpA / 68 SpD / 64 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Rest  
+- Calm Mind  
+- Surf  
+- Ice Beam  
+
+Magneton @ Leftovers  
+Ability: Magnet Pull  
+EVs: 8 HP / 252 SpA / 28 SpD / 220 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Substitute  
+- Toxic  
+- Thunderbolt  
+- Hidden Power [Fire]  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 156 Def / 80 SpA / 20 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 Def  
+- Substitute  
+- Leech Seed  
+- Hidden Power [Ice]  
+- Baton Pass  
+
+Snorlax @ Leftovers  
+Ability: Immunity  
+EVs: 32 HP / 176 Atk / 108 Def / 172 SpD / 20 Spe  
+Adamant Nature  
+- Body Slam  
+- Shadow Ball  
+- Focus Punch  
+- Self-Destruct  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 180 Atk / 16 Def / 48 SpA / 96 Spe  
+Naughty Nature  
+- Meteor Mash  
+- Earthquake  
+- Hidden Power [Grass]  
+- Explosion  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 168 Atk / 200 SpD / 140 Spe  
+Adamant Nature  
+IVs: 30 SpA / 30 SpD / 30 Spe  
+- Dragon Dance  
+- Hidden Power [Flying]  
+- Earthquake  
+- Brick Break  
+
+
+=== [gen3ou] Mag+Suicune/Mag SubBPZap DDBBMence IBCune CurseBLax Meta ===
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 124 SpA / 68 SpD / 64 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Rest  
+- Calm Mind  
+- Surf  
+- Ice Beam  
+
+Magneton @ Leftovers  
+Ability: Magnet Pull  
+EVs: 8 HP / 252 SpA / 28 SpD / 220 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Toxic  
+- Thunderbolt  
+- Hidden Power [Fire]  
+- Rain Dance  
+
+Snorlax @ Leftovers  
+Ability: Immunity  
+EVs: 252 Atk / 120 Def / 136 SpD  
+Adamant Nature  
+- Curse  
+- Return  
+- Shadow Ball  
+- Self-Destruct  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 100 SpA / 20 SpD / 136 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Substitute  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Baton Pass  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 180 Atk / 16 Def / 48 SpA / 96 Spe  
+Naughty Nature  
+- Meteor Mash  
+- Earthquake  
+- Hidden Power [Grass]  
+- Explosion  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 168 Atk / 200 SpD / 140 Spe  
+Adamant Nature  
+IVs: 30 SpA / 30 SpD / 30 Spe  
+- Dragon Dance  
+- Hidden Power [Flying]  
+- Rock Slide  
+- Brick Break  
+
+
+=== [gen3ou] Mag+Suicune/Mag SubBPZap SalacHera CurseLax Meta ===
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 124 SpA / 68 SpD / 64 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Rest  
+- Calm Mind  
+- Surf  
+- Ice Beam  
+
+Magneton @ Salac Berry  
+Ability: Magnet Pull  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Endure  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Rain Dance  
+
+Snorlax @ Leftovers  
+Ability: Immunity  
+EVs: 252 Atk / 120 Def / 136 SpD  
+Adamant Nature  
+- Curse  
+- Double-Edge  
+- Earthquake  
+- Shadow Ball  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 20 SpA / 100 SpD / 136 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Substitute  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Baton Pass  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 180 Atk / 16 Def / 48 SpA / 96 Spe  
+Naughty Nature  
+- Meteor Mash  
+- Earthquake  
+- Hidden Power [Grass]  
+- Explosion  
+
+Heracross @ Salac Berry  
+Ability: Swarm  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Endure  
+- Swords Dance  
+- Megahorn  
+- Rock Slide  
+
+
+=== [gen3ou] Mag+Suicune/Mag SubBPZap DDBBQMence Cune Medi Meta ===
+
+Medicham @ Leftovers  
+Ability: Pure Power  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Brick Break  
+- Rock Slide  
+- Shadow Ball  
+- Focus Punch  
+
+Magneton @ Leftovers  
+Ability: Magnet Pull  
+EVs: 8 HP / 252 SpA / 28 SpD / 220 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Protect  
+- Toxic  
+- Thunderbolt  
+- Hidden Power [Fire]  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 20 SpA / 100 SpD / 136 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Substitute  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Baton Pass  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 180 Atk / 16 Def / 52 SpA / 92 Spe  
+Naughty Nature  
+- Meteor Mash  
+- Earthquake  
+- Hidden Power [Grass]  
+- Explosion  
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 124 SpA / 68 SpD / 64 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Rest  
+- Calm Mind  
+- Surf  
+- Ice Beam  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 196 Atk / 200 SpD / 112 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Earthquake  
+- Rock Slide  
+- Brick Break  
+
+
+=== [gen3ou] Mag+Suicune/Mag WishMence IBCune CBHera FPLax Meta ===
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 24 HP / 244 SpA / 64 SpD / 176 Spe  
+Mild Nature  
+- Wish  
+- Dragon Claw  
+- Fire Blast  
+- Brick Break  
+
+Magneton @ Leftovers  
+Ability: Magnet Pull  
+EVs: 8 HP / 252 SpA / 28 SpD / 220 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Protect  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Rain Dance  
+
+Snorlax @ Leftovers  
+Ability: Immunity  
+EVs: 32 HP / 176 Atk / 108 Def / 172 SpD / 20 Spe  
+Adamant Nature  
+- Body Slam  
+- Shadow Ball  
+- Focus Punch  
+- Self-Destruct  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 180 Atk / 16 Def / 48 SpA / 96 Spe  
+Naughty Nature  
+- Meteor Mash  
+- Earthquake  
+- Hidden Power [Grass]  
+- Explosion  
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 124 SpA / 68 SpD / 64 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Rest  
+- Calm Mind  
+- Surf  
+- Ice Beam  
+
+Heracross @ Choice Band  
+Ability: Guts  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Megahorn  
+- Rock Slide  
+- Hidden Power [Ghost]  
+- Brick Break  
+
+
+=== [gen3ou] Mag+Suicune/MagDol RoarCune RestLSZap CurseBLax Meta ===
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 240 Def / 16 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Rest  
+- Calm Mind  
+- Surf  
+- Roar  
+
+Magneton @ Leftovers  
+Ability: Magnet Pull  
+EVs: 8 HP / 252 SpA / 28 SpD / 220 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Protect  
+- Toxic  
+- Thunderbolt  
+- Rain Dance  
+
+Claydol @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 96 Atk / 112 Def / 32 SpA / 16 SpD  
+Careful Nature  
+- Rapid Spin  
+- Earthquake  
+- Psychic  
+- Explosion  
+
+Snorlax @ Leftovers  
+Ability: Immunity  
+EVs: 32 HP / 176 Atk / 120 Def / 172 SpD / 8 Spe  
+Adamant Nature  
+- Curse  
+- Return  
+- Shadow Ball  
+- Self-Destruct  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 236 SpD / 32 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Rest  
+- Light Screen  
+- Toxic  
+- Thunderbolt  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 52 Atk / 196 Def / 8 Spe  
+Impish Nature  
+- Protect  
+- Meteor Mash  
+- Earthquake  
+- Explosion  
+
+

@@ -1,0 +1,74 @@
+Hi guys,
+
+I've been doing some playtesting of some BL mons I think are disrespected and so far I've managed to take this team to 1470. Not crazy high, but it is for a bunch of BL's and I'm rarely losing and will keep going:
+
+Lead
+Medicham @ Lum Berry
+Ability: Pure Power
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Bulk Up
+- Brick Break
+- Shadow Ball
+- Rock Slide
+
+Heracross @ Leftovers
+Ability: Guts
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Swords Dance
+- Brick Break
+- Megahorn
+- Rock Slide
+
+Hariyama @ Leftovers
+Ability: Guts
+EVs: 252 HP / 252 SpD / 4 Spe
+Careful Nature
+- Rest
+- Sleep Talk
+- Brick Break
+- Bulk Up
+
+Houndoom @ Leftovers
+Ability: Early Bird
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Sunny Day
+- Flamethrower
+- Pursuit
+- Hidden Power [Grass]
+
+Aerodactyl @ Choice Band
+Ability: Rock Head
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Rock Slide
+- Double-Edge
+- Earthquake
+- Aerial Ace
+
+Steelix @ Choice Band
+Ability: Rock Head
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Earthquake
+- Double-Edge
+- Hidden Power [Steel]
+- Explosion
+
+This team came together around a passion and two core ideas: Steelix hard counters Zapdos and with a choice band can come in and apply a lot of pressure. It also takes many crucial 1v1's against dangerous sweeper mons like Metagross, Tyranitar and Aerodactyl etc. Hidden power steel is more reliable at hitting Gengar switch ins or mid ground clicks than iron tail. I really liked fighting mon with set up + Houndoom, as I discovered that fighters obviously draw in ghosts, and Houndoom with max HP and the strongest Pursuit in the game can easily trap and eliminate any ghost, freeing the fighter up to sweep. If you can trap and eliminate Gengar, most fighters tear apart the remainder big five, giving you a two-mon core that can apply huge pressure by itself to big five teams. I experimented with Houndoom a lot, and landed on Sunny Day over Crunch for the fourth move for two reasons; Tyranitar loves coming in on Houndoom after you've trapped a mon, and clearing the weather for the fighter coming in afterwards is invaluable as...Suicine is also a common response to fighters and Houndoom due to its typing and defensive bulk. Sunny Day weakening Surf is essentially a light screen for my set up fighter coming in.
+
+That brings me to the item choice and team composition. This team is designed to exert maximum pressure. I find fighters do that better than any other mons, but only using one fighter with one trapper makes it more difficult to lure and trap the ghosts than you might think, also the rare double ghost builds can really punish you. To deal with this, I've stacked fighters that can all set up, change their moves, and don't mind getting whisped. This enables maximum offensive pressure, while also having multiple mons that can lure and eliminate ghosts.
+
+Aero is on the team as I found the fighters would punch sizeable holes in the opponents team, often bringing Skarmory, Suicune etc within Aero kill range, and weaker mons like Starmie often fall to a brick break with a follow up rock slide. Aerial ace is for sand attack Ninjask.
+
+The real star of this team is Hariyama. This set is monstrous. It sets up on basically every special attacker in OU that doesn't carry psychic, and once the ghosts are gone, activating its Guts with its own Sleep makes it insanely threatening even while asleep. This single handedly dumpsters big five teams once Gengar is dead, and is the main sweeper of the team. It 1v1's Calm Mind Suicune without Sunny Day support, and is really only vulnerable to DD or Band Mence, which is rare and invites in Steelix to apply pressure.
+
+This style of team doesn't have room for a spiker or rapid spinner, but I find I can apply so much pressure with it that really I'm only allowing one layer against lead Skarm (Bulk Up Medi lives a drill peck and does over half with brick break). I also find that by not having a spiker, the spinner opponents brings often becomes deadweight, meaning against Claydol or defensive Starmie match ups it feels more like a 6 v 5 or 6 v 5.5.
+
+The leftovers on Herra honestly does nothing I don't know why it's there, but I haven't decided on a better item yet. Hera dies in two hits 99% of the time so I don't think it honestly puts it into three hit range against anything. Stops it dying to sand chip I guess.
+
+Any feedback would be most appreciated :)
+

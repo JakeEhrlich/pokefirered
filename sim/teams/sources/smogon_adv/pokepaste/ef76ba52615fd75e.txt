@@ -1,0 +1,61 @@
+1 (Metagross) @ Choice Band  
+Ability: Clear Body  
+Shiny: Yes  
+EVs: 196 HP / 96 Atk / 32 Def / 184 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Brick Break  
+- Double-Edge  
+- Explosion  
+
+2 (Celebi) @ Leftovers  
+Ability: Natural Cure  
+EVs: 248 HP / 36 Def / 72 SpA / 152 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Leech Seed  
+- Psychic  
+- Giga Drain  
+- Calm Mind  
+
+3 (Tyranitar) @ Lum Berry  
+Ability: Sand Stream  
+Shiny: Yes  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Dragon Dance  
+- Earthquake  
+- Double-Edge  
+- Rock Slide  
+
+4 (Milotic) @ Leftovers  
+Ability: Marvel Scale  
+Shiny: Yes  
+EVs: 248 HP / 252 Def / 8 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Hypnosis  
+- Ice Beam  
+- Recover  
+
+5 (Salamence) @ Leftovers  
+Ability: Intimidate  
+EVs: 144 Atk / 212 SpD / 152 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Earthquake  
+- Hidden Power [Flying]  
+- Rock Slide  
+
+6 (Magneton) @ Magnet  
+Ability: Magnet Pull  
+Shiny: Yes  
+EVs: 240 HP / 80 Def / 188 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Thunderbolt  
+- Hidden Power [Fire]  
+- Protect  
+- Toxic  
+

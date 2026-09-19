@@ -1,0 +1,45 @@
+Venusaur @ Leftovers  
+Ability: Overgrow  
+IVs: 2 Atk / 30 Def  
+- Sleep Powder  
+- Giga Drain  
+- Hidden Power [Ice]  
+- Leech Seed  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+- Dragon Dance  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Bug]  
+
+Starmie @ Leftovers  
+Ability: Natural Cure  
+IVs: 0 Atk  
+- Hydro Pump  
+- Thunderbolt  
+- Ice Beam  
+- Surf  
+
+Magneton @ Magnet  
+Ability: Magnet Pull  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Toxic  
+- Substitute  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+- Meteor Mash  
+- Earthquake  
+- Rock Slide  
+- Explosion  
+
+Gyarados @ Leftovers  
+Ability: Intimidate  
+- Dragon Dance  
+- Hidden Power [Flying]  
+- Earthquake  
+- Double-Edge  
+

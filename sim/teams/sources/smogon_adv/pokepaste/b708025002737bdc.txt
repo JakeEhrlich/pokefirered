@@ -1,0 +1,57 @@
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 188 HP / 244 Atk / 76 Spe  
+Naughty Nature  
+- Roar  
+- Rock Slide  
+- Hidden Power [Grass]  
+- Earthquake  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+IVs: 0 Atk  
+- Spikes  
+- Whirlwind  
+- Protect  
+- Toxic  
+
+Swampert @ Salac Berry  
+Ability: Torrent  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Substitute  
+- Endeavor  
+- Hydro Pump  
+- Roar  
+
+Hariyama @ Leftovers  
+Ability: Guts  
+EVs: 252 Atk / 196 Def / 60 SpD  
+Adamant Nature  
+- Knock Off  
+- Whirlwind  
+- Cross Chop  
+- Hidden Power [Bug]  
+
+Magneton @ Leftovers  
+Ability: Magnet Pull  
+EVs: 68 HP / 252 SpA / 188 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Thunderbolt  
+- Hidden Power [Fire]  
+- Substitute  
+- Toxic  
+
+Dugtrio @ Choice Band  
+Ability: Arena Trap  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Rock Slide  
+- Aerial Ace  
+- Hidden Power [Bug]  
+

@@ -55,6 +55,13 @@ simulator's message log.
 
 ## Timing details worth knowing
 
+- The ROM publishes the compared state itself: `SimHarness_EndOfMainLoop()` (called at the bottom of the
+  game's main loop, before it waits for VBlank) copies battle mons, parties, side/disable/weather/wish state,
+  the RNG counters and the mailbox request into `gSimHarnessShadow` (EWRAM) under a `busy` flag, and the bridge
+  reads only that copy. A GBA frame ends on a cycle budget, so the emulator's frame callback can fire in the
+  middle of an iteration (a long AI evaluation, for instance); reading live variables at that moment produced
+  snapshots taken between two Random() calls of the same C function. Keep this buffer out of IWRAM: with it
+  there the game's stack got clobbered and the emulator jumped to invalid addresses.
 - The bridge does not snapshot the instant a decision request appears: the other battlers' controllers (the
   AI, and in doubles the partner's AI several frames later) may still be finishing. It waits until the request
   has been pending for 4 frames and the engine state (battle mons, parties, disable structs, battle

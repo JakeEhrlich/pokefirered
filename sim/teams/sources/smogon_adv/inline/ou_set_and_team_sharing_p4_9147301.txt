@@ -1,0 +1,72 @@
+not claiming any of these as my own original creations, just wanted to share some weirder/lesser used sets i've messed around with on ladder that i ended up liking
+
+Celebi @ Leftovers
+Ability: Natural Cure
+EVs: 248 HP / 36 Def / 40 SpA / 152 SpD / 32 Spe
+Calm Nature
+IVs: 2 Atk / 30 SpA
+- Hidden Power [Grass]
+- Recover
+- Leech Seed
+- Protect
+
+it's not too uncommon to run into mus where the opponent has narrow ways of forcing celebi out, especially when your opp's team is stuff like salamence / water / metagross / blob / spinner / filler-type of balances where there's a lot of pressure on salamence or any one particular mon to chase celebi out after it burns 2 leech pp vs cune or pivots into the blob or what have you. salamence (and other mons that offensively force out defensive bi ok-ish, like moltres, charizard, hp bug aero, hp bug phys tar, etc) are on timers to some extent by virtue of their vulnerability to sand/spikes and lack of recovery, meaning celebi catching them with leech makes some kind of progress bar future wish passes.
+
+protect helps dig into this dynamic you'll frequently encounter with defensive celebi, increasing the amount of meaningful leech chip you tack onto your opp's offense while often putting your opponent in an awkward spot as they attempt to play around protect if they don't have many ways of threatening bi: either stay in with the mence or moltres etc and eat more leech chip as the celebi protects, at least forcing it out after, or try to avoid the chip by going to something more passive as celebi protects, thus granting celebi more opportunities to leech stuff. getting this kind of win-win scenario isn't particularly hard versus balances.
+
+additionally, protect helps a ton if your team needs extra aero help. no longer is doing stuff like baiting a recover from celebi and going aero on its recover turn that great, since celebi can just scout aero's choice lock and act accordingly. also nice versus cb mence, another obviously valid way to threaten celebi, but he's not particularly common right now lol. also fantastic versus booming mons accustomed to recover bi being an opening to set off a boom, like metagross (its especially nice vs cb), claydol, snorlax, and gengar.
+
+evs are jolly hp bug dug bulk after sand (ie you live), enough spatk to ohko 8hp dug w/o a spike, and standard +spe tar creep, but the specific evs/nature aren't really tied to the main gist, its just imo the most straightforward spdef bi spread
+
+---
+
+Breloom @ Leftovers
+Ability: Effect Spore
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Sky Uppercut
+- Spore
+- Leech Seed
+- Protect
+
+i tried this set after seeing it in a ud regice tss and its a solid neat/10. this loom set doesn't mandate pursuit support like the standard triple fighting move + spore set does thanks to leech + protect + sand doing a number to gengar, meaning it's a more flexible if less explosive loom set still capable of doing loom things like ohkoing something with spore and being spoonfeed juicy openings by bp zapdos. the leech + protect combo is similar to how it works with celebi, with a lot of the things that defensively check loom lacking reliable recovery and/or being vulnerable to sand, so you can rack up chip, scout their choice lock/moveset, etc.
+
+i was using this loom on a whacky dugbait wincon + dug countertrap team which obviously mandates dug bait that baits a non-eq move---which couldn't fit pursuit ttar; also this set synergizes decently with dug itself as dug can snipe opposing celebi which sit in front of this set indefinitely, as well as clean up venus or opposing cheeky looms.
+
+---
+
+Tyranitar @ Lum Berry
+Ability: Sand Stream
+EVs: 248 HP / 252 Atk / 8 Spe
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Hidden Power [Bug]
+- Focus Punch
+
+i was inspired to use this lad on a cloy spikes build that desperately needed an early/mid-game phys tar to stay afloat but was maybe a little too fast paced to really get great mileage out of the standard pick of lefties. this tar also had to serve as lead given that this particular build was so janky nothing else would have been a decent substitute, so i tried lum---and was pleasantly surprised. the buffer against toxic/twave blissey, toxic from skarm, lax bslam paras, astarachi bslam paras/toxics/fire punch burns, gengar wisps, magneton suicide twaves/toxics, and random smeargles is great when the rest of your specially based team needs ttar to be carrying the brunt of the work in doing things like scaring out blissey/lax/astarachi/celebi so they have to take another round of spikes.
+
+not sure if i would recommend this outside of weird teams where bkc tar feels like it fits on faster-paced teams but it was the only pleasant surprise i found while using that extremely jank cloy team.
+
+---
+
+Suicune @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Surf
+- Calm Mind
+- Toxic
+- Substitute
+
+this set is evil and fun but not exactly the poster child of consistency. the team i used it on was based around cune + dug + offmie (god help me vs zapdos), with the idea being that this cune can trade pretty competently with its checks (many of which it shares with offmie)---or outright uno reverse card their ass like it will do to blissey/astarachi---after which dug can come in and kill anything with the potential to heal off damage quickly, helping to secure offmie endgames/meaningful openings.
+
+sub lets you set up on (tbolt-less) blissey, astarachi, milotic, and spatk uninvested venusaurs if they switch into your sub or cm giving you an amazing position if played correctly there, while toxic synergizes well with the fact that sub cune set up on like every defensive toxic immune/refresh user bar lax (of the mons that can at least check suicune, spdef astarachi, milotic, contextually venusaur/ludicolo, and then of the not-checks, metagross and swampert) + just generally works well with sub. theres a bunch of other contexts where sub flips matchups entirely, like instances where your opponent tries to buffer out your cune with defensive mie, you sub as mie comes in, and suddenly it can't twave you and now you get free boosts. sub + the speed tier you reach with investment gives suicune a way to fend off booms---of which it is a common target---from the likes of metagross/claydol/cloyster/forretress/snorlax to an extent.
+
+i like toxic in particular over ice beam because it feels less committal, ie you force the blissey's hand sooner so you can keep more of your sub stocks, as well as the fact that low health cune can still facilitate blissey removal if dug's still alive simply by throwing a toxic in its face and surfing. its also nice vs stuff like blissey + zapdos teams where you, for example, can click toxic, and you either hit the ttar in front of you (probably not staying in unless its a ddtar trying to trade or its some late game scenario but if its +1 ddtar ur not toxicing) or the zapdos/blissey on the switch. ibeam subcune would have to commit to a line of play harder i feel
+
+evs could maybe be optimized better for avoiding sub breaks at +1
+
+as with all offcunes (and cunes in general) its consistency in terms of defensive application leaves a lot to be desired, and sometimes it doesn't morph into the wrecking ball you want it to be because of sand or overwhelming offense getting in the way.  it do be fun though
+

@@ -1,0 +1,2740 @@
+=== [gen3ou] Mushi s22/Big 5 Double Band * ===
+
+Tyranitar @ Choice Band  
+Ability: Sand Stream  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Brick Break  
+- Double-Edge  
+- Earthquake  
+- Rock Slide  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+IVs: 0 Atk  
+- Spikes  
+- Roar  
+- Toxic  
+- Protect  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 252 SpA / 4 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Wish  
+- Seismic Toss  
+- Thunder Wave  
+
+Aerodactyl @ Choice Band  
+Ability: Rock Head  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Rock Slide  
+- Double-Edge  
+- Earthquake  
+- Hidden Power [Flying]  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 44 Def / 144 SpD / 68 Spe  
+Timid Nature  
+- Will-O-Wisp  
+- Explosion  
+- Ice Punch  
+- Thunderbolt  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 216 Def / 44 SpD  
+Relaxed Nature  
+- Earthquake  
+- Ice Beam  
+- Protect  
+- Hydro Pump  
+
+
+=== [gen3ou] Mushi s22/Forre Joltspikes ===
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 244 HP / 252 Atk / 12 Spe  
+Adamant Nature  
+IVs: 30 SpD / 30 Spe  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Bug]  
+- Focus Punch  
+
+Forretress @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 4 Def / 252 SpD  
+Careful Nature  
+- Spikes  
+- Rapid Spin  
+- Zap Cannon  
+- Explosion  
+
+Jolteon @ Leftovers  
+Ability: Volt Absorb  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Baton Pass  
+- Roar  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 240 HP / 236 SpA / 32 Spe  
+Quiet Nature  
+IVs: 0 Atk  
+- Hydro Pump  
+- Ice Beam  
+- Earthquake  
+- Focus Punch  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 168 HP / 164 SpD / 176 Spe  
+Timid Nature  
+- Will-O-Wisp  
+- Explosion  
+- Thunderbolt  
+- Hidden Power [Grass]  
+
+Metagross @ Lum Berry  
+Ability: Clear Body  
+EVs: 168 HP / 252 Atk / 88 Spe  
+Adamant Nature  
+- Agility  
+- Meteor Mash  
+- Earthquake  
+- Explosion  
+
+
+=== [gen3ou] Mushi s22/Double Regi Cloy Assault ===
+
+Regirock @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Adamant Nature  
+- Explosion  
+- Rock Slide  
+- Earthquake  
+- Thunder Wave  
+
+Registeel @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 212 SpD / 44 Spe  
+Careful Nature  
+- Thunder Wave  
+- Seismic Toss  
+- Superpower  
+- Explosion  
+
+Cloyster @ Leftovers  
+Ability: Shell Armor  
+EVs: 72 HP / 8 SpA / 244 SpD / 184 Spe  
+Timid Nature  
+- Spikes  
+- Surf  
+- Rapid Spin  
+- Explosion  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 80 Atk / 180 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Bug]  
+
+Aerodactyl @ Choice Band  
+Ability: Rock Head  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Rock Slide  
+- Double-Edge  
+- Earthquake  
+- Hidden Power [Flying]  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 248 HP / 44 Def / 8 SpA / 112 SpD / 96 Spe  
+Timid Nature  
+- Will-O-Wisp  
+- Explosion  
+- Thunderbolt  
+- Ice Punch  
+
+
+=== [gen3ou] Mushi s22/Dra Hera ===
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Substitute  
+- Baton Pass  
+
+Dugtrio @ Choice Band  
+Ability: Arena Trap  
+EVs: 40 HP / 144 Atk / 100 SpD / 224 Spe  
+Jolly Nature  
+- Earthquake  
+- Beat Up  
+- Hidden Power [Bug]  
+- Aerial Ace  
+
+Heracross @ Salac Berry  
+Ability: Swarm  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+IVs: 30 HP  
+- Swords Dance  
+- Megahorn  
+- Rock Slide  
+- Substitute  
+
+Kingdra @ Lum Berry  
+Ability: Swift Swim  
+EVs: 104 HP / 252 SpA / 152 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Rain Dance  
+- Surf  
+- Ice Beam  
+- Hydro Pump  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 240 HP / 232 SpA / 36 Spe  
+Quiet Nature  
+- Hydro Pump  
+- Ice Beam  
+- Earthquake  
+- Focus Punch  
+
+Snorlax @ Leftovers  
+Ability: Immunity  
+EVs: 92 HP / 116 Atk / 144 Def / 144 SpD / 12 Spe  
+Adamant Nature  
+- Self-Destruct  
+- Body Slam  
+- Shadow Ball  
+- Focus Punch  
+
+
+=== [gen3ou] Mushi s22/Suicune Agimeta Slop * ===
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 168 SpA / 88 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Substitute  
+- Calm Mind  
+- Ice Beam  
+- Hydro Pump  
+
+Tyranitar @ Lum Berry  
+Ability: Sand Stream  
+Hidden Power: Bug  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Rock Slide  
+- Earthquake  
+- Double-Edge  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 180 Atk / 216 SpD / 112 Spe  
+Serious Nature  
+- Earthquake  
+- Dragon Dance  
+- Hidden Power [Flying]  
+- Rock Slide  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 252 Atk / 88 Spe  
+Adamant Nature  
+- Agility  
+- Meteor Mash  
+- Earthquake  
+- Explosion  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 76 HP / 252 SpA / 180 Spe  
+Timid Nature  
+- Calm Mind  
+- Giga Drain  
+- Hidden Power [Fire]  
+- Psychic  
+
+Swampert @ Salac Berry  
+Ability: Torrent  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Substitute  
+- Endeavor  
+- Surf  
+- Toxic  
+
+
+=== [gen3ou] Mushi s22/Missy Weezing ===
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Calm Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Rest  
+- Toxic  
+- Hidden Power [Grass]  
+
+Misdreavus @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 192 SpD / 64 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Mean Look  
+- Perish Song  
+- Thunderbolt  
+- Rest  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 252 SpA / 4 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Ice Beam  
+- Seismic Toss  
+- Aromatherapy  
+
+Flygon @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 196 Def / 28 SpD / 32 Spe  
+Impish Nature  
+- Protect  
+- Earthquake  
+- Hidden Power [Rock]  
+- Toxic  
+
+Skarmory  
+Ability: Keen Eye  
+EVs: 248 HP / 248 SpD / 12 Spe  
+Careful Nature  
+IVs: 0 Atk  
+- Spikes  
+- Roar  
+- Toxic  
+- Thief  
+
+Weezing @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 224 Def / 32 Spe  
+Impish Nature  
+- Will-O-Wisp  
+- Haze  
+- Pain Split  
+- Sludge Bomb  
+
+
+=== [gen3ou] Mushi s22/Eye Double Spin * ===
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 252 Def / 16 Spe  
+Bold Nature  
+- Calm Mind  
+- Surf  
+- Rest  
+- Roar  
+
+Forretress @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 4 Def / 252 SpD  
+Careful Nature  
+- Spikes  
+- Rapid Spin  
+- Hidden Power [Bug]  
+- Explosion  
+
+Claydol @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 216 Atk / 32 SpA / 8 Spe  
+Adamant Nature  
+- Rapid Spin  
+- Earthquake  
+- Psychic  
+- Explosion  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 252 SpA / 4 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Aromatherapy  
+- Seismic Toss  
+- Thunder Wave  
+
+Sableye @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 252 Def / 4 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Recover  
+- Knock Off  
+- Seismic Toss  
+- Psych Up  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Thunderbolt  
+- Rest  
+- Toxic  
+- Roar  
+
+
+=== [gen3ou] Mushi s22/Broken Zapdos tyrotar ===
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 252 HP / 208 SpA / 48 Spe  
+Modest Nature  
+- Substitute  
+- Focus Punch  
+- Fire Blast  
+- Hidden Power [Grass]  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Thunder Wave  
+- Baton Pass  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 248 HP / 44 Def / 8 SpA / 112 SpD / 96 Spe  
+Timid Nature  
+- Will-O-Wisp  
+- Explosion  
+- Thunderbolt  
+- Ice Punch  
+
+Dugtrio @ Choice Band  
+Ability: Arena Trap  
+EVs: 84 HP / 140 Atk / 176 SpD / 108 Spe  
+Jolly Nature  
+- Earthquake  
+- Beat Up  
+- Hidden Power [Bug]  
+- Aerial Ace  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 76 SpA / 180 Spe  
+Timid Nature  
+- Calm Mind  
+- Giga Drain  
+- Hidden Power [Fire]  
+- Baton Pass  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 240 HP / 236 SpA / 32 Spe  
+Quiet Nature  
+- Hydro Pump  
+- Ice Beam  
+- Earthquake  
+- Focus Punch  
+
+
+=== [gen3ou] Mushi s22/Cuno Rest Spam Superman ===
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 220 SpD / 36 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Thunderbolt  
+- Rest  
+- Toxic  
+- Roar  
+
+Flygon @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 196 Def / 28 SpD / 32 Spe  
+Impish Nature  
+- Rest  
+- Earthquake  
+- Rock Slide  
+- Toxic  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 248 HP / 244 SpD / 16 Spe  
+Careful Nature  
+- Spikes  
+- Roar  
+- Drill Peck  
+- Protect  
+
+Jirachi @ Leftovers  
+Ability: Serene Grace  
+EVs: 252 HP / 76 Def / 180 SpD  
+Sassy Nature  
+IVs: 0 Atk  
+- Wish  
+- Protect  
+- Fire Punch  
+- Toxic  
+
+Articuno @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 114 SpA / 136 SpD / 8 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Ice Beam  
+- Rest  
+- Heal Bell  
+- Haze  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 252 HP / 252 SpA  
+Serious Nature  
+IVs: 2 Atk / 30 SpA  
+- Pursuit  
+- Hidden Power [Grass]  
+- Fire Blast  
+- Rest  
+
+
+=== [gen3ou] Mushi s22/Copy of Triangles Big4Man * ===
+
+War? (Aerodactyl) @ Choice Band  
+Ability: Rock Head  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Rock Slide  
+- Double-Edge  
+- Earthquake  
+- Hidden Power [Bug]  
+
+Suggestions (Skarmory) @ Leftovers  
+Ability: Keen Eye  
+EVs: 248 HP / 248 SpD / 12 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Spikes  
+- Roar  
+- Protect  
+- Toxic  
+
+Sugar (Blissey) (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 252 SpA / 4 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Ice Beam  
+- Seismic Toss  
+- Toxic  
+
+Soil (Swampert) @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 176 Def / 36 SpD / 48 Spe  
+Relaxed Nature  
+- Earthquake  
+- Ice Beam  
+- Protect  
+- Focus Punch  
+
+P.L.U.C.K. (Zapdos) @ Leftovers  
+Ability: Pressure  
+EVs: 52 HP / 252 SpA / 204 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Roar  
+- Hidden Power [Ice]  
+- Toxic  
+
+DDevil (Gengar) @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 236 SpD / 20 Spe  
+Timid Nature  
+- Will-O-Wisp  
+- Thunderbolt  
+- Explosion  
+- Giga Drain  
+
+
+=== [gen3ou] Mushi s22/Zap Zard Spikes ===
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 160 SpD / 96 Spe  
+Careful Nature  
+- Taunt  
+- Drill Peck  
+- Spikes  
+- Roar  
+
+Charizard @ Leftovers  
+Ability: Blaze  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Hasty Nature  
+- Flamethrower  
+- Hidden Power [Grass]  
+- Substitute  
+- Focus Punch  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 252 Atk / 88 Spe  
+Adamant Nature  
+- Agility  
+- Meteor Mash  
+- Earthquake  
+- Explosion  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 60 SpA / 196 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Toxic  
+- Protect  
+
+Swampert @ Salac Berry  
+Ability: Torrent  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Substitute  
+- Endeavor  
+- Surf  
+- Toxic  
+
+Tyranitar @ Lum Berry  
+Ability: Sand Stream  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Dragon Dance  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Bug]  
+
+
+=== [gen3ou] Mushi s22/Copy of Zap Zard Spikes ===
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 160 SpD / 96 Spe  
+Careful Nature  
+- Taunt  
+- Drill Peck  
+- Spikes  
+- Roar  
+
+Charizard @ Leftovers  
+Ability: Blaze  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Hasty Nature  
+- Flamethrower  
+- Hidden Power [Grass]  
+- Substitute  
+- Focus Punch  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 252 Atk / 88 Spe  
+Adamant Nature  
+- Agility  
+- Meteor Mash  
+- Earthquake  
+- Explosion  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 76 HP / 252 SpA / 180 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Leech Seed  
+- Giga Drain  
+- Hidden Power [Fire]  
+- Psychic  
+
+Swampert @ Salac Berry  
+Ability: Torrent  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Substitute  
+- Endeavor  
+- Surf  
+- Toxic  
+
+Tyranitar @ Lum Berry  
+Ability: Sand Stream  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Dragon Dance  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Bug]  
+
+
+=== [gen3ou] Mushi s22/V4 Mence Yama ===
+
+Hariyama @ Leftovers  
+Ability: Thick Fat  
+Hidden Power: Bug  
+EVs: 112 HP / 252 Def / 144 SpD  
+Impish Nature  
+- Knock Off  
+- Brick Break  
+- Rest  
+- Rock Slide  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 252 SpA / 4 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Aromatherapy  
+- Seismic Toss  
+- Thunder Wave  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 252 HP / 216 Def / 40 Spe  
+Impish Nature  
+- Wish  
+- Protect  
+- Hidden Power [Flying]  
+- Earthquake  
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 252 Def / 16 Spe  
+Bold Nature  
+- Calm Mind  
+- Surf  
+- Rest  
+- Roar  
+
+Claydol @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 216 Atk / 32 SpA / 8 Spe  
+Adamant Nature  
+- Rapid Spin  
+- Earthquake  
+- Psychic  
+- Explosion  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 248 HP / 244 SpD / 16 Spe  
+Careful Nature  
+- Spikes  
+- Roar  
+- Drill Peck  
+- Toxic  
+
+
+=== [gen3ou] Mushi s22/Red Skull * ===
+
+WelcomeToTheatron (Flygon) @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 196 Def / 28 SpD / 32 Spe  
+Impish Nature  
+- Protect  
+- Earthquake  
+- Rock Slide  
+- Toxic  
+
+ExterminatingAngel (Jirachi) @ Leftovers  
+Ability: Serene Grace  
+EVs: 252 HP / 76 Def / 180 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Wish  
+- Protect  
+- Fire Punch  
+- Toxic  
+
+OwlInDaylight (Moltres) @ Leftovers  
+Ability: Pressure  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Flamethrower  
+- Hidden Power [Grass]  
+- Protect  
+- Roar  
+
+ElectrotheonicDove (Skarmory) @ Leftovers  
+Ability: Keen Eye  
+EVs: 248 HP / 248 SpD / 12 Spe  
+Careful Nature  
+IVs: 0 Atk  
+- Spikes  
+- Roar  
+- Toxic  
+- Protect  
+
+Book T:Exodus (Tyranitar) @ Leftovers  
+Ability: Sand Stream  
+EVs: 252 HP / 252 SpA / 4 SpD  
+Quiet Nature  
+- Pursuit  
+- Crunch  
+- Fire Blast  
+- Focus Punch  
+
+TheEndTimes (Duskull) @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 24 Def / 164 SpD / 68 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Curse  
+- Will-O-Wisp  
+- Pain Split  
+- Night Shade  
+
+
+=== [gen3ou] Mushi s22/CB Tar Balance * ===
+
+SoldierSide (Tyranitar) @ Choice Band  
+Ability: Sand Stream  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Rock Slide  
+- Focus Punch  
+- Earthquake  
+- Hidden Power [Bug]  
+
+Question! (Skarmory) @ Leftovers  
+Ability: Keen Eye  
+EVs: 248 HP / 248 SpD / 12 Spe  
+Careful Nature  
+- Spikes  
+- Roar  
+- Drill Peck  
+- Protect  
+
+B.Y.O.B. (Blissey) (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 252 SpA / 4 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Aromatherapy  
+- Seismic Toss  
+- Thunder Wave  
+
+Radio/Video (Jirachi) @ Leftovers  
+Ability: Serene Grace  
+EVs: 244 HP / 148 Def / 116 SpD  
+Sassy Nature  
+IVs: 0 Atk  
+- Wish  
+- Protect  
+- Fire Punch  
+- Toxic  
+
+ViolentPornography (Suicune) @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 192 Def / 64 Spe  
+Bold Nature  
+- Calm Mind  
+- Surf  
+- Rest  
+- Roar  
+
+SadStatue (Claydol) @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 216 Atk / 32 SpA / 8 Spe  
+Adamant Nature  
+- Rapid Spin  
+- Earthquake  
+- Psychic  
+- Explosion  
+
+
+=== [gen3ou] Mushi s22/Fever to tell (Starmaster 6) * ===
+
+On Guitar (Metagross) @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 252 SpA / 4 Spe  
+Quiet Nature  
+- Psychic  
+- Hidden Power [Fire]  
+- Meteor Mash  
+- Explosion  
+
+Rainbow Goblin (Snorlax) @ Leftovers  
+Ability: Immunity  
+Shiny: Yes  
+EVs: 92 HP / 116 Atk / 144 Def / 144 SpD / 12 Spe  
+Adamant Nature  
+- Self-Destruct  
+- Body Slam  
+- Shadow Ball  
+- Focus Punch  
+
+Brasilian Skies (Zapdos) @ Leftovers  
+Ability: Pressure  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Thunder Wave  
+- Roar  
+
+Seychelles (Regirock) @ Choice Band  
+Ability: Clear Body  
+EVs: 252 HP / 252 Atk / 4 Spe  
+Adamant Nature  
+- Rock Slide  
+- Superpower  
+- Earthquake  
+- Explosion  
+
+T-Wave (Starmie) @ Leftovers  
+Ability: Natural Cure  
+EVs: 216 HP / 40 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Rapid Spin  
+- Recover  
+- Surf  
+- Psychic  
+
+Takanaka 1977 (Registeel) @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 172 SpD / 84 Spe  
+Careful Nature  
+- Curse  
+- Rest  
+- Hidden Power [Rock]  
+- Earthquake  
+
+
+=== [gen3ou] Mushi s22/All 3 Kanto Starters ===
+
+Venusaur @ Leftovers  
+Ability: Overgrow  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 Def  
+- Giga Drain  
+- Hidden Power [Ice]  
+- Sleep Powder  
+- Leech Seed  
+
+Charizard @ Leftovers  
+Ability: Blaze  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Hasty Nature  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Substitute  
+- Focus Punch  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 216 Def / 44 SpD  
+Relaxed Nature  
+- Earthquake  
+- Ice Beam  
+- Curse  
+- Hydro Pump  
+
+PrettyPinkRibbon (Blissey) (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 252 SpA / 4 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Ice Beam  
+- Seismic Toss  
+- Wish  
+
+Forretress @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 4 Def / 252 SpD  
+Careful Nature  
+- Spikes  
+- Rapid Spin  
+- Hidden Power [Bug]  
+- Explosion  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 252 HP / 252 SpA / 4 Spe  
+Modest Nature  
+- Pursuit  
+- Crunch  
+- Fire Blast  
+- Roar  
+
+
+=== [gen3ou] Mushi s22/Miloom ===
+
+Milotic @ Leftovers  
+Ability: Marvel Scale  
+EVs: 160 HP / 252 SpA / 96 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Surf  
+- Recover  
+- Ice Beam  
+- Refresh  
+
+Breloom @ Leftovers  
+Ability: Effect Spore  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Spore  
+- Focus Punch  
+- Substitute  
+- Mach Punch  
+
+Claydol @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 216 Atk / 32 SpA / 8 Spe  
+Adamant Nature  
+- Rapid Spin  
+- Earthquake  
+- Psychic  
+- Explosion  
+
+Raikou @ Leftovers  
+Ability: Pressure  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+- Calm Mind  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Substitute  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 252 HP / 252 SpA / 4 Spe  
+Modest Nature  
+- Pursuit  
+- Crunch  
+- Fire Blast  
+- Focus Punch  
+
+Snorlax @ Leftovers  
+Ability: Immunity  
+EVs: 204 HP / 224 Atk / 60 Def / 8 SpD / 12 Spe  
+Adamant Nature  
+- Curse  
+- Body Slam  
+- Focus Punch  
+- Earthquake  
+
+
+=== [gen3ou] Mushi s22/Spreekgle Moltres ===
+
+Smeargle @ Lum Berry  
+Ability: Own Tempo  
+EVs: 68 HP / 188 SpD / 252 Spe  
+Jolly Nature  
+IVs: 0 Atk  
+- Spore  
+- Spikes  
+- Agility  
+- Encore  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Thunderbolt  
+- Ice Punch  
+- Hidden Power [Grass]  
+- Explosion  
+
+Moltres @ Leftovers  
+Ability: Pressure  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Flamethrower  
+- Hidden Power [Grass]  
+- Will-O-Wisp  
+- Roar  
+
+Tyranitar @ Lum Berry  
+Ability: Sand Stream  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Rock Slide  
+- Earthquake  
+- Double-Edge  
+
+Swampert @ Salac Berry  
+Ability: Torrent  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+- Substitute  
+- Endeavor  
+- Hydro Pump  
+- Roar  
+
+Metagross @ Lum Berry  
+Ability: Clear Body  
+EVs: 168 HP / 252 Atk / 88 Spe  
+Adamant Nature  
+- Agility  
+- Meteor Mash  
+- Earthquake  
+- Explosion  
+
+
+=== [gen3ou] Mushi s22/Venu Steel * ===
+
+You Would Know (Venusaur) @ Leftovers  
+Ability: Overgrow  
+EVs: 252 HP / 64 Def / 80 SpA / 56 SpD / 56 Spe  
+Calm Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Giga Drain  
+- Hidden Power [Fire]  
+- Leech Seed  
+- Sleep Powder  
+
+Can'tQuitMeBaby (Registeel) @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 212 SpD / 44 Spe  
+Careful Nature  
+- Thunder Wave  
+- Seismic Toss  
+- Counter  
+- Explosion  
+
+TeenageHandModel (Skarmory) @ Leftovers  
+Ability: Keen Eye  
+EVs: 248 HP / 248 SpD / 12 Spe  
+Careful Nature  
+IVs: 0 Atk  
+- Spikes  
+- Roar  
+- Toxic  
+- Protect  
+
+SpiderVinnegaroons (Gengar) @ Leftovers  
+Ability: Levitate  
+EVs: 168 HP / 164 SpD / 176 Spe  
+Hasty Nature  
+- Will-O-Wisp  
+- Explosion  
+- Ice Punch  
+- Thunderbolt  
+
+Regular John (Tyranitar) @ Leftovers  
+Ability: Sand Stream  
+EVs: 252 HP / 236 SpA / 8 SpD / 12 Spe  
+Mild Nature  
+- Crunch  
+- Thunder  
+- Focus Punch  
+- Substitute  
+
+If Only (Swampert) @ Salac Berry  
+Ability: Torrent  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Substitute  
+- Endeavor  
+- Surf  
+- Toxic  
+
+
+=== [gen3ou] Mushi s22/V4 Armrachi * ===
+
+UpAgainstTheWall (Suicune) @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 248 Def / 20 Spe  
+Bold Nature  
+- Calm Mind  
+- Surf  
+- Rest  
+- Roar  
+
+WorldUpMyAsh (Blissey) (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 252 SpA / 4 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Aromatherapy  
+- Seismic Toss  
+- Thunder Wave  
+
+JustWantSomeSka** (Skarmory) @ Leftovers  
+Ability: Keen Eye  
+EVs: 248 HP / 244 SpD / 16 Spe  
+Careful Nature  
+- Spikes  
+- Roar  
+- Drill Peck  
+- Toxic  
+
+BeverlyHills (Claydol) @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 216 Atk / 32 SpA / 8 Spe  
+Adamant Nature  
+- Rapid Spin  
+- Earthquake  
+- Psychic  
+- Explosion  
+
+DenyEverything (Armaldo) @ Leftovers  
+Ability: Battle Armor  
+EVs: 202 HP / 252 Atk / 56 Def  
+Adamant Nature  
+- Hidden Power [Bug]  
+- Knock Off  
+- Rock Blast  
+- Swords Dance  
+
+Wasted (Jirachi) @ Leftovers  
+Ability: Serene Grace  
+EVs: 252 HP / 224 Def / 32 Spe  
+Impish Nature  
+IVs: 0 Atk  
+- Wish  
+- Protect  
+- Fire Punch  
+- Toxic  
+
+
+=== [gen3ou] Mushi s22/Freezingpop Hera p2 Star Core ===
+
+Heracross @ Choice Band  
+Ability: Guts  
+Hidden Power: Ghost  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Megahorn  
+- Brick Break  
+- Rock Slide  
+- Focus Punch  
+
+Porygon2 @ Leftovers  
+Ability: Trace  
+EVs: 252 HP / 200 Def / 56 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Recover  
+- Ice Beam  
+- Thunderbolt  
+- Toxic  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 176 Atk / 80 Def  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Rock Slide  
+- Explosion  
+
+Raikou @ Leftovers  
+Ability: Pressure  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Calm Mind  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Crunch  
+
+Starmie @ Leftovers  
+Ability: Natural Cure  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Hydro Pump  
+- Recover  
+- Thunderbolt  
+- Rapid Spin  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 252 HP / 252 SpA / 4 Spe  
+Modest Nature  
+- Substitute  
+- Focus Punch  
+- Fire Blast  
+- Crunch  
+
+
+=== [gen3ou] Mushi s22/Medi is a rock type ===
+
+Medicham @ Choice Band  
+Ability: Pure Power  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Brick Break  
+- Shadow Ball  
+- Rock Slide  
+- Focus Punch  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 80 Atk / 180 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Bug]  
+
+Aerodactyl @ Choice Band  
+Ability: Rock Head  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Rock Slide  
+- Double-Edge  
+- Earthquake  
+- Hidden Power [Bug]  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 204 Def / 44 SpD / 12 Spe  
+Bold Nature  
+- Surf  
+- Toxic  
+- Protect  
+- Refresh  
+
+Cloyster @ Leftovers  
+Ability: Shell Armor  
+EVs: 72 HP / 8 SpA / 244 SpD / 184 Spe  
+Timid Nature  
+- Spikes  
+- Surf  
+- Rapid Spin  
+- Explosion  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 SpA / 76 SpD / 180 Spe  
+Modest Nature  
+- Leech Seed  
+- Giga Drain  
+- Hidden Power [Fire]  
+- Psychic  
+
+
+=== [gen3ou] Mushi s22/CB Meta V5 * ===
+
+Bombshell (Metagross) @ Choice Band  
+Ability: Clear Body  
+EVs: 64 HP / 252 Atk / 192 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Explosion  
+- Earthquake  
+- Brick Break  
+
+Jaded (Milotic) @ Leftovers  
+Ability: Marvel Scale  
+EVs: 252 HP / 252 Def / 4 SpA  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Recover  
+- Toxic  
+- Refresh  
+
+Vulnerability (Blissey) (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 252 SpA / 4 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Soft-Boiled  
+- Ice Beam  
+- Thunderbolt  
+
+SoundSystem (Claydol) @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 116 Def / 140 SpD  
+Sassy Nature  
+- Explosion  
+- Psychic  
+- Rapid Spin  
+- Rest  
+
+TakeWarning (Skarmory) @ Leftovers  
+Ability: Keen Eye  
+EVs: 248 HP / 248 SpD / 12 Spe  
+Careful Nature  
+- Spikes  
+- Roar  
+- Drill Peck  
+- Toxic  
+
+TheCrowd (Dugtrio) @ Choice Band  
+Ability: Arena Trap  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Hidden Power [Bug]  
+- Aerial Ace  
+- Screech  
+
+
+=== [gen3ou] Mushi s22/I hate Zapdos ===
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 252 HP / 252 SpA / 4 Spe  
+Modest Nature  
+- Pursuit  
+- Crunch  
+- Fire Blast  
+- Brick Break  
+
+Registeel @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 212 SpD / 44 Spe  
+Careful Nature  
+- Thunder Wave  
+- Seismic Toss  
+- Counter  
+- Explosion  
+
+Snorlax @ Leftovers  
+Ability: Immunity  
+EVs: 204 HP / 224 Atk / 60 Def / 8 SpD / 12 Spe  
+Adamant Nature  
+- Curse  
+- Body Slam  
+- Focus Punch  
+- Earthquake  
+
+Claydol @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 216 Atk / 32 SpA / 8 Spe  
+Adamant Nature  
+IVs: 0 Atk  
+- Rapid Spin  
+- Earthquake  
+- Psychic  
+- Explosion  
+
+Breloom @ Leftovers  
+Ability: Effect Spore  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Spore  
+- Focus Punch  
+- Substitute  
+- Mach Punch  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 176 Atk / 216 SpD / 116 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Brick Break  
+- Hidden Power [Flying]  
+- Rock Slide  
+
+
+=== [gen3ou] Mushi s22/ABR Slacking Forre * ===
+
+Slaking @ Choice Band  
+Ability: Truant  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Brick Break  
+- Earthquake  
+- Double-Edge  
+- Encore  
+
+Forretress @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 248 SpD / 8 Spe  
+Careful Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Spikes  
+- Rapid Spin  
+- Hidden Power [Fire]  
+- Toxic  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 180 HP / 252 Def / 76 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Sing  
+- Seismic Toss  
+- Aromatherapy  
+
+Moltres @ Leftovers  
+Ability: Pressure  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Flamethrower  
+- Hidden Power [Grass]  
+- Rest  
+- Sunny Day  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 204 Def / 44 SpD / 12 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Toxic  
+- Protect  
+- Roar  
+
+Umbreon @ Leftovers  
+Ability: Synchronize  
+EVs: 252 HP / 120 Def / 136 SpD  
+Sassy Nature  
+IVs: 0 Atk / 0 Spe  
+- Wish  
+- Protect  
+- Pursuit  
+- Charm  
+
+
+=== [gen3ou] Mushi s22/Egg Spec off * ===
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 252 SpA / 60 SpD / 196 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Substitute  
+- Baton Pass  
+
+Dugtrio (M) @ Choice Band  
+Ability: Arena Trap  
+EVs: 84 HP / 140 Atk / 176 SpD / 108 Spe  
+Jolly Nature  
+- Earthquake  
+- Beat Up  
+- Hidden Power [Bug]  
+- Aerial Ace  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 252 Atk / 8 SpD  
+Adamant Nature  
+IVs: 30 SpD / 30 Spe  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Bug]  
+- Focus Punch  
+
+Swampert @ Salac Berry  
+Ability: Torrent  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Substitute  
+- Endeavor  
+- Surf  
+- Toxic  
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 28 HP / 252 SpA / 228 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Hydro Pump  
+- Ice Beam  
+- Roar  
+
+Exeggutor @ Leftovers  
+Ability: Chlorophyll  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Rash Nature  
+- Psychic  
+- Hidden Power [Fire]  
+- Sleep Powder  
+- Explosion  
+
+
+=== [gen3ou] Mushi s22/CB Rocks + Agi Meta * ===
+
+Tyranitar @ Choice Band  
+Ability: Sand Stream  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Rock Slide  
+- Focus Punch  
+- Earthquake  
+- Hidden Power [Bug]  
+
+Aerodactyl @ Choice Band  
+Ability: Rock Head  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Rock Slide  
+- Double-Edge  
+- Earthquake  
+- Hidden Power [Flying]  
+
+Metagross @ Lum Berry  
+Ability: Clear Body  
+EVs: 168 HP / 252 Atk / 88 Spe  
+Adamant Nature  
+- Agility  
+- Meteor Mash  
+- Earthquake  
+- Explosion  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 204 Def / 44 SpD / 12 Spe  
+Bold Nature  
+- Surf  
+- Toxic  
+- Protect  
+- Refresh  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 252 SpA / 60 SpD / 196 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Substitute  
+- Baton Pass  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 80 Def / 36 SpA / 140 Spe  
+Bold Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Leech Seed  
+- Psychic  
+- Recover  
+- Hidden Power [Fire]  
+
+
+=== [gen3ou] Mushi s22/Don Balancio ===
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 252 SpA / 4 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Ice Beam  
+- Seismic Toss  
+- Thunder Wave  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 124 Def / 40 SpA / 60 SpD / 32 Spe  
+Bold Nature  
+IVs: 2 Atk / 30 SpA  
+- Leech Seed  
+- Recover  
+- Heal Bell  
+- Hidden Power [Grass]  
+
+Donphan @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 44 Atk / 188 Def / 24 Spe  
+Impish Nature  
+IVs: 30 Atk  
+- Earthquake  
+- Hidden Power [Rock]  
+- Rest  
+- Rapid Spin  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+IVs: 0 Atk  
+- Spikes  
+- Roar  
+- Toxic  
+- Protect  
+
+Milotic @ Leftovers  
+Ability: Marvel Scale  
+EVs: 252 HP / 252 Def / 4 SpA  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Recover  
+- Toxic  
+- Refresh  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 252 HP / 208 SpA / 48 Spe  
+Rash Nature  
+- Substitute  
+- Focus Punch  
+- Crunch  
+- Fire Blast  
+
+
+=== [gen3ou] Mushi s22/Mix-Mence CB Tar Gold? ===
+
+Tyranitar @ Choice Band  
+Ability: Sand Stream  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Rock Slide  
+- Focus Punch  
+- Earthquake  
+- Hidden Power [Bug]  
+
+Jirachi @ Leftovers  
+Ability: Serene Grace  
+EVs: 252 HP / 76 Def / 180 SpD  
+Sassy Nature  
+- Wish  
+- Protect  
+- Fire Punch  
+- Body Slam  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+IVs: 0 Atk  
+- Spikes  
+- Roar  
+- Toxic  
+- Protect  
+
+Claydol @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 216 Atk / 32 SpA / 8 Spe  
+Adamant Nature  
+- Rapid Spin  
+- Earthquake  
+- Psychic  
+- Explosion  
+
+Milotic @ Leftovers  
+Ability: Marvel Scale  
+EVs: 252 HP / 252 Def / 4 SpA  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Recover  
+- Toxic  
+- Refresh  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Rash Nature  
+- Dragon Claw  
+- Brick Break  
+- Hidden Power [Grass]  
+- Fire Blast  
+
+
+=== [gen3ou] Mushi s22/Forre Yama (Bliss Gon) ===
+
+ThePeople'sChamp (Hariyama) @ Leftovers  
+Ability: Guts  
+EVs: 96 Atk / 192 Def / 192 SpD / 28 Spe  
+Adamant Nature  
+- Knock Off  
+- Brick Break  
+- Rock Slide  
+- Focus Punch  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 252 SpA / 4 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Ice Beam  
+- Seismic Toss  
+- Wish  
+
+Forretress @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 4 Def / 252 SpD  
+Careful Nature  
+- Spikes  
+- Rapid Spin  
+- Hidden Power [Bug]  
+- Counter  
+
+Moltres @ Leftovers  
+Ability: Pressure  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Flamethrower  
+- Hidden Power [Grass]  
+- Will-O-Wisp  
+- Roar  
+
+Flygon @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 196 Def / 28 SpD / 32 Spe  
+Impish Nature  
+- Protect  
+- Earthquake  
+- Rock Slide  
+- Toxic  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 252 HP / 252 SpA / 4 Spe  
+Modest Nature  
+- Pursuit  
+- Crunch  
+- Thunder  
+- Rock Slide  
+
+
+=== [gen3ou] Mushi s22/Yama steel blast mence ===
+
+ThePeople'sChamp (Hariyama) @ Leftovers  
+Ability: Guts  
+EVs: 252 Atk / 80 Def / 176 SpD  
+Adamant Nature  
+- Bulk Up  
+- Hidden Power [Ghost]  
+- Cross Chop  
+- Rock Slide  
+
+Heracross @ Leftovers  
+Ability: Swarm  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Megahorn  
+- Rock Slide  
+- Focus Punch  
+- Substitute  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 240 HP / 236 SpA / 32 Spe  
+Quiet Nature  
+- Hydro Pump  
+- Ice Beam  
+- Earthquake  
+- Curse  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 176 Atk / 216 SpD / 116 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Brick Break  
+- Hidden Power [Flying]  
+- Fire Blast  
+
+Registeel @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 212 SpD / 44 Spe  
+Careful Nature  
+- Thunder Wave  
+- Seismic Toss  
+- Counter  
+- Explosion  
+
+Raikou @ Leftovers  
+Ability: Pressure  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Calm Mind  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Crunch  
+
+
+=== [gen3ou] Mushi s22/Copy of Forre Yama (Steel Mence) * ===
+
+ThePeople'sChamp (Hariyama) @ Leftovers  
+Ability: Guts  
+EVs: 96 Atk / 192 Def / 192 SpD / 28 Spe  
+Adamant Nature  
+- Knock Off  
+- Brick Break  
+- Rock Slide  
+- Focus Punch  
+
+Registeel @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 212 SpD / 44 Spe  
+Careful Nature  
+- Thunder Wave  
+- Seismic Toss  
+- Counter  
+- Explosion  
+
+Forretress @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 4 Def / 252 SpD  
+Careful Nature  
+- Spikes  
+- Rapid Spin  
+- Hidden Power [Bug]  
+- Counter  
+
+Moltres @ Leftovers  
+Ability: Pressure  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Flamethrower  
+- Hidden Power [Grass]  
+- Will-O-Wisp  
+- Roar  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 252 HP / 224 Def / 32 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Wish  
+- Protect  
+- Flamethrower  
+- Toxic  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 252 HP / 252 SpA / 4 Spe  
+Modest Nature  
+- Pursuit  
+- Crunch  
+- Thunder  
+- Rock Slide  
+
+
+=== [gen3ou] Mushi s22/Milo SD Bi ===
+
+Metagross @ Lum Berry  
+Ability: Clear Body  
+EVs: 168 HP / 232 Atk / 16 Def / 92 Spe  
+Adamant Nature  
+- Agility  
+- Meteor Mash  
+- Earthquake  
+- Explosion  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 244 HP / 124 Def / 140 Spe  
+Impish Nature  
+IVs: 0 Atk  
+- Baton Pass  
+- Swords Dance  
+- Leech Seed  
+- Recover  
+
+Milotic @ Leftovers  
+Ability: Marvel Scale  
+EVs: 252 HP / 156 SpA / 100 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Hypnosis  
+- Hydro Pump  
+- Recover  
+- Ice Beam  
+
+Magneton @ Magnet  
+Ability: Magnet Pull  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Toxic  
+- Substitute  
+- Thunderbolt  
+- Hidden Power [Fire]  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 176 Atk / 216 SpD / 116 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Earthquake  
+- Hidden Power [Flying]  
+- Rock Slide  
+
+Snorlax @ Leftovers  
+Ability: Immunity  
+EVs: 204 HP / 80 Atk / 72 Def / 152 SpD  
+Adamant Nature  
+- Curse  
+- Return  
+- Shadow Ball  
+- Earthquake  
+
+
+=== [gen3ou] Mushi s22/Brainrot * ===
+
+Tyranitar @ Lum Berry  
+Ability: Sand Stream  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Rock Slide  
+- Earthquake  
+- Double-Edge  
+
+Swampert @ Salac Berry  
+Ability: Torrent  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Endeavor  
+- Substitute  
+- Surf  
+- Roar  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 160 SpD / 96 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Taunt  
+- Toxic  
+- Roar  
+- Spikes  
+
+Registeel @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 212 SpD / 44 Spe  
+Careful Nature  
+- Thunder Wave  
+- Seismic Toss  
+- Counter  
+- Explosion  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 168 HP / 164 SpD / 176 Spe  
+Hasty Nature  
+IVs: 0 Atk  
+- Will-O-Wisp  
+- Taunt  
+- Giga Drain  
+- Fire Punch  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 176 Atk / 216 SpD / 116 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Brick Break  
+- Hidden Power [Flying]  
+- Rock Slide  
+
+
+=== [gen3ou] Mushi s22/Big 4 Dug Zap ===
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 252 Atk / 8 SpD  
+Adamant Nature  
+IVs: 30 SpD / 30 Spe  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Bug]  
+- Focus Punch  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 216 Def / 44 SpD  
+Relaxed Nature  
+- Earthquake  
+- Ice Beam  
+- Protect  
+- Hydro Pump  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 252 SpA / 4 Spe  
+Modest Nature  
+- Soft-Boiled  
+- Ice Beam  
+- Seismic Toss  
+- Thunder Wave  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+- Spikes  
+- Roar  
+- Drill Peck  
+- Protect  
+
+Dugtrio @ Choice Band  
+Ability: Arena Trap  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Hidden Power [Bug]  
+- Aerial Ace  
+- Rock Slide  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 60 HP / 252 SpA / 196 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Roar  
+- Toxic  
+- Hidden Power [Grass]  
+
+
+=== [gen3ou] Mushi s22/Milo Bi CB Gon ===
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+- Spikes  
+- Roar  
+- Drill Peck  
+- Protect  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 124 Def / 40 SpA / 60 SpD / 32 Spe  
+Bold Nature  
+IVs: 2 Atk / 30 SpA  
+- Leech Seed  
+- Recover  
+- Baton Pass  
+- Hidden Power [Grass]  
+
+Milotic @ Leftovers  
+Ability: Marvel Scale  
+EVs: 252 HP / 252 Def / 4 SpA  
+Bold Nature  
+- Surf  
+- Recover  
+- Toxic  
+- Refresh  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 224 SpD / 32 Spe  
+Calm Nature  
+- Thunderbolt  
+- Rest  
+- Toxic  
+- Roar  
+
+Flygon @ Choice Band  
+Ability: Levitate  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Rock Slide  
+- Hidden Power [Bug]  
+- Quick Attack  
+
+Magneton @ Magnet  
+Ability: Magnet Pull  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Thunderbolt  
+- Hidden Power [Fire]  
+- Substitute  
+- Toxic  
+
+
+=== [gen3ou] Mushi s22/Forre Molt + Taunt 3a Gar ===
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 176 Atk / 216 SpD / 116 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Brick Break  
+- Hidden Power [Flying]  
+- Rock Slide  
+
+Forretress @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 4 Def / 252 SpD  
+Careful Nature  
+- Spikes  
+- Rapid Spin  
+- Hidden Power [Bug]  
+- Counter  
+
+Moltres @ Leftovers  
+Ability: Pressure  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Flamethrower  
+- Hidden Power [Grass]  
+- Will-O-Wisp  
+- Roar  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 168 HP / 164 SpD / 176 Spe  
+Hasty Nature  
+IVs: 2 Atk / 30 SpA  
+- Taunt  
+- Hidden Power [Grass]  
+- Ice Punch  
+- Fire Punch  
+
+Registeel @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 212 SpD / 44 Spe  
+Careful Nature  
+- Thunder Wave  
+- Seismic Toss  
+- Counter  
+- Explosion  
+
+Breloom @ Leftovers  
+Ability: Effect Spore  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Spore  
+- Focus Punch  
+- Mach Punch  
+- Hidden Power [Ghost]  
+
+
+=== [gen3ou] Mushi s22/Wish Rachi + Bliss + Forre ===
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 252 Atk / 8 SpD  
+Adamant Nature  
+IVs: 30 SpD / 30 Spe  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Bug]  
+- Focus Punch  
+
+Jirachi @ Leftovers  
+Ability: Serene Grace  
+EVs: 244 HP / 148 Def / 116 SpD  
+Sassy Nature  
+IVs: 0 Atk  
+- Wish  
+- Protect  
+- Fire Punch  
+- Toxic  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 252 SpA / 4 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Ice Beam  
+- Seismic Toss  
+- Heal Bell  
+
+Forretress @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 4 Def / 252 SpD  
+Careful Nature  
+- Spikes  
+- Rapid Spin  
+- Hidden Power [Bug]  
+- Counter  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 204 Def / 44 SpD / 12 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Toxic  
+- Protect  
+- Roar  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Rash Nature  
+- Dragon Claw  
+- Brick Break  
+- Hidden Power [Grass]  
+- Fire Blast  
+
+
+=== [gen3ou] Mushi s22/Copy of Brainrot ===
+
+Tyranitar @ Lum Berry  
+Ability: Sand Stream  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Hasty Nature  
+- Crunch  
+- Thunder  
+- Hidden Power [Grass]  
+- Brick Break  
+
+Swampert @ Salac Berry  
+Ability: Torrent  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Endeavor  
+- Substitute  
+- Surf  
+- Roar  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 160 SpD / 96 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Taunt  
+- Toxic  
+- Roar  
+- Spikes  
+
+Registeel @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 212 SpD / 44 Spe  
+Careful Nature  
+- Thunder Wave  
+- Seismic Toss  
+- Counter  
+- Explosion  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 168 HP / 164 SpD / 176 Spe  
+Hasty Nature  
+IVs: 0 Atk  
+- Will-O-Wisp  
+- Taunt  
+- Thunderbolt  
+- Ice Punch  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 176 Atk / 216 SpD / 116 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Brick Break  
+- Hidden Power [Flying]  
+- Rock Slide  
+
+
+=== [gen3ou] Mushi s22/Double Dog Dol * ===
+
+Raikou @ Leftovers  
+Ability: Pressure  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 Def  
+- Toxic  
+- Thunderbolt  
+- Substitute  
+- Hidden Power [Ice]  
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 96 SpA / 160 Spe  
+Modest Nature  
+- Hydro Pump  
+- Ice Beam  
+- Substitute  
+- Calm Mind  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 60 HP / 252 SpA / 196 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Baton Pass  
+- Substitute  
+
+Jirachi @ Leftovers  
+Ability: Serene Grace  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Psychic  
+- Fire Punch  
+- Hidden Power [Grass]  
+- Calm Mind  
+
+Claydol @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 216 Atk / 32 SpA / 8 Spe  
+Adamant Nature  
+- Rapid Spin  
+- Earthquake  
+- Psychic  
+- Explosion  
+
+Dugtrio (M) @ Choice Band  
+Ability: Arena Trap  
+EVs: 84 HP / 140 Atk / 176 SpD / 108 Spe  
+Jolly Nature  
+- Earthquake  
+- Aerial Ace  
+- Hidden Power [Bug]  
+- Beat Up  
+
+
+=== [gen3ou] Mushi s22/CB Raichey ===
+
+Tyranitar @ Lum Berry  
+Ability: Sand Stream  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Rock Slide  
+- Earthquake  
+- Double-Edge  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 144 HP / 224 Atk / 140 Spe  
+Adamant Nature  
+IVs: 30 SpA / 30 SpD / 30 Spe  
+- Dragon Dance  
+- Hidden Power [Flying]  
+- Fire Blast  
+- Brick Break  
+
+Jirachi @ Choice Band  
+Ability: Serene Grace  
+EVs: 52 HP / 252 Atk / 204 Spe  
+Adamant Nature  
+- Body Slam  
+- Hidden Power [Fighting]  
+- Doom Desire  
+- Shadow Ball  
+
+Registeel @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 212 SpD / 44 Spe  
+Careful Nature  
+- Thunder Wave  
+- Seismic Toss  
+- Counter  
+- Explosion  
+
+Starmie @ Leftovers  
+Ability: Natural Cure  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+- Hydro Pump  
+- Ice Beam  
+- Thunderbolt  
+- Rapid Spin  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 60 SpA / 196 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Toxic  
+- Protect  
+
+
+=== [gen3ou] Mushi s22/CB Gyara Skarm Mag ===
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+Hidden Power: Grass  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Rash Nature  
+- Dragon Claw  
+- Brick Break  
+- Wish  
+- Fire Blast  
+
+Gyarados @ Choice Band  
+Ability: Intimidate  
+EVs: 64 HP / 252 Atk / 192 Spe  
+Adamant Nature  
+- Hidden Power [Flying]  
+- Double-Edge  
+- Earthquake  
+- Rest  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 252 SpA / 4 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Ice Beam  
+- Seismic Toss  
+- Aromatherapy  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 176 Atk / 80 Def  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Rock Slide  
+- Explosion  
+
+Magneton @ Magnet  
+Ability: Magnet Pull  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Thunderbolt  
+- Hidden Power [Fire]  
+- Toxic  
+- Protect  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+- Spikes  
+- Roar  
+- Drill Peck  
+- Toxic  
+
+
+=== [gen3ou] Mushi s22/Get Ducked * ===
+
+Jinx (Jynx) @ Leftovers  
+Ability: Oblivious  
+Shiny: Yes  
+EVs: 36 HP / 252 SpA / 220 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Mean Look  
+- Ice Beam  
+- Lovely Kiss  
+- Perish Song  
+
+DingDongDaddy (Dugtrio) @ Choice Band  
+Ability: Arena Trap  
+Shiny: Yes  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+IVs: 29 HP / 30 Atk / 30 Def / 30 SpD  
+- Substitute  
+- Earthquake  
+- Aerial Ace  
+- Hidden Power [Bug]  
+
+Red-X (Golduck) @ Salac Berry  
+Ability: Cloud Nine  
+Shiny: Yes  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Endure  
+- Calm Mind  
+- Hydro Pump  
+- Ice Beam  
+
+Trigon (Gengar) @ Leftovers  
+Ability: Levitate  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Thunderbolt  
+- Ice Punch  
+- Hidden Power [Grass]  
+- Explosion  
+
+Gizmo (Celebi) @ Leftovers  
+Ability: Natural Cure  
+EVs: 216 HP / 252 SpA / 40 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Leech Seed  
+- Calm Mind  
+- Giga Drain  
+- Hidden Power [Fire]  
+
+Cinderblock (Jirachi) @ Leftovers  
+Ability: Serene Grace  
+Shiny: Yes  
+EVs: 252 HP / 4 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Hidden Power [Grass]  
+- Calm Mind  
+- Psychic  
+- Fire Punch  
+
+
+=== [gen3ou] Mushi s22/Shed Clear (Cortex, Tropeau Bleu) * ===
+
+TakeWarning (Dugtrio) @ Choice Band  
+Ability: Arena Trap  
+EVs: 80 HP / 148 Atk / 52 Def / 228 Spe  
+Adamant Nature  
+- Earthquake  
+- Hidden Power [Bug]  
+- Aerial Ace  
+- Sunny Day  
+
+FreezeUp (Suicune) @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 252 Def / 16 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Surf  
+- Rest  
+- Ice Beam  
+
+Unity (Snorlax) @ Leftovers  
+Ability: Immunity  
+EVs: 92 HP / 128 Atk / 132 Def / 144 SpD  
+Adamant Nature  
+- Curse  
+- Body Slam  
+- Shadow Ball  
+- Rest  
+
+Vulnerability (Shedinja) @ Choice Band  
+Ability: Wonder Guard  
+Shiny: Yes  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Adamant Nature  
+- Toxic  
+- Shadow Ball  
+- Fury Cutter  
+- Baton Pass  
+
+GonnaFindYou (Magneton) @ Salac Berry  
+Ability: Magnet Pull  
+EVs: 48 HP / 252 SpA / 208 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Thunder  
+- Rain Dance  
+- Endure  
+- Hidden Power [Fire]  
+
+Bombshell (Claydol) @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 216 Atk / 32 SpA / 8 Spe  
+Adamant Nature  
+- Rapid Spin  
+- Earthquake  
+- Psychic  
+- Explosion  
+
+
+=== [gen3ou] Mushi s22/Splodey Rocks * ===
+
+Metagross @ Choice Band  
+Ability: Clear Body  
+EVs: 72 HP / 252 Atk / 184 Spe  
+Adamant Nature  
+- Explosion  
+- Double-Edge  
+- Earthquake  
+- Meteor Mash  
+
+Regirock @ Choice Band  
+Ability: Clear Body  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Adamant Nature  
+- Superpower  
+- Rock Slide  
+- Explosion  
+- Hidden Power [Ghost]  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 80 Atk / 180 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Rock Slide  
+- Earthquake  
+- Double-Edge  
+
+Aerodactyl @ Choice Band  
+Ability: Rock Head  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Hidden Power [Bug]  
+- Rock Slide  
+- Double-Edge  
+
+Jolteon @ Leftovers  
+Ability: Volt Absorb  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Thunder Wave  
+- Baton Pass  
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 252 Def / 16 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Surf  
+- Rest  
+- Sleep Talk  
+
+

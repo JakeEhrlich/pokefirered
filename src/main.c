@@ -216,6 +216,9 @@ void AgbMain()
 
         PlayTimeCounter_Update();
         MapMusicMain();
+#if SIM_HARNESS
+        SimHarness_EndOfMainLoop(); // publish a consistent snapshot for the cross-check bridge
+#endif
         WaitForVBlank();
     }
 }

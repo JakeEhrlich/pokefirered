@@ -1,0 +1,42 @@
+Southern Island (Suicune) @ Leftovers  
+Ability: Pressure  
+- Substitute  
+- Calm Mind  
+- Surf  
+- Ice Beam  
+
+Mt Pyre Summit (Celebi) @ Leftovers  
+Ability: Natural Cure  
+- Calm Mind  
+- Giga Drain  
+- Hidden Power [Fire]  
+- Psychic  
+
+Heavy Rain (Swampert) @ Salac Berry  
+Ability: Torrent  
+- Substitute  
+- Endeavor  
+- Hydro Pump  
+- Toxic  
+
+Sootopolis (Tyranitar) @ Lum Berry  
+Ability: Sand Stream  
+- Dragon Dance  
+- Rock Slide  
+- Earthquake  
+- Double-Edge  
+
+Meteor Falls (Salamence) @ Leftovers  
+Ability: Intimidate  
+- Dragon Dance  
+- Hidden Power [Flying]  
+- Brick Break  
+- Rock Slide  
+
+Sealed Chamber (Registeel) @ Leftovers  
+Ability: Clear Body  
+- Seismic Toss  
+- Thunder Wave  
+- Explosion  
+- Counter  
+

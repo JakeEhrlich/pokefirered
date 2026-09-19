@@ -1,0 +1,56 @@
+Torkoal @ Leftovers  
+Ability: White Smoke  
+EVs: 252 HP / 32 Atk / 56 Def / 72 SpA / 96 SpD  
+Relaxed Nature  
+- Overheat  
+- Explosion  
+- Yawn  
+- Protect  
+
+Glalie @ Soft Sand  
+Ability: Inner Focus  
+EVs: 8 HP / 216 Atk / 136 Def / 148 Spe  
+Adamant Nature  
+- Spikes  
+- Earthquake  
+- Shadow Ball  
+- Explosion  
+
+Haunter @ Magnet  
+Ability: Levitate  
+EVs: 44 SpA / 228 SpD / 236 Spe  
+Mild Nature  
+IVs: 10 Def  
+- Thunderbolt  
+- Explosion  
+- Destiny Bond  
+- Rain Dance  
+
+Metang @ Leftovers  
+Ability: Clear Body  
+EVs: 132 HP / 252 Atk / 124 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Agility  
+- Explosion  
+
+Wailord @ Leftovers  
+Ability: Water Veil  
+EVs: 252 SpA / 200 SpD / 56 Spe  
+Modest Nature  
+- Surf  
+- Hidden Power [Electric]  
+- Self-Destruct  
+- Rain Dance  
+
+Huntail @ Petaya Berry  
+Ability: Swift Swim  
+EVs: 104 HP / 252 SpA / 152 Spe  
+Modest Nature  
+IVs: 3 Atk / 30 SpA  
+- Surf  
+- Ice Beam  
+- Hidden Power [Electric]  
+- Rain Dance  
+

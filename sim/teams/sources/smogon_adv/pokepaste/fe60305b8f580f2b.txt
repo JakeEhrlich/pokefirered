@@ -1,0 +1,63 @@
+Hariyama @ Leftovers  
+Ability: Guts  
+Shiny: Yes  
+EVs: 136 Atk / 252 Def / 56 SpD / 64 Spe  
+Adamant Nature  
+- Protect  
+- Whirlwind  
+- Cross Chop  
+- Knock Off  
+
+Starmie @ Leftovers  
+Ability: Natural Cure  
+Shiny: Yes  
+EVs: 248 HP / 136 Def / 36 SpA / 32 SpD / 56 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Thunder Wave  
+- Recover  
+- Rapid Spin  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+Shiny: Yes  
+EVs: 248 HP / 252 SpD / 8 Spe  
+Careful Nature  
+- Spikes  
+- Drill Peck  
+- Roar  
+- Protect  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+Shiny: Yes  
+EVs: 248 HP / 64 Atk / 184 Def / 12 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Explosion  
+- Protect  
+
+Blissey @ Leftovers  
+Ability: Natural Cure  
+Shiny: Yes  
+EVs: 252 Def / 212 SpA / 44 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Seismic Toss  
+- Ice Beam  
+- Wish  
+- Soft-Boiled  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+Shiny: Yes  
+EVs: 248 HP / 8 Def / 60 SpD / 192 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Taunt  
+- Will-O-Wisp  
+- Thunderbolt  
+- Destiny Bond  
+

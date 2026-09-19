@@ -1,0 +1,778 @@
+=== [gen3ou] Superman (Flygon)/Skarm Aero MixJira RestZap ToxBliss Gon ===
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 236 SpD / 32 Spe  
+Calm Nature  
+IVs: 2 Atk / 30 SpA  
+- Rest  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Roar  
+
+Skarmory  
+Ability: Keen Eye  
+EVs: 248 HP / 252 SpD / 8 Spe  
+Careful Nature  
+- Spikes  
+- Thief  
+- Drill Peck  
+- Roar  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 212 HP / 252 Def / 44 SpA  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Toxic  
+- Seismic Toss  
+- Ice Beam  
+
+Jirachi @ Leftovers  
+Ability: Serene Grace  
+EVs: 116 HP / 252 SpA / 140 Spe  
+Mild Nature  
+- Ice Punch  
+- Thunder  
+- Hidden Power [Grass]  
+- Dynamic Punch  
+
+Flygon @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 220 Def / 36 Spe  
+Impish Nature  
+- Protect  
+- Toxic  
+- Earthquake  
+- Rock Slide  
+
+Aerodactyl @ Choice Band  
+Ability: Rock Head  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Rock Slide  
+- Hidden Power [Bug]  
+- Double-Edge  
+
+
+=== [gen3ou] Superman (Flygon)/Skarm Aero RestZap FearJira Gon AromaBliss ===
+
+Jirachi @ Leftovers  
+Ability: Serene Grace  
+EVs: 252 HP / 180 Def / 40 SpA / 36 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Wish  
+- Protect  
+- Toxic  
+- Fire Punch  
+
+Skarmory  
+Ability: Keen Eye  
+EVs: 248 HP / 252 SpD / 8 Spe  
+Careful Nature  
+- Spikes  
+- Thief  
+- Drill Peck  
+- Roar  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 212 HP / 252 Def / 44 SpA  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Aromatherapy  
+- Seismic Toss  
+- Ice Beam  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 236 SpD / 32 Spe  
+Calm Nature  
+IVs: 2 Atk / 30 SpA  
+- Rest  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Roar  
+
+Flygon @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 220 Def / 36 Spe  
+Impish Nature  
+- Protect  
+- Toxic  
+- Earthquake  
+- Rock Slide  
+
+Aerodactyl @ Choice Band  
+Ability: Rock Head  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Rock Slide  
+- Hidden Power [Bug]  
+- Double-Edge  
+
+
+=== [gen3ou] Superman (Flygon)/Skarm Aero SubZard RestZap ScreechGon Jira ===
+
+Aerodactyl @ Choice Band  
+Ability: Rock Head  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Rock Slide  
+- Hidden Power [Bug]  
+- Double-Edge  
+
+Skarmory  
+Ability: Keen Eye  
+EVs: 248 HP / 252 SpD / 8 Spe  
+Careful Nature  
+- Spikes  
+- Thief  
+- Drill Peck  
+- Roar  
+
+Jirachi @ Leftovers  
+Ability: Serene Grace  
+EVs: 252 HP / 88 Def / 136 SpD / 32 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Wish  
+- Protect  
+- Toxic  
+- Fire Punch  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 236 SpD / 32 Spe  
+Calm Nature  
+IVs: 2 Atk / 30 SpA  
+- Rest  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Roar  
+
+Flygon @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 224 Def / 32 Spe  
+Impish Nature  
+- Protect  
+- Screech  
+- Earthquake  
+- Rock Slide  
+
+Charizard @ Leftovers  
+Ability: Blaze  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Mild Nature  
+- Substitute  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Focus Punch  
+
+
+=== [gen3ou] Superman (Flygon)/Skarm CBTar OHMolt RTZap WishToxJira Gon ===
+
+Flygon @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 220 Def / 36 Spe  
+Impish Nature  
+- Protect  
+- Toxic  
+- Earthquake  
+- Rock Slide  
+
+Tyranitar @ Choice Band  
+Ability: Sand Stream  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Earthquake  
+- Rock Slide  
+- Hidden Power [Ghost]  
+- Focus Punch  
+
+Skarmory  
+Ability: Keen Eye  
+EVs: 248 HP / 252 SpD / 8 Spe  
+Careful Nature  
+IVs: 0 Atk  
+- Spikes  
+- Thief  
+- Drill Peck  
+- Roar  
+
+Jirachi @ Leftovers  
+Ability: Serene Grace  
+EVs: 252 HP / 88 Def / 136 SpD / 32 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Wish  
+- Protect  
+- Toxic  
+- Fire Punch  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 236 SpD / 32 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Rest  
+- Sleep Talk  
+- Thunderbolt  
+- Roar  
+
+Moltres @ Leftovers  
+Ability: Pressure  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Will-O-Wisp  
+- Flamethrower  
+- Hidden Power [Grass]  
+- Overheat  
+
+
+=== [gen3ou] Superman (Flygon)/Skarm BBUZard RestZap MixSubJira Gon WishBliss ===
+
+Flygon @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 220 Def / 36 Spe  
+Impish Nature  
+- Protect  
+- Toxic  
+- Earthquake  
+- Rock Slide  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 248 HP / 252 SpD / 8 Spe  
+Careful Nature  
+- Spikes  
+- Toxic  
+- Drill Peck  
+- Roar  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 212 HP / 252 Def / 44 SpA  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Wish  
+- Seismic Toss  
+- Ice Beam  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 236 SpD / 32 Spe  
+Calm Nature  
+IVs: 2 Atk / 30 SpA  
+- Rest  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Roar  
+
+Jirachi @ Leftovers  
+Ability: Serene Grace  
+EVs: 252 HP / 192 SpA / 28 SpD / 36 Spe  
+Mild Nature  
+- Substitute  
+- Thunder  
+- Hidden Power [Grass]  
+- Dynamic Punch  
+
+Charizard @ Leftovers  
+Ability: Blaze  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Mild Nature  
+- Flamethrower  
+- Hidden Power [Grass]  
+- Brick Break  
+- Beat Up  
+
+
+=== [gen3ou] Superman (Flygon)/Skarm SubTar RestZap SubJira Gon WishBliss ===
+
+Skarmory  
+Ability: Keen Eye  
+EVs: 248 HP / 252 SpD / 8 Spe  
+Careful Nature  
+- Spikes  
+- Thief  
+- Drill Peck  
+- Roar  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 252 HP / 84 Atk / 172 Spe  
+Adamant Nature  
+IVs: 30 SpD / 30 Spe  
+- Substitute  
+- Rock Slide  
+- Hidden Power [Bug]  
+- Focus Punch  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 184 HP / 252 Def / 44 SpA / 28 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Wish  
+- Seismic Toss  
+- Ice Beam  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 236 SpD / 32 Spe  
+Calm Nature  
+IVs: 2 Atk / 30 SpA  
+- Rest  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Roar  
+
+Jirachi @ Leftovers  
+Ability: Serene Grace  
+EVs: 252 HP / 192 SpA / 28 SpD / 36 Spe  
+Mild Nature  
+- Substitute  
+- Thunder  
+- Hidden Power [Grass]  
+- Dynamic Punch  
+
+Flygon @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 220 Def / 36 Spe  
+Impish Nature  
+- Protect  
+- Earthquake  
+- Rock Slide  
+- Hidden Power [Ghost]  
+
+
+=== [gen3ou] Superman (Flygon)/Skarm SuitTar Aero Gon StalkZap SpDJira ===
+
+Aerodactyl @ Choice Band  
+Ability: Rock Head  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Rock Slide  
+- Hidden Power [Bug]  
+- Double-Edge  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 240 HP / 16 Def / 252 SpA  
+Modest Nature  
+IVs: 0 Atk  
+- Crunch  
+- Pursuit  
+- Flamethrower  
+- Roar  
+
+Skarmory  
+Ability: Keen Eye  
+EVs: 248 HP / 252 SpD / 8 Spe  
+Careful Nature  
+- Spikes  
+- Thief  
+- Drill Peck  
+- Roar  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 236 SpD / 32 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Rest  
+- Sleep Talk  
+- Thunderbolt  
+- Roar  
+
+Jirachi @ Leftovers  
+Ability: Serene Grace  
+EVs: 252 HP / 88 Def / 136 SpD / 32 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Wish  
+- Protect  
+- Toxic  
+- Fire Punch  
+
+Flygon @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 220 Def / 36 Spe  
+Impish Nature  
+- Protect  
+- Earthquake  
+- Rock Slide  
+- Hidden Power [Ghost]  
+
+
+=== [gen3ou] Superman (Flygon)/Skarm SuitTar Aero RestZap CMBliss Gon ===
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 236 SpD / 32 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Rest  
+- Light Screen  
+- Toxic  
+- Thunderbolt  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 240 HP / 16 Def / 252 SpA  
+Modest Nature  
+IVs: 0 Atk  
+- Crunch  
+- Pursuit  
+- Flamethrower  
+- Roar  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 248 HP / 252 SpD / 8 Spe  
+Careful Nature  
+- Spikes  
+- Protect  
+- Drill Peck  
+- Roar  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 248 SpA / 8 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Calm Mind  
+- Ice Beam  
+- Thunderbolt  
+
+Flygon @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 220 Def / 36 Spe  
+Impish Nature  
+- Protect  
+- Toxic  
+- Earthquake  
+- Rock Slide  
+
+Aerodactyl @ Choice Band  
+Ability: Rock Head  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Rock Slide  
+- Hidden Power [Bug]  
+- Double-Edge  
+
+
+=== [gen3ou] Superman (Flygon)/Skarm Missy RestZap FearJira Gon AromaBliss ===
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+- Spikes  
+- Protect  
+- Drill Peck  
+- Roar  
+
+Misdreavus @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 4 Def / 252 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Rest  
+- Thunderbolt  
+- Mean Look  
+- Perish Song  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 212 HP / 252 Def / 44 SpA  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Aromatherapy  
+- Seismic Toss  
+- Ice Beam  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 236 SpD / 32 Spe  
+Calm Nature  
+IVs: 2 Atk / 30 SpA  
+- Rest  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Roar  
+
+Jirachi @ Leftovers  
+Ability: Serene Grace  
+EVs: 252 HP / 180 Def / 40 SpA / 36 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Wish  
+- Protect  
+- Toxic  
+- Fire Punch  
+
+Flygon @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 224 Def / 32 Spe  
+Impish Nature  
+- Protect  
+- Toxic  
+- Earthquake  
+- Rock Slide  
+
+
+=== [gen3ou] Superman (Flygon)/SkarmGar Aero RestZap Gon AromaBliss ===
+
+Aerodactyl @ Choice Band  
+Ability: Rock Head  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Rock Slide  
+- Hidden Power [Bug]  
+- Double-Edge  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 248 HP / 252 SpD / 8 Spe  
+Careful Nature  
+- Spikes  
+- Protect  
+- Drill Peck  
+- Roar  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 248 HP / 52 Atk / 112 SpD / 96 Spe  
+Hasty Nature  
+- Will-O-Wisp  
+- Thunder  
+- Giga Drain  
+- Explosion  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 212 HP / 252 Def / 44 SpA  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Aromatherapy  
+- Seismic Toss  
+- Ice Beam  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 236 SpD / 32 Spe  
+Calm Nature  
+IVs: 2 Atk / 30 SpA  
+- Rest  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Roar  
+
+Flygon @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 220 Def / 36 Spe  
+Impish Nature  
+- Protect  
+- Toxic  
+- Earthquake  
+- Rock Slide  
+
+
+=== [gen3ou] Superman (Flygon)/SkarmGar Aero RestZap Gon WishJira ===
+
+Aerodactyl @ Choice Band  
+Ability: Rock Head  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Rock Slide  
+- Hidden Power [Bug]  
+- Double-Edge  
+
+Skarmory  
+Ability: Keen Eye  
+EVs: 248 HP / 252 SpD / 8 Spe  
+Careful Nature  
+- Spikes  
+- Thief  
+- Drill Peck  
+- Roar  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 248 HP / 52 Atk / 112 SpD / 96 Spe  
+Hasty Nature  
+- Will-O-Wisp  
+- Thunder  
+- Giga Drain  
+- Explosion  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 236 SpD / 32 Spe  
+Calm Nature  
+IVs: 2 Atk / 30 SpA  
+- Rest  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Roar  
+
+Jirachi @ Leftovers  
+Ability: Serene Grace  
+EVs: 252 HP / 88 Def / 136 SpD / 32 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Wish  
+- Protect  
+- Toxic  
+- Fire Punch  
+
+Flygon @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 220 Def / 36 Spe  
+Impish Nature  
+- Protect  
+- Toxic  
+- Earthquake  
+- Rock Slide  
+
+
+=== [gen3ou] Superman (Flygon)/SkarmGar RestZap Gon FearJira AromaBliss ===
+
+Flygon @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 220 Def / 36 Spe  
+Lax Nature  
+- Protect  
+- Earthquake  
+- Rock Slide  
+- Fire Blast  
+
+Skarmory  
+Ability: Keen Eye  
+EVs: 240 HP / 252 SpD / 16 Spe  
+Careful Nature  
+- Spikes  
+- Thief  
+- Drill Peck  
+- Roar  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 248 HP / 52 Atk / 112 SpD / 96 Spe  
+Hasty Nature  
+- Will-O-Wisp  
+- Thunder  
+- Giga Drain  
+- Explosion  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 212 HP / 252 Def / 44 SpA  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Aromatherapy  
+- Seismic Toss  
+- Ice Beam  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 236 SpD / 32 Spe  
+Calm Nature  
+IVs: 2 Atk / 30 SpA  
+- Rest  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Roar  
+
+Jirachi @ Leftovers  
+Ability: Serene Grace  
+EVs: 252 HP / 180 Def / 40 SpA / 36 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Wish  
+- Protect  
+- Toxic  
+- Fire Punch  
+
+
+=== [gen3ou] Superman (Flygon)/SkarmGar OHMolt RTZap Gon ToxJira ===
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 236 SpD / 32 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Rest  
+- Sleep Talk  
+- Thunderbolt  
+- Roar  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 248 HP / 252 SpD / 8 Spe  
+Careful Nature  
+- Spikes  
+- Protect  
+- Drill Peck  
+- Roar  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 248 HP / 52 Atk / 112 SpD / 96 Spe  
+Hasty Nature  
+IVs: 0 Atk  
+- Will-O-Wisp  
+- Thunderbolt  
+- Giga Drain  
+- Explosion  
+
+Jirachi @ Leftovers  
+Ability: Serene Grace  
+EVs: 252 HP / 88 Def / 136 SpD / 32 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Wish  
+- Protect  
+- Toxic  
+- Fire Punch  
+
+Flygon @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 220 Def / 36 Spe  
+Impish Nature  
+- Protect  
+- Earthquake  
+- Rock Slide  
+- Hidden Power [Ghost]  
+
+Moltres @ Leftovers  
+Ability: Pressure  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Will-O-Wisp  
+- Flamethrower  
+- Hidden Power [Grass]  
+- Overheat  
+
+

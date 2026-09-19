@@ -1,0 +1,1456 @@
+=== [gen3ru] Rapidash + top teammates ===
+
+Rapidash @ Lum Berry
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naive Nature
+- Hidden Power Ground
+- Fire Blast
+- Quick Attack
+- Double-Edge
+
+Raichu @ Leftovers
+Ability: Static
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Thunderbolt
+- Hidden Power Ice
+- Substitute
+- Encore
+
+Glalie @ Leftovers
+Ability: Inner Focus
+EVs: 252 HP / 4 SpD / 252 Spe
+Jolly Nature
+- Spikes
+- Explosion
+- Earthquake
+- Taunt
+
+Hitmonchan @ Leftovers
+Ability: Keen Eye
+EVs: 196 HP / 96 Atk / 80 SpD / 136 Spe
+Adamant Nature
+- Mach Punch
+- Sky Uppercut
+- Hidden Power Ghost
+- Bulk Up
+
+Haunter @ Salac Berry
+Ability: Levitate
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Psychic
+- Endure
+- Explosion
+
+Xatu @ Leftovers
+Ability: Synchronize
+EVs: 252 HP / 236 Def / 20 Spe
+Bold Nature
+- Psychic
+- Hidden Power Fire
+- Calm Mind
+- Rest
+
+=== [gen3ru] Glalie + top teammates ===
+
+Glalie @ Leftovers
+Ability: Inner Focus
+EVs: 252 HP / 4 SpD / 252 Spe
+Jolly Nature
+- Spikes
+- Explosion
+- Earthquake
+- Taunt
+
+Rapidash @ Lum Berry
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naive Nature
+- Hidden Power Ground
+- Fire Blast
+- Quick Attack
+- Double-Edge
+
+Raichu @ Leftovers
+Ability: Static
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Thunderbolt
+- Hidden Power Ice
+- Substitute
+- Encore
+
+Politoed @ Leftovers
+Ability: Damp
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Surf
+- Toxic
+- Hidden Power Electric
+- Ice Beam
+
+Haunter @ Salac Berry
+Ability: Levitate
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Psychic
+- Endure
+- Explosion
+
+Metang @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 96 Def / 160 SpD
+Impish Nature
+- Meteor Mash
+- Earthquake
+- Toxic
+- Protect
+
+=== [gen3ru] Raichu + top teammates ===
+
+Raichu @ Leftovers
+Ability: Static
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Thunderbolt
+- Hidden Power Ice
+- Substitute
+- Encore
+
+Rapidash @ Lum Berry
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naive Nature
+- Hidden Power Ground
+- Fire Blast
+- Quick Attack
+- Double-Edge
+
+Glalie @ Leftovers
+Ability: Inner Focus
+EVs: 252 HP / 4 SpD / 252 Spe
+Jolly Nature
+- Spikes
+- Explosion
+- Earthquake
+- Taunt
+
+Haunter @ Salac Berry
+Ability: Levitate
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Psychic
+- Endure
+- Explosion
+
+Xatu @ Leftovers
+Ability: Synchronize
+EVs: 252 HP / 236 Def / 20 Spe
+Bold Nature
+- Psychic
+- Hidden Power Fire
+- Calm Mind
+- Rest
+
+Poliwrath @ Leftovers
+Ability: Damp
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Brick Break
+- Hidden Power Ghost
+- Belly Drum
+- Substitute
+
+=== [gen3ru] Poliwrath + top teammates ===
+
+Poliwrath @ Leftovers
+Ability: Damp
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Brick Break
+- Hidden Power Ghost
+- Belly Drum
+- Substitute
+
+Rapidash @ Lum Berry
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naive Nature
+- Hidden Power Ground
+- Fire Blast
+- Quick Attack
+- Double-Edge
+
+Clefable @ Leftovers
+Ability: Cute Charm
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+- Soft-Boiled
+- Seismic Toss
+- Thunder Wave
+- Encore
+
+Glalie @ Leftovers
+Ability: Inner Focus
+EVs: 252 HP / 4 SpD / 252 Spe
+Jolly Nature
+- Spikes
+- Explosion
+- Earthquake
+- Taunt
+
+Raichu @ Leftovers
+Ability: Static
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Thunderbolt
+- Hidden Power Ice
+- Substitute
+- Encore
+
+Victreebel @ Leftovers
+Ability: Chlorophyll
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Sleep Powder
+- Sludge Bomb
+- Hidden Power Ground
+- Swords Dance
+
+=== [gen3ru] Metang + top teammates ===
+
+Metang @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 96 Def / 160 SpD
+Impish Nature
+- Meteor Mash
+- Earthquake
+- Toxic
+- Protect
+
+Glalie @ Leftovers
+Ability: Inner Focus
+EVs: 252 HP / 4 SpD / 252 Spe
+Jolly Nature
+- Spikes
+- Explosion
+- Earthquake
+- Taunt
+
+Clefable @ Leftovers
+Ability: Cute Charm
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+- Soft-Boiled
+- Seismic Toss
+- Thunder Wave
+- Encore
+
+Rapidash @ Lum Berry
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naive Nature
+- Hidden Power Ground
+- Fire Blast
+- Quick Attack
+- Double-Edge
+
+Politoed @ Leftovers
+Ability: Damp
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Surf
+- Toxic
+- Hidden Power Electric
+- Ice Beam
+
+Victreebel @ Leftovers
+Ability: Chlorophyll
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Sleep Powder
+- Sludge Bomb
+- Hidden Power Ground
+- Swords Dance
+
+=== [gen3ru] Hitmonchan + top teammates ===
+
+Hitmonchan @ Leftovers
+Ability: Keen Eye
+EVs: 196 HP / 96 Atk / 80 SpD / 136 Spe
+Adamant Nature
+- Mach Punch
+- Sky Uppercut
+- Hidden Power Ghost
+- Bulk Up
+
+Rapidash @ Lum Berry
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naive Nature
+- Hidden Power Ground
+- Fire Blast
+- Quick Attack
+- Double-Edge
+
+Victreebel @ Leftovers
+Ability: Chlorophyll
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Sleep Powder
+- Sludge Bomb
+- Hidden Power Ground
+- Swords Dance
+
+Clefable @ Leftovers
+Ability: Cute Charm
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+- Soft-Boiled
+- Seismic Toss
+- Thunder Wave
+- Encore
+
+Raichu @ Leftovers
+Ability: Static
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Thunderbolt
+- Hidden Power Ice
+- Substitute
+- Encore
+
+Poliwrath @ Leftovers
+Ability: Damp
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Brick Break
+- Hidden Power Ghost
+- Belly Drum
+- Substitute
+
+=== [gen3ru] Haunter + top teammates ===
+
+Haunter @ Salac Berry
+Ability: Levitate
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Psychic
+- Endure
+- Explosion
+
+Glalie @ Leftovers
+Ability: Inner Focus
+EVs: 252 HP / 4 SpD / 252 Spe
+Jolly Nature
+- Spikes
+- Explosion
+- Earthquake
+- Taunt
+
+Rapidash @ Lum Berry
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naive Nature
+- Hidden Power Ground
+- Fire Blast
+- Quick Attack
+- Double-Edge
+
+Raichu @ Leftovers
+Ability: Static
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Thunderbolt
+- Hidden Power Ice
+- Substitute
+- Encore
+
+Politoed @ Leftovers
+Ability: Damp
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Surf
+- Toxic
+- Hidden Power Electric
+- Ice Beam
+
+Xatu @ Leftovers
+Ability: Synchronize
+EVs: 252 HP / 236 Def / 20 Spe
+Bold Nature
+- Psychic
+- Hidden Power Fire
+- Calm Mind
+- Rest
+
+=== [gen3ru] Xatu + top teammates ===
+
+Xatu @ Leftovers
+Ability: Synchronize
+EVs: 252 HP / 236 Def / 20 Spe
+Bold Nature
+- Psychic
+- Hidden Power Fire
+- Calm Mind
+- Rest
+
+Rapidash @ Lum Berry
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naive Nature
+- Hidden Power Ground
+- Fire Blast
+- Quick Attack
+- Double-Edge
+
+Glalie @ Leftovers
+Ability: Inner Focus
+EVs: 252 HP / 4 SpD / 252 Spe
+Jolly Nature
+- Spikes
+- Explosion
+- Earthquake
+- Taunt
+
+Raichu @ Leftovers
+Ability: Static
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Thunderbolt
+- Hidden Power Ice
+- Substitute
+- Encore
+
+Haunter @ Salac Berry
+Ability: Levitate
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Psychic
+- Endure
+- Explosion
+
+Clefable @ Leftovers
+Ability: Cute Charm
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+- Soft-Boiled
+- Seismic Toss
+- Thunder Wave
+- Encore
+
+=== [gen3ru] Clefable + top teammates ===
+
+Clefable @ Leftovers
+Ability: Cute Charm
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+- Soft-Boiled
+- Seismic Toss
+- Thunder Wave
+- Encore
+
+Poliwrath @ Leftovers
+Ability: Damp
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Brick Break
+- Hidden Power Ghost
+- Belly Drum
+- Substitute
+
+Metang @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 96 Def / 160 SpD
+Impish Nature
+- Meteor Mash
+- Earthquake
+- Toxic
+- Protect
+
+Rapidash @ Lum Berry
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naive Nature
+- Hidden Power Ground
+- Fire Blast
+- Quick Attack
+- Double-Edge
+
+Glalie @ Leftovers
+Ability: Inner Focus
+EVs: 252 HP / 4 SpD / 252 Spe
+Jolly Nature
+- Spikes
+- Explosion
+- Earthquake
+- Taunt
+
+Hitmonchan @ Leftovers
+Ability: Keen Eye
+EVs: 196 HP / 96 Atk / 80 SpD / 136 Spe
+Adamant Nature
+- Mach Punch
+- Sky Uppercut
+- Hidden Power Ghost
+- Bulk Up
+
+=== [gen3ru] Victreebel + top teammates ===
+
+Victreebel @ Leftovers
+Ability: Chlorophyll
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Sleep Powder
+- Sludge Bomb
+- Hidden Power Ground
+- Swords Dance
+
+Rapidash @ Lum Berry
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naive Nature
+- Hidden Power Ground
+- Fire Blast
+- Quick Attack
+- Double-Edge
+
+Hitmonchan @ Leftovers
+Ability: Keen Eye
+EVs: 196 HP / 96 Atk / 80 SpD / 136 Spe
+Adamant Nature
+- Mach Punch
+- Sky Uppercut
+- Hidden Power Ghost
+- Bulk Up
+
+Poliwrath @ Leftovers
+Ability: Damp
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Brick Break
+- Hidden Power Ghost
+- Belly Drum
+- Substitute
+
+Metang @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 96 Def / 160 SpD
+Impish Nature
+- Meteor Mash
+- Earthquake
+- Toxic
+- Protect
+
+Glalie @ Leftovers
+Ability: Inner Focus
+EVs: 252 HP / 4 SpD / 252 Spe
+Jolly Nature
+- Spikes
+- Explosion
+- Earthquake
+- Taunt
+
+=== [gen3ru] Pidgeot + top teammates ===
+
+Pidgeot @ Choice Band
+Ability: Keen Eye
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Double-Edge
+- Quick Attack
+- Hidden Power Flying
+- Return
+
+Rapidash @ Lum Berry
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naive Nature
+- Hidden Power Ground
+- Fire Blast
+- Quick Attack
+- Double-Edge
+
+Raichu @ Leftovers
+Ability: Static
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Thunderbolt
+- Hidden Power Ice
+- Substitute
+- Encore
+
+Metang @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 96 Def / 160 SpD
+Impish Nature
+- Meteor Mash
+- Earthquake
+- Toxic
+- Protect
+
+Xatu @ Leftovers
+Ability: Synchronize
+EVs: 252 HP / 236 Def / 20 Spe
+Bold Nature
+- Psychic
+- Hidden Power Fire
+- Calm Mind
+- Rest
+
+Victreebel @ Leftovers
+Ability: Chlorophyll
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Sleep Powder
+- Sludge Bomb
+- Hidden Power Ground
+- Swords Dance
+
+=== [gen3ru] Meganium + top teammates ===
+
+Meganium @ Leftovers
+Ability: Overgrow
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+- Swords Dance
+- Earthquake
+- Synthesis
+- Leech Seed
+
+Rapidash @ Lum Berry
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naive Nature
+- Hidden Power Ground
+- Fire Blast
+- Quick Attack
+- Double-Edge
+
+Glalie @ Leftovers
+Ability: Inner Focus
+EVs: 252 HP / 4 SpD / 252 Spe
+Jolly Nature
+- Spikes
+- Explosion
+- Earthquake
+- Taunt
+
+Politoed @ Leftovers
+Ability: Damp
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Surf
+- Toxic
+- Hidden Power Electric
+- Ice Beam
+
+Metang @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 96 Def / 160 SpD
+Impish Nature
+- Meteor Mash
+- Earthquake
+- Toxic
+- Protect
+
+Raichu @ Leftovers
+Ability: Static
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Thunderbolt
+- Hidden Power Ice
+- Substitute
+- Encore
+
+=== [gen3ru] Primeape + top teammates ===
+
+Primeape @ Salac Berry
+Ability: Vital Spirit
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Hidden Power Ghost
+- Earthquake
+- Reversal
+- Substitute
+
+Glalie @ Leftovers
+Ability: Inner Focus
+EVs: 252 HP / 4 SpD / 252 Spe
+Jolly Nature
+- Spikes
+- Explosion
+- Earthquake
+- Taunt
+
+Poliwrath @ Leftovers
+Ability: Damp
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Brick Break
+- Hidden Power Ghost
+- Belly Drum
+- Substitute
+
+Metang @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 96 Def / 160 SpD
+Impish Nature
+- Meteor Mash
+- Earthquake
+- Toxic
+- Protect
+
+Xatu @ Leftovers
+Ability: Synchronize
+EVs: 252 HP / 236 Def / 20 Spe
+Bold Nature
+- Psychic
+- Hidden Power Fire
+- Calm Mind
+- Rest
+
+Clefable @ Leftovers
+Ability: Cute Charm
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+- Soft-Boiled
+- Seismic Toss
+- Thunder Wave
+- Encore
+
+=== [gen3ru] Chimecho + top teammates ===
+
+Chimecho @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 188 Def / 24 SpD / 44 Spe
+Bold Nature
+- Psychic
+- Heal Bell
+- Protect
+- Toxic
+
+Sableye @ Leftovers
+Ability: Keen Eye
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Recover
+- Toxic
+- Seismic Toss
+- Knock Off
+
+Glalie @ Leftovers
+Ability: Inner Focus
+EVs: 252 HP / 4 SpD / 252 Spe
+Jolly Nature
+- Spikes
+- Explosion
+- Earthquake
+- Taunt
+
+Poliwrath @ Leftovers
+Ability: Damp
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Brick Break
+- Hidden Power Ghost
+- Belly Drum
+- Substitute
+
+Kabutops @ Leftovers
+Ability: Swift Swim
+EVs: 252 HP / 216 Def / 40 Spe
+Impish Nature
+- Rock Slide
+- Rapid Spin
+- Seismic Toss
+- Toxic
+
+Roselia @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 52 Def / 204 SpD
+Calm Nature
+- Spikes
+- Giga Drain
+- Synthesis
+- Stun Spore
+
+=== [gen3ru] Mantine + top teammates ===
+
+Mantine @ Leftovers
+Ability: Swift Swim
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+- Ice Beam
+- Rain Dance
+- Hidden Power Electric
+- Hydro Pump
+
+Glalie @ Leftovers
+Ability: Inner Focus
+EVs: 252 HP / 4 SpD / 252 Spe
+Jolly Nature
+- Spikes
+- Explosion
+- Earthquake
+- Taunt
+
+Raichu @ Leftovers
+Ability: Static
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Thunderbolt
+- Hidden Power Ice
+- Substitute
+- Encore
+
+Rapidash @ Lum Berry
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naive Nature
+- Hidden Power Ground
+- Fire Blast
+- Quick Attack
+- Double-Edge
+
+Haunter @ Salac Berry
+Ability: Levitate
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Psychic
+- Endure
+- Explosion
+
+Primeape @ Salac Berry
+Ability: Vital Spirit
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Hidden Power Ghost
+- Earthquake
+- Reversal
+- Substitute
+
+=== [gen3ru] Sableye + top teammates ===
+
+Sableye @ Leftovers
+Ability: Keen Eye
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Recover
+- Toxic
+- Seismic Toss
+- Knock Off
+
+Chimecho @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 188 Def / 24 SpD / 44 Spe
+Bold Nature
+- Psychic
+- Heal Bell
+- Protect
+- Toxic
+
+Clefable @ Leftovers
+Ability: Cute Charm
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+- Soft-Boiled
+- Seismic Toss
+- Thunder Wave
+- Encore
+
+Roselia @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 52 Def / 204 SpD
+Calm Nature
+- Spikes
+- Giga Drain
+- Synthesis
+- Stun Spore
+
+Kabutops @ Leftovers
+Ability: Swift Swim
+EVs: 252 HP / 216 Def / 40 Spe
+Impish Nature
+- Rock Slide
+- Rapid Spin
+- Seismic Toss
+- Toxic
+
+Poliwrath @ Leftovers
+Ability: Damp
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Brick Break
+- Hidden Power Ghost
+- Belly Drum
+- Substitute
+
+=== [gen3ru] Stantler + top teammates ===
+
+Stantler @ Choice Band
+Ability: Intimidate
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Shadow Ball
+- Double-Edge
+- Toxic
+
+Glalie @ Leftovers
+Ability: Inner Focus
+EVs: 252 HP / 4 SpD / 252 Spe
+Jolly Nature
+- Spikes
+- Explosion
+- Earthquake
+- Taunt
+
+Raichu @ Leftovers
+Ability: Static
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Thunderbolt
+- Hidden Power Ice
+- Substitute
+- Encore
+
+Poliwrath @ Leftovers
+Ability: Damp
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Brick Break
+- Hidden Power Ghost
+- Belly Drum
+- Substitute
+
+Rapidash @ Lum Berry
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naive Nature
+- Hidden Power Ground
+- Fire Blast
+- Quick Attack
+- Double-Edge
+
+Victreebel @ Leftovers
+Ability: Chlorophyll
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Sleep Powder
+- Sludge Bomb
+- Hidden Power Ground
+- Swords Dance
+
+=== [gen3ru] Mr. Mime + top teammates ===
+
+Mr. Mime @ Leftovers
+Ability: Soundproof
+EVs: 252 HP / 40 Def / 216 Spe
+Timid Nature
+- Taunt
+- Psychic
+- Reflect
+- Fire Punch
+
+Poliwrath @ Leftovers
+Ability: Damp
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Brick Break
+- Hidden Power Ghost
+- Belly Drum
+- Substitute
+
+Victreebel @ Leftovers
+Ability: Chlorophyll
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Sleep Powder
+- Sludge Bomb
+- Hidden Power Ground
+- Swords Dance
+
+Hitmonchan @ Leftovers
+Ability: Keen Eye
+EVs: 196 HP / 96 Atk / 80 SpD / 136 Spe
+Adamant Nature
+- Mach Punch
+- Sky Uppercut
+- Hidden Power Ghost
+- Bulk Up
+
+Rapidash @ Lum Berry
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naive Nature
+- Hidden Power Ground
+- Fire Blast
+- Quick Attack
+- Double-Edge
+
+Pupitar @ Liechi Berry
+Ability: Shed Skin
+EVs: 12 HP / 248 Atk / 248 Spe
+Jolly Nature
+- Dragon Dance
+- Earthquake
+- Rock Slide
+- Substitute
+
+=== [gen3ru] Persian + top teammates ===
+
+Persian @ Choice Band
+Ability: Limber
+EVs: 80 HP / 252 Atk / 176 Spe
+Jolly Nature
+- Shadow Ball
+- Hidden Power Ground
+- Return
+- Double-Edge
+
+Glalie @ Leftovers
+Ability: Inner Focus
+EVs: 252 HP / 4 SpD / 252 Spe
+Jolly Nature
+- Spikes
+- Explosion
+- Earthquake
+- Taunt
+
+Haunter @ Salac Berry
+Ability: Levitate
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Psychic
+- Endure
+- Explosion
+
+Stantler @ Choice Band
+Ability: Intimidate
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Shadow Ball
+- Double-Edge
+- Toxic
+
+Politoed @ Leftovers
+Ability: Damp
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Surf
+- Toxic
+- Hidden Power Electric
+- Ice Beam
+
+Metang @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 96 Def / 160 SpD
+Impish Nature
+- Meteor Mash
+- Earthquake
+- Toxic
+- Protect
+
+=== [gen3ru] Camerupt + top teammates ===
+
+Camerupt @ Leftovers
+Ability: Magma Armor
+EVs: 252 HP / 4 SpA / 252 SpD
+Sassy Nature
+- Earthquake
+- Toxic
+- Fire Blast
+- Explosion
+
+Xatu @ Leftovers
+Ability: Synchronize
+EVs: 252 HP / 236 Def / 20 Spe
+Bold Nature
+- Psychic
+- Hidden Power Fire
+- Calm Mind
+- Rest
+
+Raichu @ Leftovers
+Ability: Static
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Thunderbolt
+- Hidden Power Ice
+- Substitute
+- Encore
+
+Primeape @ Salac Berry
+Ability: Vital Spirit
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Hidden Power Ghost
+- Earthquake
+- Reversal
+- Substitute
+
+Mantine @ Leftovers
+Ability: Swift Swim
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+- Ice Beam
+- Rain Dance
+- Hidden Power Electric
+- Hydro Pump
+
+Sharpedo @ Choice Band
+Ability: Rough Skin
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Crunch
+- Ice Beam
+- Hydro Pump
+- Earthquake
+
+=== [gen3ru] Swalot + top teammates ===
+
+Swalot @ Leftovers
+Ability: Sticky Hold
+EVs: 176 HP / 220 Atk / 112 SpD
+Careful Nature
+- Sludge Bomb
+- Explosion
+- Shadow Ball
+- Counter
+
+Rapidash @ Lum Berry
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naive Nature
+- Hidden Power Ground
+- Fire Blast
+- Quick Attack
+- Double-Edge
+
+Poliwrath @ Leftovers
+Ability: Damp
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Brick Break
+- Hidden Power Ghost
+- Belly Drum
+- Substitute
+
+Raichu @ Leftovers
+Ability: Static
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Thunderbolt
+- Hidden Power Ice
+- Substitute
+- Encore
+
+Pidgeot @ Choice Band
+Ability: Keen Eye
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Double-Edge
+- Quick Attack
+- Hidden Power Flying
+- Return
+
+Meganium @ Leftovers
+Ability: Overgrow
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+- Swords Dance
+- Earthquake
+- Synthesis
+- Leech Seed
+
+=== [gen3ru] Whiscash + top teammates ===
+
+Whiscash @ Leftovers
+Ability: Oblivious
+EVs: 172 HP / 148 Atk / 144 SpA / 44 Spe
+Mild Nature
+- Earthquake
+- Toxic
+- Surf
+- Substitute
+
+Rapidash @ Lum Berry
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naive Nature
+- Hidden Power Ground
+- Fire Blast
+- Quick Attack
+- Double-Edge
+
+Raichu @ Leftovers
+Ability: Static
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Thunderbolt
+- Hidden Power Ice
+- Substitute
+- Encore
+
+Xatu @ Leftovers
+Ability: Synchronize
+EVs: 252 HP / 236 Def / 20 Spe
+Bold Nature
+- Psychic
+- Hidden Power Fire
+- Calm Mind
+- Rest
+
+Haunter @ Salac Berry
+Ability: Levitate
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Psychic
+- Endure
+- Explosion
+
+Pidgeot @ Choice Band
+Ability: Keen Eye
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Double-Edge
+- Quick Attack
+- Hidden Power Flying
+- Return
+
+=== [gen3ru] Azumarill + top teammates ===
+
+Azumarill @ Choice Band
+Ability: Huge Power
+EVs: 172 HP / 252 Atk / 84 Spe
+Adamant Nature
+- Double-Edge
+- Brick Break
+- Hidden Power Ghost
+- Body Slam
+
+Rapidash @ Lum Berry
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naive Nature
+- Hidden Power Ground
+- Fire Blast
+- Quick Attack
+- Double-Edge
+
+Xatu @ Leftovers
+Ability: Synchronize
+EVs: 252 HP / 236 Def / 20 Spe
+Bold Nature
+- Psychic
+- Hidden Power Fire
+- Calm Mind
+- Rest
+
+Meganium @ Leftovers
+Ability: Overgrow
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+- Swords Dance
+- Earthquake
+- Synthesis
+- Leech Seed
+
+Clefable @ Leftovers
+Ability: Cute Charm
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+- Soft-Boiled
+- Seismic Toss
+- Thunder Wave
+- Encore
+
+Raichu @ Leftovers
+Ability: Static
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Thunderbolt
+- Hidden Power Ice
+- Substitute
+- Encore
+
+=== [gen3ru] Magmar + top teammates ===
+
+Magmar @ Leftovers
+Ability: Flame Body
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Thunder Punch
+- Fire Blast
+- Hidden Power Water
+- Toxic
+
+Glalie @ Leftovers
+Ability: Inner Focus
+EVs: 252 HP / 4 SpD / 252 Spe
+Jolly Nature
+- Spikes
+- Explosion
+- Earthquake
+- Taunt
+
+Metang @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 96 Def / 160 SpD
+Impish Nature
+- Meteor Mash
+- Earthquake
+- Toxic
+- Protect
+
+Chimecho @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 188 Def / 24 SpD / 44 Spe
+Bold Nature
+- Psychic
+- Heal Bell
+- Protect
+- Toxic
+
+Rapidash @ Lum Berry
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naive Nature
+- Hidden Power Ground
+- Fire Blast
+- Quick Attack
+- Double-Edge
+
+Victreebel @ Leftovers
+Ability: Chlorophyll
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Sleep Powder
+- Sludge Bomb
+- Hidden Power Ground
+- Swords Dance
+
+=== [gen3ru] Banette + top teammates ===
+
+Banette @ Leftovers
+Ability: Insomnia
+EVs: 116 HP / 252 Atk / 140 Spe
+Adamant Nature
+- Shadow Ball
+- Hidden Power Fighting
+- Will-O-Wisp
+- Substitute
+
+Glalie @ Leftovers
+Ability: Inner Focus
+EVs: 252 HP / 4 SpD / 252 Spe
+Jolly Nature
+- Spikes
+- Explosion
+- Earthquake
+- Taunt
+
+Raichu @ Leftovers
+Ability: Static
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Thunderbolt
+- Hidden Power Ice
+- Substitute
+- Encore
+
+Poliwrath @ Leftovers
+Ability: Damp
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Brick Break
+- Hidden Power Ghost
+- Belly Drum
+- Substitute
+
+Rapidash @ Lum Berry
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naive Nature
+- Hidden Power Ground
+- Fire Blast
+- Quick Attack
+- Double-Edge
+
+Clefable @ Leftovers
+Ability: Cute Charm
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+- Soft-Boiled
+- Seismic Toss
+- Thunder Wave
+- Encore
+
+=== [gen3ru] Pupitar + top teammates ===
+
+Pupitar @ Liechi Berry
+Ability: Shed Skin
+EVs: 12 HP / 248 Atk / 248 Spe
+Jolly Nature
+- Dragon Dance
+- Earthquake
+- Rock Slide
+- Substitute
+
+Victreebel @ Leftovers
+Ability: Chlorophyll
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Sleep Powder
+- Sludge Bomb
+- Hidden Power Ground
+- Swords Dance
+
+Poliwrath @ Leftovers
+Ability: Damp
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Brick Break
+- Hidden Power Ghost
+- Belly Drum
+- Substitute
+
+Poliwhirl @ Salac Berry
+Ability: Damp
+EVs: 252 Atk / 24 Def / 232 Spe
+Jolly Nature
+- Belly Drum
+- Earthquake
+- Hidden Power Flying
+- Endure
+
+Mr. Mime @ Leftovers
+Ability: Soundproof
+EVs: 252 HP / 40 Def / 216 Spe
+Timid Nature
+- Taunt
+- Psychic
+- Reflect
+- Fire Punch
+
+Hitmonchan @ Leftovers
+Ability: Keen Eye
+EVs: 196 HP / 96 Atk / 80 SpD / 136 Spe
+Adamant Nature
+- Mach Punch
+- Sky Uppercut
+- Hidden Power Ghost
+- Bulk Up
+

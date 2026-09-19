@@ -1,0 +1,1400 @@
+=== [gen3ubers] Kyogre + top teammates ===
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 248 HP / 96 Def / 56 SpA / 56 SpD / 52 Spe
+Timid Nature
+- Ice Beam
+- Thunder
+- Surf
+- Calm Mind
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Overheat
+
+Lugia @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def
+Relaxed Nature
+- Recover
+- Toxic
+- Calm Mind
+- Whirlwind
+
+Deoxys-Defense @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 36 Def / 176 SpD / 44 Spe
+Bold Nature
+- Toxic
+- Spikes
+- Recover
+- Protect
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Shadow Ball
+- Extreme Speed
+- Superpower
+- Psycho Boost
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 64 Atk / 16 Def / 96 SpD / 84 Spe
+Jolly Nature
+- Rock Slide
+- Earthquake
+- Dragon Dance
+- Ice Beam
+
+=== [gen3ubers] Ho-Oh + top teammates ===
+
+Ho-Oh @ Leftovers
+Ability: Pressure
+EVs: 248 HP / 96 Atk / 16 Def / 56 SpA / 64 SpD / 28 Spe
+Hardy Nature
+- Sacred Fire
+- Recover
+- Calm Mind
+- Thunder
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 248 HP / 96 Def / 56 SpA / 56 SpD / 52 Spe
+Timid Nature
+- Ice Beam
+- Thunder
+- Surf
+- Calm Mind
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Overheat
+
+Lugia @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def
+Relaxed Nature
+- Recover
+- Toxic
+- Calm Mind
+- Whirlwind
+
+Deoxys-Defense @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 36 Def / 176 SpD / 44 Spe
+Bold Nature
+- Toxic
+- Spikes
+- Recover
+- Protect
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Shadow Ball
+- Extreme Speed
+- Superpower
+- Psycho Boost
+
+=== [gen3ubers] Skarmory + top teammates ===
+
+Skarmory @ Leftovers
+Ability: Sturdy
+EVs: 48 HP / 16 Atk / 96 Def / 252 SpD / 96 Spe
+Careful Nature
+- Protect
+- Spikes
+- Toxic
+- Whirlwind
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 248 HP / 96 Def / 56 SpA / 56 SpD / 52 Spe
+Timid Nature
+- Ice Beam
+- Thunder
+- Surf
+- Calm Mind
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Overheat
+
+Lugia @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def
+Relaxed Nature
+- Recover
+- Toxic
+- Calm Mind
+- Whirlwind
+
+Deoxys-Defense @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 36 Def / 176 SpD / 44 Spe
+Bold Nature
+- Toxic
+- Spikes
+- Recover
+- Protect
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Shadow Ball
+- Extreme Speed
+- Superpower
+- Psycho Boost
+
+=== [gen3ubers] Mewtwo + top teammates ===
+
+Mewtwo @ Leftovers
+Ability: Pressure
+EVs: 248 HP / 8 SpA / 252 Spe
+Timid Nature
+- Ice Beam
+- Recover
+- Psychic
+- Substitute
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 248 HP / 96 Def / 56 SpA / 56 SpD / 52 Spe
+Timid Nature
+- Ice Beam
+- Thunder
+- Surf
+- Calm Mind
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Overheat
+
+Lugia @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def
+Relaxed Nature
+- Recover
+- Toxic
+- Calm Mind
+- Whirlwind
+
+Deoxys-Defense @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 36 Def / 176 SpD / 44 Spe
+Bold Nature
+- Toxic
+- Spikes
+- Recover
+- Protect
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Shadow Ball
+- Extreme Speed
+- Superpower
+- Psycho Boost
+
+=== [gen3ubers] Latios + top teammates ===
+
+Latios @ Soul Dew
+Ability: Levitate
+EVs: 232 HP / 96 Def / 16 SpA / 96 SpD / 68 Spe
+Timid Nature
+- Recover
+- Dragon Claw
+- Luster Purge
+- Thunder
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 248 HP / 96 Def / 56 SpA / 56 SpD / 52 Spe
+Timid Nature
+- Ice Beam
+- Thunder
+- Surf
+- Calm Mind
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Overheat
+
+Lugia @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def
+Relaxed Nature
+- Recover
+- Toxic
+- Calm Mind
+- Whirlwind
+
+Deoxys-Defense @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 36 Def / 176 SpD / 44 Spe
+Bold Nature
+- Toxic
+- Spikes
+- Recover
+- Protect
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Shadow Ball
+- Extreme Speed
+- Superpower
+- Psycho Boost
+
+=== [gen3ubers] Latias + top teammates ===
+
+Latias @ Soul Dew
+Ability: Levitate
+EVs: 252 HP / 252 Def / 4 Spe
+Bold Nature
+- Recover
+- Calm Mind
+- Dragon Claw
+- Refresh
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 248 HP / 96 Def / 56 SpA / 56 SpD / 52 Spe
+Timid Nature
+- Ice Beam
+- Thunder
+- Surf
+- Calm Mind
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Overheat
+
+Lugia @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def
+Relaxed Nature
+- Recover
+- Toxic
+- Calm Mind
+- Whirlwind
+
+Deoxys-Defense @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 36 Def / 176 SpD / 44 Spe
+Bold Nature
+- Toxic
+- Spikes
+- Recover
+- Protect
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Shadow Ball
+- Extreme Speed
+- Superpower
+- Psycho Boost
+
+=== [gen3ubers] Ludicolo + top teammates ===
+
+Ludicolo @ Leftovers
+Ability: Rain Dish
+EVs: 248 HP / 96 Def / 12 SpA / 56 SpD / 96 Spe
+Modest Nature
+- Surf
+- Giga Drain
+- Leech Seed
+- Ice Beam
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 248 HP / 96 Def / 56 SpA / 56 SpD / 52 Spe
+Timid Nature
+- Ice Beam
+- Thunder
+- Surf
+- Calm Mind
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Overheat
+
+Lugia @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def
+Relaxed Nature
+- Recover
+- Toxic
+- Calm Mind
+- Whirlwind
+
+Deoxys-Defense @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 36 Def / 176 SpD / 44 Spe
+Bold Nature
+- Toxic
+- Spikes
+- Recover
+- Protect
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Shadow Ball
+- Extreme Speed
+- Superpower
+- Psycho Boost
+
+=== [gen3ubers] Blissey + top teammates ===
+
+Blissey @ Leftovers
+Ability: Natural Cure
+EVs: 4 HP / 252 Def / 252 SpD
+Bold Nature
+- Soft-Boiled
+- Thunder Wave
+- Ice Beam
+- Aromatherapy
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 248 HP / 96 Def / 56 SpA / 56 SpD / 52 Spe
+Timid Nature
+- Ice Beam
+- Thunder
+- Surf
+- Calm Mind
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Overheat
+
+Lugia @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def
+Relaxed Nature
+- Recover
+- Toxic
+- Calm Mind
+- Whirlwind
+
+Deoxys-Defense @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 36 Def / 176 SpD / 44 Spe
+Bold Nature
+- Toxic
+- Spikes
+- Recover
+- Protect
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Shadow Ball
+- Extreme Speed
+- Superpower
+- Psycho Boost
+
+=== [gen3ubers] Celebi + top teammates ===
+
+Celebi @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 52 Def / 148 SpD / 56 Spe
+Bold Nature
+- Leech Seed
+- Heal Bell
+- Toxic
+- Recover
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 248 HP / 96 Def / 56 SpA / 56 SpD / 52 Spe
+Timid Nature
+- Ice Beam
+- Thunder
+- Surf
+- Calm Mind
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Overheat
+
+Lugia @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def
+Relaxed Nature
+- Recover
+- Toxic
+- Calm Mind
+- Whirlwind
+
+Deoxys-Defense @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 36 Def / 176 SpD / 44 Spe
+Bold Nature
+- Toxic
+- Spikes
+- Recover
+- Protect
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Shadow Ball
+- Extreme Speed
+- Superpower
+- Psycho Boost
+
+=== [gen3ubers] Crobat + top teammates ===
+
+Crobat @ Leftovers
+Ability: Inner Focus
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Substitute
+- Confuse Ray
+- Shadow Ball
+- Sludge Bomb
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 248 HP / 96 Def / 56 SpA / 56 SpD / 52 Spe
+Timid Nature
+- Ice Beam
+- Thunder
+- Surf
+- Calm Mind
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Overheat
+
+Lugia @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def
+Relaxed Nature
+- Recover
+- Toxic
+- Calm Mind
+- Whirlwind
+
+Deoxys-Defense @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 36 Def / 176 SpD / 44 Spe
+Bold Nature
+- Toxic
+- Spikes
+- Recover
+- Protect
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Shadow Ball
+- Extreme Speed
+- Superpower
+- Psycho Boost
+
+=== [gen3ubers] Registeel + top teammates ===
+
+Registeel @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 64 Def / 192 SpD
+Bold Nature
+- Rest
+- Toxic
+- Seismic Toss
+- Thunder Wave
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 248 HP / 96 Def / 56 SpA / 56 SpD / 52 Spe
+Timid Nature
+- Ice Beam
+- Thunder
+- Surf
+- Calm Mind
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Overheat
+
+Lugia @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def
+Relaxed Nature
+- Recover
+- Toxic
+- Calm Mind
+- Whirlwind
+
+Deoxys-Defense @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 36 Def / 176 SpD / 44 Spe
+Bold Nature
+- Toxic
+- Spikes
+- Recover
+- Protect
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Shadow Ball
+- Extreme Speed
+- Superpower
+- Psycho Boost
+
+=== [gen3ubers] Rayquaza + top teammates ===
+
+Rayquaza @ Leftovers
+Ability: Air Lock
+EVs: 232 HP / 36 Atk / 56 Def / 112 SpA / 56 SpD / 16 Spe
+Modest Nature
+- Earthquake
+- Outrage
+- Dragon Dance
+- Rock Slide
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 248 HP / 96 Def / 56 SpA / 56 SpD / 52 Spe
+Timid Nature
+- Ice Beam
+- Thunder
+- Surf
+- Calm Mind
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Overheat
+
+Lugia @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def
+Relaxed Nature
+- Recover
+- Toxic
+- Calm Mind
+- Whirlwind
+
+Deoxys-Defense @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 36 Def / 176 SpD / 44 Spe
+Bold Nature
+- Toxic
+- Spikes
+- Recover
+- Protect
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Shadow Ball
+- Extreme Speed
+- Superpower
+- Psycho Boost
+
+=== [gen3ubers] Exeggutor + top teammates ===
+
+Exeggutor @ Leftovers
+Ability: Chlorophyll
+EVs: 28 HP / 100 Atk / 24 SpA / 136 SpD / 220 Spe
+Mild Nature
+- Psychic
+- Solar Beam
+- Explosion
+- Hidden Power Fire
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 248 HP / 96 Def / 56 SpA / 56 SpD / 52 Spe
+Timid Nature
+- Ice Beam
+- Thunder
+- Surf
+- Calm Mind
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Overheat
+
+Lugia @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def
+Relaxed Nature
+- Recover
+- Toxic
+- Calm Mind
+- Whirlwind
+
+Deoxys-Defense @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 36 Def / 176 SpD / 44 Spe
+Bold Nature
+- Toxic
+- Spikes
+- Recover
+- Protect
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Shadow Ball
+- Extreme Speed
+- Superpower
+- Psycho Boost
+
+=== [gen3ubers] Metagross + top teammates ===
+
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Sludge Bomb
+- Explosion
+- Earthquake
+- Meteor Mash
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 248 HP / 96 Def / 56 SpA / 56 SpD / 52 Spe
+Timid Nature
+- Ice Beam
+- Thunder
+- Surf
+- Calm Mind
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Overheat
+
+Lugia @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def
+Relaxed Nature
+- Recover
+- Toxic
+- Calm Mind
+- Whirlwind
+
+Deoxys-Defense @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 36 Def / 176 SpD / 44 Spe
+Bold Nature
+- Toxic
+- Spikes
+- Recover
+- Protect
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Shadow Ball
+- Extreme Speed
+- Superpower
+- Psycho Boost
+
+=== [gen3ubers] Zapdos + top teammates ===
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 128 Atk / 124 SpD / 4 Spe
+Hasty Nature
+- Drill Peck
+- Thunder Wave
+- Thunderbolt
+- Roar
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 248 HP / 96 Def / 56 SpA / 56 SpD / 52 Spe
+Timid Nature
+- Ice Beam
+- Thunder
+- Surf
+- Calm Mind
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Overheat
+
+Lugia @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def
+Relaxed Nature
+- Recover
+- Toxic
+- Calm Mind
+- Whirlwind
+
+Deoxys-Defense @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 36 Def / 176 SpD / 44 Spe
+Bold Nature
+- Toxic
+- Spikes
+- Recover
+- Protect
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Shadow Ball
+- Extreme Speed
+- Superpower
+- Psycho Boost
+
+=== [gen3ubers] Medicham + top teammates ===
+
+Medicham @ Salac Berry
+Ability: Pure Power
+EVs: 252 Atk / 96 Def / 96 SpD / 64 Spe
+Adamant Nature
+- Shadow Ball
+- Rock Slide
+- Reversal
+- Endure
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 248 HP / 96 Def / 56 SpA / 56 SpD / 52 Spe
+Timid Nature
+- Ice Beam
+- Thunder
+- Surf
+- Calm Mind
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Overheat
+
+Lugia @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def
+Relaxed Nature
+- Recover
+- Toxic
+- Calm Mind
+- Whirlwind
+
+Deoxys-Defense @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 36 Def / 176 SpD / 44 Spe
+Bold Nature
+- Toxic
+- Spikes
+- Recover
+- Protect
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Shadow Ball
+- Extreme Speed
+- Superpower
+- Psycho Boost
+
+=== [gen3ubers] Gengar + top teammates ===
+
+Gengar @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 252 Spe
+Timid Nature
+- Taunt
+- Perish Song
+- Toxic
+- Mean Look
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 248 HP / 96 Def / 56 SpA / 56 SpD / 52 Spe
+Timid Nature
+- Ice Beam
+- Thunder
+- Surf
+- Calm Mind
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Overheat
+
+Lugia @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def
+Relaxed Nature
+- Recover
+- Toxic
+- Calm Mind
+- Whirlwind
+
+Deoxys-Defense @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 36 Def / 176 SpD / 44 Spe
+Bold Nature
+- Toxic
+- Spikes
+- Recover
+- Protect
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Shadow Ball
+- Extreme Speed
+- Superpower
+- Psycho Boost
+
+=== [gen3ubers] Suicune + top teammates ===
+
+Suicune @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def / 4 SpA
+Calm Nature
+- Calm Mind
+- Surf
+- Roar
+- Hidden Power Fire
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 248 HP / 96 Def / 56 SpA / 56 SpD / 52 Spe
+Timid Nature
+- Ice Beam
+- Thunder
+- Surf
+- Calm Mind
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Overheat
+
+Lugia @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def
+Relaxed Nature
+- Recover
+- Toxic
+- Calm Mind
+- Whirlwind
+
+Deoxys-Defense @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 36 Def / 176 SpD / 44 Spe
+Bold Nature
+- Toxic
+- Spikes
+- Recover
+- Protect
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Shadow Ball
+- Extreme Speed
+- Superpower
+- Psycho Boost
+
+=== [gen3ubers] Ninjask + top teammates ===
+
+Ninjask @ Leftovers
+Ability: Speed Boost
+EVs: 96 Atk / 96 Def / 96 SpD / 220 Spe
+Jolly Nature
+- Swords Dance
+- Substitute
+- Baton Pass
+- Silver Wind
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 248 HP / 96 Def / 56 SpA / 56 SpD / 52 Spe
+Timid Nature
+- Ice Beam
+- Thunder
+- Surf
+- Calm Mind
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Overheat
+
+Lugia @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def
+Relaxed Nature
+- Recover
+- Toxic
+- Calm Mind
+- Whirlwind
+
+Deoxys-Defense @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 36 Def / 176 SpD / 44 Spe
+Bold Nature
+- Toxic
+- Spikes
+- Recover
+- Protect
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Shadow Ball
+- Extreme Speed
+- Superpower
+- Psycho Boost
+
+=== [gen3ubers] Venusaur + top teammates ===
+
+Venusaur @ Leftovers
+Ability: Overgrow
+EVs: 252 HP / 4 Def / 252 SpD
+Bold Nature
+- Leech Seed
+- Solar Beam
+- Toxic
+- Synthesis
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 248 HP / 96 Def / 56 SpA / 56 SpD / 52 Spe
+Timid Nature
+- Ice Beam
+- Thunder
+- Surf
+- Calm Mind
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Overheat
+
+Lugia @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def
+Relaxed Nature
+- Recover
+- Toxic
+- Calm Mind
+- Whirlwind
+
+Deoxys-Defense @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 36 Def / 176 SpD / 44 Spe
+Bold Nature
+- Toxic
+- Spikes
+- Recover
+- Protect
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Shadow Ball
+- Extreme Speed
+- Superpower
+- Psycho Boost
+
+=== [gen3ubers] Blaziken + top teammates ===
+
+Blaziken @ Salac Berry
+Ability: Blaze
+EVs: 100 Atk / 180 SpA / 228 Spe
+Hasty Nature
+- Blaze Kick
+- Hidden Power Grass
+- Endure
+- Reversal
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 248 HP / 96 Def / 56 SpA / 56 SpD / 52 Spe
+Timid Nature
+- Ice Beam
+- Thunder
+- Surf
+- Calm Mind
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Overheat
+
+Lugia @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def
+Relaxed Nature
+- Recover
+- Toxic
+- Calm Mind
+- Whirlwind
+
+Deoxys-Defense @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 36 Def / 176 SpD / 44 Spe
+Bold Nature
+- Toxic
+- Spikes
+- Recover
+- Protect
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Shadow Ball
+- Extreme Speed
+- Superpower
+- Psycho Boost
+
+=== [gen3ubers] Forretress + top teammates ===
+
+Forretress @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 12 Atk / 244 SpD
+Impish Nature
+- Hidden Power Bug
+- Spikes
+- Counter
+- Rapid Spin
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 248 HP / 96 Def / 56 SpA / 56 SpD / 52 Spe
+Timid Nature
+- Ice Beam
+- Thunder
+- Surf
+- Calm Mind
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Overheat
+
+Lugia @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def
+Relaxed Nature
+- Recover
+- Toxic
+- Calm Mind
+- Whirlwind
+
+Deoxys-Defense @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 36 Def / 176 SpD / 44 Spe
+Bold Nature
+- Toxic
+- Spikes
+- Recover
+- Protect
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Shadow Ball
+- Extreme Speed
+- Superpower
+- Psycho Boost
+
+=== [gen3ubers] Mew + top teammates ===
+
+Mew @ Leftovers
+Ability: Synchronize
+EVs: 252 HP / 200 SpD / 56 Spe
+Modest Nature
+- Dragon Claw
+- Explosion
+- Light Screen
+- Roar
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 248 HP / 96 Def / 56 SpA / 56 SpD / 52 Spe
+Timid Nature
+- Ice Beam
+- Thunder
+- Surf
+- Calm Mind
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Overheat
+
+Lugia @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def
+Relaxed Nature
+- Recover
+- Toxic
+- Calm Mind
+- Whirlwind
+
+Deoxys-Defense @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 36 Def / 176 SpD / 44 Spe
+Bold Nature
+- Toxic
+- Spikes
+- Recover
+- Protect
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Shadow Ball
+- Extreme Speed
+- Superpower
+- Psycho Boost
+
+=== [gen3ubers] Kingdra + top teammates ===
+
+Kingdra @ Leftovers
+Ability: Swift Swim
+EVs: 248 HP / 80 Def / 56 SpD / 80 Spe
+Modest Nature
+- Ice Beam
+- Dragon Breath
+- Toxic
+- Hydro Pump
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 248 HP / 96 Def / 56 SpA / 56 SpD / 52 Spe
+Timid Nature
+- Ice Beam
+- Thunder
+- Surf
+- Calm Mind
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Overheat
+
+Lugia @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def
+Relaxed Nature
+- Recover
+- Toxic
+- Calm Mind
+- Whirlwind
+
+Deoxys-Defense @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 36 Def / 176 SpD / 44 Spe
+Bold Nature
+- Toxic
+- Spikes
+- Recover
+- Protect
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Shadow Ball
+- Extreme Speed
+- Superpower
+- Psycho Boost
+
+=== [gen3ubers] Aerodactyl + top teammates ===
+
+Aerodactyl @ Choice Band
+Ability: Rock Head
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Rock Slide
+- Earthquake
+- Roar
+- Double-Edge
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 248 HP / 96 Def / 56 SpA / 56 SpD / 52 Spe
+Timid Nature
+- Ice Beam
+- Thunder
+- Surf
+- Calm Mind
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Overheat
+
+Lugia @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def
+Relaxed Nature
+- Recover
+- Toxic
+- Calm Mind
+- Whirlwind
+
+Deoxys-Defense @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 36 Def / 176 SpD / 44 Spe
+Bold Nature
+- Toxic
+- Spikes
+- Recover
+- Protect
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Shadow Ball
+- Extreme Speed
+- Superpower
+- Psycho Boost
+

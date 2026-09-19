@@ -1,0 +1,57 @@
+Granbull @ Leftovers  
+Ability: Intimidate  
+EVs: 252 HP / 40 Atk / 216 Def  
+Adamant Nature  
+- Body Slam  
+- Thunder Wave  
+- Earthquake  
+- Heal Bell  
+
+Walrein @ Leftovers  
+Ability: Thick Fat  
+EVs: 252 HP / 152 SpD / 104 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Ice Beam  
+- Surf  
+- Toxic  
+- Encore  
+
+Omastar @ Leftovers  
+Ability: Shell Armor  
+EVs: 252 HP / 12 Def / 28 SpA / 216 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Surf  
+- Ice Beam  
+- Hidden Power [Grass]  
+- Spikes  
+
+Girafarig @ Leftovers  
+Ability: Early Bird  
+EVs: 252 HP / 252 Def / 4 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Rest  
+- Calm Mind  
+- Psychic  
+- Thunderbolt  
+
+Kangaskhan (F) @ Leftovers  
+Ability: Early Bird  
+EVs: 248 HP / 20 Atk / 112 Def / 128 SpD  
+Adamant Nature  
+- Double-Edge  
+- Earthquake  
+- Rest  
+- Toxic  
+
+Scyther @ Choice Band  
+Ability: Swarm  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Double-Edge  
+- Quick Attack  
+- Silver Wind  
+- Wing Attack  
+

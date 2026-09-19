@@ -1,0 +1,55 @@
+Stegosaur (Tyranitar) @ Lum Berry  
+Ability: Sand Stream  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Hasty Nature  
+- Ice Beam  
+- Hidden Power [Grass]  
+- Fire Blast  
+- Brick Break  
+
+Neochanna (Swampert) @ Salac Berry  
+Ability: Torrent  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Hydro Pump  
+- Ice Beam  
+- Substitute  
+- Endeavor  
+
+Crosshair (Metagross) @ Lum Berry  
+Ability: Clear Body  
+EVs: 160 HP / 236 SpA / 112 Spe  
+Quiet Nature  
+- Meteor Mash  
+- Psychic  
+- Hidden Power [Fire]  
+- Explosion  
+
+No Mercy (Salamence) @ Leftovers  
+Ability: Intimidate  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Naive Nature  
+- Dragon Claw  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Brick Break  
+
+Ted (Snorlax) @ Leftovers  
+Ability: Immunity  
+EVs: 32 HP / 220 Atk / 96 Def / 160 SpD  
+Adamant Nature  
+- Body Slam  
+- Focus Punch  
+- Shadow Ball  
+- Self-Destruct  
+
+Bell Gargoyle (Aerodactyl) @ Choice Band  
+Ability: Rock Head  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Double-Edge  
+- Earthquake  
+- Hidden Power [Bug]  
+- Rock Slide  
+

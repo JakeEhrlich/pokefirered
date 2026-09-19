@@ -1,0 +1,56 @@
+Hitmonchan (M) @ Lum Berry  
+Ability: Keen Eye  
+EVs: 196 HP / 252 Atk / 60 Spe  
+Adamant Nature  
+- Sky Uppercut  
+- Mach Punch  
+- Hidden Power [Ghost]  
+- Toxic  
+
+Metang @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 28 Def / 204 SpD / 24 Spe  
+Impish Nature  
+- Meteor Mash  
+- Earthquake  
+- Toxic  
+- Protect  
+
+Huntail @ Mystic Water  
+Ability: Swift Swim  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Modest Nature  
+IVs: 3 Atk / 30 SpA  
+- Surf  
+- Hidden Power [Electric]  
+- Substitute  
+- Rain Dance  
+
+Glalie @ Leftovers  
+Ability: Inner Focus  
+EVs: 128 HP / 128 Atk / 252 Spe  
+Jolly Nature  
+- Shadow Ball  
+- Explosion  
+- Taunt  
+- Spikes  
+
+Wailord @ Leftovers  
+Ability: Water Veil  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Modest Nature  
+IVs: 3 Atk / 30 SpA  
+- Hydro Pump  
+- Ice Beam  
+- Hidden Power [Electric]  
+- Substitute  
+
+Haunter @ Salac Berry  
+Ability: Levitate  
+EVs: 196 Def / 60 SpA / 252 Spe  
+Timid Nature  
+- Psychic  
+- Endure  
+- Explosion  
+- Rain Dance  
+

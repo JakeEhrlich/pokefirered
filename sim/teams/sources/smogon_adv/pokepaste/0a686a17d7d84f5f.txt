@@ -1,0 +1,56 @@
+Wailord @ Leftovers  
+Ability: Water Veil  
+EVs: 252 SpA / 192 SpD / 64 Spe  
+Modest Nature  
+- Hydro Pump  
+- Ice Beam  
+- Hidden Power [Electric]  
+- Self-Destruct  
+
+Flareon @ Charcoal  
+Ability: Flash Fire  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Hasty Nature  
+- Flamethrower  
+- Overheat  
+- Hidden Power [Electric]  
+- Return  
+
+Pidgeot @ Choice Band  
+Ability: Keen Eye  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Double-Edge  
+- Aerial Ace  
+- Hidden Power [Ground]  
+- Quick Attack  
+
+Glalie @ Leftovers  
+Ability: Inner Focus  
+EVs: 252 HP / 4 SpD / 252 Spe  
+Hasty Nature  
+- Spikes  
+- Earthquake  
+- Ice Beam  
+- Explosion  
+
+Haunter @ Magnet  
+Ability: Levitate  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Substitute  
+- Thunderbolt  
+- Psychic  
+- Destiny Bond  
+
+Chimecho @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 168 SpA / 64 SpD / 24 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Calm Mind  
+- Psychic  
+- Hidden Power [Fire]  
+- Yawn  
+

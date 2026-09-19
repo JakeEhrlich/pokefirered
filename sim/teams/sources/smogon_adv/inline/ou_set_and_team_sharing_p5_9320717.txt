@@ -1,0 +1,60 @@
+My excellent ADV Summer Seasonal run just ended, so I'm going to write about the teams I used and made during that time(not all were used in the tour). I'm also going to write about some of the sets I used or saw. I made it to R11 of the tour, even though this is just my second ever adv tour.
+
+Teams I Used for the Tournament
+
+CB Mence Balance by BKC
+
+Paste: https://pokepast.es/e410840bcc0ee02b
+W/L Record: 5-2
+This team really showcases the excellent combination of MetaMence. They can pivot into attacks for each other while still maintaining a serious offensive presence. Toxic Meta stops OffPert from wrecking you. Wish Bliss keeps both of them healthy. Good, reliable stuff.
+VenuForreAero
+
+Paste: See linear's team dumps.
+W/L Record: 5-2
+A good showcase of the VenuPert combination. Sp.Def Zapdos really hold this toghther vs MixMence. OffPert can be really scary though. Good Aerodactyl spikes team.
+
+Other Teams
+Aerodactyl Jolteon spikes by Cdijk16
+
+Paste: https://pokepast.es/f9d542d79148ea4a(SurfFocus Pert, current version)
+https://pokepast.es/5fc3fca59e393ec8  (4a DefPert, old version)
+First decent offensive team I made in adv. Spikes + Aero + DD Tar do an excellent job of wearing down rock resists like Metagross and Swampert. Surf Focus Swampert stops Blissey from healing while still providing reliable defensive utility. Gengar spinblocks and cleans, and Jolteon provides a good offensive check to Zapdos and opposing Gengar. Mostly standard Joltspikes stuff. My most used team on ladder.
+
+Starmie Jolteon spikes by Cdijk16
+
+Paste: https://pokepast.es/ca1726631bc0a5e6
+Starmie checks Zard and Moltres, allowing me to run Fire Punch on Gengar. The Metagross set probably could do with some adjustments. BKCTar hits Blissey and wears down Swampert with Focus Punch.  Good team, I use it for laddering a lot.
+
+MixRachi Jolteon spikes by Cdijk16
+
+Paste:  https://pokepast.es/31e6eccd899f22f1
+MixRachi provides a second Rock resist, allowing Swampert to be fully offensive. This is similar to  the Meta + OffPert pairing. Unlike Metagross, Jirachi can 2hko Milotic and Suicune with a bit of chip if Thunder Accuracy cooperates. The insane coverage makes it really tough for lot of teams(like GyaraLix) to switch in. Still not sure about the optimal 4 moves on Jirachi here though. The Tyranitar set could probably do with some adjustments. This also showcases the spread of 8 HP/192 Defense /116 Sp.Attack/192 speed on Gengar. This allows to check DD Mence and Gyara while still maintaining an offensive presence. 192 speed Jolly outruns Adamant DD Tar at +1. This needs a bit more time in the oven.
+
+Creative Sets I Used or Saw
+
+Offensive-Defensive Gengar
+
+Gengar @ Leftovers
+Ability: Levitate
+Hidden Power: Grass
+EVs: 8 HP / 192 Def / 116 SpA / 192 Spe
+Timid Nature
+- Thunderbolt
+- Ice Punch
+- Hidden Power [Grass]
+- Explosion
+Takes DD Mence and Gyara HP Flying at +1. 192 Jolly outruns Adamant DD Tar. Great for squishy offensive teams.
+
+CM SubToxic Entei by PkLeech
+
+Entei @ Leftovers
+Ability: Pressure
+EVs: 132 HP / 200 SpA / 176 Spe
+Modest Nature
+IVs: 0 Atk
+- Substitute
+- Calm Mind
+- Flamethrower
+- Toxic
+Great against Blissey. Sadly gets totally blanked by DefMie. Toxic gets over the HP Grass/HP Ice/HP Fighting conundrum. Not sure if it's good, but definitely a fun set. Hard to fit though. Great alongside SubCM Rachi.
+

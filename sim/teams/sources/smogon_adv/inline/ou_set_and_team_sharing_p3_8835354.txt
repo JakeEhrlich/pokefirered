@@ -1,0 +1,22 @@
+One underrated option on Moltres imo is agility. If your opponent doesn't have blissey, their counterplay to moltres usually consists of scaring it out with aero, starmie, mence.
+
+Moltres @ Leftovers
+Ability: Pressure
+EVs: 40 HP / 252 SpA / 216 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Flamethrower
+- Hidden Power [Grass]
+- Overheat
+- Agility
+
+Idea with this set is to get moltres in early game and click overheat. Modest overheat does a truckload of damage to all of these checks:
+
+252+ SpA Moltres Overheat vs. 0 HP / 0- SpD Salamence: 163-192 (49.2 - 58%) -- 61.3% chance to 2HKO after Leftovers recovery
+
+252+ SpA Moltres Overheat vs. 4 HP / 0 SpD Starmie: 140-165 (53.4 - 62.9%) -- guaranteed 2HKO after Leftovers recovery
+
+252+ SpA Moltres Overheat vs. 4 HP / 0 SpD Aerodactyl: 155-183 (51.4 - 60.7%) -- guaranteed 2HKO
+
+Once you've hit their initial check with overheat (sand is pretty much required for this set), against a large portion of teams you can sweep late game with agility. You can pull off some pretty cheeky agilities, like baiting a protect from swampert thinking that you will just immediately hp grass. Definitely pair this with spikes to get the crucial damage on mons like ttar and suicune. I personally like pairing this with cloyster and gengar, cloy for easy spikes on bulky waters and gengar for baiting in blissey and either wearing it down with taunt + wisp or just booming on it, depending on your preference. EVs outspeed max speed neutral nature heracross and suicune.
+

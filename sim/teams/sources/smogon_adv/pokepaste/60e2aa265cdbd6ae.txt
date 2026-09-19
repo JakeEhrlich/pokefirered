@@ -1,0 +1,58 @@
+Pikachu @ Light Ball  
+Ability: Static  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 Def  
+- Volt Tackle  
+- Toxic  
+- Substitute  
+- Hidden Power [Ice]  
+
+Pelipper @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 252 Def / 4 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Ice Beam  
+- Rest  
+- Sleep Talk  
+
+Metang @ Leftovers  
+Ability: Clear Body  
+EVs: 132 HP / 252 Atk / 124 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Explosion  
+- Agility  
+
+Roselia @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 20 Def / 236 SpD  
+Calm Nature  
+IVs: 2 Atk / 30 SpA  
+- Spikes  
+- Synthesis  
+- Hidden Power [Grass]  
+- Stun Spore  
+
+Kecleon @ Leftovers  
+Ability: Color Change  
+EVs: 216 HP / 48 Atk / 240 SpD / 4 Spe  
+Careful Nature  
+- Thunder Wave  
+- Focus Punch  
+- Double-Edge  
+- Shadow Ball  
+
+Chimecho @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 212 Def / 44 Spe  
+Bold Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Calm Mind  
+- Psychic  
+- Hidden Power [Fire]  
+- Yawn  
+

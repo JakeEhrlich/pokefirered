@@ -1,0 +1,17 @@
+DepressionCherry said:
+
+Steelix @ Leftovers
+Ability: Rock Head
+EVs: 232 HP / 252 Atk / 24 Spe
+Adamant Nature
+- Block
+- Iron Tail
+- Explosion
+- Taunt
+
+This set aims to trap and remove skarmory (and forretress). Block on skarm clicking spikes or when they come in, and taunt to stop roar. Alternate between iron tail and taunt to beat down skarmory. Iron tail has a 30% chance of def drop which makes this set work. Simulations suggest a rough 75% chance of steelix killing protect skarmory with iron tail, but in practice the odds are basically guaranteed. In addition to trapping skarm it also functions as a physical check and block explosion is insane utility. Requires twave support against taunt skarm (lix trapping skarm already twave’d also completely denies spikes).
+
+Click to expand...
+
+Steelix unemployed 6
+

@@ -1,0 +1,57 @@
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 64 Atk / 252 SpA / 192 Spe  
+Rash Nature  
+IVs: 30 Def / 30 SpA  
+- Brick Break  
+- Dragon Claw  
+- Flamethrower  
+- Hidden Power [Grass]  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 184 HP / 252 SpA / 72 SpD  
+Modest Nature  
+IVs: 0 Atk  
+- Crunch  
+- Flamethrower  
+- Ice Beam  
+- Pursuit  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 116 SpA / 140 Spe  
+Modest Nature  
+- Calm Mind  
+- Giga Drain  
+- Hidden Power [Fire]  
+- Leech Seed  
+
+Cloyster @ Leftovers  
+Ability: Shell Armor  
+EVs: 184 HP / 128 SpD / 196 Spe  
+Timid Nature  
+- Explosion  
+- Rapid Spin  
+- Spikes  
+- Surf  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 252 Atk / 88 Spe  
+Adamant Nature  
+- Agility  
+- Earthquake  
+- Explosion  
+- Meteor Mash  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 48 Def / 208 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Destiny Bond  
+- Ice Punch  
+- Thunderbolt  
+- Will-O-Wisp  
+

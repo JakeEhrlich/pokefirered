@@ -1,0 +1,560 @@
+=== [gen3doublesou] Gengar + top teammates ===
+
+Gengar @ Lum Berry
+Ability: Levitate
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Ice Punch
+- Giga Drain
+- Fire Punch
+- Destiny Bond
+
+Slaking @ Leftovers
+Ability: Truant
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Shadow Ball
+- Slack Off
+- Earthquake
+- Return
+
+Alakazam @ Leftovers
+Ability: Synchronize
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Protect
+- Psychic
+- Thunder Punch
+- Fire Punch
+
+Aerodactyl @ Choice Band
+Ability: Rock Head
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Hidden Power Flying
+- Earthquake
+- Double-Edge
+- Rock Slide
+
+Xatu @ Leftovers
+Ability: Early Bird
+EVs: 252 HP / 4 SpD / 252 Spe
+Timid Nature
+- Reflect
+- Thunder Wave
+- Light Screen
+- Skill Swap
+
+Salamence @ Leftovers
+Ability: Intimidate
+EVs: 252 Atk / 252 Def / 4 SpA
+Adamant Nature
+- Dragon Dance
+- Iron Tail
+- Hidden Power Flying
+- Dragon Claw
+
+=== [gen3doublesou] Tauros + top teammates ===
+
+Tauros @ Choice Band
+Ability: Intimidate
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Double-Edge
+- Earthquake
+- Pursuit
+- Endure
+
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 252 Atk / 252 Def / 4 Spe
+Adamant Nature
+- Explosion
+- Meteor Mash
+- Earthquake
+- Agility
+
+Salamence @ Leftovers
+Ability: Intimidate
+EVs: 252 Atk / 252 Def / 4 SpA
+Adamant Nature
+- Dragon Dance
+- Iron Tail
+- Hidden Power Flying
+- Dragon Claw
+
+Gyarados @ Choice Band
+Ability: Intimidate
+EVs: 252 Atk / 252 Def / 4 Spe
+Serious Nature
+- Dragon Dance
+- Protect
+- Return
+- Thunder Wave
+
+Dusclops @ Leftovers
+Ability: Pressure
+EVs: 252 Def / 252 SpD / 4 Spe
+Timid Nature
+- Pain Split
+- Seismic Toss
+- Will-O-Wisp
+- Destiny Bond
+
+Arcanine @ Salac Berry
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Rash Nature
+- Extreme Speed
+- Endure
+- Overheat
+- Hidden Power Grass
+
+=== [gen3doublesou] Metagross + top teammates ===
+
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 252 Atk / 252 Def / 4 Spe
+Adamant Nature
+- Explosion
+- Meteor Mash
+- Earthquake
+- Agility
+
+Tauros @ Choice Band
+Ability: Intimidate
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Double-Edge
+- Earthquake
+- Pursuit
+- Endure
+
+Slaking @ Leftovers
+Ability: Truant
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Shadow Ball
+- Slack Off
+- Earthquake
+- Return
+
+Gengar @ Lum Berry
+Ability: Levitate
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Ice Punch
+- Giga Drain
+- Fire Punch
+- Destiny Bond
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 252 HP / 4 Atk / 104 Def / 148 SpD
+Relaxed Nature
+- Icy Wind
+- Hydro Pump
+- Earthquake
+- Ice Beam
+
+Starmie @ Leftovers
+Ability: Natural Cure
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Icy Wind
+- Hydro Pump
+- Psychic
+- Light Screen
+
+=== [gen3doublesou] Dusclops + top teammates ===
+
+Dusclops @ Leftovers
+Ability: Pressure
+EVs: 252 Def / 252 SpD / 4 Spe
+Timid Nature
+- Pain Split
+- Seismic Toss
+- Will-O-Wisp
+- Destiny Bond
+
+Tauros @ Choice Band
+Ability: Intimidate
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Double-Edge
+- Earthquake
+- Pursuit
+- Endure
+
+Salamence @ Leftovers
+Ability: Intimidate
+EVs: 252 Atk / 252 Def / 4 SpA
+Adamant Nature
+- Dragon Dance
+- Iron Tail
+- Hidden Power Flying
+- Dragon Claw
+
+Gyarados @ Choice Band
+Ability: Intimidate
+EVs: 252 Atk / 252 Def / 4 Spe
+Serious Nature
+- Dragon Dance
+- Protect
+- Return
+- Thunder Wave
+
+Arcanine @ Salac Berry
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Rash Nature
+- Extreme Speed
+- Endure
+- Overheat
+- Hidden Power Grass
+
+Miltank @ Leftovers
+Ability: Thick Fat
+EVs: 32 HP / 252 Def / 224 SpD
+Careful Nature
+- Milk Drink
+- Thunder Wave
+- Attract
+- Shadow Ball
+
+=== [gen3doublesou] Tyranitar + top teammates ===
+
+Tyranitar @ Lum Berry
+Ability: Sand Stream
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Rock Slide
+- Dragon Dance
+- Hidden Power Bug
+- Protect
+
+Gengar @ Lum Berry
+Ability: Levitate
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Ice Punch
+- Giga Drain
+- Fire Punch
+- Destiny Bond
+
+Snorlax @ Choice Band
+Ability: Immunity
+EVs: 100 HP / 216 Atk / 192 Def
+Adamant Nature
+- Shadow Ball
+- Self-Destruct
+- Earthquake
+- Return
+
+Slaking @ Leftovers
+Ability: Truant
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Shadow Ball
+- Slack Off
+- Earthquake
+- Return
+
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 252 Atk / 252 Def / 4 Spe
+Adamant Nature
+- Explosion
+- Meteor Mash
+- Earthquake
+- Agility
+
+Houndoom @ Lum Berry
+Ability: Early Bird
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Crunch
+- Rest
+- Hidden Power Ice
+- Flamethrower
+
+=== [gen3doublesou] Starmie + top teammates ===
+
+Starmie @ Leftovers
+Ability: Natural Cure
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Icy Wind
+- Hydro Pump
+- Psychic
+- Light Screen
+
+Tauros @ Choice Band
+Ability: Intimidate
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Double-Edge
+- Earthquake
+- Pursuit
+- Endure
+
+Slaking @ Leftovers
+Ability: Truant
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Shadow Ball
+- Slack Off
+- Earthquake
+- Return
+
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 252 Atk / 252 Def / 4 Spe
+Adamant Nature
+- Explosion
+- Meteor Mash
+- Earthquake
+- Agility
+
+Gengar @ Lum Berry
+Ability: Levitate
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Ice Punch
+- Giga Drain
+- Fire Punch
+- Destiny Bond
+
+Salamence @ Leftovers
+Ability: Intimidate
+EVs: 252 Atk / 252 Def / 4 SpA
+Adamant Nature
+- Dragon Dance
+- Iron Tail
+- Hidden Power Flying
+- Dragon Claw
+
+=== [gen3doublesou] Houndoom + top teammates ===
+
+Houndoom @ Lum Berry
+Ability: Early Bird
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Crunch
+- Rest
+- Hidden Power Ice
+- Flamethrower
+
+Tyranitar @ Lum Berry
+Ability: Sand Stream
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Rock Slide
+- Dragon Dance
+- Hidden Power Bug
+- Protect
+
+Slaking @ Leftovers
+Ability: Truant
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Shadow Ball
+- Slack Off
+- Earthquake
+- Return
+
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 252 Atk / 252 Def / 4 Spe
+Adamant Nature
+- Explosion
+- Meteor Mash
+- Earthquake
+- Agility
+
+Gengar @ Lum Berry
+Ability: Levitate
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Ice Punch
+- Giga Drain
+- Fire Punch
+- Destiny Bond
+
+Alakazam @ Leftovers
+Ability: Synchronize
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Protect
+- Psychic
+- Thunder Punch
+- Fire Punch
+
+=== [gen3doublesou] Snorlax + top teammates ===
+
+Snorlax @ Choice Band
+Ability: Immunity
+EVs: 100 HP / 216 Atk / 192 Def
+Adamant Nature
+- Shadow Ball
+- Self-Destruct
+- Earthquake
+- Return
+
+Tyranitar @ Lum Berry
+Ability: Sand Stream
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Rock Slide
+- Dragon Dance
+- Hidden Power Bug
+- Protect
+
+Gengar @ Lum Berry
+Ability: Levitate
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Ice Punch
+- Giga Drain
+- Fire Punch
+- Destiny Bond
+
+Aerodactyl @ Choice Band
+Ability: Rock Head
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Hidden Power Flying
+- Earthquake
+- Double-Edge
+- Rock Slide
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Spe
+Timid Nature
+- Thunder
+- Thunder Wave
+- Light Screen
+- Hidden Power Grass
+
+Umbreon @ Leftovers
+Ability: Synchronize
+EVs: 252 HP / 252 Def / 4 SpD
+Calm Nature
+- Helping Hand
+- Protect
+- Curse
+- Baton Pass
+
+=== [gen3doublesou] Zapdos + top teammates ===
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Spe
+Timid Nature
+- Thunder
+- Thunder Wave
+- Light Screen
+- Hidden Power Grass
+
+Tyranitar @ Lum Berry
+Ability: Sand Stream
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Rock Slide
+- Dragon Dance
+- Hidden Power Bug
+- Protect
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 252 HP / 4 Atk / 104 Def / 148 SpD
+Relaxed Nature
+- Icy Wind
+- Hydro Pump
+- Earthquake
+- Ice Beam
+
+Snorlax @ Choice Band
+Ability: Immunity
+EVs: 100 HP / 216 Atk / 192 Def
+Adamant Nature
+- Shadow Ball
+- Self-Destruct
+- Earthquake
+- Return
+
+Gengar @ Lum Berry
+Ability: Levitate
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Ice Punch
+- Giga Drain
+- Fire Punch
+- Destiny Bond
+
+Aerodactyl @ Choice Band
+Ability: Rock Head
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Hidden Power Flying
+- Earthquake
+- Double-Edge
+- Rock Slide
+
+=== [gen3doublesou] Umbreon + top teammates ===
+
+Umbreon @ Leftovers
+Ability: Synchronize
+EVs: 252 HP / 252 Def / 4 SpD
+Calm Nature
+- Helping Hand
+- Protect
+- Curse
+- Baton Pass
+
+Tyranitar @ Lum Berry
+Ability: Sand Stream
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Rock Slide
+- Dragon Dance
+- Hidden Power Bug
+- Protect
+
+Snorlax @ Choice Band
+Ability: Immunity
+EVs: 100 HP / 216 Atk / 192 Def
+Adamant Nature
+- Shadow Ball
+- Self-Destruct
+- Earthquake
+- Return
+
+Sceptile @ Lum Berry
+Ability: Overgrow
+EVs: 116 HP / 140 SpA / 252 Spe
+Timid Nature
+- Crunch
+- Detect
+- Hidden Power Fire
+- Leaf Blade
+
+Gengar @ Lum Berry
+Ability: Levitate
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Ice Punch
+- Giga Drain
+- Fire Punch
+- Destiny Bond
+
+Aerodactyl @ Choice Band
+Ability: Rock Head
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Hidden Power Flying
+- Earthquake
+- Double-Edge
+- Rock Slide
+

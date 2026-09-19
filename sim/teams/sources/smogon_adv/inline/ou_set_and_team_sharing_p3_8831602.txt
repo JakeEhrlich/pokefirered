@@ -1,0 +1,259 @@
+Polyfusion (Jirachi) @ Leftovers
+Ability: Serene Grace
+EVs: 252 HP / 4 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Substitute
+- Protect
+- Toxic
+- Fire Punch
+
+One of the most nightmarish Pokemon for offensive teams to deal with. Can definitely be irritating for defense as well, but absolutely throttles offense. Spikes very much recommended. WishMence helps a lot as well.
+
+Quique (Jirachi) @ Leftovers
+Ability: Serene Grace
+Timid / Modest Nature
+IVs: 0 Atk
+- Calm Mind
+- Protect
+- Psychic / Ice Punch
+- Fire Punch / Thunderbolt
+
+Extra recovery makes CMRachi even more ridiculous to deal with, and Protect scouting is always a plus. It can be EVed in several ways, depending on the moves you choose.
+
+Climactic Phase #3 (Jirachi) @ Leftovers
+Ability: Serene Grace
+Bold Nature
+IVs: 0 Atk
+- Wish
+- Calm Mind
+- Psychic
+- Fire Punch
+
+Tony encouraged me to use the relic that is WishCM Rachi last year, and while I didn't end up doing so, I still think it's just such a nice Poke in its blend of support and ability to go on the offensive. (Tony's rationale was exactly this - specifically, its capability of eating CB Meteor Mashes and keeping its team healthy without being purely passive.)
+
+It'll End in Tars (Tyranitar) @ Black Belt
+Ability: Sand Stream
+EVs: 4 Atk / 252 SpA / 252 Spe
+Naive / Hasty / Rash / Naughty Nature
+IVs: 30 Def / 30 SpA
+- Brick Break
+- Ice Beam
+- Fire Blast
+- Hidden Power [Grass]
+
+4B Tar. UDtar loves Black Belt for the extra damage on Bliss, ensuring that its mixed assault will not be staved off; unlike Mence, it can afford the item since it's not affected by sand. The extra push against opposing Tyranitar can be valuable as well, especially with Spikes. If you go with a +SpA nature, it's definitely feasible to drop some Speed and throw in some extra Attack EVs to really make it sting.
+
+Tar's Mortal Coil (Tyranitar) @ Leftovers
+Ability: Sand Stream
+EVs: 244 HP / 252 Atk or SpA / 12 Def
+Modest / Adamant Nature
+- Crunch / Rock Slide
+- Pursuit / Earthquake
+- Protect
+- Counter / Hidden Power Bug
+
+Great in and out of the lead position. For the former, there's no more guessing games about what kind of Mence lead it is, nor will CB Metagross be able to Explode freely. For the latter, you Protect out of Dugtrio range and scout CBers beautifully. Counter is the best choice if you go with the Pursuit variant because it beats Superachi (HP Grass can be Countered) as well as Dugtrio, and ruins an EQ Lax thinking they can go one-on-one with you because you showed Crunch. The extra longevity is also valuable on PhysTar, letting it get the most out of its wide threat-checking coverage.
+
+Midvinterblot (Gengar) @ Leftovers
+Ability: Levitate
+EVs: 68 HP / 16 Atk / 248 SpD / 176 Spe
+Jolly Nature
+- Taunt
+- Will-O-Wisp
+- Destiny Bond
+- Explosion
+
+No attacks seems silly, and this definitely is not for every team. However, I do really like this set's flexibility; I almost used it on my Kingdra team last SPL (and wished I had stuck with it, lol). Taunt Wisp does the bulk of Gengar's lifting - former prevents Spikes from being long-term irritating, latter cripples nearly everything. Explosion is really nice for the offensive teams this Gar best fits on, as it is capable of putting many targets in range for your offensive guys, making cleanup easier. It's a much more immediately disruptive option, which is particularly useful against CM Pass Celebi. It also allows for more aggressive play than Destiny Bond that lets you dictate how the game will progress with greater certainty. However, DBond is amazing and gets KOes boom would never come close to - being able to take Tar/Jirachi/Metagross down with you is phenomenal. Nothing like KOing a boosted, Subbed-up Suicune, either. The flexibility of both these moves in addition to Gar's inherent excellent traits make it a particularly effective special offense facilitator.
+
+Exhale the Ash (Moltres) @ Leftovers
+Ability: Pressure
+EVs: 40 Def / 252 SpA / 216 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Flamethrower
+- Will-O-Wisp
+- Hidden Power [Grass]
+- Sleep Talk
+
+Loom is stupid. Moltres resists its STABs, has room in its moveset for Sleep Talk, and remains threatening while asleep.
+
+Reduced to Embers (Moltres) @ Leftovers
+Ability: Pressure
+EVs: 4 HP / 252 SpA / 76 SpD / 176 Spe OR 40 Def / 252 SpA / 216 Spe
+Modest Nature
+IVs: 0 Atk
+- Flamethrower
+- Hidden Power [Grass]
+- Overheat / Toxic
+- Roar / Toxic / Protect
+
+Will-o-Wisp is surprisingly less essential than it would appear at first glance. It's a combination of Moltres' main attacks being so blistering and the fact it likes attacking most of the time - you usually don't want to Wisp against Metagross, Heracross or Magneton, for example. Thus, it has some room for exploration - you can fit both the stunning extra power of Overheat, the harassment capabilities of Roar, and more. Protect's scouting is great in its own right, but I particularly like it with Toxic. Well, I like Toxic on Molt in general. Unlike Wisp, it threatens to beat Bliss one-on-one - especially with Protect - thus forcing it out and destroying something else. Toxic also ruins opposing Fires, meaning you don't necessarily need to hope to win a slugfest with their Zard/own Molt. The EVs on the Overheat set live +1 Superachi TBolt while outrunning Medicham.
+
+Tiamatria (Salamence) @ Leftovers
+Ability: Intimidate
+EVs: 4 HP / 72 Atk / 4 Def / 252 SpA / 176 Spe
+Rash Nature
+- Dragon Claw
+- Fire Blast
+- Brick Break
+- Sleep Talk
+
+Loom is stupid. What's funny about this set is that MixMence is already hard enough to switch around, but with Sleep Talk, your opponent can't predict what it's going to use anymore. Talk about turning sleep in your favor. Mence is still threatening and defensively useful enough to make it more than worthwhile; Wish and Roar have demonstrated how flexible its 4th moveslot can be.
+
+Perfect Blue (Salamence) @ Leftovers
+Ability: Intimidate
+EVs: 80 Def / 252 SpA / 176 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Dragon Claw
+- Fire Blast
+- Hydro Pump
+- Hidden Power [Grass]
+
+This set has two major strengths. First, it is one of the few Pokemon that can genuinely be considered a Claydol lure in any capacity. Second, the coverage it provides makes it much more difficult for many teams to dance around, as its power against Tyranitar is similar to Brick Break, yet it also smacks common BB pivots that would normally switch in unscathed - Zapdos and Gengar take just as much damage as they would from Dragon Claw, and it's with 0 prediction. Oh and you completely obliterate Aerodactyl, which is known to pivot into MixMence once or twice. Also, destroying Moltres even if burned is beautiful.
+
+Junkyard (Heracross)
+Ability: Guts
+EVs: 40 HP / 252 Atk / 216 Spe
+Adamant Nature
+- Megahorn
+- Thief
+- Focus Punch / Rock Slide
+- Brick Break / Rock Slide
+
+Like a faster, even more aggressive offensive Hariyama. Really disruptive - cripples all of Skarm, Mence and Gar, generating offense for itself and its teammates.
+
+Spiderweb Castle (Metagross) @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 252 SpA / 4 SpD
+Quiet Nature
+- Psychic
+- Pursuit
+- Hidden Power [Grass]
+- Explosion
+
+Great combo for physical offense. SuitGross' Gar-chipping capabilities are excellent, since they allow you to run DD on Tar. With Magneton in tow, you don't have to run HP Fire in the last slot, and can instead run Grass to ruin Swampert. I tend to like this setup because you have more offense overall than you would with SuitTar and a physical Gross.
+
+Glider (Zapdos) @ Leftovers
+Ability: Pressure
+EVs: 252 SpA / 80 SpD / 176 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Thunderbolt
+- Thunder
+- Hidden Power [Grass]
+- Baton Pass / Roar / Protect / Toxic / Thunder Wave
+
+Sometimes, even Modest Zap TBolt just barely misses the KO on Meta/Tar. Luckily, its moveset is flexible, and it can thus afford to run a second, shockingly powerful Electric STAB. Also ensures it's no longer hard walled by WishTect Rachi. Finishing off a 24% Blissey is a wonderful feeling. The damage against Snorlax and Regice is astonishing.
+
+Halleluwah (Zapdos) @ Leftovers
+Ability: Pressure
+EVs: 248 HP / 44 Def / 80 SpA / 136 Spe OR EVs: 248 HP / 104 Def / 20 SpA / 136 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Thunderbolt
+- Hidden Power [Grass]
+- Thunder Wave
+- Baton Pass
+
+Being able to survive Rock Slides and sand from max Tyranitar and +1 Salamence gives you a lot of flexibility against opposing offensive threats, especially since max HP also lets you live offensive Cune's +1 Ice Beam in sand, and best of all, you are still a fast, strong offensive threat. Also survives +2 HP Rock from Jolly Gyarados and +2 Double-Edge from Adamant Gyara, and is a good buffer against Heracross and Breloom as well. This set really appreciates being healed through Wish or Leech Seed - Mence and Jira are obvious for the former, and while Cele is also a near-automatic choice for the latter, the SubSeed Loom McM and marcop used is also an excellent partner. The reason these are so key is that they allow you to throw Zapdos into hits throughout the game while still maintaining its defensive benchmarks. Obviously you still want to be careful, but it means you don't have to keep it perfectly healthy no matter what.
+
+Not all the SpAtk is required, although I do think it is really valuable in really ensuring you stick it to Tyranitar (thus making the most of your ability to live that Slide + sand). However, some of it can also go in SpDef to help against Starmie, MixMence and Charizard. Alternatively, if you really want some more leeway in Defense, you can use the second spread, which even always lives Aerodactyl's Slide. The only downside is that you now have much, much worse odds to have your second Thunderbolt put HP-heavy Suicune in sand range at +1. There's a lot of mixing and matching to be done - you could also lower the Speed to Medicham range or even lower. The core of this set is the Modest nature with the ability to survive Tar and sand.
+
+Drainland (Zapdos) @ Petaya Berry
+Ability: Pressure
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Thunderbolt
+- Substitute
+- Baton Pass
+- Agility / HP Grass
+
+Lends another layer of threat to CM (+ Agility) passing stuff.
+
++ Spikes
+Solaris (Charizard) @ Leftovers
+Ability: Blaze
+EVs: 252 SpA
+Modest / Timid Nature
+IVs: 2 Atk / 30 SpA
+- Fire Blast / Flamethrower
+- Hidden Power [Grass]
+- Toxic
+- Protect / Overheat / Roar
+
+Zard alongside Spikes is not new. However, I often find myself really not loving Focus Punch on Zard, and Spikes are the excuse needed to get rid of it. Plus, I far prefer Zard on bulkier Spikes stuff in general, as their better defensive cores make up for Zard's frailty against the likes of Starmie and Aero that would rip through more offensive teams.
+
+Just like on Moltres, Toxic is effective against Blissey/opposing Fires. It's also great on Zard because it cripples nearly every switchin in one move - Tar, Mence, Waters, Aero, Flygon, Zapdos. Shocker, Protect is awesome, in general and alongside Tox. Of course, it's not required, as Overheat is excellent, especially since Zard gets knocked into Blaze range a lot, and Roar can allow it to imitate Moltres effectively.
+
+Yeux sans visage (Claydol) @ Leftovers
+Ability: Levitate
+Adamant / Careful Nature
+- Earthquake
+- Rapid Spin
+- Rock Slide
+- Explosion
+
+If you don't have Blissey or Celebi alongside your Claydol, you'll probably wind up using Pursuit Tar - just because Dol can Psychic its way through Gar doesn't mean its team doesn't need a Will-o-Wisp answer. So, if you're running Pursuit Tar, you don't really need Psychic and can instead run Rock Slide, which turns you from makeshift Zap pivot into decent Zap check that can actually threaten it without Exploding.
+
+Ireul (Porygon2) @ Leftovers
+Ability: Trace
+EVs: 252 HP / 176 Def / 80 SpD OR 248 HP / 196 Def / 64 SpD
+Bold Nature
+IVs: 0 Atk
+- Ice Beam
+- Recover
+- Thunder Wave
+- Thunderbolt / Toxic
+
+Still tanks the physical stuff you want it to - (almost) always tanking 2 CBMence HP Flyings from full - while also being able to (almost) always tank 2 Hydro Pumps from Starmie. The choice in EV spread depends on which attack you want to always take 2 of and which one you want a 2.3% chance of being 2HKOed by in sand. The extra SpDef is also really nice against Zapdos.
+
+Hüsker Kü (Raikou) @ Petaya Berry / Magnet
+Ability: Pressure
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 30 HP / 2 Atk / 30 SpA
+- Substitute
+- Toxic
+- Thunderbolt
+- Hidden Power [Grass] / HP Ice
+
+Lum is great, but sometimes Sub makes it feeling like you could use something else; thus, you can use some much-appreciated extra power options to leave the opposing team as damaged as possible.
+
+The Toxic Avenger (Weezing) @ Leftovers
+Ability: Levitate
+EVs: 248 HP / 32 SpD / 228 Spe
+Impish Nature
+- Taunt
+- Will-O-Wisp
+- Pain Split
+- Explosion
+
+Like a less fast, more physically defensive version of the boom-as-only-attack Gengar. With Pain Split, this is possibly the best (viable) absorber of Hariyama's Knock, converting the HP lost to sand into more HP sapped from the opponent. Also very good against Medicham. Highly irritating in longer games, and boom means it's still useful against more offensive stuff. Outruns -Spe Rachi, faster Milo, Jolly Marowak, Bold Cune (and by extension Skarmory) and is never 2HKOed by Milotic's Surf in sand.
+
+Akira (Alakazam) @ Leftovers
+Ability: Synchronize
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 2 Atk / 30 SpA
+- Psychic
+- Fire Punch
+- Hidden Power [Grass]
+- Ice Punch
+
+CM is a waste. This is essentially a Starmie with some minor tweaks. Okay, it doesn't have Water STAB for Tyranitar, but that's nothing Dug can't handle...or you could just weaken Tar with Spikes, since HP Grass hits it really hard. Zam's lack of Electric/Grass weaknesses means it's much better at going toe-to-toe with Zapdos and offensive CM Jirachi and Celebi. Extra Speed gets the jump on Mie itself, ties opposing Dugs (and outruns many that drop to 365 since they need Bliss bulk), and outruns +1 Jolly Tar. Gengar will never, ever live its Psychic. Its Fire Punch is both more powerful and accurate against Metagross and Jirachi than Hydro Pump. Absolutely brutal lategame.
+
+Glass Onion (Celebi) @ Leftovers
+Ability: Natural Cure
+EVs: heavy SpA / Spe + remainder in bulk
+Modest / Timid Nature
+IVs: 2 Atk / 30 SpA / 30 Spe
+- Leech Seed
+- Psychic
+- Hidden Power [Fire]
+- Giga Drain / Baton Pass / Recover
+
+Having this much power and coverage on a Leech Seed set is unexpected and dangerous - the opponent starts running out of options fast when Cele threatens more than just the Leech. Ridiculously irritating with Spikes.
+

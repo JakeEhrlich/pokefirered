@@ -11,11 +11,20 @@
 --   Lua -> host : DONE <outcome> / RNG ... / (same snapshot lines) / END
 
 local H = A.gSimHarness
+-- struct SimHarnessShadow (include/sim_harness.h): the ROM copies the compared state here at the end of every
+-- main-loop iteration; the bridge reads only this copy (and only while busy == 0), never the live variables.
+local SH = A.gSimHarnessShadow
+local SHO = { busy = 0x000, iters = 0x004, engineRngCalls = 0x008, otherRngCalls = 0x00C, callerRing = 0x010,
+              battleMons = 0x110, statuses3 = 0x270, sideStatuses = 0x280, sideTimers = 0x284, disableStructs = 0x29C,
+              weather = 0x30C, wishFutureKnock = 0x310, playerParty = 0x33C, enemyParty = 0x594,
+              battlerPartyIndexes = 0x7EC, absentBattlerFlags = 0x7F4, battleOutcome = 0x7F5,
+              battleCommunication = 0x7F8, controllerExecFlags = 0x800, request = 0x804, requestBattler = 0x808,
+              requestSeq = 0x80C, state = 0x810 }
 local OFF = { go = 4, flags = 8, trainer = 0xC, seed = 0xE, terrain = 0x10, badges = 0x11, style = 0x12, sceneOff = 0x13,
               state = 0x14, outcome = 0x18, request = 0x20, reqBattler = 0x24, reqSeq = 0x28, ansSeq = 0x2C,
               ansType = 0x30, ansMove = 0x31, ansTarget = 0x32, ansParty = 0x33, ansItem = 0x34,
               engineRngState = 0x38, engineRngCalls = 0x3C, otherRngCalls = 0x40, rangeCount = 0x44, ranges = 0x48, callerRing = 0xC8,
-              scriptOpponent = 0x1C8, useEnemyParty = 0x1C9 }
+              scriptOpponent = 0x1C8, useEnemyParty = 0x1C9, mainLoopBusy = 0x1CA }
 
 local client = nil
 local rxbuf = ""
@@ -38,17 +47,17 @@ local function send(line)
 end
 
 local function sendSnapshot()
-  send(string.format("RNGCALLS %d %d", emu:read32(H + OFF.engineRngCalls), emu:read32(H + OFF.otherRngCalls)))
-  send("CALLERS " .. hex(emu:readRange(A.gSimHarness + OFF.callerRing, 256)))
-  send("MONS " .. hex(emu:readRange(A.gBattleMons, 88 * 4)))
-  send("ST3 " .. hex(emu:readRange(A.gStatuses3, 16)))
-  send("SIDE " .. hex(emu:readRange(A.gSideStatuses, 4)) .. hex(emu:readRange(A.gSideTimers, 24)))
-  send("DIS " .. hex(emu:readRange(A.gDisableStructs, 28 * 4)))
-  send("WEATHER " .. hex(emu:readRange(A.gBattleWeather, 2)))
-  send("WISH " .. hex(emu:readRange(A.gWishFutureKnock, 44)))
-  send("PPARTY " .. hex(emu:readRange(A.gPlayerParty, 600)))
-  send("EPARTY " .. hex(emu:readRange(A.gEnemyParty, 600)))
-  send("MISC " .. hex(emu:readRange(A.gBattlerPartyIndexes, 8)) .. hex(emu:readRange(A.gAbsentBattlerFlags, 1)) .. hex(emu:readRange(A.gBattleOutcome, 1)))
+  send(string.format("RNGCALLS %d %d", emu:read32(SH + SHO.engineRngCalls), emu:read32(SH + SHO.otherRngCalls)))
+  send("CALLERS " .. hex(emu:readRange(SH + SHO.callerRing, 256)))
+  send("MONS " .. hex(emu:readRange(SH + SHO.battleMons, 88 * 4)))
+  send("ST3 " .. hex(emu:readRange(SH + SHO.statuses3, 16)))
+  send("SIDE " .. hex(emu:readRange(SH + SHO.sideStatuses, 4)) .. hex(emu:readRange(SH + SHO.sideTimers, 24)))
+  send("DIS " .. hex(emu:readRange(SH + SHO.disableStructs, 28 * 4)))
+  send("WEATHER " .. hex(emu:readRange(SH + SHO.weather, 2)))
+  send("WISH " .. hex(emu:readRange(SH + SHO.wishFutureKnock, 44)))
+  send("PPARTY " .. hex(emu:readRange(SH + SHO.playerParty, 600)))
+  send("EPARTY " .. hex(emu:readRange(SH + SHO.enemyParty, 600)))
+  send("MISC " .. hex(emu:readRange(SH + SHO.battlerPartyIndexes, 8)) .. hex(emu:readRange(SH + SHO.absentBattlerFlags, 1)) .. hex(emu:readRange(SH + SHO.battleOutcome, 1)))
   send("END")
 end
 
@@ -106,7 +115,8 @@ local function onFrame()
   if not inBattle then return end
   -- tap A every other frame so battle text never waits for the player
   if (emu:currentFrame() % 2) == 0 then emu:addKey(0) else emu:clearKeys(1) end
-  local state = emu:read32(H + OFF.state)
+  if emu:read32(SH + SHO.busy) ~= 0 then return end   -- the ROM is mid-copy; try next frame
+  local state = emu:read32(SH + SHO.state)
   if state == 2 and not doneSent then
     doneSent = true
     inBattle = false
@@ -115,8 +125,8 @@ local function onFrame()
     sendSnapshot()
     return
   end
-  local req = emu:read32(H + OFF.request)
-  local seq = emu:read32(H + OFF.reqSeq)
+  local req = emu:read32(SH + SHO.request)
+  local seq = emu:read32(SH + SHO.requestSeq)
   if req ~= 0 and seq ~= lastSeqSent then
     -- The other battlers' controllers (the AI) may still be finishing their decisions over the
     -- next few frames (in doubles the partner's AI runs several frames after the request);
@@ -124,17 +134,19 @@ local function onFrame()
     -- (compared regions, RNG counts, controller state machine) has not changed for 3 frames,
     -- which mirrors the simulator stepping to quiescence before it reports a request.
     if pendingSince == nil then pendingSince = emu:currentFrame(); stableKey = nil; stableFrames = 0 end
-    local key = emu:readRange(A.gBattleMons, 88 * 4) .. emu:readRange(A.gBattleCommunication, 8)
-      .. emu:readRange(A.gBattleControllerExecFlags, 4) .. emu:readRange(H + OFF.engineRngCalls, 4)
-      .. emu:readRange(A.gPlayerParty, 600) .. emu:readRange(A.gEnemyParty, 600)
-      .. emu:readRange(A.gDisableStructs, 28 * 4) .. emu:readRange(A.gWishFutureKnock, 44)
+    local key = emu:readRange(SH + SHO.battleMons, 88 * 4) .. emu:readRange(SH + SHO.battleCommunication, 8)
+      .. emu:readRange(SH + SHO.controllerExecFlags, 4) .. emu:readRange(SH + SHO.engineRngCalls, 4)
+      .. emu:readRange(SH + SHO.playerParty, 600) .. emu:readRange(SH + SHO.enemyParty, 600)
+      .. emu:readRange(SH + SHO.disableStructs, 28 * 4) .. emu:readRange(SH + SHO.wishFutureKnock, 44)
     if key == stableKey then stableFrames = stableFrames + 1 else stableKey = key; stableFrames = 0 end
     local waited = emu:currentFrame() - pendingSince
+    -- Never snapshot while the game's main loop is mid-iteration: a GBA frame ends on a cycle budget, so a
+    -- long AI evaluation can straddle the frame boundary and the memory would be read mid-function.
     if waited >= 4 and (stableFrames >= 3 or waited >= 240) then
       if waited >= 240 then console:log("warning: state never settled after request; snapshotting anyway") end
       pendingSince = nil
       lastSeqSent = seq
-      send(string.format("REQ %d %d %d", req, emu:read32(H + OFF.reqBattler), seq))
+      send(string.format("REQ %d %d %d", req, emu:read32(SH + SHO.requestBattler), seq))
       sendSnapshot()
     end
   else

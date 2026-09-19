@@ -1,0 +1,56 @@
+Hitmonchan (M) @ Choice Band  
+Ability: Keen Eye  
+EVs: 76 HP / 252 Atk / 180 Spe  
+Adamant Nature  
+- Sky Uppercut  
+- Hidden Power [Ghost]  
+- Rock Slide  
+- Mach Punch  
+
+Glalie @ Leftovers  
+Ability: Inner Focus  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+- Spikes  
+- Protect  
+- Shadow Ball  
+- Explosion  
+
+Haunter @ Magnet  
+Ability: Levitate  
+EVs: 44 SpA / 228 SpD / 236 Spe  
+Mild Nature  
+- Thunderbolt  
+- Explosion  
+- Destiny Bond  
+- Giga Drain  
+
+Chimecho @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 216 SpD / 40 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Psychic  
+- Reflect  
+- Toxic  
+- Protect  
+
+Pelipper @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 8 Def / 216 SpA / 32 Spe  
+Modest Nature  
+IVs: 3 Atk / 30 SpA  
+- Surf  
+- Ice Beam  
+- Hidden Power [Electric]  
+- Agility  
+
+Metang @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 132 Atk / 20 Def / 104 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Explosion  
+- Agility  
+

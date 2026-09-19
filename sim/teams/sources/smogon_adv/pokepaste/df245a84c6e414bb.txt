@@ -1,0 +1,58 @@
+Tentacruel  
+Ability: Clear Body  
+EVs: 116 HP / 252 SpA / 140 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 Spe  
+- Surf  
+- Hidden Power [Psychic]  
+- Thief  
+- Rapid Spin  
+
+Arcanine @ Leftovers  
+Ability: Intimidate  
+EVs: 140 HP / 216 Atk / 60 SpA / 92 Spe  
+Brave Nature  
+- Howl  
+- Fire Blast  
+- Extreme Speed  
+- Hidden Power [Fighting]  
+
+Omastar @ Leftovers  
+Ability: Swift Swim  
+EVs: 248 HP / 176 Def / 76 SpA / 8 Spe  
+Bold Nature  
+IVs: 3 Atk / 30 SpA  
+- Spikes  
+- Surf  
+- Hidden Power [Electric]  
+- Rest  
+
+Kangaskhan (F) @ Leftovers  
+Ability: Early Bird  
+EVs: 212 HP / 24 Atk / 36 Def / 216 SpD / 20 Spe  
+Careful Nature  
+- Return  
+- Toxic  
+- Wish  
+- Rest  
+
+Lunatone @ Leftovers  
+Ability: Levitate  
+EVs: 124 HP / 140 Def / 64 SpA / 180 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Psychic  
+- Hypnosis  
+- Substitute  
+
+Ampharos @ Leftovers  
+Ability: Static  
+EVs: 252 HP / 108 Def / 16 SpA / 108 SpD / 24 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Heal Bell  
+- Thunder Wave  
+

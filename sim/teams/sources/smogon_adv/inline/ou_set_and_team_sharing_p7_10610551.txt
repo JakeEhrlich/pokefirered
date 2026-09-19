@@ -1,0 +1,122 @@
+I've been playing ADV on and off for a couple years now, watching the meta evolve from the fringes and building some teams for fun. I decided it's time to share some tech I've had lying around.
+
+I put some things in bold to make it easier to find specific subjects and grasp the ideas I'm outlining if you don't want to read the whole thing.
+
+Dragon Breath is incredibly overlooked, it essentially being Dragon Type Body Slam. Salamence, Milotic and Flygon notably learn it. I'll outline my current versions of sets for all 3 mons below and talk about what team styles I think they fit into. I'll also add a list of cumulative percentage chance, since it helps to judge the reliability for yourself. I apologize in advance for any war crimes this is going to produce.
+
+Cumulative percentage chance to paralyze
+
+1: 30%
+2: 51%
+3: 66%
+4: 76%
+5: 84%
+
+Milotic
+
+Milotic @ Leftovers
+Ability: Marvel Scale
+EVs: 252 HP / 252 Def / 4 SpA
+Bold Nature
+IVs: 0 Atk
+- Surf
+- Recover
+- Refresh
+- Dragon Breath
+
+Ahh, it's like Scald found its way to Gen 3 OU. That's what everyone always wanted, right? When you're building a team you're probably shifting around the EVs, but this is the general idea. It's just standard Milotic with D Breath over Toxic. Lots of physical threats are completely crippled by paralysis and this ensures Milotic has a chance at making progress against Steel types like Skarmory, Jirachi and Metagross as well. It's rare that Milotic doesn't get 3 turns to press a free move in any given game, so you're pretty much always favored to spread at least 1 paralysis. With some luck and generally good defensive play, you'll probably get more than that.
+
+It's going to fit with teams that already use Milotic, plus some adaptations now that you get paralysis from this team slot. Celebi traditionally makes a nice defensive core and now you can bring SubSeed to take advantage of para turns. Slower offensive threats like Medicham and Metagross are going to appreciate the paralysis. Finally, anything that brings Rock Slide is going to pair well to have ParaFlinch opportunities in the endgame.
+
+Flygon
+
+Flygon @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 196 Def / 28 SpD / 32 Spe
+Impish Nature
+- Dragon Breath
+- Protect
+- Rock Slide
+- Earthquake
+
+Flygon's D Breath is especially notable, because it fits perfectly with Flygon's unique traits. As a Rock resist, it typically comes in on Aerodactyl and Tyranitar. Traditionally Toxic is the classic click, Fire Blast is sometimes used to threaten Skarmory, but I think D Breath compresses a lot more value into a single slot overall. D Breath is a good midground click, potentially crippling both the things Flygon is in on and ensuring Gengar doesn't enter for free. I've heard people claim Rock Slide does that, but I think paralysis does a far better job in general. Also, Rock Slide does give you paraflinch in a single team slot if you like spin-the-wheel gameplay. It's not that I advocate a team built around this, but it can still sometimes change your winning odds from 0% to the cumulative percentage of hitting all Rock Slides and the opponent not breaking through. Paraflinch + Protect + chip heal in sand is also pretty frustrating to fight in general.
+
+This is going to fit on Superman and Sand + Spikes like a glove. Aerodactyl gets even more opportunities to steal games. Tyranitar brings Sand and appreciates Paralysis no matter which set it is. If you're down to get niche, Knock Off Armaldo synergizes nicely to offset your lack of damage from status to ensure progress by removing Leftovers.
+
+You might be tempted to bring Fire Blast and/or Giga Drain/HP Grass and invest in SpA, but I think Mence is strictly better at that point.
+
+WishMence
+
+Salamence @ Leftovers
+Ability: Intimidate
+EVs: 252 HP / 224 Def / 32 Spe
+Bold Nature
+IVs: 0 Atk
+- Flamethrower
+- Wish
+- Protect
+- Dragon Breath
+
+Just like Milo, this is the "standard" WishMence set with Toxic swapped out for D Breath. And just like with Milo, this often spreads a ton of paralysis because it typically gets to click the move a bunch of times throughout the game.
+
+WishMence + Hariyama is a known combo and I believe it's even better with this Mence set. Hariyama's typical issue is that it gets whittled down over time while being fairly slow, so it can lose before it starts winning. Nerfing the Speed of the opposing team while giving it opportunities to heal is just awesome. Again, Knock Off is also just really good if your gameplan is to spread Paralysis instead of Toxic.
+
+I also want to shoutout WishMence + Slaking. Slaking's immense natural bulk means it doesn't take over 50% from much, so bringing it in with Wish practically guarantees you heal back to full. Salamence's Intimidate and Fighting resistance further add to this, preserving Slaking for a very long time while it cannonballs through the enemy team. Snorlax is weaker offensively but similar; it can bring Body Slam to form a Dual Para core.
+
+MixMence
+
+Salamence @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Rash Nature
+- Dragon Breath
+- Brick Break
+- Fire Blast
+- Hidden Power [Grass] / Rock Slide
+
+It's MixMence, but with D Breath. Does it autowin? No. But I'd argue D Breath is the best click you could wish for into the mon coming in that you didn't bring coverage for. Spreading paralysis is also just really helpful for allied Snorlax, Tyranitar, Metagross and OffPert, who tend to come with MixMence. Just like with the Flygon set, Rock Slide does give you paraflinch in 1 team slot to potentially steal away some otherwise lost games.
+
+This set's D Breath is probably the least impactful, since it generally only clicks D Breath in desperate situations. As such, your odds of spreading paralysis are comparatively low. Though again, I'd take low odds over no odds any day.
+
+[Eats mint], That about covers D Breath. If anyone builds a team with it or has notes on my sets, I'd love to hear about it.
+
+I have 1 more tech to share that I've had lying around for a while, which has actually gained a new use case with recent meta trends: SunnyLax. I initially built it because I got frustrated at Skarmory clicking Protect on my Fire Blasts and stalling them out before they started to matter. Thus followed my solution:
+
+SunnyLax
+
+Snorlax @ Leftovers
+Ability: Thick Fat
+EVs: 136 Atk / 252 SpA / 120 SpD
+Quiet Nature
+- Sunny Day
+- Fire Blast
+- Body Slam / Brick Break
+- Self Destruct / Toxic
+
+With Sunny Day, you avoid losing a turn against Skarmory's Protect and get access to some much appreciated chip heal. In sun, you also gain the power to ensure the 2HKO on Skarm. It also patches up Lax's admittedly middling Special Attack, turning his Spicy Spittle into an actual Fire Blast for neutral hits. I have played with the idea of adding Brick Break for Tar, but I prefer the option of spreading paralysis against Moltres, Gyarados, Mence and Zapdos that tend to come in after revealing Fire Blast. Self Destruct is generally my favorite since you can clear weather and go into Dug or your preferred sweeper, but Toxic pairs with Fire Blast well as coverage. If you do bring Toxic, you'll need a pretty solid balance setup and I do think Brick Break over Body Slam is worth considering at that point, since you can click Toxic on the aforementioned switches and wittle them down over time.
+
+Then I was watching some SPL replays and saw how people have started bringing RainCune. SunnyLax can defeat that set with decent consistency. RainCune is scary because it starts hitting unreasonably hard with rain up, which is immediately mitigated by Sunny Day. Thus, I changed my EV spread to some considerable SpDef investment to avoid a 2HKO from Modest Hydro Pump in rain. I don't account for Spikes with these EVs, which you could do to also avoid the risk of getting crit and dying anyway. In sun, you take no damage from Water types at all. If you bring Thick Fat, Ice Beam also tickles at worst and its only threat is the freeze chance. Immunity is better if you don't bring boom since you'll be doing staring contests with Celebi, Blissey and Milotic.
+
+Though this is going to be my least consistent shoutout and I suggest trying out SunnyLax on more familiar team structures first, a personal favorite pairing of mine is SunnyLax + Mixed Victreebel. Victreebel can be a good partner to this for the following reasons: it has Chlorophyll, a decent 105Atk/100SpA, can reach above 244 Speed outside of sun, STAB Sludge Bomb and/or Solar Beam, Toxic immunity and most importantly: access to Encore. I'll put my favorite Victreebel set below for those that are interested.
+
+MixedBel
+
+Victreebel @ Leftovers
+Ability: Chlorophyll
+EVs: 64 Atk / 252 SpA / 192 Spe
+Hasty Nature
+- Encore
+- Hidden Power [Fire]
+- Sludge Bomb / Solar Beam
+- Sunny Day / Solar Beam
+
+Outside of coming in off Lax, this can come in on a predicted support move from a slower mon, click Encore if you expect them to stay in and then start attacking. It sits at 245 Speed to avoid speed tying with the common 244 Speed Mons. This gives it the benefit of coming in on slower variants of Celebi's Leech as well. Clicking Sunny Day after Encore can be tempting, but don't get baited into over-relying on it. It's often better to just do some damage and pivot out afterwards. Victreebel is very frail, so it can require some pretty precise play and predictions.
+
+Sludge Bomb is my favorite variant, as it hits Blissey hard enough to force a heal, which you can infinitely Encore to PP Stall. SunnyBeam is a classic and everybody knows how good Grass/Fire coverage is in this metagame. Solar Beam without Sunny Day can be situationally good to further compress Victreebel into the role of cleaner after another mon sets up sun for it and either booms or finds an in otherwise. If you're planning to use this, keep in mind that Victreebel does get outsped by a fair portion of the metagame outside of sun (notably Dugtrio); in combination with its frailty that can make for a pretty mid use of a team slot outside of specific circumstances. For the 3 turns that you have sun up, you're basically guaranteed to find value though. The reason this is hard to stall despite not being able to set up sun for yourself is that Protect users are almost always at 244 Speed or below, so trying to stall through the sun turns will threaten an infinite Encore loop.
+
+I recommend always bringing Spikes with Victreebel, because Encore simply forces a switch. You can even Encore a Rapid Spin in desperate times. Magneton can be a good partner to Victreebel to ease your prediction, but in my experience it's not entirely necessary; HP Fire does a good chunk to any Steel type and Encore ensures you can either beat them 1 on 1 or lock them into a move, sack Bel and go to something that threatens it afterwards.
+
+Admittedly Victreebel is very restrictive, but the niche of Encore + Poison Type and its ability to cosplay Agility Pass keeps making me consider it when I bring Lax. There's a really cool team for it out there and I'd love to hear it if anyone can find it.
+
+That about does it for now. I'd love to hear thoughts, or see a team built around some of these ideas if someone feels inspired to try them out.
+

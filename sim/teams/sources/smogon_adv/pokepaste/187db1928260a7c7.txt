@@ -1,0 +1,54 @@
+Hitmonchan (M) @ Leftovers  
+Ability: Keen Eye  
+EVs: 200 HP / 252 Atk / 56 Spe  
+Adamant Nature  
+- Sky Uppercut  
+- Rock Slide  
+- Mach Punch  
+- Bulk Up  
+
+Get Magcargo'd (Magcargo) (M) @ Leftovers  
+Ability: Flame Body  
+EVs: 44 HP / 252 SpA / 212 Spe  
+Modest Nature  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Rock Slide  
+- Self-Destruct  
+
+Golbat @ Choice Band  
+Ability: Inner Focus  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Sludge Bomb  
+- Aerial Ace  
+- Hidden Power [Ground]  
+- Quick Attack  
+
+Wailord @ Leftovers  
+Ability: Water Veil  
+EVs: 252 SpA / 212 SpD / 44 Spe  
+Modest Nature  
+- Hydro Pump  
+- Ice Beam  
+- Hidden Power [Electric]  
+- Self-Destruct  
+
+Gaylie (Glalie) @ Leftovers  
+Ability: Inner Focus  
+EVs: 252 HP / 32 SpD / 224 Spe  
+Timid Nature  
+- Ice Beam  
+- Light Screen  
+- Spikes  
+- Explosion  
+
+Kecleon @ Leftovers  
+Ability: Color Change  
+EVs: 252 HP / 4 Def / 252 SpD  
+Careful Nature  
+- Return  
+- Focus Punch  
+- Shadow Ball  
+- Thunder Wave  
+

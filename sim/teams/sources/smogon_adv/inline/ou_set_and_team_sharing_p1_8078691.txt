@@ -1,0 +1,178 @@
+Edit:
+Linear Share 2 (September 2020)
+Linear Share 3 (July 2021)
+some of this stuff doesn't age so well!
+
+To begin with, I'd like to showcase some sets:
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 184 HP / 192 Atk / 132 Spe
+Adamant Nature
+IVs: 30 SpD / 30 Spe
+- Focus Punch
+- Rock Slide
+- Earthquake
+- Hidden Power [Bug]
+
+Fits super well on many teams. Reasonable speed investment means that Tar is now outrunning much of the mixed and bulky clutter in the 160/170 region, while still retaining enough bulk to live Dug EQ. As long as it avoids toxic, it really bullies out Blissey and doesn't mind paralysis too much from opposing Twave Bliss/AstaRachi. With the right predictions Adamant FP chunks even its best checks, forces Milo recover etc.
+Other decent options: invest in slightly more HP to live hydro from offensive star, or invest in 8 more speed EVS to creep Pasy's Adamant Dol.
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 32 Atk / 224 SpA / 252 Spe
+Naive Nature
+IVs: 30 Def / 30 SpA
+- Fire Blast
+- Hidden Power [Grass]
+- Ice Beam
+- Brick Break
+
+This mixed lure is really hard to switch into with its great elemental coverage, and can often soften up the opposing team for an Aero/DDMence cleanup. Fits well on Spike teams as well as Spikeless Offence. Hitting 243 speed, it can guarantees outruns all Swampert, at least speed tie with opposing Tar, and outspeed most Metagross. You may also find yourself outrunning lazily EVed Jira/Cele/Zap.
+Other decent options: Lum Berry>Leftovers (although I've always found the passive recovery more useful than a onetime status heal. Great for shrugging off Gengar Will-O, or in the lead spot to counterlead sleepers); -def instead of -sp def (depends on team. I believe BKC & UD prefer -def. I think it's a bit of waste to get murdered by nonCB Flygon EQ and BB from Salamence because of the potential Ice coverage trade); Salac Berry>Leftovers for some spice on HO teams
+
+komodo (Metagross) @ Salac Berry
+Ability: Clear Body
+Shiny: Yes
+EVs: 168 HP / 128 Atk / 8 Def / 204 Spe
+Jolly Nature
+- Meteor Mash
+- Earthquake
+- Rock Slide
+- Explosion
+
+Oh my god this is one of my favourite Asta-Techs: Anti-Modern ADV! Unboosted, 249 guarantees outrunning Pert and Tar, and outruns almost all bulky threats (and making it harder to revenge trap with Magneton), helping Gross blow open a hole for Phys Spam. The bulk helps it live just about everything, activating Salac Berry and outspeeding everything outside of Jolt/Aero. Can be a devastating surprise endgame sweep itself, making use of Spikes! Another thing this set does is help prevent EndPert from murdering offence, since the Gross can switch in on an Endeavour/Torrent Hydro, then outspeed Pert. I feel like Endure sacrifices vital coverage and sort of wastes Metagross' fantastic bulk. The third move is interchangeable between Rock Slide, HP Grass (and changing nature to -sp def) or HP Bug to a lesser extent depending on whether the team wants Zapdos, Swampert or Celebi threatened more. HP Grass has great surprise value. For example, between Mag, Gross coverage + boom, opposing teams might not have anything left to fend off a Ttar/Mence/Aero sweep.
+
+DiznoNarrates (Zapdos) @ Leftovers
+Ability: Pressure
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 2 Atk / 30 SpA
+- Thunderbolt
+- Hidden Power [Grass]
+- Thunder Wave
+- Roar
+
+One of my absolute favs, and very viably slapped onto almost any Spike Abuse and Spikeless Offence team, and one of the best leads in the game. Max/Max means that you at least speed tie with opposing +Max base 100s, and usually outspeed the rest. This is huge for opposing Zapdos and MixMence, which can be very hard to pivot for Spikeless Offence teams. Twave is a handy catch all, especially for crippling WishTect Rachi and Jolteon. Roar rounds out the set beautifully disrupting CM and/or passes from Jirachi and Celebi, as well as other assorted ladder cheese. HP Ice is definitely very useful for massive damage on Flygon/Mence, as well as doing >0 damage on Celebi. When running ice, Zapdos can very easily bluff grass to force out Pert, and sometimes the real HP does not get revealed until the decisive endgame. For ladder I usually stick with Grass because most of the time ladderers seem to leave in their Pert against Zap.
+
+The Big Fat Kill (Snorlax) @ Leftovers
+Ability: Immunity
+EVs: 16 HP / 176 Atk / 120 Def / 160 SpD / 36 Spe
+Adamant Nature
+- Body Slam
+- Focus Punch/Earthquake
+- Shadow Ball
+- Self-Destruct
+The beauty in running 36 Speed EV is that you know you're always going to outspeed opposing Lax. Decided Camerupt (lol) would be the benchmark for me to not go overboard on investment. Sacrifices some bulk, but outside of extreme team dedication, Lax doesn't last that long anyway. Still enough Sp Def almost never be 3ko'ed by Modest Zap Tbolt/2ko'ed by +1 Modest Cune Hydro in sand. FP/EQ depending on how well the team handles Skarm, Metagross and Jirachi.
+
+Cloyster @ Leftovers
+Ability: Shell Armor
+EVs: 72 HP / 244 SpD / 192 Spe
+Timid Nature
+- Surf
+- Ice Beam
+- Explosion
+- Spikes
+
+I feel like this is Cloyster spread is also a big thing for modern ADV. Cloyster is well suited for PhysSpam or Spike Abuse teams due to its ability to spike on Bulky Waters, as well as a timely boom. I believe all Cloy should be fast. It gets worn down by Sand and Status anyway, so better to hit a speed tier good for the metagame. Hitting 246 speed means outspeeding all Tar and Pert (I'm starting to sound repetitive aren't I) and importantly almost all Rest Zapdos and Bulky Celebi, meaning it can spike+boom to quickly gain the initiative. HP Grass is an option over Ice Beam if the team really appreciates Swampert chip without needing to boom. The other EVs are spread such that Cloyster will always live a tbolt from timid Off Star.
+
+d3Rp1tY p3rT (Swampert) @ Leftovers
+Ability: Torrent
+EVs: 4 Atk / 252 SpA / 252 Spe
+Rash Nature
+- Hydro Pump
+- Ice Beam
+- Earthquake
+- Focus Punch
+
+YES YES! Defining Mon of modern ADV and one of my favourite sets. It's such great team glue. With Max Modest investment, Swamperts attack really sting. Skarmory does not appreciate taking ~50% hydros (omg seeing Skarm get crit ohko'ed by pump is one of the greatest feelings other than maybe Champ cross chop crit ohkoing Mence), and Sp Def Zap can no longer rest loop pressure/toxic stall. Celebi is also forced to recover more often. Focus Punch + EQ kills Blissey, which means Blissey is hardly a check! Focus Punch's PP also enables Pert to crit fish against resting cune more freely. 219 is a beautiful speed to hit, outrunning Marowak, most Tar/Meta/Pert/Milo/RestCune etc. and especially outspeeding AstaRachi is nice. As with all mixed threats, Milotic is one of the best answers to MixPert.
+
+Against speedcreep-weary opponents, an alternative spread of [EVs: 112 Def / 252 SpA / 144 Spe  ] may be preferable, since the defensive bulk really helps against Tar/Dug/Aero etc. although you no longer outrun uncommon but dangerous things like Machamp or Marowak.
+
+MixPert is a great mon but requires additional physical backbone support since no longer reliably checks Mence/Tar/Aero. E.g. Metagross and Jirachi are good partners for Pert.
+
+Askarmatitos (Skarmory) @ Leftovers
+Ability: Keen Eye
+EVs: 248 HP / 124 SpD / 136 Spe
+Careful Nature
+- Spikes
+- Taunt
+- Drill Peck
+- Roar
+
+I've really started to like this spread recently, 210 hits a nice benchmark of almost always outspeeding opposing Skarm, and outspeeding standard speed crept Milo (surprisingly handy) as well as all M A C H A M P (BU sets murder traditional SkarmBliss teams).
+
+Askarmatitos (Skarmory) @ Leftovers
+Ability: Keen Eye
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Hidden Power [Ground]
+- Drill Peck
+- Spikes
+- Taunt
+
+YOLOskarm!! (I think this set has become commonly known after SPLX) Dangerous spike setter for Spike abuse teams. Outspeeds and OHKOs Max/Max HP Fire Magneton, which is absolutely game changing. Can single-handedly destroy offences, SkarmMag as sometimes Magneton is the only answer. Drill Peck hits surprisingly hard, and discourages Gengar from getting a free switch. Taunt shuts down opposing Skarm, and helps Skarm beat Bliss 1v1, but sometimes the team might require Roar in the last slot.
+
+Mag teams that absolutely require Mag to trap Skarm are now required to run a lot of bulk (see Mag set below) or run Timid, which in turn lowers OHKO% for Standard Sp Def Skarm.
+
+On the other hand, running 0 bulk means that Skarm is now murdered by special attacks, and must pivot carefully against opposing Salamence, Tar and Pert.
+
+I really do wonder if, by 2020, Skarm will ever run Soft Sand and/or Jolly nature.
+
+Magneton @ Magnet
+Ability: Magnet Pull
+EVs: 240 HP / 212 SpA / 56 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA / 30 Spe
+- Thunderbolt
+- Hidden Power [Fire]
+- Toxic
+- Thunder Wave
+
+Mag Dol teams really appreciate this spread. With all the YOLOskarms running around, aside from running timid Mag, super fat Mag is the other answer to this metagame trend. Ojama's spread that lives Forre EQ is unnecessary cos Forre is a terrible Mon, so 240HP guarantees lives HP Ground while sparing enough EVs so that Mag isn't outsped by every mon and its dog. Important to note Metagross doesn't really get revenge trapped anymore, and handy to know that 240HP Mag guarantee lives 1 layer of spike + Off Star Hydro.
+
+Set Paste
+Here https://pastebin.com/raw/haMgma5w is a pastebin for importing sets into the damage calc. A couple of months ago I got sick of having to import custom sets all the time so I just made a paste for common sets I expect to use and face. (The Smogon sets are dated and incomplete). That being said, I haven't updated it in a while so this paste is not entirely complete either, but is still really useful anyway. You may notice I'm big on my speed creeps. I like to know that my Tar will outspeed your Tar, etc. My defensive benchmarks are in fact not at all refined. From what I gather, Roro and Mdrag would be the experts to consult in that matter.
+
+Team Paste
+Teams: https://pastebin.com/raw/jyFh4AF3 This is currently my entire folder!
+Many of my bulky teams, and many of my offence teams, get picked off by Dug. I do not know how to fix this, and is probably one of my biggest weaknesses. At the same time, I struggle building Dug teams too. Bah!
+
+Team Remarks
+
+My favourite team archetypes atm are Cloyster Spikestacks and Mag Offence. Cloyster generally has consistent MU wise and type synergy often allows threatening doubles. One benefit of having the offensive initiative is that the opponent is required to guess/scout the Tar/Gar/Gross sets etc.
+
+Once my bread and butter, Forre is very unreliable in the current metagame because of the discovery of Sp Def Gar and all the mixed threats running around. Another downside is that Forre usually broadcasts half the team.
+
+Some other thoughts:
+-Will-O Taunt Gar pairs well (but it benefits from Skarm anyway)
+-A double water core with MixPert has decent surprise value (Asta had a very win over Ojama in the 2018 ADV Cup)
+-Sing Bliss paired with Dug/CB Gon can free things up nicely
+-An interesting tech is to run Counter/Zap Cannon/Spike/Spin to not be complete food for Skarm Gar. Zap Cannon is a free move to click against opposing Skarm and has very good surprise value. Despite its low accuracy, Forre will usually have multiple chances to click it.
+-BP Cele can be very nasty without Roar Zap, and CMRachi can be very nasty without Dug.
+-Forre often cannot afford to run HP Bug and thus can be countered by Recover Mie or Claydol to some extent.
+
+SkarmBliss is still very good. Recently I have started to pair the infamous duo with +att Claydol. This was very effective on ladder. I really appreciated the longevity of the core. Sometimes, however, Double Trap + weather reset can be unwinnable so depending on the team it's really important to keep Skarm from getting trapped by Mag. I have also found the Toxic Zap+Dug MU to be quite irritating. SkarmBliss must also be weary of fighting type offence, as well as tiptoe MixPert carefully.
+
+SkarmJolt can be deadly in the right MU, but has an uphill battle against any Mag Dol team. twave zap is very problematic too. Similar things can be said about SkarmRachi, which often has to deal with an additional problem of Moltres. For these reasons I use SkarmJolt and SkarmRachi sparingly.
+
+The metagame has adapted to SkarmMag, which was hugely popular ~2 years ago. Mag Dol can be very annoying, as well as Cloyster and Fighters. Without Blissey, Molt is a pain to pivot. The SkarmMag Molt team would be super solid and one of the best teams if it weren't slaughtered by Mag Lax (I considered metal sound on Mag as a lastmon lax countermeasure, but often mag lax is paired with dug which traps Mag).
+
+The Smeargle Offence has deadly offensive potential but is unfortunately 6-0'ed by DDMence ):
+
+Breloom / Jynx are fantastic sleepers and very fun to use. Fighting mon + Houndoom is a terrific core.
+
+There's a whole collection of Spikeless Offence teams. I had a liking for these 0.5-1 year ago (including with Mix Dpunch Rachi). However, I stopped using Dpunch Rachi as I realised during battles I never wanted to risk clicking Dpunch against Ttar. A problem for these teams is spike+electric, and also dug+solid phys checks. For the above reasons Spikeless offence requires hard reads/doubles, high risk mediocre reward.
+
+-BP matches are largely decided on MU so are many other archetypes (e.g. you prey on my common teams with Fat Do Nothing Mag/Dol/Dug/Milo, ofc I can do the reverse to you with free set up)
+-requires more 'skill' than people give credit for. There are often critical prediction turns with regards to Double BPing to not be put in a checkmate situation from Skarm or CB Gross without a sub up, on Mr Mime for example.
+
+Closing Thoughts
+The strongest ADVers are BKC, Astamatitos, Lavos and Marcop. Compared to them , it feels like my teams lack that special spark. Teambuilding and counterstyling preparation for a tournament match are probably the relatively weaker parts of my game.
+
+I'd be thrilled to hear suggestions/edits/other options as well as your favourite team from the dump!
+
+Special thanks to friends who I play 1000x games with, and who help me test and teambuild; the ADV discord chat for interesting discussion and hilarious shitposts; the AG community (it's been a while but I'll never forget my roots! Whenever I pop in you guys are always so welcoming); and the Classiest teams and the Oceania WCOP team for such wonderful, supportive environments.
+
+You all make me feel most loved and make me cherish all my experiences on Showdown!
+

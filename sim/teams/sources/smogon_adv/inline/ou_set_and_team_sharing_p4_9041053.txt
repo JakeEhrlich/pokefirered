@@ -1,0 +1,183 @@
+I've been having a blast exploring ADV more in depth recently and would like to share some sets that have served me well, be it in tournaments or on the ladder.
+
+Gengar @ Leftovers
+Ability: Levitate
+EVs: 244 HP / 8 Def / 184 SpD / 72 Spe
+Calm Nature
+IVs: 0 Atk
+- Mean Look
+- Perish Song
+- Hypnosis
+- Destiny Bond
+
++
+
+Dugtrio @ Choice Band
+Ability: Arena Trap
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Earthquake
+- Hidden Power [Bug]
+- Aerial Ace
+- Substitute
+
+I started out just wanting to use a destiny bond gar on a more dedicated bulky team (     ) to bypass pokemon such as cune, lax, and whatever else is difficult to handle long term. I always found regular bond unreliable though so I figured pairing with mean look would make for a more reliable kill. Obviously, once you use mean look then perish song naturally follows. I tried to use wisp as the 4th move initially but it's illegal with perish song, so hypnosis seemed like the next best thing. Hypnosis is also even more broken when you pair it with mean look because they can't sleep fodder. Dug is a natural partner because it can trap tar, bliss, cele, rachi, and many other things try to come into gar. McMeghan had the brilliant idea to put sub as dug's 4th move because it can force a perish kill even if the pokemon's not normally in trap range. As for the spread, traditional 330 speed isn't as useful when you don't have the attacks for mence zap etc. The relevant calcs for this spread are:
+
+32- SpA Claydol Psychic vs. 244 HP / 184+ SpD Gengar: 127-150 (39.4 - 46.5%) -- guaranteed 3HKO after Leftovers recovery
+252+ Atk Snorlax Shadow Ball vs. 244 HP / 8 Def Gengar: 255-300 (79.1 - 93.1%) -- guaranteed 2HKO after Leftovers recovery
+252+ Atk Metagross Meteor Mash vs. 244 HP / 8 Def Gengar: 276-325 (85.7 - 100.9%) -- 6.3% chance to OHKO
++2 252+ Atk Heracross Rock Slide vs. 244 HP / 8 Def Gengar: 260-307 (80.7 - 95.3%) -- guaranteed 2HKO after Leftovers recovery
+
+It hits 274 speed (faster than max dol, ada hera) and lives 2 psychics with sand from the most common dol spread. This means you can more reliably time the bond sequence and not die to sand instead of an attack. The rest of the spread is just maximizing physical bulk and can grant more opportunities to trap many of the aforementioned threats.
+
+Jynx (F) @ Leftovers
+Ability: Oblivious
+EVs: 216 HP / 28 SpA / 76 SpD / 188 Spe
+Timid Nature
+IVs: 0 Atk
+- Mean Look
+- Perish Song
+- Ice Beam
+- Lovely Kiss
+
++
+
+Dugtrio @ Choice Band
+Ability: Arena Trap
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Earthquake
+- Hidden Power [Bug]
+- Aerial Ace
+- Substitute
+
+This core represents a similar one to the above but for a different type of team. Many jynx sets feature taunt, cm, sub, hp fire, etc. Those are all fine but again mean look + lovely kiss seemed too broken not to abuse here. If you want the safe path vs potential lum leads (tar and meta) then ice beam turn 1 into dug is totally fine. Against other leads (or the aforementioned 2 if you're feeling risky) you can get the sleep trap shenanigans going instantly. Generally you lovely kiss turn 1 and then instantly mean look, as you either trap what's in front of you or trap what switches in alongside dug. The evs outspeed neutral 100s, live 3 stosses from blissey in sand, and avoid the 2hko from timid zapdos.
+
+Claydol @ Leftovers
+Ability: Levitate
+EVs: 16 HP / 248 Atk / 4 Def / 240 Spe
+Jolly Nature
+- Earthquake
+- Psychic
+- Rapid Spin
+- Explosion
+
+This is the most offensive of the dol spreads. Some very slow teams (like say meta lax pert tar) are sorely lacking in speed and appreciate a way to revenge offcune, ada hera, loom, etc. It's extremely frail vs mons like zap but nonetheless fits on some teams. Evs hit 270 speed and eat +1 jolly tar bug.
+
+Claydol @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 252 Atk / 4 Def
+Relaxed Nature
+- Earthquake
+- Psychic
+- Rapid Spin
+- Explosion
+
+This is the inbetween spread, bulky but also strong. Usually when I use explosion I use this spread. It can avoid the 2hko from molt zap gar bliss but still pack a punch exploding. Evs allow it to eat +2 jolly tar bug too.
+
+Claydol @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 112 Def / 144 SpD
+Sassy Nature
+- Earthquake
+- Psychic
+- Rapid Spin
+- Rest
+
++
+
+Blissey (F) @ Leftovers
+Ability: Natural Cure
+EVs: 8 HP / 252 Def / 248 SpA
+Bold Nature
+IVs: 0 Atk
+- Seismic Toss
+- Ice Beam
+- Aromatherapy
+- Soft-Boiled
+
+I don't think refresh is that effective at lasting long. Most skarms run peck and in general you get chipped trying to spin. Rest solves this issue, while also becoming way easier to heal with aroma bliss support. Evs allow it to eat 2 aero double edges and a ton of special hits.
+
+Starmie @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 40 Def / 8 SpA / 32 SpD / 176 Spe
+Timid Nature
+- Thunder Wave
+- Surf
+- Rapid Spin
+- Recover
+
+Standard set but with particular evs. Outspeeds ada dug and pretty much every gar with the following calcs:
+
+0 Atk Swampert Earthquake vs. 252 HP / 40 Def Starmie on a critical hit: 257-303 (79.3 - 93.5%) -- guaranteed 2HKO (in sand)
+252+ SpA Tyranitar Crunch vs. 252 HP / 32 SpD Starmie: 256-302 (79 - 93.2%) -- guaranteed 2HKO (in sand)
+8 SpA Starmie Surf vs. 252 HP / 0 SpD Tyranitar: 209-246 (51.7 - 60.8%) -- 94.1% chance to 2HKO after Leftovers recovery
+
+Steelix @ Leftovers
+Ability: Rock Head
+EVs: 248 HP / 104 Atk / 68 Def / 72 SpD / 16 Spe
+Impish Nature
+- Earthquake
+- Hidden Power [Rock]
+- Protect
+- Explosion
+
+The moves are pretty basic but the evs are pretty detailed so I'll just show relevant calcs. It outspeeds para'd aero/jolt.
+
+252+ SpA Tyranitar Fire Blast vs. 248 HP / 72 SpD Steelix: 299-352 (84.7 - 99.7%) -- guaranteed 2HKO after Leftovers recovery
++1 252 Atk Tyranitar Earthquake vs. 248 HP / 68+ Def Steelix: 159-188 (45 - 53.2%) -- 0.4% chance to 2HKO after Leftovers recovery
+104 Atk Steelix Earthquake vs. 4 HP / 0 Def Dugtrio: 186-219 (87.7 - 103.3%) -- guaranteed OHKO after 1 layer of Spikes
+104 Atk Steelix Earthquake vs. 248 HP / 0 Def Tyranitar: 198-234 (49.1 - 58%) -- 97.7% chance to 2HKO
+104 Atk Steelix Explosion vs. 252 HP / 0 Def Claydol: 338-398 (104.3 - 122.8%) -- guaranteed OHKO
+
+I think lix is very viable. You can't slap it on every team but it has insane physical bulk and very unique typing.
+My favorite lix team is (     ).
+
+Skarmory
+Ability: Keen Eye
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+- Spikes
+- Thief
+- Roar
+- Protect
+
+I think skarm is almost always most effective with max spdef, roar, and protect. Those attributes allow it to spike early in the game, heal consistently throughout, and be a "threat" with roar. Roar-less also straight up loses to metagross. So, because I value all these parts of the set so greatly, I decided to put thief in the traditional peck slot. People usually run spike peck thief roar when they run thief but I don't think peck is entirely necessary on most teams.
+
+Celebi @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 156 Def / 68 SpD / 32 Spe
+Calm Nature
+IVs: 2 Atk / 30 SpA
+- Leech Seed
+- Hidden Power [Grass]
+- Perish Song
+- Recover
+
+Baton pass is often used in the perish slot but on more defensive teams perish can be a very good option. In fullpass matchups aside, perish is still very useful vs cm bp celebi, sub cm rachi, and late cune / lax. The defense allows it to eat aero bug from full and max ada dol boom from full.
+
+Salamence @ Leftovers
+Ability: Intimidate
+EVs: 148 Def / 224 SpA / 136 Spe
+Rash Nature
+- Dragon Claw
+- Flamethrower
+- Brick Break
+- Hidden Power [Grass]
+
+This is just basic mixmence but at lead it eats mash from cb meta, and usually late game it always eats slide from tar.
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 240 HP / 40 Def / 196 SpD / 32 Spe
+Calm Nature
+IVs: 2 Atk / 30 SpA
+- Thunderbolt
+- Hidden Power [Grass]
+- Baton Pass
+- Rest
+
+This is another set I like at lead. Tar is one of the few things that leads well into zap. This zap set outright beats special / mix leads, but also eats ada tar slide with sand. This means you can tbolt early to see what’s up / put it into dug range without fully losing your zap. Rest lets you get all your hp back and personally this is another set I like alongside aroma bliss.
+
+Thanks for reading
+

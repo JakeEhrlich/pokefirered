@@ -1,0 +1,13 @@
+Here's a situational, but fun set I have been using recently:
+
+Swampert @ Leftovers
+Ability: Torrent
+Shiny: Yes
+EVs: 248 HP / 216 Def / 44 SpD
+Relaxed Nature
+- Earthquake
+- Ice Beam
+- Protect
+- Counter
+Counter is very useful for random HPGrasses, which Swampert can usually live at high amounts of health. It also has utility against Choice Banders that are normally too strong for regular defensive Swampert to punish, such as Tyranitar. You'll miss Hydro Pump, Roar, or whatever you'd usually like to fit in that slot, but it can be worth it because Counter is potentially very good for netting surprise KOs. Special Defense EVs are to survive Modest Zapdos HPGrass of course, so you can KO it back.
+

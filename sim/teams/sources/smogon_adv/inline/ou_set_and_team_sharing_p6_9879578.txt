@@ -1,0 +1,88 @@
+I recently had a very good run in ADV Majors, making it all the way to finals(making me top 3 out of 100 players) and a final with Win-Activity-Loss ratio of 5-2-3. A highlight of that run includes beating Robjr in the semi-finals. I also made it to ADV circuit chapionships for the first time. To celebrate this, I’ve decided to make a post talking about good cores and cool movesets I’ve been enjoying lately.
+
+Good Cores
+1. Offensive Celebi/ Breloom + Raikou + Dugtrio
++  /  +
+One of Raikou’s major weaknesses is that it easily gets trapped and eliminated by Dugtrio. This core aims to fix that issue. The idea is that you let Breloom or Celebi get trapped by opposing Dugtrio and then trap it using your own Dugtrio. This means Raikou is safe from being Dug trapped.   They also have good synergy besides this, Breloom generates setup opportunities for Kou and can help wear down Claydol if running HP Ghost. CM Celebi can trade with a lot of Raikou checks like physical Tyranitar and Metagross.  I’ve had way more success with the Breloom version of this core, but CM Celebi works too.
+
+Example lineups:
+
+2. Offensive Calm Mind Jirachi + Dragon Dance Salamence
++
+This is an interesting pairing on offence teams. Offensive Jirachi puts pressure on some Salamence answers like Bulky Physical Tyranitar and Blissey. I reccomend using a bulky Jirachi EV spread of 248 HP / 40 Def / 180 SpA / 40 Spe , which gives you good odds to beat Tyranitar and non-TWave Blissey. Dragon Dance Salamence also some good defensive synergy with Jirachi(similar to MetaMence). It also comes in and sets up on Dugtrio after it traps Jirachi.
+
+3. CM Pass Celebi + Sunny Day Focus Punch Charizard + Dugtrio
++  +
+Both of these pokemon can trade with Tyranitar for the other's benefit. Substitue + Focus Punch Charizard can even lure and take out Tyranitar, allowing Celebi to run wild. CM Pass Celebi also does well vs the Milotic stall teams that Sunny Zard struggles into. It can also switch into water and electric type attacks aimed at Charizard. Sunny Day Charizard is also a very cool pokemon overall, here are some calcs for it.
+
+Calcs
+
++1 252 SpA Blaze Charizard Blast Burn vs. 0 HP / 0 SpD Blissey in Sun: 561-660 (86.1 - 101.3%) -- 12.5% chance to OHKO
++1 252 SpA Blaze Charizard Blast Burn vs. 4 HP / 0 SpD Aerodactyl: 309-364 (102.6 - 120.9%) -- guaranteed OHKO
++1 252 SpA Blaze Charizard Blast Burn vs. 92 HP / 144 SpD Snorlax in Sun: 587-691 (121.2 - 142.7%) -- guaranteed OHKO
++1 252 SpA Blaze Charizard Fire Blast vs. 92 HP / 144 SpD Snorlax in Sun: 470-553 (97.1 - 114.2%) -- 81.3% chance to OHKO
+
+Example lineups:
+
+4. SD Endure Salac Reversal Heracross + Kingdra
++
+Kingdra clears sand for SD EndRev Heracross to go nuts vs most teams. Kingdra does well vs offensive teams, while Heracross slams sandless Milotic stall teams that rely on Dugtrio to beat it, which Kingdra struggles into.. Heracross also does a good job beating sandless CM Spam teams, which Kingdra teams tend to do poorly into. I like to pair this with Rain Dance Zapdos as well.
+
+Example lineups:
+
+5. Offensive Sub Pass Vaporeon + Dugtrio
++
+I've really started to like Vaporeon as of late. It's very good into common Skarm Bliss Big 5 style teams. Teams that rely on Blissey to sponge offensive waters(which as very common rn)  in general do very badly into it. Vaporeon has 101 HP Subsitutes which Blissey cant break with Seismic Toss, allowing Dugtrio to trap it very easily. Dugtrio traps special walls like Blissey, Celebi and Jirachi that Vaporeon cant break through.
+
+Example lineups
+
+Creative Movesets
+
+1. FunkMixRachi by SPFunkMD(funkybeangamer on smogon)
+Jirachi @ Leftovers
+Ability: Serene Grace
+EVs: 108 HP / 116 Atk / 4 Def / 228 SpA / 4 SpD / 48 Spe
+Quiet Nature
+- Ice Punch
+- Thunderbolt
+- Hidden Power [Fighting]
+- Psychic
+Purpose of EV spread: 2HKOs Tar, outspeeds Max Adamant Tyranitar, lives 2 Modest Zapdos Tbolts(99.6% of the time), 2HKO Skarm 82.4% of the time. Very good wallbreaker with spikes up, good on special offense teams as well. Very cool set overall.
+2. SubCM Roar Suicune
+Water Dog (Suicune) @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 104 SpA / 152 Spe
+Modest Nature
+IVs: 0 Atk
+- Substitute
+- Calm Mind
+- Surf
+- Roar
+This set is meant to match-up fish vs stall teams such Milo Dug Dol Skarm Bliss +1. It has an autowin MU into teams of that kind. It's very polarizing though. I like to pair it with Kingdra or another rain sweeper, who clears sand for Suicune and provides a check to DD Salamence.
+3. Gorebyss
+Gorebyss @ Mystic Water
+Ability: Swift Swim
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Rain Dance
+- Hydro Pump
+- Ice Beam
+- Baton Pass
+It's an interesting side-grade to Kingdra, although worse and less consistent overall. It has two main upsides over Dra: much stronger Hydro Pumps in rain and Baton Pass to more reliably Dugtrio-trap special walls and pass around Subsitutes and Calm Mind boosts it recieves from other pokemon. I like to use it alongside Kingdra as well, Gorebyss + Dugtrio does a good job of trapping special walls and setting the stage for Kingdra to come in and clean up. I think this is the best way to use Gorebyss.  You can take pretty much any Kingdra team and replace it with Gorebyss and have the gameplan be more or less unchanged(though a good chunk of them would be slightly worse overall).
+Example lineup:
+
+4. Slowbro by DarthTyros, spread by SPFunkMD
+Slowbro @ Leftovers
+Ability: Own Tempo
+EVs: 252 HP / 60 Def / 196 SpA
+Modest Nature
+IVs: 0 Atk
+-Thunder Wave
+-Surf
+-Ice Beam
+-Fire Blast
+Good stopgap vs Dragon Dance sweepers. It does a good job of checking Dragon Dance Salamence and Tyranitar on special offense teams that are weak to them. Spread lives two Aero Doubles Edges in Sand after a layer of spikes. 132 Defence may be used to live two +1 DD Tar Rock Slides after spikes. I'd love to share replays of this one, but sadly they were all wiped.
+
+Closing Words: Thanks for reading. Good luck laddering ADV, I hope you enjoy using these. For anyone reading this, I strongly reccomend reading Vapicuno's teambuilding guide of 2023, it's a great resource and inspired me to build various types of offence. ( Resource - ADV OU Teambuilding/Strategy: Archetypes and Cores -- A Data-Driven Approach | Smogon Forums it's available for download on page 2 of this thread.
+

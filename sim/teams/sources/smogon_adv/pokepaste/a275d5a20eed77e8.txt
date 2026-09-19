@@ -1,0 +1,17 @@
+Smeargle @ Salac Berry  
+Ability: Own Tempo  
+EVs: 84 HP / 248 SpD / 176 Spe  
+Jolly Nature  
+- Whirlwind  
+- Spikes  
+- Spore  
+- Explosion
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 176 Atk / 144 SpA / 188 Spe  
+Hasty Nature  
+- Focus Punch  
+- Ice Punch  
+- Thunderbolt  
+- Hypnosis

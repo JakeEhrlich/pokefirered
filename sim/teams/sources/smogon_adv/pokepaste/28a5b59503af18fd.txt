@@ -1,0 +1,56 @@
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Thunderbolt  
+- Substitute  
+- Swagger  
+- Roar  
+
+Gardevoir @ Leftovers  
+Ability: Trace  
+EVs: 240 HP / 16 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Taunt  
+- Torment  
+- Icy Wind  
+- Memento  
+
+Smeargle @ Salac Berry  
+Ability: Own Tempo  
+EVs: 244 HP / 12 Def / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Substitute  
+- Spore  
+- Belly Drum  
+- Baton Pass  
+
+Cradily @ Lum Berry  
+Ability: Suction Cups  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Rock Slide  
+- Substitute  
+- Earthquake  
+- Hidden Power [Bug]  
+
+Medicham @ Leftovers  
+Ability: Pure Power  
+EVs: 252 Atk / 76 SpD / 180 Spe  
+Jolly Nature  
+- Substitute  
+- Hidden Power [Rock]  
+- Shadow Ball  
+- Brick Break  
+
+Dianna (Aggron) @ Salac Berry  
+Ability: Rock Head  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Endure  
+- Double-Edge  
+- Rock Slide  
+- Earthquake  

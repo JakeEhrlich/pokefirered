@@ -1,0 +1,1344 @@
+=== [gen3uu] Kangaskhan + top teammates ===
+
+Kangaskhan @ Leftovers
+Ability: Early Bird
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Rest
+- Shadow Ball
+- Earthquake
+- Return
+
+Arcanine @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Timid Nature
+- Extreme Speed
+- Fire Blast
+- Hidden Power Grass
+- Toxic
+
+Scyther @ Choice Band
+Ability: Swarm
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Silver Wind
+- Aerial Ace
+- Quick Attack
+- Swords Dance
+
+Omastar @ Leftovers
+Ability: Shell Armor
+EVs: 252 HP / 240 Def / 16 Spe
+Bold Nature
+- Spikes
+- Surf
+- Toxic
+- Protect
+
+Tentacruel @ Leftovers
+Ability: Liquid Ooze
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Rapid Spin
+- Surf
+- Ice Beam
+- Toxic
+
+Lapras @ Leftovers
+Ability: Water Absorb
+EVs: 120 Def / 252 SpA / 136 Spe
+Modest Nature
+- Ice Beam
+- Thunderbolt
+- Heal Bell
+- Hydro Pump
+
+=== [gen3uu] Arcanine + top teammates ===
+
+Arcanine @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Timid Nature
+- Extreme Speed
+- Fire Blast
+- Hidden Power Grass
+- Toxic
+
+Kangaskhan @ Leftovers
+Ability: Early Bird
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Rest
+- Shadow Ball
+- Earthquake
+- Return
+
+Lapras @ Leftovers
+Ability: Water Absorb
+EVs: 120 Def / 252 SpA / 136 Spe
+Modest Nature
+- Ice Beam
+- Thunderbolt
+- Heal Bell
+- Hydro Pump
+
+Tentacruel @ Leftovers
+Ability: Liquid Ooze
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Rapid Spin
+- Surf
+- Ice Beam
+- Toxic
+
+Ampharos @ Leftovers
+Ability: Static
+EVs: 252 HP / 88 Def / 32 SpA / 120 SpD / 16 Spe
+Modest Nature
+- Thunderbolt
+- Hidden Power Ice
+- Heal Bell
+- Toxic
+
+Solrock @ Choice Band
+Ability: Levitate
+EVs: 228 HP / 252 Atk / 28 Spe
+Adamant Nature
+- Explosion
+- Rock Slide
+- Earthquake
+- Shadow Ball
+
+=== [gen3uu] Omastar + top teammates ===
+
+Omastar @ Leftovers
+Ability: Shell Armor
+EVs: 252 HP / 240 Def / 16 Spe
+Bold Nature
+- Spikes
+- Surf
+- Toxic
+- Protect
+
+Kangaskhan @ Leftovers
+Ability: Early Bird
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Rest
+- Shadow Ball
+- Earthquake
+- Return
+
+Scyther @ Choice Band
+Ability: Swarm
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Silver Wind
+- Aerial Ace
+- Quick Attack
+- Swords Dance
+
+Tentacruel @ Leftovers
+Ability: Liquid Ooze
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Rapid Spin
+- Surf
+- Ice Beam
+- Toxic
+
+Misdreavus @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 252 SpD / 4 Spe
+Calm Nature
+- Psychic
+- Rest
+- Thunderbolt
+- Toxic
+
+Lapras @ Leftovers
+Ability: Water Absorb
+EVs: 120 Def / 252 SpA / 136 Spe
+Modest Nature
+- Ice Beam
+- Thunderbolt
+- Heal Bell
+- Hydro Pump
+
+=== [gen3uu] Solrock + top teammates ===
+
+Solrock @ Choice Band
+Ability: Levitate
+EVs: 228 HP / 252 Atk / 28 Spe
+Adamant Nature
+- Explosion
+- Rock Slide
+- Earthquake
+- Shadow Ball
+
+Kangaskhan @ Leftovers
+Ability: Early Bird
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Rest
+- Shadow Ball
+- Earthquake
+- Return
+
+Arcanine @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Timid Nature
+- Extreme Speed
+- Fire Blast
+- Hidden Power Grass
+- Toxic
+
+Glalie @ Leftovers
+Ability: Inner Focus
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Spikes
+- Explosion
+- Earthquake
+- Hidden Power Grass
+
+Tentacruel @ Leftovers
+Ability: Liquid Ooze
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Rapid Spin
+- Surf
+- Ice Beam
+- Toxic
+
+Electrode @ Petaya Berry
+Ability: Static
+EVs: 12 HP / 24 Atk / 116 Def / 252 SpA / 104 Spe
+Rash Nature
+- Hidden Power Ice
+- Thunderbolt
+- Explosion
+- Substitute
+
+=== [gen3uu] Ampharos + top teammates ===
+
+Ampharos @ Leftovers
+Ability: Static
+EVs: 252 HP / 88 Def / 32 SpA / 120 SpD / 16 Spe
+Modest Nature
+- Thunderbolt
+- Hidden Power Ice
+- Heal Bell
+- Toxic
+
+Kangaskhan @ Leftovers
+Ability: Early Bird
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Rest
+- Shadow Ball
+- Earthquake
+- Return
+
+Arcanine @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Timid Nature
+- Extreme Speed
+- Fire Blast
+- Hidden Power Grass
+- Toxic
+
+Omastar @ Leftovers
+Ability: Shell Armor
+EVs: 252 HP / 240 Def / 16 Spe
+Bold Nature
+- Spikes
+- Surf
+- Toxic
+- Protect
+
+Lapras @ Leftovers
+Ability: Water Absorb
+EVs: 120 Def / 252 SpA / 136 Spe
+Modest Nature
+- Ice Beam
+- Thunderbolt
+- Heal Bell
+- Hydro Pump
+
+Blastoise @ Leftovers
+Ability: Torrent
+EVs: 252 HP / 148 Def / 68 SpA / 40 Spe
+Bold Nature
+- Surf
+- Rapid Spin
+- Toxic
+- Roar
+
+=== [gen3uu] Blastoise + top teammates ===
+
+Blastoise @ Leftovers
+Ability: Torrent
+EVs: 252 HP / 148 Def / 68 SpA / 40 Spe
+Bold Nature
+- Surf
+- Rapid Spin
+- Toxic
+- Roar
+
+Kangaskhan @ Leftovers
+Ability: Early Bird
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Rest
+- Shadow Ball
+- Earthquake
+- Return
+
+Arcanine @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Timid Nature
+- Extreme Speed
+- Fire Blast
+- Hidden Power Grass
+- Toxic
+
+Ampharos @ Leftovers
+Ability: Static
+EVs: 252 HP / 88 Def / 32 SpA / 120 SpD / 16 Spe
+Modest Nature
+- Thunderbolt
+- Hidden Power Ice
+- Heal Bell
+- Toxic
+
+Omastar @ Leftovers
+Ability: Shell Armor
+EVs: 252 HP / 240 Def / 16 Spe
+Bold Nature
+- Spikes
+- Surf
+- Toxic
+- Protect
+
+Vileplume @ Leftovers
+Ability: Chlorophyll
+EVs: 28 HP / 252 SpA / 228 Spe
+Modest Nature
+- Sleep Powder
+- Leech Seed
+- Solar Beam
+- Sunny Day
+
+=== [gen3uu] Vileplume + top teammates ===
+
+Vileplume @ Leftovers
+Ability: Chlorophyll
+EVs: 28 HP / 252 SpA / 228 Spe
+Modest Nature
+- Sleep Powder
+- Leech Seed
+- Solar Beam
+- Sunny Day
+
+Arcanine @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Timid Nature
+- Extreme Speed
+- Fire Blast
+- Hidden Power Grass
+- Toxic
+
+Kangaskhan @ Leftovers
+Ability: Early Bird
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Rest
+- Shadow Ball
+- Earthquake
+- Return
+
+Ampharos @ Leftovers
+Ability: Static
+EVs: 252 HP / 88 Def / 32 SpA / 120 SpD / 16 Spe
+Modest Nature
+- Thunderbolt
+- Hidden Power Ice
+- Heal Bell
+- Toxic
+
+Solrock @ Choice Band
+Ability: Levitate
+EVs: 228 HP / 252 Atk / 28 Spe
+Adamant Nature
+- Explosion
+- Rock Slide
+- Earthquake
+- Shadow Ball
+
+Glalie @ Leftovers
+Ability: Inner Focus
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Spikes
+- Explosion
+- Earthquake
+- Hidden Power Grass
+
+=== [gen3uu] Electrode + top teammates ===
+
+Electrode @ Petaya Berry
+Ability: Static
+EVs: 12 HP / 24 Atk / 116 Def / 252 SpA / 104 Spe
+Rash Nature
+- Hidden Power Ice
+- Thunderbolt
+- Explosion
+- Substitute
+
+Kangaskhan @ Leftovers
+Ability: Early Bird
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Rest
+- Shadow Ball
+- Earthquake
+- Return
+
+Arcanine @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Timid Nature
+- Extreme Speed
+- Fire Blast
+- Hidden Power Grass
+- Toxic
+
+Glalie @ Leftovers
+Ability: Inner Focus
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Spikes
+- Explosion
+- Earthquake
+- Hidden Power Grass
+
+Solrock @ Choice Band
+Ability: Levitate
+EVs: 228 HP / 252 Atk / 28 Spe
+Adamant Nature
+- Explosion
+- Rock Slide
+- Earthquake
+- Shadow Ball
+
+Scyther @ Choice Band
+Ability: Swarm
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Silver Wind
+- Aerial Ace
+- Quick Attack
+- Swords Dance
+
+=== [gen3uu] Gligar + top teammates ===
+
+Gligar @ Leftovers
+Ability: Hyper Cutter
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Hidden Power Flying
+- Quick Attack
+- Swords Dance
+
+Kangaskhan @ Leftovers
+Ability: Early Bird
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Rest
+- Shadow Ball
+- Earthquake
+- Return
+
+Arcanine @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Timid Nature
+- Extreme Speed
+- Fire Blast
+- Hidden Power Grass
+- Toxic
+
+Omastar @ Leftovers
+Ability: Shell Armor
+EVs: 252 HP / 240 Def / 16 Spe
+Bold Nature
+- Spikes
+- Surf
+- Toxic
+- Protect
+
+Tentacruel @ Leftovers
+Ability: Liquid Ooze
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Rapid Spin
+- Surf
+- Ice Beam
+- Toxic
+
+Scyther @ Choice Band
+Ability: Swarm
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Silver Wind
+- Aerial Ace
+- Quick Attack
+- Swords Dance
+
+=== [gen3uu] Muk + top teammates ===
+
+Muk @ Leftovers
+Ability: Sticky Hold
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Sludge Bomb
+- Explosion
+- Hidden Power Ground
+- Memento
+
+Arcanine @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Timid Nature
+- Extreme Speed
+- Fire Blast
+- Hidden Power Grass
+- Toxic
+
+Ampharos @ Leftovers
+Ability: Static
+EVs: 252 HP / 88 Def / 32 SpA / 120 SpD / 16 Spe
+Modest Nature
+- Thunderbolt
+- Hidden Power Ice
+- Heal Bell
+- Toxic
+
+Blastoise @ Leftovers
+Ability: Torrent
+EVs: 252 HP / 148 Def / 68 SpA / 40 Spe
+Bold Nature
+- Surf
+- Rapid Spin
+- Toxic
+- Roar
+
+Vileplume @ Leftovers
+Ability: Chlorophyll
+EVs: 28 HP / 252 SpA / 228 Spe
+Modest Nature
+- Sleep Powder
+- Leech Seed
+- Solar Beam
+- Sunny Day
+
+Kangaskhan @ Leftovers
+Ability: Early Bird
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Rest
+- Shadow Ball
+- Earthquake
+- Return
+
+=== [gen3uu] Qwilfish + top teammates ===
+
+Qwilfish @ Leftovers
+Ability: Poison Point
+EVs: 252 HP / 4 Atk / 252 Spe
+Naive Nature
+- Spikes
+- Self-Destruct
+- Sludge Bomb
+- Thunder Wave
+
+Scyther @ Choice Band
+Ability: Swarm
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Silver Wind
+- Aerial Ace
+- Quick Attack
+- Swords Dance
+
+Kangaskhan @ Leftovers
+Ability: Early Bird
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Rest
+- Shadow Ball
+- Earthquake
+- Return
+
+Arcanine @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Timid Nature
+- Extreme Speed
+- Fire Blast
+- Hidden Power Grass
+- Toxic
+
+Electrode @ Petaya Berry
+Ability: Static
+EVs: 12 HP / 24 Atk / 116 Def / 252 SpA / 104 Spe
+Rash Nature
+- Hidden Power Ice
+- Thunderbolt
+- Explosion
+- Substitute
+
+Misdreavus @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 252 SpD / 4 Spe
+Calm Nature
+- Psychic
+- Rest
+- Thunderbolt
+- Toxic
+
+=== [gen3uu] Electabuzz + top teammates ===
+
+Electabuzz @ Leftovers
+Ability: Static
+EVs: 172 Atk / 98 SpA / 240 Spe
+Hasty Nature
+- Thunderbolt
+- Focus Punch
+- Substitute
+- Ice Punch
+
+Kangaskhan @ Leftovers
+Ability: Early Bird
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Rest
+- Shadow Ball
+- Earthquake
+- Return
+
+Arcanine @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Timid Nature
+- Extreme Speed
+- Fire Blast
+- Hidden Power Grass
+- Toxic
+
+Cradily @ Leftovers
+Ability: Suction Cups
+EVs: 252 HP / 164 Atk / 92 SpD
+Adamant Nature
+- Toxic
+- Recover
+- Earthquake
+- Rock Slide
+
+Omastar @ Leftovers
+Ability: Shell Armor
+EVs: 252 HP / 240 Def / 16 Spe
+Bold Nature
+- Spikes
+- Surf
+- Toxic
+- Protect
+
+Lapras @ Leftovers
+Ability: Water Absorb
+EVs: 120 Def / 252 SpA / 136 Spe
+Modest Nature
+- Ice Beam
+- Thunderbolt
+- Heal Bell
+- Hydro Pump
+
+=== [gen3uu] Hitmontop + top teammates ===
+
+Hitmontop @ Leftovers
+Ability: Intimidate
+EVs: 252 HP / 116 Atk / 136 Def / 4 Spe
+Adamant Nature
+- Brick Break
+- Rapid Spin
+- Hidden Power Ghost
+- Earthquake
+
+Kangaskhan @ Leftovers
+Ability: Early Bird
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Rest
+- Shadow Ball
+- Earthquake
+- Return
+
+Arcanine @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Timid Nature
+- Extreme Speed
+- Fire Blast
+- Hidden Power Grass
+- Toxic
+
+Gligar @ Leftovers
+Ability: Hyper Cutter
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Hidden Power Flying
+- Quick Attack
+- Swords Dance
+
+Omastar @ Leftovers
+Ability: Shell Armor
+EVs: 252 HP / 240 Def / 16 Spe
+Bold Nature
+- Spikes
+- Surf
+- Toxic
+- Protect
+
+Scyther @ Choice Band
+Ability: Swarm
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Silver Wind
+- Aerial Ace
+- Quick Attack
+- Swords Dance
+
+=== [gen3uu] Lanturn + top teammates ===
+
+Lanturn @ Leftovers
+Ability: Volt Absorb
+EVs: 136 HP / 244 SpA / 128 Spe
+Modest Nature
+- Surf
+- Ice Beam
+- Thunderbolt
+- Thunder Wave
+
+Kangaskhan @ Leftovers
+Ability: Early Bird
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Rest
+- Shadow Ball
+- Earthquake
+- Return
+
+Omastar @ Leftovers
+Ability: Shell Armor
+EVs: 252 HP / 240 Def / 16 Spe
+Bold Nature
+- Spikes
+- Surf
+- Toxic
+- Protect
+
+Scyther @ Choice Band
+Ability: Swarm
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Silver Wind
+- Aerial Ace
+- Quick Attack
+- Swords Dance
+
+Blastoise @ Leftovers
+Ability: Torrent
+EVs: 252 HP / 148 Def / 68 SpA / 40 Spe
+Bold Nature
+- Surf
+- Rapid Spin
+- Toxic
+- Roar
+
+Nidoking @ Choice Band
+Ability: Poison Point
+EVs: 252 Atk / 4 SpA / 252 Spe
+Adamant Nature
+- Earthquake
+- Ice Beam
+- Shadow Ball
+- Sludge Bomb
+
+=== [gen3uu] Nidoking + top teammates ===
+
+Nidoking @ Choice Band
+Ability: Poison Point
+EVs: 252 Atk / 4 SpA / 252 Spe
+Adamant Nature
+- Earthquake
+- Ice Beam
+- Shadow Ball
+- Sludge Bomb
+
+Kangaskhan @ Leftovers
+Ability: Early Bird
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Rest
+- Shadow Ball
+- Earthquake
+- Return
+
+Arcanine @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Timid Nature
+- Extreme Speed
+- Fire Blast
+- Hidden Power Grass
+- Toxic
+
+Omastar @ Leftovers
+Ability: Shell Armor
+EVs: 252 HP / 240 Def / 16 Spe
+Bold Nature
+- Spikes
+- Surf
+- Toxic
+- Protect
+
+Tentacruel @ Leftovers
+Ability: Liquid Ooze
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Rapid Spin
+- Surf
+- Ice Beam
+- Toxic
+
+Solrock @ Choice Band
+Ability: Levitate
+EVs: 228 HP / 252 Atk / 28 Spe
+Adamant Nature
+- Explosion
+- Rock Slide
+- Earthquake
+- Shadow Ball
+
+=== [gen3uu] Granbull + top teammates ===
+
+Granbull @ Leftovers
+Ability: Intimidate
+EVs: 252 HP / 40 Atk / 216 Def
+Adamant Nature
+- Shadow Ball
+- Focus Punch
+- Heal Bell
+- Return
+
+Kangaskhan @ Leftovers
+Ability: Early Bird
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Rest
+- Shadow Ball
+- Earthquake
+- Return
+
+Tentacruel @ Leftovers
+Ability: Liquid Ooze
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Rapid Spin
+- Surf
+- Ice Beam
+- Toxic
+
+Arcanine @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Timid Nature
+- Extreme Speed
+- Fire Blast
+- Hidden Power Grass
+- Toxic
+
+Omastar @ Leftovers
+Ability: Shell Armor
+EVs: 252 HP / 240 Def / 16 Spe
+Bold Nature
+- Spikes
+- Surf
+- Toxic
+- Protect
+
+Scyther @ Choice Band
+Ability: Swarm
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Silver Wind
+- Aerial Ace
+- Quick Attack
+- Swords Dance
+
+=== [gen3uu] Altaria + top teammates ===
+
+Altaria @ Leftovers
+Ability: Natural Cure
+EVs: 248 HP / 252 Def / 8 SpD
+Bold Nature
+- Rest
+- Heal Bell
+- Hidden Power Flying
+- Dragon Dance
+
+Kangaskhan @ Leftovers
+Ability: Early Bird
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Rest
+- Shadow Ball
+- Earthquake
+- Return
+
+Omastar @ Leftovers
+Ability: Shell Armor
+EVs: 252 HP / 240 Def / 16 Spe
+Bold Nature
+- Spikes
+- Surf
+- Toxic
+- Protect
+
+Tentacruel @ Leftovers
+Ability: Liquid Ooze
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Rapid Spin
+- Surf
+- Ice Beam
+- Toxic
+
+Blastoise @ Leftovers
+Ability: Torrent
+EVs: 252 HP / 148 Def / 68 SpA / 40 Spe
+Bold Nature
+- Surf
+- Rapid Spin
+- Toxic
+- Roar
+
+Misdreavus @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 252 SpD / 4 Spe
+Calm Nature
+- Psychic
+- Rest
+- Thunderbolt
+- Toxic
+
+=== [gen3uu] Nidoqueen + top teammates ===
+
+Nidoqueen @ Leftovers
+Ability: Poison Point
+EVs: 128 HP / 252 Atk / 56 SpA / 72 Spe
+Lonely Nature
+- Earthquake
+- Ice Beam
+- Shadow Ball
+- Superpower
+
+Arcanine @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Timid Nature
+- Extreme Speed
+- Fire Blast
+- Hidden Power Grass
+- Toxic
+
+Lapras @ Leftovers
+Ability: Water Absorb
+EVs: 120 Def / 252 SpA / 136 Spe
+Modest Nature
+- Ice Beam
+- Thunderbolt
+- Heal Bell
+- Hydro Pump
+
+Kangaskhan @ Leftovers
+Ability: Early Bird
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Rest
+- Shadow Ball
+- Earthquake
+- Return
+
+Blastoise @ Leftovers
+Ability: Torrent
+EVs: 252 HP / 148 Def / 68 SpA / 40 Spe
+Bold Nature
+- Surf
+- Rapid Spin
+- Toxic
+- Roar
+
+Hitmonlee @ Choice Band
+Ability: Limber
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Earthquake
+- Brick Break
+- Mach Punch
+- Hidden Power Ghost
+
+=== [gen3uu] Cradily + top teammates ===
+
+Cradily @ Leftovers
+Ability: Suction Cups
+EVs: 252 HP / 164 Atk / 92 SpD
+Adamant Nature
+- Toxic
+- Recover
+- Earthquake
+- Rock Slide
+
+Kangaskhan @ Leftovers
+Ability: Early Bird
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Rest
+- Shadow Ball
+- Earthquake
+- Return
+
+Electabuzz @ Leftovers
+Ability: Static
+EVs: 172 Atk / 98 SpA / 240 Spe
+Hasty Nature
+- Thunderbolt
+- Focus Punch
+- Substitute
+- Ice Punch
+
+Lapras @ Leftovers
+Ability: Water Absorb
+EVs: 120 Def / 252 SpA / 136 Spe
+Modest Nature
+- Ice Beam
+- Thunderbolt
+- Heal Bell
+- Hydro Pump
+
+Arcanine @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Timid Nature
+- Extreme Speed
+- Fire Blast
+- Hidden Power Grass
+- Toxic
+
+Scyther @ Choice Band
+Ability: Swarm
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Silver Wind
+- Aerial Ace
+- Quick Attack
+- Swords Dance
+
+=== [gen3uu] Golem + top teammates ===
+
+Golem @ Leftovers
+Ability: Rock Head
+EVs: 252 HP / 108 Atk / 16 Def / 132 Spe
+Adamant Nature
+- Earthquake
+- Explosion
+- Focus Punch
+- Rock Slide
+
+Kangaskhan @ Leftovers
+Ability: Early Bird
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Rest
+- Shadow Ball
+- Earthquake
+- Return
+
+Scyther @ Choice Band
+Ability: Swarm
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Silver Wind
+- Aerial Ace
+- Quick Attack
+- Swords Dance
+
+Vileplume @ Leftovers
+Ability: Chlorophyll
+EVs: 28 HP / 252 SpA / 228 Spe
+Modest Nature
+- Sleep Powder
+- Leech Seed
+- Solar Beam
+- Sunny Day
+
+Arcanine @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Timid Nature
+- Extreme Speed
+- Fire Blast
+- Hidden Power Grass
+- Toxic
+
+Hitmonlee @ Choice Band
+Ability: Limber
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Earthquake
+- Brick Break
+- Mach Punch
+- Hidden Power Ghost
+
+=== [gen3uu] Slowking + top teammates ===
+
+Slowking @ Leftovers
+Ability: Own Tempo
+EVs: 252 HP / 252 Def / 4 Spe
+Bold Nature
+- Calm Mind
+- Surf
+- Rest
+- Psychic
+
+Kangaskhan @ Leftovers
+Ability: Early Bird
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Rest
+- Shadow Ball
+- Earthquake
+- Return
+
+Gligar @ Leftovers
+Ability: Hyper Cutter
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Hidden Power Flying
+- Quick Attack
+- Swords Dance
+
+Tentacruel @ Leftovers
+Ability: Liquid Ooze
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Rapid Spin
+- Surf
+- Ice Beam
+- Toxic
+
+Electrode @ Petaya Berry
+Ability: Static
+EVs: 12 HP / 24 Atk / 116 Def / 252 SpA / 104 Spe
+Rash Nature
+- Hidden Power Ice
+- Thunderbolt
+- Explosion
+- Substitute
+
+Arcanine @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Timid Nature
+- Extreme Speed
+- Fire Blast
+- Hidden Power Grass
+- Toxic
+
+=== [gen3uu] Walrein + top teammates ===
+
+Walrein @ Leftovers
+Ability: Thick Fat
+EVs: 252 HP / 116 Def / 140 SpA
+Modest Nature
+- Ice Beam
+- Surf
+- Toxic
+- Earthquake
+
+Kangaskhan @ Leftovers
+Ability: Early Bird
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Rest
+- Shadow Ball
+- Earthquake
+- Return
+
+Arcanine @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Timid Nature
+- Extreme Speed
+- Fire Blast
+- Hidden Power Grass
+- Toxic
+
+Vileplume @ Leftovers
+Ability: Chlorophyll
+EVs: 28 HP / 252 SpA / 228 Spe
+Modest Nature
+- Sleep Powder
+- Leech Seed
+- Solar Beam
+- Sunny Day
+
+Ampharos @ Leftovers
+Ability: Static
+EVs: 252 HP / 88 Def / 32 SpA / 120 SpD / 16 Spe
+Modest Nature
+- Thunderbolt
+- Hidden Power Ice
+- Heal Bell
+- Toxic
+
+Hitmonlee @ Choice Band
+Ability: Limber
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Earthquake
+- Brick Break
+- Mach Punch
+- Hidden Power Ghost
+
+=== [gen3uu] Sandslash + top teammates ===
+
+Sandslash @ Leftovers
+Ability: Sand Veil
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Swords Dance
+- Double-Edge
+
+Kangaskhan @ Leftovers
+Ability: Early Bird
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Rest
+- Shadow Ball
+- Earthquake
+- Return
+
+Scyther @ Choice Band
+Ability: Swarm
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Silver Wind
+- Aerial Ace
+- Quick Attack
+- Swords Dance
+
+Glalie @ Leftovers
+Ability: Inner Focus
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Spikes
+- Explosion
+- Earthquake
+- Hidden Power Grass
+
+Granbull @ Leftovers
+Ability: Intimidate
+EVs: 252 HP / 40 Atk / 216 Def
+Adamant Nature
+- Shadow Ball
+- Focus Punch
+- Heal Bell
+- Return
+
+Electrode @ Petaya Berry
+Ability: Static
+EVs: 12 HP / 24 Atk / 116 Def / 252 SpA / 104 Spe
+Rash Nature
+- Hidden Power Ice
+- Thunderbolt
+- Explosion
+- Substitute
+
+=== [gen3uu] Camerupt + top teammates ===
+
+Camerupt @ Leftovers
+Ability: Magma Armor
+EVs: 28 HP / 188 Atk / 136 SpA / 156 SpD
+Brave Nature
+- Explosion
+- Earthquake
+- Protect
+- Overheat
+
+Kangaskhan @ Leftovers
+Ability: Early Bird
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Rest
+- Shadow Ball
+- Earthquake
+- Return
+
+Misdreavus @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 252 SpD / 4 Spe
+Calm Nature
+- Psychic
+- Rest
+- Thunderbolt
+- Toxic
+
+Omastar @ Leftovers
+Ability: Shell Armor
+EVs: 252 HP / 240 Def / 16 Spe
+Bold Nature
+- Spikes
+- Surf
+- Toxic
+- Protect
+
+Blastoise @ Leftovers
+Ability: Torrent
+EVs: 252 HP / 148 Def / 68 SpA / 40 Spe
+Bold Nature
+- Surf
+- Rapid Spin
+- Toxic
+- Roar
+
+Electabuzz @ Leftovers
+Ability: Static
+EVs: 172 Atk / 98 SpA / 240 Spe
+Hasty Nature
+- Thunderbolt
+- Focus Punch
+- Substitute
+- Ice Punch
+

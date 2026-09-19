@@ -1,0 +1,89 @@
+With my elimination from Callous Cup, I'm taking a much needed break for the time being so here is some stuff I've used in ADV throughout Classic / Callous Cup
+
+Sets:
+
+Heracross @ Salac Berry
+Ability: Swarm
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+IVs: 30 HP
+- Substitute
+- Swords Dance
+- Megahorn
+- Sunny Day
+
+This set came to be because I didn't like how the combination of sacks and sand chip could be used to prevent a Heracross sweep. While other ways of removing sand are also possible, I didn't want to rely on another mon for that in this instance. Furthermore, with Hera itself being the weather change, it provides an element of surprise because the opponent will play with the assumption that sand will limit the damage Heracross can do, and with Hera itself changing the weather there is a high potential to turn around the state of a game. Moreover, Sunny Day also allows Hera to set up on various mons such as Milotic, MonoPert / Suicune lacking Roar, etc. Pair this set with ways to get rid of Skarmory, such as Magneton or the Snorlax mentioned above by McMeghan, as well as Pursuit support to deal with Gengar (I used blackglasses Tar to also get chip on Moltres, though potentially something like a Houndoom might even work).
+
+Vaporeon @ Salac Berry
+Ability: Water Absorb
+EVs: 16 HP / 88 Def / 152 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Hydro Pump
+- Roar
+- Substitute
+- Baton Pass
+
+Vaporeon is a great mon with the ability to pass 101 Subs, which allows teams to take advantage of Blisseys aiming to sponge Vaporeon's hits. However, one of the mons that poses an issue to the SubPass strategy is Roar Suicune, who often stops teams that want to get off the Sub BP in its tracks. In order to counteract that, Roar Vaporeon allows you to prevent Suicune's Roar, and with a favourable phaze you can maintain momentum and Baton Pass out. EVs allow you to live Ada CB Mence HP Flying with enough HP to make a sub, which means that after passing a sub once, you have another option to deal with CB Mence, which is appreciated by the teams that SubPass Vap often finds itself on.
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 76 Def / 184 SpA
+Modest Nature
+IVs: 0 Atk
+- Crunch
+- Pursuit
+- Roar
+- Counter
+
+Counter on Pursuit Tyranitar is an option that has seen a steady increase in usage over the past few months. One of the main purposes of the set is how it functions as a way to deal with the now standard Attack invested Claydol, which otherwise lives Crunch and 2HKO you with Earthquake, and removing Claydol helps immensely with keeping up Spikes, as well as removing the threat of Claydol's Explosion. Moreover, Counter also provides a way of dealing with Curse Snorlax, particularly in conjunction with Roar, as well as taking on various other physical attackers such as Gyarados, non-CB Metagross, etc. As for EVs, I think the current spread isn't optimal in all honesty, but Max HP and a mix of defense and special attack generally achieves the main purpose of this set.
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: High amount of Special Atk EVs, rest of the EVs can freely be distributed
+Modest Nature
+- Thunder
+
+Thunder Tyranitar is a set that has reared its head and has seen some usage in Callous IV, with it also being used by people such as thelinearcurve. What Thunder Tyranitar offers is a way to break through bulky Waters, in particular Suicune and Milotic, while also maintaining the 2HKO on Skarmory. EVs for this set can vary wildly, such as bulk investment (I used a Boah variant, with Max HP and SubPunch Crunch as the other moves) or a high amount of speed investment, which allows you to outpace Milotic and slower Suicune, meaning that even without paralysis you can reliably threaten a 2HKO.
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 252 SpA / 4 SpD / 252 Spe (could invest EVs into HP to pass bulkier subs)
+Timid Nature
+IVs: 2 Atk / 30 SpA
+- Thunderbolt
+- Hidden Power [Grass]
+- Substitute
+- Baton Pass
+
++
+
+Gengar @ Leftovers
+Ability: Levitate
+EVs: idk how to EV this thing in all honesty, though it is important to have plenty Attack investment for Blissey
+Hasty Nature
+- Focus Punch
+- Thunderbolt
+- 2 of Ice Punch / Explosion / Hidden Power [Grass] / Fire Punch / etc.
+
+SubPass Zapdos is nothing new, but I just wanted to highlight a fun way in which I've used it recently. Blissey is one of the mons that hard stops Zapdos trying to Baton Pass a substitute, with Seismic Toss breaking the Sub of threats such as Tyranitar and Metagross that typically try to take advantage of Blissey. As a way to circumvent the issue of the Sub being broken, I quickly turned to Gengar, with how its immunities allow you a free entry on Blissey, which means you keep up the sub. The substitute gives you a free turn to launch a Focus Punch vs Blissey, allowing you to exert offensive pressure. As for EVs, Gengar likes having a decent amount of attack investment, and potentially some SpDef investment as well to take an Ice Beam from a Blissey with a lower amount of SpAtk investment, though this purpose can also be achieved by adding HP EVs to Zapdos. This combination pairs nicely with Tyranitar's sand to counteract Blissey's Leftovers, as well as other mons typically used with SubPass Zapdos such as Dugtrio.
+
+Salamence @ Black Belt
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Rash Nature
+- Dragon Claw
+- Fire Blast
+- Brick Break
+- Hidden Power [Grass]
+
+This set has been posted before on forums quite a while ago, I think by BKC, but I just wanted to highlight it again because I'm a big fan of it. This is your standard MixMence but with Black Belt which achieves 2 things: Firstly, the lack of Leftovers recovery suggests that your opponent is dealing with a CB Mence, and this initial assumption can serve as a game changer when you land HP Grass on Swampert or a Fire Blast on Skarmory, and secondly, the Black Belt damage boost helps against mons such as Snorlax, Blissey, and Tyranitar. Just like a regular MixMence, this set also appreciates Spikes and Sand, though for this set in particular the illusion of CB, as well as the higher damage benchmarks you reach with Belt-boosted Brick Break, shine at their best with Sand and Spikes up.
+
+Team:
+
+[import]
+
+Spoiler
+
+This is one of the better teams I built in the past few months, and I first built it to use vs UD and I later also used it vs McMeghan. The team is built around Physical Zapdos, because I wanted to use a mon that was good vs both Suicune and Celebi. With Drill Peck providing a way to deal with Celebi, I saw an opportunity to use a Tyranitar set which was mentioned to me by Altina, namely Physical Tar but with HP Grass last, which provides me with a way to chip Swampert for Zapdos. The rest of the team came together quite naturally, with Taunt Skarmory providing the crucial Spikes needed to break through teams, as well as Taunt slowing down opposing Spikers, special attack invested Swampert acting as the Rock resist that doesn't give opposing Skarm too much leeway with spiking up, bulky Taunt Gengar as a check to various mons such as Snorlax, Salamence, etc, as well as preventing Blissey from healing up, and a defensive Celebi to check Waters, Electrics, etc., with its last move being HP Fire in order to discourage Forry and Skarm from getting up Spikes. The team doesn't have a great matchup vs mons such as Gengar, offensive fires, etc, and against those type of teams the aim usually is to position for the Agility sweep with Zapdos.
+

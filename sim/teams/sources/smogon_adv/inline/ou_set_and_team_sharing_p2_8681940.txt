@@ -1,0 +1,11 @@
+Hi again, I would just like to share a set that I have used to decent success on ladder (1500), this set is sp def double status loom.  Toxic is a very strong move on breloom as all of its strongest switch ins hate toxic (besides gengar but you have pursuit ttar).  Sp def loom serves as a strong backup special check that abuses spikes with leech and status spam.  Leech seed should be used in scenarios where you have already toxiced or where you would have focus punched if you had focus.  Thank you for reading
+Breloom @ Leftovers
+Ability: Effect Spore
+EVs: 252 HP / 20 Atk / 236 SpD
+Adamant Nature
+- Spore
+- Leech Seed
+- Toxic/Stun spore
+- Sky Uppercut
+Edits:optimized spread with help from everything is something (SEA)
+added usage of leech seed as suggested by vapicuno

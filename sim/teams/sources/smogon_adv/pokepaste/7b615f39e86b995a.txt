@@ -1,0 +1,57 @@
+Arcanine @ Leftovers  
+Ability: Intimidate  
+EVs: 80 HP / 252 SpA / 176 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Toxic  
+- Protect  
+
+Grumpig @ Chesto Berry  
+Ability: Thick Fat  
+EVs: 252 HP / 116 Def / 140 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Psychic  
+- Thief  
+- Rest  
+
+Kangaskhan (F) @ Leftovers  
+Ability: Early Bird  
+EVs: 252 HP / 24 Atk / 168 SpD / 64 Spe  
+Adamant Nature  
+- Double-Edge  
+- Shadow Ball  
+- Wish  
+- Rest  
+
+Scyther @ Choice Band  
+Ability: Swarm  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Hidden Power [Bug]  
+- Aerial Ace  
+- Double-Edge  
+- Quick Attack  
+
+Omastar @ Leftovers  
+Ability: Swift Swim  
+EVs: 252 HP / 200 Def / 56 Spe  
+Bold Nature  
+IVs: 3 Atk / 30 SpA  
+- Surf  
+- Spikes  
+- Protect  
+- Hidden Power [Electric]  
+
+Ampharos @ Leftovers  
+Ability: Static  
+EVs: 252 HP / 40 Atk / 88 Def / 32 SpA / 60 SpD / 36 Spe  
+Quiet Nature  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Focus Punch  
+- Heal Bell  
+

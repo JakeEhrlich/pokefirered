@@ -1,0 +1,83 @@
+Shitrock enjoyer said:
+
+Someone write a teamdump please
+
+Click to expand...
+
+k
+
+Sets
+
+Hariyama @ Leftovers
+Ability: Guts
+EVs: 252 Atk / 180 SpD / 76 Spe
+Adamant Nature
+IVs: 30 SpD / 30 Spe
+- Brick Break
+- Rock Slide
+- Hidden Power [Bug]
+- Knock Off
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 252 HP / 200 SpA / 56 Spe
+Quiet Nature
+- Crunch
+- Thunder
+- Focus Punch
+- Substitute
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 248 HP / 40 Def / 60 SpA / 128 SpD / 32 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Thunderbolt
+- Hidden Power [Grass]
+- Agility
+- Baton Pass
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 176 HP / 196 SpA / 4 SpD / 132 Spe
+Brave Nature
+- Hydro Pump
+- Earthquake
+- Ice Beam
+- Focus Punch
+
+Salamence @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Rash Nature
+IVs: 30 HP / 30 SpA
+- Dragon Claw
+- Fire Blast
+- Hidden Power [Grass]
+- Brick Break
+
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 100 HP / 248 Atk / 160 Spe
+Adamant Nature
+- Meteor Mash
+- Earthquake
+- Rock Slide
+- Explosion
+
+Without looking at the sets, this lineup comes across as the result of a new player taking to heart BKC 's ramblings about how much Snorlax apparently sucks and his ramblings about how cool Hariyama is, and making a change to thelinearcurve's mixed offense sample team that reflects them. I admit that I am a BKC viewer, and I did really like that sample team when I was a new player myself, and the lineups being so similar improves my confidence in the team's viability. After taking into account the sets of the team, hopefully you can see how I arrived at this lineup naturally. I'll explain it too.
+
+The earliest version of this team spread-wise was made during a rise in Agility Metagross usage. The choice between Explosion and Rock Slide seemed to be shifting further towards the latter than it used to be, but I really wanted to use both moves. I knew that Zapdos (the best Agility passer) and Metagross inherently have a lot of synergy with each other and are both great mons in their own right, and I also had interest in building a speed-passing team that doesn't feel too gimmicky/matchup-fishy. I wanted to use multiple synergistic mons that could make good use of the boost, but could still function well without it. Metagross was still going to be the primary recipient though, and that had some influence over the teambuilding.
+
+I didn't feel like Spikes or Rapid Spin or trappers had much of a place on the team, but maybe that was moreso my vision/themes talking rather than my competent-player-brain. In order to wear down mons for a sweep, I wanted Sand and Knock Off. The latter especially punishes the Protect-spamming checks to Metagross (Skarmory, Swampert, defensive Flygon and Jirachi), and is found on a mon that benefits from the status moves targeted at Baton Pass recipients.
+
+Swampert felt like a good user of the speed-boost and a valuable defensive and offensive asset regardless. I have a bias for Swampert + HP Ice bait cores, and adding Salamence due to all of the other synergy that it has with the team was close enough. Initially I was disappointed that the most logical-feeling 6th mon was something that didn't benefit that much from the speed-boost and shared weaknesses with Zapdos, but I've grown to recognize the value in having a fast Spikes-immune good-coverage doesn't-mind-trapping-too-much go-to-it-when-Dugtrio-stays-in-on-a-Zapdos-to-Earthquake-the-DryPass-reciever revenge killer on a team with 5 slower mons.
+
+The movesets are skewed towards beating defensive mons that aren't threatened by the speed-boosting strat. I've heard people say that BoahTar (the moveset on this team) sucks now, and I know that I could hypothetically change Tyranitar's set to something that takes better advantage of the speed-boost, but I feel like BoahTar has a home here. This might be another case of bias, since I love powering through defensive mons; something that BoahTar is designed to do.
+
+The fastest thing that Metagross outspeeds at +2 is +1 Jolly Gyarados, making use of Rock Slide. With no boost, it slightly outspeeds -Spd Jirachi. Zapdos lives an Adamant Tyranitar Rock Slide plus Sand, letting it get a speed-pass off. It also has enough SpAtk to get important OHKOs, like defensive Starmie and - SpDef Swampert. Hariyama and Tyranitar speedcreep Blissey and - Spd Swampert-Tyranitar, and outspeed Timid Moltres at +2. Swampert OHKOs 4 SpDef Moltres (but only 93.75% chance for 4 HP Moltres, bruh), has bulk for Modest 110 and Timid 125 HP Grasses, outspeeds Adamant Dugtrio and the nicher 120s at +2 and speedcreeps Umbreon and Vaporeon, and boosts its Attack to not-horrible levels with a Brave Nature.
+
+Hope you enjoyed this Shitrock enjoyer
+btw I call the team "Hotshot" because a skeptical person could look at Hariyama and say "Oh you think you're so cool being the supposed best UUBL mon, replacing an actual OU mon on an old lineup. And instead of fixing the flaws of said lineup, you help them take it in a worse direction!"
+The results that I've had on the ladder with this team makes it feel at least decent to me.
+

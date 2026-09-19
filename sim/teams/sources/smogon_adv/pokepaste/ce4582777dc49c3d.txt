@@ -1,0 +1,58 @@
+Tyranocif (Tyranitar) (M) @ Leftovers  
+Ability: Sand Stream  
+EVs: 240 HP / 244 SpA / 24 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Pursuit  
+- Crunch  
+- Thunder Wave  
+- Ice Beam  
+
+Cacturne (M) @ Leftovers  
+Ability: Sand Veil  
+EVs: 32 HP / 244 SpD / 232 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Substitute  
+- Leech Seed  
+- Hidden Power [Grass]  
+- Spikes  
+
+Magnéton (Magneton) @ Leftovers  
+Ability: Magnet Pull  
+EVs: 240 HP / 80 Def / 20 SpA / 168 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Toxic  
+- Thunderbolt  
+- Hidden Power [Fire]  
+- Protect  
+
+Donphan @ Leftovers  
+Ability: Sturdy  
+EVs: 248 HP / 100 Def / 160 SpD  
+Impish Nature  
+- Earthquake  
+- Toxic  
+- Rapid Spin  
+- Protect  
+
+Milobellus (Milotic) (M) @ Leftovers  
+Ability: Marvel Scale  
+EVs: 252 HP / 240 Def / 16 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Refresh  
+- Toxic  
+- Recover  
+
+Ptéra (Aerodactyl) (M) @ Choice Band  
+Ability: Rock Head  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Hidden Power [Bug]  
+- Double-Edge  
+- Rock Slide  
+- Earthquake  
+

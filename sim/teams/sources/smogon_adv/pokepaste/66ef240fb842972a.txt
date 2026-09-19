@@ -1,0 +1,57 @@
+Vaporeon @ Leftovers  
+Ability: Water Absorb  
+Modest Nature  
+IVs: 0 Atk  
+- Hydro Pump  
+- Ice Beam  
+- Baton Pass  
+- Substitute  
+
+Jolteon @ Leftovers  
+Ability: Volt Absorb  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Baton Pass  
+- Thunder Wave  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+Adamant Nature  
+IVs: 30 SpA / 30 SpD / 30 Spe  
+- Dragon Dance  
+- Hidden Power [Flying]  
+- Rock Slide  
+- Earthquake  
+
+Tyranitar @ Choice Band  
+Ability: Sand Stream  
+EVs: 252 Atk  
+Adamant Nature  
+IVs: 0 Atk  
+- Rock Slide  
+- Focus Punch  
+- Earthquake  
+- Hidden Power [Bug]  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 252 SpA  
+Rash Nature  
+- Meteor Mash  
+- Psychic  
+- Hidden Power [Fire]  
+- Explosion  
+
+Milotic @ Leftovers  
+Ability: Marvel Scale  
+EVs: 188 HP / 224 SpA / 96 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Hypnosis  
+- Surf  
+- Toxic  
+- Recover  
+

@@ -1,0 +1,26 @@
+Hi PDC, thank you so much for sharing those, and in my thread too <3 I really like the first two, they are novel and have nice synergy! (btw both teams are a bit soft to opposing CM Rachi ...)
+
+Team 1:
+- having roar on both Mence and Molt is very cool tech, nice to be very well insured against Celebi shenanigans
+- I've never used that Tar set before, any reason for that choice?
+- team is looking like an auto loss against Milo Dol. I have no clue how to fix this :(
+
+Team 2:
+- very cool! Has vibes similar to UDs SPL team with Yama over Hera
+- I love that 64 speed EVs on Celebi! Guarantee outspeeding 249dol and 251vap is very cute
+- when I recreated it for myself, I removed the speed from Cune and heaped it into def to help with the damage rolls. Were you creeping anything in particular?
+- I also changed the Jirachi set to:
+
+Jirachi @ Leftovers
+Ability: Serene Grace
+EVs: 240 HP / 184 Def / 52 SpA / 32 Spe
+Bold Nature
+IVs: 2 Atk / 30 Def / 30 SpA
+- Calm Mind
+- Psychic
+- Hidden Power [Water]
+- Wish
+
++1 52 SpA Jirachi Hidden Power Water vs. 8 HP / 0 SpD Dugtrio: 214-252 (100.4 - 118.3%) -- guaranteed OHKO
+just another option to consider
+

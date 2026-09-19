@@ -1,0 +1,57 @@
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 240 SpD / 16 Spe  
+Careful Nature  
+- Spikes  
+- Whirlwind  
+- Taunt  
+- Drill Peck  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 252 Atk / 8 SpD  
+Adamant Nature  
+IVs: 30 SpD / 30 Spe  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Bug]  
+- Focus Punch  
+
+Jolteon @ Leftovers  
+Ability: Volt Absorb  
+Hidden Power: Ice  
+EVs: 76 HP / 180 SpA / 252 Spe  
+Timid Nature  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Baton Pass  
+- Roar  
+
+Starmie @ Leftovers  
+Ability: Natural Cure  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+- Hydro Pump  
+- Ice Beam  
+- Thunderbolt  
+- Rapid Spin  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 176 Atk / 80 Def  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Protect  
+- Explosion  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+Hidden Power: Grass  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+- Fire Punch  
+- Ice Punch  
+- Hidden Power [Grass]  
+- Explosion  
+

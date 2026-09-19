@@ -1,0 +1,131 @@
+In honor of xtinaxendrix new video, I figured I'd post my Duskull team I brought into mushi league.
+
+Shoutout to Rainer24  for the mention of Duskull and goldmason for the team idea.
+They both gave me the idea to build with Duskull in ADV OU :]
+
+After I heard from em I decided to build around with the team idea with no other help.
+"El Duskico" - Explanation & Replays
+Click Sprites for PokePaste
+
+An El Classico Like Structure with a couple of adjustments/tweaks + the addition of Duskull over Gengar.
+>
+
+Tyranitar (M) @ Leftovers
+Ability: Sand Stream
+EVs: 184 HP / 112 Atk / 32 Def / 180 Spe
+Adamant Nature
+- Dragon Dance
+- Rock Slide
+- Earthquake
+- Double-Edge
+
+A standard bulky DD tar lead to set up sand and possibly set up in front of stuff like lead Skarmory or Zapdos.
+That can also bait in the enemy rock resists for this rock spam team. Just an overall solid lead.
+
+Skarmory (M) @ Leftovers
+Ability: Keen Eye
+EVs: 252 HP / 240 SpD / 16 Spe
+Careful Nature
+- Spikes
+- Roar
+- Drill Peck
+- Toxic
+
+A bit of a more proactive Skarmory with drill peck + toxic to better pressure stuff that may try and switch into Skarmory like Gengar, Starmie or Claydol. I don't have much to say other than Skarmory is a solid spiker for this team and it can pivot into a lot of stuff throughout a match.
+
+Swampert (M) @ Leftovers
+Ability: Torrent
+EVs: 252 HP / 40 Def / 216 SpA
+Quiet Nature
+- Hydro Pump
+- Earthquake
+- Ice Beam
+- Curse
+
+A different Swampert set that is typically not seen on an El Classico like structure but I was more of a fan of this Swampert set being able to pressure Blissey and bold rest Suicune while also having the coverage to hit stuff like Celebi, Jolteon, Salamence, Flygon, Metagross, Raikou, and Registeel. I don't often game with mono pert as I feel like it can be a bit passive into certain stuff and lacking coverage for the mons I just listed but I do still respect what defensive mono pert does for a team. I like what this Swampert set provides for the team being able to threaten many things while being a defensive rock resist.
+
+Duskull (M)
+Ability: Levitate
+EVs: 252 HP / 196 SpD / 60 Spe
+Calm Nature
+- Curse
+- Will-O-Wisp
+- Pain Split
+- Thief
+
+I finally get to talk about Duskull heh. It's being the only ghost type in adv that has Will-O-Wisp, Levitate and that isn't weak to Psychic. What I decided to build around was Duskull as a silly unique counter to Claydol while also being able to punish defensive SkarmBliss teams.
+Ideally can counter:++
+Duskull helps against pressuring Claydol by being able to block rapid spin and take little damage from psychic and either taking its leftovers with thief or burning it with wisp, allowing for spikes to stay up on the field and allowing Tyranitar and Aerodactyl to go ham with rock spam + spikes.
+
+The EV's on Duskull allows it to be specially defensive while it also speed creeps 99-100 speed snorlax
+252HP/196+ SpD/60 Spe (101 speed benchmark)
+Some calcs for: (note: these calcs are without leftovers since Duskull is running thief)
+
+32- SpA Claydol Psychic vs. 252 HP / 196+ SpD Duskull: 56-66 (22.9 - 27%) -- 45.3% chance to 4HKO
+40 SpA Starmie Surf vs. 252 HP / 196+ SpD Duskull: 87-103 (35.6 - 42.2%) -- guaranteed 3HKO
+0 Atk Forretress Hidden Power Ghost vs. 252 HP / 0 Def Duskull: 102-120 (41.8 - 49.1%) -- guaranteed 3HKO
+8 SpA Cloyster Surf vs. 252 HP / 196+ SpD Duskull: 74-88 (30.3 - 36%) -- 46.2% chance to 3HKO
+8 SpA Gengar Thunderbolt vs. 252 HP / 196+ SpD Duskull: 70-83 (28.6 - 34%) -- 1.4% chance to 3HKO
+252+ SpA Tyranitar Crunch vs. 252 HP / 196+ SpD Duskull: 190-224 (77.8 - 91.8%) -- guaranteed 2HKO after sandstorm damage
+252+ SpA Houndoom Crunch vs. 252 HP / 196+ SpD Duskull: 209-246 (85.6 - 100.8%) -- 6.3% chance to OHKO
+64 SpA Umbreon Pursuit vs. 252 HP / 196+ SpD Duskull: 52-62 (21.3 - 25.4%) -- 0.2% chance to 4HKO
+0 SpA Suicune Surf vs. 252 HP / 196+ SpD Duskull: 77-91 (31.5 - 37.2%) -- 84.3% chance to 3HKO
+0 SpA Swampert Surf vs. 252 HP / 196+ SpD Duskull: 73-87 (29.9 - 35.6%) -- 32.2% chance to 3HKO
+4 SpA Milotic Surf vs. 252 HP / 196+ SpD Duskull: 84-99 (34.4 - 40.5%) -- guaranteed 3HKO
+0 SpA Defensive Jirachi Fire Punch vs. 252 HP / 196+ SpD Duskull: 45-53 (18.4 - 21.7%) -- possible 5HKO
++1 252+ Atk Salamence Hidden Power Flying vs. 252 HP / 0 Def Duskull: 212-250 (86.8 - 102.4%) -- 18.8% chance to OHKO
++1 252+ Atk 30 IVs Gyarados Hidden Power Flying vs. 252 HP / 0 Def Duskull: 199-235 (81.5 - 96.3%) -- guaranteed 2HKO
+0 SpA Zapdos Thunderbolt vs. 252 HP / 196+ SpD Duskull: 102-120 (41.8 - 49.1%) -- guaranteed 3HKO
+252+ SpA 30 IVs Salamence Dragon Claw vs. 252 HP / 196+ SpD Duskull: 104-123 (42.6 - 50.4%) -- 1.2% chance to 2HKO
+252 SpA 30 IVs Celebi Psychic vs. 252 HP / 196+ SpD Duskull: 100-118 (40.9 - 48.3%) -- guaranteed 3HKO
+252 SpA 30 IVs Jirachi Psychic vs. 252 HP / 196+ SpD Duskull: 100-118 (40.9 - 48.3%) -- guaranteed 3HKO
+Registeel Seismic Toss vs. Duskull: 0-0 (0 - 0%) -- possibly the worst move ever (RIP every Registeel)
+252+ SpA Blissey Ice Beam vs. 252 HP / 196+ SpD Duskull: 64-76 (26.2 - 31.1%) -- guaranteed 4HKO
+
+Duskull can take advantage of its mono ghost typing + levitate and counter back with thief, wisp, pain split, or ghost type curse!
+(Night Shade can also be used if you want a way of doing damage with an attacking move to avoid being shut down by Taunt.)
+The value of levitating above spikes while having a bit of SpD investment into passive stuff like claydol, skarmory, blissey and defensive suicune.
+
+The Value of my Duskull set:
+- being able to thief leftovers
+- pressure mons with wisp
+- pressure mons to switch around with ghost type curse
+- punishing switches with Pain Split with Duskull's low hp stat often healing back to near full
+
+Overall Duskull is pretty unique ghost in what it does compared to other ghosts and it being an unevolved mon with some worth wild traits is really cool to see.
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 216 HP / 76 SpA / 120 SpD / 96 Spe
+Timid Nature
+IVs: 2 Atk / 30 SpA
+- Thunderbolt
+- Hidden Power [Grass]
+- Toxic
+- Roar
+
+Zapdos set was slightly alter to have a bit more SpD + Roar for phazing with spikes down.
+I will point out the lack of protect users on this team compared to the original team. I wanted the team to be a bit more proactive overall.
+
+Aerodactyl (M) @ Choice Band
+Ability: Rock Head
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Rock Slide
+- Double-Edge
+- Earthquake
+- Hidden Power [Bug]
+
+One of the best revenge killers/rock type attackers in the tier. Aero is just a really solid mon to be paired with spikes + with the support of Duskull can help thud Claydol's attempt into being a defensive switch into. Allowing for Aerodactyl to be a late game cleaner.
+
+Overall concept of the team was trying to build an El Classico like structure but having a different ghost over Gengar to better match into Claydol and weirdly be good into other stuff in the tier in a unique way. I am excited to see if more will be expanded with Duskull usage in the future of ADV OU. Goes to show just the pure value of ghost typing in this tier. The fact that something like Duskull has been seeing some usage lately is really note worthy.
+Respect to all the Duskull users out there in ADV OU
+
+I'll leave some replays of the team here.
+My Mushi Set with Duskull: https://replay.pokemonshowdown.com/smogtours-gen3ou-958759
+
+Other replays with the Duskull team: https://replay.pokemonshowdown.com/gen3ou-2623191778
+Duskull trading into Calm Mind Blissey: https://replay.pokemonshowdown.com/gen3ou-2618543401
+Duskull Vs Slophttps://replay.pokemonshowdown.com/gen3ou-2615341917
+Duskull Vs Opposing El Classico: https://replay.pokemonshowdown.com/gen3ou-2616100192
+

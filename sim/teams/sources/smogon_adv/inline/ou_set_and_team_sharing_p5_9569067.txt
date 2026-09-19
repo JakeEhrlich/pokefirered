@@ -1,0 +1,84 @@
+Mushi League S12 just ended, so I'm going to post cool sets and cores.
+Cores
+1. Jynx + Regice (Ice Spam)
++  +
+
+Sets
+
+Jynx @ Lum Berry
+Ability: Oblivious
+Shiny: Yes
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Ice Beam
+- Mean Look
+- Lovely Kiss
+- Perish Song
+
+Regice @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 104 Atk / 152 SpA
+Quiet Nature
+- Ice Beam
+- Thunderbolt
+- Explosion
+- Thunder Wave
+
+Dugtrio @ Choice Band
+Ability: Arena Trap
+EVs: 40 HP / 252 Atk / 100 Def / 116 Spe
+Jolly Nature
+- Earthquake
+- Hidden Power [Bug]
+- Aerial Ace
+- Substitute
+
+There's been a lot of Regice usage in CI6 lately,  so I decided to test it out myself. Regice's main issues are that Tyranitar and Metagross often switch into it instead of the special walls it aims to lure like Blissey. Jynx lures Metagross and Tyranitar so that Regice can run wild. Jnyx also helps trap Blissey and Milotic. When facing Tyranitar leads with this core, Ice Beam on T1 with Jynx to ensure Dugtrio can ko Tyranitar. I've only tested this with rain so far, but in theory it could work with other forms of special offense as well.
+2. Kingdra + SubCM Suicune
++  +
+
+Sets
+
+Kingdra @ Lum Berry
+Ability: Swift Swim
+EVs: 104 HP / 252 SpA / 152 Spe
+Modest Nature
+IVs: 3 Atk / 30 SpA
+- Rain Dance
+- Hydro Pump
+- Ice Beam
+- Hidden Power [Electric]
+
+Suicune @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 104 SpA / 152 Spe
+Modest Nature
+- Substitute
+- Calm Mind
+- Surf
+- Ice Beam
+
+Dugtrio @ Choice Band
+Ability: Arena Trap
+EVs: 40 HP / 252 Atk / 100 Def / 116 Spe
+Jolly Nature
+- Earthquake
+- Hidden Power [Bug]
+- Aerial Ace
+- Substitute
+
+This is a great core for all sorts of rain teams. Kingdra which removes sand and sets up rain, allowing SubCM Suicune to soundly beat Blissey.  SubCM Suicune also sets up on Milotic, Celebi and Jirachi which Kingdra appreciates. This cores appreciates a lead that can chip Tyranitar for Dugtrio to trap such as Zapdos or Jynx.
+Sets
+1. Banette by Cactu_th6
+
+Banette @ Leftovers
+Ability: Insomnia
+EVs: 252 HP / 64 Def / 96 SpD / 96 Spe
+Careful Nature
+- Shadow Ball
+- Hidden Power [Fighting]
+- Will-O-Wisp
+- Taunt
+Spinblocker intended for hyper offense teams. Bulk investment lets you survive +1 Tyranitar Rock Slide after 1 layer of spikes. The speed is intended for uninvested Claydol. The rest is dumped into SpDef.
+

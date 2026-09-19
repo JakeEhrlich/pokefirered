@@ -1,0 +1,57 @@
+Granbull @ Leftovers  
+Ability: Intimidate  
+EVs: 252 HP / 56 Atk / 156 Def / 44 Spe  
+Adamant Nature  
+- Body Slam  
+- Earthquake  
+- Shadow Ball  
+- Bulk Up  
+
+Kangaskhan (F) @ Leftovers  
+Ability: Early Bird  
+EVs: 248 HP / 24 Atk / 196 SpD / 40 Spe  
+Adamant Nature  
+- Return  
+- Focus Punch  
+- Wish  
+- Rest  
+
+Nidoqueen (F) @ Leftovers  
+Ability: Poison Point  
+EVs: 80 HP / 248 Atk / 4 Def / 176 Spe  
+Adamant Nature  
+- Sludge Bomb  
+- Earthquake  
+- Shadow Ball  
+- Superpower  
+
+Solrock @ Choice Band  
+Ability: Levitate  
+Shiny: Yes  
+EVs: 32 HP / 252 Atk / 224 Spe  
+Adamant Nature  
+- Rock Slide  
+- Earthquake  
+- Explosion  
+- Shadow Ball  
+
+Tentacruel @ Leftovers  
+Ability: Liquid Ooze  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Surf  
+- Ice Beam  
+- Toxic  
+- Rapid Spin  
+
+Lapras @ Leftovers  
+Ability: Shell Armor  
+EVs: 80 HP / 56 Def / 252 SpA / 24 SpD / 96 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Hydro Pump  
+- Ice Beam  
+- Thunderbolt  
+- Heal Bell  
+

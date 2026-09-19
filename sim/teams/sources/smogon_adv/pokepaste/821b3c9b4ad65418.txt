@@ -1,0 +1,56 @@
+Salamence (M) @ Leftovers
+Ability: Intimidate
+EVs: 252 HP / 116 Def / 140 Spd
+IVs: 30 SAtk / 30 SDef / 30 Spd
+Adamant Nature (+Atk, -SAtk)
+- Hidden Power [Flying]
+- Protect
+- Toxic
+- Wish
+
+Celebi @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 120 Def / 60 SAtk / 24 SDef / 52 Spd
+IVs: 30 Atk / 30 SAtk
+Bold Nature (+Def, -Atk)
+- Reflect
+- Leech Seed
+- Hidden Power [Grass]
+- Recover
+
+Steelix (M) @ Leftovers
+Ability: Rock Head
+EVs: 252 HP / 120 Atk / 136 SDef
+Impish Nature (+Def, -SAtk)
+- Toxic
+- Protect
+- Earthquake
+- Rock Slide
+
+Magneton @ Leftovers
+Ability: Magnet Pull
+EVs: 80 HP / 232 SAtk / 196 Spd
+IVs: 30 Atk / 30 SAtk / 30 Spd
+Modest Nature (+SAtk, -Atk)
+- Thunderbolt
+- Hidden Power [Fire]
+- Toxic
+- Protect
+
+Starmie @ Leftovers
+Ability: Natural Cure
+EVs: 156 HP / 136 SAtk / 216 Spd
+Timid Nature (+Spd, -Atk)
+- Surf
+- Psychic
+- Recover
+- Rapid Spin
+
+Snorlax (M) @ Leftovers
+Ability: Thick Fat
+EVs: 156 HP / 52 Atk / 124 Def / 176 SDef
+Adamant Nature (+Atk, -SAtk)
+- Curse
+- Shadow Ball
+- Earthquake
+- Rest

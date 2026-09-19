@@ -1,0 +1,61 @@
+great f a i r y (Zapdos) @ Leftovers  
+Ability: Pressure  
+EVs: 248 HP / 180 SpD / 80 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Substitute  
+- Hidden Power [Grass]  
+- Baton Pass  
+
+s a r i a (Celebi) @ Leftovers  
+Ability: Natural Cure  
+EVs: 140 Def / 180 SpA / 188 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Calm Mind  
+- Giga Drain  
+- Psychic  
+- Hidden Power [Fire]  
+
+song s t o r m s (Tyranitar) @ Lum Berry  
+Ability: Sand Stream  
+Shiny: Yes  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Hasty Nature  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Ice Beam  
+- Brick Break  
+
+zora's domain (Dugtrio) @ Choice Band  
+Ability: Arena Trap  
+Shiny: Yes  
+EVs: 8 HP / 232 Atk / 152 SpD / 116 Spe  
+Jolly Nature  
+IVs: 30 SpD / 30 Spe  
+- Aerial Ace  
+- Earthquake  
+- Hidden Power [Bug]  
+- Beat Up  
+
+sheik's theme (Metagross) @ Leftovers  
+Ability: Clear Body  
+Shiny: Yes  
+EVs: 168 HP / 236 Atk / 16 Def / 88 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Agility  
+- Explosion  
+
+z e l d a wave (Gengar) @ Leftovers  
+Ability: Levitate  
+Shiny: Yes  
+EVs: 52 HP / 168 Def / 100 SpA / 188 Spe  
+Naive Nature  
+- Hypnosis  
+- Thunderbolt  
+- Ice Punch  
+- Explosion  
+

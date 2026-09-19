@@ -1,0 +1,57 @@
+Omastar  
+Ability: Swift Swim  
+EVs: 252 HP / 20 SpA / 212 SpD / 24 Spe  
+Modest Nature  
+IVs: 3 Atk / 30 SpA  
+- Thief  
+- Surf  
+- Hidden Power [Electric]  
+- Spikes  
+
+Sandslash @ Leftovers  
+Ability: Sand Veil  
+EVs: 252 HP / 136 Atk / 56 Def / 36 SpD / 28 Spe  
+Impish Nature  
+- Rapid Spin  
+- Swords Dance  
+- Earthquake  
+- Rock Slide  
+
+Kangaskhan (F) @ Leftovers  
+Ability: Early Bird  
+EVs: 248 HP / 16 Atk / 40 Def / 204 SpD  
+Adamant Nature  
+- Body Slam  
+- Focus Punch  
+- Wish  
+- Rest  
+
+Arcanine @ Leftovers  
+Ability: Flash Fire  
+EVs: 128 HP / 36 Def / 224 SpA / 120 Spe  
+Rash Nature  
+- Body Slam  
+- Flamethrower  
+- Hidden Power [Grass]  
+- Extreme Speed  
+
+Lapras @ Leftovers  
+Ability: Water Absorb  
+EVs: 80 HP / 228 Def / 176 SpA / 24 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Thunderbolt  
+- Ice Beam  
+- Heal Bell  
+- Toxic  
+
+Misdreavus @ Leftovers  
+Ability: Levitate  
+EVs: 240 HP / 236 Def / 16 SpA / 16 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Pain Split  
+- Mean Look  
+- Perish Song  
+- Thunder Wave  
+

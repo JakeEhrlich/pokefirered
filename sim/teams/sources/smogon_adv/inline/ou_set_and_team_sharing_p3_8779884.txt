@@ -1,0 +1,38 @@
+some things that I like:
+
+Salamence @ Leftovers
+Ability: Intimidate
+- Dragon Claw
+- Fire Blast
+- Brick Break
+- Roar/Wish
+
+This is two different techs, both are good.  Mence + spikes is hard enough, roar can screw over its counters.  Forces switches easily, roar on the switch, another switch is forced, etc.  By the time they realize you don't have hp grass it might already be too late.  Wish is a really good midground that eases up prediction and can support your whole team.   I think you could definitely run hp grass over dragon claw or brick break, haven't tried it.  Fits well on TSS styles, roar works with spikes or wish supports skarm/pert/forre etc.
+
+Zapdos @ Leftovers
+Ability: Pressure
+IVs: 2 Atk / 30 SpA
+- Thunderbolt
+- Hidden Power [Grass]/Hidden Power [Ice]
+- Protect
+- Toxic/Roar/Thunder Wave/Baton Pass
+
+Protect zapper accomplishes a few things; avoiding guessing around choice banders is huge.  This is a huge difference maker against aero especially.  You also PP stall really quick with pressure, this is especially brutal to celebi leech seeds and such.  Lastly, it has great surprise value to block booms.  You get into situations where your opponent thinks their metagross can boom and press a lead towards a checkmate situation, but you pull out protect and suddenly you are way ahead.  Toxic protect has obvious synergy, but you can really run whatever in the last slot I think.  Roar is brutal to an aero that tried to guess a switch and now is forced out.  Pairs well with other status spreaders like Gengar.  The same set works for moltres, willowisp + protect is brutal.  However I really like having dual stab on molt, only fire blast feels easy to pp stall, only flamethrower is a power drop.  Plus overheat is really, really useful.
+
+Dugtrio @ Choice Band
+Ability: Sand Veil
+- Earthquake
+- Hidden Power [Bug]
+- Sunny Day
+- Aerial Ace
+
+This is really simple: trap the walls, then later on sack it for weather so you don't have to deal with sand.  Sunny day makes setup sweepers (snorlax/suicune) impenetrable by cancelling sand.  I guess you could run beat up in the last slot, but trapping hera is really important imo.
+
+edit: yeah dug doesn't learn rain dance, Lukee  is right.  my bad i've only used this with lax/sunny day so far and assumed it did, figured i'd slap the rain dance slash on, my bad!
+
+here's a neato core:
+
+You've heard of hera p2, this is the same idea.  Blaziken hits hard and then gets trapped by dug, then cm jirachi is super threatening.  Alternatively if they don't have a dug, p2 checks mence and spreads paralysis for blaziken, and cm jirachi is a massive threat.  cm jirachi is just really good in general, lol.
+
+As far as the hot topics of the day go, I don't see why banning mr mime to ubers is such a big deal.  He basically exists only as cheese and I don't think cleanliness of the tiering system should be prioritized over the health and competitiveness of the metagame.  It's not like newcomers to competitive mons are gonna be turned off because they can't use mr mime in gen 3, he's creepy as hell anyways.  I'm mixed on sleep; I really dislike hypnogar/milotic but I don't think breloom/jynx/venusaur are really a problem, so there is a good deal of collateral damage in just banning sleep.  It's certainly not broken like it was in BW.
+

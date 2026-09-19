@@ -1,0 +1,60 @@
+Importable
+
+GROUNDON (Groudon) @ Leftovers
+Ability: Drought
+EVs: 248 HP / 252 Atk / 8 Spe
+Adamant Nature
+- Swords Dance
+- Earthquake
+- Rock Slide
+- Thunder Wave
+
+OBLIGATORY (Ho-Oh) @ Choice Band
+Ability: Pressure
+EVs: 224 HP / 252 Atk / 32 Spe
+Lonely Nature
+- Shadow Ball
+- Earthquake
+- Sacred Fire
+- Hidden Power [Rock]
+
+ANTIBAGWORM (Magneton) @ Leftovers
+Ability: Magnet Pull
+EVs: 114 HP / 220 SpA / 172 Spe
+Modest Nature
+- Substitute
+- Thunderbolt
+- Hidden Power [Fire]
+- Toxic
+
+BAGWORM (Forretress) @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 12 Atk / 244 SpD
+Impish Nature
+- Spikes
+- Rapid Spin
+- Hidden Power [Bug]
+- Explosion
+
+KYOGRE PLS (Latios) (M) @ Soul Dew
+Ability: Levitate
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Calm Mind
+- Ice Beam
+- Thunderbolt
+- Recover
+
+SUP (Shedinja) @ Lum Berry
+Ability: Wonder Guard
+EVs: 252 Atk / 4 SpA / 252 Spe
+Adamant Nature
+- Shadow Ball
+- Hidden Power [Fighting]
+- Baton Pass
+- Swords Dance
+
+So this is a Shedinja team. Shedinja is actually legitimately good in Gen 3 Ubers due to there being much fewer things that can kill it. Spikes is the only entry hazard, there are a dearth of viable Ghost-types to block Forretress's Rapid Spin, basically no one runs Tyranitar and Metagross can be Baton Passed out of. With Latis being king and queen, Kyogre being its (then) usual boss self, and Mewtwo hardly ever running Fire-type attacks, Sheddy finds quite a few opportunities to come in and fire off some decently strong Shadow Balls. Most of the rest of the team is dedicated to supporting it. Groudon clears Sand and provides paralysis support + a way to break walls which is quite useful. CB Ho-Oh is quite underrated - despite lacking Brave Bird and physical Sacred Fire, physical Shadow Ball helps make up for it, and Sacred Fire is still a good deterrent against the usual CBander checks with sun and its solid burn rate. It also functions as a decent check to Mewtwo, Deo-A (don't switch in on Banded Shadow Ball) and Latis in case they do have Fire attacks to break Shedinja. Magneton's sole job is to trap and kill Forretress and Skarmory so they can't Spike on everything/wall Groudon and Sheddy, and Toxic acts as a deterrent to Deoxys-D in case it tries to get cute and use Magneton as Spikes fodder. It's still useful outside of that though, since it provides a second Ghost resistance and a relatively safe Lugia switch-in. Forretress tanks Shadow Balls, sets Spikes that can be spinblocked by Sheddy, and also spins enemy Spikes which is necessary on this team. CM BoltBeam Latios provides a decent check to Groudon, and Kyogre as well in case Shedinja cant be used for some reason. It also benefits from having Groudon, Ho-Oh, and Magneton to put massive pressure on Blissey and Steel-types. Lastly we have Sheddy itself, which is a simple SD set to allow it to act as a win condition late game. Baton Pass is mostly nice for pivoting into Magneton on Metagross or Skarm/Forry switches to ensure that they are weakened/killed so they won't be problems later on. Alternatively, threatening a free +2 pass to Groudon or Ho-Oh can make your opponent reconsider bringing in their Metagross or whatever in the first place. Lum Berry gives me a one-time shield against Toxic which is useful to break through Blissey or Lugia occasionally. There is no Focus Sash in ADV so Lum is probably the next best thing barring "hax" items like Focus Band, Scope Lens, etc.
+
+A top priority when using this team should be to kill the enemy Spiker. This frees up Sheddy a lot to do things later in the match, which is valuable as it is not uncommon for Shedinja to completely wall half a team or more. If you have to reveal Sheddy early, try to use BPass liberally to scout for the opponent's checks to your little bug, though feel free to toss Shadow Ball around if they're lacking in Ghost resists. Don't reveal Magneton until its needed - most people don't expect to see one in Ubers. This isn't really a mindless team or even a terrifically good one, but its fun and it can put in some solid work if used correctly.
+

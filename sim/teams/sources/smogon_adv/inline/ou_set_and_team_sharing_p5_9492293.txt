@@ -1,0 +1,24 @@
+Good day fellow ladder menaces and heroes, I thought it might be fun to share 3 of my favorite teams and outline them a little bit. Hopefully this forces me to build some new stuff too.
+
+Let's start with my most successful ladder team, a relatively standard Zard Tss with four Spikes immune Mons: https://pokepast.es/95a9fa2d9f383023
+Had the idea long ago and it is not a super farfetched one because Moltres has been on this forever but Charizard gives you a better speed tier, better mu vs Blissey and helps with the general passivity of the playstyle. I still play this team quite conservatively, which often entails doubling Skarm out into Zard. Since this team has a good amount of bulk it is usually not too bad if you make a small mistake early on. This team has a bad time vs most Suicune sets, although Taunt Gar makes it pretty winnable. Toxic Blissey is nice here because this team has a rough time switching into Bliss. Drill Peck is there for Taunt Gyara. Pursuit Tar is awesome on this since it allows you to prevent Gar from booming on your Bliss much more easily but it also makes your Aero mu so much nicer. On top of that, Suit Tar is an awesome Pokemon to ensure that either Spikes stay up or your opponent loses a Mon.
+
+Next, I have a build that centers around the same idea of a standard TSS with Spikes control, Big 5 + Timid Mag: https://pokepast.es/c05fd48638426210
+As you can see, the sets are very similar due to the similar thought process of the team before. I should preface that I am actually surprised this team has served me well (my second highest ladder rating) so far because I think it is not as good as some of my other teams. But stats don't lie in Pokemon, huh? Anyway, why Magneton on this? I thought about a Big 5 team that can help Skarm not get trapped by Mag and Dugtrio would come to mind. However, Duggy lets opposing Skarms spike all over your four spikes-weak Mons without a spinner. Not a big fan of that. This Magneton spread gives you the coverage of dealing with opposing Skarms, Magnetons (because you always live HP Fire from full with this SpDef) and even Metagross to an extent. Due to the team having some comeback issues, I changed the lefties on my Mag to Salac. This helps with a ton of important stuff like Starmie, Duggys (doesn't kill but gets the damage for Bliss), Zard and opposing Timid Mags. Blaziken also kinda 6-0s this team with Lefties and the mu is still bad with Salac but forcing Blaziken out and letting it take more spikes damage is huge. If it stays in, Gengar can deal with it after a Tbolt. Additional benefit of Mag: It is unorthodox and with the main structure of your team revealed, enemy Skarms are likely to stay in their first time, giving you an easy Tbolt. Forretress is also less likely to Eq and opposing Mags are easier to counter-trap.
+
+Lastly, my favorite team, Glalie hyper offense with Boltbeam Tar, aka my modification of Jimothy Cool's 6 with my self-made Glalie spread : https://pokepast.es/d123cecc80844339
+This Glalie lead can live CB Sala BB, get 2 Spikes on Zapdos and still outspeeds fast Metas and Smeargle, unlike other bulky spreads, thanks to Substitute. Timid Overheat Moltres is epic because it is able to outspeed Modest Zap while still smacking Blissey. I love max speed Gar on this too because many people have started running offensive Gengars with some SpDef and the faster Gar wins that exchange or trades. Boltbeam Tar makes your Lax mu a little bit tougher than my previous Boah Tar with Rock Slide, but the surprise oneshot on Gyarados is invaluable, especially since you can very quickly lose to a +1 Jolly Gyara with this, similar deal with DD Mence. The 4 defense EVs let you set up Sub on one more range of Mix Tar BB. As for the standard Pert spread: It has served me well for now but you can also run
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 40 HP / 128 Def / 204 SpA / 96 SpD / 40 Spe
+Quiet Nature
+- Hydro Pump
+- Earthquake
+- Ice Beam
+- Focus Punch
+to have a better mu vs DD Grass Tyranitar leads, which are really annoying. It also helps vs Aero and Mix Mence. The huge downside is that Claydol spins way more easily on you, which is usually a loss with your Glalie dead and your Jolteon in the back now almost useless.
+
+~~~~~~~~~
+
+Have fun and snipe the hell out of me so I am forced to build more heat please thanks <3
+

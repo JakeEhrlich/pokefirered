@@ -1,0 +1,29 @@
+ABR said:
+
+Jynx (F) @ Leftovers
+Ability: Oblivious
+EVs: 120 HP / 200 SpA / 188 Spe
+Timid Nature
+IVs: 0 Atk
+- Mean Look
+- Perish Song
+- Ice Beam
+- Lovely Kiss
+
++
+
+Dugtrio @ Choice Band
+Ability: Arena Trap
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Earthquake
+- Hidden Power [Bug]
+- Aerial Ace
+- Substitute
+
+Click to expand...
+
+This combo is legit - good stuff ABR. Been experimenting with this on a nifty mag-less salac hera squad and been popping off.
+
+I prefer more Attacking investment on both though to always secure the kill on lead gross (since I dont want to play around with lum shenanigans). Haven't found lack of bulk on jynx an issue versus electrics - this gives you enough that jolteon only has a 2% chance of 2hko. Zapdos is slept anyway turn 1.
+

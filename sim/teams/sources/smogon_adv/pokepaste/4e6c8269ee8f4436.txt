@@ -1,0 +1,42 @@
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+- Crunch  
+- Pursuit  
+- Fire Blast  
+- Brick Break  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+- Hidden Power [Grass]  
+- Psychic  
+- Recover  
+- Leech Seed  
+
+Time to die (Skarmory) @ Leftovers  
+Ability: Keen Eye  
+- Spikes  
+- Roar  
+- Hidden Power [Steel]  
+- Protect  
+
+Starmie @ Leftovers  
+Ability: Natural Cure  
+- Surf  
+- Thunder Wave  
+- Recover  
+- Rapid Spin  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+- Meteor Mash  
+- Earthquake  
+- Agility  
+- Explosion  
+
+Aerodactyl @ Choice Band  
+Ability: Rock Head  
+- Rock Slide  
+- Earthquake  
+- Double-Edge  
+- Hidden Power [Bug]  
+

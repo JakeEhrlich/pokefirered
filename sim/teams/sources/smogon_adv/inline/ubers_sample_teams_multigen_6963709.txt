@@ -1,0 +1,453 @@
+ADV
+
+Invasion Offense | Provided by Minority Suspect
+
+(Importable)
+
+Latios @ Soul Dew
+Ability: Levitate
+EVs: 156 HP / 252 SpA / 100 Spe
+Modest Nature
+- Calm Mind
+- Recover
+- Ice Beam
+- Thunder
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 240 HP / 252 Def / 16 Spe
+Bold Nature
+IVs: 0 Atk
+- Thunder Wave
+- Ice Beam
+- Thunder
+- Surf
+
+Omastar @ Mystic Water
+Ability: Swift Swim
+EVs: 40 Def / 252 SpA / 216 Spe
+Modest Nature
+IVs: 0 Atk
+- Toxic
+- Spikes
+- Ice Beam
+- Hydro Pump
+
+Regice @ Leftovers
+Ability: Clear Body
+Shiny: Yes
+EVs: 136 HP / 120 Atk / 252 SpA
+Sassy Nature
+- Psych Up
+- Explosion
+- Thunder
+- Ice Beam
+
+Steelix @ Choice Band
+Ability: Rock Head
+EVs: 248 HP / 252 Atk / 8 SpD
+Adamant Nature
+- Rock Slide
+- Double-Edge
+- Earthquake
+- Explosion
+
+Deoxys-Attack @ Petaya Berry
+Ability: Pressure
+EVs: 4 Atk / 252 SpA / 252 Spe
+Mild Nature
+IVs: 30 HP
+- Substitute
+- Superpower
+- Ice Beam
+- Thunder
+
+(Description)
+
+One of the first builds I prepared for UPL IV and the one I used for week 3 was a rain offense built around Substitute + Petaya Deoxys-A, one of the most potent threats in ADV that I felt wasn't fully developed. There aren't a huge number of Pokmeon that confidently check this set, although one that does is Shedinja, which I immediately rectified with a Spikes + Toxic Omastar as rain offenses can tend to struggle against Shedinja to begin with. The choice of Omastar as the Spikes setter was because nothing viable in ADV can afford to spin on it, while Omastar makes a good win condition in itself and alleviates potential weakness to opposing Deoxys-A. Mystic Water was chosen as the held item due to calculations against Pokemon such as Mewtwo and Lugia. This team heavily relies on rain support, so a more defensive Kyogre spread was chosen for longevity with Thunder to help check opposing Kyogre. CB Steelix functions as the Toxic immunity, Electric immunity, primary Normal-type resist, and primary Flying-type resist for the team. Regice was also chosen to offer defensive utility in being the primary Lati check and special sponge. The spread is designed to maximize special bulk without sacrificing the power of Ice Beam or Explosion, the later of which OHKOs standard Latios and nearly KOs Blissey. Overall the build is especially hostile to teams that lack strong counterplay to Thunder use and has several methods to dispose of standardized sun arrangements.
+
+Dragon Sun Offense | Provided by Minority Suspect
+
+(Importable)
+
+Latios @ Soul Dew
+Ability: Levitate
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Calm Mind
+- Recover
+- Ice Beam
+- Thunderbolt
+
+Magneton @ Leftovers
+Ability: Magnet Pull
+EVs: 252 HP / 252 SpA / 4 Spe
+Modest Nature
+- Toxic
+- Metal Sound
+- Hidden Power [Fire]
+- Thunderbolt
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Swords Dance
+- Rock Slide
+- Hidden Power [Ghost]
+- Earthquake
+
+Ho-Oh @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Sacred Fire
+- Shadow Ball
+- Hidden Power [Flying]
+- Earthquake
+
+Snorlax @ Choice Band
+Ability: Thick Fat
+EVs: 252 Atk / 4 Def / 252 SpD
+Adamant Nature
+- Shadow Ball
+- Earthquake
+- Body Slam
+- Self-Destruct
+
+Latias @ Soul Dew
+Ability: Levitate
+EVs: 252 HP / 252 Def / 4 Spe
+Calm Nature
+IVs: 0 Atk
+- Calm Mind
+- Refresh
+- Recover
+- Dragon Claw
+
+(Description)
+
+This team has seen a few different changes, both major and minor, but it still holds its original intention to overload opposing Latios, Latias, and Groudon checks. Two of the largest defensive threats to Swords Dance Groudon are defensive Kyogre and Skarmory, both of which are effectively pressured by double Lati and Magneton. Latios runs bolt beam for exceptional coverage that several builds can struggle to handle over a period of time while Latias runs a stall breaker set with Dragon Claw and Refresh. The Latias set in particular runs a mixed bulk spread which helps to sponge both Kyogre's attacks and emergency check Latios while also helping to tank Ghost-type coverage from arbitrary threats. Magneton has some shallow utility outside of trapping Steel-types; it also functions as a bolt beam resist and is good at luring out bulky Grounds which are nailed with Toxic. Snorlax runs Earthquake to completely hammer defensive Steels so that Groudon doesn't have to come in as much, thus reducing exposure to residual damage while Magneton can pick of Skarmory anyways. Ho-Oh was added to sponge Will-O-Wisp from opposing Gengar, Sacred Fire from opposing Ho-Oh, and as a tertiary check to Latios and Latias.
+
+Explosive Rain Offense | Provided by Minority Suspect
+
+(Importable)
+
+Latios @ Soul Dew
+Ability: Levitate
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Calm Mind
+- Recover
+- Ice Beam
+- Thunder
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 252 HP / 252 SpA / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunder Wave
+- Calm Mind
+- Ice Beam
+- Hydro Pump
+
+Steelix @ Choice Band
+Ability: Rock Head
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Rock Slide
+- Double-Edge
+- Earthquake
+- Explosion
+
+Snorlax @ Choice Band
+Ability: Thick Fat
+Shiny: Yes
+EVs: 252 Atk / 252 Def / 4 SpD
+Adamant Nature
+- Shadow Ball
+- Body Slam
+- Focus Punch
+- Self-Destruct
+
+Regice @ Leftovers
+Ability: Clear Body
+Shiny: Yes
+EVs: 136 HP / 120 Atk / 252 SpA
+Sassy Nature
+- Psych Up
+- Explosion
+- Thunder
+- Ice Beam
+
+Qwilfish @ Choice Band
+Ability: Swift Swim
+EVs: 200 HP / 252 Atk / 56 Spe
+Adamant Nature
+- Spikes
+- Shadow Ball
+- Sludge Bomb
+- Self-Destruct
+
+(Description)
+
+Despite undergoing extensive altercations this team still holds true to its original title of Explosive rain offense, perhaps more so now than before. The goal is to achieve either a Qwilfish or Latios clean via aggressive use of physical attackers and boom. Rain builds naturally tend to struggle with Thunder spam, typically coming from Latios, Latias, and Jirachi so this issue is covered by both Steelix and Regice. Kyogre is played the safest of all the Pokemon on the team because it is necessary for both rain support and as a blanket solution to Pokemon such as Ho-Oh, Groudon, and other Pokemon who need to be broken via powerful neutral special attacks. The Kyogre set is also very difficult for many teams to switch into; even Blissey is torn down by boosted Hydro Pump while the common Lati switch-in is crippled with Thunder Wave. The Snorlax spread opts to run Defense investment because the team already has a dedicated offensive special sponge in Regice. Focus Punch is run over Earthquake because the Steel-type switch in that is not Metagross or Jirachi is more troubling as the team has Choice Band Steelix. Regice runs Explosion in this instance with 120 Attack EVs to always blow away standard Latios while still retaining nearly all of its special bulk; this prevents Blissey from getting free switch-ins, and a surprise Explosion that blows away Blissey makes things much easier for Latios later on.
+
+Standard Deoxys-A Bulky Offense | Provided by the ADV council
+
+(Importable)
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 176 Atk / 80 SpD
+Adamant Nature
+- Thunder Wave
+- Swords Dance
+- Rock Slide
+- Earthquake
+
+Latios @ Soul Dew
+Ability: Levitate
+EVs: 96 HP / 252 SpA / 160 Spe
+Modest Nature
+- Hidden Power [Fire]
+- Thunderbolt
+- Solar Beam
+- Dragon Claw
+
+Ho-Oh @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+- Toxic
+- Substitute
+- Recover
+- Sacred Fire
+
+Latias @ Soul Dew
+Ability: Levitate
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+- Calm Mind
+- Refresh
+- Recover
+- Dragon Claw
+
+Forretress @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 4 Def / 252 SpD
+Impish Nature
+- Spikes
+- Rapid Spin
+- Hidden Power [Ghost]
+- Explosion
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Fire Punch
+- Shadow Ball
+- Extreme Speed
+- Superpower
+
+(Description)
+
+Lead Groudon does well against some physical leads, gets sun up early, and can scout the Speed of an opposing Kyogre (based on the dominant weather). The heavy HP investment and extra SpD allow Groudon to check a variety of physical attackers while also surviving a Modest Latios Ice Beam if needed. Swords Dance can serve as a potential win con, and prevents Groudon from being walled by physically bulky Pokemon. Opposing Lati is primarily checked with the combination of SpD Ho-Oh and sun, while Forretress, Latias, and Latios can also be used to keep them in line. This Ho-Oh set cannot make any progress against a Refresh Lati, but it does very well against other Lati sets and is effective at spreading Toxic and stalling things out. Deoxys-A can also revenge opposing Lati and severs as the primary win con. Extreme Speed offers some defensive utility against the odd Speed boosting setup sweeper and can pick off weakened weather sweepers. Forretress is mainly here to provide Spikes, which aid Deoxys-A. It also has defensive utility due to its Steel-typing (Toxic and CB mons), and Rapid Spin. Hidden Power Ghost is mainly to prevent Gengar from spin blocking, but it also hits Psychics such as Lati and provides a way to deal damage without exploding. The team utilizes a four attacks Latios and a mono Refresh Latias which can also serve as win conditions if Deoxys-A is played aggressively and allowed to be KOed.
+
+Standard Shedinja Bulky Offense | Provided by Fireburn
+
+(Importable)
+
+Latios (M) @ Soul Dew
+Ability: Levitate
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Calm Mind
+- Ice Beam
+- Thunderbolt
+- Recover
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 248 HP / 252 Atk / 8 Spe
+Adamant Nature
+- Swords Dance
+- Earthquake
+- Rock Slide
+- Thunder Wave
+
+Ho-Oh @ Choice Band
+Ability: Pressure
+EVs: 224 HP / 252 Atk / 32 Spe
+Lonely Nature
+- Shadow Ball
+- Earthquake
+- Sacred Fire
+- Hidden Power [Rock]
+
+Magneton @ Leftovers
+Ability: Magnet Pull
+EVs: 114 HP / 220 SpA / 172 Spe
+Modest Nature
+- Substitute
+- Thunderbolt
+- Hidden Power [Fire]
+- Toxic
+
+Forretress @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 12 Atk / 244 SpD
+Impish Nature
+- Spikes
+- Rapid Spin
+- Hidden Power [Ghost]
+- Explosion
+
+Shedinja @ Lum Berry
+Ability: Wonder Guard
+EVs: 252 Atk / 4 SpA / 252 Spe
+Adamant Nature
+- Shadow Ball
+- Hidden Power [Fighting]
+- Protect
+- Swords Dance
+
+(Description)
+
+Shedinja is actually legitimately good in Gen 3 Ubers due to there being much fewer things that can kill it. Spikes is the only entry hazard, there are a dearth of viable Ghost-types to block Forretress's Rapid Spin, basically no one runs Tyranitar and Metagross can be Baton Passed out of. With Lati and Kyogre being prominent threats, Sheddy finds quite a few opportunities to come in and fire off some decently strong Shadow Balls. Largely, the rest of the team is dedicated to supporting it. Groudon clears Sand and provides paralysis support + a way to break walls. CB Ho-Oh is used for physical Shadow Ball, to deter the usual CBander checks with sun and Sacred Fire, and to check to Mewtwo and Latios in case they do have Fire attacks to break Shedinja. Magneton's sole job is to trap and KO Forretress and Skarmory so they can't Spike on everything / wall Groudon and Shedinja. Toxic is mainly for Deoxys-D in case it tries to use Magneton as Spikes fodder. Forretress tanks Shadow Balls, sets Spikes that can be spinblocked by Shedinja, and also spins enemy Spikes which is necessary on this team. CM BoltBeam Latios provides a decent check to Groudon and Kyogre in case Shedinja can't be used in these roles for whatever reason. Shedinja has a simple SD set to allow it to act as a win condition late game. Threatening a free +2 pass to Groudon or Ho-Oh can make your opponent reconsider bringing in their Metagross in against Shedinja to check it. Lum Berry provides a one-time shield against Toxic which is useful to break through Blissey or Lugia occasionally.
+
+Calm Mind Rain Bulky Offense | Provided by Fireburn
+
+(Importable)
+
+Latios @ Soul Dew
+Ability: Levitate
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+- Calm Mind
+- Ice Beam
+- Thunder
+- Recover
+
+Kyogre @ Lum Berry
+Ability: Drizzle
+EVs: 248 HP / 252 SpA / 8 Spe
+Modest Nature
+- Calm Mind
+- Hydro Pump
+- Ice Beam
+- Thunder Wave
+
+Metagross @ Choice Band
+Ability: Clear Body
+248 HP / 104 Atk / 140 SpD / 16 Spe
+Adamant Nature
+- Meteor Mash
+- Earthquake
+- Pursuit
+- Explosion
+
+Mewtwo @ Leftovers
+Ability: Pressure
+EVs: 4 Atk / 252 SpA / 252 Spe
+Rash Nature
+- Calm Mind
+- Ice Beam
+- Thunder
+- Self-Destruct
+
+Skarmory @ Leftovers
+Ability: Keen Eye
+EVs: 252 HP / 232 Def / 24 Spe
+Bold Nature
+- Spikes
+- Toxic
+- Taunt
+- Drill Peck
+
+Blissey @ Leftovers
+Ability: Natural Cure
+EVs: 252 Def / 4 SpA / 252 SpD
+Calm Nature
+- Wish
+- Protect
+- Toxic
+- Seismic Toss
+
+(Description)
+
+This team focuses on spreading Spikes / Toxic around and then overwhelming the opponent by throwing a bunch Calm Mind sweepers at them. Kyogre's rain support is invaluable for boosting Latios's and Mewtwo's Thunder and reducing the Fire weakness of Metagross and Skarmory. Lum Berry gives Kyogre a one-time shield from Blissey's Toxic, preventing it from stalling you out, and offers protection against Lati@s if they manage to paralyze you with Thunder during your attempt to take them down. In regards to Mewtwo it usually ends up cleaning up late-game or clearing a path for Latios to do so. Ice Beam and Thunder provide optimal special coverage and destroy most things after a Calm Mind, while Self-Destruct destroys the opponent's special tank to open a hole for the Calm Mind sweepers. Metagross gives this mostly special team some much needed physical power, as well as a reliable answer to certain Pokemon that would otherwise be very threatening. Its primary function is to Pursuit trap Shedinja and Choice Band Deoxys-A, both of which are major threats to the offensive core. Skarmory provides Spikes and can beat pretty much any physical attacker without a Fire or Electric move, making it a solid choice for a physical wall. The most important threats it takes on are Substitute + Salac Berry / SD TWave Groudon, DD Rayquaza, and Curse Snorlax, all of which it can easily beat with Toxic stall and Taunt to stop recovery attempts. Blissey checks non-Refresh Lati@s and helps keep the Steel-types on the team in good health with Wish. Blissey also acts as a Thunder sponge and can usually force special Mewtwos to explode.
+
+Standard Defensive Sun | Provided by the ADV council
+
+(Importable)
+
+Latios @ Soul Dew
+Ability: Levitate
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Calm Mind
+- Recover
+- Ice Beam
+- Thunder
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 248 HP / 8 Def / 252 SpD
+Impish Nature
+- Protect
+- Toxic
+- Rock Slide
+- Earthquake
+
+Ho-Oh @ Choice Band
+Ability: Pressure
+EVs: 248 HP / 252 Atk / 8 SpA
+Brave Nature
+- Hidden Power [Rock]
+- Shadow Ball
+- Earthquake
+- Sacred Fire
+
+Blissey @ Leftovers
+Ability: Natural Cure
+EVs: 4 HP / 252 Def / 252 SpD
+Calm Nature
+IVs: 0 Atk
+- Heal Bell
+- Soft-Boiled
+- Toxic
+- Seismic Toss
+
+Forretress @ Leftovers
+Ability: Sturdy
+EVs: 248 HP / 8 Def / 252 SpD
+Impish Nature
+- Spikes
+- Rapid Spin
+- Hidden Power [Ghost]
+- Explosion
+
+Lugia @ Leftovers
+Ability: Pressure
+EVs: 248 HP / 120 Def / 140 Spe
+Timid Nature
+IVs: 0 Atk
+- Reflect
+- Whirlwind
+- Recover
+- Toxic
+
+(Description)
+
+Defensive sun builds tend to gravitate towards this sort of arrangement. A strong bolt beam Latios is used in order to sufficiently check defensive Kyogre which the team would otherwise struggle against. Forretress and Blissey provide necessary defensive support, providing Spikes, Spin, Heal Bell, a Ghost immunity, and additional Lati checks. Reflect Lugia provides some strong insurance against Swords Dance Groudon and a method of phazing setup sweepers. Lastly, Choice Band Ho-Oh acts as an absorber of Fire-type attacks and brings some much-needed offensive pressure. If additional offensive capability is desired, support Groudon can be changed to a Swords Dance set.
+
+More teams coming maybe
+
+__________
+

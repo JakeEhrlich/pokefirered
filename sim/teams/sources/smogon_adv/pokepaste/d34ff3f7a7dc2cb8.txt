@@ -1,0 +1,57 @@
+@sakurabloodfloor (Swalot) @ Choice Band  
+Ability: Liquid Ooze  
+EVs: 36 HP / 252 Atk / 204 Def / 16 Spe  
+Adamant Nature  
+- Sludge Bomb  
+- Explosion  
+- Shadow Ball  
+- Hidden Power [Ground]  
+
+TORK TEAM (Torkoal) @ Leftovers  
+Ability: White Smoke  
+EVs: 252 HP / 16 Def / 184 SpA / 56 SpD  
+Relaxed Nature  
+- Fire Blast  
+- Rock Slide  
+- Hidden Power [Electric]  
+- Explosion  
+
+CRAWLING DARKLY (Haunter) @ Salac Berry  
+Ability: Levitate  
+EVs: 16 HP / 252 SpA / 240 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Thunderbolt  
+- Hidden Power [Fire]  
+- Psychic  
+- Endure  
+
+SECRET ;) (Pupitar) @ Focus Band  
+Ability: Shed Skin  
+Shiny: Yes  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Dragon Dance  
+- Earthquake  
+- Rock Slide  
+- Hidden Power [Bug]  
+
+LADY GAGA (Wailord) (F) @ Leftovers  
+Ability: Water Veil  
+Shiny: Yes  
+EVs: 252 SpA / 160 SpD / 96 Spe  
+Modest Nature  
+- Hydro Pump  
+- Ice Beam  
+- Hidden Power [Electric]  
+- Self-Destruct  
+
+PURPLE HAZE (Glalie) @ Leftovers  
+Ability: Inner Focus  
+EVs: 128 HP / 128 Atk / 252 Spe  
+Jolly Nature  
+- Shadow Ball  
+- Explosion  
+- Light Screen  
+- Spikes  
+

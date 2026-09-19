@@ -1,0 +1,784 @@
+=== [gen3lc] Porygon + top teammates ===
+
+Porygon @ Sitrus Berry
+Ability: Trace
+EVs: 236 HP / 196 Def / 76 SpA
+Relaxed Nature
+- Ice Beam
+- Return
+- Recycle
+- Thief
+
+Diglett @ Sitrus Berry
+Ability: Arena Trap
+EVs: 36 HP / 236 SpD / 236 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Substitute
+- Sludge Bomb
+
+Trapinch @ Sitrus Berry
+Ability: Arena Trap
+EVs: 156 HP / 40 Atk / 80 SpD / 196 Spe
+Careful Nature
+- Quick Attack
+- Earthquake
+- Rock Slide
+- Hidden Power Bug
+
+Staryu @ Sitrus Berry
+Ability: Natural Cure
+EVs: 76 Def / 196 SpA / 236 Spe
+Timid Nature
+- Ice Beam
+- Thunder Wave
+- Hydro Pump
+- Hidden Power Grass
+
+Doduo @ Liechi Berry
+Ability: Run Away
+EVs: 76 HP / 156 Atk / 236 Spe
+Adamant Nature
+- Drill Peck
+- Flail
+- Agility
+- Substitute
+
+Abra @ Sitrus Berry
+Ability: Synchronize
+EVs: 76 HP / 156 Def / 76 SpD / 196 Spe
+Timid Nature
+- Psychic
+- Calm Mind
+- Thief
+- Barrier
+
+=== [gen3lc] Diglett + top teammates ===
+
+Diglett @ Sitrus Berry
+Ability: Arena Trap
+EVs: 36 HP / 236 SpD / 236 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Substitute
+- Sludge Bomb
+
+Porygon @ Sitrus Berry
+Ability: Trace
+EVs: 236 HP / 196 Def / 76 SpA
+Relaxed Nature
+- Ice Beam
+- Return
+- Recycle
+- Thief
+
+Staryu @ Sitrus Berry
+Ability: Natural Cure
+EVs: 76 Def / 196 SpA / 236 Spe
+Timid Nature
+- Ice Beam
+- Thunder Wave
+- Hydro Pump
+- Hidden Power Grass
+
+Doduo @ Liechi Berry
+Ability: Run Away
+EVs: 76 HP / 156 Atk / 236 Spe
+Adamant Nature
+- Drill Peck
+- Flail
+- Agility
+- Substitute
+
+Trapinch @ Sitrus Berry
+Ability: Arena Trap
+EVs: 156 HP / 40 Atk / 80 SpD / 196 Spe
+Careful Nature
+- Quick Attack
+- Earthquake
+- Rock Slide
+- Hidden Power Bug
+
+Pineco @ Sitrus Berry
+Ability: Sturdy
+EVs: 196 HP / 240 SpD
+Careful Nature
+- Spikes
+- Explosion
+- Hidden Power Ghost
+- Toxic
+
+=== [gen3lc] Abra + top teammates ===
+
+Abra @ Sitrus Berry
+Ability: Synchronize
+EVs: 76 HP / 156 Def / 76 SpD / 196 Spe
+Timid Nature
+- Psychic
+- Calm Mind
+- Thief
+- Barrier
+
+Porygon @ Sitrus Berry
+Ability: Trace
+EVs: 236 HP / 196 Def / 76 SpA
+Relaxed Nature
+- Ice Beam
+- Return
+- Recycle
+- Thief
+
+Elekid @ Sitrus Berry
+Ability: Static
+EVs: 240 SpA / 236 Spe
+Timid Nature
+- Thunderbolt
+- Hidden Power Grass
+- Thief
+- Thunder Wave
+
+Trapinch @ Sitrus Berry
+Ability: Arena Trap
+EVs: 156 HP / 40 Atk / 80 SpD / 196 Spe
+Careful Nature
+- Quick Attack
+- Earthquake
+- Rock Slide
+- Hidden Power Bug
+
+Gastly @ Sitrus Berry
+Ability: Levitate
+EVs: 36 HP / 76 Atk / 196 SpA / 196 Spe
+Hasty Nature
+- Explosion
+- Psychic
+- Thunderbolt
+- Shadow Ball
+
+Cacnea @ Sitrus Berry
+Ability: Sand Veil
+EVs: 116 HP / 116 Def / 196 SpD / 76 Spe
+Calm Nature
+- Spikes
+- Giga Drain
+- Protect
+- Toxic
+
+=== [gen3lc] Magnemite + top teammates ===
+
+Magnemite @ Sitrus Berry
+Ability: Sturdy
+EVs: 240 SpA / 236 Spe
+Modest Nature
+- Thunderbolt
+- Hidden Power Grass
+- Substitute
+- Thunder Wave
+
+Porygon @ Sitrus Berry
+Ability: Trace
+EVs: 236 HP / 196 Def / 76 SpA
+Relaxed Nature
+- Ice Beam
+- Return
+- Recycle
+- Thief
+
+Staryu @ Sitrus Berry
+Ability: Natural Cure
+EVs: 76 Def / 196 SpA / 236 Spe
+Timid Nature
+- Ice Beam
+- Thunder Wave
+- Hydro Pump
+- Hidden Power Grass
+
+Machop @ Sitrus Berry
+Ability: Guts
+EVs: 116 HP / 196 Atk / 120 Def / 76 Spe
+Adamant Nature
+- Cross Chop
+- Hidden Power Ghost
+- Substitute
+- Thief
+
+Diglett @ Sitrus Berry
+Ability: Arena Trap
+EVs: 36 HP / 236 SpD / 236 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Substitute
+- Sludge Bomb
+
+Bagon @ Sitrus Berry
+Ability: Rock Head
+EVs: 76 Atk / 200 SpD / 196 Spe
+Adamant Nature
+- Dragon Dance
+- Brick Break
+- Double-Edge
+- Hidden Power Ghost
+
+=== [gen3lc] Wailmer + top teammates ===
+
+Wailmer @ Sitrus Berry
+Ability: Water Veil
+EVs: 36 HP / 40 Atk / 76 Def / 120 SpA / 236 SpD
+Sassy Nature
+- Self-Destruct
+- Hidden Power Grass
+- Surf
+- Earthquake
+
+Porygon @ Sitrus Berry
+Ability: Trace
+EVs: 236 HP / 196 Def / 76 SpA
+Relaxed Nature
+- Ice Beam
+- Return
+- Recycle
+- Thief
+
+Abra @ Sitrus Berry
+Ability: Synchronize
+EVs: 76 HP / 156 Def / 76 SpD / 196 Spe
+Timid Nature
+- Psychic
+- Calm Mind
+- Thief
+- Barrier
+
+Doduo @ Liechi Berry
+Ability: Run Away
+EVs: 76 HP / 156 Atk / 236 Spe
+Adamant Nature
+- Drill Peck
+- Flail
+- Agility
+- Substitute
+
+Diglett @ Sitrus Berry
+Ability: Arena Trap
+EVs: 36 HP / 236 SpD / 236 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Substitute
+- Sludge Bomb
+
+Elekid @ Sitrus Berry
+Ability: Static
+EVs: 240 SpA / 236 Spe
+Timid Nature
+- Thunderbolt
+- Hidden Power Grass
+- Thief
+- Thunder Wave
+
+=== [gen3lc] Koffing + top teammates ===
+
+Koffing @ Sitrus Berry
+Ability: Levitate
+EVs: 116 HP / 236 Def / 36 SpA / 76 SpD
+Relaxed Nature
+- Sludge Bomb
+- Thief
+- Explosion
+- Thunderbolt
+
+Wailmer @ Sitrus Berry
+Ability: Water Veil
+EVs: 36 HP / 40 Atk / 76 Def / 120 SpA / 236 SpD
+Sassy Nature
+- Self-Destruct
+- Hidden Power Grass
+- Surf
+- Earthquake
+
+Porygon @ Sitrus Berry
+Ability: Trace
+EVs: 236 HP / 196 Def / 76 SpA
+Relaxed Nature
+- Ice Beam
+- Return
+- Recycle
+- Thief
+
+Gastly @ Sitrus Berry
+Ability: Levitate
+EVs: 36 HP / 76 Atk / 196 SpA / 196 Spe
+Hasty Nature
+- Explosion
+- Psychic
+- Thunderbolt
+- Shadow Ball
+
+Exeggcute @ Sitrus Berry
+Ability: Chlorophyll
+EVs: 36 HP / 36 Atk / 36 Def / 196 SpA / 156 SpD / 36 Spe
+Mild Nature
+- Psychic
+- Solar Beam
+- Explosion
+- Sunny Day
+
+Cubone @ Thick Club
+Ability: Rock Head
+EVs: 36 HP / 196 Atk / 36 SpD / 236 Spe
+Adamant Nature
+- Double-Edge
+- Bonemerang
+- Protect
+- Hidden Power Ghost
+
+=== [gen3lc] Houndour + top teammates ===
+
+Houndour @ Sitrus Berry
+Ability: Early Bird
+EVs: 36 Def / 200 SpA / 36 SpD / 236 Spe
+Timid Nature
+- Crunch
+- Pursuit
+- Fire Blast
+- Snatch
+
+Diglett @ Sitrus Berry
+Ability: Arena Trap
+EVs: 36 HP / 236 SpD / 236 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Substitute
+- Sludge Bomb
+
+Wailmer @ Sitrus Berry
+Ability: Water Veil
+EVs: 36 HP / 40 Atk / 76 Def / 120 SpA / 236 SpD
+Sassy Nature
+- Self-Destruct
+- Hidden Power Grass
+- Surf
+- Earthquake
+
+Porygon @ Sitrus Berry
+Ability: Trace
+EVs: 236 HP / 196 Def / 76 SpA
+Relaxed Nature
+- Ice Beam
+- Return
+- Recycle
+- Thief
+
+Koffing @ Sitrus Berry
+Ability: Levitate
+EVs: 116 HP / 236 Def / 36 SpA / 76 SpD
+Relaxed Nature
+- Sludge Bomb
+- Thief
+- Explosion
+- Thunderbolt
+
+Doduo @ Liechi Berry
+Ability: Run Away
+EVs: 76 HP / 156 Atk / 236 Spe
+Adamant Nature
+- Drill Peck
+- Flail
+- Agility
+- Substitute
+
+=== [gen3lc] Snubbull + top teammates ===
+
+Snubbull @ Sitrus Berry
+Ability: Intimidate
+EVs: 116 HP / 116 Atk / 36 Def / 196 SpD / 36 Spe
+Impish Nature
+- Return
+- Earthquake
+- Thief
+- Thunder Wave
+
+Abra @ Sitrus Berry
+Ability: Synchronize
+EVs: 76 HP / 156 Def / 76 SpD / 196 Spe
+Timid Nature
+- Psychic
+- Calm Mind
+- Thief
+- Barrier
+
+Wailmer @ Sitrus Berry
+Ability: Water Veil
+EVs: 36 HP / 40 Atk / 76 Def / 120 SpA / 236 SpD
+Sassy Nature
+- Self-Destruct
+- Hidden Power Grass
+- Surf
+- Earthquake
+
+Porygon @ Sitrus Berry
+Ability: Trace
+EVs: 236 HP / 196 Def / 76 SpA
+Relaxed Nature
+- Ice Beam
+- Return
+- Recycle
+- Thief
+
+Doduo @ Liechi Berry
+Ability: Run Away
+EVs: 76 HP / 156 Atk / 236 Spe
+Adamant Nature
+- Drill Peck
+- Flail
+- Agility
+- Substitute
+
+Magnemite @ Sitrus Berry
+Ability: Sturdy
+EVs: 240 SpA / 236 Spe
+Modest Nature
+- Thunderbolt
+- Hidden Power Grass
+- Substitute
+- Thunder Wave
+
+=== [gen3lc] Larvitar + top teammates ===
+
+Larvitar @ Sitrus Berry
+Ability: Guts
+EVs: 36 HP / 244 Atk / 36 SpD / 188 Spe
+Adamant Nature
+- Rock Slide
+- Dragon Dance
+- Earthquake
+- Taunt
+
+Abra @ Sitrus Berry
+Ability: Synchronize
+EVs: 76 HP / 156 Def / 76 SpD / 196 Spe
+Timid Nature
+- Psychic
+- Calm Mind
+- Thief
+- Barrier
+
+Diglett @ Sitrus Berry
+Ability: Arena Trap
+EVs: 36 HP / 236 SpD / 236 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Substitute
+- Sludge Bomb
+
+Treecko @ Salac Berry
+Ability: Overgrow
+EVs: 36 HP / 240 SpA / 196 Spe
+Timid Nature
+- Endure
+- Hidden Power Grass
+- Endeavor
+- Thunder Punch
+
+Snubbull @ Sitrus Berry
+Ability: Intimidate
+EVs: 116 HP / 116 Atk / 36 Def / 196 SpD / 36 Spe
+Impish Nature
+- Return
+- Earthquake
+- Thief
+- Thunder Wave
+
+Houndour @ Sitrus Berry
+Ability: Early Bird
+EVs: 36 Def / 200 SpA / 36 SpD / 236 Spe
+Timid Nature
+- Crunch
+- Pursuit
+- Fire Blast
+- Snatch
+
+=== [gen3lc] Charmander + top teammates ===
+
+Charmander @ Petaya Berry
+Ability: Blaze
+EVs: 12 Def / 200 SpA / 116 SpD / 156 Spe
+Modest Nature
+- Flamethrower
+- Hidden Power Grass
+- Dragon Dance
+- Substitute
+
+Porygon @ Sitrus Berry
+Ability: Trace
+EVs: 236 HP / 196 Def / 76 SpA
+Relaxed Nature
+- Ice Beam
+- Return
+- Recycle
+- Thief
+
+Abra @ Sitrus Berry
+Ability: Synchronize
+EVs: 76 HP / 156 Def / 76 SpD / 196 Spe
+Timid Nature
+- Psychic
+- Calm Mind
+- Thief
+- Barrier
+
+Gastly @ Sitrus Berry
+Ability: Levitate
+EVs: 36 HP / 76 Atk / 196 SpA / 196 Spe
+Hasty Nature
+- Explosion
+- Psychic
+- Thunderbolt
+- Shadow Ball
+
+Snorunt @ Sitrus Berry
+Ability: Inner Focus
+EVs: 196 HP / 36 Def / 40 SpA / 116 SpD / 116 Spe
+Calm Nature
+- Spikes
+- Icy Wind
+- Protect
+- Hidden Power Grass
+
+Larvitar @ Sitrus Berry
+Ability: Guts
+EVs: 36 HP / 244 Atk / 36 SpD / 188 Spe
+Adamant Nature
+- Rock Slide
+- Dragon Dance
+- Earthquake
+- Taunt
+
+=== [gen3lc] Duskull + top teammates ===
+
+Duskull @ Sitrus Berry
+Ability: Levitate
+EVs: 196 HP / 116 Def / 196 SpD
+Sassy Nature
+- Shadow Ball
+- Thief
+- Ice Beam
+- Will-O-Wisp
+
+Diglett @ Sitrus Berry
+Ability: Arena Trap
+EVs: 36 HP / 236 SpD / 236 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Substitute
+- Sludge Bomb
+
+Wailmer @ Sitrus Berry
+Ability: Water Veil
+EVs: 36 HP / 40 Atk / 76 Def / 120 SpA / 236 SpD
+Sassy Nature
+- Self-Destruct
+- Hidden Power Grass
+- Surf
+- Earthquake
+
+Porygon @ Sitrus Berry
+Ability: Trace
+EVs: 236 HP / 196 Def / 76 SpA
+Relaxed Nature
+- Ice Beam
+- Return
+- Recycle
+- Thief
+
+Elekid @ Sitrus Berry
+Ability: Static
+EVs: 240 SpA / 236 Spe
+Timid Nature
+- Thunderbolt
+- Hidden Power Grass
+- Thief
+- Thunder Wave
+
+Doduo @ Liechi Berry
+Ability: Run Away
+EVs: 76 HP / 156 Atk / 236 Spe
+Adamant Nature
+- Drill Peck
+- Flail
+- Agility
+- Substitute
+
+=== [gen3lc] Anorith + top teammates ===
+
+Anorith @ Sitrus Berry
+Ability: Battle Armor
+EVs: 240 Atk / 236 Spe
+Jolly Nature
+- Hidden Power Bug
+- Rock Slide
+- Brick Break
+- Swords Dance
+
+Wailmer @ Sitrus Berry
+Ability: Water Veil
+EVs: 36 HP / 40 Atk / 76 Def / 120 SpA / 236 SpD
+Sassy Nature
+- Self-Destruct
+- Hidden Power Grass
+- Surf
+- Earthquake
+
+Porygon @ Sitrus Berry
+Ability: Trace
+EVs: 236 HP / 196 Def / 76 SpA
+Relaxed Nature
+- Ice Beam
+- Return
+- Recycle
+- Thief
+
+Pineco @ Sitrus Berry
+Ability: Sturdy
+EVs: 196 HP / 240 SpD
+Careful Nature
+- Spikes
+- Explosion
+- Hidden Power Ghost
+- Toxic
+
+Horsea @ Mystic Water
+Ability: Swift Swim
+EVs: 36 HP / 200 SpA / 76 SpD / 196 Spe
+Modest Nature
+- Hidden Power Grass
+- Rain Dance
+- Hydro Pump
+- Ice Beam
+
+Elekid @ Sitrus Berry
+Ability: Static
+EVs: 240 SpA / 236 Spe
+Timid Nature
+- Thunderbolt
+- Hidden Power Grass
+- Thief
+- Thunder Wave
+
+=== [gen3lc] Voltorb + top teammates ===
+
+Voltorb @ Sitrus Berry
+Ability: Static
+EVs: 36 HP / 116 Def / 76 SpA / 76 SpD / 196 Spe
+Timid Nature
+- Explosion
+- Thunderbolt
+- Thief
+- Hidden Power Grass
+
+Diglett @ Sitrus Berry
+Ability: Arena Trap
+EVs: 36 HP / 236 SpD / 236 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Substitute
+- Sludge Bomb
+
+Wailmer @ Sitrus Berry
+Ability: Water Veil
+EVs: 36 HP / 40 Atk / 76 Def / 120 SpA / 236 SpD
+Sassy Nature
+- Self-Destruct
+- Hidden Power Grass
+- Surf
+- Earthquake
+
+Porygon @ Sitrus Berry
+Ability: Trace
+EVs: 236 HP / 196 Def / 76 SpA
+Relaxed Nature
+- Ice Beam
+- Return
+- Recycle
+- Thief
+
+Charmander @ Petaya Berry
+Ability: Blaze
+EVs: 12 Def / 200 SpA / 116 SpD / 156 Spe
+Modest Nature
+- Flamethrower
+- Hidden Power Grass
+- Dragon Dance
+- Substitute
+
+Abra @ Sitrus Berry
+Ability: Synchronize
+EVs: 76 HP / 156 Def / 76 SpD / 196 Spe
+Timid Nature
+- Psychic
+- Calm Mind
+- Thief
+- Barrier
+
+=== [gen3lc] Lileep + top teammates ===
+
+Lileep @ Sitrus Berry
+Ability: Suction Cups
+EVs: 228 HP / 60 SpA / 220 SpD
+Sassy Nature
+- Recover
+- Giga Drain
+- Mirror Coat
+- Hidden Power Ice
+
+Koffing @ Sitrus Berry
+Ability: Levitate
+EVs: 116 HP / 236 Def / 36 SpA / 76 SpD
+Relaxed Nature
+- Sludge Bomb
+- Thief
+- Explosion
+- Thunderbolt
+
+Diglett @ Sitrus Berry
+Ability: Arena Trap
+EVs: 36 HP / 236 SpD / 236 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Substitute
+- Sludge Bomb
+
+Wooper @ Sitrus Berry
+Ability: Water Absorb
+EVs: 236 HP / 236 Def / 36 SpA
+Relaxed Nature
+- Surf
+- Curse
+- Earthquake
+- Ice Beam
+
+Wailmer @ Sitrus Berry
+Ability: Water Veil
+EVs: 36 HP / 40 Atk / 76 Def / 120 SpA / 236 SpD
+Sassy Nature
+- Self-Destruct
+- Hidden Power Grass
+- Surf
+- Earthquake
+
+Duskull @ Sitrus Berry
+Ability: Levitate
+EVs: 196 HP / 116 Def / 196 SpD
+Sassy Nature
+- Shadow Ball
+- Thief
+- Ice Beam
+- Will-O-Wisp
+

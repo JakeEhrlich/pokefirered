@@ -1,0 +1,57 @@
+Golbat @ Choice Band  
+Ability: Inner Focus  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Sludge Bomb  
+- Aerial Ace  
+- Hidden Power [Ground]  
+- Sleep Talk  
+
+Bellossom @ Leftovers  
+Ability: Chlorophyll  
+EVs: 252 HP / 244 SpD / 12 Spe  
+Calm Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Giga Drain  
+- Hidden Power [Fire]  
+- Stun Spore  
+- Moonlight  
+
+Octillery @ Leftovers  
+Ability: Suction Cups  
+EVs: 208 HP / 252 SpA / 48 Spe  
+Modest Nature  
+IVs: 3 Atk / 30 SpA  
+- Surf  
+- Fire Blast  
+- Hidden Power [Electric]  
+- Thunder Wave  
+
+Hitmonchan (M) @ Leftovers  
+Ability: Keen Eye  
+EVs: 112 HP / 228 Atk / 168 Spe  
+Adamant Nature  
+- Bulk Up  
+- Mach Punch  
+- Hidden Power [Ghost]  
+- Earthquake  
+
+Relicanth @ Leftovers  
+Ability: Swift Swim  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Rock Slide  
+- Earthquake  
+- Rest  
+- Sleep Talk  
+
+Chimecho @ Leftovers  
+Ability: Levitate  
+EVs: 196 HP / 252 SpA / 60 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Calm Mind  
+- Psychic  
+- Hidden Power [Fire]  
+- Heal Bell  
+

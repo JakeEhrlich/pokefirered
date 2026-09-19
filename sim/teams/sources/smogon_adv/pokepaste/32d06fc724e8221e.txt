@@ -1,0 +1,602 @@
+=== [gen3ou] JI2/(Playins 2) Salacgrass magoff ===
+
+metal goober (Metagross) @ Salac Berry  
+Ability: Clear Body  
+EVs: 52 HP / 252 Atk / 204 Spe  
+Naive Nature  
+- Meteor Mash  
+- Earthquake  
+- Hidden Power [Grass]  
+- Explosion  
+
+dragon goober (Salamence) @ Leftovers  
+Ability: Intimidate  
+EVs: 156 Atk / 212 SpD / 140 Spe  
+Adamant Nature  
+IVs: 30 SpA / 30 SpD / 30 Spe  
+- Dragon Dance  
+- Hidden Power [Flying]  
+- Earthquake  
+- Rock Slide  
+
+magnet goober (Magneton) @ Magnet  
+Ability: Magnet Pull  
+EVs: 252 SpA / 68 SpD / 188 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Thunderbolt  
+- Hidden Power [Fire]  
+- Thunder Wave  
+- Substitute  
+
+muddy goober (Swampert) @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 64 Def / 196 SpA  
+Quiet Nature  
+- Hydro Pump  
+- Earthquake  
+- Ice Beam  
+- Curse  
+
+sandy goober (Tyranitar) @ Lum Berry  
+Ability: Sand Stream  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Dragon Dance  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Bug]  
+
+fat goober (Snorlax) @ Leftovers  
+Ability: Immunity  
+EVs: 32 HP / 204 Atk / 96 Def / 160 SpD / 16 Spe  
+Adamant Nature  
+- Body Slam  
+- Earthquake  
+- Shadow Ball  
+- Self-Destruct  
+
+
+=== [gen3ou] JI2/(Playins 2) medi spdef tar ===
+
+powerful goober (Medicham) @ Salac Berry  
+Ability: Pure Power  
+EVs: 4 HP / 224 Atk / 156 Def / 124 Spe  
+Jolly Nature  
+- Bulk Up  
+- Brick Break  
+- Rock Slide  
+- Shadow Ball  
+
+sandy goober (Tyranitar) @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 160 SpA / 100 SpD  
+Sassy Nature  
+- Rock Slide  
+- Pursuit  
+- Crunch  
+- Thunder  
+
+steel goober (Registeel) @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 176 Def / 80 SpD  
+Careful Nature  
+- Seismic Toss  
+- Thunder Wave  
+- Counter  
+- Explosion  
+
+dragon goober (Salamence) @ Leftovers  
+Ability: Intimidate  
+EVs: 48 HP / 16 Atk / 12 Def / 252 SpA / 180 Spe  
+Rash Nature  
+- Dragon Claw  
+- Fire Blast  
+- Brick Break  
+- Hidden Power [Grass]  
+
+armless goober (Gyarados) @ Leftovers  
+Ability: Intimidate  
+EVs: 80 HP / 252 Atk / 176 Spe  
+Jolly Nature  
+- Dragon Dance  
+- Hidden Power [Rock]  
+- Earthquake  
+- Double-Edge  
+
+starry goober (Starmie) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 112 Def / 144 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Surf  
+- Thunder Wave  
+- Recover  
+- Rapid Spin  
+
+
+=== [gen3ou] JI2/(Playins 3) mag dol cune lax ===
+
+dragon goober (Salamence) @ Choice Band  
+Ability: Intimidate  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Hidden Power [Flying]  
+- Earthquake  
+- Rock Slide  
+- Brick Break  
+
+metal goober (Metagross) @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 160 Atk / 96 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Rock Slide  
+- Explosion  
+
+magnet goober (Magneton) @ Leftovers  
+Ability: Magnet Pull  
+EVs: 252 HP / 232 SpD / 24 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Thunderbolt  
+- Thunder Wave  
+- Toxic  
+- Protect  
+
+silly goober (Claydol) @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 156 Atk / 100 Spe  
+Adamant Nature  
+- Earthquake  
+- Rapid Spin  
+- Psychic  
+- Explosion  
+
+forehead goober (Suicune) @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 220 Def / 48 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Calm Mind  
+- Rest  
+- Roar  
+
+fat goober (Snorlax) @ Leftovers  
+Ability: Immunity  
+EVs: 164 HP / 40 Atk / 136 Def / 168 SpD  
+Careful Nature  
+- Return  
+- Shadow Ball  
+- Curse  
+- Rest  
+
+
+=== [gen3ou] JI2/(Playins 3) Welcome To Our Zoo (v1.5) ===
+
+sandy goober (Tyranitar) @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 252 SpA / 8 SpD  
+Modest Nature  
+IVs: 0 Atk  
+- Crunch  
+- Fire Blast  
+- Pursuit  
+- Ice Beam  
+
+magnet goober (Magneton) @ Magnet  
+Ability: Magnet Pull  
+EVs: 64 HP / 252 SpA / 192 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Toxic  
+- Sunny Day  
+
+diggy goober (Dugtrio) @ Choice Band  
+Ability: Arena Trap  
+EVs: 252 Atk / 28 SpA / 228 Spe  
+Hasty Nature  
+IVs: 30 SpD / 30 Spe  
+- Earthquake  
+- Hidden Power [Bug]  
+- Aerial Ace  
+- Pursuit  
+
+armless goober (Gyarados) @ Leftovers  
+Ability: Intimidate  
+EVs: 216 HP / 16 Atk / 88 SpD / 188 Spe  
+Adamant Nature  
+- Hidden Power [Rock]  
+- Earthquake  
+- Dragon Dance  
+- Rest  
+
+fat goober (Snorlax) @ Leftovers  
+Ability: Immunity  
+EVs: 48 HP / 144 Atk / 132 Def / 184 SpD  
+Careful Nature  
+- Body Slam  
+- Earthquake  
+- Curse  
+- Rest  
+
+snake goober (Steelix) @ Leftovers  
+Ability: Rock Head  
+EVs: 252 HP / 4 Atk / 252 SpD  
+Careful Nature  
+- Earthquake  
+- Hidden Power [Rock]  
+- Rest  
+- Roar  
+
+
+=== [gen3ou] JI2/(W2) pursuit focus beerlover ===
+
+bird goober (Skarmory) @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 232 SpD / 24 Spe  
+Careful Nature  
+IVs: 0 Atk  
+- Spikes  
+- Toxic  
+- Protect  
+- Roar  
+
+sandy goober (Tyranitar) @ Leftovers  
+Ability: Sand Stream  
+EVs: 112 HP / 212 Atk / 152 SpA / 32 Spe  
+Brave Nature  
+- Crunch  
+- Pursuit  
+- Rock Slide  
+- Focus Punch  
+
+devious goober (Gengar) @ Leftovers  
+Ability: Levitate  
+EVs: 64 HP / 248 SpD / 196 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Thunderbolt  
+- Taunt  
+- Will-O-Wisp  
+- Destiny Bond  
+
+starry goober (Starmie) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Hydro Pump  
+- Ice Beam  
+- Recover  
+- Rapid Spin  
+
+muddy goober (Swampert) @ Leftovers  
+Ability: Torrent  
+EVs: 240 HP / 184 Def / 64 SpA / 20 SpD  
+Relaxed Nature  
+- Hydro Pump  
+- Ice Beam  
+- Earthquake  
+- Protect  
+
+mom goober (Blissey) (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 224 SpA / 32 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Ice Beam  
+- Flamethrower  
+- Toxic  
+- Soft-Boiled  
+
+
+=== [gen3ou] JI2/(W2) Lead weez (memento + dd ice ver) ===
+
+stinky goober (Weezing) @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 160 SpA / 96 SpD  
+Modest Nature  
+IVs: 2 Atk / 30 Def  
+- Hidden Power [Ice]  
+- Will-O-Wisp  
+- Thunder  
+- Memento  
+
+magnet goober (Magneton) @ Magnet  
+Ability: Magnet Pull  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Thunderbolt  
+- Hidden Power [Fire]  
+- Rain Dance  
+- Thunder Wave  
+
+sandy goober (Tyranitar) @ Lum Berry  
+Ability: Sand Stream  
+EVs: 180 Atk / 56 Def / 20 SpA / 252 Spe  
+Naughty Nature  
+- Dragon Dance  
+- Rock Slide  
+- Earthquake  
+- Ice Beam  
+
+metal goober (Metagross) @ Leftovers  
+Ability: Clear Body  
+EVs: 196 HP / 200 Atk / 112 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Hidden Power [Grass]  
+- Agility  
+
+fat goober (Snorlax) @ Leftovers  
+Ability: Immunity  
+EVs: 84 HP / 84 Atk / 240 Def / 76 SpD / 24 Spe  
+Adamant Nature  
+- Return  
+- Belly Drum  
+- Shadow Ball  
+- Earthquake  
+
+forehead goober (Suicune) @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 200 Def / 48 SpA / 20 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Calm Mind  
+- Rest  
+- Sleep Talk  
+
+
+=== [gen3ou] JI2/(W2 + SSNL) "Calm Mind" Jynx ===
+
+lovely goober (Jynx) @ Never-Melt Ice  
+Ability: Oblivious  
+Shiny: Yes  
+EVs: 252 SpA / 16 SpD / 240 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Ice Beam  
+- Lovely Kiss  
+- Blizzard  
+- Calm Mind  
+
+diggy goober (Dugtrio) @ Choice Band  
+Ability: Arena Trap  
+EVs: 148 Atk / 180 SpD / 180 Spe  
+Jolly Nature  
+- Earthquake  
+- Aerial Ace  
+- Hidden Power [Bug]  
+- Rock Slide  
+
+beetle goober (Heracross) @ Salac Berry  
+Ability: Swarm  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+IVs: 30 HP  
+- Megahorn  
+- Swords Dance  
+- Reversal  
+- Endure  
+
+jolly goober (Ludicolo) @ Leftovers  
+Ability: Swift Swim  
+EVs: 148 HP / 252 SpA / 108 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Surf  
+- Ice Beam  
+- Leech Seed  
+- Rain Dance  
+
+metal goober (Metagross) @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 200 Atk / 56 Def  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Protect  
+- Explosion  
+
+forehead goober (Suicune) @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 64 SpA / 192 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Surf  
+- Ice Beam  
+- Substitute  
+
+
+=== [gen3ou] JI2/(W3) The year is 2023 ===
+
+powerful goober (Medicham) @ Leftovers  
+Ability: Pure Power  
+EVs: 48 HP / 252 Atk / 208 Spe  
+Adamant Nature  
+- Brick Break  
+- Substitute  
+- Shadow Ball  
+- Focus Punch  
+
+blast goober (Charizard) @ Leftovers  
+Ability: Blaze  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Naive Nature  
+- Heat Wave  
+- Hidden Power [Ice]  
+- Beat Up  
+- Brick Break  
+
+sparky goober (Jolteon) @ Leftovers  
+Ability: Volt Absorb  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Thunder Wave  
+- Roar  
+
+fat goober (Snorlax) @ Leftovers  
+Ability: Immunity  
+EVs: 48 HP / 252 Atk / 52 Def / 136 SpD / 20 Spe  
+Adamant Nature  
+- Double-Edge  
+- Focus Punch  
+- Shadow Ball  
+- Yawn  
+
+forehead goober (Suicune) @ Leftovers  
+Ability: Pressure  
+EVs: 200 HP / 252 SpA / 56 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Surf  
+- Ice Beam  
+- Rain Dance  
+
+metal goober (Metagross) @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 12 Atk / 60 Def / 252 SpA / 16 Spe  
+Quiet Nature  
+- Hidden Power [Fire]  
+- Meteor Mash  
+- Pursuit  
+- Explosion  
+
+
+=== [gen3ou] JI2/(W3) TTTTRRRSS ===
+
+angry goober (Zapdos) @ Leftovers  
+Ability: Pressure  
+EVs: 216 HP / 40 SpA / 48 SpD / 204 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Toxic  
+- Roar  
+
+bird goober (Skarmory) @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 240 SpD / 16 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Spikes  
+- Toxic  
+- Protect  
+- Roar  
+
+muddy goober (Swampert) @ Leftovers  
+Ability: Torrent  
+EVs: 240 HP / 184 Def / 48 SpD / 36 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Roar  
+- Toxic  
+- Protect  
+
+starry goober (Starmie) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 200 Def / 56 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Toxic  
+- Recover  
+- Rapid Spin  
+
+mom goober (Blissey) (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 244 SpA / 12 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Ice Beam  
+- Thunderbolt  
+- Calm Mind  
+- Soft-Boiled  
+
+sandy goober (Tyranitar) @ Leftovers  
+Ability: Sand Stream  
+EVs: 240 HP / 252 Atk / 16 Spe  
+Adamant Nature  
+IVs: 30 SpD / 30 Spe  
+- Rock Slide  
+- Focus Punch  
+- Earthquake  
+- Hidden Power [Bug]  
+
+
+=== [gen3ou] JI2/(W3) Alt Forre restzap (-stalk) ===
+
+sandy goober (Tyranitar) @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 224 SpA / 32 SpD / 4 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Crunch  
+- Pursuit  
+- Flamethrower  
+- Hidden Power [Grass]  
+
+stalwart goober (Forretress) @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 4 Def / 252 SpD  
+Careful Nature  
+- Spikes  
+- Rapid Spin  
+- Explosion  
+- Earthquake  
+
+angry goober (Zapdos) @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 4 Def / 252 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Thunderbolt  
+- Toxic  
+- Roar  
+- Rest  
+
+ancient goober (Aerodactyl) @ Choice Band  
+Ability: Rock Head  
+EVs: 252 Atk / 4 SpA / 252 Spe  
+Hasty Nature  
+- Rock Slide  
+- Earthquake  
+- Double-Edge  
+- Pursuit  
+
+mom goober (Blissey) (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 88 HP / 252 Def / 168 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Seismic Toss  
+- Aromatherapy  
+- Thunder Wave  
+- Soft-Boiled  
+
+muddy goober (Swampert) @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 188 Def / 44 SpD / 28 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Toxic  
+- Protect  
+- Roar  
+
+

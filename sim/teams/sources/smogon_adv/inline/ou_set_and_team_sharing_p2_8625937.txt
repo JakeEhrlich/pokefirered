@@ -1,0 +1,18 @@
+Hi, I would just like to share some sets ive used to moderate success on ladder that I think are cool,
+Snorlax @ Leftovers
+Ability: Immunity
+EVs: 92 HP / 128 Atk / 144 Def / 144 SpD
+Adamant Nature
+- Facade
+- Earthquake
+- Shadow Ball
+- Self-Destruct
+The idea behind this one is simple, snorlax often switches into mons such as zapdos, jolteon and blissey who commonly can run twave, Facade is used to benefit from getting paralyzed by bliss, zap, jolt, etc by turning it into a base 210 stab move when incorporating the status boost.  However this is not the only benefit of facade on lax, in worst case scenarios where you have to let snorlax take a wisp for damage on moltres or gar, facade allows snorlax to still have damage output vs non resists while burned.  This allows it to choose when it uses self destruct instead of often self destructing soon after taking a wisp.
+
+Flygon @ Leftovers
+Ability: Levitate
+Rock tomb
+The idea behind rock tomb gon is that many of the best gon switch ins speed tie or are faster then flygon, rock tomb negates this speed advantage and allows flygon to not risk a speed tie vs zapdos, outspeed gengar, not be dd mence fodder, and outspeed aero after a tomb in the 1v1 in late game.  Rock tomb can be hard to fit bc of 4mss but if you can fit it, it can be a good addition.
+
+Thank you for reading
+

@@ -1,0 +1,57 @@
+Hiemis (Raikou) @ Lum Berry  
+Ability: Pressure  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 Def  
+- Substitute  
+- Thunderbolt  
+- Toxic  
+- Hidden Power [Ice]  
+
+Insidia (Dugtrio) @ Choice Band  
+Ability: Arena Trap  
+EVs: 8 HP / 236 Atk / 40 SpD / 224 Spe  
+Jolly Nature  
+- Earthquake  
+- Aerial Ace  
+- Hidden Power [Bug]  
+- Beat Up  
+
+Regnum (Tyranitar) @ Lum Berry  
+Ability: Sand Stream  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Hasty Nature  
+- Brick Break  
+- Fire Blast  
+- Ice Beam  
+- Hidden Power [Grass]  
+
+Ibis (Zapdos) @ Leftovers  
+Ability: Pressure  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Toxic  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Roar  
+
+Sicut (Porygon2) @ Leftovers  
+Ability: Trace  
+EVs: 252 HP / 208 Def / 48 SpD  
+Relaxed Nature  
+- Ice Beam  
+- Hidden Power [Fighting]  
+- Thunder Wave  
+- Recover  
+
+Otium (Jirachi) @ Leftovers  
+Ability: Serene Grace  
+EVs: 252 HP / 40 Def / 152 SpA / 64 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Calm Mind  
+- Psychic  
+- Hidden Power [Grass]  
+- Fire Punch  
+

@@ -1,0 +1,76 @@
+ADV players' teambuilders go through cycles and mass deletions. In this post, I am sharing my current teambuilder which I have been laddering with in the past couple of months, and general thoughts on the teams. Sometimes they do really well, sometimes they get smashed by Pokemonboy23, sometimes T I L T. Such is Pokemon,
+
+Some (/many/all) of the teams are flawed, but I hope they can serve as inspiration for further tinkering and innovation.
+
+I have been taking a break from tours (and will be for the near future) and maining ladder in my spare time. There is a good chance this latest post might be blind to some of the most recent metagame trends in competitive play.
+
+Teambuilder Pastebin
+https://pastebin.com/raw/6xCb1crp
+
+Team Thoughts
+Standard Forre build
++ Pro-Tox Zap + SingBliss + Dug breaker core
++ Fat Dug not necessary, 372 dug traps other Dug non-ironically
+- maybe coverage move on Forre can be improved
+
+Forre build inspired by Sunny/UD creations
++ Aero + Venu + spike have nice synergy
++ Restalk as super glue (soft supported by SuitTar and Venu) is interesting and not terrible
+
+No Gar no BulkyWater CloyOff
++ SubCM Jira can win games
++ general team slaps around a lot of pressure
+- No BulkyWater = might be obliterated by Ttar/Gross, kind of reliant on Blissey getting 1.5 surprise kills
+- Fat Slow Grounded mons and no Suit Support means that Spike+Gengar teams can be very annoying (idea of team is to outpressure them, and maybe to use Champ to trade with Gar although that means extra late game Tar weakness)
+
+Mag PhysOff Double Blob no Bulky Water
++ Tar/Gross can trade with Waters, meaning Mence becomes a Menace
++ Double Blob gives a lot of trade flexibility, even against some Tars
++ Double Blob means MagPhysOff not terrified of Zapdos/Starmie etc.
++ Depending on how you play it, last mon can have some surprise value, since usually there would be a Pert etc. somewhere
++ DDmence is underused and completely murders many ladder teams
+- suffering similar to above No Water
+
+Bulky Offence
++ Surprising (and not terrible) Starmie set
++ Similar offensive idea to team above
++ Opponents often underestimate bulk of Machamp
+- gets cleaved by EQ
+- handles Celebi poorly
+
+Bulky Offence
++ Machamp fun breaker
++ Ludi funny water check / glue
+- Just not quite working, needs more adjustments / deletion
+
+Special offence Dugless
++ Not reliant on Dug. Yama>Champ to better threaten Bliss
++ fun
+- not enough breaking power, needs more adjustments / deletion
+
+Offence Double Fighting
+I have always been a fan of this archetype and trying to make it work
++ CB HERA KILLING MACHINE
++ a lot of Mence insurance (knock Yama, Milo, P2, Dol)
++ obliterates fat spam
+- Turn 1 Tar/Skarm mindgames are not fun
+- Gets randomly bopped by nonsense bad teams
+- SuperCele / CMJira can just win
+
+Only Skarm teams which I like at the moment.
+1. Inspired by something I saw on ladder. My touches: BoldRoar Cune means dropping Roar on Skarm, making it able to always 1v1 Solo Dol/Cloy/Forre, Dug to hopefully deny Wish Support. A lot of ladder teams got smashed by Roar Cune
+
+2. Keeping same 4 mon core, trying something new (and risky)
+Very physically weak, but the Jira (now a very rarely used set) is a huge win con with Spike+Dug support
+Haven't quite worked out best Bliss set to not overlap with Venu
+
+Funky Altina/Ojama inspired Bulky Dol
++ surprise value of sets
++ decent win cons
+- sometimes not so hot against random ladder stuff
+
+Closing Words
+You are just as likely to get lucky RNG as your opponent. Pokemon community would do well to appreciate the strategy + luck component of the game, and chill out a bit (be less results oriented and just less salty)
+
+Thanks for reading, I appreciate you all. See you on ladder!
+

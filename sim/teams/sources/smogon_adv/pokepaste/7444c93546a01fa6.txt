@@ -1,0 +1,56 @@
+Solrock @ Choice Band  
+Ability: Levitate  
+EVs: 68 HP / 216 Atk / 224 Spe  
+Adamant Nature  
+- Earthquake  
+- Rock Slide  
+- Explosion  
+- Shadow Ball  
+
+Roselia @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 40 Def / 216 SpD  
+Calm Nature  
+IVs: 2 Atk / 30 SpA  
+- Spikes  
+- Hidden Power [Grass]  
+- Synthesis  
+- Stun Spore  
+
+Arcanine @ Leftovers  
+Ability: Intimidate  
+EVs: 232 HP / 40 Def / 220 SpA / 16 Spe  
+Rash Nature  
+- Toxic  
+- Flamethrower  
+- Hidden Power [Electric]  
+- Extreme Speed  
+
+Hitmontop (M) @ Leftovers  
+Ability: Intimidate  
+EVs: 252 HP / 196 Def / 60 SpD  
+Careful Nature  
+- Toxic  
+- Earthquake  
+- Rapid Spin  
+- Hidden Power [Ghost]  
+
+Misdreavus @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 176 Def / 24 SpA / 56 SpD  
+Calm Nature  
+IVs: 2 Atk / 30 Def  
+- Hidden Power [Ice]  
+- Thunder Wave  
+- Perish Song  
+- Rest  
+
+Kangaskhan (F) @ Leftovers  
+Ability: Early Bird  
+EVs: 200 HP / 56 Atk / 252 SpD  
+Adamant Nature  
+- Body Slam  
+- Focus Punch  
+- Rest  
+- Shadow Ball  
+

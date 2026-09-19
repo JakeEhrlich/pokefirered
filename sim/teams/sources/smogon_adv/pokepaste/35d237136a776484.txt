@@ -1,0 +1,54 @@
+Metagross @ Choice Band
+Ability: Clear Body
+EVs: 120 HP / 252 Atk / 136 Def
+Adamant Nature (+Atk, -SAtk)
+- Earthquake
+- Explosion
+- Meteor Mash
+- Rock Slide
+
+Salamence (M) @ Leftovers
+Ability: Intimidate
+EVs: 88 HP / 252 Atk / 28 Def / 140 Spd
+IVs: 30 SAtk / 30 SDef / 30 Spd
+Adamant Nature (+Atk, -SAtk)
+- Dragon Dance
+- Earthquake
+- Hidden Power [Flying]
+- Rock Slide
+
+Heracross (M) @ Leftovers
+Ability: Guts
+EVs: 148 HP / 76 Atk / 148 SDef / 136 Spd
+Adamant Nature (+Atk, -SAtk)
+- Megahorn
+- Rest
+- Rock Slide
+- Sleep Talk
+
+Suicune @ Leftovers
+Ability: Pressure
+EVs: 240 HP / 212 Def / 8 SDef / 48 Spd
+Bold Nature (+Def, -Atk)
+- Calm Mind
+- Rest
+- Roar
+- Surf
+
+Claydol @ Leftovers
+Ability: Levitate
+EVs: 236 HP / 48 Atk / 108 Def / 16 SAtk / 100 SDef
+Relaxed Nature (+Def, -Spd)
+- Earthquake
+- Ice Beam
+- Rapid Spin
+- Rest
+
+Snorlax (M) @ Leftovers
+Ability: Thick Fat
+EVs: 140 HP / 96 Atk / 96 Def / 36 SAtk / 140 SDef
+Sassy Nature (+SDef, -Spd)
+- Curse
+- Fire Blast
+- Rest
+- Return

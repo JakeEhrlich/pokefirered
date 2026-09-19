@@ -1,0 +1,58 @@
+Kangaskhan (F) @ Leftovers  
+Ability: Early Bird  
+EVs: 248 HP / 100 Def / 136 SpD / 24 Spe  
+Careful Nature  
+- Wish  
+- Rest  
+- Body Slam  
+- Toxic  
+
+Altaria @ Leftovers  
+Ability: Natural Cure  
+EVs: 248 HP / 164 Def / 96 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Ice Beam  
+- Heal Bell  
+- Roar  
+- Rest  
+
+Sableye @ Leftovers  
+Ability: Keen Eye  
+EVs: 248 HP / 52 Def / 208 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Seismic Toss  
+- Toxic  
+- Knock Off  
+- Recover  
+
+Omastar @ Leftovers  
+Ability: Shell Armor  
+EVs: 252 HP / 244 Def / 12 Spe  
+Bold Nature  
+IVs: 2 Atk / 30 SpA  
+- Spikes  
+- Surf  
+- Hidden Power [Grass]  
+- Rest  
+
+Quagsire @ Leftovers  
+Ability: Water Absorb  
+EVs: 252 HP / 252 Def / 4 SpD  
+Impish Nature  
+- Curse  
+- Earthquake  
+- Hidden Power [Rock]  
+- Rest  
+
+Tentacruel  
+Ability: Liquid Ooze  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 3 Atk / 30 SpA  
+- Surf  
+- Rapid Spin  
+- Thief  
+- Hidden Power [Electric]  
+

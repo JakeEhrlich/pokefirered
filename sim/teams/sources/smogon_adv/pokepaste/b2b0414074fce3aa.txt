@@ -1,0 +1,145 @@
+BreloomAtk (Moltres)  
+Ability: Pressure  
+EVs: 4 Def / 252 SpA / 252 Spe  
+
+BreloomSpd (Vaporeon)  
+Ability: Water Absorb  
+EVs: 252 Spe  
+Timid Nature  
+
+BreloomSpDef (Zapdos)  
+Ability: Pressure  
+EVs: 252 SpA  
+Modest Nature  
+IVs: 2 Atk / 30 Def  
+- Hidden Power [Ice]  
+
+BreloomHP+1 (Gyarados)  
+Ability: Intimidate  
+EVs: 252 Atk  
+Jolly Nature  
+- Double-Edge  
+- Dragon Dance  
+- Hidden Power [Rock]  
+
+SwampertSpDef (Zapdos)  
+Ability: Pressure  
+EVs: 252 SpA  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Hidden Power [Grass]  
+
+PertSpDefAtk132 (Moltres)  
+Ability: Pressure  
+EVs: 40 HP / 252 SpA / 216 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Hidden Power [Grass]  
+
+PertSpAtk132 (Salamence)  
+Ability: Intimidate  
+EVs: 152 HP / 216 Atk / 140 Spe  
+Adamant Nature  
+IVs: 30 SpA / 30 SpD / 30 Spe  
+- Hidden Power [Flying]  
+- Dragon Dance  
+
+PertSpAtk128 (Flygon)  
+Ability: Levitate  
+EVs: 252 HP  
+IVs: 0 Atk  
+
+SwampertAtk (Dugtrio)  
+Ability: Sand Veil  
+EVs: 8 HP / 248 Atk / 252 Spe  
+Adamant Nature  
+- Hidden Power [Bug]  
+
+SwampertSpd (Blissey) (F)  
+Ability: Natural Cure  
+
+HoundoomSpDef (Starmie)  
+Ability: Natural Cure  
+IVs: 0 Atk  
+- Surf  
+
+HoundoomSpDef (Milotic)  
+Ability: Marvel Scale  
+IVs: 0 Atk  
+- Surf  
+
+ZapdosSpDef+1 (Suicune)  
+Ability: Pressure  
+EVs: 252 SpA  
+Modest Nature  
+IVs: 0 Atk  
+- Ice Beam  
+- Calm Mind  
+
+ZapdosHP (Salamence) @ Choice Band  
+Ability: Intimidate  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Rock Slide  
+- Hidden Power [Flying]  
+
+ZapdosHPSubs (Claydol)  
+Ability: Levitate  
+EVs: 176 HP / 220 Atk / 112 Spe  
+Adamant Nature  
+- Shadow Ball  
+
+ZapdosSpAtk (Moltres)  
+Ability: Pressure  
+EVs: 24 HP / 252 SpA / 232 Spe  
+Modest Nature  
+
+DugtrioSpd+1 (Tyranitar)  
+Ability: Sand Stream  
+EVs: 252 Spe  
+Adamant Nature  
+IVs: 0 Atk  
+- Dragon Dance  
+
+DugAtk188,Spd (Celebi)  
+Ability: Natural Cure  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Baton Pass  
+
+6M0,10B1,14B2 (Blissey) (F)  
+Ability: Natural Cure  
+EVs: 252 SpA  
+IVs: 0 Atk  
+- Ice Beam  
+
+SnorlaxSpd (Forretress)  
+Ability: Sturdy  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+
+LaxSpd<Para+2 (Zapdos)  
+Ability: Pressure  
+EVs: 32 Spe  
+IVs: 0 Atk  
+- Agility  
+- Baton Pass  
+
+SnorlaxAtk (Blaziken)  
+Ability: Blaze  
+Mild Nature  
+
+SnorlaxDef (Hariyama)  
+Ability: Thick Fat  
+EVs: 252 Atk  
+Adamant Nature  
+- Cross Chop  
+
+LaxSpDefBlaz+1 (Charizard) @ Petaya Berry  
+Ability: Blaze  
+EVs: 252 SpA  
+Modest Nature  
+IVs: 0 Atk  
+- Fire Blast  
+

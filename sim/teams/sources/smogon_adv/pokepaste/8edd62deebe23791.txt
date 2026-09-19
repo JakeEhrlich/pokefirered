@@ -1,0 +1,57 @@
+Fudō Myō-ō (Zapdos) @ Leftovers  
+Ability: Pressure  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Baton Pass  
+- Roar  
+
+織田信雄 (Blissey) (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 44 HP / 236 Def / 212 SpA / 16 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Ice Beam  
+- Seismic Toss  
+- Wish  
+
+千子村正 (Skarmory) @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+IVs: 0 Atk  
+- Spikes  
+- Roar  
+- Protect  
+- Toxic  
+
+Tonbokiri (Tyranitar) @ Salac Berry  
+Ability: Sand Stream  
+EVs: 16 HP / 176 Atk / 120 Def / 12 SpA / 184 Spe  
+Naughty Nature  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Grass]  
+- Dragon Dance  
+
+徳川 家康 (Claydol) @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 216 Atk / 32 SpA / 8 Spe  
+Adamant Nature  
+- Rapid Spin  
+- Earthquake  
+- Psychic  
+- Explosion  
+
+妙法村正 (Metagross) @ Choice Band  
+Ability: Clear Body  
+EVs: 200 HP / 252 Atk / 56 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Rock Slide  
+- Explosion  
+

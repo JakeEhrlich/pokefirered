@@ -1,0 +1,59 @@
+Ninjask @ Leftovers  
+Ability: Speed Boost  
+EVs: 100 HP / 252 SpD / 156 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Substitute  
+- Protect  
+- Toxic  
+- Baton Pass  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 124 Def / 100 SpD / 32 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Leech Seed  
+- Recover  
+- Substitute  
+- Baton Pass  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 252 SpA / 104 SpD / 152 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Substitute  
+- Baton Pass  
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 192 SpA / 64 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Surf  
+- Substitute  
+- Roar  
+
+Marowak @ Thick Club  
+Ability: Rock Head  
+EVs: 32 HP / 252 Atk / 224 Spe  
+Jolly Nature  
+- Swords Dance  
+- Earthquake  
+- Focus Punch  
+- Hidden Power [Ghost]  
+
+Magneton @ Magnet  
+Ability: Magnet Pull  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Rain Dance  
+- Substitute  
+

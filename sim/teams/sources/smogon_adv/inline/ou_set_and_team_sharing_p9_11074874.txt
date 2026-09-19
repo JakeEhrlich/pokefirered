@@ -1,0 +1,34 @@
+If you’ve played me on ladder this past week, you’ve seen me toying with these two sets. Figured I’d share them here. Don’t get too greedy, though. I’m not going to explain the EVs for you.
+
+Regirock @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 184 Atk / 72 Spe
+Adamant Nature
+IVs: 30 SpD / 30 Spe
+- Curse
+- Focus Punch
+- Rock Slide
+- Hidden Power [Bug]
+
+I got in a bit of a debate with SpamOn on the vr thread about regirock being an awkward fit on spikes. You can read what I said there, but the gist is that standard regirock is weak against swampert and naturally walled by claydol. One solution is choice band, but lefties regirock has such great utility against aero, snorlax, mence and gyara as well as staying power against blissey. CB is not for every team. This is another potential solution.
+
+Focus punch + slide + bug, when paired with spikes, hits just about everything pretty hard. Over time, it’ll break anything except for rest suicune, milotic, and wish jirachi. The damage with these three moves is still a little bit lackluster, though, especially against Skarmory which is a massive threat to spikes teams in particular. So instead of boom or superpower in the last slot, I’ve opted for curse.
+
+Curse punishes Skarmory really hard if it tries to protect or drill peck to cancel your focus punch. If a spike is down, classic physical checks like swampert are not comfortable switching in to +1 focus punch at all, and focus punch resists get decked by slide or bug. This is probably best paired with heal bell so that you can take a toxic from skarm and keep it pushing. Curse also doubles as a way to check snorlax pretty reliably since you don’t have boom or superpower anymore. This set plays like a bkc tyranitar that is much sturdier vs physical attackers in exchange for not helping against jirachi and raikou and not bringing sand. You just need to make sure you have a good plan for mono waters. This  Dragonite set is one idea for that.
+
+Dragonite @ Leftovers
+Ability: Inner Focus
+EVs: 236 HP / 104 Atk / 68 Def / 100 Spe
+Adamant Nature
+IVs: 30 SpA / 30 SpD / 30 Spe
+- Hidden Power [Flying]
+- Earthquake
+- Focus Punch
+- Dragon Dance
+
+Finally I’ve found a set that doesn’t feel outclassed by mence. In most matchups, this is a worse salamence (although still pretty serviceable). But this set really shines against common stall teams right now. Bold cune and Milotic without ice beam aren’t good against this set at all. This also punishes non-ice beam blissey which has been common for a while and is always hard to beat.
+
+Focus punch has some other nice use cases as well. It lets Dragonite be a much better early-mid game dugtrio punish than dd mence ever was. It’s great coverage for protox skarm and can also hit drill peck sets if you play well. The nuke option against tar, blissey, and snorlax is generally very helpful.
+
+I think dd + focus punch can very easily be used with hp rock over hp flying. Other wacky options like fire blast, rock tomb, wing attack, hp ghost, sub, twave and heal bell are probably also usable. Have fun!
+

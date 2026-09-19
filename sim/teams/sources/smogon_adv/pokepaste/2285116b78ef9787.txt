@@ -1,0 +1,57 @@
+Torkoal @ Leftovers  
+Ability: White Smoke  
+EVs: 248 HP / 92 SpA / 168 SpD  
+Sassy Nature  
+- Fire Blast  
+- Rock Slide  
+- Explosion  
+- Toxic  
+
+Plusle @ Leftovers  
+Ability: Plus  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 Def  
+- Substitute  
+- Hidden Power [Ice]  
+- Thunderbolt  
+- Encore  
+
+Haunter @ Magnet  
+Ability: Levitate  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+- Psychic  
+- Thunderbolt  
+- Hidden Power [Fire]  
+- Explosion  
+
+Dewgong @ Leftovers  
+Ability: Thick Fat  
+EVs: 84 HP / 252 SpA / 4 SpD / 168 Spe  
+Modest Nature  
+IVs: 3 Atk / 30 SpA  
+- Ice Beam  
+- Surf  
+- Hidden Power [Electric]  
+- Encore  
+
+Chimecho @ Leftovers  
+Ability: Levitate  
+EVs: 184 HP / 252 SpA / 72 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Calm Mind  
+- Psychic  
+- Hidden Power [Fire]  
+- Protect  
+
+Metang @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 28 Def / 228 SpD  
+Impish Nature  
+- Meteor Mash  
+- Earthquake  
+- Toxic  
+- Protect  
+

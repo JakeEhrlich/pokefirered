@@ -1,0 +1,56 @@
+Swalot @ Leftovers  
+Ability: Liquid Ooze  
+EVs: 88 HP / 252 Atk / 156 SpD / 12 Spe  
+Adamant Nature  
+- Sludge Bomb  
+- Hidden Power [Ground]  
+- Shadow Ball  
+- Explosion  
+
+Pelipper @ Leftovers  
+Ability: Keen Eye  
+EVs: 24 HP / 252 SpA / 232 Spe  
+Modest Nature  
+IVs: 3 Atk / 30 SpA  
+- Hydro Pump  
+- Ice Beam  
+- Hidden Power [Electric]  
+- Substitute  
+
+Glalie @ Leftovers  
+Ability: Inner Focus  
+EVs: 252 HP / 32 SpD / 224 Spe  
+Timid Nature  
+- Ice Beam  
+- Light Screen  
+- Explosion  
+- Spikes  
+
+Metang @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 28 Def / 228 SpD  
+Impish Nature  
+- Meteor Mash  
+- Earthquake  
+- Toxic  
+- Protect  
+
+Flareon @ Leftovers  
+Ability: Flash Fire  
+EVs: 80 Atk / 252 SpA / 176 Spe  
+Hasty Nature  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Quick Attack  
+- Double-Edge  
+
+Huntail @ Lum Berry  
+Ability: Swift Swim  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 3 Atk / 30 SpA  
+- Hydro Pump  
+- Ice Beam  
+- Hidden Power [Electric]  
+- Rain Dance  
+

@@ -81,6 +81,9 @@ u16 Sim_PreEvolution(u16 species)
 // True if `species` at `level` can legitimately know `move` (own learnsets or any pre-evolution's).
 bool8 Sim_CanLearnMove(u16 species, u16 move, u8 level)
 {
+    // Smeargle sketches any move it sees (Sketch itself comes by level-up, Struggle cannot be sketched).
+    if (species == SPECIES_SMEARGLE && move != MOVE_NONE && move != MOVE_STRUGGLE && move < MOVES_COUNT)
+        return TRUE;
     int depth;
     u16 s = species;
 

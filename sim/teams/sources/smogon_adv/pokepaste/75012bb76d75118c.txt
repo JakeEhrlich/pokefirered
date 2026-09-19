@@ -1,0 +1,55 @@
+Solrock @ Choice Band  
+Ability: Levitate  
+EVs: 228 HP / 252 Atk / 28 Spe  
+Adamant Nature  
+- Rock Slide  
+- Earthquake  
+- Explosion  
+- Shadow Ball  
+
+Glalie @ Leftovers  
+Ability: Inner Focus  
+EVs: 252 HP / 4 Atk / 252 Spe  
+Jolly Nature  
+- Spikes  
+- Explosion  
+- Earthquake  
+- Hidden Power [Grass]  
+
+Arcanine @ Lum Berry  
+Ability: Flash Fire  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Timid Nature  
+- Fire Blast  
+- Hidden Power [Ground]  
+- Sunny Day  
+- Extreme Speed  
+
+Vileplume @ Leftovers  
+Ability: Chlorophyll  
+EVs: 28 HP / 252 SpA / 228 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Sunny Day  
+- Sleep Powder  
+- Solar Beam  
+- Hidden Power [Fire]  
+
+Kangaskhan (F) @ Leftovers  
+Ability: Early Bird  
+EVs: 8 HP / 252 Atk / 248 Spe  
+Adamant Nature  
+- Double-Edge  
+- Shadow Ball  
+- Rest  
+- Earthquake  
+
+Electrode @ Petaya Berry  
+Ability: Static  
+EVs: 12 HP / 24 Atk / 116 Def / 252 SpA / 104 Spe  
+Rash Nature  
+- Thunderbolt  
+- Substitute  
+- Explosion  
+- Hidden Power [Ice]  
+

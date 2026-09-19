@@ -53,10 +53,46 @@ struct SimHarness
     /*0xC8*/ u32 callerRing[64];  // caller addresses of the most recent engine calls (index = engineRngCalls % 64)
     /*0x1C8*/ u8 scriptOpponent;  // 1 = the opponent's decisions also come from the mailbox (scenario tests)
     /*0x1C9*/ u8 useEnemyParty;   // 1 = gEnemyParty was written by Lua; do not create the trainer's party
-    /*0x1CA*/ u16 pad;
+    /*0x1CA*/ u8 mainLoopBusy;  // 1 while the main loop iteration runs; 0 while waiting for VBlank (Lua snapshots only then)
+    /*0x1CB*/ u8 pad;
 };
 
 extern struct SimHarness gSimHarness;
+
+// Consistent snapshot of the state the cross-check compares, copied by SimHarness_EndOfMainLoop() at the end
+// of every main-loop iteration. A GBA frame ends on a cycle budget, so the emulator's frame callback can fire
+// in the middle of an iteration (e.g. during a long AI evaluation); the bridge therefore reads this copy,
+// and only while `busy` is 0, instead of the live variables.
+struct SimHarnessShadow
+{
+    /*0x000*/ u32 busy;            // 1 while the copy is in progress
+    /*0x004*/ u32 iters;           // completed main-loop iterations
+    /*0x008*/ u32 engineRngCalls;
+    /*0x00C*/ u32 otherRngCalls;
+    /*0x010*/ u32 callerRing[64];
+    /*0x110*/ u8 battleMons[88 * 4];
+    /*0x270*/ u8 statuses3[16];
+    /*0x280*/ u8 sideStatuses[4];
+    /*0x284*/ u8 sideTimers[24];
+    /*0x29C*/ u8 disableStructs[28 * 4];
+    /*0x30C*/ u8 weather[2];
+    /*0x30E*/ u8 pad0[2];
+    /*0x310*/ u8 wishFutureKnock[44];
+    /*0x33C*/ u8 playerParty[600];
+    /*0x594*/ u8 enemyParty[600];
+    /*0x7EC*/ u8 battlerPartyIndexes[8];
+    /*0x7F4*/ u8 absentBattlerFlags;
+    /*0x7F5*/ u8 battleOutcome;
+    /*0x7F6*/ u8 pad1[2];
+    /*0x7F8*/ u8 battleCommunication[8];
+    /*0x800*/ u32 controllerExecFlags;
+    /*0x804*/ u32 request;         // mailbox request/requestBattler/requestSeq/state as seen at the end of the iteration
+    /*0x808*/ u32 requestBattler;
+    /*0x80C*/ u32 requestSeq;
+    /*0x810*/ u32 state;
+};
+extern struct SimHarnessShadow gSimHarnessShadow;
+void SimHarness_EndOfMainLoop(void);
 
 void SimHarness_CB2_Boot(void);
 bool8 SimHarness_EngineRandom(u32 caller, u16 *value);

@@ -1,0 +1,55 @@
+Lady Glagla (Glalie) (F) @ Choice Band  
+Ability: Inner Focus  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Spikes  
+- Explosion  
+- Shadow Ball  
+- Earthquake  
+
+Roselia @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 20 Def / 236 SpD  
+Calm Nature  
+IVs: 2 Atk / 30 SpA  
+- Spikes  
+- Synthesis  
+- Hidden Power [Grass]  
+- Stun Spore  
+
+Metang @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 28 Def / 228 SpD  
+Impish Nature  
+- Meteor Mash  
+- Earthquake  
+- Toxic  
+- Protect  
+
+Hitmonchan (M) @ Choice Band  
+Ability: Keen Eye  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Sky Uppercut  
+- Hidden Power [Ghost]  
+- Rock Slide  
+- Mach Punch  
+
+Pikachu @ Light Ball  
+Ability: Static  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+- Thunderbolt  
+- Surf  
+- Substitute  
+- Hidden Power [Ice]  
+
+Swalot @ Leftovers  
+Ability: Liquid Ooze  
+EVs: 252 HP / 32 Def / 224 SpD  
+Careful Nature  
+- Ice Beam  
+- Yawn  
+- Shadow Ball  
+- Explosion  
+

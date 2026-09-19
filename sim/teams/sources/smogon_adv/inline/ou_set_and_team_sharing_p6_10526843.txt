@@ -1,0 +1,34 @@
+Celdanami said:
+
+Milotic @ Leftovers
+Ability: Marvel Scale
+EVs: 188 HP / 224 SpA / 96 Spe
+Modest Nature
+IVs: 0 Atk
+- Hydro Pump
+- Ice Beam
+- Recover
+- Hypnosis
+
+Offmilo really should be a set in the builder. I'm sure the evs could be finessed even better, but this moveset has been proven to glue together physical offense. Milotic's analysis mentions mirror coat, but none of the 3 alternate moves in this set. We should update both.
+
+Click to expand...
+
+I have looked into OffMilo as well. I think an offensive Milo set does have place in the metagame on certain non Spikes-Offensive builds, mostly MagOff or MixOff.
+
+The issue with this I find is also portrayed in the ADVPL game u linked the following post. The Milo sleeps the Blissey once or twice but after that it doesnt really do much in the game at all in fact it doesnt really make much if any progress in this game at all. I think part of this would be attributed that its just a Starmie/Suicune clone that lacks the boosting from CM or Speedtier to differentiate it from the other Offensive waters. I think what should be considered is using Toxic over Ice Beam.
+
+This way you can be an annoying mon to the most common special check in the game, Blissey, as it would need to find itself forced to switch at some point due to Toxic damage accumulating and only THEN you start making use of Hypnosis. Hypnosis would then be able to land on mons that dont have Natural Cure ideally. IF the opponent has something with double Natural Cure users on the team you try to cover those types of teams in other ways with your teammates tailoring its sets towards those more passively oriented teams which MagOff especially is great at punishing oftentimes.
+
+Dropping Ice Beam doesnt punish you a whole lot honestly, you miss out on hitting Celebi, but you dont really significantly damage recover variants of Celebi most of the time anyways to the point where you beat them 1 on 1. Missing out on hitting Salamence isnt that huge either as non-Refresh variants of Mix or DD Mence are both massively hindered by Toxic and if they do have Refresh they will miss out on a crucial coverage move for DD and Mix is still walled by Milotic and will slowly just falter to you anyways. CB Mence is a different case but your team should be able to punish CB-Locks on Offensive teams i.e. common DD mons like DD Tar, DD Mence, DD Gyara that are found commonly on these types of builds.
+
+Finally I do think there should be an argument made for Surf over Hydro Pump on this set. This isnt really for the accuracy but way more for you having issues PP-wise. Hydro Pump being your only attacking move in this case with only 8PP when mons like Suicune and Zapdos can commonly come in is a massive bummer, I think this really just speaks for itself and I dont need to expand further on this point.
+
+That being said what is actually the upside of using this set over the standard? Obviously, Hypnosis can completely turn the tables on mons like Jirachi, SDef (Rest) Zapdos, opposing Milotic and Snorlax. Also your matchup vs Skarmory significantly changes as you are able to Sleep it or just do way more damage to it with your invested Surfs.
+4 SpA Milotic Surf vs. 252 HP / 252+ SpD Skarmory: 94-111 (28.1 - 33.2%) -- 92.9% chance to 4HKO after Leftovers recovery
+224 SpA Milotic Surf vs. 252 HP / 252+ SpD Skarmory: 114-135 (34.1 - 40.4%) -- 48.7% chance to 3HKO after Leftovers recovery
+On a MixOff team this change in damage output is quite significant as hindering Skarmory of many free turns and damaging it significantly in earlier stages is key to some of MixOff's key threats i.e. DD Mence, who wants to clean up in many MixOff core ideas.
+Using Milotic for these properties can be very enticing as it keeps a lot its defensive value vs mons like Agillity Rock Slide Metagross, Charizard, Moltres and being able to 1v1 Offensive Starmie. These mons are often huge threats to these offenses for both MagOff and MixOff.
+
+There is definitely merit to this set, it just has not been fully fleshed out yet and tested out that much I believe. To contribute a bit more to this thread than just a wall of text with explanations and theorymon, here is a team that I have not completely worked out yet that features this set https://pokepast.es/66ef240fb842972a. I hope people can try similar structures to these out and find some winning ideas with OffMilo.
+

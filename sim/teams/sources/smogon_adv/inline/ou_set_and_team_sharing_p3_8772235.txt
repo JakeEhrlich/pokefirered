@@ -1,0 +1,38 @@
+Ayo we back, and I would to shoutout a particular pokemon who I believe to be quite underrated in the current metagame. This pokemon is far from good but deserves to see more usage in my opinion. This pokemon is none other than Entei. Entei's is a fantastic partner for Suicune due to it being Suicune's grass check and being able to weaken water checks.
+
+Entei @ Leftovers
+Ability: Pressure
+EVs: 132 HP / 240 SpA / 136 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Calm Mind
+- Substitute
+- Flamethrower/Fire Blast
+- Hidden Power [Grass]
+
+This is a more standard cm offensive set, 270 speed, 404 hp, and rest in spa. you can sub on Blissey with this set due to 404 hp which is nice. The next two sets are a lot less standard
+
+Entei @ Leftovers
+Ability: Pressure
+EVs: 132 HP / 172 SpA / 164 SpD / 40 Spe
+Timid Nature
+IVs: 2 Atk / 30 SpA
+- Roar
+- Toxic
+- Flamethrower
+- Hidden Power [Grass]
+
+Toxic Entei is a really cool tech due to baiting waters for a crocune in the back. while this set struggles with refresh milo and blissey, roar mitigates that issue. evs are for 404 hp, and sp def survives a Starmie hydro pump and allows it to switch into Celebi and Jirachi. I have experimented with this set a lot and gotten surprisingly good results.
+
+Entei @ Leftovers
+Ability: Pressure
+EVs: 8 Def / 248 SpA / 252 Spe
+Timid Nature
+IVs: 2 Atk / 30 Def
+- Sunny Day
+- Solar Beam
+- Fire Blast
+- Hidden Power [Ice]/Calm Mind/Hidden Power Fighting
+
+Now sunny day Entei is a very cool set, running hp ice on this set in specific is awesome because you bait Salamence for salac Heracross, if you want to beat ttar, run rash and hidden power fighting.   Pair this set with Dugtrio bc it works as a very strong ttar bait.  You can also run calm mind to boost up fire blast further but I wouldn't recommend it. Entei is a very cool pokemon in the current metagame and I believe it needs more experimentation. Thank you for reading.
+

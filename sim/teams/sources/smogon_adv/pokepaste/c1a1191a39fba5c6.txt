@@ -1,0 +1,56 @@
+Nidoking @ Leftovers  
+Ability: Poison Point  
+EVs: 72 HP / 252 Atk / 184 Spe  
+Adamant Nature  
+- Earthquake  
+- Ice Beam  
+- Shadow Ball  
+- Megahorn  
+
+Kangaskhan (F) @ Leftovers  
+Ability: Early Bird  
+EVs: 252 HP / 20 Atk / 208 SpD / 28 Spe  
+Adamant Nature  
+- Return  
+- Focus Punch  
+- Shadow Ball  
+- Rest  
+
+Solrock @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 16 Atk / 184 Def / 56 Spe  
+Adamant Nature  
+- Rock Slide  
+- Earthquake  
+- Reflect  
+- Explosion  
+
+Tentacruel @ Leftovers  
+Ability: Liquid Ooze  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 3 Atk / 30 SpA  
+- Surf  
+- Hidden Power [Electric]  
+- Toxic  
+- Rapid Spin  
+
+Lapras @ Leftovers  
+Ability: Water Absorb  
+EVs: 12 HP / 124 Def / 252 SpA / 24 SpD / 96 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Hydro Pump  
+- Ice Beam  
+- Thunderbolt  
+- Heal Bell  
+
+Arcanine @ Leftovers  
+Ability: Intimidate  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Timid Nature  
+- Sunny Day  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Extreme Speed  
+

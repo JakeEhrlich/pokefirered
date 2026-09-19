@@ -1,0 +1,55 @@
+Vigoroth @ Choice Band  
+Ability: Vital Spirit  
+EVs: 4 HP / 200 Atk / 52 SpD / 252 Spe  
+Adamant Nature  
+- Double-Edge  
+- Return  
+- Earthquake  
+- Shadow Ball  
+
+Metang @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 188 SpA / 68 SpD  
+Sassy Nature  
+- Pursuit  
+- Psychic  
+- Earthquake  
+- Explosion  
+
+Pidgeot @ Choice Band  
+Ability: Keen Eye  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Double-Edge  
+- Hidden Power [Flying]  
+- Quick Attack  
+- Return  
+
+Pupitar @ Leftovers  
+Ability: Shed Skin  
+EVs: 16 HP / 232 Atk / 8 Def / 252 Spe  
+Jolly Nature  
+- Dragon Dance  
+- Earthquake  
+- Rock Slide  
+- Protect  
+
+Chimecho @ Leftovers  
+Ability: Levitate  
+EVs: 160 HP / 252 Def / 80 SpA / 16 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Heal Bell  
+- Psychic  
+- Hidden Power [Fire]  
+- Calm Mind  
+
+Hitmonchan (M) @ Leftovers  
+Ability: Keen Eye  
+EVs: 120 HP / 192 Atk / 28 Def / 168 Spe  
+Adamant Nature  
+- Mach Punch  
+- Bulk Up  
+- Sky Uppercut  
+- Hidden Power [Ghost]  
+

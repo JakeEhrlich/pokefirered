@@ -1,0 +1,54 @@
+Metagross @ Choice Band
+Ability: Clear Body
+EVs: 252 Atk / 4 Def / 252 Spd
+Adamant Nature (+Atk, -SAtk)
+- Meteor Mash
+- Earthquake
+- Rock Slide
+- Explosion
+
+Snorlax (M) @ Leftovers
+Ability: Immunity
+EVs: 252 Atk / 136 Def / 100 SDef / 20 Spd
+Adamant Nature (+Atk, -SAtk)
+- Curse
+- Body Slam
+- Shadow Ball
+- Self-Destruct
+
+Heracross (M) @ Lum Berry
+Ability: Swarm
+EVs: 252 Atk / 4 Def / 252 Spd
+Adamant Nature (+Atk, -SAtk)
+- Swords Dance
+- Megahorn
+- Rock Slide
+- Focus Punch
+
+Swampert (M) @ Salac Berry
+Ability: Torrent
+EVs: 4 Def / 252 SAtk / 252 Spd
+Timid Nature (+Spd, -Atk)
+- Substitute
+- Endeavor
+- Hydro Pump
+- Ice Beam
+
+Tyranitar (M) @ Choice Band
+Ability: Sand Stream
+EVs: 252 Atk / 4 Def / 252 Spd
+Adamant Nature (+Atk, -SAtk)
+- Rock Slide
+- Earthquake
+- Double-Edge
+- Focus Punch
+
+Aerodactyl (M) @ Choice Band
+Ability: Rock Head
+EVs: 4 HP / 252 Atk / 252 Spd
+IVs: 30 HP / 30 Atk / 30 Def / 30 SAtk / 30 SDef
+Jolly Nature (+Spd, -SAtk)
+- Rock Slide
+- Earthquake
+- Double-Edge
+- Hidden Power [Flying]

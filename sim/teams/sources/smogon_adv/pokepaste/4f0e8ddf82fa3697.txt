@@ -1,0 +1,60 @@
+Venomoth @ Lum Berry  
+Ability: Shield Dust  
+EVs: 252 HP / 4 Def / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Sleep Powder  
+- Baton Pass  
+- Substitute  
+- Psychic  
+
+Flareon @ Leftovers  
+Ability: Flash Fire  
+EVs: 252 HP / 176 SpD / 80 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Substitute  
+- Baton Pass  
+- Roar  
+- Fire Blast  
+
+Delcatty @ Leftovers  
+Ability: Cute Charm  
+EVs: 252 HP / 100 Def / 136 SpD / 20 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Baton Pass  
+- Substitute  
+- Protect  
+
+Octillery @ Leftovers  
+Ability: Suction Cups  
+EVs: 112 HP / 252 SpA / 144 Spe  
+Modest Nature  
+IVs: 3 Atk / 30 SpA  
+- Surf  
+- Ice Beam  
+- Hidden Power [Electric]  
+- Substitute  
+
+Mawile @ Leftovers  
+Ability: Intimidate  
+EVs: 252 HP / 156 Def / 100 Spe  
+Impish Nature  
+IVs: 0 Atk  
+- Taunt  
+- Baton Pass  
+- Iron Defense  
+- Substitute  
+
+Minun @ Petaya Berry  
+Ability: Minus  
+EVs: 252 HP / 152 SpD / 104 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Agility  
+- Baton Pass  
+- Substitute  
+- Thunderbolt  
+

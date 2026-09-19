@@ -1,0 +1,1344 @@
+=== [gen3ou] Tyranitar + top teammates ===
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 240 Atk / 20 Spe
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Focus Punch
+- Hidden Power Bug
+
+Skarmory @ Leftovers
+Ability: Keen Eye
+EVs: 248 HP / 248 SpD / 12 Spe
+Careful Nature
+- Spikes
+- Roar
+- Drill Peck
+- Protect
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 248 HP / 232 Def / 28 Spe
+Bold Nature
+- Protect
+- Surf
+- Toxic
+- Ice Beam
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 220 SpA / 88 SpD / 200 Spe
+Modest Nature
+- Thunderbolt
+- Toxic
+- Hidden Power Ice
+- Roar
+
+Aerodactyl @ Choice Band
+Ability: Rock Head
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Rock Slide
+- Earthquake
+- Double-Edge
+- Hidden Power Flying
+
+Jirachi @ Leftovers
+Ability: Serene Grace
+EVs: 248 HP / 40 Def / 200 SpD / 20 Spe
+Calm Nature
+- Fire Punch
+- Wish
+- Protect
+- Toxic
+
+=== [gen3ou] Skarmory + top teammates ===
+
+Skarmory @ Leftovers
+Ability: Keen Eye
+EVs: 248 HP / 248 SpD / 12 Spe
+Careful Nature
+- Spikes
+- Roar
+- Drill Peck
+- Protect
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 240 Atk / 20 Spe
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Focus Punch
+- Hidden Power Bug
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 248 HP / 232 Def / 28 Spe
+Bold Nature
+- Protect
+- Surf
+- Toxic
+- Ice Beam
+
+Aerodactyl @ Choice Band
+Ability: Rock Head
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Rock Slide
+- Earthquake
+- Double-Edge
+- Hidden Power Flying
+
+Blissey @ Leftovers
+Ability: Natural Cure
+EVs: 252 Def / 252 SpA / 4 Spe
+Modest Nature
+- Soft-Boiled
+- Ice Beam
+- Seismic Toss
+- Thunder Wave
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 220 SpA / 88 SpD / 200 Spe
+Modest Nature
+- Thunderbolt
+- Toxic
+- Hidden Power Ice
+- Roar
+
+=== [gen3ou] Blissey + top teammates ===
+
+Blissey @ Leftovers
+Ability: Natural Cure
+EVs: 252 Def / 252 SpA / 4 Spe
+Modest Nature
+- Soft-Boiled
+- Ice Beam
+- Seismic Toss
+- Thunder Wave
+
+Skarmory @ Leftovers
+Ability: Keen Eye
+EVs: 248 HP / 248 SpD / 12 Spe
+Careful Nature
+- Spikes
+- Roar
+- Drill Peck
+- Protect
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 240 Atk / 20 Spe
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Focus Punch
+- Hidden Power Bug
+
+Starmie @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 40 SpA / 216 Spe
+Timid Nature
+- Rapid Spin
+- Surf
+- Recover
+- Thunder Wave
+
+Salamence @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Rash Nature
+- Brick Break
+- Dragon Claw
+- Hidden Power Flying
+- Fire Blast
+
+Claydol @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 124 Atk / 96 Def / 20 SpA / 16 SpD
+Sassy Nature
+- Rapid Spin
+- Earthquake
+- Explosion
+- Psychic
+
+=== [gen3ou] Metagross + top teammates ===
+
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 56 Atk / 140 Def / 60 Spe
+Adamant Nature
+- Meteor Mash
+- Earthquake
+- Explosion
+- Agility
+
+Salamence @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Rash Nature
+- Brick Break
+- Dragon Claw
+- Hidden Power Flying
+- Fire Blast
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 240 Atk / 20 Spe
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Focus Punch
+- Hidden Power Bug
+
+Skarmory @ Leftovers
+Ability: Keen Eye
+EVs: 248 HP / 248 SpD / 12 Spe
+Careful Nature
+- Spikes
+- Roar
+- Drill Peck
+- Protect
+
+Celebi @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 124 Def / 40 SpA / 60 SpD / 32 Spe
+Bold Nature
+- Leech Seed
+- Recover
+- Psychic
+- Giga Drain
+
+Starmie @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 40 SpA / 216 Spe
+Timid Nature
+- Rapid Spin
+- Surf
+- Recover
+- Thunder Wave
+
+=== [gen3ou] Salamence + top teammates ===
+
+Salamence @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Rash Nature
+- Brick Break
+- Dragon Claw
+- Hidden Power Flying
+- Fire Blast
+
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 56 Atk / 140 Def / 60 Spe
+Adamant Nature
+- Meteor Mash
+- Earthquake
+- Explosion
+- Agility
+
+Blissey @ Leftovers
+Ability: Natural Cure
+EVs: 252 Def / 252 SpA / 4 Spe
+Modest Nature
+- Soft-Boiled
+- Ice Beam
+- Seismic Toss
+- Thunder Wave
+
+Skarmory @ Leftovers
+Ability: Keen Eye
+EVs: 248 HP / 248 SpD / 12 Spe
+Careful Nature
+- Spikes
+- Roar
+- Drill Peck
+- Protect
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 240 Atk / 20 Spe
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Focus Punch
+- Hidden Power Bug
+
+Celebi @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 124 Def / 40 SpA / 60 SpD / 32 Spe
+Bold Nature
+- Leech Seed
+- Recover
+- Psychic
+- Giga Drain
+
+=== [gen3ou] Starmie + top teammates ===
+
+Starmie @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 40 SpA / 216 Spe
+Timid Nature
+- Rapid Spin
+- Surf
+- Recover
+- Thunder Wave
+
+Skarmory @ Leftovers
+Ability: Keen Eye
+EVs: 248 HP / 248 SpD / 12 Spe
+Careful Nature
+- Spikes
+- Roar
+- Drill Peck
+- Protect
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 240 Atk / 20 Spe
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Focus Punch
+- Hidden Power Bug
+
+Blissey @ Leftovers
+Ability: Natural Cure
+EVs: 252 Def / 252 SpA / 4 Spe
+Modest Nature
+- Soft-Boiled
+- Ice Beam
+- Seismic Toss
+- Thunder Wave
+
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 56 Atk / 140 Def / 60 Spe
+Adamant Nature
+- Meteor Mash
+- Earthquake
+- Explosion
+- Agility
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 248 HP / 232 Def / 28 Spe
+Bold Nature
+- Protect
+- Surf
+- Toxic
+- Ice Beam
+
+=== [gen3ou] Suicune + top teammates ===
+
+Suicune @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 228 Def / 28 Spe
+Bold Nature
+- Calm Mind
+- Surf
+- Roar
+- Rest
+
+Claydol @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 124 Atk / 96 Def / 20 SpA / 16 SpD
+Sassy Nature
+- Rapid Spin
+- Earthquake
+- Explosion
+- Psychic
+
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 56 Atk / 140 Def / 60 Spe
+Adamant Nature
+- Meteor Mash
+- Earthquake
+- Explosion
+- Agility
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 220 SpA / 88 SpD / 200 Spe
+Modest Nature
+- Thunderbolt
+- Toxic
+- Hidden Power Ice
+- Roar
+
+Blissey @ Leftovers
+Ability: Natural Cure
+EVs: 252 Def / 252 SpA / 4 Spe
+Modest Nature
+- Soft-Boiled
+- Ice Beam
+- Seismic Toss
+- Thunder Wave
+
+Dugtrio @ Choice Band
+Ability: Arena Trap
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Hidden Power Bug
+- Aerial Ace
+- Rock Slide
+
+=== [gen3ou] Gengar + top teammates ===
+
+Gengar @ Leftovers
+Ability: Levitate
+EVs: 168 HP / 164 SpD / 176 Spe
+Modest Nature
+- Thunderbolt
+- Will-O-Wisp
+- Explosion
+- Ice Punch
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 240 Atk / 20 Spe
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Focus Punch
+- Hidden Power Bug
+
+Skarmory @ Leftovers
+Ability: Keen Eye
+EVs: 248 HP / 248 SpD / 12 Spe
+Careful Nature
+- Spikes
+- Roar
+- Drill Peck
+- Protect
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 248 HP / 232 Def / 28 Spe
+Bold Nature
+- Protect
+- Surf
+- Toxic
+- Ice Beam
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 220 SpA / 88 SpD / 200 Spe
+Modest Nature
+- Thunderbolt
+- Toxic
+- Hidden Power Ice
+- Roar
+
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 56 Atk / 140 Def / 60 Spe
+Adamant Nature
+- Meteor Mash
+- Earthquake
+- Explosion
+- Agility
+
+=== [gen3ou] Claydol + top teammates ===
+
+Claydol @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 124 Atk / 96 Def / 20 SpA / 16 SpD
+Sassy Nature
+- Rapid Spin
+- Earthquake
+- Explosion
+- Psychic
+
+Blissey @ Leftovers
+Ability: Natural Cure
+EVs: 252 Def / 252 SpA / 4 Spe
+Modest Nature
+- Soft-Boiled
+- Ice Beam
+- Seismic Toss
+- Thunder Wave
+
+Suicune @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 228 Def / 28 Spe
+Bold Nature
+- Calm Mind
+- Surf
+- Roar
+- Rest
+
+Skarmory @ Leftovers
+Ability: Keen Eye
+EVs: 248 HP / 248 SpD / 12 Spe
+Careful Nature
+- Spikes
+- Roar
+- Drill Peck
+- Protect
+
+Dugtrio @ Choice Band
+Ability: Arena Trap
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Hidden Power Bug
+- Aerial Ace
+- Rock Slide
+
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 56 Atk / 140 Def / 60 Spe
+Adamant Nature
+- Meteor Mash
+- Earthquake
+- Explosion
+- Agility
+
+=== [gen3ou] Dugtrio + top teammates ===
+
+Dugtrio @ Choice Band
+Ability: Arena Trap
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Hidden Power Bug
+- Aerial Ace
+- Rock Slide
+
+Blissey @ Leftovers
+Ability: Natural Cure
+EVs: 252 Def / 252 SpA / 4 Spe
+Modest Nature
+- Soft-Boiled
+- Ice Beam
+- Seismic Toss
+- Thunder Wave
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 220 SpA / 88 SpD / 200 Spe
+Modest Nature
+- Thunderbolt
+- Toxic
+- Hidden Power Ice
+- Roar
+
+Suicune @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 228 Def / 28 Spe
+Bold Nature
+- Calm Mind
+- Surf
+- Roar
+- Rest
+
+Claydol @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 124 Atk / 96 Def / 20 SpA / 16 SpD
+Sassy Nature
+- Rapid Spin
+- Earthquake
+- Explosion
+- Psychic
+
+Skarmory @ Leftovers
+Ability: Keen Eye
+EVs: 248 HP / 248 SpD / 12 Spe
+Careful Nature
+- Spikes
+- Roar
+- Drill Peck
+- Protect
+
+=== [gen3ou] Magneton + top teammates ===
+
+Magneton @ Magnet
+Ability: Magnet Pull
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+- Thunderbolt
+- Toxic
+- Hidden Power Fire
+- Rain Dance
+
+Celebi @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 124 Def / 40 SpA / 60 SpD / 32 Spe
+Bold Nature
+- Leech Seed
+- Recover
+- Psychic
+- Giga Drain
+
+Suicune @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 228 Def / 28 Spe
+Bold Nature
+- Calm Mind
+- Surf
+- Roar
+- Rest
+
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 56 Atk / 140 Def / 60 Spe
+Adamant Nature
+- Meteor Mash
+- Earthquake
+- Explosion
+- Agility
+
+Marowak @ Thick Club
+Ability: Rock Head
+EVs: 32 HP / 252 Atk / 224 Spe
+Jolly Nature
+- Earthquake
+- Swords Dance
+- Double-Edge
+- Rock Slide
+
+Ninjask @ Leftovers
+Ability: Speed Boost
+EVs: 100 HP / 252 SpD / 156 Spe
+Calm Nature
+- Substitute
+- Baton Pass
+- Protect
+- Toxic
+
+=== [gen3ou] Snorlax + top teammates ===
+
+Snorlax @ Leftovers
+Ability: Immunity
+EVs: 92 HP / 116 Atk / 144 Def / 144 SpD / 12 Spe
+Adamant Nature
+- Shadow Ball
+- Curse
+- Earthquake
+- Self-Destruct
+
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 56 Atk / 140 Def / 60 Spe
+Adamant Nature
+- Meteor Mash
+- Earthquake
+- Explosion
+- Agility
+
+Suicune @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 228 Def / 28 Spe
+Bold Nature
+- Calm Mind
+- Surf
+- Roar
+- Rest
+
+Salamence @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Rash Nature
+- Brick Break
+- Dragon Claw
+- Hidden Power Flying
+- Fire Blast
+
+Claydol @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 124 Atk / 96 Def / 20 SpA / 16 SpD
+Sassy Nature
+- Rapid Spin
+- Earthquake
+- Explosion
+- Psychic
+
+Magneton @ Magnet
+Ability: Magnet Pull
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+- Thunderbolt
+- Toxic
+- Hidden Power Fire
+- Rain Dance
+
+=== [gen3ou] Forretress + top teammates ===
+
+Forretress @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Spikes
+- Rapid Spin
+- Explosion
+- Hidden Power Bug
+
+Blissey @ Leftovers
+Ability: Natural Cure
+EVs: 252 Def / 252 SpA / 4 Spe
+Modest Nature
+- Soft-Boiled
+- Ice Beam
+- Seismic Toss
+- Thunder Wave
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 240 Atk / 20 Spe
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Focus Punch
+- Hidden Power Bug
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 248 HP / 232 Def / 28 Spe
+Bold Nature
+- Protect
+- Surf
+- Toxic
+- Ice Beam
+
+Charizard @ Leftovers
+Ability: Blaze
+EVs: 4 Atk / 252 SpA / 252 Spe
+Hasty Nature
+- Hidden Power Grass
+- Fire Blast
+- Substitute
+- Focus Punch
+
+Claydol @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 124 Atk / 96 Def / 20 SpA / 16 SpD
+Sassy Nature
+- Rapid Spin
+- Earthquake
+- Explosion
+- Psychic
+
+=== [gen3ou] Heracross + top teammates ===
+
+Heracross @ Leftovers
+Ability: Swarm
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Megahorn
+- Rock Slide
+- Focus Punch
+- Substitute
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 220 SpA / 88 SpD / 200 Spe
+Modest Nature
+- Thunderbolt
+- Toxic
+- Hidden Power Ice
+- Roar
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 240 Atk / 20 Spe
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Focus Punch
+- Hidden Power Bug
+
+Starmie @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 40 SpA / 216 Spe
+Timid Nature
+- Rapid Spin
+- Surf
+- Recover
+- Thunder Wave
+
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 56 Atk / 140 Def / 60 Spe
+Adamant Nature
+- Meteor Mash
+- Earthquake
+- Explosion
+- Agility
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 248 HP / 232 Def / 28 Spe
+Bold Nature
+- Protect
+- Surf
+- Toxic
+- Ice Beam
+
+=== [gen3ou] Flygon + top teammates ===
+
+Flygon @ Leftovers
+Ability: Levitate
+EVs: 248 HP / 196 Def / 64 Spe
+Impish Nature
+- Earthquake
+- Rock Slide
+- Protect
+- Toxic
+
+Skarmory @ Leftovers
+Ability: Keen Eye
+EVs: 248 HP / 248 SpD / 12 Spe
+Careful Nature
+- Spikes
+- Roar
+- Drill Peck
+- Protect
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 220 SpA / 88 SpD / 200 Spe
+Modest Nature
+- Thunderbolt
+- Toxic
+- Hidden Power Ice
+- Roar
+
+Jirachi @ Leftovers
+Ability: Serene Grace
+EVs: 248 HP / 40 Def / 200 SpD / 20 Spe
+Calm Nature
+- Fire Punch
+- Wish
+- Protect
+- Toxic
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 240 Atk / 20 Spe
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Focus Punch
+- Hidden Power Bug
+
+Gengar @ Leftovers
+Ability: Levitate
+EVs: 168 HP / 164 SpD / 176 Spe
+Modest Nature
+- Thunderbolt
+- Will-O-Wisp
+- Explosion
+- Ice Punch
+
+=== [gen3ou] Charizard + top teammates ===
+
+Charizard @ Leftovers
+Ability: Blaze
+EVs: 4 Atk / 252 SpA / 252 Spe
+Hasty Nature
+- Hidden Power Grass
+- Fire Blast
+- Substitute
+- Focus Punch
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 240 Atk / 20 Spe
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Focus Punch
+- Hidden Power Bug
+
+Blissey @ Leftovers
+Ability: Natural Cure
+EVs: 252 Def / 252 SpA / 4 Spe
+Modest Nature
+- Soft-Boiled
+- Ice Beam
+- Seismic Toss
+- Thunder Wave
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 248 HP / 232 Def / 28 Spe
+Bold Nature
+- Protect
+- Surf
+- Toxic
+- Ice Beam
+
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 56 Atk / 140 Def / 60 Spe
+Adamant Nature
+- Meteor Mash
+- Earthquake
+- Explosion
+- Agility
+
+Forretress @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Spikes
+- Rapid Spin
+- Explosion
+- Hidden Power Bug
+
+=== [gen3ou] Jolteon + top teammates ===
+
+Jolteon @ Leftovers
+Ability: Volt Absorb
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Thunderbolt
+- Baton Pass
+- Hidden Power Grass
+- Roar
+
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 56 Atk / 140 Def / 60 Spe
+Adamant Nature
+- Meteor Mash
+- Earthquake
+- Explosion
+- Agility
+
+Skarmory @ Leftovers
+Ability: Keen Eye
+EVs: 248 HP / 248 SpD / 12 Spe
+Careful Nature
+- Spikes
+- Roar
+- Drill Peck
+- Protect
+
+Gengar @ Leftovers
+Ability: Levitate
+EVs: 168 HP / 164 SpD / 176 Spe
+Modest Nature
+- Thunderbolt
+- Will-O-Wisp
+- Explosion
+- Ice Punch
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 240 Atk / 20 Spe
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Focus Punch
+- Hidden Power Bug
+
+Starmie @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 40 SpA / 216 Spe
+Timid Nature
+- Rapid Spin
+- Surf
+- Recover
+- Thunder Wave
+
+=== [gen3ou] Marowak + top teammates ===
+
+Marowak @ Thick Club
+Ability: Rock Head
+EVs: 32 HP / 252 Atk / 224 Spe
+Jolly Nature
+- Earthquake
+- Swords Dance
+- Double-Edge
+- Rock Slide
+
+Magneton @ Magnet
+Ability: Magnet Pull
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+- Thunderbolt
+- Toxic
+- Hidden Power Fire
+- Rain Dance
+
+Ninjask @ Leftovers
+Ability: Speed Boost
+EVs: 100 HP / 252 SpD / 156 Spe
+Calm Nature
+- Substitute
+- Baton Pass
+- Protect
+- Toxic
+
+Suicune @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 228 Def / 28 Spe
+Bold Nature
+- Calm Mind
+- Surf
+- Roar
+- Rest
+
+Celebi @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 124 Def / 40 SpA / 60 SpD / 32 Spe
+Bold Nature
+- Leech Seed
+- Recover
+- Psychic
+- Giga Drain
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 220 SpA / 88 SpD / 200 Spe
+Modest Nature
+- Thunderbolt
+- Toxic
+- Hidden Power Ice
+- Roar
+
+=== [gen3ou] Moltres + top teammates ===
+
+Moltres @ Leftovers
+Ability: Pressure
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Flamethrower
+- Hidden Power Grass
+- Will-O-Wisp
+- Overheat
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 240 Atk / 20 Spe
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Focus Punch
+- Hidden Power Bug
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 248 HP / 232 Def / 28 Spe
+Bold Nature
+- Protect
+- Surf
+- Toxic
+- Ice Beam
+
+Skarmory @ Leftovers
+Ability: Keen Eye
+EVs: 248 HP / 248 SpD / 12 Spe
+Careful Nature
+- Spikes
+- Roar
+- Drill Peck
+- Protect
+
+Jirachi @ Leftovers
+Ability: Serene Grace
+EVs: 248 HP / 40 Def / 200 SpD / 20 Spe
+Calm Nature
+- Fire Punch
+- Wish
+- Protect
+- Toxic
+
+Celebi @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 124 Def / 40 SpA / 60 SpD / 32 Spe
+Bold Nature
+- Leech Seed
+- Recover
+- Psychic
+- Giga Drain
+
+=== [gen3ou] Milotic + top teammates ===
+
+Milotic @ Leftovers
+Ability: Marvel Scale
+EVs: 252 HP / 252 Def / 4 SpA
+Bold Nature
+- Surf
+- Recover
+- Toxic
+- Refresh
+
+Claydol @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 124 Atk / 96 Def / 20 SpA / 16 SpD
+Sassy Nature
+- Rapid Spin
+- Earthquake
+- Explosion
+- Psychic
+
+Skarmory @ Leftovers
+Ability: Keen Eye
+EVs: 248 HP / 248 SpD / 12 Spe
+Careful Nature
+- Spikes
+- Roar
+- Drill Peck
+- Protect
+
+Blissey @ Leftovers
+Ability: Natural Cure
+EVs: 252 Def / 252 SpA / 4 Spe
+Modest Nature
+- Soft-Boiled
+- Ice Beam
+- Seismic Toss
+- Thunder Wave
+
+Dugtrio @ Choice Band
+Ability: Arena Trap
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Hidden Power Bug
+- Aerial Ace
+- Rock Slide
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 240 Atk / 20 Spe
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Focus Punch
+- Hidden Power Bug
+
+=== [gen3ou] Gyarados + top teammates ===
+
+Gyarados @ Leftovers
+Ability: Intimidate
+EVs: 68 HP / 252 Atk / 188 Spe
+Adamant Nature
+- Earthquake
+- Dragon Dance
+- Hidden Power Flying
+- Double-Edge
+
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 56 Atk / 140 Def / 60 Spe
+Adamant Nature
+- Meteor Mash
+- Earthquake
+- Explosion
+- Agility
+
+Magneton @ Magnet
+Ability: Magnet Pull
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+- Thunderbolt
+- Toxic
+- Hidden Power Fire
+- Rain Dance
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 240 Atk / 20 Spe
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Focus Punch
+- Hidden Power Bug
+
+Snorlax @ Leftovers
+Ability: Immunity
+EVs: 92 HP / 116 Atk / 144 Def / 144 SpD / 12 Spe
+Adamant Nature
+- Shadow Ball
+- Curse
+- Earthquake
+- Self-Destruct
+
+Celebi @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 124 Def / 40 SpA / 60 SpD / 32 Spe
+Bold Nature
+- Leech Seed
+- Recover
+- Psychic
+- Giga Drain
+
+=== [gen3ou] Medicham + top teammates ===
+
+Medicham @ Leftovers
+Ability: Pure Power
+EVs: 252 Atk / 252 Spe
+Jolly Nature
+- Brick Break
+- Rock Slide
+- Focus Punch
+- Substitute
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 240 Atk / 20 Spe
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Focus Punch
+- Hidden Power Bug
+
+Charizard @ Leftovers
+Ability: Blaze
+EVs: 4 Atk / 252 SpA / 252 Spe
+Hasty Nature
+- Hidden Power Grass
+- Fire Blast
+- Substitute
+- Focus Punch
+
+Blissey @ Leftovers
+Ability: Natural Cure
+EVs: 252 Def / 252 SpA / 4 Spe
+Modest Nature
+- Soft-Boiled
+- Ice Beam
+- Seismic Toss
+- Thunder Wave
+
+Forretress @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Spikes
+- Rapid Spin
+- Explosion
+- Hidden Power Bug
+
+Quagsire @ Leftovers
+Ability: Water Absorb
+EVs: 252 HP / 180 Def / 76 SpD
+Impish Nature
+- Earthquake
+- Rest
+- Curse
+- Hidden Power Rock
+
+=== [gen3ou] Armaldo + top teammates ===
+
+Armaldo @ Leftovers
+Ability: Battle Armor
+EVs: 248 HP / 8 Atk / 252 SpD
+Adamant Nature
+- Hidden Power Bug
+- Knock Off
+- Swords Dance
+- Rock Slide
+
+Blissey @ Leftovers
+Ability: Natural Cure
+EVs: 252 Def / 252 SpA / 4 Spe
+Modest Nature
+- Soft-Boiled
+- Ice Beam
+- Seismic Toss
+- Thunder Wave
+
+Claydol @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 124 Atk / 96 Def / 20 SpA / 16 SpD
+Sassy Nature
+- Rapid Spin
+- Earthquake
+- Explosion
+- Psychic
+
+Suicune @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 228 Def / 28 Spe
+Bold Nature
+- Calm Mind
+- Surf
+- Roar
+- Rest
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 220 SpA / 88 SpD / 200 Spe
+Modest Nature
+- Thunderbolt
+- Toxic
+- Hidden Power Ice
+- Roar
+
+Dugtrio @ Choice Band
+Ability: Arena Trap
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Hidden Power Bug
+- Aerial Ace
+- Rock Slide
+
+=== [gen3ou] Breloom + top teammates ===
+
+Breloom @ Leftovers
+Ability: Effect Spore
+EVs: 100 HP / 216 Atk / 192 Spe
+Adamant Nature
+- Spore
+- Focus Punch
+- Mach Punch
+- Sky Uppercut
+
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 56 Atk / 140 Def / 60 Spe
+Adamant Nature
+- Meteor Mash
+- Earthquake
+- Explosion
+- Agility
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 220 SpA / 88 SpD / 200 Spe
+Modest Nature
+- Thunderbolt
+- Toxic
+- Hidden Power Ice
+- Roar
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 240 Atk / 20 Spe
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Focus Punch
+- Hidden Power Bug
+
+Salamence @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Rash Nature
+- Brick Break
+- Dragon Claw
+- Hidden Power Flying
+- Fire Blast
+
+Snorlax @ Leftovers
+Ability: Immunity
+EVs: 92 HP / 116 Atk / 144 Def / 144 SpD / 12 Spe
+Adamant Nature
+- Shadow Ball
+- Curse
+- Earthquake
+- Self-Destruct
+

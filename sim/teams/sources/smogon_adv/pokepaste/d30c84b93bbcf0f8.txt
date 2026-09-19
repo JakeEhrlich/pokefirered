@@ -1,0 +1,57 @@
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 240 Atk / 16 Def
+IVs: 30 Atk / 30 SAtk / 30 Spd
+Brave Nature (+Atk, -Spd)
+- Meteor Mash
+- Earthquake
+- Hidden Power [Fire]
+- Explosion
+
+Gengar (M) @ Leftovers
+Ability: Levitate
+EVs: 184 Atk / 136 SAtk / 188 Spd
+Hasty Nature (+Spd, -Def)
+- Thunderbolt
+- Ice Punch
+- Focus Punch
+- Hypnosis
+
+Snorlax (M) @ Leftovers
+Ability: Thick Fat
+EVs: 120 HP / 252 Atk / 48 Def / 44 SAtk / 44 SDef
+Brave Nature (+Atk, -Spd)
+- Body Slam
+- Self-Destruct
+- Fire Blast
+- Shadow Ball
+
+Suicune @ Leftovers
+Ability: Pressure
+EVs: 4 Def / 252 SAtk / 252 Spd
+IVs: 30 SAtk
+Modest Nature (+SAtk, -Atk)
+- Calm Mind
+- Hydro Pump
+- Hidden Power [Electric]
+- Ice Beam
+
+Aerodactyl (M) @ Choice Band
+Ability: Rock Head
+EVs: 4 HP / 252 Atk / 252 Spd
+IVs: 30 HP / 30 Atk / 30 Def / 30 SAtk / 30 SDef
+Jolly Nature (+Spd, -SAtk)
+- Rock Slide
+- Earthquake
+- Double-Edge
+- Hidden Power [Flying]
+
+Tyranitar (M) @ Choice Band
+Ability: Sand Stream
+EVs: 252 Atk / 252 Spd
+IVs: 30 Atk / 30 Def / 30 SDef
+Adamant Nature (+Atk, -SAtk)
+- Hidden Power [Bug]
+- Focus Punch
+- Earthquake
+- Rock Slide

@@ -1,0 +1,73 @@
+I've decided to have a little fun with ADV OU and go a little back to the old days after climbing the younger past gens' ladders. Here's a team I've been using for a little while.
+
+Dugtrio @ Choice Band
+Ability: Arena Trap
+EVs: 252 Atk / 4 SpA / 252 Spe
+Hasty Nature
+- Earthquake
+- Hidden Power [Bug]
+- Rock Slide
+- Aerial Ace
+
+Arena trap. Arena trap. ARENA TRAP! Dugtrio was gifted this awesome ability to kill problematic Electric types that have the ability to shred Starmie, who we need to spin out entry hazards (Spikes) to make residual damage. Good part is, you can also kill Steel types that give you an issue like Metagross, possibly one of the bulkiest steels in the entire metagame with an OU viability ranking.
+
+Magneton @ Leftovers
+Ability: Magnet Pull
+EVs: 252 HP / 252 Def / 4 SpA
+Bold Nature
+IVs: 2 Atk / 30 SpA / 30 Spe
+- Thunderbolt
+- Toxic
+- Endure
+- Hidden Power [Fire]
+
+Yet again I have to say that Magnet Pull is a gift for Magneton. Like usual our backup trapper, kills Metagross and inflicts Toxic on defensive behemoths that give this team a problem, and shreds Dragon Dance Gyarados before it can even send out one attack after boosting. Endure protects my man from getting crippled by Ground typing.
+
+Moltres @ Leftovers
+Ability: Pressure
+Hidden Power: Grass
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Flamethrower
+- Hidden Power [Grass]
+- Will-O-Wisp
+- Roar
+
+Our Phazer, removes Pokemon that are boosting from the arena immediately and if spikes are in the field, that can rack up residual damage so Moltres can finish off Magneton/Vensuaur unless they're flying types which are not affected by spike damage. HP grass is a counter to Water types, it can outspeed some water-typed threats but can not eliminate them completely (OHKO).
+
+Starmie @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 252 SpA / 4 SpD
+Modest Nature
+IVs: 0 Atk
+- Rapid Spin
+- Surf
+- Recover
+- Thunderbolt
+
+As mentioned while I was explaining how the other mons in this team worked, Starmie rapid spins spikes out of the field so our setup sweepers can get in safely. Also has a counter Thunderbolt so they can handle Gyarados and cripple fire types, a reliable type of recovery and gets cured by status alignments. Starmie is a beast, simply put.
+
+Heracross @ Salac Berry
+Ability: Swarm
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Megahorn
+- Swords Dance
+- Rock Slide
+- Substitute
+
+Heracross is one of the most threatening setup sweepers in the entire metagame. It can also set up substitutes and boasts the Salac berry, which Flying types greatly struggle to defeat since it has Rock Slide to counter the threats. 4x flying weakness? No problem, run a SubSalac set and you'll be free of Heracross' Flying type threats.
+
+Jirachi @ Leftovers
+Ability: Serene Grace
+EVs: 252 HP / 40 Def / 68 SpA / 148 Spe
+Timid Nature
+- Substitute
+- Calm Mind
+- Psychic
+- Thunderbolt
+
+Absolutely annoying to handle. It can tank special flamethrowers and (possibly) survive a 2HKO, and Serene Grace doubles the chance of Thunderbolt paralyzing an adjacent opponent, making a person's team suffer. It can set up a myriad of Substitutes to shield itself from damage coming from threats, and can cripple a person's team with status and lower their stats.
+
+Feel free to change this team to fit your playstyle.
+

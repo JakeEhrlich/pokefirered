@@ -1,0 +1,57 @@
+Arcanine @ Leftovers  
+Ability: Intimidate  
+EVs: 80 HP / 252 SpA / 176 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Sunny Day  
+- Fire Blast  
+- Overheat  
+- Hidden Power [Grass]  
+
+Kangaskhan (F) @ Leftovers  
+Ability: Early Bird  
+EVs: 212 HP / 20 Atk / 252 SpD / 24 Spe  
+Adamant Nature  
+- Body Slam  
+- Focus Punch  
+- Wish  
+- Rest  
+
+Omastar @ Leftovers  
+Ability: Swift Swim  
+EVs: 168 HP / 252 SpA / 88 Spe  
+Modest Nature  
+IVs: 3 Atk / 30 SpA  
+- Spikes  
+- Surf  
+- Hidden Power [Electric]  
+- Rain Dance  
+
+Lanturn @ Leftovers  
+Ability: Volt Absorb  
+EVs: 244 SpA / 56 SpD / 208 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Rain Dance  
+- Hydro Pump  
+- Thunderbolt  
+- Ice Beam  
+
+Scyther @ Choice Band  
+Ability: Swarm  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Hidden Power [Bug]  
+- Double-Edge  
+- Aerial Ace  
+- Quick Attack  
+
+Solrock @ Choice Band  
+Ability: Levitate  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Rock Slide  
+- Earthquake  
+- Shadow Ball  
+- Explosion  
+

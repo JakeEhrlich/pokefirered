@@ -1,0 +1,52 @@
+Wanted to come back and shout out some more sets/teams I've been using!
+
+Breloom @ Leftovers
+Ability: Effect Spore
+EVs: 248 HP / 20 Atk / 52 SpD / 188 Spe
+Adamant Nature
+- Spore
+- Focus Punch
+- Sky Uppercut
+- Stun Spore
+
+Fat Loom!  Most looms run max/max in Atk and Spe so how does the bulk work on it?  Classically, Loom's big function is to get off a spore and then either a) cripple something w stun spore or b) nail something w focus punch, so why not try to get more out of than that?  These evs in particular guarantee you survive 252+ SpA tar's ice bream after sand, outspeed the 222 Spe milestone, and then put the rest in attack for a moderately strong fighting stab.  You can run any of loom's filler in the last slot (assortment of hidden powers, mach, even leech), but I like stun on this set since with the extra bulk, you can get a lot out of it.  You also easily tank +1 ddtar's double edge (+1 252+ Atk Tyranitar Double-Edge vs. 248 HP / 0 Def Breloom: 265-312 (82 - 96.5%)), meaning you can switch in on dd, tank everything, and eliminate it.  Because of this, I like it on teams like this one: https://pokepast.es/3fa3b04eed92be50.  This team doesn't run a strong rock switch in besides jirachi, so loom can work well here.  Just make sure you have some contingency vs aero!  Edit: here's another more defensive example w forre: https://pokepast.es/88a16c6b51b14669
+
+Heracross @ No Item
+Ability: Guts
+Shiny: Yes
+EVs: 116 HP / 16 Atk / 192 SpD / 184 Spe
+Adamant Nature
+- Thief
+- Megahorn
+- Focus Punch
+- Rock Slide
+
+No saying I invented this, as I first saw the potential idea on the new Smogon analysis's other options.  However, I didn't see it anywhere else, so I figured I'd share it here.  There really aren't a ton of viable thief users in Adv -- the mons that learn it (in OU, skarm, gengar, hera, aero, dug and p2) really can't fit it without losing a critical option/item.  However, Hera can typically fit it on for a great way to cripple its normal switch ins like gengar/mence/gyara/skarm.  The spread is something I made to try and squeeze an Atk jump point out of the spread linear and the Smogon analysis gave.  You still live +1 ddtar rock slide after sand, two zapdos tbolts, and timid moltres' flamethrower after sand, as well as outspeed the timid vaporeon speed mark.  For a potential team, here's an edit I made of Zomog's superrachi/rest tar CM spam they used in last year's SPL: https://pokepast.es/441971b48004d28c
+
+Metagross @ Choice Band
+Ability: Clear Body
+Shiny: Yes
+EVs: 96 HP / 220 Atk / 4 Def / 188 Spe
+Adamant Nature
+- Brick Break
+- Earthquake
+- Explosion
+- Meteor Mash
+
+Another idea I didn't come up with (Saw this in BKC's cb meta video, believe he said asta came up w it?), but again, didn't see it anywhere so I'll post it here.  I love brick break on meta because it makes one of my least favorite interactions for lead cb meta a win for the player -- being trapped by mag after mashing on a tyranitar lead/having to boom turn one on a ttar if they don't switch to skarm.  It also has other uses, like nailing snorlax/bliss/ttar without risking a miss, doing the same amount of damage to skarm as mash does, meaning you don't have to risk a meteor miss as you weaken it.  You do miss rock slide/double edge for zap/molt/zard and water respectively, but I feel brick break advantages are worth the cost.  For the evs, I like to run enough to KO skarm w boom, as every ev on a cb meta counts.  The speed also hits that 222 speed tier and the Hp allows you live MixMence's fire blast.  The Def is for a bulk point.
+
+Tyranitar @ Lum Berry
+Ability: Sand Stream
+Shiny: Yes
+EVs: 208 HP / 80 Def / 216 SpA / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Crunch
+- Pursuit
+- Fire Blast
+- Counter
+
+Counter has been seen for a while on Tar, but I wanted to share the spread/item I've been using on it.  I really don't think you need max Hp on counter tar -- you need to invest a load of def to survive jolly dug after a spike (232 Hp 108 def), which would be the primary bulk point you would aim for, so I settled on this spread.  You also have the bulk to tank 2 Hp grass from 252 SpA gar/hydro from starmie.  The Hp and Def instead survive Ada dug while still giving you the max SpA jump point you can get with a bit of speed creep for that 160 speed tier.  I really like lum on my pursuit tars bc I see a lot of gengars thinking they can hypno their way past ttar.  Blackglasses/leftovers have that problem, but lum does not.  Also is nice for will-o-wisps that gengar always tries to wear you down with.  You can try other options other than fire blast, but I find having that extra move over roar is nice for pressuring skarm on teams you'd want to run a pursuit tar (like on forre teams that sometimes have trouble actually eliminating skarm or teams with fighters).
+
+Loving all the innovation I'm seeing in the meta -- hope to see you guys out there!
+

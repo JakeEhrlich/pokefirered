@@ -1,0 +1,1269 @@
+### post 8907644 author=M Dragon url=https://www.smogon.com/forums/threads/adv-teams-through-the-ages.3687203/#post-8907644
+ADV has always been my favourite generation to play for different reasons: the first one is that it was the current gen when I started playing competitive mons and where I learnt to play at the highest level. The second reason is because, in my opinion, ADV is the most balanced metagame, where most playstyles are viable and can win if well played.
+
+Some time ago, I decided to make a thread to show how the GSC OU metagame had changed in the last decade. This time, Im doing the same for ADV, including the Netbattle era, when ADV was the main generation.
+
+The goal of this archive is to showcase some of the teams I consider that were the most relevant at that time or the teams I used to play or like the most while including most playstyles.
+
+Index:
+1) The Netbattle Era (2004 - 2008)
+2) ADV is back! (2010)
+3) Smogon Tour (2011 - 2013)
+4) After Smogon Tour (2013 - 2015)
+5) New Sleep Talk mechanics. The Skarmory era (2015-2016)
+6) Refresh, Magdol and the rise of the phoenix (2017-2019)
+
+1) The Netbattle Era (2004 - 2008)
+When Ruby and Shaphire games were released (in 2003 outside of Japan), a lot of things changed compared with GSC, including how the stats worked, and introducing new mechanics such as EVs and Natures.
+Sadly, that made GSC games incompatible with RS, and since there were only 200 available mons in RS, only those 200 mons were allowed at the start.
+That changed shortly after with the release of new games that included the pokemons that were missing.
+This team compilation will NOT include the ADV 200 metagame.
+
+Netbattle was the only pokemon simulator at this time, where everybody used to play competitively. Because of a bug and an unknown mechanic at that time, there are 2 huge mechanic differences between netbattle ADV and current ADV OU.
+The first one is that Substitute blocked Rapid Spin, making Spikes strategies much stronger than what they should have been.
+The second one is that the move Sleep Talk works like in current gens. Sleep Talk does not reset your sleep counter after switching out.
+
+Also, it is important to note that unlike nowadays, there were different communities and each communities had different rulesets.
+
+Some notes about Netbattle to understand how the metagame evolved:
+
+Netbattle was closed source and not very actively mantained. That's one of the reasons why a huge bug such as Substitute blocking Rapid Spin was never fixed.
+
+In Netbattle there was no "main server". While Smogon was the most popular server, especially late ADV, there were many big servers that had their own rules and their own communities: for example, a lot of communities had a BP clause (max 2/3 BP users), some had a limitation on the number of legends you could have, others didnt allow legends at all, etc.
+
+Despite Netbattle being closed source, it allowed the customization of servers via Netbattle Scripting, which was based on events. With these scripts, server owners had complete control over what happened in their server, allowing people to execute commands or to control what people could use in a battle (example: not allowing ubers, or limiting the number of legendary mons, etc). After some time, people started to develop even more complex scripts, such as a tournament script or a RPG script, that simulated a pokemon adventure where people started with a team of level 5 pokemons and battle each other to gain experience and slowly leveling up their pokemon, learning new attacks and being able to evolve them.
+
+There was no ladder in Netbattle. The only way to get battles was challenging other people.
+
+Players had an "Extra info" field that a lot of people used for custom rules, such as the famous "no skarmbliss". Obviously these custom rules didn't apply to any serious tournament
+
+a) The Smogon Metagame
+The metagame was also very different at that time.
+Some important things:
+
+SubCM Raikou was considered a top-tier threat back then. This was before TSS became the dominant archetype for teams.
+
+People actually used Medicham and it was considered a solid option.
+
+Celebi and Jirachi were randomly unbanned sometime early in 386, which obviously wreaked havoc on the metagame for a while. In fact, Celebi was later banned for a while and unbanned shortly after.
+
+There was a meta shift with pokemon XD coming out. Some of the most notable changes were Snorlax gaining Selfdestruct, Moltres gaining WoW/Morning Sun, and Zapdos gaining Baton Pass. This is a small reason why the early 386 metagame differed significantly from later metagames.
+
+Dusclops usage was very high in defensive teams, and it was the most used spin blocker.
+
+Sets with Substitute + Focus Punch were very popular back then, especially Tyranitar (tyraniboah) and Gengar (subpunch + thunderbolt + ice punch)
+
+Rest + Sleep talk was very common. This was mainly because sleep talk wasnt correctly implemented in the simulator. In Netbattle sleep talk worked like in newer gens. This is something that wasn't actually changed until 2015. For this reason, restalk was the most common set of a lot of pokemons, such as Zapdos, Suicune or Swampert, and it was very common as well in other pokemons such as Skarmory or Heracross.
+
+Sadly, there is not much information left from that time (there are very few battle logs), especially from the first years of ADV.
+This is a compilation of some of the most infuential teams at that time:
+
+Triple Pressure stall team, or one of the most standard stall teams at that time.
+The famous SkarmBliss, or Skarmory + Blissey, is probably the most famous, influential and hated (at the time) combination of 2 pokemons. The reason is simple: Skarmory can wall a lot of the physical threats with ease, and Bliss can do the same with most of the special threats, so with only 2 pokemons you could easily cover a lot of threats. But not only that, they can also give a lot of support to the team in the form of Spikes, Wish or Aromatherapy.
+
+Skarmory + Claydol was also a very common defensive combination at that time because, they resisted every physical: Skarmory resists every physical attack but Rock and Fighting, and Claydol resists both types, and at the same time, Claydol can also Rapid Spin to remove Spikes. One important thing to note is that every Skarmory and nearly every Claydol at this time had Rest.
+
+Dusclops was the most common spin blocker at the time being able to easy wall most spinners. The fact that Pursuit was considered gimmick at best and that Offensive Starmie was not a thing, added with Pressure, made Dusclops a stalling machine that was very hard to take down.
+
+To finish the team, the team featured 2 of the best pokemons in the metagame: Zapdos and Suicune.
+
+Restalk Zapdos was a monster, being able to easily wall most of the few things that are able to beat SkarmBliss, such as Tyraniboah and Rest Suicune, together with Pressure to eat PPs.
+Sleep Talk Zapdos was probably the most influential pokemon at that time, together with Tyranitar, being able to shut down and / or PP stall a lot of mixed threats, while being a great phazer as well with Roar, being a very effective Spikes abuser.
+
+Suicune is the third PP stalling machine of the team, and the set upper that threatens to sweep the opposing team. Suicune is one of the most dangerous pokemon in the game, with its huge physical bulk preventing CBMence to 3hko it, Calm Mind to boost its special attack and its special defense and Pressure to eat Thunderbolt or Leech Seed PPs. CMCune is also useful so this team does not lose to last pokemon set upper sweep.
+
+Team Superman.
+This team was originally built but VIL, and it was spammed by top players such as G80 and Goofball, and it was probably the most famous ADV team, and the first example of what we could call "modern TSS".
+
+Unlike the first team, that was a stall team based on Spikes + Pressure to stall the opponent team, a TSS (Toxic Spikes Sandstorm) team uses passive damage to weaken the other team, so an offensive pokemon can clean in the late game.
+This is a formula that is still very common nowadays and works very well.
+
+Additionally, there are 4 pokemons in this team that are immune to spikes, so not having a spinner is not a big handicap against another TSS team.
+
+Tyranitar has always been the best pokemon in ADV, and is probably the most important pokemon of this team, and the reason is Sandstream. Sandstream means that most pokemons will either lose HP every turn or their leftovers will be negated, helping the TSS abusers a lot.
+Tyranitar is also a very versatile pokemon, and since this teams has had many different versions and has spammed by different top players, each version had different TTar versions: tyraniboah, DD, physical sub...
+
+Skarmory is the second most important pokemon of the team, because it provides the second layer of the TSS: the Spikes, that are key to help the abusers: Flygon and Aerodactyl.
+
+One thing you might notice when looking at this team is that it has no Blissey. Instead it has the combination of Swampert + Flygon + Zapdos to wall most of the special threats while still beating most mixed threats.
+The combination of Flygon + Swampert will wall any electric attacker such as Raikou, since they can't have both Hidden Power Grass and Ice at the same time, and at the same time they wall most physical threats that are annoying for Skarmory, such as Tyranitar or Aerodactyl.
+
+Restalk Zapdos is a really good pokemon that can easily wall bulky waters and a lot of the mixed threats. Most of the versions of this team featured a modest with sp def bulk set with HP Grass, which made Zapdos even more dangerous with Spikes and Sandstorm support, while keeping most of its defensive power.
+
+Another thing you might notice is that this team has no ghost and apparently no way to block spin. However, Substitute blocked Rapid Spin in Netbattle because of a bug. For that reason, this team was even more powerful in that simulator, because pokemons such as Flygon, Tyranitar or even Skarmory could become spin blockers too.
+
+Finally, CB Aerodactyl is probably the best cleaner in the game. Aero is the fastest OU pokemon (tied with Jolteon), is immune to Sandstorm and to Spikes, has Rock Head to avoid recoil from Double-Edge and has access to Rock Slide STAB.
+Rock Slide is a move that has a 30% chance to flinch the opposing pokemon but also a 10% chance to miss.
+With Spikes support, CB Aerodactyl is one of the biggest threats for any offensive team and for a lot of more defensive teams as well, especially if Aerodactyl manages to get a game changing flinch.
+A lot of games have been decided by a RS flinch or by a RS miss.
+
+This was the main team Husk used, and one of the best examples of an agressive TSS at that time.
+The idea of the team is simple: set up spikes and pressure the other teams with both physical attackers (Tyranitar and Metagross) and special attackers (Zapdos and Regice).
+
+CB Metagross performs a key role in this team, being able to punish with spikes support the Blissey / Snorlax / Regice trying to wall Zapdos and Regice, while also being able to lure bulky waters, allowing physical Sub Tyranitar to clean in the late game.
+
+Husk TSS also features Regice as the special wall, which was a very strong pokemon at that time, being able to easily wall most special threats while hitting harder than Blissey, making the team even more agressive.
+
+Claydol was the Rapid Spinner of the team.
+
+This is a very good example of another great TSS time that was very solid defensively but also very powerful offensively
+
+The team Loki Used to win the third OST.
+As you may notice, the idea of the 3 TSS teams I have posted is very similar: set up spikes, set up sandstorm, weaken the other team with the passive damage and threaten with abusers.
+What change between these TSS teams is the synergy between the abusers.
+
+When Loki originally built this team, he went with the boah set, but he changed it to Taunt DD just before OST 3 because of its ability to checkmate many teams in the late game.
+
+Loki's team has Hypnosis + Explosion offensive Gengar as both a fail safe and a big special threat, as well as a more offensive spin blocker than Dusclops.
+
+The reason Loki decided to go with a double water team is that at that time, there were a lot of teams that focused on luring the bulky water to sweep with threats such as DD TTar or DDMence.
+
+Milotic featured Light Screen.
+LS + Skarmory is a really good combo (every Skarmory back then was physically defensive), allowing it to get extra layers vs MixLax, MixMetagross or Swampert, as well as not getting KOed by Magneton.
+LS + Tyranitar is also a very good combo, allowing it to easily set up on non Swampert bulky waters and on Zapdos.
+
+Flygon actually wasn't very popular in early ADV, but its usage rose quite a bit once people started pairing it with Swampert to wall electrics.
+This Flygon has both Substitute (already explained in Superman team, it blocked Rapid Spin back then) and Screech, allowing it to beat most last mon set uppers and forcing switches, which added even more passive damage.
+This Flygon was especially effective with LS support, because bulky waters were not able to wall it anymore.
+
+Noobster's OST winning team.
+This is a good example of how a succesful anti Skarmory team worked at that time.
+Magneton is the most important pokemon on the team, because of its ability to remove Skarmory from the game.
+Without a Skarmory, both Curse Snorlax and DD Salamence become huge threats to the opposing team, especially with Spikes support.
+In this team, Celebi is a Cleric, being able to wake up Snorlax after it has used Rest.
+
+Other Teams:
+
+-> IPL Stall
+
+-> Fear's Spinless Forry TSS
+
+-> Chaos double screens
+
+-> VIL's Liquid Flame (https://www.smogon.com/forums/threads/my-favorite-teams-part-1-team-liquid-flame.45741/)
+
+b) The Spanish Metagame
+The Spanish metagame was similar to Smogon metagame, but it had a key difference: legendary pokemons were banned.
+That means that OU staples such as Zapdos or Suicune were not allowed.
+This is the metagame I used to play at that time.
+
+As you will notice, Milotic is in all the teams featured here. This is because the metagame was heavily dominated by Milotic, acting as the glue of a lot of the teams from that time, walling very dangerous mons like Salamence, Metagross or tyraniboah (the most common Tyranitar set at that time)
+
+One important thing to note is that competitive pokemon was very different back then: nearly every tournament game was hidden with no spectators allowed (except the finals), and most players mained a team and used it in most tournament games.
+Sadly, because of that reason, there are very few logs from that time.
+These are some example teams from that time:
+
+This was my main tournament team during this period of time.
+
+Skarmbliss was the main defensive core of the team, and it was even more powerful in an environment without stalling machines such as Zapdos or Suicune, which were 2 of the most annoying mons to face for skarmbliss, and allowed Blissey to be run more physical bulk, since it doesn't need to 3hko zapdos in the sand anymore.
+Skarmory's main role in this team was setting up spikes to help both Skarmory and Heracross, and walling physical threats such as Metagross, Gyarados or Tauros.
+Blissey was the special wall of the team, with Ice Beam to hit Sub Focus Punch Gengar (which was everywhere) and Wish to support the team.
+
+Milotic was probably my most used pokemon in Netbattle, and the defensive glue of this team, covering a lot of the things that can beat skarmbliss, such as Tyranitar (boah was by far the most common set) or Salamence (CB, DD and Mixmence were all common), and allowing me to sleep something that could be threatening for my team.
+Milotic was also one of the pokemons that benefited the most from Zapdos and Suicune not being allowed.
+
+CB Salamence was my favourite lead at the time. The combination of immediate power + great typing + intimidate allowed to start the game with an advantage, and in the late game there were few things that could stop it with spikes support.
+
+CB Heracross was my stall breaker, with Megahorn destroying Claydol, Focus Punch hitting Skarmory very hard, and Rock Slide 2hkoing standard sets of Gyarados and Salamence, there were few things able to wall this monster.
+
+Spikes were very big in this metagame, and for that reason, I nearly always ran a spinner of magneton to be able to deal with them.
+
+Basically, this was a balanced team with a very solid defensive core (SkarmBliss + Milotic) with a spinner to remove spikes and 2 heavy hitters (Salamence and Heracross) supported with Spikes and Wish.
+
+Siegfried's stall team.
+Siegfried was a peruvian player that liked playing with defensive teams, and was probably one of the best stall players I have ever seen in competitive pokemon.
+
+Skarm and Bliss were again the most important pokemons in this team, setting up the spikes (which was the main offense this team had) and removing status with Aromatherapy (which was very useful with 3 or 4 Rest pokemons depending on the version).
+
+Wishmence was the main innovation of this team, walling a lot of physical threats such as Heracross, physical Salamence or Gyarados and supporting the team with Wish.
+
+Donphan was a very common spinner because its ability to break through Dusclops, which was the most common spin blocker at the time, and it also gave the team a rock resist, easily walling threats such as DD Taunt Tyranitar, which are usually a big threat for a stall team.
+
+Dusclops was the most common spin blocker, because of its ability to easily spin block vs Starmie and Claydol (the 2 most common spinners), as well as to completely wall SubPunch Gengar, and to pressure stall in general.
+A common Dusclops set was Imprison + Shadow Ball, so a last mon Curselax does not sweep this team.
+
+Make's Magneton Double Special Wall team
+If Siegfried was probably the best defensive player, Make was the best offensive player.
+This is a team Make used in the final of a tournament and a good example of an offensive team.
+
+The archetype is similar to what you would expect in a modern Magneton team, with Salamence + Metagross offensive combo, and Snorlax + Magneton combo.
+
+Milotic was the most used pokemon in this metagame, as you probably have already noticed, and it acted as the defensive glue of a lot of teams.
+
+Curselax was a very powerful threat that was surprisingly not very common at that time, especially when paired with Magneton to remove the very common Skarmory
+
+Salamence + Metagross is a very solid combination, both offensively and defensively. Metagross can also lure bulky waters that wall Salamence (mainly Milotic). They also both benefit a lot from Skarmory being removed from the game, since most Skarm teams used to rely on Skarmory + Bulky Water (mainly Milotic) to check both Salamence and Metagross, so after Magneton removes Skarm from the game, Metagross + Salamence become very dangerous.
+
+Finally, Blissey was the cleric of the team, allowing Curselax to quickly wake up, and removing status.
+
+Other Teams:
+
+-> Offensive team with Spin Donphan
+
+-> Double Water Magneton DD TTar team
+
+-> TSS
+
+c) The Italian Metagame
+Like the hispanic community, the italian community played in their own community and servers outside of smogon and developed their own metagame.
+There are 2 main differences. The first difference is that the italian players used the same rules than smogon except in some small periods of time. The second and most important difference is that the italian community kept an archive, so we can know much more about how the italian metagame was and how it evolved.
+
+This is the story of the italian ADV metagame between 2004 and 2010, written by Sharingan:
+
+--
+
+The story of italian RSE is the story of a group of italian guys, members of Orpo Team, which was at the time the strongest italian team. Its objective was, much like in the original GBA games, to be “the very best, like no one ever was”.
+
+Let’s start from the beginning, the Netbattle era, back in 2006. The only kinds of teams that were around were probably strongly influenced by the GSC metagame, namely stall teams. However, thanks to Choice Band, offensive teams were also able to carve out a niche for themselves. The most used archetypes were
+
+a) Skarmbliss / Forrebliss + 3 Choice Banders + Bulky water, let’s call these the offensive teams.
+Example:
+MT offensive team: https://pokepast.es/448f1b81ebee106e
+
+b) Stall teams: Skarmbliss + 4 Pokémon that could best cover the threat list, following the counter system.
+
+Example:
+Classic Stall TSS team, aka “Fra Stall team”: https://pokepast.es/f46695be768cf176
+
+These were working models for essentially all of 2006-2007. Offensive teams attempted to deal damage with physical attackers, especially Choice Banders, but generally lost against stall teams which, due to more consistent win rates, were long preferred, thanks to the more elaborate and overall better threat coverage.
+
+In 2006, Bekins created Joltgar 2: http://www.bananastyle.net/forums/index.php?topic=1308.0
+
+It was one of the first offensive teams with a completely different strategy, which at the time worked well: Jolteon was meant to pass Substitutes to Gengar, who would then be free to unleash Focus Punch and threaten the opposing team with the Boltbeam combo.
+
+Since Choice Banders were common, Blissey usually punished them with Counter, and thus she was unable to break Gengar’s Substitute. On the other hand, Blisseys with Flamethrower hits Metagross, who also took Body Slams from the few Snorlax that were around. The team worked and Bekins, already one of the best italian players, introduced a new way of thinking, which however was embraced only by a handful of players, the Orpo Team.
+
+In 2007, a team of Netbattle players challenged Orpo Team, and an actual italian national tournament was organized. The winner, a member of Orpo Team, was g_f, an innovative player who seeked uncommon strategies and usages.
+
+g_f taught a great deal of players how to battle, writing guides, creating movesets and generally producing a vast amount of content about the game, which was used as a blueprint by future players. His style and his ideas influenced lots of players and, consequently, the whole ADV metagame. Among one of his influential teams is the Strategy Team: https://pokestudio.altervista.org/arcticbay/index.php/topic,340.0.html
+
+This team used Magneton to kill Skarmory, while Dugtrio took care of Metagross and Tyranitar, so as to favor the Normal offense carried out by Dodrio and Curselax. Meanwhile, Steelix’s Explosion bait-killed Swampert or Suicune, paving the way for the sweep of Aerodactyl or Dugtrio. Along with Bekins’ team, this team was not extremely influential on the short term, but contributed to heavily change the approach that players who were active at the time took.
+
+In ADV CL 2007 one could witness the usage of Baton Pass Jolteon in offensive teams, as in Bekins’ Joltgar, and of Magneton + Normal offense, as in g_f’s Strategy Team. The metagame then went along like this, including also the stall TSS teams used by more defensive players.
+
+In 2008, g_f created La Guerra Perfetta: https://pokestudio.altervista.org/arcticbay/index.php/topic,6195.0.html
+
+In a matter of months, this team introduced Sdef Cloyster and Counter Snorlax to the metagame. A few months later, the national tournament was organized once again, and the winner, another member of Orpo Team, was Carlo, whose usages revealed the influence of Bekins and g_f. His team was this https://pokestudio.altervista.org/arcticbay/index.php/topic,6331 and it joined Jolteon with Snorlax’s Normal offense. Carlo also often used Jolteon with Flygon and Metagross, as in many of his “Carl Classic” teams: https://pokestudio.altervista.org/arcticbay/index.php/topic,962.0.html https://pokepast.es/26e2635e96472fce
+
+A new kind of offensive team was thus born. Players varied their usages unleashing combos like Magneton + Heracross, and Flygon abruptly entered the mategame, often as a Choice Bander, but also as a Mixed Attacker exploiting Spikes. Players seeked originality, probably due to Bekins and g_f, as a form of skill in addition to the win rate. After all, players winning with original gimmicks in a sea of overused teams is supposed to be better.
+
+The usages of the best players in 2008, Seymour (2nd place and stall TSS player, following Fra’s style) and Sharingan (3rd place, one of the new offensive players at the time), shaped the ensuing metagame.
+
+To this end, Cloyster was pitoval to the change of metagame. It could come in on Spikers and threatening them with STAB moves (no one used to heavily invest in SDef on Skarmory or Forretress), it could come in on Swampert to set up Spikes, it couldn’t be trapped by the obiquitous Magneton and, if necessary it could also work as a Rapid Spinner. It had also access to Explosion, and players realized that it could work well as a bait-killer of Starmie and Blissey. Indeed, Clamp-trapper variants were also used, and Zapdos and Raikou rejoiced.
+
+After ADV CL 2008 many more tournaments were organized, in particular the Porytrophy, which took place each Sunday and had 32 participants. It was the most competitive event at the time, and all the best players in italy faced off without missing any. Many of these tournaments were won, in 2008 and 2009, by Seymour and his signature stall TSS style. With Brave Murder Day: https://pokestudio.altervista.org/arcticbay/index.php/topic,8459.0/all.html
+
+, which is one of his best teams, if not the best, Seymour also won the ATQ international tournament in 2010.
+Some of his most successful teams are
+Terpsychora: https://pokestudio.altervista.org/arcticbay/index.php/topic,8834.0/all.html
+
+and Crudelyà: https://pokestudio.altervista.org/arcticbay/index.php/topic,8496.0.html https://pokepast.es/d370709346f6d150
+
+The late 2008 and early 2009 are dominated by TSS and Offensive teams: Cloyster, Jolteon, Magneton, Flygon, Heracross, Snorlax, Gengar, Tyranitar, etc.
+
+Then, the Neutral Wall Breaker by g_f, dubbed “banana team”, was created. It manages to connect these two types of teams: https://pokestudio.altervista.org/arcticbay/index.php/topic,7944.0.html
+
+Jolteon could pass Substitutes to Tyranitar and Gengar, depending on the switch-ins of Celebi and Blissey/Snorlax, and with Roar it countered opposing SubPass Jolteon, which was widespread. Tyranitar could avoid being Phazed by Skarmory behind the Substitute thanks to Taunt, while Gengar ran Destiny Bond + Focus Punch, a fashionable moveset on NetBattle at the time, due to the negative priority of Focus Punch forcing the opponent to choose between dying with Gengar and receiving damage + Spikes.
+
+Flygon and Cloyster, already a successful pair in 2008 thanks to the great synergy between Spikes and mixed offense, and finally the double Electric type exploited the elimination of the opposing Special Wall (with Cloyster’s Explosion) to set up a lategame sweep.
+
+This was one of the best metagame teams at the time, with the strongest direct influence, and it offered much food for thought to offensive players.
+
+Together with the Neutral Wall Breaker, a defensive Fire-type TSS offense was created:
+
+Revengezard by Sharingan: https://netbattle.forumfree.it/?t=35591889; https://pokepast.es/a1020c590086af16
+
+Tyranitar hit hard against Counters shared with Charizard, who was the Spikes-abusing mixed Sweeper. A single predicted Focus Punch on Blissey impeded its recovery, since if Charizard were to activate Blaze after Seismic Toss it would kill Blissey with an Overheat for about 30% after a single layer of Spikes damage. Dragon Claw made it so Salamence could not wall Charizard, while HP Grass hit Swampert hard.
+
+Due to Revengezard, Destiny-Punch Gengar becomes widespread, and also Raikou, especially Rest Talker becomes used as a Zapdos Counter, since the italian metagame underwent a ban of Calmbeasts and Dugtrio. This ban was subsequently cancelled, since we could not determine that the game had actually become better and, thus, more competitive.
+
+Did ya know RSE aer Fat by g_f: https://pokepast.es/ec23705ddd7f14a1
+
+This team spawned many variants. Moltres found its niche and manages to finally shine in OU after many years: a number of sets were used, from Wisp to Sunny Day to crazy ideas such as Substitute + Sky Attack together with Spikes. Charizard came back with a completely special and dangerous set, PetayaZard. Cloyster remained the main Spiker for a long time, Gengar was everywhere, teams are well-balanced. Battles lasted for less turns. Indeed, many players did not feel the necessity to include a Rapid Spinner anymore, provided their team had the tools to deal with Forretress and Skarmory.
+
+Once Fire types had been found to fit well in a TSS, why not Grass types? Here came Venusaur as a Spikes Abuser, with Leech Seed + Roar, HP Fire and Razor Leaf. Taunt Skarmory soon followed, and quickly became the most used Skarmory set in the italian metagame starting from late 2008: https://netbattle.forumfree.it/?t=34185228 this was one of the very first teams featuring it. Taunt Skarmory stopped other Skarmory and Forretress from Spiking, and could set two layers against Magneton (since it was Max HP / Max Spe+). It could also cause issues to Stall players, Taunting Celebi and blocking Blissey’s recovery, stopping Snorlax from using Curse and Rest while shuffling it on Spikes.
+
+All of this variety meant little to Stall players, which kept using Spikers, Ghost types, Toxic and all their nice Walls. Another important player that has not been mentioned yet is Zetsu91. One of the top Spikes-Stall players, he was the main culprit of the Dusclops usages in the italian metagame, since Gengar was not used with bulky spreads and was considered to be too frail to be a reliable Anti-Spinner.
+
+Zetsu91’s style included a thorough countering of the Threat list, while his opponents struggled to get rid of Spikes.
+
+The diffusion of TSS, Gengar and Dusclops prompted the birth of PursuiTar in 2009. For the first time Tyranitar was rediscovered in a special role instead of the usual physical sets, and this team by g_f was the first team with a special Tyranitar appearing in the italian metagame: https://pokepast.es/bab822d3a6a24816
+
+In that period the eternal war between Stall and Offense was more open, since Taunt Skarmory and PursuiTar were problematic for Stall teams, but the latter were always slightly advantaged. Countering the Threat list and implementing an offensive strategy appears akin to a short blanket, not being able to cover everything at the same time and often leaving Offense players open to some threats, hence their less consistent win-scores. On the other hand, Stall players had some tools to deal with the aforementioned Spikes Offense teams:
+
+- Toxic could win long-lasting battles, especially due to the lack of Clerics.
+
+- The very Spikes abused by the Mixed Sweepers of the Offense players could act as a double-edged sword, since they tended to prolong battles and “wasting” turns to be set up. Offensive teams were not designed to last long and they needed sources of immediate damage.
+
+Therefore, in that period Sharingan, the main Offense player, came up with a way to punish Toxic and eliminate the Spikes-based offensive.
+
+In September 2009 Stall Breaker, a team designed to overpower Stall, was thus born:
+
+Stall Breaker 2009: https://netbattle.forumfree.it/?t=43004431 ; https://pokepast.es/77b9107ec90cdb6f
+
+Machamp had to bait and kill Skarmory, at the time used with no Def Evs, and thus the high CH rate of Cross Chop had a 25% chance of OHKO (a similar scenario presents itself in the modern international metagame). It could also absorb Toxic and Wisp from opposing Gengars, becoming even more dangerous. Gyarados enjoyed the absence of Skarmory while countering important threats. Mixlax would cause panic after Celebi had been Pursuited to death by Houndoom, while baiting Gengar into using Wisp on Machamp. Calmkou could sweep once Blissey had been eliminated by Beat Up (which caused around 70% damage due to the high base ATK of the team members). Last but not least, Regirock countered Tyranitar, Salamence, Aerodactyl and Curselax, and synergized extremely well with Houndoom, since they shared the same counters.
+
+Spikes became less used in favor of a special offense, born with Calmkou in Stall Breaker. The rise of Regirock from the obscure BL tier prompted a similar rise of its brother Regice, this time revisited as an offensive threat.
+
+The italian Regice was indeed used as a baitkiller of Snorlax and Blissey (and, if needed, even Tyranitar). The set was: Ice Beam, Thunder Wave/HP Fire, Explosion, Superpower/Focus Punch with an often Modest Nature. Together with Regice many Calm Minders were thus used, namely Jynx, Espeon, Alakazam, Jirachi with three attacks, Celebi with three attacks and offensive Suicune with Max SAtk / Max Spe+. This was still late 2009 to early 2010, and yet these usages were very common in the italian metagame, contrary to the international one. But let us proceed in order.
+
+Late 2009 – Early 2010
+
+These months are characterized by a generally frail, offensive and special metagame. Stall was almost completely absent, in part due to Stall Breakers, since the cultural shift that ensued and the variants it spawned had a significant influence on the metagame. This was the period of the so-called “Lamer” teams, of which the Team Rating section hosted four or five variants, which spreaded threats such as CBGross and Starmie3 in an explosive fashion. Most importantly, this type of teams lead to the dominant archetype of this period, namely a light-offense based on Ludicolo, the aforementioned Starmie3 and Calmcune, often aided by Exploders like Exeggutor, Gengar, Mixlax and supported by Spikes.
+
+This was not completely new, however. Conceptually, this idea had already been considered by Zetsu in his Ivan Drago, one of the most elegant, strong and acknowledged Explosion teams at the time, whose star was precisely offensive Calmcune: https://netbattle.forumfree.it/?t=41196497 ; https://pokepast.es/fca1f5218e2381eb
+
+From that spark, along with the contributions of some particularly successful players like Dandy (his Puff: https://netbattle.forumfree.it/?t=41798088), that idea exploded to such an extent that it became the paradigm for post-Stall Breaker builders. It is worth noting that in Puff itself it is mentioned that it was not well-suited for Stall. Indeed, this type of Offense, almost useless against a well-designed defensive teams, was frowned upon for long: only after some time it was normalized in the eyes of players, also thanks to more optimization and the experimentation of the great players that followed.
+
+There was actually a kind of misunderstanding: light-offense teams proliferated because of Sharingan, the most influential italian player at the time, but he was not particularly fond of that kind of team. But Stall usages went significantly down regardless. On the one hand, Stall Breaker had proved that Stall was beatable, or at least it could be dealt with, and it sparked the idea that it was somehow obsolete. On the other hand, that team made player want to play offensively. The combination of these two effects lead to offensive teams designed to… beat other offensive teams, and thus the metagame gradually became faster, with battles lasting less and less turns. Consequently, building skills and match-ups became the dominant factors in determining winners.
+
+One must take into account that in that period players were very active, and the trends evolved rapidly. Hence, even if light-offensive teams were the paradigm, there were many efforts to popularize different Pokémon and strategies. It is impossible not to cite the Counterhax: https://netbattle.forumfree.it/?t=42435548, and in particular the vast diffusion of Sceptile, Smeargle (as a dangerous individual threat, not exclusively linked to Baton Pass teams) and Jirachi that ensued. If the former two were a passing trend, Jirachi adamantly dominated the scene for long.
+
+Another successful concept was that of Calm-Mind passing. These teams were born around January and, as we shall see, they contain the seeds of the successive evolution of the special metagame, which involved a lack of Exploders while other ways of weaking counters gained popularity (Wisp, Mixed Attackers). This period did not last long, but it was absolutely dominant at the time, and it contributed to what would have come after it.
+
+This was also the period of soft-bans. Independently of their duration, or the actual adherence to them, soft-bans had a significant cultural impact. Pokémon that were going to come back in OU, such as Dugtrio, were almost nowhere to be seen. The already-invented, but up to then rarely used Drill Peck Zapdos also gained popularity, while usages of Curselax, Suicune and Raikou unsurprisingly did not fall down even slightly, as soon as it was possible to use them again.
+
+The absence of Blissey (due to the general avversion against Stall) and Dugtrio (due to its “cheap” cultural connotation following its ban) led the metagame to shape itself around two main sweepers: Calmkou and Calmchi. This was the state of affairs for a long time, centered around special offense of any kind. Snorlax and Regice, often supported by Tyranitar and Metagross, were the special counters, and thus strategies to deal with these Pokémon were devised: Gardevoir, Gengar and Moltres with Wisp proliferated, alongside the baitkiller Regice set, with its double Ice STAB and an aggressive Evs spread. Here is a great team by Dinozzo featuring it: https://netbattle.forumfree.it/?t=44100092 ; https://pokepast.es/ba64de736ca6e345
+
+The paradigm thus remained more or less the same: Exploders, bait-killers, bait-wispers, special offense (with or without boosts, with or without passing).
+
+Mid 2010 – Late 2010
+
+In this period the most influential team of the entire year was born, namely Nervous System Failure https://netbattle.forumfree.it/?t=49291485 by Seymour.
+
+It was a return to an atmosphere of defense, and – analogously to what happened with Stall Breaker – it had a long-lasting cultural impact, whereby the player base tended to prefer Stall once again, albeit with a twist compared to its original, intense incarnation. At any rate, this team brought back Dugtrio into play: since a player like Seymour was doing it, its usages skyrocketed. It is plain to understand why this team had so much success: suddenly there were real counters of the then-common offensive beasts, and Dugtrio itself could crush their dreams to an even larger extent.
+
+From this perspective, Seymour’s contribution was paramount. Despite light offense teams did not completely disappear, they had to adapt to the newly-defensive trend of the metagame, gradually evolving. Seymour was for the latter ADVer generation what Sharingan had been for the 2008-2009 generation, what Carlo had been for the 2008 players, and what g_f had been for everyone. Clearly this neat subdivision is rather schematic and does not capture the complex mixing of influences, since everyone cited has was influential across the board. In the case of g_f, one could even argue that his influence was structural, since it also affected other top players.
+
+The metagame thus underwent a gradual transformation from light offense to more solid strategies, in particular Pursuit, trapping by means of Dugtrio, and Sweepers that could complement this kind of support. In the mid 2010s, this type of offense was still implemented by frail Pokémon, due to the previous influences, but by the late 2010s it had almost completely transformed into its definitive form (Curselax, Calmcune).
+
+The history of the italian metagame up to 2010 ends here, and it is but with joy that we remember these moments full of dedication and passion for a game that we have grown up with. In particular, this story is dedicated to all of those old, still active players, including many that we have not mentioned in these few pages, that have lived these last two years of competitive battling as the best period that RSE has ever witnessed.
+
+### post 8907646 author=M Dragon url=https://www.smogon.com/forums/threads/adv-teams-through-the-ages.3687203/#post-8907646
+d) The German Metagame
+Unlike the Spanish Metagame, the German Metagame was very similar to Smogon's. In fact, the only differences were that at first Celebi and Jirachi were banned.
+For that reason, german players had either different teams for german/smogon or teams without them built to be used for both metas, because unlike most spanish or italian players, german players used to play in Smogon too. For that reason, we could also consider this part of the "Smogon metagame" as well.
+Luckily, there is a huge archive of german teams mantained by players like Vertigo.
+
+Some relevant german teams at the time:
+
+Vertigo's CM Bliss TSS
+https://pokepast.es/a375da3005e8b7d0
+
+This is a good example of a classic german TSS, featuring the solid defensive combo of Skarmory + Claydol + Blissey that has already explained before with the offensive power of modest Hypnosis Gengar, DD TTar and double CM (Suicune and Blissey) supported with Spikes.
+
+CM Blissey was a pokemon that was popular in this german archetype, and it allowed Blissey to be a threat, besides of walling nearly every special attack. There were 2 main CM Bliss sets used, one being the classic boltbeam, with its great coverage, being able to hit Zapdos and Salamence with Ice Beam as well as Skarmory and bulky waters with Thundertbolt. The other CM Blissey had Flamethrower + HP Grass, and it was able to hit hard pokemons such as Metagross, Tyranitar or Swampert.
+
+In this particular team, Vertigo opted to go CM Blissey in the lead position with a mix of both: Ice Beam and HP Grass. At this time, Sub Tyranitar (especially tyraniboah) was a very common lead, and it would use Blissey to safely Sub, since Blissey usually cannot break TTar's sub, but that is not the case with HP Grass. Ice Beam hits another very common lead hard: Zapdos. The second reason to use HP Grass in this team was luring Swampert: at this time, cursepert was relatively common, and HP Grass IB CMBliss is a great lure for it.
+
+Finally, this team also features a more "modern" set of Gengar, being Modest with DBond to lure and kill mons such as Claydol that think that will kill the Gengar to spin later. Hypnosis was a very common move at the time in Gengar. Modest Ice Punch allowed Gengar to hit Zapdos, the most common sleep talker, very hard.
+
+There were variations of this team, mostly replacing Suicune with Zapdos, CM Celebi or Dugtrio
+
+Overall, this team represents very well the agressive TSS style that was popular at the time, with a different approach than Superman.
+
+Peter Pan's main team
+https://pokepast.es/35d237136a776484
+
+This was a good example of a german balanced team, featuring CB Metagross + DDMence, with Claydol to remove Spikes, restalk Heracross to take special hits and hit hard, and 2 bulky set uppers: CMCune and CurseLax.
+
+The idea is simple: CB Metagross starts the game hitting hard and ideally luring the bulky water or doing a lot of damage to Skarmory, while Curse Fire Blast Snorlax lures and weakens Skarmory, so DDmence can win in the late game and Heracross is a much greater threat.
+
+Another variation of this team had SD Heracross instead of Restalk Skarmory, and the team worked in a similar way. The main objective of this version of the team was weakening Skarmory with Fire Blast Snorlax, CB Explosion Metagross so SD Heracross can be a big threat. Keep in mind that at this time, Skarmory was impish max defense with Rest and with HP Flying.
+
+This is a physical offense team that tries to avoid using Magneton with good success at the time.
+
+SD Celebi team
+https://pokepast.es/c6dcfd9407abf63c
+
+A more offensive team featuring Magneton to trap Skarms and Celebi to BP the SDs to one of the physical set uppers of the team (DD Salamence, DD Gyarados and Agility Metagross), or even to Swampert.
+This team also features one of the staples of a lot of classic german teams at that time: restalk Swampert, a pokemon that can wall a lot of threats and easily recover thanks to rest, while being able to continue attacking with restalk.
+
+CM BP Celebi
+https://pokepast.es/5340ec33b6a73295
+
+Another kind of offensive team at the time, featuring CM BP Celebi, sending the CM boosts to special threats such as Gengar, restalk Zapdos or Tyraniboah.
+
+Tyraniboah was by far the most common Tyranitar set in the smogon metagame in the first half of the NB era, and the reason was that it was one of the few pokemons that was able to breat the famous defensive core of Skarmory + Blissey + Claydol: with 101 HP subs, Blissey cannot break TTar's subs, allowing TTar to freely Focus Punch Blissey into oblivion, while being able to hit Skarm and Claydol very hard with Thunderbolt and with its STAB Crunch.
+
+Balanced Dugtrio team
+https://pokepast.es/8799fae8dd447012
+
+A more special based approach of a balanced at the time.
+Dugtrio is the key of this team, being able to trap pokemons such as Metagross, Tyranitar, Heracross or Blissey, that are annoying for the core of special threats of the team: restalk regice, CM Jirachi and CM Celebi.
+
+This team was also built to have a very good matchup against the classic TSS teams such as Superman, with Wish Jirachi + Impish Skarmory + Claydol hard walling Aerodactyl and Jirachi + Celebi + Regice walling Gengar variations. TSS teams at the time also had trouble switching in against Regice, especially with Dugtrio trapping Metagross / Tyranitar / Jirachi.
+
+As you probably have noticed, most of the teams from this era have at least a sleep talker, and most of the defensive pokemon, such as Skarmory and Claydol nearly always had Rest, something that made this metagame overall slower when compared with current metagame, even if the archetypes are similar to what could be used nowadays.
+
+Other teams:
+
+Double Trap
+
+Jira TTar Mence Balance
+
+Magneton Physical Offense with Spikes
+
+Spikes immune stall
+
+e) The French Metagame
+French metagame banned Jirachi, Celebi, trappers (Dugtrio and Magneton) and Spikes + Dusclops.
+It was a very stally metagame where every team had Wish, Spin and a Cleric.
+
+2 example teams (credit to McM): https://pokepast.es/a6217617cb089a26
+
+f) Other Metagames
+Brazilian players used to play with the Smogon rules. At the moment I don't have much information about any "different" meta the brazilian community could have.
+
+Japanese players used to play with official Nintendo rules, aka level 50 doubles (so pokemons such as Tyranitar or Dragonite were banned).
+When japanese played 6vs6 meta, they used to ban Heracross.
+
+---
+
+Note: I would like to thank Astamatitos Fear Loki Make McMeghan Sharingan Bomber. Pasy_G and Vertigo for their help in the Netbattle part
+
+2) ADV is back! (2010)
+With the start of DPP in 2008 many things changed.
+The creators of Netbattle left the project and Netbattled sadly died. The main simulator in the DPP era (shoddy) did not support older generations, so there was no simulator to play ADV.
+Fortunately, someone remade Netbattle to include gen 4 while fixing some of the big bugs old Netbattle had (mainly Substitute blocking Spin).
+
+The second important thing that changed in DPP was that more players from local communities started to play in smogon, and the "Smogon tiers" slowly became the standard for most communities: while in the past each community had their own rules, in the DPP era most communities started adapting smogon rules and people from those communities started playing in Smogon as well.
+
+Because of that new simulator that supported old gens, called Netbattle Supremacy, old generation were included in the first SPL.
+SPL 1 was very important for the development of modern ADV, because some of the Netbattle ADV top players were still playing and it was a great opportunity for players that had started playing DPP to learn ADV.
+
+In my case, I had grown a lot as a player since the Netbattle days and I also had a lot of success in DPP, especially in the shoddy ladder. However, since I was used to a metagame with no legendary pokemons (and I hadn't played ADV in a very long time), the adaptation wasn't easy for me.
+
+About the metagame, there were mainly 2 huge changes. The first one is something I have already mentioned, and it is that Substitute didn't block Rapid Spin anymore. That made Gengar, and especially bulky variations of Gengar with WoW very common in defensive teams in this era, which at the same time made physical offensive worse, since WoW Gengar is a very annoying pokemon for that kind of team.
+
+The second change is what I consider to be the main difference between classic (Netbattle) ADV and modern ADV, and it is Special Defensive Skarmory.
+SpDef Skarmory changed everything, and it made a lot of old ADV teams "useless". The reason is that a lot of those teams relied on strong special attacks, like Fire Blast Snorlax or even Hydro Pump Swampert in order to deal with Skarmory, and those attacks don't do enough damage to SpDef Skarmory, who can just easily take those attacks while it Spikes and uses Whirlwind.
+But... why wasn't SpDef Skarmory a thing in Netbattle? What changed in 2010 that it became so popular?
+In ADV, physical attackers have several advantages over special attackers, including the existance of Choice Band and the fact that there is no equivalent of Blissey in the physical side, a pokemon that can wall nearly every special attacker. What was the closest thing? Skarmory, a pokemon that also resisted every physical type but 2. Therefore, Skarmory has always been used as the "physical Skarmory" (the famous Skarmbliss combo).
+And that was also the case in DPP, Skarmory was used as the physical wall. So... what changed? When was Special Skarmory first used and why?
+Skarmory was first used in DPP, in a suspect test where powerful pokemons like Latios, Latias, Skymin, Deoxys Speed or Manaphy, in order to check those mons (especially the former 3), and it worked very well. But not only that, people discovered that some pokemons that were annoying for Skarmory, such as Vaporeon, were much more manageable and setting up spikes against them was much easier, while still being very good against physical attackers.
+After that, people also started using that Skarmory in ADV, completely changing the metagame forever.
+
+I will divide this section in 2 parts: the first part will cover SPL, and the second part will cover the rest of 2010, including the ATQ tournament, which was was a very big ADV tournament that happened in summer of 2010.
+
+SPL
+As I mentioned earlier, SPL was the first tournament that included ADV in a very long time. I will include some of the most important teams that were used in the first SPL.
+This is also the first time that tournament ADV games are played in a simulator without the Substitute blocking Spin bug.
+
+G80's team.
+This is a very good example of a balanced team that is played agressively and that was very succesful at that time.
+This team was originally built in the Netbattle era, but some moveset changes made this team a really good team in this era.
+
+Restalk Skarmory was already a very good pokemon in Netbattle, but with the "discovery" of special defensive Skarmory in DPP, this Skarmory set became nearly unkillable unless you had a Magneton, easily setting up spikes and phazing everything, resting when needed. Mixed threats like Fire Blast Snorlax that used to threaten the old standard Skarmory became set up fodders.
+
+Blissey is as good as always and complements Skarmory very well, easily walling most special attackers and giving Wish support to the team.
+
+Nothing has changed with Zapdos as well. It is still the same stalling machine with restalk.
+
+Restalk Swampert is the defensive glue of the team that stops a lot of physical threats. Nothing has changed as well.
+
+Gengar is the pokemon that benefited the most from the Spin bug being fixed, because it is a pokemon that fits very well in a lot of TSS and spikes teams in general that want a fast pokemon that can pressure and clean in the late game.
+
+Salamence counters Heracross and Celebi, and hits everything very hard. Spikes and Wish support help CBmence a lot.
+
+It is also worth noting that this team has 4 pokemons immune to spikes, so opposing spikes are not a big problem for this team.
+
+This was one of the teams I liked the most at that time.
+
+Loki's team
+CBMetagross lead with Rock Slide threatens a lot of common leads. A big benefit of leading with CB Metagross is that you can double switch to cloyster on the Skarm / Forry / Swampert / etc switch-in to get free spikes.
+The main difference of this team with other similar teams is that it uses Cloyster instead of Skarmory to beat the Magneton teams, as well as allowing the team to spin.
+Other than that it works in a similar way than the last time: Spikes, restalk Zapdos, Wish Bliss, Hypnosis Gengar, a heavy hitter (Metagross instead of Salamence)
+
+Goofball's team
+Another kind of TSS, with 4 explosions and 2 set uppers that try to sweep in the late game: CMCune and DD Ice Beam Tyranitar.
+
+While the other TSS teams I have posted until now try to weaken the opposing team with passive damage to allow a sweeper or a heavy hitter clean in the late game, this TSS follows a different approach: it also tries to lure the counters of the late game set uppers with Explosion.
+
+Crocune (CM + Restalk Suicune) is one of the hardest pokemon to beat in the game, with its great physical bulk and its ability to boost its special stats with Calm Mind, even while sleeping. But not only that, it is also a stalling machine with Pressure, being able to easily PP stall even electric Pokemon while setting up.
+
+SBK's team
+This was the archetype of team that SBK used in a lot of his games with great success.
+While most of the succesful teams were variations of TSS or spikes offense in general, this team follows a completely different approach: Dugtrio.
+
+Dugtrio is the most important pokemon, because of its ability to remove Blissey for Raikou and Tyranitar for Celebi, as well as some flying resists for CBMence, such as Tyranitar or Metagross.
+
+Celebi is a great support mon that can also sweep in the late game with Calm Mind.
+
+Mixed Metagross + CBMence is also a very interesting combination, with Metagross luring both Skarmory (Thunder Punch) and Swampert (HP Grass), while being to explode on bulky waters such as Milotic.
+
+Raikou is the late game sweeper of the team.
+
+ATQ Tour + NB Supremacy
+After SPL 1 ended, the interest in ADV didn't die and there were a lot of people such as Astamatitos, Fear, ]v[ajinTupacz, Tamahome, Darkestmoon, Marik, etc that were active in Netbattle Supremacy and played a lot of ADV.
+Also, in the summer of 2010, there was a big tournament in ATQ, with a lot of older players and newer players.
+
+This was my main team at this time, although I also used G80's team a lot too.
+
+This team was based on the archetype SBK used in SPL, with the CBMence + Celebi + Dutrio combo.
+
+Milotic was my most spammed pokemon in the NB era, and that wasn't going to change in the first team I built in this era.
+
+This team was built around CM Leech Seed Psychic Celebi.
+That Celebi set allowed it to act like the support set with Leech Seed, but at the same time it can threaten a sweep with Calm Mind.
+With the combination of Calm Mind and Leech Seed, it can beat a lot of set uppers, such as most CMers or Curselax.
+
+This set works extremelly well with Dugtrio, because it removes most of the pokemons that give this set a lot of trouble, such as Tyranitar, Metagross or other CM Celebis.
+
+Mixed Snorlax is the special wall of the team, and can also help weakening Skarmory to help CM Seed Celebi. Snorlax can also lure bulky things like CMCune or Celebi with Selfdestruct.
+
+Starmie was probably the best spinner at that time, being able to beat the common Gengar with Psychic. Dugtrio worked well with Starmie because it could help beating Dusclops.
+
+Typical TSS team in this era, and the one I used the most at this time.
+The most important change compered with older TSS teams is Gengar: it took Dusclops' place as the most used spin blocker and was in a lot of the Spikes teams.
+
+Gengar sets in TSS teams also became a bit more defensive, with EVs that allowed Gengar to surive a hit from a +1 Gyarados or even from a +1 Salamence.
+
+While Hypnosis was still the most common Gengar set, WoW was getting popular as well, and even some people started running both Hypnosis and WoW at the same time.
+
+Another Gengar set that got very popular, especially in 2011 was WoW + Taunt, because Taunt prevented Recover, Softboiled and Rest, which helped weakening special walls, especially if gengar burns them in the switch and with sand and spikes support.
+
+Seymour's team, winner of the ATQ tournament.
+
+This was the main team Seymour used during the ATQ tournament.
+The team is built around CB Tyranitar, and every pokemon supports it.
+
+Skarmory sets up the spikes, Celebi acts as a Cleric and has Perish Song to beat any last pokemon set upper, Starmie sets up reflect and spins, and Blissey can heal Tyranitar with Wish.
+
+Taylor's DD team
+
+This team was originally built by Taylor, and is based around the idea of DD spam with Magneton support.
+
+The general idea of this team is to pressure their bulky waters with 3 DD set uppers + Metagross, so one DDer weakens their bulky water or their physical non Skarm wall (Skarm was trapped by Magneton), so the other DDers can sweep later in the game.
+
+HP Grass Metagross + Magneton is very hard to deal for standard DD teams, and usually allows you to weaken their Swampert and/or lure their Zapdos.
+Weakening Swampert means that DD Salamence + DD Tyranitar become much threatening, and exploding on Zapdos removes the best DD Gyarados counter in the game.
+
+Curselax + Magneton was the secondary win condition of the team, and it worked very well with the triple DD, because the best Curselax counters were either set up bait for the DDers (Celebi) or were easily weakened by the DDers (Metagross or Tyranitar)
+
+This archetype was used a lot in the next years, having a lot of tournament success.
+
+### post 8907647 author=M Dragon url=https://www.smogon.com/forums/threads/adv-teams-through-the-ages.3687203/#post-8907647
+3) Smogon Tour (2011-2013)
+With the start of a new gen (BW), a new simulator was created to replace the old Shoddy Battle, and that simulator was Pokemon Online.
+And that was excellent news for ADV because of 2 reasons. The first one was that Pokemon Online supported ADV, and the second one was that Pokemon Online had a ladder.
+
+The ladder was huge for the ADV metagame development, because it allowed players to easily find battles without having to challenge other people, so the number of ADV games that were played increased drastically.
+
+However, the most important event was the inclusion of ADV in the Smogon Tour, the most prestigious Smogon tournament. Since Shoddy only supported DPP, old tours included lower tiers instead of the original format with the current gen and the 2 previous gens, something that changed thanks to Pokemon Online supporting ADV.
+
+ADV being in the Smogon Tour meant that a lot of people started playing ADV to try to win the tour. This was the period of time where some of the biggest innovations in ADV were made.
+
+From the last section, Taylor's DD team and the Zapdos big 5 TSS teams were still widely for the time of the next 2 sections, but the other teams quickly became outdated and were replaced by new teams.
+
+CM Spam by Jabba
+
+I present you the most spammed team in Smogon Tour 11, and probably one of the most influential teams in the history of ADV: Jabba's CM Spam team.
+
+The main idea of this team is overpowering the other team with 3 of the strongest CMers in the game, while the other 3 Pokemon try to cover the weakness and balance the back end as best as possible.
+Dugtrio tries to trap Blissey or Jirachi, Tyranitar provides physical support and sand (so killing Lax is easier), and Swampert as a pivot mon and DDmence counter.
+
+Offensive CM Suicune is a complete monster, especially with nobody expected it, because its counters are different than the standard defensive CMCune ones.
+The fourth attack could be either HP Electric to beat Gyarados, Substitute to beat Toxic Milotic or Toxic Blissey, or Roar to beat other CMers.
+There have been many tournament games that ended in less than 10 turns because the other team just couldn't handle offensive Suicune.
+
+The offensive Celebi is a key element of the team, working very well with both Suicune and Jirachi. A nice thing about Celebi is that if it gets revenge killed by a Dugtrio, your own Dugtrio can remove your opponent's Dugtrio from the game, allowing CM Jirachi to sweep in the late game.
+
+Superachi is an amazing late game sweeper, especially if you manage to lure their Dugtrio.
+
+Tamahome's "The Metagame Changer"
+
+This is the other innovation that completely changed ADV metagame.
+At first it looks like another TSS, similar to the ones I already posted but with Forretress instead of Skarmory. However, it works in a completely different way, and that is because Tyranitar has the move Pursuit.
+
+In 2010 ]V[ajinTupacz started using Pursuit Tyranitar in some games, but this was the team that made Pursuit Tyranitar very popular, and it completely changed the meta.
+
+Most Spikes teams at this time had WoW Gengar as their spin blocker, and Pursuit Tyranitar was able to easily trap and kill Gengar.
+
+With Gengar removed from the game, Forretress was able to easily spin, which gave this team a huge advantage against other TSS teams.
+
+But Tyranitar's duty in this team is not only take out ghosts. This Tyranitar set, created by Halloween, hits hard with RS and can also lure Swampert with HP Grass and Skarmory with Flamethrower. Tyranitar hits like a truck and cleans up stuff, both in the early and in the late game.
+
+Forretress was the spiker and the spinner of the team, and it was able to beat common spinner such as Claydol or Starmie with HP Bug.
+
+Blissey set evolved with time. At first, the Blissey was the cleric of the team. However, with the increasing popularity of CM spam teams, Tamahome decided to make his Blissey Calm Mind in order to counter those teams.
+
+My rock spam team.
+This was my main team for a very long time and it still works today.
+
+When trying different Tyranitar sets in the standard Zapdos TSS I postead earlier, I noticed that CB Tyranitar was extremely good with spikes support, being able to hit everything very hard, even beating bulky waters such as Milotic. It was an extremely good pokemon to open holes in the other team, and if played agressively, it was a really good Gengar's teammate, because CB Tyranitar can beat a lot of Gengar counters, and with double switches I was able to easily weaken things like Snorlax or Blissey, so Gengar was in a good situation in the late game.
+
+Then I decided to take another step: lets abuse rock spam even more adding Aerodactyl to the team. The idea is simple: Tyranitar starts hitting hard from the start and weakening the rock resist or the bulky water the other team might have, so in the late game, the faster CB Rock Slide spammer (Aerodactyl) cleans.
+
+Aerodactyl also provides a lot to the team defensively, because it is the best revenge killer in the game, and one of the most annoying mons to face for a CM spam team, which usually gave be a huge advantage when facing that kind of team.
+
+Aerodactyl was also the reason why this team actually had a good winrate against typical Magneton teams, since a lot of the times, Aero only needs 1 layer of spikes.
+
+Gengar was a very important part of the team. First of all it gave the team a way to keep Spikes: the Gengar was fast and bulky, with EVs to survive most Psychics from Starmie and with Hypnosis to sleep Claydol. Second of all, it could lure common bulky grounds with Hypnosis (a Claydol trying to spin) or with Giga Drain (which wasn't a common move on Gengar). And finally, it gave the team a secondary win condition.
+This team has 2 different win conditions: Aerodactyl and Hypnosis Gengar, and both of them greatly benefit from Spikes, because a lot of their common switchins are weak to Spikes.
+
+Skarmory and Blissey sets have changed a lot over the time. Originally, The Skarmory was the standard Restalk, and Blissey was a cleric, but I realized that I was losing a lot of momentum with those sets, and for a team like this one with no spinner, that could mean that you lose the game.
+For that reason, I started to run a Skarmory without Rest, and I started to run Taunt + Toxic instead. With Toxic I was able to poison things like Swampert, Tyranitar or Salamence, helping my late game strategy a lot, while with Taunt I was able to prevent Spikes from other Skarmory and Softboiled from Gengar.
+
+I used to change Blissey's set between Counter and Modest Flamethrower. The idea of Counter was luring Metagross, clearing the path for both TTar and Aero, while the idea of Modest Flamethrower was luring spikers and hitting Metagross switchins very hard.
+
+This is probably my most succesful ADV team overall, dominating the ladder and doing really well in tournaments.
+
+This is also probably one of the first examples of "modern big 5 TSS team" where the 6th pokemon is the late game sweeper (unlike the standard Zapdos TSS at this time, where zapdos is a defensive pokemon rather than a late game sweeper).
+
+My Pursuit TTar + Aero team
+KG's Purs TTar + CM Bliss team
+
+Im putting these 2 teams together because the idea is very similar.
+
+This was my favourite Pursuit Tyranitar team, and probably my most succesful one at this time.
+I took a different approach with Pursuit Tyranitar than Tamahome. While his idea was having a mixed Tyranitar that could lure Swampert and Steels and pursuit ghosts, I went with a full special set with both Crunch and Pursuit.
+Crunch Tyranitar had 2 main benefits: the first one is that it punishes Gengars that try to stay in to hit Tyranitar. The second one is that it can allow Tyranitar to trap 2 of the most common spinners: Claydol and Starmie.
+In addition to that, Pursuit Tyranitar was also great against locked pokemons such as Salamence or Aerodactyl, allowing me to remove a big part of heir health.
+
+CM Leech Seed Celebi is the glue of the team, being able to take hits from a lot of things and forming a very solid defensive core with Forretress and Milotic. However, in my Aerodactyl team I ended up replacing Calm Mind with HP Grass, because Dugtrio was getting very annoying for this team.
+
+Milotic does't have a rock resistance like Swampert, but it has Recover, and it doesn’t have that x4 grass weakness, so its not afraid of random HP grasses like Swampert. It also has toxic support, which adds to Sandstorm damage, adding more damage, and it also let Milotic beat things like offensive Suicune.
+
+Dugtrio is a key pokemon in this team, being able to revenge kill some threats that could destroy my team otherwise, such as Sub Raikou, Jirachi, Heracross or DD Tyranitar. Dug is also great at killing weakened Offensive Suicuns and Starmies.
+
+Forretress is the spiker of the team. It might be a worse Spiker than Skarm, and a worse Spinner than Starmie, but it can do those things at the same time, and it has the Pursuit T-tar support, so ghosts wont be a problem while spinning. Hidden Power Bug scares Starmie and Claydol, and Explosion is nice to have to take out a threat.
+
+The main difference between both teams is the last pokemon: my version uses Aerodactyl, which makes the team more offensive and gives me a better revenge killing potential.
+
+KG's team had CM Blissey instead. CM Blissey was a great counter to CM spam teams, and it makes the team better against special attacks in general.
+
+Double Trap by make
+
+Another classic archetype was Magneton + Dugtrio. The main idea of this kind of teams is removing key pokemons with your trappers to help the rest of your team.
+
+These teams have a very good MU against a lot of the defensive TSS teams, and its popularity grew because it was a good answer to them, and TSS was one of the most common playstyles.
+
+This team became has CB Salamence as the lead, Curse Snorlax and CM Leech Seed Celebi as the bulky set up win conditions, and a Milotic closing the team.
+Both CM Seed Celebi and Curselax are very powerful threats, especially with Magneton removing Skarmory (which would wall, easily set up spikes and WW against both) and Dugtrio weakening or removing some pokemons such as Tyranitar, Jirachi or Metagross, which could stop both bulky set uppers of the team.
+
+CB Salamence also benefits a lot from those pokemons being removed from the game, since they are also usually the main flying resists, so with the double trappers removing or weakening them, CB Salamence becomes an even more dangerous pokemon.
+Milotic is a good bulky water option here because at the time mixed attackers were very popular, and Swampert versions of this team struggled a lot against them, at the cost of making the Aerodactyl Spikes MU a bit harder.
+
+The most popular variation of this team had Metagross and was used mainly by reyscarface. Metagross makes the team becomes more offensive, with Metagross + Salamence being now the main offensive duo (reyscarface used DDmence, although CBmence is also good here for more immediate power).
+
+CBB's Modest GGar TSS
+
+In the typical TSS teams, Gengar is usually defensive, with wow + taunt. However, we shouldn't forget that Gengar has a base 130 sp attack and a base 110 speed, making it one of the fastest and powerful pokemons in the tier, and with sand and spikes, modest Gengar can be a huge threat for nearly any team. With the extra power from Modest, now it can do things such as always 3hkoing Zapdos, and being a much more dangerous threat in general, at the cost of not being able to take things like +1 HP Flying from Salamence, and not being able to take a Crunch (or a Pursuit) from TTar.
+
+The second big thing you will probably notice is that this TSS team by CBB has a Snorlax instead of a Blissey. Boom Lax makes the team even more agressive while still being a solid special defensive wall. It will last less than Blissey, but the idea of this team is not to outlast your opponent.
+
+This team was very succesful in tours, and it became one of the main examples to show how TSS team does not always equal to stall.
+
+McM's Bulky Starmie TSS
+
+Originally built by McMeghan and Ojama, this TSS variation quickly became one of the most standard teams at the time, widely used in Smogon Tours and in ADV tournaments in general.
+
+The idea is simple: you have the TSS big 5, which is one of the most solid possible combinations, and as the last pokemon you have bulky recover Starmie with Psychic instead of Zapdos or Aerodactyl (the other 2 major TSS teams at the moment). Starmie main advantage over those 2 versions is that now you can spin, improving your MU against other TSS teams. Starmie also gives you a secondary Metagross check, so you can more easily avoid strategies that rely on Metagross removing your Swampert for a Salamence or Tyranitar sweep.
+
+Gengar in this team has the classic bulky TSS wow taunt set, an excellent pokemon both offensively and defensively, although more offensive gengar is also perfectly viable.
+
+This team also features a very interesting and annoying TTar set: Rock Slide + EQ + HP Bug + Roar, a set that became very annoying to face with Spikes, being able to phaze Swampert (making it lose 25% for free) while still being able to hit everything hard with its physical attacks. However, TTar is a very flexible pokemon, and a lot of sets are viable here. For example, at a similar time BKC also a team with these 6 pokemons that had DD TTar.
+
+Dug TSS
+
+The fourth variation of the TSS big 5 archetype, this time with Dugtrio.
+Dugtrio works very well here because with Spikes it can easily remove pokemons such as Blissey, Celebi, Jirachi, Metagross or Tyranitar, helping Gengar or a possible CM Blissey set a lot.
+
+As I mentioned earlier, CM teams were also very common, and CM Blissey is very good against those teams. It was a popular set option for Blissey in any TSS variation, but especially in the Dug variation. Note that Blissey didn't have to be CM, it could be anything.
+
+Another benefit of Dugtrio here is that it can kill weakened Starmie, the main spinner at the time, which is not especially hard to do with Spikes + Toxic + Protect.
+
+The rest of the team is not very different than the other TSS.
+
+Earthworm's MagDol
+
+This was the first ever Magdol created, one of the best anti TSS strategies commonly used nowadays.
+The team is solid defensively and offensively, with Salamence + Metagross + Snorlax as the win conditions, benefiting from Skarmory being killed by Magneton.
+
+Starmie variations with Starmie and Swampert instead of Claydol and Vaporeon were also viable.
+
+My Regice CM Spam
+
+The main idea was similar: overpowering the other team with the 3 offensive CMers of the team and removing a weakened Blissey from the game with Dugtrio.
+
+The 2 differences are the Gengar and the Regice, 2 special threats with Explosion, trying to remove special walls from the game.
+
+Most Gengars at the time were bulky sets in TSS teams, so using an offensive Hypnosis + Explosion Gengar lead could easily surprise the other player and remove a special wall such as Zapdos or Blissey from the game, making the CMers an even more dangerous threat.
+
+Regice was also commonly used in defensive teams with Rest + Sleep Talk, Explosion was not common at all, so Explosion could easily surprise a lot of things as well, and it works very well with Dug, because it can remove TTar, Meta and Jira, which are some of the most annoying mons for Regice to face.
+
+My physical offense team
+
+This was one of my favourite and most used teams in 2012-2014, and it features the 3 "titans" of ADV, with Milotic + Blissey as the defensive combo and Starmie to remove Spikes.
+
+Metagross + Tyranitar + Salamence are 3 of the most powerful ADV mons, and they work in a similar way than the CM Spam team but on the physical side. The idea of this combo is to overpower the opposing team, so the last one can clean in the late game. One of the main strengths of this combo is that all 3 mons are really flexible that even if your opponent knows you are using these 3 mons, it is very hard to predict the sets: they all 3 could have mixed sets to break common walls, all 3 could hit very hard and open holes with a CB, or just have bulky leftovers sets that can apply pressure, easily remove anything that isnt a ghost in Metagross case (Explosion), and they can all have set up sets to clean in the late game. They are bulky, they can hit hard, they are hard to predict, and they can all sweep a team if the physical walls and bulky waters are weakened.
+
+Starmie here gives me a spinner, which is important with 5 grounded mons, and gives me a secondary Metagross check.
+
+My most used variation of this team had Toxic Metagross, CB Salamence, and DD TTar, but there are a lot of viable variations.
+
+My Magneton Physical Offense team
+
+Again, the triple titans strategy, but this time with a Magneton to revove Skarmory from the game, which is a big help for the rest of the team.
+
+This team works in a very similar way than the previous team, but now it has another threat in the form of curselax, which benefits from Skarmory being removed.
+
+This team is very similar to Taylor's DD spam team (which was still very popular at the time), but with a more balanced build.
+
+My double dogs team
+
+This was another of my favourite teams of that era (2012-2015), featuring 2 of the most underrared threats: Crocune and CM Raikou.
+
+Gengar lead has a similar role than before: sleep something, and possibly remove a special wall from the game (removing Bliss or Snorlax helps Raikou a lot, while removing Zapdos or Celebi helps Suicune a lot).
+
+Metagross had a mixed set with MM + EQ + HP Fire + Boom, to surprise Skarm and Forry, and Snorlax had Curse + Sball + Boom, giving me a third exploder into the team, and a bad surprise to Skarmory, who would die to the +1 SD or to Celebi, one of Suicune biggest counters.
+
+Crocune was very underrated at this time, mainly because of how good ST Zapdos was, but it was still a huge threat for a lot of the teams, especially with Explosion + Dugtrio being able to remove a lot of the Suicune counters.
+
+CM Raikou was a big threat in the late game, with Substitute and Calm Mind, and generally either Suicune or Raikou ended up sweeping and winning the game.
+
+My Steelix TSS
+
+One of the first ever Steelix that was used. This team features the combo of Wishmence + Steelix, with Aromatherapy Blissey to heal status.
+
+DD Rest Gyara gave me another win condition and a second intimidate, so mons like Curselax would't be able to beat me, since I switch between Gyarados and Salamence all the time, not letting Snorlax win any attack, and if it decides to attack me, it will be at -1 attack.
+
+The rest of the team is like a normal Pursuit TTar stall.
+
+BKC's Jolteon TSS
+
+This team was used by BKC with great success in Smogon Tour.
+It is another TSS variation, but this time introduces Jolteon replacing Blissey.
+Jolteon was generally seen as an offensive pokemon that nearly always tried to BP subs to other team members, but in this team Jolteon role is completely different: it is a very fast special sweeper that can wall other special threats such as Gengar or Zapdos, with access to Roar to phaze, TWave to threaten paralysis to offensive mons, and Baton Pass to scout what your opponent does, with is really powerful with Spikes, because if they send Blissey for example, you will know that they sent Bliss and you will be able to send Tyranitar for example, so Blissey loses 25% to Spikes AND you have the better position because you are pressuring with Tyranitar and they are forced to switch.
+
+Like CBB's approach of TSS, this is a more agressive variation of TSS, and with Spikes, the sand, and 3 of the fastest pokemons in the game, this team is very good at pressuring the other team.
+
+Jolteon instead of Blissey makes the team less durable, but more agressive.
+
+Dekzeh's CM
+
+In 2013 Jabba's CM team had already become outdated, and when CM spam teams in general were at their worst moment, Dekzeh created this team and everybody started spamming it again.
+The main difference with other similar teams was P2. P2 is a pokemon with a very uncommon ability: Trace. This ability allows P2 to copy the other pokemons ability (although it does not work with Intimidate), and the main use of this ability is to counter trap Dugtrio.
+After it traps and kills one of your pokemons, P2 comes in, traps Dugtrio back with its own Arena Trap, and kills it back, allowing you to use other Dug weak pokemons without risking Dugtrio trapping and killing them, making a 4 CMers spam team with Raikou viable.
+
+Other teams:
+Teams that I also want to include:
+
+by Tamahome. First P2 team.
+
+Agility Zap + Subseed BP Cele + Wak
+
+4) After Smogon Tour (2013-2015)
+Sadly, with the release of a new generation, ADV was removed from Smogon Tour.
+However, the format of the WCoP changed to be multi gen, including ADV, so even if ADV wasnt represented in Smogon Tour anymore, there was still an important ADV representation in the smogon tournaments, being in both WCoP and SPL.
+This was also a big change to how ADV was developing because until now, Smogon Tour was the main tournament that had ADV and most people who played didn't play much ADV outside that tour, and they just used the teams that were popular at the time, which is the reason why some teams had a huge impact but only for a short time.
+After ADV was removed from Smogon Tour, the "casual" playerbase that only played ADV because it was in Smogon Tour disappeared.
+This was a very active period in the tier where the metagame continued evolving, and some new interesting strategies were developed.
+I made a selection of teams including the ones I liked the most and/or were the most representative, trying to include most of the playstyles.
+Note that most of the teams from the smogon tour era were still viable.
+
+Unlike in this season, where I ordered the teams chronologically (more or less), I am grouping similar teams together in this section.
+
+My Flygon TSS teams
+
+Flygon has always been one of my favourite ADV pokemons, and after being very popular in the NB era (in part because of the sub blocking spin glitch), it was much rarer in this era.
+
+Flygon was still a great pokemon in my opinion: it is less bulky than Swampert, but it is faster, can be more threatening (especially with Spikes), it is immune to Spikes, it is a great answer to most DD TTars (IB DD TTar was nearly never used) and it is not weak to grass, which also makes it a great switch into electrics because nearly all of them were HP Grass to hit Swampert, which was by far the most common bulky ground.
+
+The first variation was one of my favourite teams to use, and it is similar to the classic Zapdos big 5 TSS team but replacing Swampert with CB Flygon. Zapdos was Sleep Talk Roar, which was extremely hard to kill and walled many threats. This team was used with great success in many tournaments, including the 7-1 run Majin had when we were in Cryos in SPL 5.
+
+The second variation was actually built earlier, but this was the time when I used it more. It features a Suicune set with Surf, Rest, Roar and Sleep Talk (yes, it had no CM), so it worked in a very similar way than Zapdos in the first variation. The Flygon in this version was lefties 4 attacks. This was the team I used in SPL 3 semifinals (although the Bliss had less sp atk in that game, which is why it had very low chances of 3hkoing a Zapdos in that game. I managed to get the roll and kill the Zapdos and eventually win that game with my last Ice Beam).
+
+The third variation has Magneton to remove Skarmory and Pursuit Tyranitar to remove Gengar, making CB Flygon much more dangerous. Magneton also makes the team better against other Skarm teams, because I could get all 3 spikes while they can only get 1 if I trap their Skarmory. This was the version I used the least of the 3, but it was still a solid team.
+
+Remember that at this time, Sleep Talk worked like in modern generations, it didnt reset after switching out.
+
+Pursuit TTar TSS
+
+Pursuit TTar TSS was very common around all this time. You already know the idea: Pursuit Tyranitar removes the Gengar from the game to allow Forretress to spin.
+Forretress is a worse spiker than Skarmory (loses the ground immunity, automatically dies to any decently strong fire attack and has no WW), and it is a worse spinner than Starmie (it cannot really touch Gengar without HP Ghost, and even then you still have to predict to barely 2hko the Gengar). However, it can do both things at the same time, and with the support of Pursuit Tyranitar, these TSS can have a good MU against most of them Skarm TSS variations if you predict well.
+
+One innovation in this archetype was HP Fire Forretress, a tech that would give you a better MU against other Forry teams.
+
+The rest of the team is similar to the Skarm TSS archetype and works in the same way.
+
+My Offensive Starmie TSS
+
+Yes, the same 6 pokemons than earlier, the team that McMeghan built with bulky Starmie to have a better MU against other TSS.
+However this team had 2 major moveset differences that changed how this team worked, and that was key in the success of this team until today.
+The 2 changes are bulky WoW Explosion Gengar and offensive 3 attacks Starmie, a set which was nearly never used back then.
+
+The idea of the Gengar is to lure special walls with Explosion. When they see WoW in a TSS, they all think it is the standard bulky Gengar set, and nobody expects the Explosion, which removes Blissey from the game.
+Offensive Starmie is a monster, with its great speed and great coverage, it can easily clean weakened teams, especially with spikes support and with Explosion Gengar support. It has a similar role than Aerodactyl, but with better coverage and with special attacks.
+
+This team was originally used by KG in a SPL 6 game against Golden Sun, and then used by Golden Sun against Ojama in SPL 7 finals when they were with me in Sharks.
+
+Some time later, UD used a very similar team than this one (he had a more offensive Gengar set with 3 atks boom and a slightly different Blissey set) to break every ladder record back then with he "Beerlover" alt, and then this team became one of the most spammed ADV teams ever.
+
+Jolteon TSS
+
+More offensive TSS versions were also popular in this time.
+Taunt Skarmory was starting to get more usage to beat other Skarmory, and Metagross was starting to get more and more usage in nearly every playstyle, including TSS.
+This version has Suicune, but others had offensive Starmie or Zapdos, and other versions went with the more classical option of Swampert instead of Metagross.
+
+Keep in mind that Metagross was always offensive, the bulky Metagross set that is common nowadays was very rare.
+
+Danilo's Double Spikes
+
+One of the most common anti spikes strategies is trapping the spiker with Magneton to avoid having to play against 3 spikes.
+That strategy doesn't work against this team because after it removes a Spiker, Dugtrio kills the Magneton and then the other spiker just sets up the other 2 layers of spikes.
+
+Suicune Spikes by make
+
+This team, originally built my Make, became one of my favourite teams to use around this era. The team has 2 main ideas: the first one is the classical TSS... but without the sand. The team has Spikes, multiple roars, and a Gengar to block spin and annoy with WoW + Taunt.
+The second idea is the double CM + Dugtrio as the win conditions.
+Dugtrio has great synergy with the 3 main conditions of the team, which are Gengar, CM Roar Suicune and CM Blissey.
+
+This is also the return of the classic defensive trifecta of SkarmBliss + Claydol, which resists every type in the game (because yes, Blissey is like resisting every special attack). Claydol + Suicune is also a very solid defensive combo, because Claydol helps Suicune with the rock attacks, that could pressure Suicune too much.
+
+One of the biggest innovations of this team was Explosion Claydol. Claydol was at this time very rarely used, with Swampert being nearly always used in its slot. What was never used was the move Explosion in Claydol, nearly every Claydol had Rest or IB instead. Explosion Claydol gave the team a surprise Explosion, which becomes even more powerful with Dugtrio being able to revenge kill bulky things like Celebi that could have survived the Explosion.
+
+Bulky CM Roar Suicune wasn't the big innovation or discovery, it is a classic set after all, but in a meta where nearly every Suicune was either crocune or offensive, CM Roar cune was very powerful in situations like CM wars, where people tried to set up multiple CMs against Suicune... only to be phazed away and then lose the game. Bulky CM Suicune has always been one of my favourite pokemons to use, and definitely one of my signature ADV pokemons.
+
+Another interesting combo is Skarmory + Dugtrio, because Dugtrio can trap Magneton, and if you can predict a Magneton switch to try to trap your Skarmory, you could switch into the Dugtrio and trap the trapper, completely turning the MU and possibly the game.
+
+This architecture is one of the best in ADV OU. It was very good in 2013, when this team was created, and with small variations it is still very good today, in 2023. In fact, I used this team with CM Salamence > Gengar against ABR in the 2021 SPL, and this team with Aromatherapy Blissey and Rest Rain Dance Zapdos instead of Gengar was the team I used in my run in 2022 in the ladder to beat all the ladder records (ELO and GXE).
+
+McM's Double Special Wall Magdol
+
+This team was used with great success by both Ojama and McMeghan.
+There are 2 interesting things about this team. The first one is that it is one of the first good magdol teams. It is a Spikes team that hard counters other spikes teams.
+The second thing is that it has 2 special walls. If Blissey falls for any reason, the team still has a Snorlax to wall special threats.
+
+This was a very interesting team with creative solutions to beat a lot of common teams of this era that usually have a good MU against standard defensive teams.
+
+My Forry Skarm + Double Special Walls
+
+A team I used in a very important wcop game against Conflict that mixes the ideas of the double spikes archetype and the double special walls idea.
+The Forretress of this team uses a EV Spread designed by McMeghan that allows me to kill a Curselax with Explosion + Dugtrio after a curse, with HP Ghost to hit Gengar.
+Snorlax had Curse + Fire Blast + Boom, and Blissey was CM.
+
+My Steelix anti Spikes team
+
+An evolution of my old Steelix team, a team I built in the semifinals of wcop to beat Fakes. The idea was destroying any spikes related strategy he could bring, and end up winning with Snorlax.
+
+Snorlax had Curse, Rest, EQ and Sball without STAB. The idea was to beat Gengar AND Tyranitar at the same time, because that was the kind of team I was expecting to face.
+
+Magneton Physical Offense
+
+Magneton removes Skarmory, which allows physical threats such as Metagross, physical Salamence, Sub SD Salac Berry Heracross or Snorlax to be much more dangerous.
+
+Heracross has always been a really dangerous pokemon in ADV. It has always had 2 problems though: one is Dugtrio, and the other is Megahorn 85% accuracy. With a Sub + Salac set, it will outspeed Dugtrio and the boost, and in a lot of situations it will be able to end the game unless Megahorn misses.
+
+Variations of Magneton physical offensive teams posted in earlier sections were still used.
+
+GS Offense
+
+In 2013, Golden Sun started to develop a playstyle that was very succesful, winning a lot of important tournament games, including a 5-2 record in SPL 4 and a 8-2 record in SPL 5, using similar teams in all his games.
+In a metagame full of sp def restalk Zapdos, Golden Sun was the first player to use Modest Zapdos, which was a big change and made Zapdos even more dangerous: it was still the PP stalling machine that never died with restalk, but now it was also hitting even harder.
+Another thing that was in nearly all his teams was Houdini the Metagross, which was usually CB and it would remove at least something from the game nearly always.
+
+Zapdos has a great synergy with Tyranitar, Metagross and Aerodactyl, because it walls every bulky water and could PP stall them. Swampert can only EQ 8 times against this archetype.
+
+I picked 2 of the teams he used as examples.
+The first team has the triple combo of TTar + Meta + Aero, which can be devasting, with Restalk Zapdos + Regice hitting hard with their special attacks.
+The second team has CM BP Celebi, which made restalk Zapdos even more dangerous. P2 makes another appareance here. This is one of the first good teams with Zapdos + Dugtrio, one of the best offensive combos nowadays.
+
+These teams were a change from what had been a very TSS focused metagame until that point, with the exceptions of the moments where CM offensive teams were spammed. Both special offensive teams (with Dugtrio and/or explosions) and more physical teams (with TTar, Metagross, Aero, Mence, etc) started becoming much more common.
+
+My Zapdos + Dugtrio + Gengar Special Offense
+
+One of my favourite Zapdos + Dugtrio teams, built in July 2013.
+The idea is pressuring with the powerful special threats, with physical TTar pressuring the other team, and a Dugtrio removing special walls.
+
+The main innovation of this team is the Dugtrio set. Since I am not using Spikes in this team, I thought about a different idea: using a bulky Dugtrio that would always survive the IB from Blissey, so I can gurantee removing it (unless it has the very rare Counter). That way both Zapdos and Gengar would be much more dangerous.
+
+Zapdos was Sleep Talk with a Modest nature. Nowadays, if you see that team of 6 pokemons, the first thing you think is "the Zapdos must be offensive", but at this time, there was not reason not to use Sleep Talk Zapdos. It was just very good, and people didn't really use other sets, although it is true that people like McMeghan did build some teams with more offensive Zapdos sets.
+
+This is another archetype that is still used nowadays (with offensive Zapdos, of course, because Sleep Talk is no longer viable in non defensive Zapdos sets).
+
+BKC's Zapdos Dug Spikes
+My Zapdos Dug Spikes
+
+BKC used this team in the finals of the wcop against Tamahome, with a very offensive TSS variation that had Zapdos + Gengar + Dugtrio without a Blissey. This teams works in a similar way than the last team, with the Zapdos + Gengar + Dug combo, but with a more agressive approach using spikes instead a special wall, forming a very Superman like team. One of the reasons why Superman stopped being effective was Offensive CM Suicune being nearly impossible to stop for it, but this team with Gengar, Dugtrio, ST Zapdos and Sp Def Skarmory has enough weapons to beat special threats without a Blissey.
+
+My variation was a bit more conservative, and replaced Gengar instead of Blissey, which is more similar than the classic Dug TSS, but with Zapdos instead of Gengar. Non ghosts TSS variations were rare at the time, but it worked in this variation because between Zapdos, Toxic Skarmory, FT Blissey and Dug, it could beat the most used spinners with good prediction.
+
+Regice Special Offense Undisputed by Undisputed
+
+Special Balance was getting common, and some newer players like Undisputed were building a lot of teams with this architecture.
+
+This team has restalk Regice, which was used sometimes in this era, mainly because unlike Blissey it could hit very hard with its IB at the cost of having a less reliable recovery. Dugtrio being able to kill some of its biggest counters made Regice even more dangerous.
+
+The Dugtrio in this team is Adamant, because the extra power helps it getting some kills that it would otherwise not be able to get, which could be important in a team without Spikes.
+
+Starmie was the cleaner of this team, and also benefits from Dugtrio and Explosion Gengar removing a lot of its counters. Offensive Starmie was becoming more and more common.
+
+Other popular variations of this playstyle had things like CM Wish Jirachi, or CM Suicune, or Celebi, or RD Kingdra (which is good with Dugtrio because it removes Ttar, so it cannot reset the rain)
+
+]V[ajinTupacz Quadruple CM Balance
+
+More balanced special teams also worked really well, and this team Majin used in SPL 4 is a great example of this.
+
+CM Seed Celebi is a very good pokemon, both defensively and offensively, but it is completely walled by Tyranitar, and it can barely touch Metagross. Dugtrio can remove those pokemons from the game, especially if they are a bit weaker because if Leech Seed.
+
+Dugtrio removing Tyranitar also helps CM Jirachi, since it has Psychic + Fire Punch (Thunder + Ice Punch wasn't used much in this team, although I think it would have worked well) and can't do much to Tyranitar.
+
+### post 8907648 author=M Dragon url=https://www.smogon.com/forums/threads/adv-teams-through-the-ages.3687203/#post-8907648
+My balanced Mixmence Aero team
+
+As I said earlier, both Tyranitar and Salamence are very flexible and can have many different sets, which makes them more unpredictable. In this team, I was using double CB rocks (TTar + Aero), with Mixmence to surprise Swampert (HP Grass was not common at all at that time). There was a reason why Mixmence wasn't very common at that time, though (or at least the standard mixmence set nowadays), and it is because sp def restalk Zapdos was everywhere, and it completely walls it. For that reason, moves like Rock Slide or even D-E were viable and used in Mixmence. In this team I was using a mixmence with Silk Scarf to lure a false CB, D-E, FIre Blast, HP Grass and Brick Break. The idea was killing by surprise, or at least weakening, things like Metagross, Tyranitar, Skarmory or Swampert
+
+Other than that, there is not much more to say about this team, it has sets I used a lot at this time, such as CB TTar or Protect 3 attacks Swampert.
+
+My Aero offensive team
+
+A more offensive take on the last time, with a Hypnosis + Focus Punch to lure Tyranitar and Blissey, and an offensive CM Suicune set, to take advantage of all those non Bliss teams that relied on SpDef Zapdos to beat regular Suicune.
+This is a team I used a lot in tournaments.
+
+Triangles EndPert Aero Offense
+
+Originally created by Triangles and used in SPL 5, this team had a big influence in the meta, featuring 2 mons that weren't very popular at the time but that started to get more popularity.
+The first one was Mixmence, a pokemon I have already talked about earlier. The second one is Endeavor Swampert, a pokemon that could easily abuse slower mons to set up subs and punish everywith with Endeavor + Sand + boosted Hydro Pumps.
+
+This team has a very offensive structure, with Metagross (Agility in this team), Taunt physical Tyranitar, Mixmence, Self-Destruct Snorlax and the Endeavor Swampert pressuring the other team to clean with Aerodactyl in the late game. All 6 pokemons in this team can be a big threat, and they can all easily pressure the other team.
+
+Danilo's Wish Bslam Jirachi
+
+This is the first team that has Wish + Protect + Body Slam Jirachi, better known as the Danilo Jirachi at that time, although Astamatitos was the creator of that tech.
+Wish Jirachi could easily take nearly any special attack (Moltres or Charizard weren't used), and heal itself or the team with Wish. Protect also let it scout the attack your opponent used, which could make the life of choice users miserable.
+
+TTar + Flygon + Aero by Undisputed
+
+Another very offensive take by Undisputed.
+Tyranitar + Flygon + Aero is a very solid combo that heavily benefits from the sand. CB Tyranitar can open holes in the other team, with Flygon toxicing bulky grounds, making Ttar and Aero easier.
+TTar in this team has Double-Edge instead of HP Bug for more immediate damage against Swampert, while Celebi is kept in check with both Flygon and Aero.
+Regice and Zapdos are using very offensive sets. Zapdos is modest and has nearly max sp atk, while Regice has no bulk and no recovery, with Explosion to lure Blissey, helping Flygon or Zapdos a lot.
+Swampert + Flygon also work very well defensively together, because Swampert covers HP Ice electrics while Flygon covers HP Grass legendaries, something very important when Zapdos was one of the most used pokemons, and it was a big threat, especially when your Zapdos doesn-t have much bulk and your special wall has no recovery.
+
+SD Heracross Offense by Undisputed
+
+This team features SD Focus Punch Heracross. At the time this team was created, no Skarmory used Drill Peck. Every Skarmory was Protect + Toxic or Rest. For that reason, a Heracross set with SD + Focus Punch started to get popular, because it could easily destroy Skarmory, and a lot of defensive pokemons in general.
+
+Undisputed used this team to beat McMeghan in a wcop game.
+
+There were many variations of the archetype used in the last Aero teams. You could use different special walls like Blissey or Snorlax or Regice or Wish Jirachi, you can also use different combinations with Tyranitar, Metagross, Salamence, Aerodactyl, Zapdos, Flygon, etc
+
+My Milotic Flygon Balance
+
+With all those offensive teams, I felt that Milotic balance could be a good pick again, so I started using these 6 mons with some slight set changes in different tournament games with great success.
+
+Milotic walls nearly every mixed attacker, bulky Starmie spins and helps me protecting Milotic against a possible Metagross Explosion.
+
+The Tyranitar, Salamence and Snorlax sets changed, but my most used variation of this team had mixed Rock Slide Mixmence, Pursuit TTar and Curse Rest Boom Snorlax. The idea is that Tyranitar removes Gengar, Snorlax can remove Celebi, and Salamence can surprise Zapdos with Rock Slide.
+
+Triple Trap team
+
+The famous triple trap team. This is an evolution of make's trap team, now with Pursuit Tyranitar to remove Gengar and allow Snorlax to run a set with Curse + Rest + Sleep Talk and act as a physical Crocune.
+
+The other difference is that it now has Magdol, to remove the Spikes after you have trapped and killed the Skarmory.
+
+Other teams:
+Teams of this era that I liked using and are not included above
+
+Donphan TSS with Restalk Suicune
+
+Double Trap Spikes
+
+P2 Team
+
+--
+
+Everything was going to change in July of 2015. Suddenly, people noticed that in PS Sleep Talk wasn't working correctly: if you used Sleep Talk and then switched out, the turn wasn't counted and the pokemon still had to sleep 2 more turns. This made Sleep Talk pokemons much worse, and it was a big hit to all the teams that relied on ST Zapdos (as I said nearly every Zapdos set was ST), and all the teams with a Sleep Talker in general.
+However, like it had happened with RBY and GSC, we found out that we were simulating the wrong mechanics, and this is how Sleep Talk really works ingame. It wasn't as big as in RBY (where the metagame changed drastically due to normals not being able to be paralyzed anymore), but it affected mons like Zapdos a lot: it won't be the immortal PP stalling machine again, or at least, it won't be as good as it was before.
+There were 2 immediate effects: the first one is that the metagame became more offensive: since bulky restalk strategies were no longer viable without a cleric, a lot of the Zapdos dropped rest and went with more offensive sets like Baton Pass.
+The second effect was that Toxic became much more powerful, because with many pokemons like Zapdos now dropping Rest, it was much more effective in general.
+
+Immediately Skarmory became even better for this reason. Skarmory was everywhere and a big number of games were Skarmory vs Skarmory.
+
+Not much time later some new strats appeared to counter Skarm and Toxic in general. The first one was the peak in popularity of magdol teams to have a good MU against skarm teams.
+The second one was Refresh. Refresh wasn't really used before 2016, and it was a great answer against Toxic. Swampert could no longer restalk to beat Toxic, but it could run Refresh instead. Same with Claydol, suddenly Claydol was beating Toxic Skarm again without Rest, and the standard set of Milotic changed to Surf + Toxic + Recover + Refresh.
+
+Then pokemons like Moltres or Breloom that were very rarely used started getting more usage, to the point of becoming new OUs.
+
+There were many good teams built in 2011-2015, and covering all of them is impossible. The goal of this archive is covering the teams I liked more or I consider to be more relevants. It is very possible that I have forgotten about some team.
+
+Another important change was that starting from 2014 the replays of the major tournament games are public (in text format), and therefore it is easy to check for old tournament replays, something that is very hard to do for older replays. And starting from 2015 there are replays of ADV games in the PS replay format.
+
+The goal of this archive was to cover the history of ADV in the "obscure" years when there is little information left.
+
+It is possible that in the future I will continue this guide covering some more years after 2015.
+
+### post 8909604 author=Deleted User 465389 url=https://www.smogon.com/forums/threads/adv-teams-through-the-ages.3687203/#post-8909604
+love these posts omg
+good job!
+
+### post 8910078 author=EG Jhonx~ url=https://www.smogon.com/forums/threads/adv-teams-through-the-ages.3687203/#post-8910078
+Hey M Dragon, amazing post, This is really useful because it explains the ADV Metagame evolution during the years, its impressive how teams feature different stuff and how they evolved during the time to counter the metagame, Articuno is something that I never seen but it was used for good reasons, I'd like to support this thread with this old Stall team that my friend Make created in 2005 or some year of that time.
+
+Standard Stall - Make
+
+This team is something that was created many years ago, in NetBattle for what the owner told me, when he was teaching me the art of stall and his building process, he explained me that a good stall team use 2 or 3 offensive tools, for offensive tools its not forced to be aggresive but things that can wall and press opposing teams, a full stall team dont work because it get overpressured and ends being broke by offense, Gengar is the lead of this team because it counter leads like Salamence, Skarmory, does good vs Zapdos and the set he ran on this helped vs some Tyranitar, Gengar is a pokemon considered "Offensive" here because it pressure lot of things and supports as spin block, Blissey here act as SpDef wall but on his version it had Calm Mind to act as Offensive while walling and end sweeping in late game or preventing Calm Mind Jirachi to win vs this squeleton, Skarmory helps vs physical stuff while set Spikes and Whirlwind, Claydol acts as a soft rock resist, it removes the hazzards and can hit Gengar with Psychic, his Claydol had mixed defenses so it dont get pressured too much, Dugtrio here is the third offensive tool the team had since it helps to trap kill Metagross, Tyranitar, and other stuff, he told me that Stall cant stand too much vs certain threats, but sometimes u need to sacrifice something in order to trap with Dugtrio and remove the threats so the team works good, finally Suicune CM Roar since it helps to wall and end being a powerful threat.
+
+During the course of years I ve seen this team spammed and lot of different versions, even saw once this squeleton but every mon had offensive sets and still worked good, I think this team must be on this thread since it shows the effectiveness this have and because its very common still, sorry my bad english, tried to remember all what the creator of this team told to me.
+
+### post 8977665 author=Hydra089 url=https://www.smogon.com/forums/threads/adv-teams-through-the-ages.3687203/#post-8977665
+M Dragon said:
+
+d) The German Metagame
+Unlike the Spanish Metagame, the German Metagame was very similar to Smogon's. In fact, the only differences were that at first Celebi and Jirachi were banned.
+For that reason, german players had either different teams for german/smogon or teams without them built to be used for both metas, because unlike most spanish or italian players, german players used to play in Smogon too. For that reason, we could also consider this part of the "Smogon metagame" as well.
+Luckily, there is a huge archive of german teams mantained by players like Vertigo.
+
+Some relevant german teams at the time:
+
+Vertigo's CM Bliss TSS
+https://pokepast.es/a375da3005e8b7d0
+
+This is a good example of a classic german TSS, featuring the solid defensive combo of Skarmory + Claydol + Blissey that has already explained before with the offensive power of modest Hypnosis Gengar, DD TTar and double CM (Suicune and Blissey) supported with Spikes.
+
+CM Blissey was a pokemon that was popular in this german archetype, and it allowed Blissey to be a threat, besides of walling nearly every special attack. There were 2 main CM Bliss sets used, one being the classic boltbeam, with its great coverage, being able to hit Zapdos and Salamence with Ice Beam as well as Skarmory and bulky waters with Thundertbolt. The other CM Blissey had Flamethrower + HP Grass, and it was able to hit hard pokemons such as Metagross, Tyranitar or Swampert.
+
+In this particular team, Vertigo opted to go CM Blissey in the lead position with a mix of both: Ice Beam and HP Grass. At this time, Sub Tyranitar (especially tyraniboah) was a very common lead, and it would use Blissey to safely Sub, since Blissey usually cannot break TTar's sub, but that is not the case with HP Grass. Ice Beam hits another very common lead hard: Zapdos. The second reason to use HP Grass in this team was luring Swampert: at this time, cursepert was relatively common, and HP Grass IB CMBliss is a great lure for it.
+
+Finally, this team also features a more "modern" set of Gengar, being Modest with DBond to lure and kill mons such as Claydol that think that will kill the Gengar to spin later. Hypnosis was a very common move at the time in Gengar. Modest Ice Punch allowed Gengar to hit Zapdos, the most common sleep talker, very hard.
+
+There were variations of this team, mostly replacing Suicune with Zapdos, CM Celebi or Dugtrio
+
+Overall, this team represents very well the agressive TSS style that was popular at the time, with a different approach than Superman.
+
+Peter Pan's main team
+https://pokepast.es/35d237136a776484
+
+This was a good example of a german balanced team, featuring CB Metagross + DDMence, with Claydol to remove Spikes, restalk Heracross to take special hits and hit hard, and 2 bulky set uppers: CMCune and CurseLax.
+
+The idea is simple: CB Metagross starts the game hitting hard and ideally luring the bulky water or doing a lot of damage to Skarmory, while Curse Fire Blast Snorlax lures and weakens Skarmory, so DDmence can win in the late game and Heracross is a much greater threat.
+
+Another variation of this team had SD Heracross instead of Restalk Skarmory, and the team worked in a similar way. The main objective of this version of the team was weakening Skarmory with Fire Blast Snorlax, CB Explosion Metagross so SD Heracross can be a big threat. Keep in mind that at this time, Skarmory was impish max defense with Rest and with HP Flying.
+
+This is a physical offense team that tries to avoid using Magneton with good success at the time.
+
+SD Celebi team
+https://pokepast.es/c6dcfd9407abf63c
+
+A more offensive team featuring Magneton to trap Skarms and Celebi to BP the SDs to one of the physical set uppers of the team (DD Salamence, DD Gyarados and Agility Metagross), or even to Swampert.
+This team also features one of the staples of a lot of classic german teams at that time: restalk Swampert, a pokemon that can wall a lot of threats and easily recover thanks to rest, while being able to continue attacking with restalk.
+
+CM BP Celebi
+https://pokepast.es/5340ec33b6a73295
+
+Another kind of offensive team at the time, featuring CM BP Celebi, sending the CM boosts to special threats such as Gengar, restalk Zapdos or Tyraniboah.
+
+Tyraniboah was by far the most common Tyranitar set in the smogon metagame in the first half of the NB era, and the reason was that it was one of the few pokemons that was able to breat the famous defensive core of Skarmory + Blissey + Claydol: with 101 HP subs, Blissey cannot break TTar's subs, allowing TTar to freely Focus Punch Blissey into oblivion, while being able to hit Skarm and Claydol very hard with Thunderbolt and with its STAB Crunch.
+
+Balanced Dugtrio team
+https://pokepast.es/8799fae8dd447012
+
+A more special based approach of a balanced at the time.
+Dugtrio is the key of this team, being able to trap pokemons such as Metagross, Tyranitar, Heracross or Blissey, that are annoying for the core of special threats of the team: restalk regice, CM Jirachi and CM Celebi.
+
+This team was also built to have a very good matchup against the classic TSS teams such as Superman, with Wish Jirachi + Impish Skarmory + Claydol hard walling Aerodactyl and Jirachi + Celebi + Regice walling Gengar variations. TSS teams at the time also had trouble switching in against Regice, especially with Dugtrio trapping Metagross / Tyranitar / Jirachi.
+
+As you probably have noticed, most of the teams from this era have at least a sleep talker, and most of the defensive pokemon, such as Skarmory and Claydol nearly always had Rest, something that made this metagame overall slower when compared with current metagame, even if the archetypes are similar to what could be used nowadays.
+
+Other teams:
+
+Double Trap
+
+Jira TTar Mence Balance
+
+Magneton Physical Offense with Spikes
+
+Spikes immune stall
+
+e) The French Metagame
+French metagame banned Jirachi, Celebi, trappers (Dugtrio and Magneton) and Spikes + Dusclops.
+It was a very stally metagame where every team had Wish, Spin and a Cleric.
+
+2 example teams (credit to McM): https://pokepast.es/a6217617cb089a26
+
+f) Other Metagames
+Brazilian players used to play with the Smogon rules. At the moment I don't have much information about any "different" meta the brazilian community could have.
+
+Japanese players used to play with official Nintendo rules, aka level 50 doubles (so pokemons such as Tyranitar or Dragonite were banned).
+When japanese played 6vs6 meta, they used to ban Heracross.
+
+---
+
+Note: I would like to thank Astamatitos Fear Loki Make McMeghan Sharingan Bomber. Pasy_G and Vertigo for their help in the Netbattle part
+
+2) ADV is back! (2010)
+With the start of DPP in 2008 many things changed.
+The creators of Netbattle left the project and Netbattled sadly died. The main simulator in the DPP era (shoddy) did not support older generations, so there was no simulator to play ADV.
+Fortunately, someone remade Netbattle to include gen 4 while fixing some of the big bugs old Netbattle had (mainly Substitute blocking Spin).
+
+The second important thing that changed in DPP was that more players from local communities started to play in smogon, and the "Smogon tiers" slowly became the standard for most communities: while in the past each community had their own rules, in the DPP era most communities started adapting smogon rules and people from those communities started playing in Smogon as well.
+
+Because of that new simulator that supported old gens, called Netbattle Supremacy, old generation were included in the first SPL.
+SPL 1 was very important for the development of modern ADV, because some of the Netbattle ADV top players were still playing and it was a great opportunity for players that had started playing DPP to learn ADV.
+
+In my case, I had grown a lot as a player since the Netbattle days and I also had a lot of success in DPP, especially in the shoddy ladder. However, since I was used to a metagame with no legendary pokemons (and I hadn't played ADV in a very long time), the adaptation wasn't easy for me.
+
+About the metagame, there were mainly 2 huge changes. The first one is something I have already mentioned, and it is that Substitute didn't block Rapid Spin anymore. That made Gengar, and especially bulky variations of Gengar with WoW very common in defensive teams in this era, which at the same time made physical offensive worse, since WoW Gengar is a very annoying pokemon for that kind of team.
+
+The second change is what I consider to be the main difference between classic (Netbattle) ADV and modern ADV, and it is Special Defensive Skarmory.
+SpDef Skarmory changed everything, and it made a lot of old ADV teams "useless". The reason is that a lot of those teams relied on strong special attacks, like Fire Blast Snorlax or even Hydro Pump Swampert in order to deal with Skarmory, and those attacks don't do enough damage to SpDef Skarmory, who can just easily take those attacks while it Spikes and uses Whirlwind.
+But... why wasn't SpDef Skarmory a thing in Netbattle? What changed in 2010 that it became so popular?
+In ADV, physical attackers have several advantages over special attackers, including the existance of Choice Band and the fact that there is no equivalent of Blissey in the physical side, a pokemon that can wall nearly every special attacker. What was the closest thing? Skarmory, a pokemon that also resisted every physical type but 2. Therefore, Skarmory has always been used as the "physical Skarmory" (the famous Skarmbliss combo).
+And that was also the case in DPP, Skarmory was used as the physical wall. So... what changed? When was Special Skarmory first used and why?
+Skarmory was first used in DPP, in a suspect test where powerful pokemons like Latios, Latias, Skymin, Deoxys Speed or Manaphy, in order to check those mons (especially the former 3), and it worked very well. But not only that, people discovered that some pokemons that were annoying for Skarmory, such as Vaporeon, were much more manageable and setting up spikes against them was much easier, while still being very good against physical attackers.
+After that, people also started using that Skarmory in ADV, completely changing the metagame forever.
+
+I will divide this section in 2 parts: the first part will cover SPL, and the second part will cover the rest of 2010, including the ATQ tournament, which was was a very big ADV tournament that happened in summer of 2010.
+
+SPL
+As I mentioned earlier, SPL was the first tournament that included ADV in a very long time. I will include some of the most important teams that were used in the first SPL.
+This is also the first time that tournament ADV games are played in a simulator without the Substitute blocking Spin bug.
+
+G80's team.
+This is a very good example of a balanced team that is played agressively and that was very succesful at that time.
+This team was originally built in the Netbattle era, but some moveset changes made this team a really good team in this era.
+
+Restalk Skarmory was already a very good pokemon in Netbattle, but with the "discovery" of special defensive Skarmory in DPP, this Skarmory set became nearly unkillable unless you had a Magneton, easily setting up spikes and phazing everything, resting when needed. Mixed threats like Fire Blast Snorlax that used to threaten the old standard Skarmory became set up fodders.
+
+Blissey is as good as always and complements Skarmory very well, easily walling most special attackers and giving Wish support to the team.
+
+Nothing has changed with Zapdos as well. It is still the same stalling machine with restalk.
+
+Restalk Swampert is the defensive glue of the team that stops a lot of physical threats. Nothing has changed as well.
+
+Gengar is the pokemon that benefited the most from the Spin bug being fixed, because it is a pokemon that fits very well in a lot of TSS and spikes teams in general that want a fast pokemon that can pressure and clean in the late game.
+
+Salamence counters Heracross and Celebi, and hits everything very hard. Spikes and Wish support help CBmence a lot.
+
+It is also worth noting that this team has 4 pokemons immune to spikes, so opposing spikes are not a big problem for this team.
+
+This was one of the teams I liked the most at that time.
+
+Loki's team
+CBMetagross lead with Rock Slide threatens a lot of common leads. A big benefit of leading with CB Metagross is that you can double switch to cloyster on the Skarm / Forry / Swampert / etc switch-in to get free spikes.
+The main difference of this team with other similar teams is that it uses Cloyster instead of Skarmory to beat the Magneton teams, as well as allowing the team to spin.
+Other than that it works in a similar way than the last time: Spikes, restalk Zapdos, Wish Bliss, Hypnosis Gengar, a heavy hitter (Metagross instead of Salamence)
+
+Goofball's team
+Another kind of TSS, with 4 explosions and 2 set uppers that try to sweep in the late game: CMCune and DD Ice Beam Tyranitar.
+
+While the other TSS teams I have posted until now try to weaken the opposing team with passive damage to allow a sweeper or a heavy hitter clean in the late game, this TSS follows a different approach: it also tries to lure the counters of the late game set uppers with Explosion.
+
+Crocune (CM + Restalk Suicune) is one of the hardest pokemon to beat in the game, with its great physical bulk and its ability to boost its special stats with Calm Mind, even while sleeping. But not only that, it is also a stalling machine with Pressure, being able to easily PP stall even electric Pokemon while setting up.
+
+SBK's team
+This was the archetype of team that SBK used in a lot of his games with great success.
+While most of the succesful teams were variations of TSS or spikes offense in general, this team follows a completely different approach: Dugtrio.
+
+Dugtrio is the most important pokemon, because of its ability to remove Blissey for Raikou and Tyranitar for Celebi, as well as some flying resists for CBMence, such as Tyranitar or Metagross.
+
+Celebi is a great support mon that can also sweep in the late game with Calm Mind.
+
+Mixed Metagross + CBMence is also a very interesting combination, with Metagross luring both Skarmory (Thunder Punch) and Swampert (HP Grass), while being to explode on bulky waters such as Milotic.
+
+Raikou is the late game sweeper of the team.
+
+ATQ Tour + NB Supremacy
+After SPL 1 ended, the interest in ADV didn't die and there were a lot of people such as Astamatitos, Fear, ]v[ajinTupacz, Tamahome, Darkestmoon, Marik, etc that were active in Netbattle Supremacy and played a lot of ADV.
+Also, in the summer of 2010, there was a big tournament in ATQ, with a lot of older players and newer players.
+
+This was my main team at this time, although I also used G80's team a lot too.
+
+This team was based on the archetype SBK used in SPL, with the CBMence + Celebi + Dutrio combo.
+
+Milotic was my most spammed pokemon in the NB era, and that wasn't going to change in the first team I built in this era.
+
+This team was built around CM Leech Seed Psychic Celebi.
+That Celebi set allowed it to act like the support set with Leech Seed, but at the same time it can threaten a sweep with Calm Mind.
+With the combination of Calm Mind and Leech Seed, it can beat a lot of set uppers, such as most CMers or Curselax.
+
+This set works extremelly well with Dugtrio, because it removes most of the pokemons that give this set a lot of trouble, such as Tyranitar, Metagross or other CM Celebis.
+
+Mixed Snorlax is the special wall of the team, and can also help weakening Skarmory to help CM Seed Celebi. Snorlax can also lure bulky things like CMCune or Celebi with Selfdestruct.
+
+Starmie was probably the best spinner at that time, being able to beat the common Gengar with Psychic. Dugtrio worked well with Starmie because it could help beating Dusclops.
+
+Typical TSS team in this era, and the one I used the most at this time.
+The most important change compered with older TSS teams is Gengar: it took Dusclops' place as the most used spin blocker and was in a lot of the Spikes teams.
+
+Gengar sets in TSS teams also became a bit more defensive, with EVs that allowed Gengar to surive a hit from a +1 Gyarados or even from a +1 Salamence.
+
+While Hypnosis was still the most common Gengar set, WoW was getting popular as well, and even some people started running both Hypnosis and WoW at the same time.
+
+Another Gengar set that got very popular, especially in 2011 was WoW + Taunt, because Taunt prevented Recover, Softboiled and Rest, which helped weakening special walls, especially if gengar burns them in the switch and with sand and spikes support.
+
+Seymour's team, winner of the ATQ tournament.
+
+This was the main team Seymour used during the ATQ tournament.
+The team is built around CB Tyranitar, and every pokemon supports it.
+
+Skarmory sets up the spikes, Celebi acts as a Cleric and has Perish Song to beat any last pokemon set upper, Starmie sets up reflect and spins, and Blissey can heal Tyranitar with Wish.
+
+Taylor's DD team
+
+This team was originally built by Taylor, and is based around the idea of DD spam with Magneton support.
+
+The general idea of this team is to pressure their bulky waters with 3 DD set uppers + Metagross, so one DDer weakens their bulky water or their physical non Skarm wall (Skarm was trapped by Magneton), so the other DDers can sweep later in the game.
+
+HP Grass Metagross + Magneton is very hard to deal for standard DD teams, and usually allows you to weaken their Swampert and/or lure their Zapdos.
+Weakening Swampert means that DD Salamence + DD Tyranitar become much threatening, and exploding on Zapdos removes the best DD Gyarados counter in the game.
+
+Curselax + Magneton was the secondary win condition of the team, and it worked very well with the triple DD, because the best Curselax counters were either set up bait for the DDers (Celebi) or were easily weakened by the DDers (Metagross or Tyranitar)
+
+This archetype was used a lot in the next years, having a lot of tournament success.
+
+Click to expand...
+
+Beautiful post here. Really enjoyable read, I'd like to see.if I can find something similar to the DPP era. As that's when I got into competitive outside my local area.
+
+### post 8978849 author=InfinityPhnx url=https://www.smogon.com/forums/threads/adv-teams-through-the-ages.3687203/#post-8978849
+It's amazing to find that this post was made this very year, almost two decades after the release of the original Pokemon Ruby and Sapphire games. As a lover of the saga, it doesn't stops surprising me the fact that people still thinking and creating and keeping the game alive. Sadly, I got this late to the party, at least to what competitive pokemon refers, but, for someone like me who loves understanding the "whys", and loves understanding the thinking process that makes the meta evolve, and it's struggling to learn the art of team building, this kind of post is like a treasure. Thanks M Dragon.
+
+### post 9236173 author=Taylor url=https://www.smogon.com/forums/threads/adv-teams-through-the-ages.3687203/#post-9236173
+I have read this and was very interested to see how ADV 200 was before I joined in 2005. Maybe that is why I never knew Raikou to be the one to watch out for, as by the time I started playing TSS and Celebi + Jirachi were everywhere with different kinds of builds and strategies. Most of my teams are gone and I really made memorable DP/BW teams where as Gen 3 was my first generation so I could only work with older veterans like ipl/goofball to create newer models of what already existed. Like triple dance 2022 I even dropped Magneton and Gyarados for Jirachi and Aerodactyl because Skarmory tends to run Protect and not Rest, it's not hard to chip away with the biggest hitters anyway. I would like to try TTar Metagross Dragonite Gyarados Salamence but the 6th Pokemon would have to be Magneton lol
+
+Anyway there was a really cool team made by one of the [azn] players, Loki or someone like that, with 5 pokemon as I remember being Gengar Zapdos Flygon Skarmory Swampert. Giga Punch would talk to me about how Articuno had a place on stall with Jirachi Gengar Skarm Zapdos and I believe Suicune? We knew DDTar was too much for Suicune alone when there was a Salamence waiting to scout for your Ice Beam power, and with newer players making innovative offensive teams always changing we referred to a team named INSTYLE and replaced the 6th Pokemon with Articuno.
+
+Originally we used Articuno Jirachi Suicune Zapdos Skarmory and Gengar and it was a good team but Calm Mind and DD sets were on every single team and they could not be stopped 100% of the time due to flinches and critical hits. Sometimes we would get swept by 3 attack Jirachi with CM or Raikou would beat Jirachi and Zapdos was too low on HP to phaze and so we had to rebuild. We also had no answer to hazards so we needed more Spikes and Sand immunity and a little extra backing in type synergy and not so much bulk itself.
+
+Given we both played a lot back then and mingled with other players and knew about the popular core of Gengar Zapdos Flygon Skarmory Swampert (I can't remember the original 6th pokemon, maybe Tyranitar?). We thought "hey let us try Roar Articuno with a more defensive Gengar, and swap Jirachi out for Rest + Sleep Talk Swampert as the only Spikes weak Pokemon with Rest and Sleep Talk. Protect Pert was common and the only Pokemon where you would really see Protect used. Then in place of Suicune we added Flygon because Swampert needed someone who could check Hidden Power Grass, and vice versa for HP Ice. This had been done before but you need a special sponge like Zapdos and Articuno for safely bating out your opponents Hidden Power.
+
+Toxic, Fire Blast and Substitute with Earthquake on Flygon was walled by only Celebi, which the rest of our team, bar Swampert, was easy to contend with. Rock Slide or Hidden Power Bug was preferred, but this set allowed us to use Flying-types and Levitate to avoid Spikes trying to sneak in several FB hits on Skarmory whilst also using Toxic where we could whittle down HP without worrying about PP/Rapid Spin wars.
+
+Thank god no one run Protect back then, the game was played differently 17-years back when it was the current metagame, as one set up scared me to the point where I only used it with Roar Swampert. Nowadays in 2022 it is used on Skarm/Clef and even Flygon itself.
+
+5 Pokemon immune to Spikes with Rest Swampert allowed for some pretty interesting scenarios. Zapdos and Articuno for Pressure stalling and phazing for Perish Song Gengar to find the right threat to trap. Flygon and Swampert were literally so Dragon Dance and Hidden Power coverage was sufficed. It is a shame switching out resets the counter otherwise I would be using this team today. Skarmory I believe was Rest Talk and Whirlwind with Spikes as it was common to run max speed so you could get a layer up vs opposing Skarmory.
+
+If I were to recall it was something like this: https://pokepast.es/c280810585fcc2b4
+
+Nothing too special but could play and win pre-sleep talk nerf.
+
+### post 9265706 author=kyonkyonkyon url=https://www.smogon.com/forums/threads/adv-teams-through-the-ages.3687203/#post-9265706
+thanks for this post!
+its so interesting to learn about how adv evolved. wish i was older so i couldve played in the italian (and the smogon) netbattle meta, it looks so interesting lol
+or even adv 200, it looks completely different with mons like cune, aerodactyl, blissey missing   kinda want to try it but i guess its well, dead :c
+(and in general i love 2000s and seeing the evolutions of things so this was kinda like going back to the netbattle era possibly?)
+
+i wonder if some netbattle era sets would be good today, maybe theyd be unexpected to have against :0
+
+### post 9294097 author=wasurezu url=https://www.smogon.com/forums/threads/adv-teams-through-the-ages.3687203/#post-9294097
+well made post, good job. very interesting how teams have evolved as time went by.
+
+### post 9294119 author=DuGuo url=https://www.smogon.com/forums/threads/adv-teams-through-the-ages.3687203/#post-9294119
+Thanks M Dragon, as a novice on adv, this post really interests me. As a player who missed that era, I feel very pity, because I started playing Pokemon a year ago. This post looks more like an epic, a treasure.
+By the way, as a Chinese player, I regret that there is no record of the development of adv in Chinese communities. As far as I know, Chinese communities also have different adv rules and developments, but they are not known to everyone for some reasons.
+
+### post 9456460 author=VZR url=https://www.smogon.com/forums/threads/adv-teams-through-the-ages.3687203/#post-9456460
+Amazing read, thanks for helping to preserve the history of the ADV metagame. It really provided a lot of valuble information for someone like me who is a lot newer to the tier than many other players.
+
+### post 9784152 author=M Dragon url=https://www.smogon.com/forums/threads/adv-teams-through-the-ages.3687203/#post-9784152
+I have updated the OP with the second part of the guide
+
+### post 9950302 author=Onraider url=https://www.smogon.com/forums/threads/adv-teams-through-the-ages.3687203/#post-9950302
+cool af read appreciate the effort put into the post
+
+### post 10075031 author=Sharingan url=https://www.smogon.com/forums/threads/adv-teams-through-the-ages.3687203/#post-10075031
+Thank you M Dragon for posting our Italian old community story of ADV metagame.
+A lot of players in our community dedicated years of their life in this game, and it's very pleasing to share our story with everyone of you that, like us, enjoyed the game so much.

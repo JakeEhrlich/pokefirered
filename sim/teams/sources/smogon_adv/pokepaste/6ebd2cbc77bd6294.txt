@@ -1,0 +1,58 @@
+Plusle @ Leftovers  
+Ability: Plus  
+EVs: 120 HP / 252 SpD / 136 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Thunderbolt  
+- Toxic  
+- Substitute  
+- Baton Pass  
+
+Hitmonchan (M) @ Choice Band  
+Ability: Keen Eye  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Sky Uppercut  
+- Hidden Power [Ghost]  
+- Earthquake  
+- Mach Punch  
+
+Cacturne @ Lum Berry  
+Ability: Sand Veil  
+EVs: 200 HP / 56 SpA / 252 Spe  
+Timid Nature  
+IVs: 3 Atk  
+- Spikes  
+- Giga Drain  
+- Hidden Power [Dark]  
+- Encore  
+
+Haunter @ Petaya Berry  
+Ability: Levitate  
+EVs: 196 Def / 84 SpA / 228 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Psychic  
+- Thunderbolt  
+- Hidden Power [Fire]  
+- Substitute  
+
+Metang @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 28 Def / 228 SpD  
+Impish Nature  
+- Meteor Mash  
+- Earthquake  
+- Toxic  
+- Protect  
+
+Pelipper @ Leftovers  
+Ability: Keen Eye  
+EVs: 196 HP / 252 SpA / 60 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Hydro Pump  
+- Ice Beam  
+- Hidden Power [Grass]  
+- Agility  
+

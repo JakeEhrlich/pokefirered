@@ -1,0 +1,157 @@
+With no big tournament left on the horizon for me right now, it's that time of the year where I wanna post some of the new things I've been using in the past 6 months that have been tested and worked consistently enough to end here.
+
+First of all, I'm gonna present three sets that I've been using in an effort to cripple Skarmory. I've made and used teams that are defensive in nature, and those often have Pokemons that let Skarmory heal for free with Leftovers. Even though those teams might have the tools to play the long-game against Skarmory, it can still be a pain in the ass and I wanted to reduce its abilities in those games. An example of a known set doing so is Thunder Wave Starmie, but I believe it's too difficult to land because the Skarmory user knows better than to let it get paralyzed and give you the upper hand as a result.
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- Thunder Wave
+- Rock Slide
+- Earthquake
+- Hidden Power [Bug]
+
+TWave on Tyranitar isn't really new, but it's pretty much never seen on Physical variants like that. When using standard BKCTtar, I've noticed that Skarmory is often used to pivot around it, and won't really mind trading a FP for a Spikes. Skarmory users aren't really mindful of TW from a Physical Ttar and there is a good chance you will be able to cripple it for the rest of the battle as a result. TW is also not useless in other scenarios of course, so the opportunity cost isn't too drastic either.
+
+Skarmory
+Ability: Keen Eye
+EVs: 248 HP / 248 SpD / 12 Spe
+Careful Nature
+- Drill Peck
+- Spikes
+- Roar
+- Thief
+
+I know I'm not the first to experiment with Thief Skarm but after trying it, I think I found some really good use for it. Firstly, I think it is meant to be used as a regular SpDef Skarm where you give up on Protect/Toxic/Taunt for Thief. When using it, the specific targets should be other Skarmory and Starmie. If you play a TSS mirror, it's very common to have turns where both Skarmory will face each other, and if you take away their Leftovers, you will have an immense advantage now. The good thing about it, is that even if you don't face other Skarms, Thief is like a one-time Knock Off that has very good value against most of Skarmory answers. Starmie now take 6% every turn in sand, allowing you to pressure it a lot more. Claydol loses its Leftovers and even landing it on a Gengar, Zapdos or BKCTtar is amazing.
+
+One thing to keep in mind, is that you wanna position your Skarmory in such a way that you the lack of Leftovers won't be revealed. Example replay from the final of ADV Cup.
+
+Claydol @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 176 Def / 52 SpA / 28 SpD
+Bold Nature
+IVs: 2 Atk / 30 SpA / 30 Spe
+- Hidden Power [Fire]
+- Psychic
+- Rapid Spin
+- Refresh
+
+In the recent months, I felt like using Refresh Claydol again, but I was often annoyed at how Skarmory could heal on it quite effortlessly because Claydol can't touch it back. Not only that, but Drill Peck has the advantage over you long-term and I didn't wanna play those games anymore. That's when I first thought that I'd like to at least get Skarmory paralyzed so Drill Peck wouldn't be as much of an issue, but the other problem remained: Skarmory still heals on you effortlessly. In another team I got from vapicuno, I was made aware that EQ coverage is droppable on a Pokemon if you have Dugtrio and Spikes in the back, as those two will take care of most EQ-weak Pokemons. That's how I arrived to the present set.
+
+HP Fire Claydol is meant to actively damage Skarmory as it tries to heal on you. EQ-less Claydol won't check things like Jirachi or Tyranitar anymore, so I'd only use it alongside Dugtrio (and Spikes probably). It also has the benefit of doing pretty good damage against Forretress (watch out for Counter). Only made for specific teams, but def worth your consideration there in my opinion. I'd also strongly suggest to pair it with something that will paralyze opposing Skarmory, as HP Fire is still not doing much damage, but will be more than enough alongside a Paralysis, giving you a strong tool in a very common match-up. 52 SpA 3KO Aero with Psychic by the way.
+
+Moving on from the "Skarm Crippler" techs now.
+
+Tyranitar @ Lum Berry
+Ability: Sand Stream
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Rock Slide
+- Earthquake
+- Counter
+- Dragon Dance
+
+Pretty sure I've seen gorgie use this before for the record. Counter is meant to OHKO back a few common checks to DDTar like Flygon, Claydol or EQ Pert. Higher risk higher reward variant of Double-Edge basically. Can use a different spread obviously, as Jolly won't resist some hits than a bulkier variants could.
+
+Skarmory @ Leftovers
+Ability: Keen Eye
+EVs: 8 HP / 248 SpD / 252 Spe
+Jolly Nature
+- Drill Peck
+- Taunt
+- Spikes
+- Roar
+
+Credits go to Mana for this one. I've used Taunt Skarm in the past, and I'd often creep speed but then would fall short of a few things that'd Taunt me first, mainly other Skarm and it always felt awful. This set just goes all the way and doesn't bullshit around, and it does have some very good perks.
+
+The main one is that now, Taunt is very free against other Skarms, no risk of being Taunted first. The second one is that with the full SpDef investment, you will still tank Fire Blast from Mixed Sweepers, unlike a YoloSkarm who would be forced to switch out at the risk of a swift OHKO. The last one, is that if a Magneton switches into you, you're always getting that second Spikes before dying (unless Timid HPGrass lol). After trying this spread, I've implemented it on every teams where I had Taunt BulkySkarmory and I wouldn't look back at all.
+
+Laggron (Swampert) @ Leftovers
+Ability: Torrent
+EVs: 248 HP / 96 Def / 164 SpD
+Bold Nature
+- Surf
+- Roar
+- Protect
+- Counter
+
+Once again, not trying to claim Counter Pert as my own, I know it's been used before. I believer however that this set is a very good way to make it work consistently. Surf coverage is often enough by itself and Roar compliments it very well. Counter is a nice last slot if you want a move that can OHKO Zapdos, Jirachi, MixMence or even DDMence (something that SurfPert isn't always good against, not to mention that a lot of them are EVd to tank Ice Beam). Counter + Roar is also a pretty good combo to force the issue in some situations, such as phazing a DDMence the first time it sets up and then using Counter as it will expect to get phazed the next time (similar scenario vs CM Grass Rachi).
+
+Salamence @ Leftovers
+Ability: Intimidate
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Wish
+- Brick Break
+- Hidden Power [Flying]
+- Earthquake
+
+We've seen MixMence using a slot to fit tech moves like Roar or Wish but this time, it's teched on a fully physical Mence. What led me to this result is that I wanted to use Salamence on a spikeless team, and BB felt too weak against opposing Blissey. I also wanted to use Max Speed and cutting from SpA on MixMence didn't feel worth it at all. Obviously wants Magneton support, and a good reason to use Wish (hint: CurseLax). You can tinker with the coverage to fit Toxic, Rock Slide or even DD if you want, but this felt the most optimal to me for the team I was using.
+
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 68 Atk / 160 SpA / 28 Spe
+Quiet Nature
+- Pursuit
+- Psychic
+- Explosion
+- Earthquake
+
+I don't remember seeing this combo of moves before on Meta so I'm sharing here. Basically I wanted to use Pursuit Meta, and I've never liked how most variants of it are hard walled by common offensive Pokemons (Psy/Suit/Fire by Ttar and Psy/Suit/Mash by Meta/Mag). This coverage is very good at hitting a bit of everything and only being walled by defensive Pokemons, which you can just Boom on or abuse offensively. If I remember correctly, the spread always kill defensive Gengar with Pursuit into Psychic while EQ 2KOs bulkless Tyranitar.
+
+Gengar @ Leftovers
+Ability: Levitate
+EVs: 112 Atk / 16 Def / 196 SpD / 184 Spe
+Jolly Nature
+- Night Shade
+- Focus Punch
+- Explosion
+- Will-O-Wisp
+
+When Mana and I were building Special Offense, we wanted Gengar to be able to lure Blissey/Tyranitar while doing its defensive duties and we ended with this set. It was paired with SubPass Zapdos and the EVs are meant to eat an Ice Beam from Blissey while behind a Sub. Focus Punch heavily damages Blissey and also pops Tyranitar. With the current EV Spread, FP + Night Shade is always a kill on all variants of Ttar.
+
+You may wonder, why Night Shade in the offensive slot? Realistically, WoW is the best move Gengar can throw on average. Explosion is also amazing, especially on Special Offense (also a lot stronger with this spread). Focus Punch for the reason mentionned earlier. Night Shade was the perfect midground to do meaningful damage to every Gengar check in one slot, from Zapdos, to Skarmory, to Jirachi, to Swampert (especially when paired with WoW); something that monoTbolt or monoIce Punch wouldn't be able to achieve.
+
+Jolteon @ Lum Berry
+Ability: Volt Absorb
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 2 Atk / 30 SpA
+- Thunderbolt
+- Hidden Power [Grass]
+- Baton Pass
+- Substitute
+
+Sometimes, Zapdos is a bit too much to handle in the early game. It's not really a problem once the blows are being exchanged, but you want to deal with it early without getting crippled by a potential status for the rest of the game. This set aims to absorb a would-be status from Zap, then Sub on their very much expected second attempt to shift the momentum on your side and now the Jolteon will still have its useful speed later. If the Zapdos subbed on the switch, you can also just Sub as they Baton Pass out and then BP yourself to still be in a good position. Use on very aggro teams. Also quite useful vs WoW Gar by the way.
+
+Regice @ Choice Band
+Ability: Clear Body
+EVs: 252 Atk / 52 Def / 204 Spe
+Naughty Nature
+- Explosion
+- Superpower
+- Ice Beam
+- Earthquake
+
+No this isn't a troll, nor a bad gimmick. Sadly I don't expect it to work as well now that the surprise effect will be lost. Lot of things to say here, I hope I won't be too long.
+
+When I was trying some offensive leads for Special Offense, I often fell dissatisfied at the way that you'd often trade with Tyranitar turn one while dying, only for your Dug to trap back. After that, momentum would be on your opp's side. Not to mention if often felt like I was playing with 5 Pokemons defensively as the lead was meant to be sacked early. Jynx was feeling like the best bet so far because it could potentially sleep something on top of setting up a trap, which made up for the lack of defensive value to the team.
+
+As I was considering options, I looked for Pokemons that could unsuspectingly OHKO Lead Tyranitar, and while looking for every fighting move in the game, I came across Regice and all the pieces of the puzzle assembled instantly.
+
+Regice has a naturally very good lead matchup vs Zapdos and Salamence. Those will always switch out because of the threat of IB. Tyranitar, one of the most common lead, on the other hand will think Regice is a very safe lead to stay in and just do whatever it pleases. But Regice just has the right stats to:
+
+OHKO 252/0 Ttar with Superpower
+
+Live Rock Slide from 252 Jolly Ttar (even after Sand)
+
+Outspeed uninvested Ttar
+
+Basically, this Regice just kills every non-max speed CB Ttar turn 1. Not only that, it abuses the hell out of Zapdos/Mence to Superpower the switch-in, which would naturally be scared of TWave such as... Blissey. Blissey will get 2KOd even after the drop while being outsped. Clear Body is also unexpectedly clutch here vs Mence Lead.Thanks to the EVs and nature, CB Boom will also OHKO almost every non-resist and setup a Dugtrio trade (or Magneton in some cases) vs Metagross or Jirachi. With Regice usual sets, you're also unlikely to Boom into a Skarmory or a Gengar.
+
+The difference compared to other offensive leads is that it's still a Regice. It might have a Naughty nature and 0EV in HP, but it's just still bulky enough to switch into a Special Attacker once or twice should you need it. I've tested it quite a bit on Special Offense and it works very well. I think it can work on other kind of offenses because of its overall utility and the way it can even set up situations for Physical Attackers to abuse. I used it in ADV Cup Quarters where it worked exactly as intended.
+
+Regarding the moveset, Ice Beam stays strong and is a good click mid-game if you can afford it. The last move can be whatever you want, but EQ has the merit to damage Meta/Jirachi, two common switches.
+
+Until next time...
+

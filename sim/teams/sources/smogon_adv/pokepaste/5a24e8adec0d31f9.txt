@@ -1,0 +1,56 @@
+Heracles (Heracross) (M) @ Leftovers
+Ability: Guts
+EVs: 124 HP / 184 Atk / 16 SDef / 184 Spd
+Adamant Nature (+Atk, -SAtk)
+- Brick Break
+- Swords Dance
+- Megahorn
+- Rock Slide
+
+H2Owned (Suicune) @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 84 SAtk / 172 Spd
+Timid Nature (+Spd, -Atk)
+- Calm Mind
+- Hydro Pump
+- Roar
+- Ice Beam
+
+Dinamita (Tyranitar) (M) @ Choice Band
+Ability: Sand Stream
+EVs: 4 HP / 252 Atk / 252 Spd
+IVs: 30 SDef / 30 Spd
+Adamant Nature (+Atk, -SAtk)
+- Focus Punch
+- Earthquake
+- Rock Slide
+- Hidden Power [Bug]
+
+StarCry (Jirachi) @ Leftovers
+Ability: Serene Grace
+EVs: 4 HP / 252 SAtk / 252 Spd
+IVs: 30 Atk / 30 SAtk
+Timid Nature (+Spd, -Atk)
+- Calm Mind
+- Psychic
+- Fire Punch
+- Hidden Power [Grass]
+
+Siegfried (Porygon2) @ Leftovers
+Ability: Trace
+EVs: 252 HP / 192 Def / 64 SAtk
+Bold Nature (+Def, -Atk)
+- Thunder Wave
+- Thunderbolt
+- Ice Beam
+- Recover
+
+GodOfThunder (Raikou) @ Leftovers
+Ability: Pressure
+EVs: 4 HP / 252 SAtk / 252 Spd
+IVs: 30 Atk / 30 SAtk
+Modest Nature (+SAtk, -Atk)
+- Calm Mind
+- Hidden Power [Grass]
+- Substitute
+- Thunderbolt

@@ -1,0 +1,56 @@
+Zapdos @ Leftovers  
+Ability: Pressure  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Hidden Power [Grass]  
+- Rest  
+- Sleep Talk  
+- Thunderbolt  
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 236 HP / 248 Def / 24 SpA  
+Bold Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Reflect  
+- Rest  
+- Surf  
+
+Claydol @ Leftovers  
+Ability: Levitate  
+EVs: 236 HP / 96 Atk / 176 SpA  
+Relaxed Nature  
+- Earthquake  
+- Ice Beam  
+- Rapid Spin  
+- Rest  
+
+Skarmory (M) @ Leftovers  
+Ability: Sturdy  
+EVs: 196 HP / 248 Def / 60 SpD / 4 Spe  
+Impish Nature  
+- Hidden Power [Flying]  
+- Rest  
+- Spikes  
+- Whirlwind  
+
+Snorlax (M) @ Leftovers  
+Ability: Immunity  
+Happiness: 0  
+EVs: 12 HP / 196 Atk / 76 Def / 184 SpD / 40 Spe  
+Careful Nature  
+- Belly Drum  
+- Frustration  
+- Rest  
+- Shadow Ball  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 20 HP / 236 Def / 252 SpA  
+Modest Nature  
+- Aromatherapy  
+- Ice Beam  
+- Seismic Toss  
+- Soft-Boiled  
+

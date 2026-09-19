@@ -1,0 +1,20 @@
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 128 Def / 52 SpD / 76 Spe  
+Jolly Nature  
+IVs: 2 Atk / 30 SpA  
+- Hidden Power [Grass]  
+- Leech Seed  
+- Swords Dance  
+- Baton Pass  
+
+Gyarados @ Leftovers  
+Ability: Intimidate  
+Hidden Power: Flying  
+EVs: 68 HP / 252 Atk / 188 Spe  
+Adamant Nature  
+- Hidden Power [Flying]  
+- Earthquake  
+- Taunt  
+- Dragon Dance  
+

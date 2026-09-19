@@ -1,0 +1,110 @@
+warning to newer users: please for the love of god do not use the second physspam team stox posted, I realise it looks good on paper but he really just took the standard undis physspam and replaced its zap / water switchin with a mon that loses to both, for the sole benefit of...being able to force pert out after it gets a kill?  seriously who uses teams 6-0ed by rest cune in 2019.  anyways psa there are good physspams out there but that is not one of them.
+
+anyways I'm not just here to rag on someone else:
+
+comment on the team dump as a whole (warning: long)
+
+in which I go over the dump by archetype feat general comments as well as individual teams / trends that caught my eye and some recos to newer folk about which teams to start out with (please have patience, I'm filling this out):
+
+cloy offense:
+
+forry balance:
+
+fighting mon + pursuit offense:
+
+brawl bulky offense:
+
+dug + specmons balance:
+
+mag / magdol balance:
+
+mag offense:
+
+full weather:
+
+tss / spikes balance in general:
+
+skarmmag balance:
+
+more spikes stuff:
+
+phys-centric offense:
+
+general metagame thoughts
+
+(please have patience, I'm filling this out)
+
+other cool techs you guys might like
+
+(please have patience, I'm filling this out)
+
+Tyranitar @ Leftovers / Lum Berry
+Ability: Sand Stream
+184 HP / 12 Atk / 172 SpA / 140 Spe
+Mild Nature
+- Fire Blast
+- Focus Punch
+- Hidden Power Grass
+- Rock Slide
+
+alternative mixtar spread that I personally prefer.  the flygon population has dropped phenomenally after last spl's spree of ib ddtars, which means that ib's utility has decreased outside of surprising random ddmences (note that cbmence is also resurging a little and that tends to punish a lot of t1 icebeamers).  focus punch > brick break allows you to slam certain things on the switch while rock slide as a stab is nice (in particular this allows you to smack gengar, which ordinary mixtar sometimes struggles to touch)  on that note the other twist of this set is that where more tars go for speed, this goes for bulk, allowing it to fulfill a secondary role vs offensive teams by holding off the zap / gar (which most mixtar teams sometimes find themselves struggling with).  12 atk ensures rock slide ohkos aero and speed outruns fastdol as well taunt skarms creeping that benchmark.  I won't pass judgement on whether this is superior or inferior to linear's faster variant but this is still valid and has more than its share of good matchups to justify it.
+
+Tyranitar @ Lum Berry
+Ability: Sand Stream
+20 HP / 236 Atk / 252 Spe
+Adamant / Jolly Nature
+- Rock Slide
+- Earthquake
+- Dragon Dance
+- Double-Edge
+
+one of my biggest annoyances with grass / ib ddtar has always been how they're both basically one-target moves (seriously neither move 3hkos claydol from full gtfo) - and while they're valid targets, every dd ib tar user has a horror story about saving it till the lategame only to see it stuffed by a 60% pert.  anyways I know pdc posted hyper beam ddtar but this predates it by quite a bit (I don't claim to be the first to use it but I have slapped it on a bunch of my builds since like early 2018 and been a consistent advocate), and I prefer double edge simply because it doesn't force you to commit to breaking like hyper beam does (taking 20-30% recoil is on-average better than being locked in and letting something take a swipe at you - or worse, seeing the meta / mence get a speed boost and proceed to sweep your offense team off the face of the earth).  the power increment on both eq and rock slide is definitely a solid selling point - this 2hkos defensive flygon and claydol and threatens to 2hko pert (while utterly steamrolling their offensive variants with a little chip), and dedge's damage output can also be really clutch when it comes to cleaning out games (vs stuff like zapdos or healthy-ish lax, situations where a rock slide miss might mean a swift demise), but in general I like it for how double-edge usually finds a target and hits it hard.  also the general slant of the metagame towards offensive pert and tends to favour this demon quite a bit.  liechi / salac / silk scarf are all valid options here too (silk scarf gives dedge a 75% chance for jolly to ohko offensive star, among other things)
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 248 HP / 120 Def / 96 SpA / 44 SpD
+Quiet Nature
+- Earthquake
+- Ice Beam
+- Hydro Pump
+- Protect
+
+in an age of perts that are competing to become as offensive as possible, this is sort of a throwback but not in the worst possible way - for one thing, having protect is never going to be truly retro so long as offense exists.  anyways quick explanation of the evs - 248 / 44 means you always live modest zap hp grass, 96 spa is a jump point (basically a point where the way the game calculates stats means that the 4 extra evs you add from 92 to 96 give you 2 full points in spa - maximising hit for investment basically), and the rest being in defense gives you a little more stability vs ddtar, ddmence, aero...etc etc.  not particularly innovative but I wanted to showcase the spread and bring a little attention to the idea that offensive pert doesn't necessarily have to be 252 / 252 (not that that's bad or anything though)
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 140 HP / 216 SpA / 152 Spe
+Rash Nature
+- Hydro Pump
+- Earthquake
+- Focus Punch
+- Refresh
+
+this looks whack but I swear it works - a lot of people see pert throwing out nuclear hydros and assume tox / burn will give them some room to play around it, only for their eyeballs to pop out when this refreshes the burn off (bonus points if you do it on a protect).  gives the set a little longevity while still bluffing pure offensive and playing like it, which is nice.  this pert slots really nicely into standardish skarm gar bliss structures, who tend to carry the mix of anti-phys qualities, status and ice moves that mean that ddmence / cele can't make too much of the free momentum that this gives (also remember that it'll take them a while to realise that they're completely safe and they'll probably be down a mon or two by then).  not the optimal tech but this has its uses and its pretty darn cool as well.
+
+Also on the note of offensive pert on the standard set hp grass over eq is a neat tech, I came up with it on one of my variants of bkcpass as a way to bop pert but found it fitting really nicely on a bunch of bulky offenses too - those teams tend to have the tools to fend off meta / rachi / tar, compensating for the loss of eq (and hydro does similarish damage to most of eq's targets anyways), while appreciating how you surprise drop opposing pert (you also smack cloy with it which is nice).  an offbeat option but a valid one, I know hclat liked it and slapped it onto a gyara team of his so there's that too.
+
+Metagross @ Lum Berry / Salac Berry (lefties works too and cb can run the same four moves)
+Ability: Clear Body
+EVs: variable
+Adamant / Jolly Nature
+- Meteor Mash
+- Earthquake
+- Explosion
+- Double-Edge
+
+similarly to ddtar, meta can also solidly run double edge in the fourth slot - as linear pointed out, people tend to swap between slide / grass / bug depending on which of zap / pert / cele they want dead, and dedge technically covers them all while also backing up a stab with less than 100% accuracy.  also recoil can push you into pinch berry range which is cool - technically it cuts into your longevity too but berry meta shouldn't be your primary way of checking rocks anyways.  this has already caught on on cb sets in particular but I feel like it works even better here and appropriately deserves a shout.
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 252 Atk / 12 SpA / 244 Spe
+Lonely Nature (hasty with a diff spread can work too ig)
+- Thunderbolt
+- Hidden Power Fighting
+- Drill Peck
+- Toxic / Thunder Wave / Baton Pass
+
+this is technically an unset but it's been around a while at tour level so might as well.  the set is fairly straightforward (bp is technically the preferred fourth move but I like tox to punish pert and judging from the dump linear prefers twave to snag cheeky gar / jolt) - tbolt is damage and so zap can pretend to do zap things, hp fight hits tar primarily but also 3hkos bliss and lax with sand / spikes support, drill peck slays hera and hits everything that tbolt doesn't (cele, grounds, etc).  this slots really nicely onto cloy teams as they can switch in on pert (this set's usual nemesis), and they appreciate something that abuses spikes and can surprise tar (which usually threatens those teams quite a bit).  looks really whack and can sometimes struggle at doing typical zap duties (like holding off the meta / cune) but it's alright in practice and very good at catching people off-guard if played right.
+
+(busy now but will edit this later with more stuff as well as examples of teams that include these sets).
+

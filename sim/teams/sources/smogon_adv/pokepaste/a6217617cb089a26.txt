@@ -1,0 +1,115 @@
+=== [gen3ou] Bad Teams/antik classik ===
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 252 HP / 252 Def / 4 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Wish  
+- Protect  
+- Dragon Claw  
+- Roar  
+
+Forretress @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Impish Nature  
+- Hidden Power [Steel]  
+- Rapid Spin  
+- Spikes  
+- Rest  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 252 HP / 200 Def / 56 SpD  
+Impish Nature  
+- Curse  
+- Earthquake  
+- Hidden Power [Rock]  
+- Rest  
+
+Blissey @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 252 Def / 4 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Toxic  
+- Seismic Toss  
+- Aromatherapy  
+- Soft-Boiled  
+
+Ursaring @ Leftovers  
+Ability: Guts  
+EVs: 252 HP / 252 Atk / 4 Spe  
+Adamant Nature  
+- Swords Dance  
+- Return  
+- Earthquake  
+- Hidden Power [Ghost]  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 200 Atk / 252 SpA / 56 Spe  
+Mild Nature  
+- Thunderbolt  
+- Ice Punch  
+- Focus Punch  
+- Hypnosis  
+ 
+ 
+=== [gen3ou] Bad Teams/antikteam cbttar ===
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 240 Def / 16 Spe  
+Bold Nature  
+- Calm Mind  
+- Rest  
+- Surf  
+- Roar  
+
+Exeggutor (M) @ Leftovers  
+Ability: Chlorophyll  
+EVs: 252 HP / 252 Def / 4 SpD  
+Bold Nature  
+- Wish  
+- Leech Seed  
+- Protect  
+- Hidden Power [Grass]  
+
+Tyranitar (M) @ Choice Band  
+Ability: Sand Stream  
+EVs: 44 HP / 252 Atk / 212 Spe  
+Adamant Nature  
+IVs: 30 SpD / 30 Spe  
+- Hidden Power [Bug]  
+- Earthquake  
+- Rock Slide  
+- Focus Punch  
+
+Forretress (M) @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 4 Def / 252 SpD  
+Impish Nature  
+- Hidden Power [Steel]  
+- Rest  
+- Reflect  
+- Rapid Spin  
+
+Hariyama (F) @ Leftovers  
+Ability: Thick Fat  
+EVs: 204 HP / 152 Def / 152 SpD  
+Careful Nature  
+- Knock Off  
+- Hidden Power [Ghost]  
+- Brick Break  
+- Rest  
+
+Blissey @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 252 Def / 4 SpD  
+Impish Nature  
+- Toxic  
+- Aromatherapy  
+- Seismic Toss  
+- Soft-Boiled  

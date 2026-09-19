@@ -1,0 +1,56 @@
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 216 Atk / 12 Def / 28 Spd
+Adamant Nature (+Atk, -SAtk)
+- Earthquake
+- Explosion
+- Meteor Mash
+- Toxic
+
+Salamence (M) @ Choice Band
+Ability: Intimidate
+EVs: 244 Atk / 12 Def / 252 Spd
+IVs: 30 HP / 30 Atk / 30 Def / 30 SAtk / 30 SDef
+Adamant Nature (+Atk, -SAtk)
+- Brick Break
+- Earthquake
+- Hidden Power [Flying]
+- Rock Slide
+
+Magneton @ Leftovers
+Ability: Magnet Pull
+EVs: 128 HP / 188 Def / 140 SAtk / 52 Spd
+IVs: 30 Atk / 30 SAtk / 30 Spd
+Modest Nature (+SAtk, -Atk)
+- Hidden Power [Fire]
+- Rest
+- Sleep Talk
+- Thunderbolt
+
+Heracross (M) @ Salac Berry
+Ability: Swarm
+EVs: 252 Atk / 4 SDef / 252 Spd
+IVs: 30 HP
+Adamant Nature (+Atk, -SAtk)
+- Megahorn
+- Rock Slide
+- Substitute
+- Swords Dance
+
+Snorlax (M) @ Leftovers
+Ability: Immunity
+EVs: 80 HP / 252 Atk / 136 Def / 28 SDef / 12 Spd
+Adamant Nature (+Atk, -SAtk)
+- Body Slam
+- Shadow Ball
+- Curse
+- Self-Destruct
+
+Swampert (M) @ Leftovers
+Ability: Torrent
+EVs: 252 HP / 136 Def / 120 SAtk
+Relaxed Nature (+Def, -Spd)
+- Earthquake
+- Ice Beam
+- Protect
+- Toxic

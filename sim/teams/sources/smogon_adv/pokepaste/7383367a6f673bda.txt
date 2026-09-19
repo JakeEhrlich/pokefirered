@@ -1,0 +1,57 @@
+narrows (Zapdos) @ Leftovers  
+Ability: Pressure  
+EVs: 80 HP / 252 SpA / 176 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Toxic  
+- Baton Pass  
+
+standoff (Suicune) @ Leftovers  
+Ability: Pressure  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Surf  
+- Ice Beam  
+- Hidden Power [Grass]  
+- Calm Mind  
+
+sandtrap (Dugtrio) @ Choice Band  
+Ability: Arena Trap  
+EVs: 216 Atk / 68 SpD / 224 Spe  
+Jolly Nature  
+- Earthquake  
+- Hidden Power [Bug]  
+- Aerial Ace  
+- Beat Up  
+
+guardian (Claydol) @ Leftovers  
+Ability: Levitate  
+EVs: 24 HP / 252 Atk / 232 Spe  
+Adamant Nature  
+- Earthquake  
+- Psychic  
+- Rapid Spin  
+- Explosion  
+
+heretic (Jirachi) @ Leftovers  
+Ability: Serene Grace  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Psychic  
+- Fire Punch  
+- Hidden Power [Grass]  
+- Calm Mind  
+
+epitaph (Tyranitar) @ Lum Berry  
+Ability: Sand Stream  
+EVs: 112 Atk / 144 Def / 252 Spe  
+Adamant Nature  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Bug]  
+- Dragon Dance  
+

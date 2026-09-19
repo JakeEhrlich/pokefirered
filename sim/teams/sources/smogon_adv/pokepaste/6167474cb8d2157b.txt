@@ -1,0 +1,56 @@
+Salamence @ Choice Band  
+Ability: Intimidate  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Hidden Power [Flying]  
+- Rock Slide  
+- Earthquake  
+- Brick Break  
+
+Cacturne @ Leftovers  
+Ability: Sand Veil  
+EVs: 20 HP / 252 SpD / 236 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Leech Seed  
+- Substitute  
+- Giga Drain  
+- Spikes  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 252 HP / 252 SpA / 4 SpD  
+Modest Nature  
+IVs: 0 Atk  
+- Pursuit  
+- Crunch  
+- Fire Blast  
+- Roar  
+
+Magneton @ Leftovers  
+Ability: Magnet Pull  
+EVs: 68 HP / 252 SpA / 188 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Thunderbolt  
+- Hidden Power [Fire]  
+- Substitute  
+- Thunder Wave  
+
+Jirachi @ Leftovers  
+Ability: Serene Grace  
+EVs: 252 HP / 76 Def / 148 SpD / 32 Spe  
+Careful Nature  
+- Hidden Power [Fighting]  
+- Body Slam  
+- Protect  
+- Wish  
+
+Milotic @ Leftovers  
+Ability: Marvel Scale  
+EVs: 252 HP / 252 Def  
+Bold Nature  
+- Surf  
+- Recover  
+- Toxic  
+- Refresh  

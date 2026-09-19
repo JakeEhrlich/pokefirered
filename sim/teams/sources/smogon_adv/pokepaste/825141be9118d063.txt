@@ -1,0 +1,2900 @@
+Bulky Dragon Dance (Tyranitar) @ Leftovers  
+Ability: Sand Stream  
+EVs: 184 HP / 140 Atk / 4 SpD / 180 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Bug]  
+
+SuitTar (Tyranitar) @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 252 SpA / 8 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Crunch  
+- Pursuit  
+- Fire Blast  
+- Ice Beam  
+
+BKCTar (Tyranitar) @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 248 Atk / 12 Spe  
+Adamant Nature  
+IVs: 30 SpD / 30 Spe  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Bug]  
+- Focus Punch  
+
+Mixed (Tyranitar) @ Leftovers  
+Ability: Sand Stream  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Hasty Nature  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Ancient Power  
+- Brick Break  
+
+SkinnyTar (Tyranitar) @ Lum Berry  
+Ability: Sand Stream  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+IVs: 30 SpD / 30 Spe  
+- Dragon Dance  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Bug]  
+
+Sloptar (Tyranitar) @ Lum Berry  
+Ability: Sand Stream  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Double-Edge  
+- Rock Slide  
+- Earthquake  
+
+Mix Suitar (Tyranitar) @ Leftovers  
+Ability: Sand Stream  
+EVs: 184 HP / 12 Atk / 224 SpA / 88 Spe  
+Quiet Nature  
+- Rock Slide  
+- Earthquake  
+- Crunch  
+- Pursuit  
+
+203 dedge (Tyranitar) @ Leftovers  
+Ability: Sand Stream  
+EVs: 184 HP / 144 Atk / 180 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Rock Slide  
+- Earthquake  
+- Double-Edge  
+
+157 boa (Tyranitar) @ Leftovers  
+Ability: Sand Stream  
+EVs: 252 HP / 188 SpA / 68 Spe  
+Quiet Nature  
+- Substitute  
+- Focus Punch  
+- Crunch  
+- Thunder  
+
+tanky cbtar (Tyranitar) @ Choice Band  
+Ability: Sand Stream  
+EVs: 80 HP / 180 Atk / 80 Def / 168 Spe  
+Adamant Nature  
+IVs: 30 SpD / 30 Spe  
+- Rock Slide  
+- Earthquake  
+- Focus Punch  
+- Hidden Power [Bug]  
+
+roro suit 191 (Tyranitar) @ Leftovers  
+Ability: Sand Stream  
+EVs: 40 HP / 252 SpA / 84 SpD / 132 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Hidden Power [Grass]  
+- Crunch  
+- Pursuit  
+- Flamethrower  
+
+karatetar (Tyranitar) (M) @ Black Belt  
+Ability: Sand Stream  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Adamant Nature  
+- Brick Break  
+- Double-Edge  
+- Focus Punch  
+- Rock Slide  
+
+ddtaunt 200 abr (Tyranitar) (M) @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 88 Atk / 4 SpD / 168 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Rock Slide  
+- Earthquake  
+- Taunt  
+
+adamaxmax edge (Tyranitar) @ Lum Berry  
+Ability: Sand Stream  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Rock Slide  
+- Earthquake  
+- Double-Edge  
+
+dd counter (Tyranitar) @ Leftovers  
+Ability: Sand Stream  
+EVs: 252 HP / 16 Atk / 60 Def / 180 Spe  
+Adamant Nature  
+- Rock Slide  
+- Earthquake  
+- Counter  
+- Dragon Dance  
+
+icegrass punchquake (Tyranitar) @ Lum Berry  
+Ability: Sand Stream  
+EVs: 188 Atk / 68 SpA / 252 Spe  
+Lonely Nature  
+- Ice Beam  
+- Hidden Power [Grass]  
+- Focus Punch  
+- Earthquake  
+
+counter lead (Tyranitar) @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 204 Atk / 48 Def / 8 SpD  
+Adamant Nature  
+- Rock Slide  
+- Earthquake  
+- Counter  
+- Focus Punch  
+
+max atk mix (Tyranitar) @ Leftovers  
+Ability: Sand Stream  
+EVs: 252 Atk / 4 SpA / 252 Spe  
+Hasty Nature  
+- Rock Slide  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Brick Break  
+
+crunch mix 206 (Tyranitar) @ Lum Berry  
+Ability: Sand Stream  
+EVs: 64 Atk / 252 SpA / 192 Spe  
+Mild Nature  
+- Crunch  
+- Fire Blast  
+- Focus Punch  
+- Hidden Power [Grass]  
+
+bb lead spreek (Tyranitar) (F) @ Leftovers  
+Ability: Sand Stream  
+EVs: 224 HP / 32 Atk / 176 SpA / 76 Spe  
+Quiet Nature  
+- Brick Break  
+- Crunch  
+- Flamethrower  
+- Pursuit  
+
+dd mix (Tyranitar) @ Leftovers  
+Ability: Sand Stream  
+EVs: 16 HP / 84 Atk / 120 Def / 112 SpA / 176 Spe  
+Naughty Nature  
+- Rock Slide  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Dragon Dance  
+
+Bulky DDedge (Tyranitar) @ Lum Berry  
+Ability: Sand Stream  
+EVs: 192 HP / 64 Atk / 252 Spe  
+Adamant Nature  
+- Rock Slide  
+- Earthquake  
+- Double-Edge  
+- Dragon Dance  
+
+roro phys boa (Tyranitar) @ Leftovers  
+Ability: Sand Stream  
+EVs: 252 HP / 252 Atk / 4 Spe  
+Adamant Nature  
+- Substitute  
+- Focus Punch  
+- Rock Slide  
+- Hidden Power [Bug]  
+
+diznu spec boah (Tyranitar) @ Leftovers  
+Ability: Sand Stream  
+EVs: 252 HP / 16 Def / 220 SpA / 20 Spe  
+Modest Nature  
+- Substitute  
+- Focus Punch  
+- Crunch  
+- Fire Blast  
+
+Standard (Skarmory) @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+IVs: 0 Atk  
+- Spikes  
+- Roar  
+- Protect  
+- Toxic  
+
+200spe Tauntox (Skarmory) @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 160 SpD / 96 Spe  
+Careful Nature  
+IVs: 0 Atk  
+- Spikes  
+- Roar  
+- Taunt  
+- Toxic  
+
+210spe taunt (Skarmory) @ Leftovers  
+Ability: Keen Eye  
+EVs: 248 HP / 124 SpD / 136 Spe  
+Careful Nature  
+- Spikes  
+- Taunt  
+- Drill Peck  
+- Roar  
+
+182Spe Standard (Skarmory) @ Leftovers  
+Ability: Keen Eye  
+EVs: 240 HP / 244 SpD / 24 Spe  
+Careful Nature  
+- Protect  
+- Drill Peck  
+- Roar  
+- Spikes  
+
+thief (Skarmory)  
+Ability: Keen Eye  
+EVs: 252 HP / 24 Def / 216 SpD / 16 Spe  
+Careful Nature  
+- Spikes  
+- Thief  
+- Roar  
+- Drill Peck  
+
+Peck standard (Skarmory) @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+- Spikes  
+- Roar  
+- Protect  
+- Drill Peck  
+
+half yolo (Skarmory) @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 64 SpD / 192 Spe  
+Jolly Nature  
+- Spikes  
+- Roar  
+- Hidden Power [Fighting]  
+- Taunt  
+
+Bulky Physical Attacker (Metagross) @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 252 Atk / 4 Def  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Rock Slide  
+- Explosion  
+
+Mixed Fire (Metagross) @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 16 Def / 252 SpA / 72 Spe  
+Rash Nature  
+- Meteor Mash  
+- Psychic  
+- Hidden Power [Fire]  
+- Explosion  
+
+Mixed Grass (Metagross) @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 16 Def / 252 SpA / 72 Spe  
+Rash Nature  
+- Earthquake  
+- Thunder Punch  
+- Hidden Power [Grass]  
+- Explosion  
+
+Agilgross (Metagross) @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 236 Atk / 16 Def / 88 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Agility  
+- Explosion  
+
+CB (Metagross) @ Choice Band  
+Ability: Clear Body  
+EVs: 64 HP / 224 Atk / 20 SpD / 200 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Rock Slide  
+- Explosion  
+
+Bulkytect (Metagross) @ Leftovers  
+Ability: Clear Body  
+EVs: 248 HP / 252 Atk / 8 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Protect  
+- Explosion  
+
+salac (Metagross) @ Salac Berry  
+Ability: Clear Body  
+EVs: 168 HP / 128 Atk / 8 Def / 204 Spe  
+Jolly Nature  
+- Meteor Mash  
+- Earthquake  
+- Endure  
+- Explosion  
+
+tyros bulky cb (Metagross) @ Choice Band  
+Ability: Clear Body  
+EVs: 252 HP / 76 Atk / 168 Def / 12 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Rock Slide  
+- Explosion  
+
+4atk grass (Metagross) @ Leftovers  
+Ability: Clear Body  
+EVs: 248 HP / 140 Atk / 32 SpA / 88 Spe  
+Naughty Nature  
+- Meteor Mash  
+- Earthquake  
+- Explosion  
+- Hidden Power [Grass]  
+
+agil opti (Metagross) @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 224 Atk / 16 Def / 100 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Agility  
+- Explosion  
+
+sub agil (Metagross) @ Liechi Berry  
+Ability: Clear Body  
+EVs: 168 HP / 224 Atk / 16 Def / 100 Spe  
+Adamant Nature  
+- Agility  
+- Meteor Mash  
+- Earthquake  
+- Substitute  
+
+reflect impish (Metagross) @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 8 Atk / 224 Def / 24 Spe  
+Impish Nature  
+- Meteor Mash  
+- Earthquake  
+- Reflect  
+- Explosion  
+
+agil grass boom (Metagross) @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 228 Atk / 16 Def / 96 Spe  
+Naughty Nature  
+IVs: 30 HP / 30 SpA  
+- Agility  
+- Meteor Mash  
+- Hidden Power [Grass]  
+- Explosion  
+
+DefPert (Swampert) @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 216 Def / 44 SpD  
+Relaxed Nature  
+- Hydro Pump  
+- Earthquake  
+- Protect  
+- Ice Beam  
+
+OffPert (Swampert) @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 216 SpA / 44 Spe  
+Quiet Nature  
+- Hydro Pump  
+- Earthquake  
+- Focus Punch  
+- Ice Beam  
+
+EndPert (Swampert) @ Salac Berry  
+Ability: Torrent  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Substitute  
+- Endeavor  
+- Surf  
+- Roar  
+
+bulky offroar (Swampert) @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 124 Def / 92 SpA / 44 SpD  
+Relaxed Nature  
+- Earthquake  
+- Hydro Pump  
+- Roar  
+- Protect  
+
+offend (Swampert) @ Salac Berry  
+Ability: Torrent  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Hydro Pump  
+- Ice Beam  
+- Substitute  
+- Endeavor  
+
+bulky off (Swampert) @ Leftovers  
+Ability: Torrent  
+EVs: 240 HP / 48 Def / 176 SpA / 44 SpD  
+Quiet Nature  
+- Protect  
+- Hydro Pump  
+- Earthquake  
+- Ice Beam  
+
+swagpert (Swampert) @ Salac Berry  
+Ability: Torrent  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Hydro Pump  
+- Swagger  
+- Substitute  
+- Endeavor  
+
+bulkier off (Swampert) @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 124 Def / 92 SpA / 44 SpD  
+Relaxed Nature  
+- Earthquake  
+- Ice Beam  
+- Hydro Pump  
+- Protect  
+
+sub punch lefties (Swampert) @ Leftovers  
+Ability: Torrent  
+EVs: 252 HP / 160 SpA / 96 Spe  
+Modest Nature  
+- Surf  
+- Ice Beam  
+- Substitute  
+- Focus Punch  
+
+150 off (Swampert) @ Leftovers  
+Ability: Torrent  
+EVs: 252 HP / 36 Def / 176 SpA / 44 Spe  
+Quiet Nature  
+- Hydro Pump  
+- Earthquake  
+- Ice Beam  
+- Focus Punch  
+
+salac toxic (Swampert) @ Salac Berry  
+Ability: Torrent  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Substitute  
+- Endeavor  
+- Hydro Pump  
+- Toxic  
+
+curse rest (Swampert) @ Leftovers  
+Ability: Torrent  
+EVs: 252 HP / 136 Def / 120 SpD  
+Relaxed Nature  
+- Curse  
+- Earthquake  
+- Ice Beam  
+- Rest  
+
+Refresh IB (Swampert) @ Leftovers  
+Ability: Torrent  
+EVs: 240 HP / 172 Def / 96 Spe  
+Relaxed Nature  
+- Earthquake  
+- Ice Beam  
+- Protect  
+- Refresh  
+
+curse offpert (Swampert) @ Leftovers  
+Ability: Torrent  
+EVs: 252 HP / 40 Def / 216 SpA  
+Quiet Nature  
+- Earthquake  
+- Hydro Pump  
+- Ice Beam  
+- Curse  
+
+EQ Roar Pert (Swampert) @ Leftovers  
+Ability: Torrent  
+EVs: 240 HP / 136 Def / 88 SpA / 44 Spe  
+Relaxed Nature  
+- Protect  
+- Earthquake  
+- Surf  
+- Roar  
+
+Modestmaxmax (Zapdos) @ Leftovers  
+Ability: Pressure  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Toxic  
+- Baton Pass  
+
+Rest (Zapdos) @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Calm Nature  
+IVs: 0 Atk / 30 Def  
+- Thunderbolt  
+- Rest  
+- Sleep Talk  
+- Roar  
+
+Timid (Zapdos) @ Leftovers  
+Ability: Pressure  
+EVs: 80 HP / 252 SpA / 176 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Toxic  
+- Baton Pass  
+
+Mixed (Zapdos) @ Leftovers  
+Ability: Pressure  
+EVs: 120 Atk / 252 SpA / 136 Spe  
+Mild Nature  
+- Thunderbolt  
+- Drill Peck  
+- Hidden Power [Grass]  
+- Thunder Wave  
+
+Bulky Offensive (Zapdos) @ Leftovers  
+Ability: Pressure  
+EVs: 216 HP / 152 SpA / 140 Spe  
+Modest Nature  
+IVs: 30 Spe  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Toxic  
+- Protect  
+
+EvilZap (Zapdos) @ Leftovers  
+Ability: Pressure  
+EVs: 200 HP / 252 SpD / 56 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Thunderbolt  
+- Toxic  
+- Rest  
+- Substitute  
+
+Timid (Zapdos) @ Leftovers  
+Ability: Pressure  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Thunder Wave  
+- Roar  
+
+280 maxhp mod (Zapdos) @ Leftovers  
+Ability: Pressure  
+EVs: 248 HP / 84 SpA / 176 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Substitute  
+- Baton Pass  
+
+standard modest (Zapdos) @ Leftovers  
+Ability: Pressure  
+EVs: 80 HP / 252 SpA / 176 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Baton Pass  
+- Thunder Wave  
+
+choice band (Zapdos) @ Choice Band  
+Ability: Pressure  
+EVs: 252 Atk / 76 SpA / 180 Spe  
+Lonely Nature  
+- Thunderbolt  
+- Drill Peck  
+- Hidden Power [Fighting]  
+- Baton Pass  
+
+max atk lead (Zapdos) @ Leftovers  
+Ability: Pressure  
+EVs: 252 Atk / 76 SpA / 180 Spe  
+Lonely Nature  
+- Toxic  
+- Thunderbolt  
+- Drill Peck  
+- Hidden Power [Fighting]  
+
+protoxice (Zapdos) @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 96 SpA / 24 SpD / 136 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Toxic  
+- Protect  
+
+Sub BP Zap (Zapdos) @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 20 SpA / 100 SpD / 136 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Substitute  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Baton Pass  
+
+thunder lead (Zapdos) @ Leftovers  
+Ability: Pressure  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunder  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Thunder Wave  
+
+bulkyBPgras (Zapdos) @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 28 Def / 208 SpD / 32 Spe  
+Calm Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Thunder Wave  
+- Baton Pass  
+
+bulkyBPice (Zapdos) @ Leftovers  
+Ability: Pressure  
+EVs: 248 HP / 228 SpD / 32 Spe  
+Calm Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Thunder Wave  
+- Baton Pass  
+
+Taunt Wisp (Gengar) @ Leftovers  
+Ability: Levitate  
+EVs: 168 HP / 164 SpD / 176 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Will-O-Wisp  
+- Taunt  
+- Thunderbolt  
+- Ice Punch  
+
+bulky (Gengar) @ Leftovers  
+Ability: Levitate  
+EVs: 248 HP / 52 Def / 112 SpD / 96 Spe  
+Timid Nature  
+- Fire Punch  
+- Giga Drain  
+- Will-O-Wisp  
+- Explosion  
+
+334taunt (Gengar) @ Leftovers  
+Ability: Levitate  
+EVs: 248 HP / 44 Def / 24 SpD / 192 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Will-O-Wisp  
+- Thunderbolt  
+- Ice Punch  
+- Taunt  
+
+333 spdef (Gengar) @ Leftovers  
+Ability: Levitate  
+EVs: 140 HP / 180 SpD / 188 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Thunderbolt  
+- Ice Punch  
+- Will-O-Wisp  
+- Taunt  
+
+defensive (Gengar) @ Leftovers  
+Ability: Levitate  
+EVs: 168 HP / 164 SpD / 176 Spe  
+Timid Nature  
+- Will-O-Wisp  
+- Taunt  
+- Thunderbolt  
+- Ice Punch  
+
+resto chesto (Gengar) @ Chesto Berry  
+Ability: Levitate  
+EVs: 252 HP / 184 SpD / 72 Spe  
+Timid Nature  
+- Will-O-Wisp  
+- Rest  
+- Thief  
+- Night Shade  
+
+modest 271 (Gengar) @ Leftovers  
+Ability: Levitate  
+EVs: 128 HP / 68 Def / 252 SpA / 60 Spe  
+Modest Nature  
+- Fire Punch  
+- Hypnosis  
+- Hidden Power [Grass]  
+- Explosion  
+
+Mixed (Salamence) @ Leftovers  
+Ability: Intimidate  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Naive Nature  
+- Dragon Claw  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Brick Break  
+
+Dragon Dance (Salamence) @ Leftovers  
+Ability: Intimidate  
+EVs: 116 HP / 252 Atk / 140 Spe  
+Adamant Nature  
+IVs: 30 SpA / 30 SpD / 30 Spe  
+- Dragon Dance  
+- Hidden Power [Flying]  
+- Earthquake  
+- Rock Slide  
+
+Bulky Dragon Dance (Salamence) @ Leftovers  
+Ability: Intimidate  
+EVs: 156 Atk / 212 SpD / 140 Spe  
+Adamant Nature  
+IVs: 30 SpA / 30 SpD / 30 Spe  
+- Dragon Dance  
+- Hidden Power [Flying]  
+- Earthquake  
+- Rock Slide  
+
+AdamaxmaxDDRS (Salamence) @ Leftovers  
+Ability: Intimidate  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Earthquake  
+- Hidden Power [Flying]  
+- Rock Slide  
+
+AdamaxmaxDDBB (Salamence) @ Leftovers  
+Ability: Intimidate  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Hidden Power [Flying]  
+- Rock Slide  
+- Brick Break  
+
+fruhdazi (Salamence) @ Leftovers  
+Ability: Intimidate  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Mild Nature  
+- Dragon Claw  
+- Brick Break  
+- Hydro Pump  
+- Fire Blast  
+
+bold wish (Salamence) (M) @ Leftovers  
+Ability: Intimidate  
+EVs: 252 HP / 224 Def / 32 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Flamethrower  
+- Toxic  
+- Wish  
+- Protect  
+
+soft sand dd (Salamence) @ Soft Sand  
+Ability: Intimidate  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Earthquake  
+- Rock Slide  
+- Hidden Power [Ghost]  
+
+fly eq wishtect (Salamence) @ Leftovers  
+Ability: Intimidate  
+EVs: 244 HP / 16 Atk / 52 Def / 196 Spe  
+Adamant Nature  
+IVs: 30 SpA / 30 SpD / 30 Spe  
+- Hidden Power [Flying]  
+- Earthquake  
+- Wish  
+- Protect  
+
+naughtymence (Salamence) @ Leftovers  
+Ability: Intimidate  
+EVs: 136 Atk / 176 SpA / 196 Spe  
+Naughty Nature  
+- Fire Blast  
+- Rock Slide  
+- Brick Break  
+- Hidden Power [Grass]  
+
+sub dd jg2 (Salamence) @ Leftovers  
+Ability: Intimidate  
+EVs: 252 HP / 112 Atk / 80 SpD / 64 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Hidden Power [Flying]  
+- Brick Break  
+- Substitute  
+
+Wishmence (Salamence) @ Leftovers  
+Ability: Intimidate  
+EVs: 248 HP / 244 Def / 16 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Flamethrower  
+- Protect  
+- Toxic  
+- Wish  
+
+BB RS mixmence (Salamence) @ Leftovers  
+Ability: Intimidate  
+EVs: 8 HP / 40 Atk / 192 SpA / 112 SpD / 156 Spe  
+Mild Nature  
+IVs: 30 Def / 30 SpA  
+- Brick Break  
+- Rock Slide  
+- Fire Blast  
+- Hidden Power [Grass]  
+
+Utility (Blissey) (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 252 SpA / 4 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Ice Beam  
+- Seismic Toss  
+- Aromatherapy  
+
+Bold CM (Blissey) (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 252 SpA / 4 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Ice Beam  
+- Thunderbolt  
+- Calm Mind  
+
+wishboiled (Blissey) @ Leftovers  
+Ability: Natural Cure  
+EVs: 4 HP / 252 Def / 252 SpA  
+Modest Nature  
+IVs: 0 Atk  
+- Seismic Toss  
+- Ice Beam  
+- Wish  
+- Soft-Boiled  
+
+snatch (Blissey) (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 184 HP / 252 Def / 72 Spe  
+Impish Nature  
+IVs: 0 Atk  
+- Seismic Toss  
+- Toxic  
+- Snatch  
+- Soft-Boiled  
+
+artic mono stoss (Blissey) (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 252 Def / 4 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Seismic Toss  
+- Thunder Wave  
+- Wish  
+- Soft-Boiled  
+
+mussey (Blissey) (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 4 HP / 252 Def / 252 Spe  
+Bold Nature  
+- Seismic Toss  
+- Thunder Wave  
+- Mud-Slap  
+- Soft-Boiled  
+
+clericscreen (Blissey) (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 148 HP / 252 Def / 96 SpD / 12 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Seismic Toss  
+- Light Screen  
+- Aromatherapy  
+- Soft-Boiled  
+
+Sub CM (Jirachi) @ Leftovers  
+Ability: Serene Grace  
+EVs: 252 HP / 4 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Substitute  
+- Calm Mind  
+- Ice Punch  
+- Thunderbolt  
+
+Superrachi (Jirachi) @ Leftovers  
+Ability: Serene Grace  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Calm Mind  
+- Psychic  
+- Hidden Power [Grass]  
+- Fire Punch  
+
+Fearrachi (Jirachi) @ Leftovers  
+Ability: Serene Grace  
+EVs: 252 HP / 252 Def / 4 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Wish  
+- Protect  
+- Toxic  
+- Fire Punch  
+
+Bulky CM (Jirachi) @ Leftovers  
+Ability: Serene Grace  
+EVs: 252 HP / 76 Def / 32 SpA / 76 SpD / 72 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Calm Mind  
+- Thunderbolt  
+- Ice Punch  
+- Hidden Power [Grass]  
+
+Bulky Superachi (Jirachi) @ Leftovers  
+Ability: Serene Grace  
+EVs: 248 HP / 40 Def / 180 SpA / 40 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Psychic  
+- Fire Punch  
+- Hidden Power [Grass]  
+- Calm Mind  
+
+Jirachi @ Leftovers  
+Ability: Serene Grace  
+EVs: 248 HP / 44 Atk / 68 Def / 148 SpD  
+Sassy Nature  
+- Body Slam  
+- Fire Punch  
+- Hidden Power [Fighting]  
+- Wish  
+
+mixed (Jirachi) @ Lum Berry  
+Ability: Serene Grace  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Hasty Nature  
+IVs: 30 Def / 30 SpA  
+- Dynamic Punch  
+- Thunder  
+- Ice Punch  
+- Hidden Power [Grass]  
+
+physwall (Jirachi) @ Leftovers  
+Ability: Serene Grace  
+EVs: 248 HP / 184 Def / 24 SpA / 32 SpD / 20 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Wish  
+- Protect  
+- Toxic  
+- Fire Punch  
+
+wish3a (Jirachi) @ Leftovers  
+Ability: Serene Grace  
+EVs: 248 HP / 44 Atk / 68 Def / 148 SpD  
+Sassy Nature  
+- Body Slam  
+- Fire Punch  
+- Hidden Power [Fighting]  
+- Wish  
+
+cm3a (Jirachi) @ Leftovers  
+Ability: Serene Grace  
+EVs: 248 HP / 40 Def / 152 SpA / 68 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Psychic  
+- Fire Punch  
+- Hidden Power [Grass]  
+- Calm Mind  
+
+cb (Jirachi) @ Choice Band  
+Ability: Serene Grace  
+EVs: 100 HP / 252 Atk / 156 Spe  
+Adamant Nature  
+- Dynamic Punch  
+- Body Slam  
+- Doom Desire  
+- Hidden Power [Fighting]  
+
+bold def (Jirachi) @ Leftovers  
+Ability: Serene Grace  
+EVs: 252 HP / 224 Def / 32 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Wish  
+- Protect  
+- Fire Punch  
+- Toxic  
+
+tbolt grass subcm (Jirachi) @ Leftovers  
+Ability: Serene Grace  
+EVs: 252 HP / 80 SpA / 176 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Substitute  
+- Calm Mind  
+- Thunderbolt  
+- Hidden Power [Grass]  
+
+asta + grass (Jirachi) @ Leftovers  
+Ability: Serene Grace  
+EVs: 248 HP / 68 Def / 148 SpD / 44 Spe  
+Sassy Nature  
+- Body Slam  
+- Fire Punch  
+- Hidden Power [Grass]  
+- Wish  
+
+subtect (Jirachi) @ Leftovers  
+Ability: Serene Grace  
+EVs: 252 HP / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Fire Punch  
+- Toxic  
+- Substitute  
+- Protect  
+
+wish dpunch fire grass (Jirachi) @ Leftovers  
+Ability: Serene Grace  
+EVs: 252 HP / 76 Def / 180 SpD  
+Sassy Nature  
+- Wish  
+- Dynamic Punch  
+- Fire Punch  
+- Hidden Power [Grass]  
+
+Leech CM (Celebi) @ Leftovers  
+Ability: Natural Cure  
+EVs: 192 HP / 8 Def / 132 SpA / 176 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Leech Seed  
+- Calm Mind  
+- Psychic  
+- Giga Drain  
+
+Leech 3A (Celebi) @ Leftovers  
+Ability: Natural Cure  
+EVs: 192 HP / 8 Def / 128 SpA / 180 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Leech Seed  
+- Psychic  
+- Hidden Power [Fire]  
+- Giga Drain  
+
+Defbi (Celebi) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 224 SpD / 32 Spe  
+Calm Nature  
+IVs: 2 Atk / 30 SpA  
+- Leech Seed  
+- Recover  
+- Hidden Power [Grass]  
+- Perish Song  
+
+CM Pass (Celebi) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 76 SpA / 180 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Calm Mind  
+- Giga Drain  
+- Hidden Power [Fire]  
+- Baton Pass  
+
+dualstab defbi (Celebi) @ Leftovers  
+Ability: Natural Cure  
+EVs: 248 HP / 80 Def / 44 SpD / 136 Spe  
+Bold Nature  
+IVs: 2 Atk / 30 SpA  
+- Psychic  
+- Hidden Power [Grass]  
+- Leech Seed  
+- Recover  
+
+sdpass (Celebi) @ Leftovers  
+Ability: Natural Cure  
+EVs: 240 HP / 44 Def / 4 SpD / 220 Spe  
+Jolly Nature  
+- Swords Dance  
+- Hidden Power [Rock]  
+- Baton Pass  
+- Recover  
+
+squishy cmpass (Celebi) @ Leftovers  
+Ability: Natural Cure  
+EVs: 88 HP / 200 SpA / 220 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Baton Pass  
+- Giga Drain  
+- Hidden Power [Fire]  
+- Calm Mind  
+
+monolectric cm pass physdef (Celebi) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 164 Def / 92 Spe  
+Timid Nature  
+IVs: 3 Atk / 30 SpA  
+- Calm Mind  
+- Leech Seed  
+- Hidden Power [Electric]  
+- Baton Pass  
+
+256 leech 3 (Celebi) @ Leftovers  
+Ability: Natural Cure  
+EVs: 192 HP / 8 Def / 224 SpA / 84 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Leech Seed  
+- Psychic  
+- Giga Drain  
+- Hidden Power [Fire]  
+
+280 superbi (Celebi) @ Leftovers  
+Ability: Natural Cure  
+EVs: 196 HP / 8 Def / 124 SpA / 180 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Psychic  
+- Calm Mind  
+- Giga Drain  
+- Hidden Power [Fire]  
+
+mono secretpower (Celebi) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 64 Def / 160 SpD / 32 Spe  
+Careful Nature  
+- Leech Seed  
+- Recover  
+- Secret Power  
+- Swords Dance  
+
+sd recover 2atk (Celebi) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 76 Atk / 100 Def / 80 Spe  
+Impish Nature  
+- Swords Dance  
+- Recover  
+- Shadow Ball  
+- Hidden Power [Fighting]  
+
+subseed giga elec (Celebi) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 80 SpA / 176 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Substitute  
+- Giga Drain  
+- Shock Wave  
+- Leech Seed  
+
+Crocune (Suicune) @ Leftovers  
+Ability: Pressure  
+EVs: 248 HP / 252 SpA / 8 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Surf  
+- Rest  
+- Sleep Talk  
+
+Bold (Suicune) @ Leftovers  
+Ability: Pressure  
+EVs: 248 HP / 252 Def / 8 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Surf  
+- Rest  
+- Roar  
+
+Offensive (Suicune) @ Leftovers  
+Ability: Pressure  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Hydro Pump  
+- Ice Beam  
+- Roar  
+
+subcmroar cune (Suicune) @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 104 SpA / 152 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Substitute  
+- Calm Mind  
+- Surf  
+- Roar  
+
+subrest bold antilax (Suicune) @ Leftovers  
+Ability: Pressure  
+Shiny: Yes  
+EVs: 252 HP / 172 Def / 52 SpA / 32 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Rest  
+- Substitute  
+- Surf  
+
+salac lead (Suicune) @ Salac Berry  
+Ability: Pressure  
+Shiny: Yes  
+EVs: 32 HP / 244 SpA / 232 Spe  
+Modest Nature  
+IVs: 3 Atk / 30 SpA  
+- Hydro Pump  
+- Calm Mind  
+- Ice Beam  
+- Hidden Power [Electric]  
+
+manacune calm (Suicune) @ Leftovers  
+Ability: Pressure  
+EVs: 216 HP / 172 SpA / 80 SpD / 40 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Surf  
+- Ice Beam  
+- Rest  
+
+max calm talk (Suicune) @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 240 SpD / 16 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Rest  
+- Sleep Talk  
+- Calm Mind  
+- Surf  
+
+mirror coat off (Suicune) @ Leftovers  
+Ability: Pressure  
+EVs: 92 HP / 252 SpA / 8 SpD / 156 Spe  
+Modest Nature  
+IVs: 0 Atk / 28 SpA  
+- Calm Mind  
+- Hydro Pump  
+- Ice Beam  
+- Mirror Coat  
+
+Choice Band (Aerodactyl) @ Choice Band  
+Ability: Rock Head  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Rock Slide  
+- Earthquake  
+- Double-Edge  
+- Hidden Power [Bug]  
+
+Sub Liechi (Aerodactyl) @ Liechi Berry  
+Ability: Rock Head  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Rock Slide  
+- Earthquake  
+- Double-Edge  
+- Substitute  
+
+sub liechi fly (Aerodactyl) @ Liechi Berry  
+Ability: Rock Head  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Rock Slide  
+- Substitute  
+- Earthquake  
+- Hidden Power [Flying]  
+
+standard flying (Aerodactyl) @ Choice Band  
+Ability: Rock Head  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Rock Slide  
+- Double-Edge  
+- Earthquake  
+- Hidden Power [Flying]  
+
+fighting (Aerodactyl) @ Choice Band  
+Ability: Rock Head  
+EVs: 252 Atk / 72 SpD / 184 Spe  
+Jolly Nature  
+- Rock Slide  
+- Earthquake  
+- Double-Edge  
+- Hidden Power [Fighting]  
+
+suit (Aerodactyl) @ Choice Band  
+Ability: Rock Head  
+EVs: 252 Atk / 4 SpA / 252 Spe  
+Hasty Nature  
+- Rock Slide  
+- Hidden Power [Flying]  
+- Earthquake  
+- Pursuit  
+
+Standard (Claydol) @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 216 Atk / 32 SpA / 8 Spe  
+Adamant Nature  
+- Earthquake  
+- Psychic  
+- Rapid Spin  
+- Explosion  
+
+bulky standard (Claydol) @ Leftovers  
+Ability: Levitate  
+EVs: 248 HP / 56 Atk / 108 Def / 96 SpD  
+Relaxed Nature  
+- Earthquake  
+- Psychic  
+- Rapid Spin  
+- Explosion  
+
+4a maxatkdol (Claydol) @ Leftovers  
+Ability: Levitate  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Earthquake  
+- Rock Slide  
+- Explosion  
+- Rapid Spin  
+
+offdol (Claydol) @ Leftovers  
+Ability: Levitate  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Earthquake  
+- Rapid Spin  
+- Psychic  
+- Explosion  
+
+icebeam dol (Claydol) @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 216 Atk / 40 SpD  
+Brave Nature  
+- Rapid Spin  
+- Earthquake  
+- Ice Beam  
+- Explosion  
+
+giraffe (Claydol) @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 100 Atk / 112 Def / 32 SpA / 12 SpD  
+Careful Nature  
+- Earthquake  
+- Psychic  
+- Rapid Spin  
+- Explosion  
+
+Standard (Dugtrio) @ Choice Band  
+Ability: Arena Trap  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Hidden Power [Bug]  
+- Aerial Ace  
+- Rock Slide  
+
+Bliss IB no spike (Dugtrio) @ Choice Band  
+Ability: Arena Trap  
+EVs: 40 HP / 144 Atk / 100 SpD / 224 Spe  
+Jolly Nature  
+- Earthquake  
+- Hidden Power [Bug]  
+- Aerial Ace  
+- Beat Up  
+
+Lead Dug (Dugtrio) @ Choice Band  
+Ability: Arena Trap  
+EVs: 120 HP / 252 Atk / 28 Def / 108 Spe  
+Jolly Nature  
+- Earthquake  
+- Hidden Power [Bug]  
+- Aerial Ace  
+- Rock Slide  
+
+bulky beat up (Dugtrio) @ Choice Band  
+Ability: Arena Trap  
+EVs: 80 HP / 148 Atk / 172 SpD / 108 Spe  
+Jolly Nature  
+- Earthquake  
+- Aerial Ace  
+- Hidden Power [Bug]  
+- Beat Up  
+
+adamant (Dugtrio) @ Choice Band  
+Ability: Arena Trap  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Earthquake  
+- Hidden Power [Bug]  
+- Aerial Ace  
+- Rock Slide  
+
+sea endure (Dugtrio) @ Salac Berry  
+Ability: Arena Trap  
+EVs: 40 HP / 244 Atk / 200 SpD / 24 Spe  
+Adamant Nature  
+- Earthquake  
+- Hidden Power [Bug]  
+- Beat Up  
+- Endure  
+
+365 beatup (Dugtrio) @ Choice Band  
+Ability: Arena Trap  
+EVs: 40 HP / 144 Atk / 100 SpD / 224 Spe  
+Jolly Nature  
+- Earthquake  
+- Hidden Power [Bug]  
+- Aerial Ace  
+- Beat Up  
+
+salac grass (Dugtrio) @ Salac Berry  
+Ability: Arena Trap  
+EVs: 192 Atk / 220 SpA / 96 Spe  
+Lonely Nature  
+- Earthquake  
+- Beat Up  
+- Endure  
+- Hidden Power [Grass]  
+
+Offmie (Starmie) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Hydro Pump  
+- Thunderbolt  
+- Ice Beam  
+- Rapid Spin  
+
+Defmie 332 (Starmie) @ Leftovers  
+Ability: Natural Cure  
+EVs: 248 HP / 116 SpD / 144 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Surf  
+- Recover  
+- Thunder Wave  
+- Rapid Spin  
+
+Defmie 308 (Starmie) @ Leftovers  
+Ability: Natural Cure  
+EVs: 248 HP / 204 Def / 56 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Surf  
+- Thunder Wave  
+- Recover  
+- Rapid Spin  
+
+308 spdef (Starmie) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 40 SpA / 160 SpD / 56 Spe  
+Timid Nature  
+- Rapid Spin  
+- Recover  
+- Surf  
+- Thunder Wave  
+
+330mie spdef (Starmie) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 40 SpA / 80 SpD / 136 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Rapid Spin  
+- Recover  
+- Surf  
+- Thunder Wave  
+
+mystic water lead (Starmie) @ Mystic Water  
+Ability: Natural Cure  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Hydro Pump  
+- Ice Beam  
+- Thunderbolt  
+- Light Screen  
+
+bold (Starmie) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 136 Def / 44 SpD / 76 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Recover  
+- Surf  
+- Thunder Wave  
+- Rapid Spin  
+
+Standard (Magneton) @ Magnet  
+Ability: Magnet Pull  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Thunderbolt  
+- Hidden Power [Fire]  
+- Toxic  
+- Thunder Wave  
+
+Salac (Magneton) @ Salac Berry  
+Ability: Magnet Pull  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Toxic  
+- Endure  
+
+lefties protox (Magneton) @ Leftovers  
+Ability: Magnet Pull  
+EVs: 144 HP / 112 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Thunderbolt  
+- Hidden Power [Fire]  
+- Thunder Wave  
+- Toxic  
+
+beats Tar (Snorlax) @ Leftovers  
+Ability: Immunity  
+EVs: 144 HP / 152 Atk / 196 Def / 16 SpD  
+Adamant Nature  
+- Body Slam  
+- Earthquake  
+- Shadow Ball  
+- Self-Destruct  
+
+Beats Skarm (Snorlax) @ Leftovers  
+Ability: Immunity  
+EVs: 24 HP / 176 Atk / 108 Def / 184 SpD / 16 Spe  
+Adamant Nature  
+- Body Slam  
+- Focus Punch  
+- Shadow Ball  
+- Self-Destruct  
+
+curselax (Snorlax) @ Leftovers  
+Ability: Immunity  
+EVs: 52 HP / 176 Atk / 144 Def / 136 SpD  
+Adamant Nature  
+- Curse  
+- Return  
+- Earthquake  
+- Self-Destruct  
+
+4a (Snorlax) @ Leftovers  
+Ability: Immunity  
+EVs: 64 HP / 176 Atk / 100 Def / 128 SpD / 40 Spe  
+Adamant Nature  
+- Return  
+- Earthquake  
+- Shadow Ball  
+- Self-Destruct  
+
+fp counter (Snorlax) @ Leftovers  
+Ability: Immunity  
+EVs: 216 Atk / 116 Def / 176 SpD  
+Adamant Nature  
+- Body Slam  
+- Focus Punch  
+- Counter  
+- Self-Destruct  
+
+fruhlax aggro (Snorlax) @ Leftovers  
+Ability: Immunity  
+EVs: 36 HP / 216 Atk / 168 Def / 68 SpD / 20 Spe  
+Adamant Nature  
+- Curse  
+- Earthquake  
+- Double-Edge  
+- Shadow Ball  
+
+curse fp boom (Snorlax) (F) @ Leftovers  
+Ability: Immunity  
+EVs: 24 HP / 176 Atk / 128 Def / 180 SpD  
+Adamant Nature  
+- Body Slam  
+- Self-Destruct  
+- Focus Punch  
+- Curse  
+
+FP Lax (Snorlax) @ Leftovers  
+Ability: Immunity  
+EVs: 32 HP / 176 Atk / 108 Def / 172 SpD / 20 Spe  
+Adamant Nature  
+- Body Slam  
+- Shadow Ball  
+- Focus Punch  
+- Self-Destruct  
+
+river brick blast (Snorlax) @ Leftovers  
+Ability: Immunity  
+EVs: 48 HP / 176 Atk / 96 Def / 80 SpA / 108 SpD  
+Brave Nature  
+- Body Slam  
+- Brick Break  
+- Fire Blast  
+- Self-Destruct  
+
+Modest (Moltres) @ Leftovers  
+Ability: Pressure  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Flamethrower  
+- Hidden Power [Grass]  
+- Will-O-Wisp  
+- Roar  
+
+mix molt (Moltres) @ Leftovers  
+Ability: Pressure  
+EVs: 252 Atk / 64 SpA / 192 Spe  
+Lonely Nature  
+- Flamethrower  
+- Hidden Power [Fighting]  
+- Protect  
+- Toxic  
+
+Defensive (Flygon) @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 224 Def / 32 Spe  
+Impish Nature  
+- Protect  
+- Earthquake  
+- Rock Slide  
+- Toxic  
+
+Offgon (Flygon) @ Leftovers  
+Ability: Levitate  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Rock Slide  
+- Hidden Power [Bug]  
+- Substitute  
+
+flame protox (Flygon) @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 220 Def / 36 Spe  
+Impish Nature  
+- Earthquake  
+- Toxic  
+- Protect  
+- Flamethrower  
+
+328 monoeq (Flygon) @ Leftovers  
+Ability: Levitate  
+EVs: 240 HP / 16 Atk / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Toxic  
+- Protect  
+- Substitute  
+
+SubPunch (Charizard) @ Leftovers  
+Ability: Blaze  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Hasty Nature  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Substitute  
+- Focus Punch  
+
+Beat Up (Charizard) @ Leftovers  
+Ability: Blaze  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Flamethrower  
+- Hidden Power [Grass]  
+- Dragon Claw  
+- Beat Up  
+
+standard 328 (Charizard) @ Leftovers  
+Ability: Blaze  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Naive Nature  
+- Substitute  
+- Hidden Power [Grass]  
+- Fire Blast  
+- Focus Punch  
+
+sunny taya (Charizard) @ Petaya Berry  
+Ability: Blaze  
+EVs: 12 HP / 244 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Substitute  
+- Hidden Power [Grass]  
+- Fire Blast  
+- Sunny Day  
+
+ice beatup bb (Charizard) @ Leftovers  
+Ability: Blaze  
+EVs: 30 Atk / 226 SpA / 252 Spe  
+Hasty Nature  
+- Flamethrower  
+- Hidden Power [Ice]  
+- Brick Break  
+- Beat Up  
+
+dd lum bb (Charizard) @ Lum Berry  
+Ability: Blaze  
+EVs: 252 Atk / 120 SpA / 136 Spe  
+Mild Nature  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Brick Break  
+- Dragon Dance  
+
+mix fp (Charizard) @ Leftovers  
+Ability: Blaze  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Hasty Nature  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Dragon Claw  
+- Focus Punch  
+
+Endure Salac (Heracross) @ Salac Berry  
+Ability: Swarm  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Swords Dance  
+- Substitute  
+- Megahorn  
+- Rock Slide  
+
+SD Leftovers (Heracross) @ Leftovers  
+Ability: Swarm  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Swords Dance  
+- Substitute  
+- Megahorn  
+- Focus Punch  
+
+CB (Heracross) @ Choice Band  
+Ability: Guts  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Focus Punch  
+- Rock Slide  
+- Megahorn  
+- Sleep Talk  
+
+4a (Heracross) @ Leftovers  
+Ability: Guts  
+EVs: 144 HP / 16 Atk / 184 SpD / 164 Spe  
+Adamant Nature  
+- Megahorn  
+- Rock Slide  
+- Hidden Power [Ghost]  
+- Brick Break  
+
+reversal (Heracross) @ Salac Berry  
+Ability: Swarm  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+IVs: 30 HP  
+- Swords Dance  
+- Megahorn  
+- Endure  
+- Reversal  
+
+Explo Standard (Forretress) @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 4 Def / 252 SpD  
+Careful Nature  
+IVs: 30 SpD / 30 Spe  
+- Spikes  
+- Rapid Spin  
+- Hidden Power [Bug]  
+- Explosion  
+
+EQ Standard (Forretress) @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 4 Def / 252 SpD  
+Careful Nature  
+IVs: 30 SpD / 30 Spe  
+- Spikes  
+- Rapid Spin  
+- Hidden Power [Bug]  
+- Earthquake  
+
+Eq Explo (Forretress) @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+- Spikes  
+- Rapid Spin  
+- Earthquake  
+- Explosion  
+
+zap (Forretress) @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 4 Def / 252 SpD  
+Sassy Nature  
+- Spikes  
+- Rapid Spin  
+- Earthquake  
+- Zap Cannon  
+
+HP Ghost (Forretress) @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 4 Def / 252 SpD  
+Careful Nature  
+- Spikes  
+- Rapid Spin  
+- Hidden Power [Ghost]  
+- Earthquake  
+
+Standard (Breloom) @ Leftovers  
+Ability: Effect Spore  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Spore  
+- Sky Uppercut  
+- Mach Punch  
+- Hidden Power [Ghost]  
+
+SubPunch (Breloom) @ Leftovers  
+Ability: Effect Spore  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Spore  
+- Substitute  
+- Focus Punch  
+- Mach Punch  
+
+ada sd mono (Breloom) @ Leftovers  
+Ability: Effect Spore  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Swords Dance  
+- Sky Uppercut  
+- Mach Punch  
+- Spore  
+
+choice band (Breloom) @ Choice Band  
+Ability: Effect Spore  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Double-Edge  
+- Spore  
+- Sky Uppercut  
+- Mach Punch  
+
+spdef 202 subseed (Breloom) (M) @ Leftovers  
+Ability: Effect Spore  
+EVs: 176 Atk / 32 Def / 196 SpD / 104 Spe  
+Adamant Nature  
+IVs: 1 HP  
+- Spore  
+- Substitute  
+- Leech Seed  
+- Focus Punch  
+
+sub liechi fakes (Breloom) @ Liechi Berry  
+Ability: Effect Spore  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+IVs: 30 HP / 30 Def / 30 SpD  
+- Substitute  
+- Focus Punch  
+- Hidden Power [Ghost]  
+- Spore  
+
+Standard (Jolteon) @ Leftovers  
+Ability: Volt Absorb  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Thunder Wave  
+- Baton Pass  
+
+spdef jolt (Jolteon) @ Leftovers  
+Ability: Volt Absorb  
+EVs: 76 HP / 4 SpA / 252 SpD / 176 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Substitute  
+- Baton Pass  
+
+max max (Jolteon) @ Leftovers  
+Ability: Volt Absorb  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Roar  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Baton Pass  
+
+Standard (Gyarados) @ Leftovers  
+Ability: Intimidate  
+EVs: 68 HP / 252 Atk / 188 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Hidden Power [Flying]  
+- Earthquake  
+- Double-Edge  
+
+Taunt (Gyarados) @ Leftovers  
+Ability: Intimidate  
+EVs: 68 HP / 252 Atk / 188 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Hidden Power [Rock]  
+- Earthquake  
+- Taunt  
+
+jollyDDmaxmax (Gyarados) @ Leftovers  
+Ability: Intimidate  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Hidden Power [Flying]  
+- Double-Edge  
+- Earthquake  
+- Dragon Dance  
+
+jolly taunt rock (Gyarados) @ Leftovers  
+Ability: Intimidate  
+EVs: 84 HP / 252 Atk / 172 Spe  
+Jolly Nature  
+- Hidden Power [Rock]  
+- Earthquake  
+- Dragon Dance  
+- Taunt  
+
+asta (Gyarados) @ Leftovers  
+Ability: Intimidate  
+EVs: 40 HP / 236 Atk / 232 Spe  
+Jolly Nature  
+- Dragon Dance  
+- Hidden Power [Ghost]  
+- Earthquake  
+- Double-Edge  
+
+jolly sub dd (Gyarados) @ Leftovers  
+Ability: Intimidate  
+EVs: 48 HP / 176 Atk / 36 Def / 248 Spe  
+Jolly Nature  
+IVs: 30 SpA / 30 SpD / 30 Spe  
+- Hidden Power [Flying]  
+- Earthquake  
+- Dragon Dance  
+- Substitute  
+
+sub flail (Gyarados) @ Liechi Berry  
+Ability: Intimidate  
+EVs: 60 HP / 252 Atk / 196 Spe  
+Jolly Nature  
+IVs: 30 SpA / 30 SpD / 30 Spe  
+- Dragon Dance  
+- Flail  
+- Hidden Power [Flying]  
+- Substitute  
+
+Fat DDRest (Gyarados) @ Leftovers  
+Ability: Intimidate  
+EVs: 252 HP / 16 Atk / 24 Def / 196 SpD / 20 Spe  
+Adamant Nature  
+IVs: 30 SpA / 30 SpD / 30 Spe  
+- Dragon Dance  
+- Earthquake  
+- Hidden Power [Flying]  
+- Rest  
+
+cb giraffe (Gyarados) @ Choice Band  
+Ability: Intimidate  
+EVs: 44 HP / 252 Atk / 212 Spe  
+Adamant Nature  
+IVs: 30 SpA / 30 SpD / 30 Spe  
+- Thunder Wave  
+- Earthquake  
+- Hidden Power [Flying]  
+- Return  
+
+Standard (Hariyama) @ Leftovers  
+Ability: Guts  
+EVs: 252 HP / 252 Atk / 4 Def  
+Adamant Nature  
+- Knock Off  
+- Cross Chop  
+- Hidden Power [Ghost]  
+- Focus Punch  
+
+tanky drum (Hariyama) @ Leftovers  
+Ability: Thick Fat  
+EVs: 16 HP / 144 Atk / 68 Def / 28 SpD / 252 Spe  
+Adamant Nature  
+- Brick Break  
+- Hidden Power [Ghost]  
+- Whirlwind  
+- Belly Drum  
+
+yolodrum (Hariyama) @ Leftovers  
+Ability: Thick Fat  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Brick Break  
+- Hidden Power [Ghost]  
+- Whirlwind  
+- Belly Drum  
+
+CB (Hariyama) @ Choice Band  
+Ability: Guts  
+EVs: 252 Atk / 16 Def / 128 SpD / 112 Spe  
+Adamant Nature  
+- Cross Chop  
+- Focus Punch  
+- Hidden Power [Ghost]  
+- Rock Slide  
+
+modest standard (Cloyster) @ Leftovers  
+Ability: Shell Armor  
+EVs: 168 SpA / 244 SpD / 96 Spe  
+Modest Nature  
+- Spikes  
+- Rapid Spin  
+- Surf  
+- Explosion  
+
+bold standard (Cloyster) @ Leftovers  
+Ability: Shell Armor  
+EVs: 244 HP / 16 Def / 184 SpD / 64 Spe  
+Bold Nature  
+- Spikes  
+- Surf  
+- Rapid Spin  
+- Explosion  
+
+Spikes lead (Smeargle) @ Lum Berry  
+Ability: Own Tempo  
+EVs: 252 HP / 4 Atk / 252 Spe  
+Jolly Nature  
+- Spore  
+- Spikes  
+- Whirlwind  
+- Explosion  
+
+endure salac (Smeargle) @ Salac Berry  
+Ability: Own Tempo  
+EVs: 68 HP / 188 SpD / 252 Spe  
+Jolly Nature  
+IVs: 0 Atk  
+- Spore  
+- Spikes  
+- Endeavor  
+- Endure  
+
+conflict (Smeargle) @ Salac Berry  
+Ability: Own Tempo  
+EVs: 252 HP / 92 Def / 100 SpD / 64 Spe  
+Jolly Nature  
+- Spore  
+- Spikes  
+- Encore  
+- Explosion  
+
+spreek (Smeargle) @ Leftovers  
+Ability: Own Tempo  
+EVs: 252 HP / 92 Def / 100 SpD / 64 Spe  
+Jolly Nature  
+IVs: 0 Atk  
+- Spore  
+- Spikes  
+- Encore  
+- Agility  
+
+Standard (Medicham) @ Lum Berry  
+Ability: Pure Power  
+EVs: 8 HP / 252 Atk / 8 Def / 240 Spe  
+Adamant Nature  
+- Brick Break  
+- Rock Slide  
+- Shadow Ball  
+- Focus Punch  
+
+hes too tanky (Medicham) @ Leftovers  
+Ability: Pure Power  
+EVs: 248 HP / 228 Atk / 32 Spe  
+Jolly Nature  
+- Recover  
+- Brick Break  
+- Shadow Ball  
+- Rock Slide  
+
+CB (Medicham) @ Choice Band  
+Ability: Pure Power  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Brick Break  
+- Shadow Ball  
+- Rock Slide  
+- Fake Out  
+
+bulk up (Medicham) @ Leftovers  
+Ability: Pure Power  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Bulk Up  
+- Brick Break  
+- Shadow Ball  
+- Recover  
+
+subsalac (Medicham) @ Salac Berry  
+Ability: Pure Power  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Substitute  
+- Reversal  
+- Focus Punch  
+- Shadow Ball  
+
+Standard (Kingdra) @ Leftovers  
+Ability: Swift Swim  
+EVs: 104 HP / 252 SpA / 152 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Rain Dance  
+- Hydro Pump  
+- Ice Beam  
+- Hidden Power [Grass]  
+
+Bulky (Kingdra) @ Lum Berry  
+Ability: Swift Swim  
+EVs: 252 HP / 252 SpA / 4 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Rain Dance  
+- Hydro Pump  
+- Ice Beam  
+- Hidden Power [Grass]  
+
+taya sub (Kingdra) @ Petaya Berry  
+Ability: Swift Swim  
+EVs: 116 HP / 252 SpA / 140 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Substitute  
+- Surf  
+- Rain Dance  
+- Ice Beam  
+
+slow tanky (Kingdra) (F) @ Leftovers  
+Ability: Swift Swim  
+EVs: 240 HP / 252 SpA / 16 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Rain Dance  
+- Surf  
+- Ice Beam  
+- Substitute  
+
+Standard (Raikou) @ Leftovers  
+Ability: Pressure  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 Def  
+- Substitute  
+- Calm Mind  
+- Thunderbolt  
+- Hidden Power [Ice]  
+
+Bulky Wall (Raikou) @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 120 SpD / 148 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Roar  
+- Rest  
+
+subtox lead (Raikou) @ Petaya Berry  
+Ability: Pressure  
+EVs: 12 HP / 164 Def / 252 SpA / 80 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Substitute  
+- Toxic  
+
+abr (Raikou) @ Leftovers  
+Ability: Pressure  
+EVs: 196 HP / 148 SpA / 16 SpD / 148 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Calm Mind  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Substitute  
+
+Superaikou (Raikou) @ Leftovers  
+Ability: Pressure  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Calm Mind  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Crunch  
+
+balanced (Registeel) @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 160 Def / 96 SpD  
+Careful Nature  
+- Thunder Wave  
+- Seismic Toss  
+- Explosion  
+- Counter  
+
+physdef (Registeel) @ Leftovers  
+Ability: Clear Body  
+EVs: 240 HP / 216 Def / 52 Spe  
+Impish Nature  
+- Seismic Toss  
+- Thunder Wave  
+- Explosion  
+- Counter  
+
+88 Def / 168 SpD (Registeel) @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 88 Def / 168 SpD  
+Careful Nature  
+- Seismic Toss  
+- Thunder Wave  
+- Counter  
+- Explosion  
+
+last mon wincon (Registeel) @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 208 Def / 48 SpD  
+Impish Nature  
+- Rest  
+- Amnesia  
+- Curse  
+- Hidden Power [Steel]  
+
+curse punch boom (Registeel) @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Adamant Nature  
+- Explosion  
+- Curse  
+- Focus Punch  
+- Hidden Power [Rock]  
+
+rest ghost (Registeel) @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 216 SpD / 40 Spe  
+Careful Nature  
+- Rest  
+- Seismic Toss  
+- Hidden Power [Ghost]  
+- Counter  
+
+spdef (Registeel) @ Leftovers  
+Ability: Clear Body  
+EVs: 240 HP / 216 SpD / 52 Spe  
+Careful Nature  
+- Thunder Wave  
+- Seismic Toss  
+- Explosion  
+- Counter  
+
+abr max atk (Regice) @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 252 Atk / 4 Def  
+Relaxed Nature  
+- Ice Beam  
+- Seismic Toss  
+- Explosion  
+- Rest  
+
+standard (Regice) @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 4 Def / 252 SpA  
+Quiet Nature  
+- Ice Beam  
+- Thunderbolt  
+- Explosion  
+- Thunder Wave  
+
+Standard (Milotic) @ Leftovers  
+Ability: Marvel Scale  
+EVs: 248 HP / 212 Def / 48 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Toxic  
+- Refresh  
+- Recover  
+
+salac (Milotic) @ Salac Berry  
+Ability: Marvel Scale  
+EVs: 52 HP / 252 SpA / 204 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Hydro Pump  
+- Ice Beam  
+- Light Screen  
+- Toxic  
+
+Hypnosis (Milotic) @ Leftovers  
+Ability: Marvel Scale  
+EVs: 248 HP / 212 Def / 48 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Hypnosis  
+- Surf  
+- Ice Beam  
+- Recover  
+
+IB (Milotic) @ Leftovers  
+Ability: Marvel Scale  
+EVs: 248 HP / 212 Def / 48 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Ice Beam  
+- Refresh  
+- Recover  
+
+balanced offmilo (Milotic) @ Leftovers  
+Ability: Marvel Scale  
+EVs: 252 HP / 20 Def / 216 SpA / 20 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Hypnosis  
+- Surf  
+- Ice Beam  
+- Recover  
+
+lead lure (Marowak) @ Thick Club  
+Ability: Rock Head  
+EVs: 128 HP / 216 Atk / 28 Def / 136 Spe  
+Adamant Nature  
+- Earthquake  
+- Ancient Power  
+- Focus Punch  
+- Swords Dance  
+
+LWB (Entei) @ Leftovers  
+Ability: Pressure  
+EVs: 132 HP / 196 SpA / 140 SpD / 40 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Substitute  
+- Calm Mind  
+
+mix bell (Dragonite) @ Leftovers  
+Ability: Inner Focus  
+EVs: 208 Atk / 188 SpA / 112 Spe  
+Mild Nature  
+- Heal Bell  
+- Fire Blast  
+- Brick Break  
+- Hidden Power [Grass]  
+
+intelligent goober (Alakazam) @ Leftovers  
+Ability: Synchronize  
+EVs: 252 HP / 16 SpA / 12 SpD / 228 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Psychic  
+- Fire Punch  
+- Recover  
+- Knock Off  
+
+fast bulky roar (Vaporeon) @ Leftovers  
+Ability: Water Absorb  
+EVs: 16 HP / 176 Def / 88 SpA / 228 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Substitute  
+- Baton Pass  
+- Hydro Pump  
+- Roar  
+
+off fast pass (Vaporeon) @ Leftovers  
+Ability: Water Absorb  
+EVs: 12 HP / 244 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Substitute  
+- Hydro Pump  
+- Ice Beam  
+- Baton Pass  
+
+203 pass (Vaporeon) @ Leftovers  
+Ability: Water Absorb  
+EVs: 16 HP / 240 Def / 96 SpA / 8 SpD / 148 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Substitute  
+- Hydro Pump  
+- Ice Beam  
+- Baton Pass  
+
+def slow pass (Vaporeon) @ Leftovers  
+Ability: Water Absorb  
+EVs: 16 HP / 244 Def / 176 SpA / 12 SpD / 60 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Substitute  
+- Hydro Pump  
+- Ice Beam  
+- Baton Pass  
+
+calm haze (Vaporeon) @ Leftovers  
+Ability: Water Absorb  
+EVs: 116 HP / 252 Def / 4 SpA / 136 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Haze  
+- Protect  
+- Wish  
+- Surf  
+
+bulky subseed (Ludicolo) @ Leftovers  
+Ability: Swift Swim  
+EVs: 248 HP / 144 Def / 16 SpA / 100 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Substitute  
+- Leech Seed  
+- Surf  
+- Rain Dance  
+
+counter calm (Ludicolo) @ Leftovers  
+Ability: Swift Swim  
+EVs: 252 HP / 200 Def / 4 SpA / 44 SpD / 8 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Ice Beam  
+- Leech Seed  
+- Counter  
+- Giga Drain  
+
+Ice Standard (Glalie) @ Salac Berry  
+Ability: Inner Focus  
+EVs: 40 HP / 252 SpD / 216 Spe  
+Calm Nature  
+- Spikes  
+- Explosion  
+- Taunt  
+- Ice Beam  
+
+Fighting Standard (Glalie) @ Salac Berry  
+Ability: Inner Focus  
+EVs: 48 HP / 136 Atk / 208 Def / 116 Spe  
+Adamant Nature  
+- Spikes  
+- Explosion  
+- Taunt  
+- Hidden Power [Fighting]  
+
+jg2 fight (Glalie) @ Choice Band  
+Ability: Inner Focus  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Explosion  
+- Spikes  
+- Hidden Power [Fighting]  
+- Ice Beam  
+
+balanced (Steelix) @ Leftovers  
+Ability: Rock Head  
+EVs: 252 HP / 104 Atk / 116 SpD / 36 Spe  
+Impish Nature  
+- Earthquake  
+- Roar  
+- Explosion  
+- Hidden Power [Rock]  
+
+Standard (Steelix) @ Leftovers  
+Ability: Rock Head  
+EVs: 252 HP / 64 Atk / 16 Def / 176 SpD  
+Impish Nature  
+- Earthquake  
+- Roar  
+- Explosion  
+- Toxic  
+
+standard lead (Wailord) @ Leftovers  
+Ability: Water Veil  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Naive Nature  
+- Water Spout  
+- Ice Beam  
+- Self-Destruct  
+- Surf  
+
+cb lead (Wailord) @ Choice Band  
+Ability: Water Veil  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Adamant Nature  
+- Sleep Talk  
+- Body Slam  
+- Double-Edge  
+- Self-Destruct  
+
+the_donphan (Donphan) @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 248 Def / 8 Spe  
+Impish Nature  
+- Earthquake  
+- Hidden Power [Rock]  
+- Rest  
+- Rapid Spin  
+
+shade talk (Dusclops) @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 56 Def / 200 SpD  
+Careful Nature  
+- Night Shade  
+- Rest  
+- Sleep Talk  
+- Will-O-Wisp  
+
+imprison (Dusclops) @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 96 Def / 104 SpD / 56 Spe  
+Careful Nature  
+IVs: 0 Atk  
+- Will-O-Wisp  
+- Rest  
+- Imprison  
+- Night Shade  
+
+cb lead (Electrode) @ Choice Band  
+Ability: Soundproof  
+EVs: 28 HP / 252 Atk / 228 Spe  
+Adamant Nature  
+- Explosion  
+- Return  
+- Hidden Power [Ghost]  
+- Thunder Wave  
+
+magnet (Electrode) @ Magnet  
+Ability: Soundproof  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Hasty Nature  
+- Explosion  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Light Screen  
+
+Offensive (Articuno) @ Never-Melt Ice  
+Ability: Pressure  
+EVs: 24 HP / 252 SpA / 232 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Ice Beam  
+- Toxic  
+- Hidden Power [Fire]  
+- Heal Bell  
+
+cb giraffe (Regirock) @ Choice Band  
+Ability: Clear Body  
+EVs: 200 HP / 252 Atk / 56 Spe  
+Adamant Nature  
+- Rock Slide  
+- Superpower  
+- Double-Edge  
+- Explosion  
+
+redless lead (Regirock) @ Leftovers  
+Ability: Clear Body  
+EVs: 216 HP / 180 Atk / 112 SpD  
+Adamant Nature  
+- Counter  
+- Explosion  
+- Thunder Wave  
+- Rock Slide  
+
+sd (Venusaur) @ Leftovers  
+Ability: Overgrow  
+EVs: 64 HP / 252 Atk / 192 Spe  
+Adamant Nature  
+- Sleep Powder  
+- Swords Dance  
+- Sludge Bomb  
+- Earthquake  
+
+Standard disabler (Venusaur) @ Leftovers  
+Ability: Overgrow  
+EVs: 8 HP / 192 SpA / 56 SpD / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Giga Drain  
+- Leech Seed  
+- Sleep Powder  
+- Hidden Power [Fire]  
+
+Maxmax disabler (Venusaur) @ Leftovers  
+Ability: Overgrow  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Giga Drain  
+- Hidden Power [Fire]  
+- Sleep Powder  
+- Leech Seed  
+
+max spdef roar (Venusaur) @ Leftovers  
+Ability: Overgrow  
+EVs: 60 Def / 252 SpD / 196 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Leech Seed  
+- Roar  
+- Giga Drain  
+- Sleep Powder  
+
+antidug (Gardevoir) @ Leftovers  
+Ability: Trace  
+EVs: 252 HP / 148 Def / 108 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 Def / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Water]  
+- Wish  
+- Calm Mind  
+
+bold def (Sableye) @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 252 Def / 4 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Recover  
+- Psych Up  
+- Seismic Toss  
+- Knock Off  
+
+lum agil sd (Scizor) @ Lum Berry  
+Ability: Swarm  
+EVs: 108 HP / 252 Atk / 148 Spe  
+Adamant Nature  
+- Swords Dance  
+- Silver Wind  
+- Hidden Power [Rock]  
+- Agility  
+
+reversal (Scizor) @ Salac Berry  
+Ability: Swarm  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Swords Dance  
+- Endure  
+- Reversal  
+- Hidden Power [Ghost]  
+
+abr (Misdreavus) @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 4 Def / 252 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Mean Look  
+- Thunderbolt  
+- Perish Song  
+- Rest  
+
+modest spdef (Houndoom) @ Leftovers  
+Ability: Flash Fire  
+EVs: 196 SpA / 120 SpD / 192 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Pursuit  
+- Fire Blast  
+- Beat Up  
+- Will-O-Wisp  
+
+Houndoom @ Leftovers  
+Ability: Early Bird  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Pursuit  
+- Fire Blast  
+- Will-O-Wisp  
+- Hidden Power [Grass]  
+
+jumpy careful (Armaldo) @ Leftovers  
+Ability: Battle Armor  
+EVs: 252 HP / 112 Atk / 144 SpD  
+Careful Nature  
+- Hidden Power [Bug]  
+- Knock Off  
+- Rock Blast  
+- Earthquake  
+
+bulk up (Machamp) @ Leftovers  
+Ability: Guts  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Bulk Up  
+- Cross Chop  
+- Rock Slide  
+- Hidden Power [Ghost]  
+
+Machamp @ Leftovers  
+Ability: Guts  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Bulk Up  
+- Cross Chop  
+- Rock Slide  
+- Hidden Power [Bug]  
+
+Machamp @ Choice Band  
+Ability: Guts  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Cross Chop  
+- Focus Punch  
+- Rock Slide  
+- Hidden Power [Bug]  
+
+CB (Ninjask) @ Choice Band  
+Ability: Speed Boost  
+EVs: 252 Atk / 48 SpD / 208 Spe  
+Adamant Nature  
+- Silver Wind  
+- Hidden Power [Rock]  
+- Shadow Ball  
+- Aerial Ace  
+
+tox (Ninjask) @ Leftovers  
+Ability: Speed Boost  
+EVs: 252 HP / 232 SpD / 24 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Silver Wind  
+- Substitute  
+- Toxic  
+- Protect  
+
+salac squish (Jynx) (F) @ Salac Berry  
+Ability: Oblivious  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Modest Nature  
+IVs: 16 HP / 0 Atk / 0 SpD  
+- Ice Beam  
+- Perish Song  
+- Lovely Kiss  
+- Endure  
+
+317 (Jynx) (F) @ Leftovers  
+Ability: Oblivious  
+EVs: 84 HP / 172 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Ice Beam  
+- Lovely Kiss  
+- Mean Look  
+- Perish Song  
+
+sea pass (Lunatone) @ Leftovers  
+Ability: Levitate  
+EVs: 248 HP / 216 Def / 16 SpA / 28 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Ice Beam  
+- Baton Pass  
+- Hypnosis  
+
+endure salac (Golduck) @ Salac Berry  
+Ability: Cloud Nine  
+EVs: 236 SpA / 20 SpD / 252 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Hydro Pump  
+- Ice Beam  
+- Endure  
+
+Jumpluff @ Leftovers  
+Ability: Chlorophyll  
+EVs: 56 Def / 200 SpD / 252 Spe  
+Jolly Nature  
+IVs: 0 Atk  
+- Substitute  
+- Leech Seed  
+- Encore  
+- Sleep Powder  
+
+Solrock @ Choice Band  
+Ability: Levitate  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Rock Slide  
+- Hidden Power [Fighting]  
+- Explosion  
+- Earthquake  
+

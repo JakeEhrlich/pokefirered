@@ -1,0 +1,55 @@
+Hitmonchan (M) @ Choice Band  
+Ability: Keen Eye  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Sky Uppercut  
+- Hidden Power [Flying]  
+- Rock Slide  
+- Mach Punch  
+
+Wailord @ Leftovers  
+Ability: Water Veil  
+EVs: 172 Def / 120 SpA / 216 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Substitute  
+- Surf  
+- Toxic  
+- Protect  
+
+Metang @ Leftovers  
+Ability: Clear Body  
+EVs: 152 HP / 252 Atk / 104 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Explosion  
+- Agility  
+
+Glalie @ Leftovers  
+Ability: Inner Focus  
+EVs: 252 HP / 32 SpD / 224 Spe  
+Jolly Nature  
+- Spikes  
+- Shadow Ball  
+- Explosion  
+- Light Screen  
+
+Haunter @ Petaya Berry  
+Ability: Levitate  
+EVs: 196 Def / 84 SpA / 228 Spe  
+Naive Nature  
+- Thunderbolt  
+- Psychic  
+- Hidden Power [Fire]  
+- Explosion  
+
+Raticate @ Choice Band  
+Ability: Guts  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Return  
+- Shadow Ball  
+- Facade  
+- Hidden Power [Ground]  
+

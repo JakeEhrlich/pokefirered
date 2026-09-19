@@ -1,0 +1,56 @@
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 236 Def / 32 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Surf  
+- Rest  
+- Roar  
+
+Skarmory (M) @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 44 Atk / 20 Def / 192 SpD  
+Impish Nature  
+- Spikes  
+- Protect  
+- Toxic  
+- Drill Peck  
+
+Salamence (M) @ Choice Band  
+Ability: Intimidate  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Hidden Power [Flying]  
+- Earthquake  
+- Rock Slide  
+- Brick Break  
+
+Claydol @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 188 Atk / 68 Spe  
+Jolly Nature  
+- Earthquake  
+- Rapid Spin  
+- Psychic  
+- Explosion  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 48 HP / 252 Def / 204 SpA / 4 SpD  
+Bold Nature  
+- Wish  
+- Soft-Boiled  
+- Seismic Toss  
+- Ice Beam  
+
+Magneton @ Magnet  
+Ability: Magnet Pull  
+EVs: 76 HP / 252 SpA / 180 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Thunderbolt  
+- Hidden Power [Fire]  
+- Protect  
+- Rain Dance  
+

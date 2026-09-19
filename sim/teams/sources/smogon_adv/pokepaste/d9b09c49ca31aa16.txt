@@ -1,0 +1,55 @@
+burial mounds (Metagross) @ Leftovers  
+Ability: Clear Body  
+EVs: 156 HP / 252 Atk / 100 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Rock Slide  
+- Explosion  
+
+ivory tower (Aerodactyl) @ Choice Band  
+Ability: Rock Head  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Rock Slide  
+- Earthquake  
+- Double-Edge  
+- Hidden Power [Bug]  
+
+sanctuary (Tyranitar) @ Lum Berry  
+Ability: Sand Stream  
+EVs: 112 Atk / 144 Def / 252 Spe  
+Adamant Nature  
+- Rock Slide  
+- Earthquake  
+- Double-Edge  
+- Dragon Dance  
+
+gemini (Claydol) @ Leftovers  
+Ability: Levitate  
+EVs: 24 HP / 252 Atk / 232 Spe  
+Adamant Nature  
+- Earthquake  
+- Psychic  
+- Rapid Spin  
+- Explosion  
+
+backwash (Swampert) @ Leftovers  
+Ability: Torrent  
+EVs: 168 HP / 252 SpA / 88 Spe  
+Modest Nature  
+- Surf  
+- Ice Beam  
+- Earthquake  
+- Focus Punch  
+
+ascension (Zapdos) @ Leftovers  
+Ability: Pressure  
+EVs: 80 HP / 252 SpA / 176 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Toxic  
+- Protect  
+

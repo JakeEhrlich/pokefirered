@@ -1,0 +1,46 @@
+Metagross @ Leftovers  
+Ability: Clear Body  
+- Meteor Mash  
+- Earthquake  
+- Rock Slide  
+- Agility  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+IVs: 0 Atk  
+- Taunt  
+- Toxic  
+- Spikes  
+- Roar  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+IVs: 0 Atk  
+- Giga Drain  
+- Psychic  
+- Leech Seed  
+- Baton Pass  
+
+Milotic @ Leftovers  
+Ability: Marvel Scale  
+IVs: 0 Atk  
+- Surf  
+- Toxic  
+- Recover  
+- Hypnosis  
+
+Tyranitar @ Choice Band  
+Ability: Sand Stream  
+- Rock Slide  
+- Hidden Power [Bug]  
+- Earthquake  
+- Focus Punch  
+
+Moltres @ Leftovers  
+Ability: Pressure  
+IVs: 2 Atk / 30 SpA  
+- Flamethrower  
+- Overheat  
+- Hidden Power [Grass]  
+- Agility  
+

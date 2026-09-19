@@ -1,0 +1,57 @@
+Glalie @ Leftovers  
+Ability: Inner Focus  
+EVs: 252 HP / 4 SpD / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Explosion  
+- Light Screen  
+- Spikes  
+
+Whiscash @ Leftovers  
+Ability: Oblivious  
+Shiny: Yes  
+EVs: 172 HP / 252 Atk / 36 SpA / 48 Spe  
+Lonely Nature  
+- Earthquake  
+- Hidden Power [Ghost]  
+- Ice Beam  
+- Substitute  
+
+Hitmonchan (M) @ Leftovers  
+Ability: Keen Eye  
+EVs: 164 HP / 176 Atk / 168 Spe  
+Jolly Nature  
+- Sky Uppercut  
+- Hidden Power [Ghost]  
+- Toxic  
+- Rapid Spin  
+
+Haunter @ Salac Berry  
+Ability: Levitate  
+Shiny: Yes  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Thunderbolt  
+- Psychic  
+- Destiny Bond  
+- Endure  
+
+Metang @ Leftovers  
+Ability: Clear Body  
+EVs: 132 HP / 252 Atk / 124 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Explosion  
+- Agility  
+
+Flareon @ Silk Scarf  
+Ability: Flash Fire  
+EVs: 228 Atk / 28 SpA / 252 Spe  
+Hasty Nature  
+- Double-Edge  
+- Fire Blast  
+- Hidden Power [Electric]  
+- Quick Attack  
+

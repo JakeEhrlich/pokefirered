@@ -1,0 +1,45 @@
+I've been messing around with a few UUBLs lately, and while they may not be the most viable, they have been pretty fun for me to use.
+
+Scizor @ Salac Berry
+Ability: Swarm
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Swords Dance
+- Hidden Power [Rock]
+- Reversal
+- Substitute
+
+Remember when Hclat brought Scizor to SPL? Yeah, this is pretty much that. I went for HPRock over HPBug because it hits Zapdos and Moltres super-effectively, while being able to do good damage to Gengar after a dance or two. It would still like some PursuitTar support and some partners that can break holes for it.
+
+Calcs vs. Defensive Gengar
+
++2 252 Atk Scizor Hidden Power Rock vs. 248 HP / 44 Def Gengar: 215-254 (66.5 - 78.6%) -- guaranteed 2HKO after Leftovers recovery
+8 SpA Gengar Thunderbolt vs. 0 HP / 0 SpD Scizor: 104-123 (37 - 43.7%) -- guaranteed 3HKO
+8 SpA Gengar Fire Punch vs. 0 HP / 0 SpD Scizor: 333-392 (118.5 - 139.5%) -- guaranteed OHKO
++4 252 Atk Scizor Hidden Power Rock vs. 248 HP / 44 Def Gengar: 323-381 (100 - 117.9%) -- guaranteed OHKO
+
+Exeggutor @ Leftovers
+Ability: Chlorophyll
+EVs: 44 HP / 252 SpA / 212 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA / 30 Spe
+- Sleep Powder
+- Sunny Day
+- Solar Beam
+- Hidden Power [Fire]
+
+I was tired of running Celebi because Celebi can be boring sometimes, so I decided to explore this little fella. Its main niches over Celebi are Chlorophyll which allows it to outspeed the entire unboosted metagame in sun, and Sleep Powder which can give Exeggutor even more opportunities to set up. Other possible choices on this set include Hidden Power Ice for Salamence, and Explosion to end it off with a bang.
+
+Smeargle @ Salac Berry
+Ability: Own Tempo
+EVs: 4 HP / 252 SpD / 252 Spe
+Jolly Nature
+- Spikes
+- Spore
+- Rapid Spin
+- Explosion
+
+One of the more fun leads to use imo. Try to spore something then set up your spikes, then boom! Rapid Spin is very replaceable, I honestly didn't know what the best move in that slot would be so I went with it because it removes opposing spikes. I like it alongside Gengar to keep hazards up. Just hope your opponent isn't Lum TTar lead.
+
+Try out these UUBLs and have fun!
+

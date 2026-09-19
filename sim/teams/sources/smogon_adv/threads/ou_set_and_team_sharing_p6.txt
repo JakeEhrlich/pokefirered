@@ -1,0 +1,1403 @@
+### post 9876540 author=Shitrock enjoyer url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-6#post-9876540
+Someone write a teamdump please
+
+### post 9876704 author=Sepulo url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-6#post-9876704
+Shitrock enjoyer said:
+
+Someone write a teamdump please
+
+Click to expand...
+
+k
+
+Sets
+
+Hariyama @ Leftovers
+Ability: Guts
+EVs: 252 Atk / 180 SpD / 76 Spe
+Adamant Nature
+IVs: 30 SpD / 30 Spe
+- Brick Break
+- Rock Slide
+- Hidden Power [Bug]
+- Knock Off
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 252 HP / 200 SpA / 56 Spe
+Quiet Nature
+- Crunch
+- Thunder
+- Focus Punch
+- Substitute
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 248 HP / 40 Def / 60 SpA / 128 SpD / 32 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Thunderbolt
+- Hidden Power [Grass]
+- Agility
+- Baton Pass
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 176 HP / 196 SpA / 4 SpD / 132 Spe
+Brave Nature
+- Hydro Pump
+- Earthquake
+- Ice Beam
+- Focus Punch
+
+Salamence @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Rash Nature
+IVs: 30 HP / 30 SpA
+- Dragon Claw
+- Fire Blast
+- Hidden Power [Grass]
+- Brick Break
+
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 100 HP / 248 Atk / 160 Spe
+Adamant Nature
+- Meteor Mash
+- Earthquake
+- Rock Slide
+- Explosion
+
+Without looking at the sets, this lineup comes across as the result of a new player taking to heart BKC 's ramblings about how much Snorlax apparently sucks and his ramblings about how cool Hariyama is, and making a change to thelinearcurve's mixed offense sample team that reflects them. I admit that I am a BKC viewer, and I did really like that sample team when I was a new player myself, and the lineups being so similar improves my confidence in the team's viability. After taking into account the sets of the team, hopefully you can see how I arrived at this lineup naturally. I'll explain it too.
+
+The earliest version of this team spread-wise was made during a rise in Agility Metagross usage. The choice between Explosion and Rock Slide seemed to be shifting further towards the latter than it used to be, but I really wanted to use both moves. I knew that Zapdos (the best Agility passer) and Metagross inherently have a lot of synergy with each other and are both great mons in their own right, and I also had interest in building a speed-passing team that doesn't feel too gimmicky/matchup-fishy. I wanted to use multiple synergistic mons that could make good use of the boost, but could still function well without it. Metagross was still going to be the primary recipient though, and that had some influence over the teambuilding.
+
+I didn't feel like Spikes or Rapid Spin or trappers had much of a place on the team, but maybe that was moreso my vision/themes talking rather than my competent-player-brain. In order to wear down mons for a sweep, I wanted Sand and Knock Off. The latter especially punishes the Protect-spamming checks to Metagross (Skarmory, Swampert, defensive Flygon and Jirachi), and is found on a mon that benefits from the status moves targeted at Baton Pass recipients.
+
+Swampert felt like a good user of the speed-boost and a valuable defensive and offensive asset regardless. I have a bias for Swampert + HP Ice bait cores, and adding Salamence due to all of the other synergy that it has with the team was close enough. Initially I was disappointed that the most logical-feeling 6th mon was something that didn't benefit that much from the speed-boost and shared weaknesses with Zapdos, but I've grown to recognize the value in having a fast Spikes-immune good-coverage doesn't-mind-trapping-too-much go-to-it-when-Dugtrio-stays-in-on-a-Zapdos-to-Earthquake-the-DryPass-reciever revenge killer on a team with 5 slower mons.
+
+The movesets are skewed towards beating defensive mons that aren't threatened by the speed-boosting strat. I've heard people say that BoahTar (the moveset on this team) sucks now, and I know that I could hypothetically change Tyranitar's set to something that takes better advantage of the speed-boost, but I feel like BoahTar has a home here. This might be another case of bias, since I love powering through defensive mons; something that BoahTar is designed to do.
+
+The fastest thing that Metagross outspeeds at +2 is +1 Jolly Gyarados, making use of Rock Slide. With no boost, it slightly outspeeds -Spd Jirachi. Zapdos lives an Adamant Tyranitar Rock Slide plus Sand, letting it get a speed-pass off. It also has enough SpAtk to get important OHKOs, like defensive Starmie and - SpDef Swampert. Hariyama and Tyranitar speedcreep Blissey and - Spd Swampert-Tyranitar, and outspeed Timid Moltres at +2. Swampert OHKOs 4 SpDef Moltres (but only 93.75% chance for 4 HP Moltres, bruh), has bulk for Modest 110 and Timid 125 HP Grasses, outspeeds Adamant Dugtrio and the nicher 120s at +2 and speedcreeps Umbreon and Vaporeon, and boosts its Attack to not-horrible levels with a Brave Nature.
+
+Hope you enjoyed this Shitrock enjoyer
+btw I call the team "Hotshot" because a skeptical person could look at Hariyama and say "Oh you think you're so cool being the supposed best UUBL mon, replacing an actual OU mon on an old lineup. And instead of fixing the flaws of said lineup, you help them take it in a worse direction!"
+The results that I've had on the ladder with this team makes it feel at least decent to me.
+
+### post 9879578 author=Cdijk16 url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-6#post-9879578
+I recently had a very good run in ADV Majors, making it all the way to finals(making me top 3 out of 100 players) and a final with Win-Activity-Loss ratio of 5-2-3. A highlight of that run includes beating Robjr in the semi-finals. I also made it to ADV circuit chapionships for the first time. To celebrate this, I’ve decided to make a post talking about good cores and cool movesets I’ve been enjoying lately.
+
+Good Cores
+1. Offensive Celebi/ Breloom + Raikou + Dugtrio
++  /  +
+One of Raikou’s major weaknesses is that it easily gets trapped and eliminated by Dugtrio. This core aims to fix that issue. The idea is that you let Breloom or Celebi get trapped by opposing Dugtrio and then trap it using your own Dugtrio. This means Raikou is safe from being Dug trapped.   They also have good synergy besides this, Breloom generates setup opportunities for Kou and can help wear down Claydol if running HP Ghost. CM Celebi can trade with a lot of Raikou checks like physical Tyranitar and Metagross.  I’ve had way more success with the Breloom version of this core, but CM Celebi works too.
+
+Example lineups:
+
+2. Offensive Calm Mind Jirachi + Dragon Dance Salamence
++
+This is an interesting pairing on offence teams. Offensive Jirachi puts pressure on some Salamence answers like Bulky Physical Tyranitar and Blissey. I reccomend using a bulky Jirachi EV spread of 248 HP / 40 Def / 180 SpA / 40 Spe , which gives you good odds to beat Tyranitar and non-TWave Blissey. Dragon Dance Salamence also some good defensive synergy with Jirachi(similar to MetaMence). It also comes in and sets up on Dugtrio after it traps Jirachi.
+
+3. CM Pass Celebi + Sunny Day Focus Punch Charizard + Dugtrio
++  +
+Both of these pokemon can trade with Tyranitar for the other's benefit. Substitue + Focus Punch Charizard can even lure and take out Tyranitar, allowing Celebi to run wild. CM Pass Celebi also does well vs the Milotic stall teams that Sunny Zard struggles into. It can also switch into water and electric type attacks aimed at Charizard. Sunny Day Charizard is also a very cool pokemon overall, here are some calcs for it.
+
+Calcs
+
++1 252 SpA Blaze Charizard Blast Burn vs. 0 HP / 0 SpD Blissey in Sun: 561-660 (86.1 - 101.3%) -- 12.5% chance to OHKO
++1 252 SpA Blaze Charizard Blast Burn vs. 4 HP / 0 SpD Aerodactyl: 309-364 (102.6 - 120.9%) -- guaranteed OHKO
++1 252 SpA Blaze Charizard Blast Burn vs. 92 HP / 144 SpD Snorlax in Sun: 587-691 (121.2 - 142.7%) -- guaranteed OHKO
++1 252 SpA Blaze Charizard Fire Blast vs. 92 HP / 144 SpD Snorlax in Sun: 470-553 (97.1 - 114.2%) -- 81.3% chance to OHKO
+
+Example lineups:
+
+4. SD Endure Salac Reversal Heracross + Kingdra
++
+Kingdra clears sand for SD EndRev Heracross to go nuts vs most teams. Kingdra does well vs offensive teams, while Heracross slams sandless Milotic stall teams that rely on Dugtrio to beat it, which Kingdra struggles into.. Heracross also does a good job beating sandless CM Spam teams, which Kingdra teams tend to do poorly into. I like to pair this with Rain Dance Zapdos as well.
+
+Example lineups:
+
+5. Offensive Sub Pass Vaporeon + Dugtrio
++
+I've really started to like Vaporeon as of late. It's very good into common Skarm Bliss Big 5 style teams. Teams that rely on Blissey to sponge offensive waters(which as very common rn)  in general do very badly into it. Vaporeon has 101 HP Subsitutes which Blissey cant break with Seismic Toss, allowing Dugtrio to trap it very easily. Dugtrio traps special walls like Blissey, Celebi and Jirachi that Vaporeon cant break through.
+
+Example lineups
+
+Creative Movesets
+
+1. FunkMixRachi by SPFunkMD(funkybeangamer on smogon)
+Jirachi @ Leftovers
+Ability: Serene Grace
+EVs: 108 HP / 116 Atk / 4 Def / 228 SpA / 4 SpD / 48 Spe
+Quiet Nature
+- Ice Punch
+- Thunderbolt
+- Hidden Power [Fighting]
+- Psychic
+Purpose of EV spread: 2HKOs Tar, outspeeds Max Adamant Tyranitar, lives 2 Modest Zapdos Tbolts(99.6% of the time), 2HKO Skarm 82.4% of the time. Very good wallbreaker with spikes up, good on special offense teams as well. Very cool set overall.
+2. SubCM Roar Suicune
+Water Dog (Suicune) @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 104 SpA / 152 Spe
+Modest Nature
+IVs: 0 Atk
+- Substitute
+- Calm Mind
+- Surf
+- Roar
+This set is meant to match-up fish vs stall teams such Milo Dug Dol Skarm Bliss +1. It has an autowin MU into teams of that kind. It's very polarizing though. I like to pair it with Kingdra or another rain sweeper, who clears sand for Suicune and provides a check to DD Salamence.
+3. Gorebyss
+Gorebyss @ Mystic Water
+Ability: Swift Swim
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Rain Dance
+- Hydro Pump
+- Ice Beam
+- Baton Pass
+It's an interesting side-grade to Kingdra, although worse and less consistent overall. It has two main upsides over Dra: much stronger Hydro Pumps in rain and Baton Pass to more reliably Dugtrio-trap special walls and pass around Subsitutes and Calm Mind boosts it recieves from other pokemon. I like to use it alongside Kingdra as well, Gorebyss + Dugtrio does a good job of trapping special walls and setting the stage for Kingdra to come in and clean up. I think this is the best way to use Gorebyss.  You can take pretty much any Kingdra team and replace it with Gorebyss and have the gameplan be more or less unchanged(though a good chunk of them would be slightly worse overall).
+Example lineup:
+
+4. Slowbro by DarthTyros, spread by SPFunkMD
+Slowbro @ Leftovers
+Ability: Own Tempo
+EVs: 252 HP / 60 Def / 196 SpA
+Modest Nature
+IVs: 0 Atk
+-Thunder Wave
+-Surf
+-Ice Beam
+-Fire Blast
+Good stopgap vs Dragon Dance sweepers. It does a good job of checking Dragon Dance Salamence and Tyranitar on special offense teams that are weak to them. Spread lives two Aero Doubles Edges in Sand after a layer of spikes. 132 Defence may be used to live two +1 DD Tar Rock Slides after spikes. I'd love to share replays of this one, but sadly they were all wiped.
+
+Closing Words: Thanks for reading. Good luck laddering ADV, I hope you enjoy using these. For anyone reading this, I strongly reccomend reading Vapicuno's teambuilding guide of 2023, it's a great resource and inspired me to build various types of offence. ( Resource - ADV OU Teambuilding/Strategy: Archetypes and Cores -- A Data-Driven Approach | Smogon Forums it's available for download on page 2 of this thread.
+
+### post 9905684 author=Sepulo url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-6#post-9905684
+I've thought of a way to help players understand the logic in the EV spreads featured on teams made by other players, in the form of a Poképaste that can be posted along with the one including the actual team. I don't intend to try making this some sort of standard for the playerbase to pick up on, I just thought that it might interest some people. And of course everyone is welcome to put their own spin on this if they'd like to.
+
+The gist of this system is to represent the calcs that you used to make the spreads on your team with incomplete sets that are derived from the other contributor to each respective calc; the hypothetical mon on your opponent's team. In order to showcase this system, I'm posting the team that I've had the most confidence in for the last few weeks or so, a team that I've refined since posting it with an older account.
+
+The team: https://pokepast.es/390389278560dd65
+
+Douuug
+
+Breloom @ Leftovers
+Ability: Effect Spore
+EVs: 48 HP / 192 Atk / 48 SpD / 220 Spe
+Jolly Nature
+- Brick Break
+- Hidden Power [Rock]
+- Focus Punch
+- Spore
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 240 HP / 44 Atk / 136 SpA / 44 SpD / 44 Spe
+Quiet Nature
+- Hydro Pump
+- Earthquake
+- Ice Beam
+- Focus Punch
+
+Houndoom @ Leftovers
+Ability: Flash Fire
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Crunch
+- Fire Blast
+- Hidden Power [Grass]
+- Pursuit
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 80 HP / 172 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 2 Atk / 30 SpA
+- Thunderbolt
+- Hidden Power [Grass]
+- Substitute
+- Baton Pass
+
+Dugtrio @ Choice Band
+Ability: Arena Trap
+EVs: 16 HP / 192 Atk / 72 SpD / 228 Spe
+Adamant Nature
+IVs: 30 SpD / 30 Spe
+- Earthquake
+- Aerial Ace
+- Hidden Power [Bug]
+- Beat Up
+
+Snorlax @ Leftovers
+Ability: Immunity
+EVs: 16 HP / 184 Atk / 148 Def / 4 SpD / 156 Spe
+Brave Nature
+- Body Slam
+- Earthquake
+- Flamethrower
+- Self-Destruct
+
+The "calc box": https://pokepast.es/b2b0414074fce3aa
+
+Douuug Calcs
+
+BreloomAtk (Moltres)
+Ability: Pressure
+EVs: 4 Def / 252 SpA / 252 Spe
+
+BreloomSpd (Vaporeon)
+Ability: Water Absorb
+EVs: 252 Spe
+Timid Nature
+
+BreloomSpDef (Zapdos)
+Ability: Pressure
+EVs: 252 SpA
+Modest Nature
+IVs: 2 Atk / 30 Def
+- Hidden Power [Ice]
+
+BreloomHP+1 (Gyarados)
+Ability: Intimidate
+EVs: 252 Atk
+Jolly Nature
+- Double-Edge
+- Dragon Dance
+- Hidden Power [Rock]
+
+SwampertSpDef (Zapdos)
+Ability: Pressure
+EVs: 252 SpA
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Hidden Power [Grass]
+
+PertSpDefAtk132 (Moltres)
+Ability: Pressure
+EVs: 40 HP / 252 SpA / 216 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Hidden Power [Grass]
+
+PertSpAtk132 (Salamence)
+Ability: Intimidate
+EVs: 152 HP / 216 Atk / 140 Spe
+Adamant Nature
+IVs: 30 SpA / 30 SpD / 30 Spe
+- Hidden Power [Flying]
+- Dragon Dance
+
+PertSpAtk128 (Flygon)
+Ability: Levitate
+EVs: 252 HP
+IVs: 0 Atk
+
+SwampertAtk (Dugtrio)
+Ability: Sand Veil
+EVs: 8 HP / 248 Atk / 252 Spe
+Adamant Nature
+- Hidden Power [Bug]
+
+SwampertSpd (Blissey) (F)
+Ability: Natural Cure
+
+HoundoomSpDef (Starmie)
+Ability: Natural Cure
+IVs: 0 Atk
+- Surf
+
+HoundoomSpDef (Milotic)
+Ability: Marvel Scale
+IVs: 0 Atk
+- Surf
+
+ZapdosSpDef+1 (Suicune)
+Ability: Pressure
+EVs: 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Ice Beam
+- Calm Mind
+
+ZapdosHP (Salamence) @ Choice Band
+Ability: Intimidate
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Rock Slide
+- Hidden Power [Flying]
+
+ZapdosHPSubs (Claydol)
+Ability: Levitate
+EVs: 176 HP / 220 Atk / 112 Spe
+Adamant Nature
+- Shadow Ball
+
+ZapdosSpAtk (Moltres)
+Ability: Pressure
+EVs: 24 HP / 252 SpA / 232 Spe
+Modest Nature
+
+DugtrioSpd+1 (Tyranitar)
+Ability: Sand Stream
+EVs: 252 Spe
+Adamant Nature
+IVs: 0 Atk
+- Dragon Dance
+
+DugAtk188,Spd (Celebi)
+Ability: Natural Cure
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Baton Pass
+
+6M0,10B1,14B2 (Blissey) (F)
+Ability: Natural Cure
+EVs: 252 SpA
+IVs: 0 Atk
+- Ice Beam
+
+SnorlaxSpd (Forretress)
+Ability: Sturdy
+EVs: 252 HP / 252 SpD / 4 Spe
+Careful Nature
+
+LaxSpd<Para+2 (Zapdos)
+Ability: Pressure
+EVs: 32 Spe
+IVs: 0 Atk
+- Agility
+- Baton Pass
+
+SnorlaxAtk (Blaziken)
+Ability: Blaze
+Mild Nature
+
+SnorlaxDef (Hariyama)
+Ability: Thick Fat
+EVs: 252 Atk
+Adamant Nature
+- Cross Chop
+
+LaxSpDefBlaz+1 (Charizard) @ Petaya Berry
+Ability: Blaze
+EVs: 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Fire Blast
+
+Here are some examples from the calc box that I'll cover. I'll also fit some teambuilding advice in their too.
+
+This is a pretty straightforward one, meant to communicate that the Swampert set is guaranteed to live a max SpAtk Zapdos HP Grass from full health. Many of us know this calc off the top of our heads already (240 HP 44 SpDef) and would thus connect the dots once we see the Swampert set without having to see this member of the calc box, but I want this system to be inclusive for newer players, so I still include these less "necessary" sets. Also, calc boxes don't need to be filled with the maximum 24 mons; I just happened to be able to do that with this team.
+Swampert's HP investment also contributes to this calc, but when a calc is a group effort between HP and (Sp)Def, I only include the latter for the sake of simplicity.
+
+This one is clearly more complicated. "132" is the SpAtk benchmark that achieves the guaranteed OHKO on this Salamence set. Specifying the number represents that the number is lower than the number used in the actual set. In this case, the used number is 136, which is a boost number (gives you an extra point in the stat due to Natures being percentage-based and Pokémon math always rounding down). You can infer some of the teambuilding philosophies/habits of the team's builder through calc boxes, which can lead to you considering them for your own teambuilding efforts. I like to reach boost numbers when it won't cause me to go out of my way (in this case just using 4 more EVs for SpAtk), as does everyone else I guess lol.
+This Salamence set is far more fleshed out than the Zapdos one above. The logic behind this set requires some metagame and teambuilding knowledge to understand, and admittedly, that's a bit of a barrier to the newer players that I alluded to earlier.
+When calcing around opposing sets that don't simply just use 252(+) EVs, it's important for them to make sense. And like every other set to calc around, it should be relevant to your team. The logic behind this set is A). It outspeeds Adamant Heracorss and some other mons that it's used to check, and comfortably outspeeds the whole metagame after a boost B). Its Attack stat lands right on the highest available boost number, and won't be rounded down after a boost due to being an even number C). Its HP stat is a 16n+1 number, which is nice for Leftovers recovery (as long as the mon isn't too vulnerable to passive damage (like if you had Mence on a team with Tyranitar)). DDmence is a big threat to this team, so I want the team to be prepared for various forms of it, even if they might not be as common.
+
+You can probably see by now how calc boxes can condense what would otherwise be a massive wall of text. Not perfectly, but well enough. Of course, there's other things regarding the team that can be written about when sharing them on the forums. For example, this calc box doesn't represent how this team is designed to bait Gengar into staying in and clicking a move that isn't Thunderbolt, making it easier for Houndoom to trap it.
+[The team is also decent at preventing too many layers of Spikes from going up, which further helps out Houndoom]
+
+This set is a good example of providing context, and alluding to teambuilding logic beyond the EVs. "+1" represents this Gyarados having used DD once. On Gyara, HP Flying is the more common choice among it and HP Rock, but the latter is still valid. With Double-Edge in the set, this dynamic still remains. So ideally, your team should be able to handle all of these possibilities. Zapdos checks HP Flying Gyarados, but is shakier towards HP Rock variants. HP Rock Gyarados is incentivized by Aerodactyl to use a Jolly Nature. This team's Breloom uses HP Rock, which brings these factors together to justify making note of this calc.
+This set is also an example of how the sets in the calc box are loosely ordered by their importance, and/or the order in which the EVs were distributed while making the team's set. Breloom's matchup against Zapdos is more important for the team than this Gyarados interaction, and although the latter holds value, it happens to be a byproduct of calcing for Zapdos with the EVs leftover from OHKOing Moltres and outspeeding Vaporeon, while putting as many EVs into HP as possible in order to diversify the bulk. It also happens to reach another 16n+1 number, which is the cherry on top for this satisfying set.
+
+I promise that you don't need to get this technical to be a successful player. There are so many players who are better at battling than I am that don't bother with this sort of thing. And 252/252/4 sets are valid, as I've implied with this team's Houndoom set.
+
+If you're trying to show that a set on your team is designed to speed-creep something that normally doesn't really focus on Spd EVs, I'd just leave the calc box set basic like the one on the left.
+The Dugtrio one on the right, well first of all it shows that there's only so much room in the nickname box. The main anomaly of it is that it's a set of calcs that aren't based on 100% chances. The leftover EVs for the bulk capabilities of the Dugtrio set can only accomplish so much. I focused them on this interaction because those that are caused by trapping are made more important due to their forced frequency and relevance to the team's functioning. "M"/"B" is "Modest"/"Bold", the second numbers represent the amount of layers of Spikes on the field when full-health Dugtrio entered, and the first numbers are the numerators of the fraction forms of the calcs (the denominator is always 16 for consistency).
+
+[Of course, there are some other circumstances that this team's calc box doesn't cover. For example, if you're using Tyranitar on a team and calc a team member around bringing something else into Sand range if not KOing it with the attack itself, you can add "Sand" to the end of the nickname]
+
+I don't know how helpful this post will be to the community overall, but at least I'm providing a not-horrible team for all of the Celebi haters out there.
+
+### post 9924878 author=Kollin7 url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-6#post-9924878
+Merry Christmas. Slackers were knocked out of the Mushi League playoffs so here's a few teams I've been working on lately.
+
+(click sprites for paste)
+
+My take on a six that has surely been around since the beginning of time. I think Forretress is really good, it's just very limiting in the teambuilder due to the support it necessitates and big threats it opens itself up to. This has probably been my favorite Forre team. I'm a pretty big believer in this Forre set as well. I think if you are going to use Forretress, your first and biggest reason should be to mess up Skarmory teams. This set, in my opinion, does maybe the best job of that. I've seen people say using Earthquake on Forretress is fishing for Magneton. Maybe kind of, but so what? If you're going to use Forre to mess up Skarm, I don't think you should be saying you're just screwed if you face SkarmMag. EQ also limits SubCM Jirachi, which is often a big worry of Forre teams (this team being no exception). Metagross has potential to get out of control versus this team as well, which EQ can help mitigate somewhat (admittedly Counter is superior for this purpose, of course). Zap Cannon means you can deal with Drill Peck Skarm, again, the reason to use Forretress. It also sometimes finds Gengar, and can come in clutch on occasion versus other targets. I'm by no means the inventor of the Gengar set, but I'm a huge proponent of it. It's excellent versus SuitTar and Claydol, ensuring your main goal of winning spikes wars against Skarm teams is met. I honestly don't find the loss of speed to be that big of a deal a lot of the time. CM Blissey basically necessitated here for Suicune. RoarCune of course still pretty problematic, but can be overcome if navigated well. Leading Swampert on this team would be traditional, and I could be convinced is better. I just prefer the flexibility leading Salamence gives more. You can still pretty freely go Forre on turn 1 if you want versus most leads.
+
+Claydol offense, my beloved. This was the team I mainly used during suspect laddering. I've used Flamethrower/Overheat/Beat Up/HP Ice on this Charizard sometimes. Mainly just because I'm addicted to deleting Salamences. If you want to use HP Ice here, it also has a bit of a neat side benefit of Ice + Pursuit from Tar removing Aerodactyl. This can be really good against some CeleAero Spikes teams that sometimes are forced to pivot Aero in versus Zard. However, I think the Zard set in the paste here is probably best on this team. It's the best at doing Zard's main job of breaking. Also, without HP Grass Zard, Suicune is kind of the only thing that can take on Swampert. Suicune still of course is the main thing dealing with it here, but Grass Zard at least helps keep Suicune from being asleep the entire game. The Snorlax set is a bit funny here, but it does a terrific job of 1) removing opposing Tar, giving this Zard free reign and 2) beating down Skarm. Obviously, just be weary of spending too much of Lax's health too early depending on the opponent's team.
+
+Banette is back again. I really do think Banette is better than Gengar here. Jolteon and Banette have a fantastic synergy. Together they can destroy Claydol and Starmie while abusing spikes. Jolt needs Baton Pass for this to work best. Zapdos in tandem with Jolt overwhelming each other's checks. Drill Peck Zap luring and smacking Blissey and Celebi for Jolt as well. Went with the Focus Punch DefPert to get Bliss too. This team could possibly be improved on the finer points, not sure. As is, I still believe it's a good and very fun spikes offense.
+
+Another long time favorite of mine; I think I first used this team last PPL. Nothing groundbreaking on the six or the archetype, but again, it's a version I really love. MixMence is probably more traditional here, but I just love DD and think the team does set up for it nicely. Love fast Claydol in general, but very necessary here in particular, getting the jump on basically all Suicunes. I think this Tar set was originally a suggestion of johnnyg2. It can have some nice surprise factor and really break holes. Crunch over Ice Beam just because Gengar is annoying + it has good spammability.
+
+Ok, disclaimer that it's possible this team might be terrible. I remembered this Jirachi set, thought it would be fun to try to build with, and this is where it led me. It's at the very least good fun. The idea is simple enough. Bait and kill Tar (always just Ice Beam turn 1 vs opposing Tar), bring in Rachi, clear the weather, and abuse your sandless haven. Endure + Salac Rachi can turn the tables on Dugtrio and Aerodactyl. In practice, the gameplan might fall apart somewhere along the way, but this team can probably be quite devastating from time to time.
+
+I'm pretty sure I've seen this exact six used somewhere, but here's my take on it. There's a ton of really great synergies going on here. Using another fat Giga Drain Gengar here. The loss of speed is a bit more worrying here, as MixMence really does threaten to just cleave. Venusaur can live a Fire Blast from full in a real pinch. Another potential flaw of the team is that it feels SuitTar is really tasked with doing a lot of heavy lifting. If you fail to remove Gar, you're in big trouble. Fun team nonetheless. I think if you're going to use Charizard w/ spikes, this is pretty much the way to do it.
+
+Possibly my favorite Magneton Offense I've ever built. It does have 6 grounded mons, which I won't deny is probably off-putting. I think the team potentially abuses Dug/Aero sequences well enough that it makes up for it. You're also playing a very fast paced game with this team, which helps. You could probably put Salamence over Suicune if you wanted, but that opens you up to a new set of weaknesses, such as Moltres, Gengar, and basically any mixed attacker. Plus, I just think this Suicune performs amazingly well on MagOffs. This team originally came about because someone (I think in the Flock of Smeargulls discord server) mentioned the synergy between HP Ice Celebi and Heracross. I got inspired, and this is what I came up with. Again, many of the synergies here are pretty obvious. Mag enables Ice Celebi, which can lure and kill Salamence for Heracross. You can kind of choose to trade down however you want with this team in a very effective way. For example, you have multiple mons that can trade with Zapdos, freeing up the next mon to be able to trade with something else.
+
+This is inspired heavily by a team TyCarter originally built and then I helped work on for Mushi League. I've made some further adjustments to it and ended up on this. Medicham is such a great and fun breaker. Regice is here over another special wall for multiple reasons. Mainly, it does the best job of limiting both Zapdos and Skarmory, particularly in tandem. It's also better versus Celebi. If Medicham manages to lure and kill Salamence, this also really opens up Regice. Another thing is if AgiliGross gets a timely attack raise versus teams similar to this, it's very worrisome. It's still a big problem here, HOWEVER, it is often forced to absorb the Thunder Wave from Regice early on in the game. Otherwise, it's your fairly standard Claydol offense stuff here.
+
+Not much at all to say about this one, but I think this is the best I've come up with for MagDol. Perhaps the only notable thing is the Salamence set. Again, I'm not the originator here, but I think it's a good set. Has plenty of uses on other Mag balances than this. Only other thing I think worth saying is you can probably drop one of the attacks on Celebi for your utility move of choice. Heal Bell and Baton Pass in particular both likely have good merit, but I'm undecided.
+
+That's all for now I think. This really applies to any team dump by anyone, but think carefully before changing something you potentially just don't understand. If I didn't mention an explicit reason for something, there's likely still good reason I put something the way I did. Personally, I get a nice feeling when I see people using a team I built, which I why I make these posts. However, I still don't want to see someone making a potentially ill-advised change lol
+
+Have fun folks, and to echo the last post I made similar to this one, thank you to everyone who continues to help make playing this game a great and enriching experience.
+
+### post 9954367 author=giraffefromholland url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-6#post-9954367
+Here's a new team dump with all of my takes. There are about 200 apiece, so I've split them up so Pokepast.es could show pictograms of the mons.
+
+A-R
+https://pokepast.es/aeb9b0463613fef0
+
+S-Z
+https://pokepast.es/d75f47ad30d08853
+
+A few notes on my philosophy and sets for those interested (more of a "what I do/did" than a "how to"):
+
+Building Philosophy
+
+My objective in building
+What I have attempted to do, after poring over nearly all of the publicly available replays in major tours for certain recognized builders and players, with the exception of a few Smogon circuit tournaments (yes, I checked PP), is to find a silver bullet for the most annoyingly difficult teams to beat on paper, and to set out a list of rules for how to handle the threats and walls of the tier in order to have an easy game or matchup most of the time. What I've settled on is almost always coming over prepared for Spikes stall, and finding tools that will enable me to midground (or better!) the faster Spikes teams of the metagame, while bringing checks and counters to offensive threats that ensure I will have a playable game at least most of the time. I got fed up losing on matchup or to single-turn RNG, and I was especially frustrated when I was able to guess my opponent's team early on and predict a move but not act on the prediction because the risk of guessing incorrectly was too great.
+
+I don't play very often, outside of occasionally laddering on alts or joining side tours, but I am always building or looking for new ideas and discussing with a few tournament players, to share ideas. My philosophy tends to be oriented towards building solid teams that cut as few corners as possible while gaining the largest possible advantage. I can be accused of idealism and perfectionism. I occasionally cut corners to develop counters, or when an idea is just too good to pass up, but I usually end up tossing those builds after I find a new way to make them consistent.
+
+A brief introduction to my perspective on matchups
+Skarmory is the most centralizing force in the tier. Its Spikes are suffocating. Spikes stall is effective in beating the slow, positional teams of previous eras, such as the Rest Lax and Cune balances without Spin, or Mag+Dug builds. These stallish builds adapted to rely on Mag+Spin to support their bulky set up users and in so doing became effective counter picks to certain Spikes stalls. The problems for those teams usually comes in the form of offensive mons who sometimes or even often find themselves on those teams. DD Tar, Gengar, Aerodactyl -- all staples of Spikes offenses -- or even Metagross and CMers, who can beat Rest Lax or Cune with Explosion and set up respectively. In other words, slow stall teams struggle against more offensive teams, but feast on the slower half of the metagame.
+
+Offense has long been considered the inconsistent, matchup-fishy alternative to Spikes teams. Old school Mag offenses with Tyranitar and DD Mence or Gyara have been known to struggle versus special attackers or Spikes offense, while special offenses or Dug teams tend to be weaker against physical attackers, like Aero, DD Tar, or Snorlax. There are no set up opportunities for DD Mence vs Beerlover, for example, and is counterplay if not a wall on other versions of standard Spikes balances. Both classical special and physical offenses are quite adept at getting the matchup against certain stall archetypes. There are counters and exceptions, and there is room for debate, but what I'm getting at is the main reason we build offense is when we're looking for an edge against certain slower teams, either ill-equipped to soak up pressure or ill-equipped to dole it out. In my opinion, for every stall team, there is an antedote, either in the form of a set of Spikes or Spikeless offense teams, and the main issue is addressing the midrange options, who frequently pack tools for both.
+
+How I developed my philosophy
+I will build anything that I think wins. I started by using mixed offense with Zap+Dug, houdini, and Off Star, and I got plenty of free wins as a beginner. I got fished pretty badly and ran into a couple of difficult match-ups in my first 'big' tournament set, at which point I chucked my builder and learned to love stall. After that, I learned to build stall and Bliss balances to beat stall, following a trend of the last few years that ABR lead. I drew a lot of inspiration from Altina, during CI5, from ABR in SPL XIII, and from Vapicuno in general around that time, and afterwards, I dug into a lot of Asta replays, and drew inspiration from his CI4 run in particular. I ended up settling on a mixed offensive philosophy of the tier later on, no doubt, influenced by these runs and builders. Of course, BKC videos were my gateway into ADV, so there's a healthy amount of his influence, and I came into the game just before SPL XII, so I got to see Linear's last major tour and his video essays on them -- which, between his and Vapicuno's vidoes, I swear are the Holy Grail of ADV team building knowledge.
+
+The most oppressive force in ADV is Skarm with layers and time. I learned that from watching ABR vs Altina, SPL XIII w6, and from seeing his Misdreavus team  blow up -- ghost stall is fishy and disgusting, but still cool. After that, you can discuss your Zap(Dug) offenses and your Meta/Tar/Mence builds that overwhelm skinny teams. The answer I found was to kill Skarm quickly. In CI7, pkLeech debuted a team of mine against Soulwind.
+
+I recall him using Gyara>Mence, as Ghost Gyara farmed all the Claydol, Suicune, and Gengar stuff we might have expected from Soulwind at that point. I suggested this team just before g3 when we were trying to figure out what to bring. I said it should bot the matchup against stall a decent amount of the time. We saw a Seed CM Celebi sweep from 5v5, which was a gratifying proof of concept against a strong opponent. I came up with this 6 when trying to find ideas with Snorlax. I had the suspicion it would fare well against the Vir5in builds of that time, and I had even seen it overwhelm some of them in practice. In one amusing replay, a burned Curse EQ Sball off Lax managed to grab a number of KOs against Missy stall after Skarm had been Magged, and got out of hand. Anyway, Lax was unappealing for its inability to switch into Zapdos, Gengar, or Moltres with sand and Spikes down -- ask BKC -- so I had my work cut out for me in trying to find ideas with Lax. I was initially opposed to using additional support for Lax because I thought, if there was a mon that does the job of Lax better than Lax, why would I ever switch Lax in in-game? It has poor typing, but solid bulk. How can I maximize these traits? I decided to pair with pokemon with good typing, but less stellar bulk, and to keep it out of sand to keep it healthy and useful defensively. Before I could reveal the idea, ABR had already mentioned it in a VR post.
+
+ABR ruining my surprise
+
+ABR said:
+
+Nothing crazy but also gets way too much hate. Rest always feels very shitty but classic boom sets with some assortment of curse bslam eq sball focus boom etc should be able to trade or get valuable chip in most games, while being a one-time check to pretty much every pokemon.
+
+B
+
+Best with Skarm, valid on offense but need to be amazing offensively to circumvent the defensive holes. Either using Blissey or the combo of Lax Cele goes a long way in accounting for defenses on Mag teams. Modest magnet always.
+
+Click to expand...
+
+For a time, I was in love with Mag off for its ability to quickly overload stall. Remove Skarm, boom Milo with Meta, and go to town with Lax, who can sweep the oft ill-prepared team! If there's a Celebi, boom that with Lax and set up with Curse Rest(!) Pert. Seed CM Celebi has good fit on those styles, combining the Leech Seed of Celebi as a pivot and the winconning of CM sets into a stall-breaking backbone mon. Partner with other tools to overload opposing Celebi. On those teams, I had DD Brick Break Mence to give back to the team. All of these tools are able to trade to support one another, with DD Brick Mence KOing Tar from high HP to allow Snorlax to grab several KOs, and it's much easier to get the necessary 75% chip with Celebi and Leech Seed for Brick Break to KO. With 3 bulky set up mons with a favorable Bliss mu, it's not necessary to KO with Mence, especially as Bliss teams tend to be the hardest for DD Mence to beat, but even if you do it in reverse -- get small chip with Celebi or Tox/Tbolt Mag, so it's maybe a roll to KO with +1 BB, or otherwise just KO Bliss with +1 Psychic as it comes in on Celebi to recover up. I loved this team for the flexible roles in breaking and sweeping, and how it has so many natural winpaths against slower teams. I remember listening to a BKC vid a while ago where he described Snorlax and Magneton offenses as being a failed archetype because Snorlax is easily overloaded, especially when Mag off often brings Tar. I was rather proud to have found an idea that addresses most of the concerns there. Of course, Moltres is difficult, and Zard is annoying (we'll get to that later), but with Magneton to help with Gengar, all the tools for stall, and a couple of booms to allow for flexibility to choose where to boom offensively or defensively, where to play a more controlled game or to give it gas, and how to make a plan against different schemes, this is one of the best teams I've ever built.
+
+My current ideology
+The positional sandless Mag team archetype helped me actualize my current perspective of the tier. On the subject of pivots, breakers, and wincons, I realized I wanted to have flexibility as the highest virtue. Offense thrives when there is strong continuity and overlap in trading. In other words, an offensive game plan is at its best when all of the pieces can make progress every turn and therefore with every move. This doesn't mean that you should be able to switch in any mon at will and expect to make progress. Some will win once the conditions are appropriately set, and it is possible to build a team with, for example, two pokemon that are dedicated to providing counterplay against special attackers while keeping a Snorlax in the back, unrevealed, until it is primed to trade up. What I do mean is, I would like every pokemon to be able to meaningfully contribute to the defense and offense of a team, because I believe in a bulkier offensive philosophy that can give better than it gets. After all, however you do it, the one who wins is the one who gets one extra mon's worth of value and can convert it. A DD Mence sweep could plausibly be set up by sacking 5 mons, but even if that occurs at 1v6, the end of the game will happen at 1v0. So I greed mons that trade up and have unwallable coverage, or I give them the aforementioned 'Snorlax in the back' treatment.
+
+Nowadays, I'm more interested in the Mix Meta+DD Tar pairing, which shred Pert, Milo, Cune, and waterless teams pretty comfortably, with the right support. I still like Sandless Mag off, and Aero Spikes allows me to run some cool threats I otherwise wouldn't. Zap and Jolt off are among my favorites, and I even like Spikes-offense hybrids. I've found some special offense teams I like by running Tox Zap+Curse Pert+Cune, generally, and I've experimented with sandless and sand takes for all of these. I tend to prefer fitting a bulky DD Tar on almost everything, because it offers a Zapdos switch-in, pressure into off Cune (the bane of my existence), and a check to all of the squishy mons of the tier -- let alone that I value sand more than ever when dealing with Cune, Lax, and Bliss, even as I'm playing quickly. The damage rolls are too good to ignore. I do think, however, that sandless makes a lot of sense for stall, even as you give up the best offensive Bliss/Lax/Zap check in the tier, because you gain an extra slot for another defensive piece in the interest of decompression.
+
+On Defense and Offense
+In an offensive game plan, you want an overlap of pressure to make sure pieces are breaking or trading for one another. For the same reason, in a defensive game plan, I am strongly in favor of decompression. Even on offense, I like to load Meta+Pert, double water, or distribute responsibilities for dealing with certain mons across a whole team in some other capacity. At the same time, having mons that compress is hugely important. I just make sure to bring tools that allow for the burden to be split regardless. When you bring a random extra wall or Wish support -- something I believe is a must on stall teams -- you tend to outlast offensive teams until they are purpose-built to beat 'x' or 'y' team. I tend to dislike Wish in general on faster teams, though, because I don't feel I ever get the chance to click it. It helps a lot if you can take a hit, but especially on mixed offense, where you aim to break everything in front of you on a turn-by-turn basis, and position with doubles and reads, you don't often have a match-up where Wish makes more progress than attacking, even if you are able to find the right recipient for Wish to suit the tempo of the team. Concerning stall, I really loved the different takes on Vir5in for a short while, and even made my own take on Missy stall (though I started from a different point and decided on MIssy last). It is important for stall to bring an extra check to one threat or another -- especially if that check is a problem for a wide range of threats. Sidenote: BIHI  loaded this Registeel Vir5in team pkLeech labbed with me several times in the last year. Try to crack a scout with Registeel Vir5in on the one end, and offense on the other end. It's not easy to find the appropriate midground team in bo1.
+
+Defensive compression, like that found in teams that use Rapid Spinners, usually means you're using mons with little-to-no real defensive value. Claydol can check phys Tar, or it can take a hit, make no offensive progress, and then fold to Tar the next time its in. The point is that defensive value, in my mind, is predicated on the ability of the mon in question to make progress on the turn immediately following it being switched in. It also, of course, needs to be able to switch in. I'm a bit lower on a mon like Aero because it doesn't really have comfortable switch-ins. What I do like about it is how it makes other mons on the same team hum by revenging robustly. The same can be said for Dug and other frail revengers -- speed is a specific form of defensive value, albeit one that loses to Twave and Ice Beam (speed control) quite often. Another mon that has awkward compression is Forretress. What offensive threat does Forre 1v1? Suit Tar can check offensive Zapdos, Jirachi, and Celebi, sure. It can even successfully 1v1 them from time to time. Phys Tar can more consistently check them from lower HP amounts because of better coverage and power. This to say, even on the same mon, sets and spread make a difference. Mono Pert cannot be considered a Mence check in the same way as Ice Beam Pert, and dropping water coverage makes you worse vs Spikes. Another mon I have an opinion on is Breloom. Grass types switch comfortably into water and electric coverage, but both of those pair with ice coverage. Loom also struggles with Zap. Fighting types switch into rock types, but Loom does not have the stats to switch into Aero comfortably. Breloom therefore does not 1v1 anything after Sporing, and it does not carry grass coverage, so it is offensively limited vs Pert. Switching Loom into a fast off Cune only to die to Ice Beam on the following turn is a tragedy of sorts [insert UD vs Umbry CI6 g3 replay]. It is a bit more of a matchup pick, even as it has decent typing. In short, there are some mons and sets I gravitate toward, because they are of high-value defensively (i.e. offensively) and some I avoid, because I have a philosophy of pivoting for position and breaking everything in front of me at will. You will notice this in my dump and in my sets description in the section on 'Tools of the Trade'.
+
+Another important word on my philosophy of offense and defense that I have hinted on to this point is that I want pokemon who are consistent, and that is the reason I have settled on the sets I most frequently use. My preferred Celebi, where I can afford it, is Seed+CM. On Spikes, I can compromise to fit Seed 3 Atks, and when I can't fit Seed+CM, I will use CM 3 Atks. The reason for my using Seed+CM is because I want Celebi to be a consistent pivot with Leech Seed, where necessary, but I am not convinced of its defensive consistency in the role as a sole or even potentially primary Zapdos or Suicune check. It folds instantly to RNG or TSS. So my fix is distributing defensive responsibilities, but I have no reason to fit a limited mon as only a partial check to certain threats. In order for most mons to be consistent, they must combine stall-breaking and potentially game-winning offensive value with the ability to come into play. The threat to win games forces trades better than any other threat. Certain mons are extremely good breakers and do not need the additional help. Seed 3 Celebi is particularly potent offensively, but there are more dangerous sets in my opinion. DD Tar is the most dangerous Tar set in my mind for that reason, but also because it has the bulk to switch into Zap Tbolts, which is a critical role. I like Curse Hydro Pert's ability to make progress with Hydro and to trade up against Blissey and Aero teams in different phazes of play for that reason. For that reason, you will also find many mixed offense teams with mons that combine the speed to clean from certain game states or trade up. Teams with one or two dedicated breakers where the rest are capable of winning. I am significantly lower on a mon like defensive Starmie or Claydol because I find their offensive (and therefore) limitations set a ceiling to how offensive AND solid a team can be. There are a few exceptions where I recognize the validity of both -- there are in fact match-ups where Starmie shuts down Drill Peck Skarmory teams without Gengar, Suit Tar, Metagross, or some other creative way of breaking through Starmie, and stall does like Spin -- but I would rather stay away from those play styles in general as I find them exploitable and limited. There aren't enough tools on a team with a useless offensive slot to break through most defensive teams, and I don't think they are particularly robust defensively for one reason or another.
+
+My final stylistic point on the matter is that I do not like defensive coverage outside of where it can advance the offensive game plan, and I do not tech to solve holes -- I change 6s or play styles. When you patch holes, you usually use worse sets and become more passive. This creates other holes to exploit, whether for slower teams or faster ones.
+
+On Deception and Counters
+On the subject of switching, defense, and breaking, I have mentioned Vapicuno in this post, as I think he is the best builder in the game, if ideosyncratic, and I would like to take a minute to highlight a few interesting philosophical points of (dis)agreement between us. I do not like to switch into Suicune, for example, so I will use DD Tar to trade into Cune and revenge with Zap, Jolt, Gar, Aero, or some other mon. My concept of defense arises from my concept of offense, and vice versa. In contrast to his style, I believe in building honestly, and rely on mons with strong defensive typing rather than using booms, Sleep, and subterfuge to compensate for holes in my team. Furthermore, I do not believe deception is highly valuable, outside of where counters are viable. I have a very particular perspective on which 6s are optimal, and I tend to avoid giving up matchups, generally, to maximize advantage, because I think it's very possible to create teams that dominate into the metagame without cheating, especially when most people are less concerned with improving in the builder and are more concerned with in-game play. In my opinion, they are equally important disciplines, when optimized -- with building in higher esteem against opponents who do not build or use teams/develop scouts of the same standard as oneself.
+
+The information game is important, yes, but if you do not have a rock resist revealed in the first 5, how valuable is it to use a non-rock resist 6th? Not everything reaches the same standard of value as a rock resist, but if you are using Blissey as the only Zap check quite often, and your unrevealed last is not a Zap check, you will be ZapDugged. At least 4-5 slots, in my mind, are necessary on most teams with a flex slot 6th which usually serves to grease the wheels for the other 5. Hiding this 6th usually does not improve your chances of winning. Why hide the last -- Aero or Molt, the argument I can think of in favor of lineup deception -- on a TSS when it has free entry to make huge progress? Both of these mons can mid-game break vs most teams. There is value in deception, yes, and even value in convincing your opponent you have Aero or Molt, but these factors only come into play once you've met the defensive needs of the team, and even then, as you'll see in the next section, I think the difference between a Zard and a Mence defensively is huge. Whether you can switch into Gengar or Beat Up vs Blissey might be hugely important to one team, and whether you have the extra quality switch-in to phys Tar, DD Mence, fighters, or Swampert might be more important to another. The same can be said for sets. I would rather use the offensive DD Tar set than the passive Suit Tar set, but I am all behind using whatever wins against the scout in tour and representing that my special Tar is a physical Tar -- or vice versa -- to make huge progress on the switch. The more I build, the fewer sets I use, but I try to bluff using my opponent's set knowledge against him -- or reveal techs in the form of counters.
+
+In short, I'm a bit more conservative on some of the momentum-based offense takes, even as I recognize their brilliance, and instead turn to counters to get extra value. I spam Dclaw+Beat Up Zard to take advantage of Bliss+Pert teams. When I've done that enough, I counter with a Sub Punch Zard to catch Tar switching in. Sub Jolt will invite Skarm to Roar or Gar to Ice Punch. I will counter with Wish Jolt. Pert lead gets a huge edge vs the common leads of the tier, but can be countered by Tar or Mence staying in to Flamethrower or EQ the Mag double on Skarm. So I found a use for lead Curse Pert that t1 Hydros vs Tar. Or I go Zap t1 with the intent to catch a dishonest play. Solid midground regardless. Sub Pass Zapdos is an issue, so I will not lead Pert when expecting it (without Jolt behind, also a counter), but I will lead it to keep people honest. I like Wish on Mix Mence on Forre teams that are slow because it allows Forre to play slowly. This can be predictable, so I counter by making the team more offensive and foregoing Wish altogether. This is where much of my creativity comes into play, and I can say I have found many a good idea by 'breaking my rules' and looking for these exceptions to the rule of 'x' or 'y' set or setup being optimal.
+
+Conclusions, and Where to Next?
+Lastly, on finding ideas once I've made my rules (and even after I've broken them), my best friend is the VR. I've burned out or run out of ideas a couple of times. I've deleted or revised every team in my builder a few times -- you should do that often if you're looking to improve -- and I've tested almost everything in here in one form or another. I try to squeeze water out of the stone of ideas and make every version of an idea as soon as I have it. I'm tired now, and I haven't been so ambitious lately, but that has been a key part of my process. When I run out of ideas, I do one of two things: I look for counters, as detailed above, or I go the the VR. If there's a mon I've fallen out of love with or something people have been talking about, I try to sketch out a 6 where the mon is optimal or find a set with it within my philosophy (or even outside of it, to see if I've missed a big idea) that I like. The VR gives me a bird's eye view to see where I've been recently, where I haven't been, and where I should be looking for fresh ideas. Maybe I have a new take on the meta and need to see how a mon I haven't used fits in with the new concept. It is important to be open to new perspectives and self-critical at different points, and in particular, when you are in a slump or in between tournaments. Finally, I'll say I am a bo1-loving 'fascist' who thinks cutting corners is the way to have the most fun building in the tier. Building for general or bo3 play and building for bo1 tour are different disciplines, and your perspective will shift immensely depending on whether you are building to a scout or to beat the most robust teams in the tier. For those of you who made it this far, thanks for reading and happy building to you!
+
+Tools of the Trade
+
+Pokemon I Spam
+Blissey (F) @ Leftovers
+Ability: Natural Cure
+EVs: 252 Def / 248 SpA / 8 Spe
+Modest Nature
+IVs: 0 Atk
+- Soft-Boiled
+- Toxic
+- Fire Blast
+- Ice Beam
+
+Tox Fire Bliss is my favorite Bliss set. It breaks SkarmBliss and can hit Meta and Tar for good value. Most importantly to my philosophy is the stallbreaking aspect. It's the best Bliss set at making progress against opposing stall. Also, I always want Ice Beam for Mix Mence and Zapdos, since those are important roles for Bliss. Pair with alternative Cune checks, like Zap, Gar, Starmie, DD Tar, Celebi, etc. Even Aero can revenge from low enough HP. You can still get fished by some Sub Cune or Cro Cune, ofc, but that's the case with Blissey without CM either way. Using this on an offensive team alleviates those issues.
+
+Blissey (F) @ Leftovers
+Ability: Natural Cure
+EVs: 212 HP / 252 Def / 44 SpA
+Bold Nature
+IVs: 0 Atk
+- Soft-Boiled
+- Wish
+- Seismic Toss
+- Ice Beam
+
+On SkarmMag or Superman stall, I'm a fan of Wish support. It's important to keep Skarm, Pert, and CB Mence healthy over the longer game as I'm pivoting. It also makes switching into the Meta and Tar that abuse it much easier for stall teams. I don't believe in Bliss without Skarm, generally. Exceptions can be made for Jira+Bold Cune teams.
+
+Celebi @ Leftovers
+Ability: Natural Cure
+EVs: 192 HP / 4 Def / 136 SpA / 176 Spe
+Modest Nature
+IVs: 0 Atk
+- Leech Seed
+- Calm Mind
+- Giga Drain
+- Psychic
+
+Similar to Blissey, it beats stall. It struggles with Meta and Jira, which is dangerous in Agili Meta meta. It also struggles a bit vs Skarm, but when Skarm is Seeded on the switch, you can CM and set pressure with Psychic better than CB Meta. Skarm cannot Protect vs this, unlike with Meta, and the threat of winning after setting up is significant enough to force Skarm's hand. Pair with two Zap checks or Mag, as to keep it hidden until it is ready to do work. Mix Meta and Mix Jira are excellent partners to chip Skarm. Jira can chip Meta and Tar, which is helpful. Pert checks Meta and Tar. Zard switches in on Meta, abuses Skarm, and beats Jira as well, while also checking fires.
+
+Charizard @ Leftovers
+Ability: Blaze
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Dragon Claw
+- Flamethrower
+- Hidden Power [Grass]
+- Beat Up
+
+Nothing complex. Beat Up cooks Bliss, and Dclaw keeps Mence in line so you aren't walled by Mix Mence or giving DD Mence free set up. Here's your free win vs non-Molt Gon stall. If you play a Mix Meta particularly well, you can even dink Molt into range of this guy. Fire Blast is also an option... My only advice is never to use HP Ice. Pert teams are the best, and there is no worse feeling for a breaker than to be walled by all of the common walls (i.e. the water types of ADV who are on most teams).
+
+Forretress @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 4 Atk / 252 SpD
+Careful Nature
+IVs: 30 SpD / 30 Spe
+- Spikes
+- Rapid Spin
+- Hidden Power [Bug]
+- Counter
+
+I've tinkered with HP Ghost for Missy, but dropping HP Bug vs Dol and Starmie feels bad. Use Counter so this guy isn't completely dead weight vs Meta -- the premier breaker of the tier -- or Drill Peck Skarm. I've tinkered briefly with Toxic+HP Fire Forre, and I think it makes some sense on a more offensive team where you appreciate Forre's ability to check Skarm and pressure for a mon that is somewhat less adept at making progress vs Skarm. I wouldn't go overboard with that, though.
+
+Gengar @ Leftovers
+Ability: Levitate
+EVs: 168 HP / 164 SpD / 176 Spe
+Timid Nature
+IVs: 0 Atk
+- Taunt
+- Will-O-Wisp
+- Ice Punch
+- Thunderbolt
+
+Always always always always always always always come with a contingency for Blissey. Taunt+Wisp with Sand and Spikes is the most consistent Gengar set, and being able to solo stall teams is this set's claim to fame. Comes in on Skarm (and Lax), and goes to work. You need Ice Punch for Celebi and Zapdos, who will come in almost for free on this guy and make progress otherwise. It's nice for Claydol and also for Mix Mence, because endgames where Mence can come in and spam special attacks freely are not safe or comfortable. It's worth considering Grass coverage if you have a Blissey to sit Zap, Mence, and Cele, but I haven't really looked into that. Tbolt helps revenge Cune and keeps Skarm from getting out of hand, especially in endgames, but dropping Tbolt and relying on Wisp and bluffing is definitely an idea. I have used off Gar without Spikes and I like it. I still like that guy with Sand, because it's not a real Snorlax check without Wisp, and without Tar, you have to rely on Meta or awkward boom mindgames. It has potential there, but I haven't included it here because I can't entirely endorse it outside of specific builds. I have more Gar (sandless) teams that I dislike in my builder than I care to admit, but they are playable.
+
+Jirachi @ Leftovers
+Ability: Serene Grace
+EVs: 68 Atk / 252 SpA / 184 Spe
+Rash Nature
+- Body Slam
+- Fire Punch
+- Hidden Power [Grass]  /  Ice Punch
+- Dynamic Punch  /  Hidden Power [Fighting]
+
+I used to hate Jirachi for the longest time because there were so many headaches when building it. I didn't like one set for the coverage or another set because it was status weak -- eventually, I realized my problem was that I wanted Jirachi to be useful defensively beyond checking Aero (or doing other 'nifty' things). I enjoyed Wish 3 Atks SpD for checking Zapdos -- an important offensive threat -- and making progress vs Skarm for about 3 seconds before I wanted something more, something faster and stronger vs Skarmory. And then it hit me: I needed to think of a new role for Jirachi where I could justify max SpA to bonk Skarm while also appreciating its defensive AND offensive qualities. Mix Jira is that. It switches in on Meteor Mash, making it a Meta check -- extremely valuable defensive real estate, when Meta is critical to unlocking so many play styles -- it switches in on Zapdos HP Grass and HP Ice, and with -Def, also on weaker Tbolts; it switches in on Gengar; it feasts on Skarm; it can beat Blissey with parafusion; it can pressure Swampert; it can para Molt, Zap, Zard, and Mence on the switch; and if you fit Ice Punch, it can fry Gon and freeze Mence. The one in-game problem with this guy is knowing exactly what the opponent is going to do, but it's extremely flexible and can do so much. In the builder, you do have a coverage issue. HP Fighting is perfect for getting a 2HKO on bulky Tar, who can check it extremely well, but you can't run HP Fighting AND have all-important Pert coverage in HP Grass. Dropping Fire Punch for Meta is out of the question, and Body Slam is so good for Bliss, birds, and random Dug switch-ins, so fitting Psychic to midground is a bit tricky. I've settled on picking my poisons here and using Pert with Dpunch (as a patch for Dpunch missing) and HP Fighting without. There are other sets worth looking at, but Fire Punch and Fighting coverage are a must for me. That, and Pert coverage, which I can give up for Zap coverage, but only on the basis of whether I prefer HP Fighting to Grass.
+
+Jolteon @ Leftovers
+Ability: Volt Absorb
+EVs: 8 HP / 248 SpA / 252 Spe
+Timid Nature
+IVs: 2 Atk / 30 SpA
+- Substitute
+- Thunderbolt
+- Hidden Power [Grass]
+- Baton Pass
+
+8 HP tanks uninvested Jira Fire Punch guaranteed. It switches into Zap, Gar, Skarm, and sometimes, Cune, and it can clean up games if you break through everything intelligently. I use Grass 99% of the time. This set works on Spikes and on Spikeless builds. It's consistent until people start Roaring with Skarm on the Sub, so I use Wish as a counter to force confusion. It helps to revenge Cune and DD Tar, which is a huge boon. I like it on Spikeless more than on Spikes, and since I consider Zap a top threat to account for -- on par with Meta and DD Tar in the first tier -- this mon offers so much room for creativity within my rigid philosophy of building.
+
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 168 HP / 16 Def / 252 SpA / 72 Spe
+Rash Nature
+- Meteor Mash
+- Hidden Power [Fire]
+- Psychic
+- Explosion
+
+This guy beats down SkarmPert and has boom. It checks Bliss and Tar with Mash. Boom is so important. I want at least one boom on offense, and I really hate to give up Meta's boom. It's gotta be top 3 for me, for sure. I only use this when I can switch into Pert, though, because it can trade for so much value that I hate to have to trade it into Pert alone. It can boom Celebi, Zapdos, fire birds, and waters offensively and the same and other mons defensively. It even chips in vs Meta and Jira. This is the secret sauce, next to Mix Jira, in playing fast vs Skarm, and I use one of Mix Jira or Mix Meta on most of my offensive teams in order to create a robust game plan. The key here is that being able to trade out all of these mons is great value next to mons that fit naturally on Mix Meta teams. I used to be quite low on DD Tar, since I didn't believe there was a mon that could trade out Pert for DD Tar to sweep, besides phys Grass Meta which gives free Spikes to Skarm outside of specific Mag teams, and that made offense quite mediocre for me. DD Tar, Zard or Mix Mence, off Curse Pert, and the boys really love being on a team with Mix Meta.
+
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 168 HP / 16 Def / 252 SpA / 72 Spe
+Rash Nature
+- Earthquake
+- Thunder Punch
+- Hidden Power [Grass]
+- Explosion
+
+Same as above, but better at hitting SkarmPert and worse at physical responsibilities. Boom still cleaves Celebi, Snorlax, and Blissey, and can even catch Tar for a squishy wincon.
+
+Salamence @ Leftovers
+Ability: Intimidate
+- Wish
+- Dragon Claw
+- Flamethrower
+- Brick Break
+
+I liked this on Forre teams. I didn't typically use Mence with Skarm, because that's too Gengar and special weak, unless it was SkarmBliss with DD Tar for Cune. I use Brick Break every time for Ttar and Blissey. Rock Slide is fun in place of Dclaw with HP Grass sometimes, but Dclaw is nice for Mence. I don't mind no Dclaw, but midgrounding is important to me. HP Grass turns this into a Pert switch-in for some teams.
+
+Skarmory @ Leftovers
+Ability: Keen Eye
+EVs: 240 HP / 240 SpD / 28 Spe
+Careful Nature
+- Spikes
+- Taunt
+- Drill Peck
+- Roar
+
+Idk why I chose this speed creep, but it stuck. You don't lose too many rolls, either way, but you get to play defense vs Spikes and block WoW and BP from Gar and Zap. I don't like playing Skarm that gives opposing Skarm teams free reign, so unless I'm killling Skarm quickly or pairing with Starmie, I typically run Taunt. Even with Starmie, Taunt is probably a good idea.
+
+Starmie @ Leftovers
+Ability: Natural Cure
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Rapid Spin
+- Surf
+- Ice Beam
+- Thunderbolt
+
+I use this as a spinner, a Cune check, and a DD Tar revenger. I need all of the compression to use a rapid spinner. It can't break stall or be a switch-in to physical attackers outside of a pinch, but in tandem with other pieces that do appreciate spin, it offers an interesting alternative look to offensive waters.
+
+Suicune @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 228 SpA / 28 Spe
+Modest Nature
+IVs: 0 Atk
+- Substitute / Rest / etc.
+- Calm Mind
+- Surf
+- Ice Beam
+
+Sub Cune 6-0s some Sandless Bliss stalls. Cune is Cune. Ice Beam makes it not garbage vs Mence, Celebi, and Zapdos. It fits nicely on teams where it can break Celebi and Zapdos for other members. Role compressing the responsibility to beat Sandless Bliss isn't particularly meaningful imo. There are too many CM Bliss teams flying around, and you can't game plan for the CM and non-CM Bliss matchup in this way. I have no strong feelings on Cune other than that Cune should use Ice Beam and that defensive Cune teams suck -- with or without  Spikes -- because defensive Cune teams tend to be all-in on passive players with limited breaking ability outside of Dug or CB Mence. Those teams don't hold up vs different versions of heavy breaking with Meta and Tar, Aero Spikes offense, or Gengar or Celebi Spikes, and where they shore up vs one of those, they give way to another. It also sucks vs Toxic if it isn't running the right move in the flex slot. Cune is a mon that, with the right coverage, absolutely feasts on anything. Ice Beam sets destroy Fruhdazi (Skarm/Cele/Mence or Aero) teams, Cro Cune beats Stoss Bliss teams, Roar Cune beats opposing Cune teams, Tox Cune destroys Wish Blissey teams -- the list goes on. Sub Roar, Rain Dance, what have you else. Pull any of those sets into a bad mu, and you'll pay. It's still the second most dangerous special attacker in the tier and one of the mons I fear the most in preparing.
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 240 HP / 252 SpA / 16 Spe
+Quiet Nature
+- Curse
+- Earthquake
+- Hydro Pump
+- Ice Beam
+
+Hydro cleaves Skarm, and Curse gives it value against Bliss, Cune, and Milo. Pert trades up vs Aero teams quite nicely, should it come away unscathed early on. This mon trades up fairly consistently, and it switches into half the threats of the tier. This set fits on everything. Top 2 mon, and I put that on everything and every team.
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 184 HP / 72 Atk / 252 Spe
+Adamant Nature
+- Dragon Dance
+- Earthquake
+- Rock Slide
+- Double-Edge
+
+Bulky phys best Tar checks Zap defensively and Cune offensively. DD and trade. Support with Mix Meta for optimal results. You can break for Meta or the other way around. The speed allows you to trade with slower Meta at lead to preserve your bulky water. It also guarantees you are faster than 330 Gar, which are the meta. 330 is useful for a few other reasons, but this is the big one for me. It also checks Bliss. I'm at the point where I feel Tar should be used on every team, except certain Mag teams which serve to exploit Sandless and certain stall teams -- which I don't use because I think they aren't as robust against certain offensive threats.
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 216 HP / 136 SpA / 156 Spe
+Modest Nature
+IVs: 30 Spe
+- Thunder Wave
+- Toxic
+- Thunderbolt
+- Hidden Power [Ice]
+
+Twaves opposing Zap at lead, packs Tox to pressure Bliss and permanently cripple different mons. HP Ice destroys Celebi teams. Pert rarely dares stay in, so HP Grass is hardly useful. Tox cripples non-Refresh Pert either way, and Refresh Pert is neither the meta, nor do I consider if a threat for most teams, so I am comfortable with Zap not pulling its weight in those specific mu's. I wanted something bulky, so I settled on CB Mence (and 252+ Tar) Rock Slide bulk, for those who stay in with CB Mence t1. This could be faster or skinnier, but the Meta switch in and utility bulk is quite nice. Revenging vs Cune is nice, too. Importantly, t1 Twave in the Zap mirror offers safety vs Zap, generally, that allows one to run a team with one fewer switch-in, and instead, run goodmon Zap.
+
+Pokemon I Don't Use
+
+Blissey (F) @ Leftovers
+Ability: Natural Cure
+EVs: 252 Def / 252 SpA / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Soft-Boiled
+- Thunder Wave
+- Seismic Toss
+- Ice Beam
+
+Twave is nice defensive coverage for teams with Meta as the primary phys check. I like Wish Bliss on stall, for longevity, and Fire Tox Bliss on more balanced offensive builds for the reasons listed above. This set just doesn't kill Skarm quickly enough for me to feel like it truly has a firm grip on the Skarm teams of the meta. It still 6-0s some teams, but just not stall, which is unappealing.
+
+Blissey (F) @ Leftovers
+Ability: Natural Cure
+EVs: 252 Def / 252 SpA / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Soft-Boiled
+- Calm Mind
+- Ice Beam
+- Thunderbolt
+
+I use this sometimes, but Fire Blast is just faster than Tbolt vs Skarm, and Tox is just faster than Bliss. I will use this with something like Mix Jira who can wear down Tar and Meta, so Bliss is even more threatening. If it doesn't have to switch out, Spikes aren't a problem.
+
+Breloom
+Ability: Effect Spore
+IVs: 0 Atk
+
+What do you get when you give a grass type no tools to hit water types or Tbolt users who pack secondary ice coverage, and a fighting type mediocre bulk that only allows it to sometimes tank +1 Double-Edges from Rock types? The fastest way to lose vs every flying type in the tier. Stun Spore is fun next to Belly Drum Zard or some funky Gyara HOs until you miss. There's room for this guy in fishing mono Cune, Milo, and defensive Pert teams, but there's little room for that in my philosophy.
+
++1 80+ Atk Tyranitar Double-Edge vs. 0 HP / 4 Def Breloom: 232-274 (88.8 - 104.9%) -- 31.3% chance to OHKO
+
+Celebi @ Leftovers
+Ability: Natural Cure
+IVs: 0 Atk
+- Recover
+- Leech Seed
+
+Every mon on my teams needs to be capable of getting 2-for-1 value consistently, because I firmly believe offense has the most consistent tendencies of any play style. This mon gets haxed too much and relies on match-ups for value. Worst of all, it's a stall mon. You want Seed to be offensively competent as a pivot and make progress, but there is no two-move combination that is satisfying. Fire/Grass coverage is ideal for grounded mons, but loses to floaters hard, and those are some of the more dangerous mons in the tier. Psy/Grass covers birds, but gives up free turns to Metagross, Skarmory, and Jirachi. Meta and Skarm are too threatening. Pair with Mag to compensate. I loved SkarmMag, and I think the Celebi takes are among the best and most brilliant -- credit to ABR -- but I still think they tend to be exploitable for one reason or other. I want something with a bit more fire power. Def Recover is the best of these spreads, though, because SpD investment doesn't actually check Cune, and you can still be overwhelmed by different offensive game plans. Randomly walling Lax can offer value, and you still check the other mons SpD Celebi is tasked with checking reasonably well, due to natural bulk, resistances, and Leech Seed. Good mon, but just extremely limited.
+
+Claydol
+Ability: Levitate
+
+Rapid spin and no tools for making positive progress is fake to me. I really loved Altina's CI5 run, and I was all-in on the SkarmDol train. Dol just isn't Pert, and it doesn't fit very well with Pert either. It's good on stall with other waters. I never quite got the hang of taking advantage of spin to support slower, grounded, bulkier mons on offense. Cune appreciates it on mixed off, but how are you supposed to be good vs special attackers without having Tar for Zap? Cune doesn't like sand or artifical backbone. The help with Gar and Tar is real, but there are way better partners. On special offense, I can appreciate it offering some backbone, but I feel like just using a Mix Meta accomplishes so much more. Snorlax with Focus Punch and Wish support from Mix Mence appreciates spin, but somehow, the coverage on Lax just never feels worth it, and it has the same problems that the old Lax team styles had. What other slow, grounded, bulky wincons/trade pieces are there that significantly appreciate spin? I never saw a scout where I thought Claydol would be a serious threat. I tried everything to make this mon work -- even lead and back Curse off Pert -- but  there are always better offensive AND defensive options imho. Even Mix Meta can lure and switch into Gengar and chip in vs Aero+Tar, and even better. It has a boom that can be used offensively and not just defensively. It was way better coverage and deals with Skarm more effectively, rather than giving it leftovers and losing slowly to Tox/DP/Gar/Suit/Aero next to Spikes.
+
+Flygon
+Ability: Levitate
+
+I found some ideas with it recently, and those are in the dump. Simply, Gon isn't Pert, and Meta is a menace. Flygon stalls get smacked by certain phys mons, birds (or ZapDug), and off waters. The Molt+Bliss versions are solid, and fishing with Gon is extremely worth it. In fact, I'm quite high on Flygon teams, even as I think Gon itself does not fit on anything but Spikes balance/stall. Conventional offensive Flygon teams (off teams, not off Gon teams) feel somewhat frail and artificial. Gengar counterplay is always a bit awkward, as is Mence counterplay. In any event, I like the mon, but it falls victim to the 'not Pert' syndrome.
+
+Gyarados
+Ability: Intimidate
+
+Kind of sucks Aero if it isn't Jolly Rock. Sub Pass (Jolt) with HP Ghost allows 2 DDs to break through Aero under ideal circumstances. HP Ghost absolutely farms Skarm teams without Tbolt/Twave Bliss. Starmie, Gengar, and Claydol, are free for Gyara. I don't like using it with Mence because I want 2 Zap switch-ins in general and Mag with phys off, and that's too much to ask, and Magless is kind of gross. You can't built Gyara that has a good time vs Aero and everything else, but the mon has its upside, for however specific it is. However, I cannot be asked to build Gyara at this point, and I would rather build anything other than Mag off, since I prefer teams that can pivot and view Gyara as a mediocre pivot. It just doesn't make progress with its coverage nearly as well as I would like.
+
+Jirachi @ Leftovers
+Ability: Serene Grace
+IVs: 0 Atk
+- Substitute / Wish
+- Calm Mind
+
+It's not a pivot -- it's not good defensively -- and there is no two-move coverage combination that makes you happy vs Tar, Meta, Pert, Dol, Lax, and Mag. It's a good fish into Bliss without CM, but for a mon that is a complete liability against grounded offensive mons, I would at least hope for it to be easier to justify coming in, like a Blissey, or to have more utility. Mix Jira outclasses in my mind. Even CM 3 has better upside because Fire Punch and HP Grass allow it to cleave through Meta and Pert, who are hugely important, and it can chip Tar.
+
+Milotic
+Ability: Marvel Scale
+IVs: 0 Atk
+
+Cool stall breaker with 2 of Refresh, Toxic, and Hypnosis. It's not Pert and it will get haxed by DD Tar or Metagross that thinks it needs a CB. Fits on slow teams -- not my style. I tried it on offensive stuff and didn't like it.
+
+Salamence @ Leftovers
+Ability: Intimidate
+EVs: 176 Atk / 212 SpD / 120 Spe
+Adamant Nature
+IVs: 30 SpA / 30 SpD / 30 Spe
+- Dragon Dance
+- Earthquake
+- Rock Slide
+- Hidden Power [Flying]
+
+Brick Break gives back more to the team and is more selfish. I like mons who are selfish while giving a lot to the team concept. I also want all the attack I can get. SpD helps you to tank neutral Bliss and weaker water Ice Beams and Gengar/Jira Ice Punches, but against teams with those mons, DD Mence does not often get easy set up. Not to mention, Wisp and Twave OHKO just as quickly, and Gar can boom with chip on Mence. Mence is a bit awkward as a pivot, as it needs HP to set up to win and does not make great progress before DDing (when compared to other revengers), but it can revenge sweep convincingly and Brick Break allows it to function as a pseudo revenger vs Tar and a pseudo pivot vs Bliss. Basically, SpD and EQ Mence just don't have enough power for me. Pair with Mag and friends or Zard (for example) to trade out or divide matchups respectively.
+
+Snorlax @ Leftovers
+Ability: Immunity
+- Focus Punch
+
+Standard offensive Lax coverage hits Gar, Meta, and birds nicely. Curse EQ/Sball isn't my favorite either. Focus Punch fits with Rapid Spin, which I've explained I dislike in the Dol section. It is kind of a waste of a Snorlax, but sometimes, it can trade up nicely as the third special check on a team. I just prefer to use other mons or Mag so I can use a better set.
+
+Starmie @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 32 Def / 40 SpA / 32 SpD / 152 Spe
+Timid Nature
+IVs: 0 Atk
+- Rapid Spin
+- Recover
+- Thunder Wave
+- Surf
+
+It 6-0s DPeck Skarm, but it sucks vs Tox Skarm or SkarmGar. Even Suit Tar is annoying. It's tricky to make it consistent. I don't really care for it, but I respect and prepare for it. I prefer to play quickly vs Skarm in any event, especially as I do not believe there are any offense mons that appreciate Spin, and I think stall gets stuffed too easily by anti-stall offensive game plans (Tox Skarm, Suit Tar, Gengar, etc.). I don't like to pair it with Pert, because the Zapdos and Tox Skarm mu's become dire, but that would mean another instance of not-Pert stall, which I can't abide.
+
+Suicune @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def / 4 Spe
+Bold Nature
+IVs: 0 Atk
+- Rest
+- Calm Mind
+- Surf
+- Roar
+
+Bold Cune gets haxed by phys Meta and DD Tar, but it also tends to be the sole wincon on most Cune teams. Or it partners with SkarmDug or CB Mence, but those teams are some kind of exploitable, awkward, or frail to Gar, Aero Spikes, DD Tar, booms, etc. that I don't care for. Mono Cune in particular sucks vs Cele/Zap/Mence.
+
+Suicune @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 SpA / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Rest
+- Sleep Talk
+- Calm Mind
+- Surf
+
+Same as above, except this one is worse defensively for way more offensive upside. Still, give me Ice Beam.
+
+Suicune @ Leftovers
+Ability: Pressure
+IVs: 0 Atk
+- Calm Mind
+- Surf
+- Ice Beam
+
+Non-Rest or Sub Cune. Tox Milo, Bliss, Skarm, etc. are a pain. It can get the match-up, but I'm looking for consistency here.
+
+Zapdos @ Leftovers
+Ability: Pressure
+IVs: 2 Atk / 30 SpA
+- Hidden Power [Grass]
+- Baton Pass
+
+Give me Toxic and HP Ice to handle Bliss and blast through Celebi teams. BP is cool with Mag+Lax, but this set just isn't super threatening. I don't care for Sub Zap either. It's really great, but I reaaaally want Twave for opposing Zap. It's a bit fishy for my liking.
+
+A lot of this stuff goes out of the window in bo1 and everything is on the cards, though. There's so much more room for creativity in bo1 with cutting corners.
+
+A blurb on the unique defensive rules I religiously follow:
+
+(At least) Two Zap checks (including, one or two Cune checks). One of them can be a lead TW Zap to trade t1.
+Two slots overall
+
+Softens ZapDug or just Zap
+
+One of them is almost always Tar
+Limits the nuissance that is BP Zap from abusing a more passive check
+
+It's hard to fit good Bliss and CM checks without Tar
+
+DD Tar gets off Cune low for a revenger to deal with it, or sweeps.
+
+(Lead) Zap, Tar, Jolt, Bliss, Cele, Lax, Raikou
+In order of robustness
+
+Lmao no Regice
+
+After getting haxed so much and getting so many bad mu's as a noob, I like to have a fast revenge killeron almost every team.
+Revengers must have adequate speed and breaking power/coverage to be useful in that role. Otherwise, they will trade out quickly instead of grabbing multiple KOs or endgaming properly.
+
+Dugtrio on (most, Milo) stall teams, because Arena trap is necessary to avoid Meta, Tar, and CM getting out of hand.
+
+Zard or Mix Mence on mixed offense teams who appreciate Zard's ability to switch into Gengar and Metagross and Mence's ability to switch into Pert (Hydro or EQ, provided HP Grass), phys Tar, and opposing Mence.
+I'm extremely high on Zard. Beat Up+Dclaw allows it to break Bliss better than Mence and avoid being walled by Mence.
+
+The only walls are Tar and Milo, who can be handled elsewhere on the team
+Cune can be handled as well
+
+Gengar and Metagross weaknesses are important for me when designing a defensive concept. I am comfortable cheating vs Gar with some stall teams, but not on offense
+
+Mix Mence on Forre teams, usually, and occasionally Molt, for the same reasons as listed for mix off above. Forre teams are high compression and reaaaally want the extra Tar or Meta check, respectively, to avoid getting overloaded.
+
+Aero on Spikes balance, usually to justify frailer, Spikes-dependent breakers
+
+And usually CB Mence on SkarmMag. I use Bliss and Pert on those every time. Mence offers the same defensive profile mentioned above, and also helps with fighters while appreciating Wish support and offering necessary offense. I've looked at CB Zard to be funny.
+
+Off Star, but rarely as a solo revenger, primarily on special or mixed offense
+It is a Rapid Spinner, a Cune check, and a (neutral speed) DD Tar/Gar revenger for frailer teams
+
+Pairs well with Mence and Zard, who have the bulk to support slower mons who appreciate Spin
+
+If I'm really greedy for an idea and have 2-3+ ways to deal with Bliss teams, I will use it solo
+
+I do not consider every fast mon a revenger. I do not consder other fast mons as reliable revengers.
+
+Jolt, Gar, Zap, Celebi, and Flygon, can help take down Tar, Cune, Meta, Pert, and a number of other mons reliably, so they can help but do not feature in the role
+They lack in power or coverage
+You will get haxed by mons from high HP ranges, so you need to be able to KO them from higher HP ranges
+
+This means I am low on Agility pass, as it is hard to fit with a second (i.e. non-Zap) bird
+
+I use Perton at least 80-90% of teams. It's hard to go higher.
+After Skarm, physical attackers and birds with (fire coverage) tend to make progress the fastest.
+
+Pert checks Meta and Tar harder than any other OU (Flygon barely qualifies, shut up)
+
+Pert checks phys Mence better than Milo and recovers in sand, unlike Cune, so it stays healthier
+
+It checks Aero
+
+It compresses checking Molt, Zard, Mix Mence, and Gengar
+
+Pert doesn't lose to RS RNG nearly as often as the other waters
+
+Pert is a mixed attacker, so it doesn't struggle vs Skarm or stall
+Therefore it fits on more offensive teams
+
+Flygon and Donphan
+
+If I'm using mixed or Spikes offense, one slot is usually an additional normal resist
+Mix Meta, (Taunt) Gar, or (Mix!) Jira
+
+They abuse or lure Skarm
+Tox immunity
+
+DP resist
+
+If you're keeping track and know your synergies, this means unless I'm using SpD Jira, my cookie cutter team will have a specific role for 5 slots, typically. I have found specific uses for all of the mons I'm interested in, and I have found some for many of the mons I'm disinterested in, and I think I'm finally at the point where I've more or less run out of ideas. Maybe the meta evolves again in the future, but for now, this is about it for me, and that's why I'm making this dump. Obviously, there are still some questions left to ask, some improving left to be done, and some new 6s left to build, but I've found my philosophy, and I'm quite happy with it.
+
+Special Thanks
+I have thanks to give to my lab partner, pkLeech, who helped me get this far and stay interested in the game. Working with him has been great, and he's pushed me to come this far. Shout out Zacpz, who brought me into this world and has often threatened to take me out of it for being wishy-washy or lame, for one reason or another. A special thanks to Shock and Leftwingbo, who are useless, but their shenanigans have annoyed me enough that I had to flesh out my rebuttals to their stupid arguments in the form of actualized 6s in the interest of academic honesty. Their energy and creativity has been critical in my ability to reengineer my philosophy when I've been in slumps or burned out, and I honestly couldn't have done it without them. Shout out Shitfaced enjoyer who always gives me feedback on the stupid shit I send him. Feel free to leak your builder after reading this. I was undecided about whether I was going to do this, but after speaking with Fruhdazi recently, I knew for sure, and I'm truly and honestly thankful for that. Big thanks to Cherryb0ng as well. He knows what he did. Shout out my IRLs for putting up with my shit, too. Gonna spend more time with you after this. There are others who have helped me in similar ways, but these are the people who have touched me the most in my time here.
+
+Other Acknowledgements
+
+I learned a lot from Vapicuno, Linear, and BKC -- largely through their yt's -- and the ADV Community. Vapicuno has been a help in more ways than one, especially in how he has cultivated the environment in ADV Cord and provided resources and advice every step of the way. I can give thanks to UD, Cowboy Dan, Watermess, and Hclat, who provided critique and insight on my teams early on, in their time as judges for a Discord team building competition. They gave me the tools and perspective necessary to self-critique and develop my philosophy independently while also teaching me that there are many different ways to view the same teams. I can't remember if Johnnyg2 or Mikmer were a part of that, but I did learn a lot from them through forum and Discord posts, so I would like to give thanks to them, as well. From the yt crowd, I learned a lot about reading 6s and finding holes in them. I learned how to play from them, from information games, scouting, deception, and building counters to game planning, observing, and even game reviewing. I would not have been able to learn and grow as much as I have without the resources they provided.
+
+4/6/2024 Update: https://pokepast.es/b2fafa7e0296237f
+14/7/24 Update: https://pokepast.es/56e7639e6189dbc5
+6/11/24 Update (a bit Mix Mence weak?): https://pokepast.es/6f4b33c6013df1ef
+
+Can't get infracted for dropping without bumping the forum
+
+### post 10339618 author=SPFunkM url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-6#post-10339618
+https://pokepast.es/e8f6aab905a2f274
+
+ADV ou: the paste. 1500 teams, roughly half being leaked right now from ci/ji level users, or long gone past.
+
+(apologies for the repeats, there might be 100-200)
+
+This community sucks and is full of ragebaiters. I feel no sympathy for the people who refuse to evolve the metagame and are generally dicks getting their teams leaked.
+
+Merry Christmas.
+
+### post 10415232 author=Zpanther url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-6#post-10415232
+Hello ADV people i think this is my first forum post ever. I wanted to highlight some teams of mine that have served me well over my time playing.
+
+https://pokepast.es/37856be4c20bdfc8
+Probably my most well known team i suppose. This 6 has been done countless times probably but if you've been in Mushi League in any of the last few seasons this version may look familiar. This was heavily influenced by an old team from Cowboy Dan my goal was to make a team that stepped all over opposing offense but had more backbone vs fighters hence why Mence in the slot Dan used Zard. Not much to say i think its pretty straight forward in concept. Does it cheat super hard vs certain matchups? Absolutely! But in a place like the sub 2 star realm of Mushi where Milo is nonexistent it can shine at times.
+
+https://pokepast.es/ba17eb7fa5cbe79e
+I am a HUGE fan of Jolt spikes and i'm also a Zard top 10 truther. Mix that together and what do you get? You get my favorite Jolt team of course. BKC tar on a fast pace squad might seem strange at first why not DD? However i really like Tar to be able to punish bliss more directly as a switch in to it with this squad. Focus punch is of course a great way to force progress on walls and being my favorite click in the game i like to use it wherever possible. Giga Drain Gar here is in a similar vain as classico being the idea is you spam wisp and if dol takes the wisp it'll often lose the 1v1 to Gar and not spin block or youll get it down to the point where itll be in range of Zard/Jolt. Gengar is easily one of the best abusers of spikes as well and wisp with grass electric coverage is amazing in this tier. Its ability to break walls such as Blissey and Def Rachi are also so valuable to any offensive leaning team. The secret sauce to why i like this squad so much is the Skarmory set taunt + toxic is a lethal combo alongside Gengar and Jolteon it allows you to pseudo spin block early vs Dol and prevent refresh Dol from being annoying. Taunt is of course best at limiting early spikes from your opponent as well and really helps set the pace of the team. Offensive Swampert has slowly become kinda a standard on these faster paced Jolt spikes teams and here is no exception. You really want to be able to sting Skarm with pump and focus punch gives you another way of breaking though Bliss. Finally Charizard, i opted for ice HP here over grass primarily because of how well Zard lures in the likes of Mence and occasionally Flygon. Toxic also fits nicely alongside ice to pressure Swampert and the waters that come in on it as well as having nice synergy with Gar's wisp and Skarm's toxic. Beat up can work too instead of punch but like i said its my favorite click in the game so i chose to go raw punch here.
+
+https://pokepast.es/f90425fe9bcb5e36
+Maybe my favorite team ever? It uses my favorite pokemon of all time Houndoom, and here i think I've finally did my childhood favorite justice. Beat up + Wisp is a really insane combo unique to Doom. In my opinion it actually lures Blissey even harder than Zard does. Yes it will still struggle vs Milo and Suicune but you're burning them as they come in so it can provide some free turns and Starmie should be hesitant to switch directly in before scouting for crunch. Doom is still going to be your primary way of dealing with Gengar here but it also provides really great defensive value vs Moltres and some Charizard. The real beauty of this team however lies in the little synergies each of theses mons have. Suit meta may seem odd byt it has some cool applications such as; Loom getting trapped by Dug you can mach punch Dug into range of Meta's pursuit, Meta can suit Aero into range of Gyara's hydro pump and it can even finish off a weakened gar in a pinch of course however you must decide if taking a burn to do this is worth it in the context of the game. 3 Dug weaks meant I needed multiple fliers to compensate. DD Gyara fits this perfect as not only a great Dug punish but also my check to opposing waters something that like Salamence in this slot wouldn't be able to do. Hydro Pump may seem like a weird choice on a mon with base 60 spatk but it alows a few key things; 1. it lets Gyara run a + speed nature you have a move for both Aero & Jolt 2. You can run HP Fly since you have a move for Aero you can run stab hidden power 3. Its funny enough said. The True MVP of this team has been Raikou. I originally had Lax in this slot but found it very inconsistent despite being better into Zapdos. Eventually i just said screw the Zap matchup and used Kou there instead. Kou adding alot of speed control is what really made this team lethal. previously it lacked a ton of speed but Kou changed the way i could play this team allowing for more aggressive lines and trades due to its revenging and late game capabilities. Dol and Loom are quietly the defensive anchor here. Loom you say how could that be? Well mach punch does a great job at keep DD Tar in check with very little prior chip damage so running a bunch of frail mons that get wrecked by it isn't a big deal. Spore essentially giving you a soft KO is also really big for this team letting you play 6 v 5. Claydol's Typing and ability just round this out perfect not only providing spin and another boom but also being able to run ice beam here as an emergency Mence check without having to boom and not allowing Zap to sub on it are really important traits. Hope yall find this team as fun as I have it basically carried me through the early rounds of Revival 2 and I've cracked top 20 1727 Elo with this on ladder prior to rev.
+
+Heres a Dump of some of my favorite teams to use note some of these are replications of teams made by others and i don't take credit for all
+Hope yall find some inspiration or have fun using any of these teams!
+https://pokepast.es/c4b87d4c3c3302f4
+
+### post 10423761 author=vapicuno url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-6#post-10423761
+Shitrock enjoyer said:
+
+Someone write a teamdump please
+
+Click to expand...
+
+This thread has now been prioritized as described here.  Fire away!
+
+### post 10424050 author=SPFunkM url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-6#post-10424050
+vapicuno said:
+
+This thread has now been prioritized as described here.  Fire away!
+
+Click to expand...
+
+Such a good change. Why I dumped and leaked everything, not enough Sharing in this community.
+
+### post 10426058 author=Mead url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-6#post-10426058
+The flame that lights a thousand candles burns no less bright. I have never shared my teams on this forum. I will take the opportunity of these changes to the ADV OU forum structure to do so. Here are the teams I have used recently that successfully reached 1900 Elo.
+
+https://pokepast.es/27454261bcda69a1
+This team is the oldest among the three. A team I built with the idea to postpone as much as possible the moment when the opposing Skarmory sets its spikes up while setting mine, or punishing it if it does so. Taunt DD Tyranitar wins a lot of games. Sub CM Thunder Jirachi can be awful for the opponent to deal with. The idea is just to set up sand and spikes early, chip and put pressure with the other Pokemons and finish with Tyranitar, Jirachi or Salamence depending on the opponent's team.
+
+https://pokepast.es/ca15cdd29aacfb9c
+Defensive team that requires a good scouting of opponents' sets. A lot of healing. Jirachi and Flygon combination is fun to use, really effective against Zapdos due to their types that work well together: Zapdos wants to Thunderbolt/Thunder-Wave Jirachi, and Flygon is immune to it; Zapdos wants to HP Ice/Toxic Flygon, Jirachi is immune to it. CB Flygon can easily stop Pokemons that try to set up. Blissey is CM mostly because of Suicune. Starmie has Psychic to KO Gengar that switches into a Surf. Sableye ends the team really well, providing an anti-spinner, a counter to Snorlax, Hariyama, Medicham and others. Its Knock-Off fits well in the team and can sometimes be used to Knock-Off Choice Bands.
+
+https://pokepast.es/9cd5d041f242e63d
+I tried a BP team more centered on the special rather than physical side. At first, I was using Sub CM Jirachi and not Marowak, but Marowak is too good on this kind of team to not use it. Ninjask likes Leech Seed, Paralysis and non-sand weather; Ninjask hates Roar. The principle is simple, though sometimes hard to execute: you boost speed with Ninjask, trap Skarmory with Magneton if necessary, toxic Roar users so they can't Roar to infinity, pass to Celebi or Zapdos to Seed/Sub/Tbolt and pass to a recipient being Suicune or Marowak. Roar on Suicune allows it to stay on the field, Focus Punch on Marowak punishes opposing Skarmory that tries to Roar. Good prediction is key.
+
+### post 10431412 author=airports url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-6#post-10431412
+https://pokepast.es/a48d2f3a95fb24c1
+https://pokepast.es/1bb913cb868c5bfe
+https://pokepast.es/495796141035b3b6
+https://pokepast.es/72f05115cff74c5e
+
+### post 10433656 author=eternallywandering url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-6#post-10433656
+Here are my favorite teams that I have created.
+
+Most of them have inspiration taken from players such as Hclat, DarthTyros, Baddummy, Kalaveet and others.
+
+All movesets/evs/natures are probably not ideal, and a better player could likely find changes to make them better.
+
+Have fun trying them out!
+
+https://pokepast.es/62e785d5e2f4ac73
+
+https://pokepast.es/346908a8d1dcee8c
+
+https://pokepast.es/a68fb10e492b8a47
+
+https://pokepast.es/f5944cac418bd173
+
+https://pokepast.es/abd1f02a5b992f83
+
+https://pokepast.es/6d173a3ad3f4b5b6
+
+### post 10436268 author=Zpanther url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-6#post-10436268
+yo whats up everybody felt like sharing some more teams ive been working on
+
+https://pokepast.es/9e9e2135f7e014ef
+Originally built this when i was playing Adam (AC77) in bracket for rev. wanted to bring Boah Tar to punish his pretty high Skarm Bliss Gar usage but the Mence set here is what ties it together. dropping grass for slide is doable with recover celebi and vs Adam is helps alot with his tendency to use rest zap. the team overall struggles a bit with Off Suicune especially timid but what team doesnt lose to to some variant of Suicune lol so i think its fine.
+
+https://pokepast.es/43a067ba7438f82e
+Built this as a fish for Jumpy since i really like the combo of blob + Kou into his scout. very similar in concept to my other mix off builds and features that Kou + Gyara combo im fond of as well. ive been having moderate success with this in tour and on ladder. Buzzed used this vs Jumpy for Winter classic in rev and it worked as intended in their g1 (sorry Jumpy lol) but i really do like this team and its pretty fun to use in general.
+
+https://pokepast.es/675d1e0a5d02921b
+Here is a Dug + Aero 6 im rather fond of. This team absolutely owns specoff, Zap Dug kinda styles, and is very trade heavy. Shoutout Dazi for the suggestion of DD Beam Tar i was using variants of focus punch tar here previously but i think dd really opens up alot more possibilities. This has some awful match ups but it also has some unloseable ones maybe a little fishy but idc i like it.
+
+https://pokepast.es/4bb0e55bcaae84d0
+I built this for a teambuilding contest in Goofy Cord and won first place for this prompt. this is my attempt at using Quag in OU. Shoutout dazi again for the hp steel skarm suggestion i think it ties together the team nicely helping alot vs BKC Tar not allowing focus punches considering Quag doesnt love switching into a punch and Dol gets hit by bug it also helps a bit vs Aero not letting it freely spam dedge into the team. Overall i think this team is pretty fun i think there more optimization that could be done tho with sets and evs.
+
+Well these are all i feel like sharing atm but lmk what yall think and i hope you enjoy them! Cheers!
+
+### post 10446229 author=NarcissusCat url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-6#post-10446229
+Zpanther19 said:
+
+yo whats up everybody felt like sharing some more teams ive been working on
+
+https://pokepast.es/9e9e2135f7e014ef
+Originally built this when i was playing Adam (AC77) in bracket for rev. wanted to bring Boah Tar to punish his pretty high Skarm Bliss Gar usage but the Mence set here is what ties it together. dropping grass for slide is doable with recover celebi and vs Adam is helps alot with his tendency to use rest zap. the team overall struggles a bit with Off Suicune especially timid but what team doesnt lose to to some variant of Suicune lol so i think its fine.
+
+https://pokepast.es/43a067ba7438f82e
+Built this as a fish for Jumpy since i really like the combo of blob + Kou into his scout. very similar in concept to my other mix off builds and features that Kou + Gyara combo im fond of as well. ive been having moderate success with this in tour and on ladder. Buzzed used this vs Jumpy for Winter classic in rev and it worked as intended in their g1 (sorry Jumpy lol) but i really do like this team and its pretty fun to use in general.
+
+https://pokepast.es/675d1e0a5d02921b
+Here is a Dug + Aero 6 im rather fond of. This team absolutely owns specoff, Zap Dug kinda styles, and is very trade heavy. Shoutout Dazi for the suggestion of DD Beam Tar i was using variants of focus punch tar here previously but i think dd really opens up alot more possibilities. This has some awful match ups but it also has some unloseable ones maybe a little fishy but idc i like it.
+
+https://pokepast.es/4bb0e55bcaae84d0
+I built this for a teambuilding contest in Goofy Cord and won first place for this prompt. this is my attempt at using Quag in OU. Shoutout dazi again for the hp steel skarm suggestion i think it ties together the team nicely helping alot vs BKC Tar not allowing focus punches considering Quag doesnt love switching into a punch and Dol gets hit by bug it also helps a bit vs Aero not letting it freely spam dedge into the team. Overall i think this team is pretty fun i think there more optimization that could be done tho with sets and evs.
+
+Well these are all i feel like sharing atm but lmk what yall think and i hope you enjoy them! Cheers!
+
+Click to expand...
+
+Why is dug invested in def. in your aero dug team?
+
+### post 10447650 author=Zpanther url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-6#post-10447650
+NarcissusCat said:
+
+Why is dug invested in def. in your aero dug team?
+
+Click to expand...
+
+Leftover evs and let’s it come In on cb tar slide
+
+### post 10466160 author=greenapricotttss url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-6#post-10466160
+Oh my I see all these posts sharing a variety of teams
+
+Meanwhile I just have this one
+https://pokepast.es/b77ef5f33b5d2c64
+
+So this is a Superman team with 4 guys off the ground. In my experience with/against Superman builds I've noticed the teams that opt for 5 or full ground immunity are horrific defensively.
+By no means is Superman a good archetype: it has an inherent struggle in ADV with the ubiquity of Ice Beam and every Supermon you include is likely a Tar liability. So this team aspires to make great use of avoiding/deterring spikes without being complete food for Tar.
+
+The sets in brief
+
+252 Spe, 252 HP, 4 Sp Def w/ Jolly
+Moves: spikes, taunt, roar, drill peck
+Yeah so Skarm is our lead here and the idea is to toss spikes as quickly as possible. We don't really care if Skarm dies early on, the main goal is to get up at least 2 layers which is possible with her speed tier. Mags are usually Modest so when they come in t2 you should, 90% of the time, get off the 2nd spike. The lead MUs aren't good for her though, with lead Zap/Tar often seen you will likely switch to Zap or Pert respectively. Lead Tar will likely fire blast (if they have it), giving you insight on their possible set.
+This is not the only Skarm set I've used!
+YOLO Skarm actually works well with this team esp if the oppo is running Mag. They will bait you in only to get smacked with hp ground so now you can spike whenever. Adamant instead of Jolly, 252 Atk, and would have to choose btwn roar/taunt for hp ground. Taunt is extremely useful though because at this speed you will prevent oppo Skarm from spiking and you can cancel Blissey's softboiled or Milo's recover.
+
+244 HP, 228 Sp Def, 36 Spe w/ Calm
+Moves: tbolt, hp grass, roar, twave
+Can also take the lead slot. If you haven't noticed this team doesn't like lead Zap (esp offensive ones) so trading paralysis with oppo Zap is honestly very good and now its food for your Tar. Special Defensive because you need to "comfortably" switch into Mie (no one really does without Bliss) and is your pseudo spin blocker in that scenario. Roar, of course, racks up spike dmg.
+
+Tar: 4 HP, 252 Atk, 252 Spe w/ Adamant
+Moves: rock slide, eq, taunt, ddance
+Suitable as a lead but not recommended. Its more like a fake-lead to see how your oppo's lead Zap/Tar will respond. Some people run lead Dug (shitheads) so I don't like the possibility of your sweeper just getting clipped. In reality this guy is not appearing until you've confirmed Dug is not around or has been KOed. Mid-game entry is fine. Taunt is here to take advantage of Skarm that want to spike or toxic you. From there it is very easy to acquire 2 dances and start ravaging your opponent. Swampert is gonna come in though so make sure its reasonably chipped. Don't go Jolly unless you're hard pressed for Mie, you wanna get them KOs.
+
+240 HP, 228 Def, 40 Sp Def w/ Relaxed
+Moves: eq, ice beam, refresh, roar
+Nothing special here just your standard Pert doing what he do. 240 HP EVs translates to 401 HP, a lefties # +1. Choice of moves are rather customizable here although I think eq/ice beam feels needed. Refresh is probably the one move I'd absolutely keep so Pert is not infringed by status. Roar is always great, feels almost necessary when building ADV. So two roarmons isn't overdrawn, esp when you consider any possible hax befalling your other teammates. Curse is another fantastic option to let you threaten Milo after just 1 boost.
+Ngl I've tried the special defensive counterpart to this (same distribution on Sassy) with Curse, IK it sounds wild. With Max Sp Def + Curse you beat the shit out of CroCune and Milo very easily. However, CB Tar/Aero/Mence aren't as easy to switch into especially if Skarm is gone.
+
+40 HP, 216 Sp Atk, 252 Spe w/ Timid
+Moves: tbolt, ice punch, taunt, destiny bond
+Off-Gar is so bad lmao, but it's also kind of strong with spikes down. Taunt is not debatable, it disrupts spikers and prevents Bliss (who will likely come in) from healing. I really just wanted to hit as hard as possible however a defensively EV'ed Gengar should provide some more utility. Honestly this Gar exists here to delete a mon who gravely threatens the team; a boosted Suicune comes to mind. You can run boom instead of dbond but you have a better interaction running dbond in the event you end up pursuit trapped.
+
+196 Atk, 236 HP, 72 Sp Def, 4 Spe w/ Adamant
+Moves: eq, s ball/psychic, rapid spin, boom
+Claydol plays an interesting role here but the obvious one is spinning so Tar can be as healthy as possible when ddancing. I like s ball because I can hit other Claydol with it and Celebi (not very hard though). The HP and Sp Def allows you to survive a hydro pump from Modest Cune while the Atk practically ensures that boom KOs it. If Starmie's pump KOs you from full then you know its Modest. On RestTalk Cune (the standard one) boom should do around 67%. I don't think you should be aiming to boom on Suicune but much like Gengar you can eliminate an evident threat. You can run CB on this, great dmg output & with good prediction you can punish oppo Ghosts attempting to spinblock. PsyDol seems to be the standard nowadays so if you prefer that then go for it, BeamDol is aight but desperately wants pursuit support.
+
+I can see Special Offense being a hassle, however, you do have enough roarmons to thwart CM antics and two mons to boom with. I just noticed Jynx threatens the shit out of this team LOL (well yea STAB Ice), but you can easily trade it for Gar or slap a Lum Berry on Tar. Raikou seems dangerous too but nobody gets OHKOed by it (barring Skarm) so long as it doesn't reach +2 you should be fine. The most important thing here is to see how your oppo responds to Swampert: a double switch could save Dol the need to come in later for rapid spin. From experience this team just beats other Superman builds but Flygon is definitely an impediment. Usually have to keep hp grassing it with Zap on the switch until its in low range, be willing to drill peck despite an incoming fire blast, or Dol can boom it. Always strive to keep Pert and Tar healthy in case of a late-game Aero.
+
+Just your average 1600 player sharing some ideas :)
+
+### post 10484492 author=mielke url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-6#post-10484492
+Hello everyone, with ruiners spl season ending right now I decided to write a team dump with the teams that me and Pak developed this season. Enjoy!
+
+Week 1 vs. Arctic (w):
+
+https://pokepast.es/5189a1850b7a9526
+
+I wanted to make a team with substitute suicune this week, knowing that this set would be really effective against Arctic's comfort picks. I also wanted to support it well against sand options and give Pak tools to outplay most of what Arctic had on his scout. Subcune is tricky to build, considering it acts like a worse offcune in some matchups, so i wanted to divide those matchups and attack them with zard and agiligross. Mag makes possible to greed for sets in cele and meta, while also making lax's game more oriented into trading with opposing tyranitar, because skarm will be gone before it hits the field. Overall i'm really happy with this team. The only matchup that gives it some trouble is hera, reversal and sub punch sets can wreck you open if something like mixmence is paired alongside them.
+
+Week 2 vs. Sadlysius (w):
+
+https://pokepast.es/ee81ff7ee4794fc5
+
+Against Sadlysius it was important to be honest against the gengar spikes matchup, while being solid into special offense. The low ammount of blissey made me want to load offmie spikes, but i wanted to avoid the meta picks of swampert tar skarm that go alongside it often. Flygon seemed like a nice way to surprise the opponent, and cm firegrass bliss was great to avoid subcm jira sweeps while making the team sturdier into pert. The salamence matchup can be covered by recover offmie, and mixjira+fpunch ddtar helps break fatter structures. The skarm set avoids meta mash spam and fpunch spam, as the team is a bit weak against it. I felt like greeding for a worse forre matchup was fine since Sadly don't opt for forre as spiker often.
+
+Week 3 vs. Fruhdazi (w):
+
+https://pokepast.es/4232d33ce179380d
+
+This week was really tricky. Fruhdazi knows me like the palm of his hand, but i also knew that Fruh wouldn't load something absurd to catch us offguard. This team is a double status blissey take, trying to catch fruh offguard and maybe catch an agilimeta or aero after toxic is revealed. Fearrachi and offgon felt good against the scout, and leech cele helps fix the suicune problem, altho this team objectively fishes no suicune+dugtrio. The matchup wasn't exactly what i planned for but the team worked well and generated one of the most epic adv games of the season.
+
+Week 4 vs. Baddummy (l):
+
+https://pokepast.es/e1f9e2cc3f2f54ff
+
+Regice+snorlax felt like a strong concept against Baddummy, supporting bandmeta pretty well. Not much to say about this team, i felt like rest cune and ddmence really appreciated the meta and tar chip that regice can provide. Very trade intensive, was supposed to grab Badummy's tendencies offguard, as he is a very conservative balance player. Solid squad against most things in the meta, i feel like the lax set can be tinkered to be optimized more, maybe counter over body slam is a better more solid option here.
+
+Week 5 vs. River (l):
+
+https://pokepast.es/5c8e1195e610593f
+
+This team is really interesting in my opinion. I always wanted to make a solid breloom team, and this week felt like the best time for it, as River enjoys spamming offense or balance squads that have trouble dealing with sleep+subcmjira. Lead offcune with salac berry helps the zapdos issue the rest of the team has, and the core of mach punch+suittar traps dugtrio to let the pressure down from jirachi and metagross. Physical mixmence is also a natural fit, as it helps against firebirds and offense in general, while chipping bliss heavily in the process. Overall the team is really solid, and breloom felt important in all matchups tested.
+
+Week 6 vs. Endill (l):
+
+[U][B][U][B][U][IMG]https://www.serebii.net/pokedex-dp/icon/260.gif[/IMG][/U][/U][/B][/U][/B]
+https://pokepast.es/3096940fcb9abfad
+
+This week we wanted something really comfortable, because Pak was travelling and didn't have much time to practice. Big 5 zapdos always been one of my favorite comfort picks and Pak really enjoys playing it, so we tried making a solid version of it that could prevent being weak to Endill's tendencies. Firetoss blissey was the main change i wanted to make, since our scout was getting more and more weak to raikou, and i felt really worried about facing it this week. Grass zapdos also was a adjustment made to fit into the scout better, as ice wouldnt help us as much. The team is as solid as we wanted it to be, and performed well besides some unlucky turns.
+
+Week 7 vs. McMeghan (l):
+
+https://pokepast.es/27faae7f84933401
+
+Against McMeghan i really wanted calm mind celebi paired with zard, as his teams often didnt have a super solid answer to this core. Endpert lead was also a most have, since it breaks both his stalls and offenses. Zapdos with protect helps against booming claydol and aero, mainly. The squad is inspired by SEA's cm pass to zard idea, but its more mix-off'ish and beats down skarmory instead of blowing it up. Overall the matchup was really good, and i'm happy with the squad. Notably its really weak to hera.
+
+Week 8 vs. Mako (w):
+[B][U][B][U][B][U][B][U][B][U][B][U][B][U][IMG]https://www.serebii.net/pokedex-dp/icon/248.gif[/IMG][/U][/B][/U][/B][/U]
+
+[/B]
+
+[/U][/B][/U][/B][/U][/B][/U][/B]
+
+https://pokepast.es/d11b13e97247593d
+
+Mako's scout was really fastmon spikes weak, just like Sadlysius's scout. The fastmon of choice was aero this time, and molt felt like a good pairing since most of mako's recent brings were weak to it. I made this team a while ago, and it always served me well. Viltar breaks well for aero, and the cele set can support the zapdos weakness pretty well. The whole core synergizes well with molt, because it can absorb wisps and trade with gar, as well as trade with jirachi. Refresh offpert is needed since the team doesnt absorb status well at all, and needs pert to be capable of chipping skarmory. Overall a really solid pick that performed as intended in the game.
+
+Week 9 vs. 48 (w):
+
+https://pokepast.es/c80da3f65946f222
+
+Having not used dug through the whole tournament, the matchup against 48 felt like a good place to use it, since most of his teams were spikes balances that had trouble breaking through milotic and blissey when ttar gets trapped. Black belt ttar prevents any dragon dance t1 plays from opposite ttar and ensures our focus punches will help break through mons like toxic pert and boldcune for blissey. Thief skarm and fire dol felt like a good pairing since there was so much spikes on the scout, it felt important to be really sturdy into opposing spikes. The team worked as intended and thief skarm sealed the matchup against a cloyster team.
+
+Thanks to everyone who helped me this season. I had so much fun and made a lot of friends along the way, the ruiners gave me memories and taught me lessons i'll never forget. Special thanks to Pak, umbry and Gondra for trusting me with the adv support task.
+
+### post 10506678 author=giraffefromholland url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-6#post-10506678
+Hi all. Been experimenting with some new stuff, and I've run out of motivation, so I've decided to dump my stuff and see if I can't let go of something old or something new. Once again, I'd like to thank all of my peers in ADV and share a couple of ideas that I've had.
+
+Acknowledgements
+
+Shout out Shitrock enjoyer in particular for being useful in testing ideas and providing some replays for stuff I've been too lazy to test. Also shouting out L3W for providing feedback on some of the comps, and the rest of my friends here, including Shock3600 and some of the newer faces I'm only just getting to know. You all know who you are. And as always, I'd like to thank the people who maintain the community and contribute on the forums, the Discord communities, and YT for making the community great and the tier accessible and fun to discuss over the years. I'm grateful for everything I've learned and for being given the ability to fish (pun not intended) for myself. Lastly, shout out the ADV Community and ML. Even when I'm not there for mental health reasons, I appreciate what you've done for me and for others and what you continue to do.
+
+Methodology
+
+Don't have much time or mental energy to sit down and seriously play the game, so take everything I post here with a large pinch of salt. I think it's been about month since I've seriously laddered, due to being swamped with uni, co-op, and irl obligations, and many of these teams have been generated within the last two or three weeks. I oscillate between building and playing and find it difficult to maintain a self-critical approach to both at the same time. Different kinds of 'data collection' come from either, and I use them to inform each other. I might have mentioned that I rely on the VR on occasion (and also some testing on ladder to see if I don't get owned by any mons I don't recognize as being particularly good) to inform my takes. I spend a fair amount of time quibbling over which mons and sets are worth building with and aiming to identify key gaps in my knowledge, especially after seeing others succeeding in current (or occasionally historical) tours. The VR serves to keep my intellectually honest. I am forced to explain why I prefer 'x' mon with its healthier variety of sets or singular dominant set over another, and I consider over multiple iterations new takes and viewpoints that help me to round out my vision. Every builder and VR is a broader landscape of my perspective on how to build a fresh, varied, and complete take on play rather than a prescription on what the best teams necessarily are -- though you'll find some of my takes on that in here -- and obviously new toys and ideas will bias me in favor of those perspectives. That's why I find it necessary to divorce myself from any particular builder or VR as soon as it's been completed in order to gain a new perspective, it's why my turnover is high, and it's why some of the quality might vary a bit as I hone more seriously in on an idea that has caught my eye
+
+Also consider that my approach involves breaking my rules to find new ideas that will represent what I think is a better version of anything I had before and then some -- mostly new ideas that I cannot remember seeing elsewhere, but that's possibly an illusion created through not recognizing the brilliance of my predecessors, or simply not being around to understand their metagames. Still find it worthwhile to go back and dig through old stuff. Worth noting, though, that any time I'm confident in what I've created, I'll find some way to improve on it and find issues with my 'old work.' You don't learn anything perfectly the first time, and every time you improve, you will likely find there are some ideas that were not successfully implemented in successive iterations: fat to be trimmed and skills or tools to be honed. This isn't scientifically rigorous, and I'm not getting paid for it to be, but I do give everything a second thought at one point or another. This isn't gospel or a Bible, either, but just a collection of takes that a 20 something casual uni student slapped together with maybe a few days worth of thought. I gave up on trying to perfect it because I ran out of motivation, so you'll find some incomplete takes that I may or may not peruse within the next couple of months. That's just the way it is for now.
+
+As for the broader details of building, I would like to say I value being able to beat key cores in the metagame highly (permanently including big 4/5, Zok stall/v5, and 'el Classico'), and I prefer to rely on a more active approach that allows for a few layers, relying on Sand immunity, recovery, or otherwise just pressure to beat a team sooner than it can wall me. I don't particularly care for (grounded) stall or Spikeless teams that offer a slower, less certain approach against Skarmory with the general promise of a win down the line. I value what I can imagine realistically and consistently happening in the course of a game, so I favor more forceful mons with fewer ins. Again, this can reflect a lack of imagination and creative vision on my part, which has limited my ability to build (high-level) Cune Spikeless or fighter balances, or it can reflect the limitations of certain mons. The truth is probably somewhere in between.
+
+I have also favored more synergistic approaches, so I don't believe in having mons that divide match-ups along hard lines. I stay away from Molt, for example, for the simple fact that it tends to want extra help vs Blissey, and doesn't trade especially well in those match-ups. It makes flexible play and building difficult. I would like to highlight SEA's(?) Tar/Skarm/Bliss/Pert/Sub Jira/Molt as a strong example of how to divide match-ups, brilliantly using Jira to help against Bliss (and Aero) teams. I don't know how many other Molt teams can be built that way, and I don't see how they can realistically be built in too many other ways. Again, this could also come down to a lack of imagination.
+
+In any event, I'd like to think my work here has been good -- at least for the moment -- so I've decided to share my builder in its current state with everyone.
+
+Without further ado, the dump: https://pokepast.es/ac6373996715b275
+
+I'm including a rough outline in the form of a VR reflecting some of my thoughts at some stage during the building process. It's hard to pick between mons for certain spots here, so again, I'd like to call your attention to some of the broader groupings, and remember that if I didn't put a mon in the objective, absolutely correct spot, it's not because I didn't know, it's just because I forgot, and of course, I agree with your correct opinion. Not a perfect VR due to burn out, but I'm not looking for new ideas atm, so I won't be redoing the VR soon. I also don't include mons I think are lower than C(1) for the simple fact that it takes effort, and some of these mons have such high demands that I couldn't begin to tell you the optimal, splashable fit for them. I don't find them generally splashible, so I don't find them worth ranking per my definition of 'viability' including both how good a mon is and how splashable it is on the many teams of the metagame -- because I consider viability as it pertains primarily to team building rather than whether a mon does well into the field of opponents. We can build teams with worse match-up spreads, but as opponents improve and metagames shift, the transcience of a VR rooted in a specific tournament renders the old ideas obsolete. Not helpful for finding newer and better ideas outside of helping you to reflect on past mistakes, but even what you exclude from a VR can give you insights on what to consider.
+
+S- and A-Tier
+
+Tar #1, Skarm #2, and Pert #3(??). I go back and forth on including Pert here. The short of it is that I rarely look at Skarm teams without one of Bliss or Aero, due to wanting strong counterplay against grounded special threats. The general formula for an effective Spikes team in my mind remains:
+
+Skarm / [Zap and/or Cune in] / [Cune and/or Zap check / [Rock resistant Tar, Aero check] / [Fast breaker that can threaten Bliss] / [Complementary or Supplementary piece]
+
+The Zap (and Cune) check is a bulky Ttar with Aero 99% of the time. Jolt doesn't mind supporting a skinnier Tar either. HP Bug and Crunch are good at beating Spin, Brick Break is good at luring down Ttar, Flame/FB and FP are good vs Skarm, and the right set offers a healthy amount of pressure and trading or cleaning/sweeping potential against any team. I go back and forth on Tar/Skarm #1, just because Tar makes so many Spikeless teams hum, but the reality is, I prefer Spikes (Skarm) and view those teams as higher quality on average and Spikeless as the counterpick.
+
+The best Aero and Tar check is Pert. Gon can compete for that title with its defensive capabilitites, especially with its Spikes immunity and strong fit with Wish mons (owing to precluding a Spinner), but Pert has too many good sets that offer much broader utility at the same time. I started looking at Refresh Pert to have a better CM Bliss check next to a faster Brick Break Suit Tar set, which I was using to trade out lead Tar or Flamethrower into an incoming Skarm, along with catching Claydol and being able to stay in on slower non-CB Meta to trade up. I ended up liking the extra utilities of Tect, Refresh, and Roar/Tox on my Perts for being able to wear down Skarm, especially with Thief on my own and Aero in the back or DD Tar, being able to check Pert, and being able to phase Cune (or Jask on ladder). Def Pert sets really hold teams together like no other, and being able to give up IB from team to team is strong value. I used to be an IB truther, because I hated being weak vs Mence and Cele, but the cat and mouse game vs Celebi is in favor of Pert, imo, because there's no such thing as a good Celebi set, even when it isn't getting crit frozen (jk). I haven't forgotten about Mence with my formula or this mon; I just deal with it in other ways, because I don't feel like it's such a big problem with Aero/Bliss and friends. Of course, I like it with Sub+BP (FP or Curse) and Jira (any set). Also a fan of End Pert on offense. Tox and Roar (for Cune) are the best. Finding Ttar Spikeless fits changed how I felt about this set.
+
+A1
+Blissey generally likes having Pert as its water, when bringing a water, and the same can be said for Aero. I also think Aero justifies and is supported by many of the threats in the tier, so the most consistent teams in the the tier are Aero teams. I also think that Aero should be paired with Sand a strong majority of the time, and that Bliss+Tar is the most robust SpD core on more active balanced teams. You bring pressure into anything that dislikes Sand, which is a huge add. Nothing revolutionary to proclaim big 4 and Aero Spikes strong. I respect Flygon, but the mon isn't the same kind of threat in and of itself that Pert is. Same with Dol, but it's even more specific on Spikes, imo, so Pert is the preferred ground by a mile. I also have had Bliss here instead of Pert, but as you might be able to see from my builder, I think Bliss is far more replaceable, even as the advantages it garners are significant.
+
+Bliss is in A1 with Mence and Aero. Couldn't see myself putting Bliss lower. Has really nice status sets that can just win some games with (and often without) accurate and aggressive play. Don't think I have to explain this one too much to anyone who enjoys playing SkarmBliss. Looking at you, Zacpz, when I say this. Only unsure whether it belongs in an S2 or A1 tier by itself (or with Pert). I have revenge killers on 99% of teams because I rely on game planning and tactics to guarantee options in as many (serious) match-ups as I envision playing. I've been tinkering with different Mence sets, and since I generally think that Bliss is better with non-Aero revenge killers (Mence [Dug, and Molt] in particular), I have the best and most splashable of them in the same tier.
+
+I've been looking especially at different ways to add a new sting to DD Mence. Fire Blast and Brick Break have a lot of upside and allow it to play as a pivot a bit more or to KO Bliss and Tar from higher ranges. Giving up Rock Slide might be too much, but I think that the set uncertainty and counters can catch opponents by surprise, allowing you to set up on or smack targets that aren't expecting your tech. Not worth dropping Lefties on, imo. CB is Molt tiers of good and splashable, but the mon wants Spikes, Bliss, and Mag (and Pert, and/or Suit) for consistency.
+
+Aero is as high as it is because it proofs non-Bliss Spikes teams against the special attackers of the tier and gives active options against bad RNG, to which non-Bliss teams are prone. It shreds special offense, including feasting on Cune, if sequenced correctly, and it allows for some elements of cheating. You're never out of the game with Aero, unless you're facing Wish Tect Jira+Flygon.
+
+I've got Zap, Jira, and Meta in A2, but I've had Meta and Zap lower in my evaluation recently.
+Zap just doesn't pressure Bliss as well as I'd like. It sits on a lot of things and shreds offense. It also offers Spikes-resistant special checking, but Rest sets are hard to fit, belonging primarily on Superman imo, and non-Rest sets get stalled out by Blissey. BP offers decent upside, but without seriously threatening alternatives or great partners (on Spikes) to pair with it, I think it's limited. I can see myself putting it in B. It's also terrible to give free turns to Bliss on Spikeless, so I try to avoid the mon there, too. It still offers so much value against offense, and the Rest sets are so suffocating for a healthy number of match-ups. For those reasons, I think Zap remains one of the most broken and consistent mons in the tier, even if building with it is challenging.
+
+Jirachi is a weird one because I like all of its sets, including some homemade ones (Thunder/Fire Punch/Grass/Dpunch, which Fruh suggested a while back, and I've fallen in love with recently and sold back to him, and Thunder/Water Pulse/Psychic/[Dpunch or CM]), but I can't in good conscience put it into the next sub-tier, due to it occupying less valuable defensive real estate. It isn't the Zap/Cune check of choice on my Spike teams, for the simple fact that it is worse than Blissey at switching into attacks, but it does offer recovery under Sand, Wish, Protect, Skarm-checking, and other upsides in interactions that make it a worth-while pick, especially in non-Special Offense mu's where the chances of getting RNG'd are lower. It will never check DD Tar as well as you'd like, for a rock resist, risking crits, Tox misses, and Lum Berry Tar setting up for free, but as a secondary check and a primary Aero response, it is uniquely resilient at shutting down the most aggressive tries from physical teams, including to the extent of convincing players to use Sub and Refresh on DD birds recently at the cost of all-important coverage. It has the ability to win 1v1s it has no business winning on paper, and it does so fairly consistently with the use of RNG (defensively and offensively), and it can occupy so many roles. Do you favor the 6 brown-belts it has or the one or two black belts another mon above it has to offer? It's hard to evaluate the mon with the most higher-level versatility in the tier because it's not easy to say it absolutely deserves to be on any team in the same way a Skarm, Bliss, Pert, or Ttar does, in my mind, but it's also easy to see why you might include it on any given team and how it could make a good team almost unbeatable, or a mediocre team a good one. In short, I don't know whether I've placed this appropriately, but A2 felt right because I felt like the mons above it were necessary on teams, whereas Jirachi is optional, but dominant.
+
+Meta is almost never worth dropping on offense imo. Too hard to fit additional pressure into physical backbones for DD Mence, which is the premier offensive engine for physical teams, or Sandless physical breaking for Cune (e.g. into Skarm, pressure vs Bliss/Lax), which is the other consistent sweeper for offense. Not convinced of other mons offering consistency without partnering with Cune, (DD) Mence, or Spikes. The problem is that Mash isn't fun to click into Protect and Spikes or into Pert repeatedly, and Mag or Spin aren't worth fitting on every team. CB with Dol and Cune makes sense, and HP Fire/Thunder Punch work when it's otherwise impossible to fit a good (Tox) Skarm check. Plenty of cool things you can do with a Metagross, including booming Zap, waters, or psychics (when using Tpunch). That last one is especially good for (Aero) Spikes or Cune teams. I'm really high on the potential of Meta, but phys sets leave me wanting vs Skarm. I explored the idea of using CB Regirock in its stead on Cune or other Spikeless teams. CB Superpower (x2) is a nice click into SkarmPert that can consistently get them low for other phys mons, but the downside is that Gengar is a valid switch-in, and HP Ghost does like 20 to Pert before Lefties. Unsustainably bad if you aren't clicking the 'right' buttons vs Gar every time. I do not believe in Meta without a water and ground on the vast majority of teams. With Spikes, it's Pert, without, it's Dol+Cune. I respect CB Meta v5 as a competent build. I feel that Meta as the sole Aero/Tar switch-in, however, is terrible, because Meta gains so much of its value for being able to trade, and building with the intent of never booming vs Pert (Aero) teams is a waste. You're never beating Skarm quickly enough with phys Meta+Spin that you can justify running Lefties with Tect and a defensive game plan. Meta should be freely traded.
+
+B- and C-Tier
+
+B1
+Gar has the same problem as Jirachi in that it just doesn't have the best defensive utility. It has really nice fit with Jolt's Sub pass. You can't just boom or EQ with Dol and expect progress, or Bslam/FP with Lax. I like the mon, and I recently was finding some new ideas with it. I think Sub, FP, Thunder, and weather clear are all worth exploring. Realistically, I almost always want boom (or Taunt) on it for Blissey, and some kind of coverage for Zapdos (IP or boom with the appropriate synergies). I don't really care about teching Gar specifically for Suit Tar because there are so many other ways to smash those teams, and Gengar trading into Ttar is good enough for some teams equipped to take advantage. I feel that Gar is first and foremost a mon that takes advantage of and supplements Spikes play styles, and it's strong enough and fits on enough good teams that I wanted it in the highest B-tier, but it isn't super splashable when it's competing for what is often the only slot on a team that doesn't need to occupy highly central defensive real estate. It's good.
+
+Zard is one I don't know how to place. Pair with Ttar. I don't particularly care for Zard without a second revenge killer (or sometimes Jolt and friends?). It's better than Molt without Spikes, and worse with, but it's so much more flexible and synergistic that it doesn't matter. FP destroys Aero teams, and Dclaw+Beat Up (with Fire Blast??) is still nice for claiming easier W's vs superman, for example, or (Mix) Mence offenses, but people play around Zard better these days, or they go Suit Tar on Forre assuming you're just Beat Up. Anyway, the mon nets massive advantages when played well. I don't like it because of the guessing games you have to play vs Tar/Bliss. That was always the case, but even worse now because I feel I have to rely a bit more on FP lately, and the 1v1 with Bliss is awkward depending on how cheeky the opponent is. Fast CB (Brick?) Tar is a nice partner for being able to lure Tar and destroy Claydol/Milo. Your Spikes tend to count a bit more in those mu's. Anyway, I still like the mon, but I have to ask myself rather frequently where I'm actually getting the mu featuring it in a central role. For now, it's the second offensive bird on Spikes (third, if you include Skarm) and has upside on Spikeless, although I don't like building to beat Milo with those teams. HP Ice is something I've considered on exactly two teams recently, because being able to actually pressure (Rest) Cune or even threaten Milo (with a crit or switching in with 3 down) is too significant to joke about. Could see it above Gar or just below Cune.
+
+I'm high on Jolt. It switches into Tbolt better than any other SpD mon. That's what they're mostly there to do, imo. I can see this mon going to the top of B, maybe even in the lowest tier in A. I can also see some of the mons below it (Cune) being right above it. The one serious downside is that it's hard to switch into water types. If you bring a CB or DD Tar and double birds with Aero, I think Skarm is good enough a partner to compensate. Having to use Cloy is a bit sad, but sometimes a necessary evil. That's mostly what brings it down. There is a narrow band of fits that don't get smacked by Cune, and the question of whether you want to play the game of ignoring Off Cune in the builder isn't one asked lightly. Sub Pass has saved my ass in enough games, including in conditioning Raikou to CM or HP Grass as I switch to Aero or going Gar or CB Tar on Dol or Lax. I'm lower on the mon on Spikeless, but it's definitely got qualities.
+
+Celebi is mid. BP sets have their mu's. It's not great vs Aero, but I can imagine a bulkier BP set being able to take advantage of errant EQ clicks to beat it. I also have some respect for ABR's bulky CM BP HP Elec (and even HP Ice) for being able to erase birds and save some time and headaches, but you want coverage for every floater and something for Blissey, and you also don't want to be abused by Tyranitar or Metagross. Some of my OGs say Celebi spreads chip on everything for a mon like DD Mence. I'd interpolate that as a mon that is too spread thin offensively to consistently and meaningfully game plan around. It all depends on Leech Seed accuracy and PP and whether you have the correct coverage to trade, but you also need the right EVs or set to handle Zap and water checking responsibilities, before you consider that your Celebi team struggles to switch in on Spikes or Mixed Salamence. +Def/SpD natures (with Recover and Spikes control) allow you to actually switch into mons. Leech Seed allows you to consistently make progress 90% of the time -- better under sand, but I think I'd have to reconsider Sandless. I've settled on Recover/Seed/Giga/Fire being a decent set. You might be able to get away with no Spin or Mag. I like using Suit Tar like a Mix Tar anyhow, so I don't feel like I'm giving up too much by dropping Psychic. I also feel like clicking Psychic vs Mence on the switch isn't something I like trying to do when there are so many good switch-ins. Leech Seed is just better in more complex game states, where in more simplified ones, Giga Drain will catch Aero, and Suit Tar will catch Double-Edges and trap. I can't put this mon lower because it's so supremely versatile and can get advantages in a million ways. I can't convince myself to put this mon higher than Gar atm, but I can see it if I find some new missing piece in my concept of the tier, because it never has all the coverage and EVs that I want without selling out on too many critical match-ups. It's the worst Cune and Zap check by a margin. Only bulky Recover sets with Spikes control can convince me that it has something meaningful to offer vs Zap, but I don't like Spin with Aero, and I don't care too much for Celebi on Spikes without it. SkarmMag takes are extremely good, but there are only a handful of good ones.
+
+B2
+I tried a handful of SkarmDol takes without Ttar or Mence, borrowing from some ideas Altina had shared. I really loved Altina's CI5 run. That stood out to me as the most impressive run of the tournament, largely off of the back of his creativity and solid play, and I enjoyed his brings to SPL XIII, too. And of course, who can forget the style of beat down he pioneered? Probably one of the most inspiring and formative stretches from a tour player for me, and a shame that he wasn't more successful in that period. I think he was just as important, if not moreso, in bringing Claydol to the forefront of ADV by showcasing its high-level versatility. From tracking most of the available tour replays to SPL, I think we hadn't really seen much experimentation in the area of Claydol offense/bulky offensive Spikes since Ojama's singular use during SPL VII finals vs Golden Sun -- check out his SPL VIII for other Spin balance/offense takes, but note that he brought 0 Claydol offense). I also thought his early exits in the most recent invitational(s?) didn't reflect just how creative and good his newer takes were, after he took a step back in SPL XIV. His (SkarmDol) ideas didn't really work for me, but I'll keep going back to them, because I feel like there's still something interesting to unearth there.
+All that being said, Dol isn't the same A-tier mon in my hands as his. It's nice on DD+CM offenses where it can boom Celebi or Claydol or trade into Gar or Tar for its sweepers, and it can boom a heavily chunked Skarmory nicely for a DD Mence or Agili Meta sweep. It also offers a decent amount of counterplay against Zap/Aero/Gar for teams with Recover mons. I enjoy Spikeless fits, and v5 comps are all the better for it. I don't much love Bold Cune teams for lacking proper play against Tar (Bliss can't be Twave, Wish, Aroma, Tox, AND Rain Dance for all of the mu's and will get bullied), but I respect SkarmDug takes with it. Look no further than the legendary McMeghan, bearing the flag for the style in the midst of one of the most impressive SPLs from a building/prep (and play!!) standpoint. However, as I view Aero TSS as THE main style in ADV next to only SkarmBliss (Big 4/5) in competing for the spot, I can't be so high on Dol and mono waters, who struggle to consistently switch in and threaten Aero and Tar, and I find that those teams generally forego a second Zap check. Zap Pass, and especially to Dug, is a problem for those teams. I don't particularly love ZapDug, and I can't recall struggling so much with it on ladder recently, but I feel like Dug+Kou+Cune has been more of a problem of late, too. I don't expect special offense to go anywhere any time soon, so I think SkarmDol stall is not sustainable as a primary option. I also feel like Dol doesn't pair particularly well with Aero, due to its frailty and inability to offer signficant offensive compensation in most games. I also don't think it does very much for traditional DD Mence sets, but I have found that it's a nice partner to a set that drops HP for Brick Break. It's a decent utility mon and it fits with a lot of (grounded) set up, but it just gives up a little too much offense to be splashed everywhere, and unless you're maximizing its fit (i.e. including it first and foremost for at least three other primary reasons above Spin) it's not worth including. Shoutout mielke for discussing takes on this mon. Helped me find/refine a few ideas with it.
+
+Starmie is the same as Dol. Defensive sets don't really do much for me. Neither do offensive sets tbh. Both are decent vs offense, I guess. I think I might have slotted this here for legacy reasons. I think I used it with Celebi on different teams, which was probably why I had it as high as I did. I do not like Celebi without Spin, and I think that its ability to carry that mon on Spikeless maybe accounted for my having it as high as I do. Also good on Spikes, but I don't like Recover without Mag, and Starmie is a distant second option. In any case, I don't really know what this mon does offensively against SkarmBliss, which is why I can't put it higher, and the defensive set is miserable against Gengar. Dropping Twave means giving up what makes you good vs Cune, which I think is an absolutely necessary trait for this mon. It helps vs Cune defensively with both sets, but it's a nice partner to Celebi especially. I don't know if I like it next to SpD Jira. I feel that SpD Jira is meant to be used with Rest Zap or Aero, which kind of precludes using Spin, but the water resist makes some sense in theory. The Zap weakness is too big of a problem. I might have placed this mon a tier too high, but I think I also had the feeling its vague splashability next to Celebi and potentially Blissey (not treating it as a primary revenge killer) meant that it had some decent upside there. All-in-all, the versatility is there enough to put it where it is or even just above Celebi, but I haven't tinkered enough to determine whether that versatility is high-level or just a mirage.
+
+Cune. I don't like facing this mon (unprepared), but I also don't like building this mon either. It's not good vs Aero teams, but it is good vs Aero teams, but the Zap and SkarmBliss mu's are a headache. I don't have the creativity to make it consistently beat big 5. Mag is a good partner. Mag teams are just okay. I don't like stacking support, but I think the mon wants Spin for sure and a trapper most of the time, but Dug makes teams soft vs so much. I want Rest and Ice Beam all the time. Sub is nice, but it's almost impossible to fit weather clear, and the harsher mu division its sets demand are a major turn off. Idk how to build this mon without it being meme or cheesy, and while I respect that other can use it well, it just feels like you're accepting certain weaknesses for the possibility of auto-winning upside. This mon doesn't really fit on a VR cleanly because the right set with the right support can win in most mu's, while those sets just flop in the face of other mu's fairly easily, and compensating is difficult. I can see this mon in A-tier or C-tier, depending on whether you buy into it consistently being one of the most dangerous threats in the game or just a water type Snorlax that does the Rest set-up thing better next to better partners.
+
+B3
+Dug sux. Wants Spin and a bulky water. See the problems with Cune or Dol or the greatness of Aero (or DD Mence, Sub Pass Zap, Gar, diff Cele sets) for more info. It makes v5 really good. Unbearable for certain Spikeless teams. I was tinkering with CB Rock/DD Tar/Agili Meta/DD Mence/EndPert (iirc), when It occurred to me that Raikou was one of the best possible fits, and Dug practically 6-0'd. I chucked the team. I didn't believe the Triangle man when he said that Duggy stopped him using good BLs (what the hell is a good BL in a tier with Duggy or Gengar?) until I tried building without Cune or Spikes. I think Dug is the reason those teams really struggle to exist. The mon is good for stall, and it's also good for mediocre cheese on Reversal or special offense teams, but I wouldn't mind this mon being banned to allow for more diversity in this space. You sacrifice some Reversal cheese (not even all of the best ones) and certain Off Cune/Starmie builders, but Cune is good enough offensively without Dug, while Starmie+Dugtrio is good on the (dated) Eden and BKC builds from five or six years ago which you only see occasionally on ladder. Not much motion there. I guess AeroDug is also a decent style. Shout out to M Dragon for making recent metas adapt to his builds rather than adapting his builds to recent metas with those comps. Those teams have their ups and downs, and I don't know if they are especially healthy with Dug, but I'm starting to think this mon is restrictive in the builder in a way that might not even be necessary for balance. It's hard to place on a VR because it's got big upsides and downsides, but it could be in C or above Gar, depending on how good Dug teams are in the meta. As Cune (Milo)+Dol goes, so too does Dug. Few takes without them are robust, but they exist on the margins. If you've read this far, can I get a 'ban Dug' in the chat? Any chat. Feel free to Whatsapp me, if you want. Or use Signal. That's what the kids and war criminals are on these days, isn't it?
+
+Forre is good. Especially the ABR takes. I don't think there's much of a reason to bring it, though. Pair with Dol, Bliss, and Cune or Tar, Bliss, and Pert. Mix Mence helps switching into Focus Punch Tar. It beats MiloDol nicely. I'm partial to Counter, which beats the traditional plan of Dugging it, especially when players bring Tox Skarm on v5. I just feel like it's not consistent vs Ghosts, and I'm not interested in the mindgames, and it's weak to mixed attackers, CB, Mag, CMers, and various Ttar sets. But assuming you don't get haxed and you outplay, Forre is playable.
+
+Milo isn't splashable. Give that mon Skarm, Dol, Bliss, and Dug every time. I hate it without Spikes, and it's way easier to beat those teams with Ttar or CMers without the threat of Dug behind. It's fun to pretend it works without Dug every so often, but set up is really discouraging. You know what it does on v5.
+
+Flygon is the same as Milo, but it's more splashable, considering that there are more options for superman. I used to think you should always bring Suit and/or a Ghost. It's too hard to find room for a revenger in Tar/Skarm/[Ghost]/[Cune check]/Zap/Gon, and I generally think that SkarmGar wants Tar and Gon wants Rest Zap. I tinkered with other comps, but I'm over non-Tect Gon atm. I just feel like Gon's major offensive advantage is in the Aero match-up, which is that Spikes can KO the opponent faster than Aero can KO Gon; so the offensive edge is that it fits next to Skarm and Bliss/Jira well, which isn't saying much. The offensive sets are mid af. CB can farm in the right mu, but it can also flop, and the other sets are just weak. I think I liked a mixed defensive set with Tox, but I think there are other ways to beat Skarm than Gon, and that Aero is the only consistent end-game mon that wants Skarm chip that pairs well with it. There are other ways. Needs: Zap, Skarm, a Zap-in, a revenge killer. One of Tar or a ghost, but I think I tend to agree with ABR's evaluation of Ttar as being hard to fit on this style of team, especially when Blissey is the Zap in of choice, and Jirachi is the only serious competition, which brings flaws (water, Dug weakness) with it.
+
+C
+Mag
+Too good not to include. Mag teams are decent. There aren't too many robust Mag offs. I do think that's theoretical ground worth treading for any player. Offers a nice curveball, but you also get simple wins vs Aero and stall -- the main archetypes -- often enough that it's good. SkarmMag isn't particularly diverse, imo. Props to ABR for finding out that Aero slots nicely last. I think he also tried Molt as the sole bird. What Mag does well is keep Spikes off for bulky grounded mons. It's hard to get away from this defensive synergy when building a team. If you adopt a defensive mentality, you'll sometimes find that a Mag team is always lacking a little something, especially if you respect Molt highly in the builder or fear Gar. SkarmMag optimizes along two lines imo: Ttar takes and Sandless CB Mence takes. Ttar works best with Celebi. Blissey also works there, but differently. Suit Tar on the CB Mence builds is good, but Sand+CB Mence is gross. CB Aero also works instead of Mence, but with significant tradeoffs. On offense, Cune and DD BB Mence can beat Bliss, along with other mons. There are options. These teams are probably better embracing a more offensive and trading slant or simply claiming their auto win like the Mag/Cele/Lax/Meta/Cune/Mence build that I made which has been seeing some tour play recently. The challenge is that if you build them too defensively, you'll find them stiff. Unwilling to boom Meta, for example, for fear of an Aero, and you won't see the upsides in difficult mu's as often.
+
+Molt
+It beats Snorlax and Celebi teams, but it isn't great vs Bliss teams. It wants mu division or Spin blocking to do its thing. I don't think it shores up the most important weaknesses. It does, however, have WoW, which farms certain offenses when played well. This is less valuable to me than matching up well against SkarmBliss. I like Overheat and Roar as techs to nab massive damage vs Bliss, and I don't disagree with using it as a mixed offense mon with a heavy breaker like phys (CB) Tar. The Spikeless and Sandless takes don't add much value for me, but I acknowledge that it pairs decently with Cune. I think it's more of a boogie man than anything, and the raw breaking power does work wonders against most teams. The difficulty breaking v5 or Bliss with Spin/Mag, however, is disappointing. The extra defensive utility and raw power over Zard doesn't mean much when the mon is so inflexible and forces its rigidity on its team members.
+
+Lax
+I like the mon, but without Mag, it's a bit difficult to love it. FP sets have to guess between Gar, Skarm, and other wild clicks, including Mence coming in and Bliss and Mence staying in, especially with Sand up. Using boom to cover Jirachi is also sad. The WoW weakness is real, as is the TSS weakness. I don't like bringing Sand with it, but not pairing with Skarm or Tar means being excluded from the best teams. It pairs with Cune and Dol, and if you've read my takes on them, you can more or less see where this mons falls for me. I liked Curse 3 with Mag for handling Sandless stall. That's where I thought it's major advantage was. Now, it's less clear. The mon has real upside, but I really hate how slow it is vs Tect Skarm+Gar.
+
+Honorable Mentions
+There are a number of mons that I rate that I didn't include for the simple fact that they just aren't splashable. I'd like to say that I'm high on Registeel and recognize the ability of Regirock, Quagsire, and to some extent, even Raikou, in fitting on decent teams. I also think Hera is a nice pick. But I could go on and explain why some of these mons suffer from the same lacking defensive utilities as other mons that slot best next to Cune or (DD) Mence on Spikeless teams as in the case of Hera, or state that x or y mon struggles vs the versatile threats of OU, like Gengar shutting down Registeel, CB Regirock, or Quagsire.  Let it suffice to say that I have a vested interest in seeing Mantine usurp Rest Zap as the premier Cune and Pert check on Superman, but I have a practical inclination that allows me to ignore it for the sake of convenience when making a VR.
+
+Hopefully this was helpful. If you think my takes are cringe, spend a few hundred more hours in the builder and you'll find that either you end up disagreeing with yourself and going in the opposite direction of what you previously believed, or your brain will start to leak out of your ears and you will sympathize. If you've already past that point and find this cringe, spend more time outside and with your family, you no-life degenerate. If you enjoyed this, happy laddering and building! And try not to stress too much in tours. There's always a fun idea around the corner when you can relax and enjoy the game.
+
+### post 10525408 author=Celdanami url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-6#post-10525408
+Milotic @ Leftovers
+Ability: Marvel Scale
+EVs: 188 HP / 224 SpA / 96 Spe
+Modest Nature
+IVs: 0 Atk
+- Hydro Pump
+- Ice Beam
+- Recover
+- Hypnosis
+
+Offmilo really should be a set in the builder. I'm sure the evs could be finessed even better, but this moveset has been proven to glue together physical offense. Milotic's analysis mentions mirror coat, but none of the 3 alternate moves in this set. We should update both.
+
+### post 10525763 author=vapicuno url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-6#post-10525763
+Celdanami said:
+
+Milotic @ Leftovers
+Ability: Marvel Scale
+EVs: 188 HP / 224 SpA / 96 Spe
+Modest Nature
+IVs: 0 Atk
+- Hydro Pump
+- Ice Beam
+- Recover
+- Hypnosis
+
+Offmilo really should be a set in the builder. I'm sure the evs could be finessed even better, but this moveset has been proven to glue together physical offense. Milotic's analysis mentions mirror coat, but none of the 3 alternate moves in this set. We should update both.
+
+Click to expand...
+
+You probably will do the community a service if you could explain
+1) what teams and partners this set fits with
+2) how it is better than defensive milo with the same set (which I've seen roro use before on lax dol offense); the defensive version can switch indefinitely into ttar and avoid 2hko by DDers while still ohkoing mence and 2hkoing ttar anyway.
+3) offcune / resttalk cune, which can avoid 2hko by DDers while also having more offensive potential.
+
+I can see the advantage of a strong ice beam vs zap cel teams but it is not clear to me that it isn't better to just use offcune to target those.  Otherwise, this set seems to be trying to do too many things at once.
+
+### post 10526171 author=Celdanami url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-6#post-10526171
+vapicuno said:
+
+You probably will do the community a service if you could explain
+1) what teams and partners this set fits with
+2) how it is better than defensive milo with the same set (which I've seen roro use before on lax dol offense); the defensive version can switch indefinitely into ttar and avoid 2hko by DDers while still ohkoing mence and 2hkoing ttar anyway.
+3) offcune / resttalk cune, which can avoid 2hko by DDers while also having more offensive potential.
+
+I can see the advantage of a strong ice beam vs zap cel teams but it is not clear to me that it isn't better to just use offcune to target those.  Otherwise, this set seems to be trying to do too many things at once.
+
+Click to expand...
+
+1. Magneton offense, physical offense, and mix off. I'm sure you could cm pass to this too, like a hybrid mie/cune.
+2. Actual damage on steels with pump, ice beams that threaten celebi. Damage on neutral targets like lax is nice. OHKO on tar etc etc.
+3. Suicune is slower paced. Milotic is more immediately threatening and simultaneously more forgiving with recovery.
+
+Rather than my own set, a defensive ev spread with offensive move seems to have its hands in multiple cookie jars. Not sure why you'd want pump on 0 spa, but i guess dd insurance is always nice.
+
+Edit:
+Here it's used in ADVPL: https://replay.pokemonshowdown.com/smogtours-gen3ou-834790
+
+### post 10526807 author=vapicuno url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-6#post-10526807
+Celdanami said:
+
+1. Magneton offense, physical offense, and mix off. I'm sure you could cm pass to this too, like a hybrid mie/cune.
+2. Actual damage on steels with pump, ice beams that threaten celebi. Damage on neutral targets like lax is nice. OHKO on tar etc etc.
+3. Suicune is slower paced. Milotic is more immediately threatening and simultaneously more forgiving with recovery.
+
+Rather than my own set, a defensive ev spread with offensive move seems to have its hands in multiple cookie jars. Not sure why you'd want pump on 0 spa, but i guess dd insurance is always nice.
+
+Edit:
+Here it's used in ADVPL: https://replay.pokemonshowdown.com/smogtours-gen3ou-834790
+
+Click to expand...
+
+Can you show a replay where this set works well? Ironically a standard refresh tox Milo would have worked way better in that game.
+
+### post 10526843 author=ojr url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-6#post-10526843
+Celdanami said:
+
+Milotic @ Leftovers
+Ability: Marvel Scale
+EVs: 188 HP / 224 SpA / 96 Spe
+Modest Nature
+IVs: 0 Atk
+- Hydro Pump
+- Ice Beam
+- Recover
+- Hypnosis
+
+Offmilo really should be a set in the builder. I'm sure the evs could be finessed even better, but this moveset has been proven to glue together physical offense. Milotic's analysis mentions mirror coat, but none of the 3 alternate moves in this set. We should update both.
+
+Click to expand...
+
+I have looked into OffMilo as well. I think an offensive Milo set does have place in the metagame on certain non Spikes-Offensive builds, mostly MagOff or MixOff.
+
+The issue with this I find is also portrayed in the ADVPL game u linked the following post. The Milo sleeps the Blissey once or twice but after that it doesnt really do much in the game at all in fact it doesnt really make much if any progress in this game at all. I think part of this would be attributed that its just a Starmie/Suicune clone that lacks the boosting from CM or Speedtier to differentiate it from the other Offensive waters. I think what should be considered is using Toxic over Ice Beam.
+
+This way you can be an annoying mon to the most common special check in the game, Blissey, as it would need to find itself forced to switch at some point due to Toxic damage accumulating and only THEN you start making use of Hypnosis. Hypnosis would then be able to land on mons that dont have Natural Cure ideally. IF the opponent has something with double Natural Cure users on the team you try to cover those types of teams in other ways with your teammates tailoring its sets towards those more passively oriented teams which MagOff especially is great at punishing oftentimes.
+
+Dropping Ice Beam doesnt punish you a whole lot honestly, you miss out on hitting Celebi, but you dont really significantly damage recover variants of Celebi most of the time anyways to the point where you beat them 1 on 1. Missing out on hitting Salamence isnt that huge either as non-Refresh variants of Mix or DD Mence are both massively hindered by Toxic and if they do have Refresh they will miss out on a crucial coverage move for DD and Mix is still walled by Milotic and will slowly just falter to you anyways. CB Mence is a different case but your team should be able to punish CB-Locks on Offensive teams i.e. common DD mons like DD Tar, DD Mence, DD Gyara that are found commonly on these types of builds.
+
+Finally I do think there should be an argument made for Surf over Hydro Pump on this set. This isnt really for the accuracy but way more for you having issues PP-wise. Hydro Pump being your only attacking move in this case with only 8PP when mons like Suicune and Zapdos can commonly come in is a massive bummer, I think this really just speaks for itself and I dont need to expand further on this point.
+
+That being said what is actually the upside of using this set over the standard? Obviously, Hypnosis can completely turn the tables on mons like Jirachi, SDef (Rest) Zapdos, opposing Milotic and Snorlax. Also your matchup vs Skarmory significantly changes as you are able to Sleep it or just do way more damage to it with your invested Surfs.
+4 SpA Milotic Surf vs. 252 HP / 252+ SpD Skarmory: 94-111 (28.1 - 33.2%) -- 92.9% chance to 4HKO after Leftovers recovery
+224 SpA Milotic Surf vs. 252 HP / 252+ SpD Skarmory: 114-135 (34.1 - 40.4%) -- 48.7% chance to 3HKO after Leftovers recovery
+On a MixOff team this change in damage output is quite significant as hindering Skarmory of many free turns and damaging it significantly in earlier stages is key to some of MixOff's key threats i.e. DD Mence, who wants to clean up in many MixOff core ideas.
+Using Milotic for these properties can be very enticing as it keeps a lot its defensive value vs mons like Agillity Rock Slide Metagross, Charizard, Moltres and being able to 1v1 Offensive Starmie. These mons are often huge threats to these offenses for both MagOff and MixOff.
+
+There is definitely merit to this set, it just has not been fully fleshed out yet and tested out that much I believe. To contribute a bit more to this thread than just a wall of text with explanations and theorymon, here is a team that I have not completely worked out yet that features this set https://pokepast.es/66ef240fb842972a. I hope people can try similar structures to these out and find some winning ideas with OffMilo.
+
+### post 10526924 author=Celdanami url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-6#post-10526924
+ojr said:
+
+I have looked into OffMilo as well. I think an offensive Milo set does have place in the metagame on certain non Spikes-Offensive builds, mostly MagOff or MixOff.
+
+There is definitely merit to this set, it just has not been fully fleshed out yet and tested out that much I believe. To contribute a bit more to this thread than just a wall of text with explanations and theorymon, here is a team that I have not completely worked out yet that features this set https://pokepast.es/66ef240fb842972a. I hope people can try similar structures to these out and find some winning ideas with OffMilo.
+
+Click to expand...
+
+I do think you've analyzed the set and its weaknesses accurately. Pressuring blissey with an inaccurate sleep move sucks. I find this set is best played with aggressive doubles, once the sleep is off. That, or team mates that can punish the expected blissey switches. It does reasonably well into both snorlax registeel/ice. Im curious though, why exactly drop ice beam over hypnosis for toxxic? You proposed set is double status right? Or Am I reading that wrong. I wonder though, because the damage of ice beam/freeze chance is really valuable into every match up that's not stall. I could see dropping hypnosis for toxic, because hypnosis is really a one-time high-value clickthat greatly loses said value if it fails to land upon first use. Toxic pressures problematic nat cure mons, but just like standard milo, i feel like those clicks struggle to do much more than minor tempo gains at best, and at worst, spike/set up opportunities for your opponent.
+
+The reason is that there are a number of frail mons that fall to pump + beam, like jolteon and I think zapdos. Surf changes dynamic with the electrics, so if I were running surf on a more offensive set, I might actually consider mirror coat to manage the electrics that surfs ranges fail to pressure.
+
+There's also things like magneton, snorlax, and other high value neutral hits where pump really just smacks a hoe. Milotic has I think the 5th highest spa of all waters, and maximizing that damage potential, even if it doesn't change some 2 hits, I think is valuable. Even the damage against offmie is pretty good. Im tempted to put mystic water on it lol.
+
+This is an unserious calc, but like, milos got guns: 252+ SpA Mystic Water Milotic Hydro Pump vs. 144 HP / 136+ SpD Snorlax in Rain: 217-256 (43.6 - 51.5%) -- guaranteed 3HKO after Leftovers recovery... could swift swim be overrated, and you can just recover shit and bait in elecs for mirror coat? Lol.

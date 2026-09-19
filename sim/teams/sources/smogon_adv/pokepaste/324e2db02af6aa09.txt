@@ -1,0 +1,55 @@
+Arcanine @ Leftovers  
+Ability: Intimidate  
+EVs: 80 HP / 252 SpA / 176 Spe  
+Naive Nature  
+- Fire Blast  
+- Overheat  
+- Hidden Power [Grass]  
+- Extreme Speed  
+
+Roselia @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 40 Def / 216 SpD  
+Calm Nature  
+IVs: 2 Atk / 30 SpA  
+- Spikes  
+- Stun Spore  
+- Hidden Power [Grass]  
+- Synthesis  
+
+Kangaskhan (F) @ Leftovers  
+Ability: Early Bird  
+EVs: 212 HP / 96 Atk / 184 SpD / 16 Spe  
+Adamant Nature  
+- Return  
+- Toxic  
+- Wish  
+- Rest  
+
+Granbull @ Leftovers  
+Ability: Intimidate  
+EVs: 252 HP / 16 Atk / 236 Def / 4 Spe  
+Adamant Nature  
+- Body Slam  
+- Shadow Ball  
+- Focus Punch  
+- Heal Bell  
+
+Tentacruel @ Leftovers  
+Ability: Clear Body  
+EVs: 108 HP / 232 Atk / 16 SpA / 152 Spe  
+Hasty Nature  
+- Swords Dance  
+- Sludge Bomb  
+- Hydro Pump  
+- Rapid Spin  
+
+Solrock @ Choice Band  
+Ability: Levitate  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Fighting]  
+- Explosion  
+

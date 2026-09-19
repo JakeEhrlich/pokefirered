@@ -1,0 +1,54 @@
+Mushroom (Breloom) @ Leftovers  
+Ability: Effect Spore  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Spore  
+- Focus Punch  
+- Sky Uppercut  
+- Mach Punch  
+
+Angry Computer (Metagross) @ Leftovers  
+Ability: Clear Body  
+EVs: 164 HP / 252 SpA / 92 Spe  
+Quiet Nature  
+- Psychic  
+- Hidden Power [Fire]  
+- Meteor Mash  
+- Explosion  
+
+Bear (Snorlax) @ Leftovers  
+Ability: Immunity  
+EVs: 92 HP / 116 Atk / 144 Def / 144 SpD / 12 Spe  
+Adamant Nature  
+- Self-Destruct  
+- Body Slam  
+- Shadow Ball  
+- Focus Punch  
+
+Ironman (Scizor) @ Salac Berry  
+Ability: Swarm  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Swords Dance  
+- Reversal  
+- Endure  
+- Hidden Power [Rock]  
+
+Dinosaur (Tyranitar) @ Leftovers  
+Ability: Sand Stream  
+EVs: 252 HP / 252 SpA / 4 Spe  
+Modest Nature  
+- Pursuit  
+- Crunch  
+- Fire Blast  
+- Brick Break  
+
+Sea Serpent (Gyarados) @ Leftovers  
+Ability: Intimidate  
+EVs: 68 HP / 252 Atk / 188 Spe  
+Jolly Nature  
+- Dragon Dance  
+- Hidden Power [Rock]  
+- Earthquake  
+- Taunt  
+

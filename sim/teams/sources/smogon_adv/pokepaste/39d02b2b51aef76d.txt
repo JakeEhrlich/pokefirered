@@ -1,0 +1,62 @@
+best skarm remover (Metagross) @ Leftovers  
+Ability: Clear Body  
+Shiny: Yes  
+EVs: 168 HP / 252 Atk / 16 Def / 12 SpA / 60 Spe  
+Naughty Nature  
+- Meteor Mash  
+- Earthquake  
+- Hidden Power [Grass]  
+- Explosion  
+
+FansOnly (TM) (Blissey) @ Leftovers  
+Ability: Natural Cure  
+Shiny: Yes  
+EVs: 252 Def / 248 SpA / 8 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Ice Beam  
+- Seismic Toss  
+- Sing  
+
+big wallbreaker (Tyranitar) @ Lum Berry  
+Ability: Sand Stream  
+Shiny: Yes  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Dragon Dance  
+- Double-Edge  
+- Rock Slide  
+- Earthquake  
+
+2nd best (Magneton) @ Magnet  
+Ability: Magnet Pull  
+Shiny: Yes  
+EVs: 240 HP / 80 Def / 140 SpA / 48 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Thunderbolt  
+- Hidden Power [Fire]  
+- Toxic  
+- Protect  
+
+small wallbreaker (Gyarados) @ Leftovers  
+Ability: Intimidate  
+Shiny: Yes  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Adamant Nature  
+- Hidden Power [Ghost]  
+- Double-Edge  
+- Earthquake  
+- Dragon Dance  
+
+weird mon (Flygon) @ Leftovers  
+Ability: Levitate  
+Shiny: Yes  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Rock Slide  
+- Hidden Power [Bug]  
+- Substitute  
+

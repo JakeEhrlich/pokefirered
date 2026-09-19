@@ -1,0 +1,238 @@
+I've thought of a way to help players understand the logic in the EV spreads featured on teams made by other players, in the form of a Poképaste that can be posted along with the one including the actual team. I don't intend to try making this some sort of standard for the playerbase to pick up on, I just thought that it might interest some people. And of course everyone is welcome to put their own spin on this if they'd like to.
+
+The gist of this system is to represent the calcs that you used to make the spreads on your team with incomplete sets that are derived from the other contributor to each respective calc; the hypothetical mon on your opponent's team. In order to showcase this system, I'm posting the team that I've had the most confidence in for the last few weeks or so, a team that I've refined since posting it with an older account.
+
+The team: https://pokepast.es/390389278560dd65
+
+Douuug
+
+Breloom @ Leftovers
+Ability: Effect Spore
+EVs: 48 HP / 192 Atk / 48 SpD / 220 Spe
+Jolly Nature
+- Brick Break
+- Hidden Power [Rock]
+- Focus Punch
+- Spore
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 240 HP / 44 Atk / 136 SpA / 44 SpD / 44 Spe
+Quiet Nature
+- Hydro Pump
+- Earthquake
+- Ice Beam
+- Focus Punch
+
+Houndoom @ Leftovers
+Ability: Flash Fire
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Crunch
+- Fire Blast
+- Hidden Power [Grass]
+- Pursuit
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 80 HP / 172 SpA / 4 SpD / 252 Spe
+Timid Nature
+IVs: 2 Atk / 30 SpA
+- Thunderbolt
+- Hidden Power [Grass]
+- Substitute
+- Baton Pass
+
+Dugtrio @ Choice Band
+Ability: Arena Trap
+EVs: 16 HP / 192 Atk / 72 SpD / 228 Spe
+Adamant Nature
+IVs: 30 SpD / 30 Spe
+- Earthquake
+- Aerial Ace
+- Hidden Power [Bug]
+- Beat Up
+
+Snorlax @ Leftovers
+Ability: Immunity
+EVs: 16 HP / 184 Atk / 148 Def / 4 SpD / 156 Spe
+Brave Nature
+- Body Slam
+- Earthquake
+- Flamethrower
+- Self-Destruct
+
+The "calc box": https://pokepast.es/b2b0414074fce3aa
+
+Douuug Calcs
+
+BreloomAtk (Moltres)
+Ability: Pressure
+EVs: 4 Def / 252 SpA / 252 Spe
+
+BreloomSpd (Vaporeon)
+Ability: Water Absorb
+EVs: 252 Spe
+Timid Nature
+
+BreloomSpDef (Zapdos)
+Ability: Pressure
+EVs: 252 SpA
+Modest Nature
+IVs: 2 Atk / 30 Def
+- Hidden Power [Ice]
+
+BreloomHP+1 (Gyarados)
+Ability: Intimidate
+EVs: 252 Atk
+Jolly Nature
+- Double-Edge
+- Dragon Dance
+- Hidden Power [Rock]
+
+SwampertSpDef (Zapdos)
+Ability: Pressure
+EVs: 252 SpA
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Hidden Power [Grass]
+
+PertSpDefAtk132 (Moltres)
+Ability: Pressure
+EVs: 40 HP / 252 SpA / 216 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Hidden Power [Grass]
+
+PertSpAtk132 (Salamence)
+Ability: Intimidate
+EVs: 152 HP / 216 Atk / 140 Spe
+Adamant Nature
+IVs: 30 SpA / 30 SpD / 30 Spe
+- Hidden Power [Flying]
+- Dragon Dance
+
+PertSpAtk128 (Flygon)
+Ability: Levitate
+EVs: 252 HP
+IVs: 0 Atk
+
+SwampertAtk (Dugtrio)
+Ability: Sand Veil
+EVs: 8 HP / 248 Atk / 252 Spe
+Adamant Nature
+- Hidden Power [Bug]
+
+SwampertSpd (Blissey) (F)
+Ability: Natural Cure
+
+HoundoomSpDef (Starmie)
+Ability: Natural Cure
+IVs: 0 Atk
+- Surf
+
+HoundoomSpDef (Milotic)
+Ability: Marvel Scale
+IVs: 0 Atk
+- Surf
+
+ZapdosSpDef+1 (Suicune)
+Ability: Pressure
+EVs: 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Ice Beam
+- Calm Mind
+
+ZapdosHP (Salamence) @ Choice Band
+Ability: Intimidate
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Rock Slide
+- Hidden Power [Flying]
+
+ZapdosHPSubs (Claydol)
+Ability: Levitate
+EVs: 176 HP / 220 Atk / 112 Spe
+Adamant Nature
+- Shadow Ball
+
+ZapdosSpAtk (Moltres)
+Ability: Pressure
+EVs: 24 HP / 252 SpA / 232 Spe
+Modest Nature
+
+DugtrioSpd+1 (Tyranitar)
+Ability: Sand Stream
+EVs: 252 Spe
+Adamant Nature
+IVs: 0 Atk
+- Dragon Dance
+
+DugAtk188,Spd (Celebi)
+Ability: Natural Cure
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Baton Pass
+
+6M0,10B1,14B2 (Blissey) (F)
+Ability: Natural Cure
+EVs: 252 SpA
+IVs: 0 Atk
+- Ice Beam
+
+SnorlaxSpd (Forretress)
+Ability: Sturdy
+EVs: 252 HP / 252 SpD / 4 Spe
+Careful Nature
+
+LaxSpd<Para+2 (Zapdos)
+Ability: Pressure
+EVs: 32 Spe
+IVs: 0 Atk
+- Agility
+- Baton Pass
+
+SnorlaxAtk (Blaziken)
+Ability: Blaze
+Mild Nature
+
+SnorlaxDef (Hariyama)
+Ability: Thick Fat
+EVs: 252 Atk
+Adamant Nature
+- Cross Chop
+
+LaxSpDefBlaz+1 (Charizard) @ Petaya Berry
+Ability: Blaze
+EVs: 252 SpA
+Modest Nature
+IVs: 0 Atk
+- Fire Blast
+
+Here are some examples from the calc box that I'll cover. I'll also fit some teambuilding advice in their too.
+
+This is a pretty straightforward one, meant to communicate that the Swampert set is guaranteed to live a max SpAtk Zapdos HP Grass from full health. Many of us know this calc off the top of our heads already (240 HP 44 SpDef) and would thus connect the dots once we see the Swampert set without having to see this member of the calc box, but I want this system to be inclusive for newer players, so I still include these less "necessary" sets. Also, calc boxes don't need to be filled with the maximum 24 mons; I just happened to be able to do that with this team.
+Swampert's HP investment also contributes to this calc, but when a calc is a group effort between HP and (Sp)Def, I only include the latter for the sake of simplicity.
+
+This one is clearly more complicated. "132" is the SpAtk benchmark that achieves the guaranteed OHKO on this Salamence set. Specifying the number represents that the number is lower than the number used in the actual set. In this case, the used number is 136, which is a boost number (gives you an extra point in the stat due to Natures being percentage-based and Pokémon math always rounding down). You can infer some of the teambuilding philosophies/habits of the team's builder through calc boxes, which can lead to you considering them for your own teambuilding efforts. I like to reach boost numbers when it won't cause me to go out of my way (in this case just using 4 more EVs for SpAtk), as does everyone else I guess lol.
+This Salamence set is far more fleshed out than the Zapdos one above. The logic behind this set requires some metagame and teambuilding knowledge to understand, and admittedly, that's a bit of a barrier to the newer players that I alluded to earlier.
+When calcing around opposing sets that don't simply just use 252(+) EVs, it's important for them to make sense. And like every other set to calc around, it should be relevant to your team. The logic behind this set is A). It outspeeds Adamant Heracorss and some other mons that it's used to check, and comfortably outspeeds the whole metagame after a boost B). Its Attack stat lands right on the highest available boost number, and won't be rounded down after a boost due to being an even number C). Its HP stat is a 16n+1 number, which is nice for Leftovers recovery (as long as the mon isn't too vulnerable to passive damage (like if you had Mence on a team with Tyranitar)). DDmence is a big threat to this team, so I want the team to be prepared for various forms of it, even if they might not be as common.
+
+You can probably see by now how calc boxes can condense what would otherwise be a massive wall of text. Not perfectly, but well enough. Of course, there's other things regarding the team that can be written about when sharing them on the forums. For example, this calc box doesn't represent how this team is designed to bait Gengar into staying in and clicking a move that isn't Thunderbolt, making it easier for Houndoom to trap it.
+[The team is also decent at preventing too many layers of Spikes from going up, which further helps out Houndoom]
+
+This set is a good example of providing context, and alluding to teambuilding logic beyond the EVs. "+1" represents this Gyarados having used DD once. On Gyara, HP Flying is the more common choice among it and HP Rock, but the latter is still valid. With Double-Edge in the set, this dynamic still remains. So ideally, your team should be able to handle all of these possibilities. Zapdos checks HP Flying Gyarados, but is shakier towards HP Rock variants. HP Rock Gyarados is incentivized by Aerodactyl to use a Jolly Nature. This team's Breloom uses HP Rock, which brings these factors together to justify making note of this calc.
+This set is also an example of how the sets in the calc box are loosely ordered by their importance, and/or the order in which the EVs were distributed while making the team's set. Breloom's matchup against Zapdos is more important for the team than this Gyarados interaction, and although the latter holds value, it happens to be a byproduct of calcing for Zapdos with the EVs leftover from OHKOing Moltres and outspeeding Vaporeon, while putting as many EVs into HP as possible in order to diversify the bulk. It also happens to reach another 16n+1 number, which is the cherry on top for this satisfying set.
+
+I promise that you don't need to get this technical to be a successful player. There are so many players who are better at battling than I am that don't bother with this sort of thing. And 252/252/4 sets are valid, as I've implied with this team's Houndoom set.
+
+If you're trying to show that a set on your team is designed to speed-creep something that normally doesn't really focus on Spd EVs, I'd just leave the calc box set basic like the one on the left.
+The Dugtrio one on the right, well first of all it shows that there's only so much room in the nickname box. The main anomaly of it is that it's a set of calcs that aren't based on 100% chances. The leftover EVs for the bulk capabilities of the Dugtrio set can only accomplish so much. I focused them on this interaction because those that are caused by trapping are made more important due to their forced frequency and relevance to the team's functioning. "M"/"B" is "Modest"/"Bold", the second numbers represent the amount of layers of Spikes on the field when full-health Dugtrio entered, and the first numbers are the numerators of the fraction forms of the calcs (the denominator is always 16 for consistency).
+
+[Of course, there are some other circumstances that this team's calc box doesn't cover. For example, if you're using Tyranitar on a team and calc a team member around bringing something else into Sand range if not KOing it with the attack itself, you can add "Sand" to the end of the nickname]
+
+I don't know how helpful this post will be to the community overall, but at least I'm providing a not-horrible team for all of the Celebi haters out there.
+

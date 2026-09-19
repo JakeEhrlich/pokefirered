@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "global.h"
 #include "battle.h"
 #include "battle_anim.h"
@@ -405,6 +407,9 @@ u8 BattleAI_ChooseMoveOrAction(void)
         }
     }
 
+    if (getenv("SIM_AI_TRACE")) // simulator diagnostics: dump the AI's scores for this decision
+        fprintf(stderr, "[ai] battler %d scores %d %d %d %d best %d\n", gActiveBattler, AI_THINKING_STRUCT->score[0],
+                AI_THINKING_STRUCT->score[1], AI_THINKING_STRUCT->score[2], AI_THINKING_STRUCT->score[3], numOfBestMoves);
     return consideredMoveArray[Random() % numOfBestMoves]; // break any ties that exist.
 }
 

@@ -1,0 +1,55 @@
+Whiscash (M) @ Leftovers  
+Ability: Oblivious  
+EVs: 236 Atk / 56 SpD / 216 Spe  
+Jolly Nature  
+- Earthquake  
+- Rock Slide  
+- Hidden Power [Bug]  
+- Protect  
+
+Pidgeot @ Choice Band  
+Ability: Keen Eye  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Return  
+- Hidden Power [Flying]  
+- Quick Attack  
+- Double-Edge  
+
+Haunter @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 104 SpD / 152 Spe  
+Timid Nature  
+- Psychic  
+- Thunderbolt  
+- Explosion  
+- Will-O-Wisp  
+
+Wailord (M) @ Leftovers  
+Ability: Water Veil  
+EVs: 208 SpA / 252 SpD / 48 Spe  
+Calm Nature  
+IVs: 3 Atk / 30 SpA  
+- Surf  
+- Ice Beam  
+- Hidden Power [Electric]  
+- Substitute  
+
+Metang @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 28 Def / 212 SpD / 16 Spe  
+Impish Nature  
+- Meteor Mash  
+- Earthquake  
+- Toxic  
+- Protect  
+
+Hitmonchan (M) @ Leftovers  
+Ability: Keen Eye  
+EVs: 188 HP / 252 Atk / 68 Spe  
+Adamant Nature  
+- Rapid Spin  
+- Earthquake  
+- Hidden Power [Ghost]  
+- Mach Punch  
+

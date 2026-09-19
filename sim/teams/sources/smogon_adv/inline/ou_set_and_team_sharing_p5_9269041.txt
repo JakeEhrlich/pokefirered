@@ -1,0 +1,132 @@
+Posting the only decent teams that I've ever made
+
+Spectrifice: https://pokepast.es/d506244bc179c923
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 176 HP / 136 Atk / 156 SpA / 4 SpD / 36 Spe
+Brave Nature
+- Hydro Pump
+- Earthquake
+- Ice Beam
+- Focus Punch
+
+Flygon @ Leftovers
+Ability: Levitate
+EVs: 16 HP / 240 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Hidden Power [Bug]
+- Fire Blast
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 248 HP / 100 SpA / 120 SpD / 40 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Thunderbolt
+- Hidden Power [Grass]
+- Rest
+- Sleep Talk
+
+Gengar @ Leftovers
+Ability: Levitate
+EVs: 72 HP / 252 SpA / 184 Spe
+Timid Nature
+- Thunderbolt
+- Ice Punch
+- Hypnosis
+- Explosion
+
+Skarmory @ Leftovers
+Ability: Keen Eye
+EVs: 252 HP / 176 Def / 60 SpD / 20 Spe
+Impish Nature
+- Drill Peck
+- Toxic
+- Spikes
+- Roar
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 12 Atk / 160 SpA / 52 SpD / 36 Spe
+Quiet Nature
+- Rock Slide
+- Crunch
+- Pursuit
+- Focus Punch
+
+Serpent's Path: https://pokepast.es/42e1fd42605be37c
+
+Heracross @ Leftovers
+Ability: Guts
+EVs: 248 HP / 124 Atk / 116 SpD / 20 Spe
+Adamant Nature
+- Megahorn
+- Rock Slide
+- Focus Punch
+- Toxic
+
+Magneton @ Magnet
+Ability: Magnet Pull
+EVs: 240 HP / 248 SpA / 20 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA / 30 Spe
+- Thunderbolt
+- Hidden Power [Fire]
+- Thunder Wave
+- Toxic
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 12 Atk / 160 SpA / 52 SpD / 36 Spe
+Quiet Nature
+- Rock Slide
+- Crunch
+- Pursuit
+- Focus Punch
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 176 HP / 136 Atk / 156 SpA / 4 SpD / 36 Spe
+Brave Nature
+- Hydro Pump
+- Earthquake
+- Ice Beam
+- Focus Punch
+
+Flygon @ Leftovers
+Ability: Levitate
+EVs: 16 HP / 240 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Hidden Power [Bug]
+- Substitute
+
+Gyarados @ Leftovers
+Ability: Intimidate
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Hidden Power [Flying]
+- Earthquake
+- Dragon Dance
+- Substitute
+
++2 252 Atk Thick Club Marowak Focus Punch vs. 252 HP / 176+ Def Skarmory: 281-331 (84.1 - 99.1%) -- guaranteed 2HKO after Leftovers recovery
+252 SpA Starmie Hydro Pump vs. 248 HP / 120 SpD Zapdos: 158-186 (41.2 - 48.5%) -- guaranteed 3HKO after sandstorm damage and Leftovers recovery
+252 SpA Starmie Ice Beam vs. 248 HP / 120 SpD Zapdos: 166-196 (43.3 - 51.1%) -- 5.9% chance to 2HKO after sandstorm damage and Leftovers recovery (survives the combination, but might die to sand)
+
+252+ SpA Starmie Hydro Pump vs. 248 HP / 52 SpD Tyranitar: 341-402 (84.6 - 99.7%) -- guaranteed 2HKO after Leftovers recovery
+160+ SpA Tyranitar Crunch vs. 4 HP / 0 SpD Starmie: 246-290 (93.8 - 110.6%) -- 62.5% chance to OHKO (sand range)
+12 Atk Tyranitar Rock Slide vs. 4 HP / 0 Def Aerodactyl: 302-356 (100 - 117.8%) -- guaranteed OHKO (31 HP IVs 30 Def IVs)
+252+ SpA Salamence Hidden Power Grass vs. 176 HP / 4 SpD Swampert: 326-384 (84.6 - 99.7%) -- guaranteed 2HKO after Leftovers recovery
+156 SpA Swampert Ice Beam vs. 144 HP / 0 SpD Salamence: 346-408 (94.2 - 111.1%) -- 68.8% chance to OHKO (sand range, 30 SpD IVs)
+
+252+ SpA Zapdos Thunderbolt vs. 248 HP / 116 SpD Heracross: 153-181 (42.1 - 49.8%) -- guaranteed 3HKO after sandstorm damage and Leftovers recovery
+
+Spectrifice allows you to play flexibly depending on the matchup, and Serpent's Path is my attempt at making an offense team with cool mons and synergies that doesn't absolutely crumble against anything competent. Both teams require less thought that normal in regards to Spikes, which I appreciate. As for the unorthodox choices: Toxic Heracross is mainly for MixMence, and PhysDef Skarmory is mainly for checking Fighting Types.
+
+Also, if anyone can make a competent team with the core of Jolly YOLO Skarm + Pursuit Tar + Modest Psychic Starmie and Celebi, then that would be awesome. The main appeals of the core are that Spikes + Sand sets up a Psychic kill on bulkless Heracross and sometimes other Fighting Types, luring Magneton is beneficial for your Psychic Types (and Tyranitar depending on its set), Tyranitar removes Gengar to protect the other core members, and you can potentially outplay Breloom by switching out strategically and threatening it with an OHKO from a Fighting resist that outspeeds it or a Ghost/Bug resist that at worst speed ties with it. I feel like you'd need 7 or 8 mons total on the team to make it decent, props to anyone who can do it with 6.
+

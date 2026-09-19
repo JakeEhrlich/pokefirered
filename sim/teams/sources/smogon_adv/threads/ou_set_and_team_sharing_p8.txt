@@ -1,0 +1,341 @@
+### post 10857891 author=airports url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-8#post-10857891
+https://pokepast.es/82f53b10e4ab5c1c
+
+### post 10877237 author=made0fmoss url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-8#post-10877237
+asked for a bunch of sets for a spreadsheet thing a while ago, Spreek and WraxiusGaming (two goat teambuilders for any unaware) gave me many, and this is a trimmed list of them. Probably helpful for beginner-intermediate players. Handy to have when building.
+
+(as fruhdazi points out below, the first set "BulkyDDtar" does not have DD, it is interchangable with any of its 4 attacks)
+
+https://pokepast.es/6d699cb30a809985
+
+### post 10877781 author=Shitrock enjoyer url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-8#post-10877781
+TheBaker said:
+
+asked for a bunch of sets for a spreadsheet thing a while ago, Spreek and WraxiusGaming (two goat teambuilders for any unaware) gave me many, and this is a trimmed list of them. Probably helpful for beginner-intermediate players. Handy to have when building.
+
+https://pokepast.es/6d699cb30a809985
+
+Click to expand...
+
+just 1 thing, on bulky dd spread the set is rs eq dedge hpbug i.e. has no dd. I assume this was a mistake
+
+### post 10878656 author=Sato07 url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-8#post-10878656
+TheBaker said:
+
+asked for a bunch of sets for a spreadsheet thing a while ago, Spreek and WraxiusGaming (two goat teambuilders for any unaware) gave me many, and this is a trimmed list of them. Probably helpful for beginner-intermediate players. Handy to have when building.
+
+https://pokepast.es/6d699cb30a809985
+
+Click to expand...
+
+Faltan varios sets como
+Algunos justifico su ausencia como que son variantes, ejemplos, HP Grass Cune 3 atks, Bslam Def Rachi, etc
+Pero faltan varios sets como el Taunt Ttar con Tox, por ejemplo
+
+### post 10878738 author=made0fmoss url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-8#post-10878738
+Shitrock enjoyer said:
+
+just 1 thing, on bulky dd spread the set is rs eq dedge hpbug i.e. has no dd. I assume this was a mistake
+
+Click to expand...
+
+Yes, i think that one was changed by me for either spreadsheet purposes or just for myself when teambuilding. I used to forget tar had access to double edge. In my mind the nickname held the move for me, but good of you to point out, i hope no one load that set without changing it- whoops
+
+### post 10878739 author=made0fmoss url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-8#post-10878739
+Sato07 said:
+
+Faltan varios sets como
+Algunos justifico su ausencia como que son variantes, ejemplos, HP Grass Cune 3 atks, Bslam Def Rachi, etc
+Pero faltan varios sets como el Taunt Ttar con Tox, por ejemplo
+
+Click to expand...
+
+Yes, this is a trimmed version, there were many more, but some were so close to one another that i cut them out
+
+### post 10878778 author=made0fmoss url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-8#post-10878778
+Here is the "complete" version (there are practically infinite amount of sets and sooo many pokemon, this is a chunk of relevant ones)
+https://pokepast.es/825141be9118d063
+Bulky DDtar has DD here
+I did my best to go through an eliminate any duplicate spreads (pasted to a googledoc and ctrl+f'd each set) but there is a non-0 chance that there are remaining duplicates. also there are some very similar ones here, like HPice/grass variants of the same set.
+
+This is the sauce version for more experienced players
+
+### post 10878963 author=SPFunkM url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-8#post-10878963
+TheBaker said:
+
+Here is the "complete" version (there are practically infinite amount of sets and sooo many pokemon, this is a chunk of relevant ones)
+https://pokepast.es/825141be9118d063
+Bulky DDtar has DD here
+I did my best to go through an eliminate any duplicate spreads (pasted to a googledoc and ctrl+f'd each set) but there is a non-0 chance that there are remaining duplicates. also there are some very similar ones here, like HPice/grass variants of the same set.
+
+This is the sauce version for more experienced players
+
+Click to expand...
+
+missing an important set
+
+Ronflex (Snorlax) @ Leftovers
+Ability: Thick Fat
+EVs: 184 HP / 188 Def / 136 SpD
+Careful Nature
+- Curse
+- Body Slam
+- Sleep Talk
+- Rest
+
+~~also sub salac spike spore x smeargle~~
+
+### post 10879919 author=LHF url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-8#post-10879919
+TheBaker said:
+
+Here is the "complete" version (there are practically infinite amount of sets and sooo many pokemon, this is a chunk of relevant ones)
+https://pokepast.es/825141be9118d063
+Bulky DDtar has DD here
+I did my best to go through an eliminate any duplicate spreads (pasted to a googledoc and ctrl+f'd each set) but there is a non-0 chance that there are remaining duplicates. also there are some very similar ones here, like HPice/grass variants of the same set.
+
+This is the sauce version for more experienced players
+
+Click to expand...
+
+you will go to heaven for this. Seriously I cannot thank you enough, what an amazing resource for someone who felt like the lack of EV understanding in OU was a barrier to entry.
+
+the only possible way to improve this(and it is DEFINITELY pushing the line to ask for it, just making a statement)) are like brief bullet points on what makes some of the more "unique" spreads different from standard stuff. Like a note on what spDef Jolteon is meant to accomplish, or the different nuances between 52 spatk invest on suicune vs 104 vs 172(though this runs the risk of spoon-feeding everything to us so I get it if not).
+
+This will help so many players access this tier that it's mind-boggling. May Arceus bless you, even though he's not in this gen.
+
+### post 10879949 author=Jhall99 url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-8#post-10879949
+LHF said:
+
+you will go to heaven for this. Seriously I cannot thank you enough, what an amazing resource for someone who felt like the lack of EV understanding in OU was a barrier to entry.
+
+the only possible way to improve this(and it is DEFINITELY pushing the line to ask for it, just making a statement)) are like brief bullet points on what makes some of the more "unique" spreads different from standard stuff. Like a note on what spDef Jolteon is meant to accomplish, or the different nuances between 52 spatk invest on suicune vs 104 vs 172(though this runs the risk of spoon-feeding everything to us so I get it if not).
+
+This will help so many players access this tier that it's mind-boggling. May Arceus bless you, even though he's not in this gen.
+
+Click to expand...
+
+Seeing Jolt only run 4 SpA EVs is cursed as hell, but I can see why you want to keep substitute against Gar or Zap
+
+### post 10880169 author=made0fmoss url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-8#post-10880169
+LHF said:
+
+you will go to heaven for this. Seriously I cannot thank you enough, what an amazing resource for someone who felt like the lack of EV understanding in OU was a barrier to entry.
+
+the only possible way to improve this(and it is DEFINITELY pushing the line to ask for it, just making a statement)) are like brief bullet points on what makes some of the more "unique" spreads different from standard stuff. Like a note on what spDef Jolteon is meant to accomplish, or the different nuances between 52 spatk invest on suicune vs 104 vs 172(though this runs the risk of spoon-feeding everything to us so I get it if not).
+
+This will help so many players access this tier that it's mind-boggling. May Arceus bless you, even though he's not in this gen.
+
+Click to expand...
+
+Legiterally i don't know any of that stuff. But the answer is often something like "to live [common attack] from mence/meta/tar" these sets were provided to me by players who understand the game at a much higher level, tagged just a few posts up (i dont wanna re-tag them and spam them w notifs ( wrax and spreek )
+
+### post 10890673 author=greenapricotttss url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-8#post-10890673
+https://pokepast.es/0e59c6e3f2cb80a2
+
+My friend happened to swing me this a while back. Some casual ZapDug antics with a few uncommon appearances, let's get to it
+
+Lead
+
+Yktvibesss by now, this is 2026 ADV where the only real leads are Ttar and Zap (lmao I'm kidding)
+Taking advantage of favorable matchups to substitute and send in the next participant
+Baton passing out of Ttar- and we got options baby!
+
+the expected response
+shutting sh*t down
+
+the stage setter
+Aye how many appeal points does Foc Punch get in contests? That sh*t is quite a show once we get them rolling.
+Zap into Skarm/Water, they go Bliss, you sub, click baton pass, she breaks the sub for Breloom
+Freeeee Spore. But wait, do you even have to? Pop a sub and watch what they do. Humor yourself to see if this worrisome switch-in would like to get decked in the face. Or be a big brain, press hp ghost to nail Gengar. Loom gets forced out when the punch is well-resisted so choose accordingly. Sub feels uncomfortable in sand esp when Ttar leads and this is an issue. Now see the typical dynamics at play that grant Loom free entry can be taken advantage of. The baton pass will always bring Loom into a desirable scenario to force a switch, so free damage on the opponent or preventing damage taken (via sleep) is probable. RoarMons can interfere or the occasional slower baton pass might happen. We do have teammates to take on attacks it even resists like crunch/rock slide, tbolt, eq.
+
+on crunch-time the whole game. NO room to be goofy, standing on business. Immediately coming into Mence to stop that dragon dance nonsense, and is coming rigggght out if Mence uses d claw/fire blast. We letting the hpumps go, Skarm may as well learn to surf. Metagross can get it too, bro is not safe with that CB mm, don't let me get into Torrent. Pop the sub on Meta tho, you never know when it may boom or press hp grass. Speaking of that, if Zap doesn't have hp grass we on that ass! This Swampert is often sent into the fray to dissuade pesky folks but please do not get statused. Ttar is generally ez but mixed max Spe is quite an experience.
+Look, I know what you're thinking: just give the Pert defense EVs for god's sake! But don't you get tired of fast food if you eat it too often? Do we default for the sake of convenience/familiarity, or can we try something new? Where the spice at? Relaxed Pert are McDonald's fries, a solid reputable choice, and this Pert is some cajun fries with tahini sauce.
+
+is hitting hard as possible, scoring easy 2hkos on Mence, Zapdos, & Boldmie. Originally this was a curseLax which is fine but it's immediate power is good and I don't wanna slow the pace too much. Focus punch is awesome to use into Zapdos, Blissey, and Skarm. You can focus punch an incoming steel-type, Pert, or Ttar when big bird switches out, same for blob as this gets past counter. Body Slam/Double Edge the choice is yours. Could run eq as 4th move for higher damage on Meta and to stop Ttar from delivering it's own focus punch. But honestly we get hits in, we boom & that's how we go out.
+
+Its , you know what he's here for. Max out the speed if you desire. Everyone slower is essentially a target of Dugtrio but which Mons are more desirable to trap?
+Celebi: not giving it the opportunity to do anything. Come in on leech, any non-se move, or stop calm mind.
+Metagross: it saves Pert the hassle of putting him down. When to switch in you ask? Gotta be the double or the revenge kill.
++1 ddTar or mixed
+Raikou because this guy might run through the team with 1 calm mind, a common sentiment for many offensive teams.
+Heracross is not particularly noteworthy but also dangerous, get rid of it.
+Adamant (max speed) is great for the most defensive Celebi and to ensure any Metagross dies.
+
+is a cool Mon here, with just the slightest opportunity late game it will run game on Aero and Jolt, smack the shit out of Starmie, and hopefully ko Zapdos. Part of me wants to use STAB so I don't have to rely so heavily on Dug to handle Celebi but that hp rock does wonders after a dragon dance. Be cautious with him, you want high health when it's time to dance. There may be circumstances where you stomach an undesirable attack such as non-STAB rock slides or oppo Snorlax's bslam/return in order to boost up. Intimidate is making this happen, don't be afraid to sack someone to ensure Gyara will safely boost. In front of special attackers who can't tbolt he normally does well so those are your safer opportunities. If Bliss is chipped enough (and you considerably) it can kamikaze on the double edge so she can't softboil.
+Try not to dragon dance too early‒ you will give the healthy Skarm free spikes whenever you do this.
+No lie my bro was cooking when he sent this, Gyarados initially had taunt which is perfect for the previous scenario. But sacrifice the strongest neutral coverage (double edge) to now prevent Milo/Pert toxic + additional spikes from coming your way. Having taunt is truly the final anti-Skarm measure on this team.
+Zapdos is here to dissuade & take advantage of spikers, Breloom can possibly inhibit them, and Gyarados may stabilize the field by shutting down passive interference (pshhh as if thunder wave is "passive"). So yeah when Skarmory is weakened from previous focus punches or zZzZz you can dance easily. I will say beware that each spiker has something for Gyara: drill peck, zap cannon, boom.
+
+sure as hell threatens us, Pert has to switch in on rock slide to shift momentum. Aero can't just waltz in either, ddance or a substitute (prior to it's entry) will end it. OK OK bro get the McDs but run this
+Swampert (M) @ Leftovers
+Ability: Torrent
+EVs: 240 HP / 228 Def / 40 SpA
+Bold Nature
+IVs: 0 Atk
+- Surf/Hydro Pump
+- Roar
+- Refresh
+- Ice Beam
+The 40 EVs doubles your chance for the ohko on regular ddMence
+
+Electrics
+can be difficult to handle with an overreliance on Snorlax. Usually only 1 to deal with so its far from terrifying.
+can baton pass out of arena trap
+Raikou & Zap can give issues depending on the hidden power. Spore may not be the best answer because of substitute. Its usually up to Lax or endPerty.
+
+Spikes
+Without rapid spin they can be an eyesore solely on your side. No need to be uptight about 1 layer, some of the best balance builds can give up a layer. We can simulate in our mind the most probable interactions but sequencing and intuitive responses in real life is what matters. Breloom or Lax can get on the field, possibly behind a sub, because Skarm is deciding to spike up. No fire move for Forretress is bleh but who needs it? Forre can't really touch Zap anyways and we can do something interesting from there. EndPerty could use the spike (or two) to activate Salac.
+
+with hp grass + rock slide is just gaaaah damn. Can possibly outspeed Pert, Zap can't make progress, if sleep clause is active Loom can't hit it (could also get fire blasted). Alright first re-collect the energy‒ when emotions are not leveled that is where irrational decisions occur. Ttar thinks it can hit anyone right? Aigh sure, so as the recipient of this you make damn sure you bait that Ttar, get Dugtrio in, and show them we mean business.
+
+This team is entertaining fr but also a little riskay. Feel free to make mods, the chosen spreads aren't rigid. You can tailor a few Mons to your perceived concerns. I might even consider a bulkier Gyara because 1. most Skarm are slow anyways and 2. no atk EVs Gyara +2 has the same strength as 252 adamant +1 (what you need), so you could go really bulky and wrap up the show when opportunity presents itself.
+ADV Offense run it up
+
+### post 10895783 author=KaffeK url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-8#post-10895783
+TheBaker said:
+
+Here is the "complete" version (there are practically infinite amount of sets and sooo many pokemon, this is a chunk of relevant ones)
+https://pokepast.es/825141be9118d063
+Bulky DDtar has DD here
+I did my best to go through an eliminate any duplicate spreads (pasted to a googledoc and ctrl+f'd each set) but there is a non-0 chance that there are remaining duplicates. also there are some very similar ones here, like HPice/grass variants of the same set.
+
+This is the sauce version for more experienced players
+
+Click to expand...
+
+agilitygross should be 104 speed ev imo, allows you to outspeed +1 adamant maxspeed heracross. Meteor mash sets them in salac range, but you still outspeed.
+
+### post 10895914 author=Janis105 url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-8#post-10895914
+KaffeK said:
+
+agilitygross should be 104 speed ev imo, allows you to outspeed +1 adamant maxspeed heracross. Meteor mash sets them in salac range, but you still outspeed.
+
+Click to expand...
+
+The issue with that is that doing so puts the attack investment exactly 4 evs below an ev jump point, which is inefficient. You can ofc drop some bulk, but it's noteworthy that you can only ever have 2 out of 3 on getting the jump point, living +1 mence/tar eq, banded meta eq, unbanded mash, and hitting that speed mark. Most people elect to drop speed because it seems least important, but ofc depending on the team you might prefer the speed for the interaction you mentioned, as well as outspeeding bulky dd tar, marowak, fast milos, etc. Also, you can prevent the interaction you mentioned by just eq'ing the hera the first turn and then finish it off with mash the second turn
+
+### post 10896590 author=KaffeK url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-8#post-10896590
+Janis105 said:
+
+The issue with that is that doing so puts the attack investment exactly 4 evs below an ev jump point, which is inefficient. You can ofc drop some bulk, but it's noteworthy that you can only ever have 2 out of 3 on getting the jump point, living +1 mence/tar eq, banded meta eq, unbanded mash, and hitting that speed mark. Most people elect to drop speed because it seems least important, but ofc depending on the team you might prefer the speed for the interaction you mentioned, as well as outspeeding bulky dd tar, marowak, fast milos, etc. Also, you can prevent the interaction you mentioned by just eq'ing the hera the first turn and then finish it off with mash the second turn
+
+Click to expand...
+
+it's already at 100 speed ev's, so i think moving one point from bulk into one point of speed is a worthwile investment. you go from opposing CB metagross EQ doing 86.6-102 to 87.2-102.6, for winning against another late-game cleaner. Either 88 speed ev or 104
+
+### post 10896608 author=Janis105 url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-8#post-10896608
+KaffeK said:
+
+it's already at 100 speed ev's, so i think moving one point from bulk into one point of speed is a worthwile investment. you go from opposing CB metagross EQ doing 86.6-102 to 87.2-102.6, for winning against another late-game cleaner. Either 88 speed ev or 104
+
+Click to expand...
+
+252+ Atk Choice Band Metagross Earthquake vs. 168 HP / 16 Def Metagross: 290-342 (84.5 - 99.7%) -- guaranteed 2HKO
+
+252+ Atk Choice Band Metagross Earthquake vs. 168 HP / 12 Def Metagross: 292-344 (85.1 - 100.2%) -- 6.3% chance to OHKO
+
+No, it matters for avoiding the ohko. Again, you can totally run that risk, it's just a question of whether you want some additional insurance vs physical sweepers or want to outspeed more mons in that speed tier.
+
+### post 10896644 author=KaffeK url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-8#post-10896644
+Janis105 said:
+
+252+ Atk Choice Band Metagross Earthquake vs. 168 HP / 16 Def Metagross: 290-342 (84.5 - 99.7%) -- guaranteed 2HKO
+
+252+ Atk Choice Band Metagross Earthquake vs. 168 HP / 12 Def Metagross: 292-344 (85.1 - 100.2%) -- 6.3% chance to OHKO
+
+No, it matters for avoiding the ohko. Again, you can totally run that risk, it's just a question of whether you want some additional insurance vs physical sweepers or want to outspeed more mons in that speed tier.
+
+Click to expand...
+
+Ahh, i didn't see the non-max attack. Valid then.
+
+### post 10900363 author=pz url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-8#post-10900363
+can someone make a dump
+
+### post 10900397 author=Spreek url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-8#post-10900397
+here are my teams from my mugulis cup 2 winning run. slightly mickey tour but played some good opponents and brought some ideas i liked. hope you can find something interesting in there
+
+https://pokepast.es/213c8c233b318337
+
+### post 10900732 author=pz url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-8#post-10900732
+Spreek said:
+
+here are my teams from my mugulis cup 2 winning run. slightly mickey tour but played some good opponents and brought some ideas i liked. hope you can find something interesting in there
+
+https://pokepast.es/213c8c233b318337
+
+Click to expand...
+
+thanks uncle spreek this will feed a ton
+
+### post 10907557 author=robertshortgrass url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-8#post-10907557
+Smeargle @ Salac Berry
+Ability: Own Tempo
+Jolly Nature
+- Endure
+
+Endure is a cool option on lead Smeargle. It guarantees Smeargle a turn to set up Spikes against physical attackers, and if confronted by a Special Attacker, you'll get two turns guaranteed(bar crits and full paras). The moveset is pretty customizable because Smeargle has a plethora of viable options. The EVs are flexible as well. You can choose to outrun Aero and Jolteon at +1 or drop the speed down to Dugtrio range to get some extra bulk or Att for a stronger Explosion.
+
+### post 10907630 author=Jhall99 url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-8#post-10907630
+robertshortgrass said:
+
+View attachment 815560
+
+Smeargle @ Salac Berry
+Ability: Own Tempo
+Jolly Nature
+- Endure
+
+Endure is a cool option on lead Smeargle. It guarantees Smeargle a turn to set up Spikes against physical attackers, and if confronted by a Special Attacker, you'll get two turns guaranteed(bar crits and full paras). The moveset is pretty customizable because Smeargle has a plethora of viable options. The EVs are flexible as well. You can choose to outrun Aero and Jolteon at +1 or drop the speed down to Dugtrio range to get some extra bulk or Att for a stronger Explosion.
+
+Click to expand...
+
+I ran a similar set with Salac Smeargle, but instead of Endure, I ran Sub+Endeavor.
+
+I wanted to see if I could run Slop with Smeargle since I appreciate Swampert's defensive attributes.
+
+### post 10909602 author=robertshortgrass url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-8#post-10909602
+Jhall99 said:
+
+I ran a similar set with Salac Smeargle, but instead of Endure, I ran Sub+Endeavor.
+
+I wanted to see if I could run Slop with Smeargle since I appreciate Swampert's defensive attributes.
+
+Click to expand...
+
+That sounds like fun. Were your last two moves Spikes and Spore?
+
+### post 10909619 author=Jhall99 url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-8#post-10909619
+robertshortgrass said:
+
+That sounds like fun. Were your last two moves Spikes and Spore?
+
+Click to expand...
+
+Yeah, the idea behind the set was mainly due to how much I hate Smeargle teams. It feels like a 5v6 matchup & unlike Deoxys or Azelf, Smeargle is really weak with only sleep as its covenant. At least with Endeavor, you can annoy the stupid blue dog in this tier lol
+
+### post 10927956 author=SpamOn url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/page-8#post-10927956
+Here are some fun (and hopefully good) teams. I Reached 1800 on the ladder with all of these. Many did even better than this.
+
+: Aero + Offmie SpikeOff
+Pretty generic Aero Spikes Offense. This team has been fire though - pretty similar to this but plays at a slightly slower pace. This 6 has probably been used loads in various combinations. If I will say one thing, it's that BoahTar is amazing - so much more consistent than DDTar on this kind of team and an amazing Modest OffMie partner in terms of punishing Bliss and bluffing Suit to Kill Gengar.
+
+: EndPert-Gyara-Hera MagOff
+Maybe my favourite team I have ever made: a cross between a Slop team and a Magneton Offense. This team really changed my opinion on Gyarados. Twave Gyara is amazing at Paralysing things like Aero, Zap, Gar and Mence which helps enable Heracross. It can sweep in some games and has amazing defensive utility. It's just not a DDMence replacement due to its coverage issues so keep this in mind.
+You could also run Sub > Brick Break on Hera here if you wanted to lean into the Paraspam and be better vs Dug.
+
+: Vape-Champ MixOff
+I am full on Vape is OU believer at this point. I think this team is a good example of some of the stuff it can enable through SubPassing. This team performed really well for me on the ladder (getting to 1850+) and can end games very quickly if you position the right mon correctly. I do think you need to get the hits in with Machamp early game to break some teams though, especially so you don't get spiked up on, and so perhaps not the best for your blood pressure if the Cross Chops fly left.
+
+: Blaziken-P2 Offence
+Although generally terrible, Blaziken's offensive profile does offer something unique to P2 teams, given it's a mixed attacker that can be a strong opener vs many balance (big5) TSS structures, against which many of Pory's other typical partners can struggle. It also gives the team a Wisp switch in vs Gar/Molt, mons which often trouble this kind of team (that is about as much as I can say about Blaziken's defensive utility).
+This team is built around using Blaziken, SuperBi and CBMeta to beat down on skarm and other flyers to enable DDMence or Hera to sweep. P2's presence is greatly appreciated here, not only to trap Dug but also to answer Mence and, in a pinch, Aero.
+
+: Dual Spin + CB Mence
+Probably my first original stally team that doesn't suck. We have double spin here with HPGhost Forre aiming to spike early and trade with a potential gengar to enable Rest Donphan spinning later on (obviously Forre can be used conventially in Garless MUs). CB Mence provides the team with speed control/revenge killing + fighter check and Sub-CM Rachi is a direct win con. Bliss + Vape provide Wish and Aroma support to give the team immense longevity.
+One could perhaps consider using Boom > Rest on Forre here to be a trader/progress maker, given we can wish it up if needed and have a second spinner.
+
+: Chubby-Cham Balance
+I wanted to make a team in which Medicham did not feel hideously inconsistent. This team is probably more of a proof of concept, though I think I at least somewhat succeeded (IMO).
+Bulky Recover Medi + SuitTar is an amazing breaking core vs fat. MixedZap is great at enabling Medi by forcing Bliss in and makes direct progress vs Celebi teams which the prior two can struggle against. Wish Rachi + DefMie provide the team with support and longevity whilst also spreading para to help enable our slow Medi. Offgon acts as another rock resist and a cleaner which benefits from the para spreading and Medi's wall-breaking. Bulky Medi is a surprisingly good BKC Tar Switch in given it resists Slide and FP, and this helps us get away with using OffGon here.
+One problem for the team was that Medi can get statused vs Bliss if you aren't careful, basically killing it. I wonder if Zap could be replaced by a Heal Bell user like Articuno/Lapras which also help vs Celebi/Suicune/Pert. Would probably lead to more issues than it solves but that is something to think about. I would love to be able to fit Wish + Heal Bell on this team and still retain the Medi + SuitTar core and have a Celebi punish. There probably is a way.

@@ -1,0 +1,57 @@
+Octillery @ Leftovers  
+Ability: Suction Cups  
+EVs: 172 HP / 252 SpA / 84 Spe  
+Modest Nature  
+IVs: 3 Atk / 30 SpA  
+- Surf  
+- Fire Blast  
+- Hidden Power [Electric]  
+- Thunder Wave  
+
+Raticate @ Silk Scarf  
+Ability: Guts  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Double-Edge  
+- Shadow Ball  
+- Hidden Power [Ground]  
+- Quick Attack  
+
+Bellossom @ Leftovers  
+Ability: Chlorophyll  
+EVs: 248 HP / 8 Def / 252 SpD  
+Calm Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Giga Drain  
+- Hidden Power [Fire]  
+- Sleep Powder  
+- Synthesis  
+
+Metang @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 28 Def / 228 SpD  
+Impish Nature  
+- Meteor Mash  
+- Earthquake  
+- Toxic  
+- Protect  
+
+Haunter @ Leftovers  
+Ability: Levitate  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Psychic  
+- Thunderbolt  
+- Will-O-Wisp  
+- Destiny Bond  
+
+Golbat @ Leftovers  
+Ability: Inner Focus  
+EVs: 252 HP / 112 Atk / 144 Spe  
+Jolly Nature  
+- Sludge Bomb  
+- Aerial Ace  
+- Hidden Power [Ground]  
+- Toxic  
+

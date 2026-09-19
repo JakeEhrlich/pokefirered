@@ -1,0 +1,86 @@
+the regi remover
+
+Magneton @ Magnet / Charcoal
+Ability: Magnet Pull
+EVs: 240 HP / 252 SpA / 16 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA / 30 Spe
+- Thunderbolt
+- Hidden Power [Fire] / Hidden Power [Grass] / Substitute
+- Rest
+- Substitute / Sleep Talk / Toxic / Protect / Sunny Day / Thunder Wave / Reflect
+
+this mag set:
+
+-lives 3 stosses, allowing you to trap and rest loop non-eq registeel (if they stop stossing you to conserve pp, you can start fishing for tbolt crits or paras in between rest loops)
+-still speedcreeps most non-taunt/yolo skarms
+-always lives 252+ leftovers yoloskarm hp ground
+-still runs 252+ magnet for the best chance to ohko skarm but you can run charcoal instead if you're using it to trap other mags to support physdef skarm (charcoal has a 81.3% chance to ohko standard mag, which has a 0% chance to ohko you barring a crit) or you have a spinner and don't need to ohko skarm as badly but want to goob forretress (charcoal has a 87.5% chance to OHKO 252 252+ forre, and you have a 50% chance to live its 0 atk eq if it calls out your switchin)
+-running sleep talk can kill registeel much faster but it can also backfire and kill you if your opp understands how hp fire interacts with counter. if nothing else, this creates interesting mindgames around stossing. if you decide not to run hp fire (grass is nice on some offenses), this makes sleep talk safe into counter
+-you can run leftovers and put some of the spa in spdef if you have a spinner and want to make more use of its defensive profile against mons that rely on elec/ice/grass coverage
+-appreciates but in no way does it demand a cleric, can also fit on offenses that really hate registeel and skarm
+-registeel needs 56 or more evs to even have a roll to ohko with eq
+
+downsides:
+
+-you're 179 speed, so, slower than dol, milo, boldcune, 20+ speed meta/cloy/mag/skarm, ada tar and its creepers, etc.
+-can't fit two flex moves (unless you're blaisepilled and drop hidden power entirely)
+
+this set is monstrous into players with a lot of skarm and registeel in their scout (many of you) and god help someone who likes to load them together. s/o pixie909 for recommending i look into rest mag
+
+the suicide supervisor
+
+Skarmory @ Leftovers
+Ability: Keen Eye
+EVs: 252 HP / 136 Def / 104 SpD / 16 Spe
+Impish Nature
+- Spikes
+- Drill Peck
+- Roar
+- Rest
+
+i've been spamming physdef rest skarm since 2024 and was planning to post about it after my cup run concluded but i bustered out a week too late and now johnald has posted about it, c'est la vie. here you go anyway.
+
+this skarm set:
+-always lives 252+ metagross explosion and can rest back up to full after, allowing it to serve as a fearsome physical wall instead of a sacrificial spiker
+-can run 184 def evs instead if you want to always live +1 252+ snorlax selfdestruct (but the set above does that 75% of the time anyway)
+-can run 148 def if you want to always live 4 cb 252+ meta mashes/2 cb 252+ medi brick breaks/more stuff
+-never 2hko'd by +1 252+ tar rock slide, never 3hko'd by aero slide, which bolsters teams where dol and boldcune are the only rock answers
+-weaker booms completely bounce off, it is very funny, your opps will type at you about it
+-can completely disrespect many physical attackers, multilayer spiking on them in situations where spdef skarm would have to mix in a roar
+-requires something to trap mag, or it ends up playing like a slightly worse version of normal skarm, spiking once then dying.
+-wants a cleric and appreciates a mon who can bully offpert, such as cune/milo/articuno
+-lives 3 defpert surfs, 3 modest blissey beams, the spdef helps cushion a lot of hits and allows it to spike more flexibly
+-can always emergency phaze a +1 252+ celebi hp fire and +1 252+ bliss tbolt, a 93.7% chance to live +1 80+ rachi tbolt, has a 75% chance to live +1 252+ cune pump, etc.
+
+downsides:
+-doesn't spike for completely free anymore against weak neutral special hits (but can still spike at least once in the face of basically any unboosted neutral special hit)
+-less self sufficient than spdef skarm (but offers a lot more defensive utility, like a gsc skarm that can spike)
+
+teams
+
+here's a team with both sets together, inspired by dice telling me some ojama lore
+
+https://pokepast.es/dc0f3fa2bb2e1fa4
+
+you can go to mag t1 against meta which covers houdini, cb mash, or them going to their own mag, all of which you like. other mons can definitely lead too, suicune or blissey (or magneton, see attached replay). claydol can be refresh depending on what you expect to face. very strong team, feels less fishy than many magdols (subjective opinion alert)
+
+replays:
+https://replay.pokemonshowdown.com/smogtours-gen3ou-951822?p2
+https://replay.pokemonshowdown.com/smogtours-gen3ou-955499?p2
+
+and another team with physdef rest skarm + tickle umbreon, originally built with Zokuru in 2024
+
+https://pokepast.es/f59df912b519d531
+
+umbreon hates metagross and fighters, enter physdef skarm. everyone else is annoyed by gar and defmie, enter umbreon. blissey can be (and originally was) modest beam over stoss if you want to be safer into zapdug. tickle goes thru substitute (i think this is slowly becoming adv's "dr. mario's nair") and allows for charm + screech role compression, letting dug run weather clear. umbreon destroys gar like nothing else but tends to flop into perish missy so we ball out with our dol out; ball dol and/or dug handle clops. deeply sinister things can occur when you go ticko mode, especially in conjunction with dugtrio
+
+replays:
+https://replay.pokemonshowdown.com/smogtours-gen3ou-957018
+https://replay.pokemonshowdown.com/gen3ou-2450574005-v406b8yq6p0shvnbwafqptrm4qd8p3opw
+
+i'll be taking a mons break til at least october. have fun trolling the registeel addicts
+
+much love,
+xtina
+

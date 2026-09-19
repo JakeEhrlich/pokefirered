@@ -1,0 +1,18 @@
+Hey, y'all.
+I'm here to show off a variation of a StatPass/Utility set for Celebi. I dubbed this aforementioned "fusion" set: "PhazerPass" Celebi.
+
+Celebi @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 220 Def / 36 Spe
+Bold Nature
+IVs: 0 Atk
+- Calm Mind / Swords Dance / Recover
+- Perish Song
+- Leech Seed
+- Baton Pass
+
+This set aims to either set up its own stat boosts and pass them to fellow teammates... or disrupt opposing StatPassers and Setup Sweepers with Perish Song. Be sure to not accidentally pass the perish count, by the way. Leech Seed is there to go in conjunction with Perish Song to primarily force switches. Recover is optional if setting up boosts with Celebi has been foregone and longevity is of priority instead.
+This EV spread allows Celebi, at full HP, to survive Hidden Power Bug/Flying from Band Dug (HP Bug)/Aero/Mence (HP Flying). It barely survives the highest damage roll from Adamant Band Aero's HP Bug (94%). Feel free to tweak the EVs and nature to your liking otherwise.
+
+Happy Belated Halloween.
+

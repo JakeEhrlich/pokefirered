@@ -1,0 +1,43 @@
+Here’s some cool sets i tried recently:
+
+Mik Gar
+
+Gengar @ Leftovers
+Ability: Levitate
+EVs: 68 HP / 16 Atk / 248 SpD / 176 Spe
+Hasty Nature
+- Will-O-Wisp
+- Thunderbolt
+- Ice Punch
+- Focus Punch
+
+Tired of losing your Gengar to Pursuit Tyranitar? Tired of struggling in the Skarm vs Forre matchup? Tired of constantly double switching your Gengar in and out in fear of it getting trapped? Well fear no more, i welcome you to Mik Gar. This set has built in anti Pursuit Tar tecnology because Focus Punch(71.5 - 84.1%) +Thunderbolt(21.2 - 25.2%) +1layer of Spikes(12.5%) is pretty much guaranteed to kill Pursuit Tar, and even if it somehow lives this set has bulk to live a Crunch on top! I know this may not seem that groundbreaking, at the end of the day it's just a regular Gengar with Focus Punch last instead of Explosion/Taunt, or it could resemble the old Mc Gar with Wow over Sub; but to me true innovation is about the simple things that work(see bkc Tar). If you switch this Gengar on a Forre Rapid Spin all of a sudden they are really in a tough spot, either they risk taking the burn on Forre(often a game losing play) or they risk their Pursuit Tar getting killed by Focus Punch(another game losing play). I know it may seem a 50/50 but remember you are the aggressor and even if you get the prediction wrong you have more chances later, while if they get it wrong one time they lose the game on the spot. Going Blissey on a midground isn’t really going to save them as 1 Spike(12.5%)+ Focus Punch(43.3 - 50.9%) will do a ton and now Blissey is forced into more uncomfortable 50/50s, if you Wow the Blissey on the switch it's even better as you can choose to use Focus Punch as a pseudo Taunt to deny the Softboils recovery while letting the Blissey slowly chipping by the burn. Anyway, i think this set helps a great deal in the Forre matchup making it much more comfortable for the Gengar player. I might be overselling it but if we all together spam Mik Gar we might just send Forre back to the shadow realm where it came from(2018).
+
+Swiss army knife Blissey
+
+Blissey (F) @ Leftovers
+Ability: Natural Cure
+EVs: 252 Def / 252 SpA / 4 Spe
+Modest Nature
+IVs: 0 Atk
+- Soft-Boiled
+- Thunder
+- Blizzard
+- Fire Blast
+
+This isn’t really a groundbreaking set and i don't really know if anyone has ever tried it before, but it's pretty cool: the idea is that on spikeless offense/balance you often need a special wall that denies free spikes from the opponent and doesn’t lose too much momentum. I don’t really enjoy Snorlax on those builds cause it often fails to do both things, regular Bold Stoss Blissey on the other hand it's way too passive especially on a spikeless team. Therefore i came up with this idea, stack all the most powerful special attacks on top of a max special attack Modest Blissey. All of a sudden this thing becomes very threatening especially in denying spikes from Cloy/Forre/Skarm but also against offensive switchins like Breloom and Metagross. Also Blissey generates tons of free turns for herself so the drawback of missing one of those moves is generally minimal. Blizzard is also cool for bulky Beat up Dugtrio. Overall i think this is an interesting set but not for the faint of heart(Altina).
+
+Leech seed +Rain dance Ludicolo
+
+Ludicolo @ Leftovers
+Ability: Swift Swim
+EVs: 76 HP / 92 Def / 252 SpA / 88 Spe
+Modest Nature
+IVs: 0 Atk
+- Rain Dance
+- Surf
+- Ice Beam
+- Leech Seed
+
+This is the set that imo puts Ludicolo above Kingdra in the viability rankings. I don’t even take the credit cause ladder villan starless nights has been championing this Ludicolo for years. Anyway, the idea of this set is that Ludicolo unlike Kingdra has a good defensive tipying and with Leech seed it can be an excellent mid game pivot into common Pokémon like Metagross, Toxic-less Swampert, Toxic-less Suicune and status-less Blissey. Switching in of a Surf(7.1 - 8.7%), Earthquake(21.2 - 25.3%), Seismic Toss( 31.2 - 31.2%),  Meteor Mash(31.8 - 37.8%) and clicking Leech seed allows your team to not fall far behind in the midgame while still mantaining a reasonably healthy sweeper for the late game. I've been trying to fit this mon on spikeless offense/balance teams with mixed results and i’m still experimenting with it so feel free to share what you think is the best fit for this Ludicolo.
+

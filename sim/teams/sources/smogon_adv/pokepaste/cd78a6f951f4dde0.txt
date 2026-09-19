@@ -1,0 +1,57 @@
+Ampharos @ Leftovers  
+Ability: Static  
+EVs: 252 HP / 88 Def / 32 SpA / 120 SpD / 16 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Toxic  
+- Heal Bell  
+
+Kangaskhan (F) @ Leftovers  
+Ability: Early Bird  
+EVs: 160 HP / 252 Atk / 96 Spe  
+Adamant Nature  
+- Return  
+- Focus Punch  
+- Shadow Ball  
+- Substitute  
+
+Tentacruel  
+Ability: Liquid Ooze  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 3 Atk / 30 SpA  
+- Surf  
+- Hidden Power [Electric]  
+- Thief  
+- Rapid Spin  
+
+Lapras @ Leftovers  
+Ability: Shell Armor  
+EVs: 12 HP / 120 Def / 216 SpA / 24 SpD / 136 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Hydro Pump  
+- Ice Beam  
+- Thunderbolt  
+- Substitute  
+
+Golem @ Leftovers  
+Ability: Rock Head  
+EVs: 252 HP / 136 Atk / 16 Def / 104 Spe  
+Adamant Nature  
+- Earthquake  
+- Rock Blast  
+- Focus Punch  
+- Explosion  
+
+Scyther @ Choice Band  
+Ability: Swarm  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Hidden Power [Bug]  
+- Aerial Ace  
+- Double-Edge  
+- Quick Attack  
+

@@ -1,0 +1,23 @@
+xtinaxendrix said:
+
+Magneton @ Magnet / Charcoal
+Ability: Magnet Pull
+EVs: 240 HP / 252 SpA / 16 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA / 30 Spe
+- Thunderbolt
+- Hidden Power [Fire] / Hidden Power [Grass] / Substitute
+- Rest
+- Toxic / Protect / Sunny Day / Sleep Talk / Thunder Wave / Reflect
+
+Click to expand...
+
+I have been trying something similar and I think you need at least RestTalk or SubRest.
+
+The issue with simply using Rest is that Registeel has a strategy to possibly beat Mag. That is, not damaging Mag during sleep so that it can paralyze Mag with TWave on the wake, then fish for full paras to hit a few STosses in a row.
+
+It’s also not ideal to immediately Rest because you need to waste 2 SToss PP for every Rest to fully deplete it. So Registeel doesn’t actually have to chain full paras with STosses that much since you are encouraged to click Rest only after 2 STosses have been drained.
+
+I think you can see how dangerously close I was to getting full para-ed in this game.  (though the monster Registeel set that I faced made it doomed to face anyway...)
+https://replay.pokemonshowdown.com/gen3ou-2649753732-1myrfu7bhd31utjql7k59t71i7twbqcpw
+

@@ -1,5 +1,6 @@
 #if SIM_HARNESS
 #include "global.h"
+#include <string.h>
 #include "gflib.h"
 #include "battle.h"
 #include "battle_anim.h"
@@ -20,6 +21,38 @@
 #include "constants/party_menu.h"
 
 EWRAM_DATA struct SimHarness gSimHarness = {0};
+
+EWRAM_DATA struct SimHarnessShadow gSimHarnessShadow = {0};
+
+void SimHarness_EndOfMainLoop(void)
+{
+    struct SimHarnessShadow *sh = &gSimHarnessShadow;
+    sh->busy = 1;
+    sh->engineRngCalls = gSimHarness.engineRngCalls;
+    sh->otherRngCalls = gSimHarness.otherRngCalls;
+    memcpy(sh->callerRing, gSimHarness.callerRing, sizeof(sh->callerRing));
+    memcpy(sh->battleMons, gBattleMons, sizeof(sh->battleMons));
+    memcpy(sh->statuses3, gStatuses3, sizeof(sh->statuses3));
+    memcpy(sh->sideStatuses, gSideStatuses, sizeof(sh->sideStatuses));
+    memcpy(sh->sideTimers, gSideTimers, sizeof(sh->sideTimers));
+    memcpy(sh->disableStructs, gDisableStructs, sizeof(sh->disableStructs));
+    memcpy(sh->weather, &gBattleWeather, sizeof(sh->weather));
+    memcpy(sh->wishFutureKnock, &gWishFutureKnock, sizeof(sh->wishFutureKnock));
+    memcpy(sh->playerParty, gPlayerParty, sizeof(sh->playerParty));
+    memcpy(sh->enemyParty, gEnemyParty, sizeof(sh->enemyParty));
+    memcpy(sh->battlerPartyIndexes, gBattlerPartyIndexes, sizeof(sh->battlerPartyIndexes));
+    sh->absentBattlerFlags = gAbsentBattlerFlags;
+    sh->battleOutcome = gBattleOutcome;
+    memcpy(sh->battleCommunication, gBattleCommunication, sizeof(sh->battleCommunication));
+    sh->controllerExecFlags = gBattleControllerExecFlags;
+    sh->request = gSimHarness.request;
+    sh->requestBattler = gSimHarness.requestBattler;
+    sh->requestSeq = gSimHarness.requestSeq;
+    sh->state = gSimHarness.state;
+    sh->iters++;
+    sh->busy = 0;
+}
+
 
 // Mirrors sim/src/sim_controller.c: an answer is kept per battler until a request of the same kind consumes it.
 struct HarnessAnswer

@@ -1,0 +1,56 @@
+Lanturn @ Leftovers  
+Ability: Volt Absorb  
+EVs: 4 HP / 84 Def / 252 SpA / 88 SpD / 80 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Thunderbolt  
+- Surf  
+- Ice Beam  
+- Thunder Wave  
+
+Kangaskhan @ Leftovers  
+Ability: Early Bird  
+EVs: 192 HP / 40 Def / 216 SpD / 60 Spe  
+Adamant Nature  
+- Body Slam  
+- Shadow Ball  
+- Wish  
+- Rest  
+
+Arcanine @ Leftovers  
+Ability: Intimidate  
+EVs: 64 HP / 252 SpA / 192 Spe  
+Naive Nature  
+- Fire Blast  
+- Extreme Speed  
+- Hidden Power [Grass]  
+- Overheat  
+
+Vileplume @ Leftovers  
+Ability: Chlorophyll  
+EVs: 252 HP / 196 Def / 60 SpD  
+Impish Nature  
+- Stun Spore  
+- Aromatherapy  
+- Sludge Bomb  
+- Moonlight  
+
+Omastar @ Leftovers  
+Ability: Shell Armor  
+EVs: 252 HP / 156 Def / 92 SpA / 8 Spe  
+Bold Nature  
+IVs: 3 Atk / 30 SpA  
+- Spikes  
+- Surf  
+- Hidden Power [Electric]  
+- Rest  
+
+Solrock @ Leftovers  
+Ability: Levitate  
+EVs: 32 HP / 252 Atk / 224 Spe  
+Adamant Nature  
+- Substitute  
+- Earthquake  
+- Rock Slide  
+- Explosion  
+

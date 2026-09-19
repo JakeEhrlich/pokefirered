@@ -1,0 +1,55 @@
+Glalie @ Never-Melt Ice  
+Ability: Inner Focus  
+EVs: 48 HP / 108 Atk / 76 Def / 24 SpA / 252 Spe  
+Naive Nature  
+- Spikes  
+- Ice Beam  
+- Taunt  
+- Explosion  
+
+Metang @ Leftovers  
+Ability: Clear Body  
+EVs: 148 HP / 252 Atk / 108 Spe  
+Adamant Nature  
+- Agility  
+- Meteor Mash  
+- Earthquake  
+- Explosion  
+
+Wailord @ Leftovers  
+Ability: Water Veil  
+EVs: 24 HP / 216 SpA / 132 SpD / 136 Spe  
+Mild Nature  
+- Hydro Pump  
+- Ice Beam  
+- Hidden Power [Electric]  
+- Self-Destruct  
+
+Pupitar @ Leftovers  
+Ability: Shed Skin  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Dragon Dance  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Bug]  
+
+Bellossom @ Leftovers  
+Ability: Chlorophyll  
+EVs: 136 HP / 252 SpA / 120 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Sunny Day  
+- Solar Beam  
+- Hidden Power [Fire]  
+- Sleep Powder  
+
+Haunter @ Petaya Berry  
+Ability: Levitate  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Hasty Nature  
+- Substitute  
+- Psychic  
+- Thunderbolt  
+- Explosion  
+

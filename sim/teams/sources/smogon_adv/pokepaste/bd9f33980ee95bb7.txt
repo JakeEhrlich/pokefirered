@@ -1,0 +1,54 @@
+Sudowoodo @ Leftovers  
+Ability: Sturdy  
+EVs: 244 HP / 252 Atk / 12 Spe  
+Adamant Nature  
+- Rock Slide  
+- Earthquake  
+- Focus Punch  
+- Explosion  
+
+Haunter @ Salac Berry  
+Ability: Levitate  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+- Thunderbolt  
+- Psychic  
+- Explosion  
+- Endure  
+
+Glalie @ Leftovers  
+Ability: Inner Focus  
+EVs: 252 HP / 32 SpD / 224 Spe  
+Timid Nature  
+- Ice Beam  
+- Light Screen  
+- Spikes  
+- Explosion  
+
+Piloswine @ Leftovers  
+Ability: Oblivious  
+EVs: 44 HP / 252 Atk / 156 SpD / 56 Spe  
+Adamant Nature  
+- Earthquake  
+- Rock Slide  
+- Toxic  
+- Protect  
+
+Torkoal @ Leftovers  
+Ability: White Smoke  
+EVs: 252 HP / 184 SpA / 72 SpD  
+Relaxed Nature  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Explosion  
+- Toxic  
+
+Wailord @ Leftovers  
+Ability: Water Veil  
+EVs: 252 SpA / 108 SpD / 148 Spe  
+Modest Nature  
+- Hydro Pump  
+- Ice Beam  
+- Hidden Power [Electric]  
+- Self-Destruct  
+

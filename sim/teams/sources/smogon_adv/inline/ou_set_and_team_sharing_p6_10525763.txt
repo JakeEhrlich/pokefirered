@@ -1,0 +1,23 @@
+Celdanami said:
+
+Milotic @ Leftovers
+Ability: Marvel Scale
+EVs: 188 HP / 224 SpA / 96 Spe
+Modest Nature
+IVs: 0 Atk
+- Hydro Pump
+- Ice Beam
+- Recover
+- Hypnosis
+
+Offmilo really should be a set in the builder. I'm sure the evs could be finessed even better, but this moveset has been proven to glue together physical offense. Milotic's analysis mentions mirror coat, but none of the 3 alternate moves in this set. We should update both.
+
+Click to expand...
+
+You probably will do the community a service if you could explain
+1) what teams and partners this set fits with
+2) how it is better than defensive milo with the same set (which I've seen roro use before on lax dol offense); the defensive version can switch indefinitely into ttar and avoid 2hko by DDers while still ohkoing mence and 2hkoing ttar anyway.
+3) offcune / resttalk cune, which can avoid 2hko by DDers while also having more offensive potential.
+
+I can see the advantage of a strong ice beam vs zap cel teams but it is not clear to me that it isn't better to just use offcune to target those.  Otherwise, this set seems to be trying to do too many things at once.
+

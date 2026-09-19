@@ -1,0 +1,46 @@
+Wanted to piggyback on McMeghan's post above as a fellow raikou user.  I've been loving lead sub toxic raikou as well on the ladder, this is what I've been using:
+
+Raikou @ Leftovers
+Ability: Pressure
+EVs: 16 HP / 212 SpA / 104 SpD / 176 Spe
+Timid Nature
+IVs: 2 Atk / 30 Def
+- Substitute
+- Toxic
+- Thunderbolt
+- Hidden Power [Ice]
+
+The Hp and SpD guarantee to tank timid zap (and gar's) hits while the SpA guarantee the ohko on 0/0 mence.  I really love running 176 timid as a lot of dugs are running bulk/adamant nowadays meaning they can't outspeed and get two shot.  Lum is an interesting tech too, can also confirm it's awesome alongside beat up dug and a good lax check (utility lax is everywhere on the ladder rn).  Does a similar removal for electric checks that mcmeghan mentioned above.
+
+Also been loving CMrest kou in an offensive support role alongside the loom/pursuit tar combo to get rid of dug.  I've been using this spread that tanks 2 starmie hpumps after sand.  The SpA is for the OHKO on 248HP/44spD pert at +1 as well as giving you a great shot at 2HKOing offensive claydol while tanking its eq (91% to 2HKO 252 hp / 0 dol ).  Speed is for moltres.
+
+Raikou @ Leftovers
+Ability: Pressure
+EVs: 204 HP / 152 SpA / 96 SpD / 56 Spe
+Timid Nature
+IVs: 2 Atk / 30 SpA
+- Thunderbolt
+- Calm Mind
+- Rest
+- Hidden Power [Grass]
+
+The idea is Raikou is naturally fantastic against CM Spam once dug is gone.  By baiting it w Loom, you really can abuse these types of teams w/ kou's natural bulk and potential to switch in and setup alongside cune/rachi (you can beat celebi one v one too w rest).  Also with sand, you do a really good job chipping lax down like zapdos does, as you can tank your opponent's zap, hit the lax coming in w tbolt, then rinse and repeat.  Rest is kinda hard to pull off at times, but if you can remove your opponent's eq users, you can potentially set up an endgame where your opponent can't break you even with hard counters like bliss.  It's also nice for opposing twave zap/jolt in longer games.  I've been experimenting with faster spreads/restTalk ala modest crocune/roar sets, but they've been difficult to get work.
+
+At the moment sub cm is little hard to pull off w kou w/o some support like CM pass celebi, with all the natural checks running around, but if you want to try it, this is what I came up with (since a lot of the old spreads like the ones zf (216 hp / 88 SpA / 44 SpD / 160 Spe) and BKC (208 Hp / 80 SpA / 44 SpD / 176 Spe ) came up with were before pert started running a bit more SpDef):
+
+Raikou @ Leftovers
+Ability: Pressure
+EVs: 176 HP / 8 Def / 148 SpA / 176 Spe
+Timid Nature
+IVs: 2 Atk / 30 SpA
+- Thunderbolt
+- Hidden Power [Grass]
+- Substitute
+- Calm Mind
+
+Here, the hp + defense allows you to tank pert eq after sand, guarantees your sub survives timid zap and gar hits.  You also live meta/mence eq from full (but die to sand half the time).  The spA ohkos standard pert like before and speed gets you past ada dug.
+
+Can confirm that modest max is a beast, but I personally like my raikous to be pretty fat to provide some midgame utility against the super common zap offensive teams we're seeing in the meta.  Raikou can be pretty bulky w investment, so it offers a nice alternative to jolt on spike spam teams that struggle against cm sweepers and have a good matchup against duggy.  It also fits well on the cm spam too, like the great teams McMeghan posted above.  It's not perfect, but considering how far it has fallen, I think it's time for a rethinking of Raikou beyond just a pure sweeper.
+
+Hope everybody has a wonderful day!
+

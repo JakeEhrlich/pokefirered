@@ -1,0 +1,12 @@
+Milotic @ Leftovers
+Ability: Marvel Scale
+EVs: 188 HP / 224 SpA / 96 Spe
+Modest Nature
+IVs: 0 Atk
+- Hydro Pump
+- Ice Beam
+- Recover
+- Hypnosis
+
+Offmilo really should be a set in the builder. I'm sure the evs could be finessed even better, but this moveset has been proven to glue together physical offense. Milotic's analysis mentions mirror coat, but none of the 3 alternate moves in this set. We should update both.
+

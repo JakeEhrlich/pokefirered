@@ -1,0 +1,72 @@
+Mom's Dumptruck said:
+
+hey ho i hit 1800s with another new articuno team, this time with an articuno lead. i am posting to share the team BUT ALSO i am looking to gain some insight and input to futher optimize the team, because i think it has potential but it needs some tweaking to fully realize its potential.
+
+Articuno @ Leftovers
+Ability: Pressure
+EVs: 40 HP / 248 SpA / 220 Spe
+Timid Nature
+IVs: 2 Atk / 30 SpA / 30 Spe
+- Ice Beam
+- Hidden Power [Fire]
+- Toxic
+- Haze
+
+heres what you do vs leads:
+
+ice beam ice beam ice beam. if they DD, haze. if after 1st DD they DD again u got rid of their boosts. if after 1st DD they click slide, or if they slide turn 1, u outspeed with dug and kill 100% of the time with ice beam chip. sometimes they try to be cute with it and click focus punch. sometimes they click pursuit. sometimes they think youre not staying in and switch to skarm. either way somethings getting stung with stab ice beam with a chance to freeze.
+
+hp fire hp fire hp fire. if they mash, they kill; bring in dug for the revenge. if they mash and miss, hp fire again. if they agil, uh oh, go suicune and surf them down. although idk who leads lead agil gross but it has happened before.
+
+getting rid of tar and meta enables a jirachi sweep, so trading cuno for them is a worthy trade.
+
+ice beam once, then switch to jira and start pressuring with tbolt. we switch to jira after first ice beam to not eat a toxic.
+
+i go back and forth on what to do with zapdos leads. cuno tanks one tbolt from all zapdos sets with the given investments, and u can snap back with an ice beam that brings zapdos into the red. this enables cune, but youre also down a ground immune. if youre running heal bell on the cuno, i think you should just switch to dol t1.
+
+toxic if u have it, otherwise go jira, match a boost, then trade down with tbolt.
+
+sometimes u outspeed and kill with ice beam, sometimes they outspeed and u drop to rock slide. up to you if you wanna take the risk. usually i just switch to dol or cune, the risk just isnt worth it.
+
+click toxic if u have it, otherwise just hp fire. if their lovely kiss misses then their jynx is compromised; if kiss lands then go tar and trade. we dont mind sand being cleared if they bring in dug for revenge, so whatevs.
+
+so heres the section where i paste the team. imma post two versions, the one that got me to 1804, and the one that i think is more consistent.
+
+Mom's Incredibly Lovely Face (1804 elo)
+
+looking back idk how Mom's Incredibly Lovely Face got to 1800s, the moment Cune gets chipped too much it autoloses to Charizard, Aero, Mence, and certain JoltSpikes structures. and chipping the cune is hella easy cuz we dont have a reliable way to get rid of spinblockers with this team. so idk, maybe i was just running into some good matchups. it also insta loses to Snorlax. regardless heres proof that i hit 1804 with that team:
+
+1800s Game
+
+and since that one i won cuz of timer (although i was looking favored anyway) ill post the one before it with me winning legit:
+
+1792 Game
+
+Mom's Incandescent Luminous Flashlight (more consistent)
+
+Mom's Incandescent Luminous Flashlight gets rid of the Gengar and Snorlax problem with suit brick break tar. getting rid of gar means we spin more reliably, and thus cune functions better as a wall. it does mean we are ground weak, and given the trade heavy nature of articuno theres times where we have to keep claydol (or articuno if you preserved it) alive no matter what to prevent stuff like opponent locking into eq with cb aero. anyway i do think this team is more consistent, but i didnt get to 1800s with it, so who knows, maybe its worse.
+
+i would love to get some feedback on how i can workshop this team improve it. or i would love to see how other, better, smarter players can utilize the lead articuno concept, which i do think has potential. as is i think the team has consistency issues and is possibly just a few tweaks away from being actually legitimately good.
+
+anyway lead articuno is now officially known as Momicuno (or Mommycuno if you wanna be FREAKY with it). shoutouts to all the moms out there with Incredibly Lovely Faces, which should be all of them. unless you were a terrible parent, in which case fuck you. and shoutouts to all the moms with Incandescent Luminous Flashlights; you light up, my darkest nights.
+
+Click to expand...
+
+Here are my thoughts. I’m just theorizing here - these might not work in practice so test them out.
+
+Glalie over Articuno - if your goal is to suicide into tar and meta, doesn’t glalie accomplish the same thing? Boom helps set dug up for a trap more easily, and so does the one spike you’ll occasionally set up.
+
+Baton pass over hp grass on Celebi - I like how celebi pressures things into dug range with leech seed. Why not expand on that and try to set up dug traps more reliably? Grass doesn’t feel necessary here since you have other methods of pressuring ttar, and you can just bp into your own dug against other dugtrio. I guess starmie is problematic, though.
+
+Zapdos over Articuno - this will make your team play differently of course, but I think having another option to check special attackers like zard zap and mie will really help the team out. I like using 2 special checks on every team in general, even blissey teams. Your team has some awkward pacing because you start really aggressive trading 1 for 1 and then settle into a stall game. If the trade doesn’t work out, articuno is kinda just a sitting duck that won’t hit the field again. Glalie addresses this by playing proactively; zapdos addresses this by being more useful as a pivot and checking more things defensively.
+
+Blissey over Celebi - probably too lax weak, but it’ll help your offmie woes. Something to think about.
+
+Roar on Suicune - this will help you against lax and does well enough vs mence. Will help you against boost sweepers in general. I think it’s an upgrade, but maybe I’m wrong.
+
+As far as optimizing these exact 6 mons, I think you’re mostly there outside of potential tweaks to cune and celebi I recommended above. Heal bell is probably worth considering over toxic on articuno, but I like the offensive evs and lead lines as they are.
+
+I think the tar version is not good. Too weak to zapdos and offensive waters for a team that wants to play slowly.
+
+Just a few things to think about. Hope this helped you in some way!
+

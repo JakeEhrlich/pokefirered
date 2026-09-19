@@ -18,7 +18,7 @@ def load_defines(path, prefix, exclude=()):
     rx = re.compile(r'^#define\s+(%s\w+)\s+(\d+)\s*$' % prefix)
     for line in open(path):
         m = rx.match(line)
-        if m and not any(x in m.group(1) for x in exclude):
+        if m and not any(m.group(1).endswith(x) for x in exclude):  # MOVES_COUNT, not MOVE_COUNTER
             out[m.group(1)[len(prefix):]] = int(m.group(2))
     return out
 
@@ -26,7 +26,8 @@ def load_defines(path, prefix, exclude=()):
 def tables():
     t = {}
     t['species'] = load_defines(os.path.join(REPO, 'include/constants/species.h'), 'SPECIES_', ('_COUNT',))
-    t['species'] = {k: v for k, v in t['species'].items() if not k.startswith('UNOWN_') and k != 'OLD_UNOWN_B' or k == 'UNOWN'}
+    # ids 1..411 are encodable (SPECIES_EGG = 412); the UNOWN_B.. letter forms are aliases above that range
+    t['species'] = {k: v for k, v in t['species'].items() if 0 < v < 412}
     t['moves'] = load_defines(os.path.join(REPO, 'include/constants/moves.h'), 'MOVE_', ('_COUNT',))
     t['items'] = load_defines(os.path.join(REPO, 'include/constants/items.h'), 'ITEM_', ('_COUNT',))
     t['abilities'] = load_defines(os.path.join(REPO, 'include/constants/abilities.h'), 'ABILITY_', ('_COUNT',))

@@ -1,0 +1,57 @@
+Arcanine @ Charcoal  
+Ability: Intimidate  
+EVs: 16 Def / 252 SpA / 240 Spe  
+Modest Nature  
+IVs: 30 HP / 30 SpA  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Extreme Speed  
+- Overheat  
+
+Granbull @ Leftovers  
+Ability: Intimidate  
+Happiness: 0  
+EVs: 252 HP / 40 Atk / 164 Def / 52 Spe  
+Adamant Nature  
+- Body Slam  
+- Shadow Ball  
+- Focus Punch  
+- Heal Bell  
+
+Kangaskhan (F) @ Leftovers  
+Ability: Early Bird  
+EVs: 252 HP / 24 Atk / 216 SpD / 16 Spe  
+Adamant Nature  
+- Double-Edge  
+- Wish  
+- Earthquake  
+- Rest  
+
+Qwilfish @ Leftovers  
+Ability: Swift Swim  
+EVs: 252 HP / 40 SpD / 216 Spe  
+Hasty Nature  
+- Spikes  
+- Thunder Wave  
+- Self-Destruct  
+- Hidden Power [Grass]  
+
+Blastoise @ Leftovers  
+Ability: Torrent  
+EVs: 252 HP / 32 Atk / 164 Def / 60 SpA  
+Relaxed Nature  
+- Surf  
+- Focus Punch  
+- Roar  
+- Rapid Spin  
+
+Lanturn @ Leftovers  
+Ability: Volt Absorb  
+EVs: 52 HP / 80 Def / 228 SpA / 28 SpD / 120 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Thunderbolt  
+- Surf  
+- Thunder Wave  
+- Ice Beam  
+

@@ -1,0 +1,53 @@
+Skarmory (M) @ Leftovers
+Ability: Keen Eye
+EVs: 252 HP / 252 SDef / 4 Spd
+Impish Nature (+Def, -SAtk)
+- Rest
+- Sleep Talk
+- Spikes
+- Whirlwind
+
+Gengar (M) @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 44 Def / 128 SDef / 84 Spd
+Timid Nature (+Spd, -Atk)
+- Giga Drain
+- Taunt
+- Thunderbolt
+- Will-O-Wisp
+
+Donphan (M) @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 4 Atk / 252 Def
+Impish Nature (+Def, -SAtk)
+- Earthquake
+- Protect
+- Rapid Spin
+- Toxic
+
+Tyranitar (M) @ Leftovers
+Ability: Sand Stream
+EVs: 216 HP / 4 Def / 252 SAtk / 16 SDef / 20 Spd
+Modest Nature (+SAtk, -Atk)
+- Crunch
+- Flamethrower
+- Roar
+- Pursuit
+
+Blissey (F) @ Leftovers
+Ability: Natural Cure
+EVs: 252 Def / 252 SAtk / 4 Spd
+Bold Nature (+Def, -Atk)
+- Seismic Toss
+- Ice Beam
+- Toxic
+- Soft-Boiled
+
+Suicune @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 240 Def / 8 SDef / 8 Spd
+Bold Nature (+Def, -Atk)
+- Surf
+- Roar
+- Rest
+- Sleep Talk

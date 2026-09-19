@@ -1,0 +1,187 @@
+Welcome to Linear Dump 2! First of all, thank you for the awesome positive feedback; it’s incredibly heart-warming. Also a big thank you to everyone who has shared their insights in this thread.
+
+Since my last post, the metagame has shifted, and I have also become more unique as a player. Expect my current builder to look very different!
+
+Pastebin Files
+Like last time, I have included the import list of set spreads for the damage calc. I admit they are not the most precise, but I have tinkered with things a little. Maybe this will be useful.
+
+Also, I am aware that my builder contains a lot of rubbish. So this time, to assist the lesser experienced ADVers, I’ve included a filter of teams I think are reliable enough to be used competitively.
+
+Set Import: https://pastebin.com/raw/ubq1NEVR
+Entire teambuilder: https://pastebin.com/raw/tUytkX29
+Teams from builder that I think are more viable than the rest: https://pastebin.com/raw/QbwUxw0P
+
+Sets I Like to Use
+
+Claydol @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 112 Def / 128 SpD / 16 Spe
+Sassy Nature
+- Refresh /Explosion
+- Rapid Spin
+- Earthquake
+- Psychic
+
+Nothing new here. I dislike TurboDols and have switched back to the old Sp Def spread. The physical defence guarantees avoiding the 2KO from Aero DE, and SpDef is really pumped up to soak up Gengar/Electric hits and also eat hydros in a pinch. I feel like this set gives me more utility out of Dol.
+
+Dugtrio @ Choice Band
+Ability: Arena Trap
+EVs: 244 Atk / 156 SpD / 108 Spe
+Jolly Nature
+IVs: 30 SpD / 30 Spe
+- Earthquake
+- Beat Up
+- Hidden Power [Bug]
+- Aerial Ace
+
+Sp Def Dug is extremely dangerous. It will always beat Bliss 1v1, since Beat Up will 2ko and Dugtrio will not be OHKOd by anything Bliss can do back. Sp Def Dug is a great special offence enabler, and the fact that he exists means that Skarm/Water --> Bliss switch t1 against Zap is punishable by death. Since the speed is now much slower, Sp Def Dug will need additional team support to check +1 Jolly DDTar and Starmie.
+
+*
+Important detail: when you use Beat Up, it reveals the names of all of your mons. For this reason, you should always randomise nicknames so that when you click Beat Up your team is not revealed. A logical extension of this is to randomise your nicknames on every team, to avoid revealing whether or not you have Beat Up. Sometimes I’m too lazy to do this for ladder, but for important tour games I will always randomise nicknames.
+*
+
+Jirachi @ Leftovers
+Ability: Serene Grace
+EVs: 248 HP / 44 Atk / 68 Def / 148 SpD
+Sassy Nature
+- Body Slam
+- Fire Punch/Thunder
+- Hidden Power [Fighting]
+- Wish
+
+Jirachi @ Leftovers
+Ability: Serene Grace
+EVs: 248 HP / 68 Def / 148 SpD / 44 Spe
+Sassy Nature
+- Body Slam
+- Fire Punch
+- Hidden Power [Grass]
+- Wish
+
+SpDef Tect Jira has always been great glue to slap on teams. One recent tech (thank you Hclat for showing me this) is swapping out protect for an extra Hidden Power coverage move: either fighting or grass. This sacrifices walling power in exchange for being a better interim check to Tyranitar. This is really important on Zapdos teams without Swampert that really appreciate the soft pivot.
+
+I am aware that –speed Jirachi really appreciates speed creep, to 220+ to guarantee outspeed neutral natured Swampert and Tyranitar. However, the Att EVs on HP fight are really important for damage rolls, and I still want to hit the bulk benchmarks. Perhaps some SpDef can be sacrificed for additional speed. I am not sure what is the best EV spread tbh.
+
+Registeel @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 88 Def / 168 SpD
+Careful Nature
+- Seismic Toss
+- Thunder Wave
+- Counter
+- Explosion/Rest
+
+Registeel has titanic defences and a nice supportive movepool. It’s surprisingly resilient. Roro featured a Curse+Boom set in his excellent post, this one is mine.
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 248 HP / 228 SpD / 32 Spe
+Calm Nature
+- Thunderbolt
+- Hidden Power [Ice] / Hidden Power [Grass]
+- Thunder Wave
+- Baton Pass
+
+Last year I almost exclusively ran Timid Max Speed Zapdos. This year I’ve changed to almost always running bulky slowpass Zapdos. This is nothing new, but only now I've started really appreciating it. I love how it can sponge hits and pivot in threats on bulky offences. The above is a standard Sp Def spread (EVs can be moved from SpD to Def to help against Rock Slide rolls; EVs can be moved to speed to creep up to 252 for a nice benchmark to outspeed Timid Vaporeon and Max Adamant Claydol).
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 248 HP / 108 Def / 20 SpA / 100 SpD / 32 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Thunderbolt
+- Hidden Power [Grass]
+- Agility
+- Baton Pass
+
+This is an alternate Zapdos spread that I have also enjoyed using. The Phys Def bulk guarantees survival against Aero RS (minus crit/flinch of course), which is really important on the kinds of teams I want to run AgiliPass on.
+
+Heracross @ Leftovers
+Ability: Guts
+EVs: 144 HP / 180 SpD / 184 Spe
+Adamant Nature
+- Megahorn
+- Rock Slide
+- Sleep Talk / Hidden Power [Ghost]
+- Focus Punch
+
+My Hera set that uses Hera to break/soft pivot rather than to endgame sweep. I speed creep to 252 (importance mentioned above); Adamant; and throw the rest in bulk. It eats random hits really well. The fourth move is flexible: sleep talk lets it absorb sleep to activate Guts, which is fantastic in the current Breloom fad.
+
+Hariyama @ Leftovers
+Ability: Guts
+EVs: 224 Atk / 252 Def / 32 Spe
+Adamant Nature
+IVs: 30 SpD / 30 Spe
+- Cross Chop
+- Rock Slide
+- Hidden Power [Bug]
+- Focus Punch
+
+While Hariyama has been traditionally used as a Thick Fat hyperstall mon, I was inspired by Asta to experiment with Yama’s nasty offensive options.
+
+Let’s observe some of Yama’s features to compare it with other fighting types:
+
+Hariyama has access to Guts, so it’s not terrified of Gengar
+
+Hariyama is very, very fat. It handles Snorlax better than the other fighting types, and also manhandles Blissey since it doesn’t mind Seismic Tosses at all.
+
+Surprise value (?) Maybe not anymore … At least there is always a possible threat of Knock Off.
+
+My moveset maximises coverage. Focus Punch takes full advantage of Yama forcing switches from Tar/Bliss/Lax. Even when resisted it does big damage. Rock Slide deals respectable chip to Zap/Mence/Gar.
+
+My EVs are very basic. I speed creep a little to outspeed 0- speed Pert, maximise Phys Def and maximise attack. It easily lives HP Fly from Aero and lives CB HP Fly from Jolly CBMence 30% of the time. Perhaps somebody more nuanced than me can find better bulk benchmarks for Offyama.
+
+General Team Archetype Opinions + Self Rating of Teams
+
+BulkyDol Balance
+I don’t like these as much as I used to. I feel like they really struggle against a well-played Skarmory; I hate being forced out 1v1 by Skarm; and the teams almost always lack significant counterplay against CelePass and also late game DDTar.
+Self-assessment of my BulkyDol teams: 4/10
+
+RecoverMie Balance
+BULKYMIE IS THE NEW (OLD?) META. Phys Gross + Recover Mie + Bliss is an awesome defensive backbone. Mana came up with a beautiful 6 with Medicham. My original spin on the core is with Gengar and bulky hera. The teams in general are late game DDTar weak; and some variants get demolished by Ninjask pass :(
+Self-assessment of my RecoverMie teams: 7/10
+
+Cloy
+I’m not super keen on Cloy atm. I think my Cloy teams are satisfactory. Hclat has a really nice CloyJolt team.
+Self-assessment of my Cloy teams: 5/10
+
+Jolteon
+I hate these now! I haven’t used Jolteon in tours in a long time, and every time I ladder with it I also struggle.
+
+BulkyMag Balance
+Devoting a slot to Skarm removal when Skarm usage is at a relative low is not optimal. For the most part. they are passive and have very little counterplay against CelePass. I also feel that they are too reliant on keeping the bulky water safe from Gross explosion.
+Self-assessment of my BulkyMag teams: 2/10
+
+Forre
+I hated on this last year, but I’ve changed my mind again. Forre can be fantastic and no team should be Forre weak. My Forre teams are very good. I’ve come up with some new Forre ideas in my recent builder.
+Self-assessment of my Forre teams: 10/10
+
+MagOff
+They were especially awful in my previous post: many of them were melted by Molt, and almost all of them got bopped by 1 spike +special sweeper. This time, I feel like my SD Cele and S O L R O C K are viable.
+Self-assessment of my MagOff teams: 6/10
+
+SkarmBliss
+My SkarmBliss teams are pretty uninspiring. I've really struggled to find a Skarm team I feel comfortable with in the current metagame. Without a spinner I suffer against opposing spikes. With a spinner there are like maximum of 1.8 viable teams :/
+Self-assessment of my SkarmBliss teams: 4/10
+
+SkarmMag
+Sharing problems with above, goodbye. Losing to non-forre spinners is not worth the trouble. Also hard to fit in a fighting check and still be functional against Mixed Attackers.
+Self-assessment of my SkarmMag teams: 2/10
+
+SkarmRachi
+Jirachi compresses roles well to free up a slot for better Offensive and Defensive coverage compared to SkarmBliss.
+Self-assessment of my SkarmBliss teams: 5/10
+
+Special Spam
+I hadn’t really explored this archetype before this year. Recently, SpDef dug (thank you BKC for showing this to me – btw subscribe to his Youtube Channel, its amazing) has given this stuff new life. Zap Dug is extremely reliable and has no terrible match ups. (also sidenote: I've randomly slapped Roar on a few Perts to not die to Ninjask pass that can set up on Dug)
+Self-assessment of my Dug Offence teams: 7/10
+
+Spikeless Offence
+A lot of these are dead to bulky teams with Dug; dead to Milo; bullied by Tect Skarm. I hate almost all of my Spikeless Offence teams from last dump. This time they are OK, mostly because I like how Yama brings the team together.
+Self-assessment of my Spikeless Offence teams: 6/10
+
+Closing Words
+I love our ADV community, and I love how much bigger it has grown.
+
+Special thank you to dear Altina. I could not have achieved my recent tournament success without your constant support and testing.
+

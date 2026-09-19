@@ -1,0 +1,45 @@
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+- Dragon Dance  
+- Focus Punch  
+- Rock Slide  
+- Earthquake  
+
+Salamence @ Choice Band  
+Ability: Intimidate  
+- Hidden Power [Flying]  
+- Earthquake  
+- Rock Slide  
+- Roar  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+IVs: 0 Atk  
+- Seismic Toss  
+- Ice Beam  
+- Aromatherapy  
+- Soft-Boiled  
+
+Jirachi @ Leftovers  
+Ability: Serene Grace  
+IVs: 0 Atk  
+- Fire Punch  
+- Toxic  
+- Wish  
+- Protect  
+
+Claydol @ Leftovers  
+Ability: Levitate  
+- Earthquake  
+- Psychic  
+- Rock Slide  
+- Explosion  
+
+Milotic @ Leftovers  
+Ability: Marvel Scale  
+IVs: 0 Atk  
+- Surf  
+- Toxic  
+- Hypnosis  
+- Recover  
+

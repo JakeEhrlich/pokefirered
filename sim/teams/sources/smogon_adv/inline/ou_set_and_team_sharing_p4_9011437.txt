@@ -1,0 +1,164 @@
+Thought I'd follow up on mikmer's post w my own CI teams and some cool sets I used. Big shout out to Endill, eden, SuperEpicAmpharos, RealJester, undisputed, Ophion, and all the others who helped test and build with me throughout CI. Shout to callous for hosting as well and ggs to all my opponents. All long form thoughts are on Callous's videos (will add some insight to my 2nd set w hclat (rip) when it comes out)
+
+R1 V roro:
+g1: https://pokepast.es/d258faeebb4a4541 (please note, don't use this team in its current form, run enough dug speed for dd tar)
+g2: https://pokepast.es/39d02b2b51aef76d
+g3: https://pokepast.es/a9e44a33dd14d3b6
+
+r2 v pasy:
+g1: https://pokepast.es/ef76ba52615fd75e
+g2: https://pokepast.es/8258da56f75ef01b
+g3: https://pokepast.es/11401f306ca27221
+
+r4 v hclat 1st time:
+g1: https://pokepast.es/6cfb64f9310586b2
+g2: https://pokepast.es/bd0567ff48d573c2
+bonus g3: https://pokepast.es/7abd2f87bb042e71
+
+r5 v soulwind:
+g1: https://pokepast.es/36f94f76e1d512d5
+g2: https://pokepast.es/a7ed1eb6a8d5587b
+there was no g3 team, but prob would be this: https://pokepast.es/bd87a4c47c76fa33
+
+r6 v endill:
+g1: https://pokepast.es/9421b991b8adfb5e
+g2: https://pokepast.es/f4010f97432d9d18
+bonus g3 team: https://pokepast.es/b48561896ded99c4
+
+r7 v hclat:
+g1: https://pokepast.es/a51b46a658306e6c
+g2: https://pokepast.es/fe60305b8f580f2b
+g3: https://pokepast.es/1654ff74c05d89f1
+
+Some cool sets I used:
+
+great f a i r y (Zapdos) @ Leftovers
+Ability: Pressure
+EVs: 248 HP / 180 SpD / 80 Spe
+Timid Nature
+IVs: 2 Atk / 30 SpA
+- Thunderbolt
+- Substitute
+- Hidden Power [Grass]
+- Baton Pass
+
+Feel like speed investment should be the standard on sub zap, so you can potentially set up on other zap. Hp grass can really be anything, could be ice, roro used toxic which i like.
+
+best skarm remover (Metagross) @ Leftovers
+Ability: Clear Body
+Shiny: Yes
+EVs: 168 HP / 252 Atk / 16 Def / 12 SpA / 60 Spe
+Naughty Nature
+- Meteor Mash
+- Earthquake
+- Hidden Power [Grass]
+- Explosion
+
+Feel like Grass meta is due for a comeback. Just really effective in punishing teams when skarm is down,
+
+esx w/o touching (Gengar) @ Leftovers
+Ability: Levitate
+EVs: 248 HP / 8 Def / 60 SpD / 192 Spe
+Timid Nature
+IVs: 0 Atk
+- Will-O-Wisp
+- Taunt
+- Thunderbolt
+- Destiny Bond
+
++
+
+ArmyOfME (Tyranitar) @ Leftovers
+Ability: Sand Stream
+Shiny: Yes
+EVs: 192 HP / 64 Atk / 252 Spe
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Focus Punch
+- Dragon Dance
+
+This combo failed me in some games, but it really is a nice way to spice up your tss. You have gar to punish the waters and bliss w taunt + wow, then you have dd focus to have your cake and eat it too w aggressive predictions w focus to make progress and late game cleaning w dd. shout out linear, the first person i saw use the dd focus tar, could have been someone else. Edit: vapicuno told me it was him :)
+
+BAD PLAYER POLICE (Zapdos) @ Leftovers
+Ability: Pressure
+EVs: 248 HP / 216 SpD / 44 Spe
+Calm Nature
+IVs: 0 Atk
+- Thunderbolt
+- Roar
+- Rest
+- Sleep Talk
+
+Feel like resttalk is the new (old?) way to go on defensive zap. Having that longevity and resttalk roar is so nice to spread damage, when your luck works out for you. Just don't rely on it as your only special check.
+
+ParanoidAndroid8 (Forretress) @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 4 Atk / 252 SpD
+Careful Nature
+- Hidden Power [Ghost]
+- Explosion
+- Counter
+- Spikes
+
+Feel like this is the new wave for forre sets. 3 attacks + Spikes really lets you get the most out of it i think in today's meta
+
+Jirachi @ Choice Band
+Ability: Serene Grace
+EVs: 252 Atk / 100 SpA / 156 Spe
+Naughty Nature
+- Doom Desire
+- Fire Punch
+- Hidden Power [Fighting]
+- Body Slam
+
+CB rachi certainly wasn't unheard of, but I think fire punch is a great addition to it. Helps fake the mix set against skarm so you can pop off w the hp fight against the tar or doom desire on bliss. sorry everyone who wanted to see doom desire in my sw game
+
+birdo (Zapdos) @ Lum Berry
+Ability: Pressure
+EVs: 252 Atk / 12 SpA / 244 Spe
+Lonely Nature
+- Thunderbolt
+- Drill Peck
+- Hidden Power [Fighting]
+- Thunder Wave
+
+Lum zap is really cool tech that lets you get the jump on all zap leads, as you take the para and para them back or easily take the attack. shoutout eden for the idea
+
+Salamence @ Leftovers
+Ability: Intimidate
+EVs: 120 HP / 72 Atk / 200 SpD / 116 Spe
+Adamant Nature
+IVs: 30 SpA / 30 SpD / 30 Spe
+- Hidden Power [Flying]
+- Brick Break
+- Dragon Dance
+- Refresh
+
+My take on the dd refresh mence. THink the team I used it on needs soem work but i like these evs on it. Similar to hclat's benchmarks but now you outspeed aero
+
+luigi (Smeargle) @ Salac Berry
+Ability: Own Tempo
+Shiny: Yes
+EVs: 80 HP / 176 SpD / 252 Spe
+Jolly Nature
+IVs: 0 Atk
+- Spore
+- Spikes
+- Will-O-Wisp
+- Whirlwind
+
+Feel like boom is not at all necessary on smeargle (although it can be nice). Getting that wow off on a dol or other switch in to spikes is so nice to get. Whirlwind is nice in general to catch people switching on your boom or other sacrifice.
+
+2 (Celebi) @ Leftovers
+Ability: Natural Cure
+EVs: 248 HP / 36 Def / 72 SpA / 152 Spe
+Modest Nature
+IVs: 0 Atk
+- Leech Seed
+- Psychic
+- Giga Drain
+- Calm Mind
+
+Please use this celebi on your mag offense, you won't be disappointed. Snowballs against fat teams like little else
+

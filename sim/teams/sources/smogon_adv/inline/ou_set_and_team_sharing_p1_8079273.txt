@@ -1,0 +1,113 @@
+As promised I'll drop some knowledge for u lucky souls now that I'm home.
+
+As per request of the adv ladder night mafia, I'm holding my full guide to both major baton pass teams in the tier hostage until after the Smogon Blassic, sorry @fairygen players that were looking for some free dubs.
+
+sub then spore then drum then pass x
+
+_________________________________________________________________________
+
+Lemme start off with what I'm probably known best for: physspam.
+"Stockings might be a scary opponent if he didn't only play physspam and bellypass." - G(host lol mongo don't get caught)OATNinjax
+
+Physspam is a subcategory of spikeless (normally) offense which linear has already covered, however it's a big enough style on it's own for me to consider doing a separate writeup on it as a whole (despite linear's small paragraph being primarily aimed towards it.). Physspam is an ever-present offensive archetype that typically has very even to good board matchups, with some bad matchups and rarely has awful ones.
+The archetype is categorised and named due to its reliance on cores utilising a powerful physically offensive presence, usually using 4-6 of the mons I've listed above. Due to the nature of how these teams are built they are very often able to have a solid gameplan against any lineup of 6 and always have the potential to make room for powerful reads and swings in tempo.
+I agree with linear in that often spike electric teams such as the typical jolt spikes balances/offenses are almost always a difficult matchup. However, I believe that they are definitely not unwinnable and often a good offensive callout can lead to a massive advantage vs these types of team. Teams with dug+multiple phys checks are also a bad matchup, and are much less easy to get ahead on off of strong offensive reads, dealing with these teams more often comes down to getting ahead in the builder rather than in game.
+
+If you are comfortable in playing with an aggressive playstyle where you have to control the tempo of the game and take risks both in game and in builder then I don't think there is a problem with using physspam in the current 'fast' meta, however it may not be a common choice among those who prefer longer games with minimal matchup worries.
+
+Here are some examples of the archetype, the first being an example of a traditional physspam from Triangles(?), the second being a more modern variant from me:
+
+https://pokepast.es/a37f7137af0973f4-
+https://pokepast.es/47646faa9ccc9268
+
+_________________________________________________________________________
+
+CMspam is a rarer one, but still something I'd like to cover.
+"For when beating Blissey is overrated." - Big Kevin Crocune
+
+CMspam is a very love/hate type of team, as in Golden Sun loves it and every other adv player hates it. Jokes aside, CMspam is a subcategory of special offense that has seen better days. It has a few very polarizing matchups, making it less than ideal for players wishing for consistency.
+CMspam is named and identified in game by having multiple calm mind sweepers/breakers, almost always dug (usually adamant as it is primarily for trapping fat, slow mons as opposed to revenge killing threats), and lures or counters to common fat shit. CMspam is usually built in a hyper offensive way relying on not only a decent matchup but also fast and strong early game pressure to force out common special walls (bliss, lax) to clear them and end the game fast, as these teams often can't survive in a long game. These teams often make use of CM+ baton pass to maintain tempo and perform a lot of wee tricks (cm to dug on bliss is especially cute.)
+CMspam's place in the meta in the past few years has been very shaky and it is most often brought to tour games by someone prepping for a specific playstyle, it is a very high ceiling archetype and is always responsible for some of the most brutal wins in every tour, however as high as it's ceiling is, it has an equally low floor and this should always be kept in mind when you wish to bring it to tour. in my opinion, possibly the worst matchup in modern adv is standard cmspam vs double normal fat shit, do not bring it if you expect to see this.
+
+If you're fine with having games decided one way or the other at the builder, are looking for an incredibly fast game regardless of winner or are comfortable in the fact that your opponent wont bring one of the more terrible matchups then it's a fine choice to bring, however I feel that it's relative disadvantage against a majority of common styles in the meta make it a bad archetype to bring without solid reasoning.
+
+The first example I've provided is the most standard CMspam lineup and is what you should expect from the archetype, the second example is from linear's dump but has endsalac tar over p2 and has slight changes to the rest of the spreads/sets.
+
+https://pokepast.es/e41f6b1a51d29f6b-
+https://pokepast.es/e5e37d8d1f9dea7d
+
+_________________________________________________________________________
+
+I'll go over more archetypes in the future, but I'm short on time, so I want to go over some underrated mons that I believe have either untapped potential or a genuine spot in the current meta.
+
+_________________________________________________________________________
+
+Jumpluff
+
+J (Jumpluff) @ Leftovers
+Ability: Chlorophyll
+Shiny: Yes
+EVs: 56 Def / 200 SpD / 252 Spe or EVs: 140 Atk / 56 Def / 60 SpD / 252 Spe
+Jolly Nature
+- Encore or Hidden Power Flying
+- Leech Seed
+- Substitute
+- Sleep Powder
+
+Right so this little pink FUCK is the biggest thing I want to talk about here, in the past couple weeks since returning I've brought it up multiple times on discord to various folk. So, in theory it beats every mon slower than itself 1v1, which is cute, but it's not important, what's important is that it has access to the most powerful status in adv and is INCREDIBLE at forcing multiple switches, which is absurdly good on teams that can reliably control spikes. Due to this, in the late-endgame this mon has so much power and can seal games on it's own.
+The second set kills hera and loom, cute.
+
+UD actually used this in Callous Cup: https://replay.pokemonshowdown.com/smogtours-gen3ou-389687
+
+Lunatone
+
+L (Lunatone) @ Leftovers
+Ability: Levitate
+Shiny: Yes
+EVs: 252 HP / 236 Def / 20 Spe
+Bold Nature
+- Baton Pass
+- Calm Mind
+- Ice Beam
+- Hypnosis
+
+Lunatone is a very interesting mon that I could see being potentially very good on fatter special offenses, it comes in very freely on a lot of physical threats, sleeps something on the switch (88% of the time uhhhhh), and makes your fat special mons hit like offensive mons with ease, allowing you to open up many teams (think zap, regice). It also passes +1 spd to dug to kill bliss?
+Passing to bulky tar/gross is very good too.
+
+Mainly basing this evaluation off of this old Smurf team that I really enjoy using on ladder: https://pokepast.es/4bc1bbff5e82a364
+
+Breloom
+
+B (Breloom) @ Leftovers
+Ability: Effect Spore
+Shiny: Yes
+EVs: 52 HP / 252 Atk / 204 Spe
+Adamant Nature
+- Spore
+- Stun Spore
+- Focus Punch or Sky Uppercut or Brick Break
+- Hidden Power Ghost or Hidden Power Bug or Substitute
+
+So loom is nothing new and is especially hot right now but I really want to bring up this specific set from infamous online pokemon presence Piexplode/Disaster Area. Now I of all people know how much and how often Piex's techs miss but by GOD this one hit. On offensive teams this set is incredible for crippling your opponents gameplan, I've never seen something more consistently para gar. I really recommend trying this one out.
+
+Armaldo
+
+A (Armaldo) @ Leftovers
+Ability: Battle Armor
+Shiny: Yes
+EVs: 248 HP / 252 SpD / 8 Spe
+Careful Nature
+- Seismic Toss
+- Knock Off
+- Harden
+- Rest
+
+big up to Astamatitos for creating this goatly set x
+
+LADDER NIGHT MAFIA FUCK WHAT U HEARD
+Word to the all the ladder night gang on this one, Armaldo is a very interesting mon that has access to a move that got done DIRTY in adv (knock), it's really powerful against fatter teams and is possibly the best lax counter in the game, knock utility is amazing even if it does 0 (zero) damage. In an ideal scenario, knock can turn sand into a completely one-sided hazard, which is amazing. it removes bands and berries to cripple offenses and it walls various physical attackers solidly.
+
+_________________________________________________________________________
+
+Not quite what I promised as I'm short on time today, I'll dive into more archetype overviews tomorrow and bring up some more meta relevant spreads and overall meta discussion tomorrow as long as I'm not busy.
+

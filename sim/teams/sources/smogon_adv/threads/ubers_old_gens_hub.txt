@@ -1,0 +1,3912 @@
+### post 9462699 author=Lasen url=https://www.smogon.com/forums/threads/ubers-old-gens-hub.3714123/#post-9462699
+Art by Blazenix
+Welcome to the Ubers Old Gens Hub. This thread contains resources for the older generations of Ubers (Generations 1-8). Each post will contain the respective Viability Rankings, a selection of sample teams to get started with, and a helpful list of the important mechanics specific to each old generation and how the mechanics differ from the generations that succeeded it. This thread will remain open to accept sample teams, additional resources, potential changes in viability rankings, and general discussion of old gen Ubers.
+
+Resources Index:
+- Sword and Shield
+- Ultra Sun and Ultra Moon
+- Omega Ruby and Alpha Sapphire
+- Black 2 and White 2
+- Diamond, Pearl and Platinum
+- Advance Generation
+- Gold, Silver and Crystal
+- Red, Blue and Yellow
+
+### post 9462704 author=Lasen url=https://www.smogon.com/forums/threads/ubers-old-gens-hub.3714123/#post-9462704
+Sword & Shield
+
+Generation 8 mechanics relevant to Ubers:
+
+Recovery moves like Rest, Recover, Roost, Shore Up, Soft-Boiled, and Slack Off have 16 PP instead of 8.
+
+Snow does not exist; instead, Hail exists which deals non-Ice-types 1⁄16 of their maximum HP as damage at the end of each turn. Hail also does not boost the Defense of Ice-types by 50%. Accordingly, Snow Warning summons Hail instead of a Snowstorm.
+
+Wicked Blow is 80BP and Glacial Lance is 130BP instead of 75 and 120, respectively.
+
+These attacks which were available in either generation 9 or 7 are not available.
+
+Libero and Protean change the user's type every turn a move is used, not just the first time.
+
+Intreprid Sword and Dauntless Shield work on every switch-in of the user.
+
+SS Viability Rankings
+
+Ranks A- and above, are ordered internally from most to least viable. Note that D Rank is reserved for Pokemon that are Ubers by tiering yet have no niche in the metagame — they are only in the Viability Rankings because we are obligated to put them there.
+
+S Rank
+S
+Yveltal
+Necrozma-Dusk-Mane
+Eternatus
+
+A Rank
+
+A+
+Calyrex-Shadow
+Groudon
+Kyogre
+Ho-Oh
+
+A
+Ferrothorn
+Marshadow
+
+A-
+Xerneas
+Landorus-Therian
+Zygarde-Complete
+
+Reminder that Pokemon below A Rank are no longer ordered by Viability within their subranks.
+
+B Rank
+
+B+
+Clefable
+Slurpuff
+Toxapex
+Tyranitar
+Weavile
+Zekrom
+
+B
+Blissey
+Pheromosa
+Skarmory
+Zarude
+
+B-
+Corviknight
+Palkia
+Rayquaza
+Xatu
+
+C Rank
+
+Aerodactyl
+Calyrex-Ice
+Cloyster
+Darmanitan-Galar
+Dialga
+Dracovish
+Froslass
+Galvantula
+Gastrodon
+Genesect
+Giratina-Altered
+Giratina-Origin
+Heatran
+Landorus-Incarnate
+Lugia
+Lunala
+Magnezone
+Mewtwo
+Obstagoon
+Shuckle
+Tangrowth
+Urshifu Single-Strike
+Zamazenta-Crowned
+
+D Rank
+Cinderace
+Kyurem
+Kyurem-Black
+Kyurem-White
+Magearna
+Naganadel
+Necrozma-Dawn-Wings
+Reshiram
+Solgaleo
+Spectrier
+Zamazenta-Hero
+
+SS Sample Teams
+
+1. Xerneas + Darmanitan-G Magnezone Balance - by VR Council
+
+Importable
+
+https://pokepast.es/d2134456ef5d5897
+
+2. LO Marshadow + CM Offensive Kyogre Balance - by VR Council
+
+Importable
+
+https://pokepast.es/9254e0e8acb40722
+
+3. Groudon + Trick NP Calyrex-S Balance - by VR Council
+
+Importable
+
+https://pokepast.es/80d97f2b313b7ae8
+
+4. LO Marshadow + Offensive Ho-Oh Balance - by VR Council
+
+Importable
+
+https://pokepast.es/0be92a8b19267cc6
+
+5. Zekrom + Encore Calyrex-S HO -by SiTuM
+
+Importable
+
+https://pokepast.es/f3a45acd4beae9d3
+
+6. Zekrom + Specs Calyrex-S Balance - by Manaphy
+
+Importable
+
+https://pokepast.es/ddb3b77567343155
+
+7. Offensive Groudon + Specs Calyrex-S BO - by Fc
+
+Importable
+
+https://pokepast.es/ff732bf3f443426c
+
+8. Stalltwo + Offensive Groudon BO - by Fc
+
+Importable
+
+https://pokepast.es/e07c67b9ac5c02cc
+
+9. Weavile + Offensive Kyogre Spikes - by Kate
+
+Importable
+
+https://pokepast.es/bb85a34fcda0ad60
+
+10. RestTalk Kyogre + Marshadow Spikes - by VR Council
+
+Importable
+
+https://pokepast.es/255d04ac0d3b5752
+
+### post 9462706 author=Lasen url=https://www.smogon.com/forums/threads/ubers-old-gens-hub.3714123/#post-9462706
+Ultra Sun & Ultra Moon
+
+Generation 7 mechanics relevant to Ubers:
+
+Rapid Spin is 20 BP and does not increase Speed by 1 stage
+
+Terrain (Psychic, Grassy, etc.) boosts moves of its corresponding type by 1.5x instead of 1.3x.
+
+USUM has Z-Power, a mechanic that lets a Pokemon holding a Z-Crystal perform an especially strong version of one of its moves once per game. Only one Pokemon per team may use a Z-move. Here is a list of all Z-Moves: https://bulbapedia.bulbagarden.net/wiki/Z-Move#List_of_Z-Moves.
+
+The following moves, which are unusable in SS, are usable in USUM: https://www.serebii.net/swordshield/unusableattacks.shtml
+
+Both Necrozma-DM and Necrozma-DW can Ultra Burst into Ultra Necrozma when holding an Ultranecrozium Z and have Photon Geyser learned.
+
+USUM Viability Rankings
+
+The S and A ranks have internal viability ordering due to the centralized nature of the metagame.
+
+S Rank
+
+S+
+
+Primal Groudon
+
+S
+
+Necrozma Dusk-Mane
+Yveltal
+
+A Rank
+
+A+
+
+Mega Gengar
+Zygarde
+Ultra Necrozma
+Arceus-Ground
+Xerneas
+Marshadow
+
+A
+
+Arceus-Dark
+Ho-Oh
+Primal Kyogre
+Arceus-Water
+Arceus-Fairy
+
+A-
+
+Mega Salamence
+Magearna
+Arceus
+Ferrothorn
+Mega Mewtwo Y
+Lunala
+Giratina-O
+
+B Rank
+
+All Pokemon in the below ranks are sorted alphabetically.
+
+B+
+
+Blissey
+Giratina
+Mega Scizor
+Toxapex
+
+B
+
+Arceus-Dragon
+Arceus-Flying
+Celesteela
+Deoxys-A
+Deoxys-S
+Ditto
+Rayquaza
+Skarmory
+Mega Lucario
+Mega Sableye
+Naganadel
+
+B-
+
+Cloyster
+Greninja
+Klefki
+Mega Mewtwo X
+Shuckle
+Smeargle
+Tyranitar
+Zekrom
+
+C Rank
+
+C+
+
+Arceus-Poison
+Chansey
+Dialga
+Dugtrio
+Excadrill
+Gothitelle / Gothorita
+Lugia
+Mega Blaziken
+Mega Diancie
+Mega Gyarados
+Mega Kangaskhan
+Mega Tyranitar
+Mewtwo
+Palkia
+Ribombee
+Scolipede
+Shaymin-S
+
+C
+
+Aegislash
+Alolan Muk
+Arceus-Grass
+Arceus-Ghost
+Arceus-Rock
+Arceus-Steel
+Kyurem-W
+Landorus-T
+Mega Lopunny
+Mega Slowbro
+Mega Venusaur
+Necrozma-Dawn Wings
+Tapu Lele
+Wobbuffet
+
+C-
+
+Arceus-Electric
+Darkrai
+Kyogre
+Landorus
+Mega Latias
+Pheromosa
+Reshiram
+Tapu Koko
+
+D Rank
+
+Arceus-Bug
+Arceus-Fighting
+Arceus-Fire
+Arceus-Ice
+Arceus-Psychic
+Blaziken
+Deoxys
+Deoxys-D
+Genesect
+Groudon
+Mega Metagross
+Solgaleo
+
+USUM Sample Teams
+
+Choice Band Ho-Oh + Mega Mewtwo Y Bulky Offense | Provided by plat27
+
+This team is built around supporting Choice Band Ho-Oh so that it can use its strong stabs to break through opposing teams. Ho-Oh should be played aggressively so it can come out often in order to spread status and spam Brave Bird, while Mega Mewtwo-Y can be used to clean late game. Because Ho-Oh is so vulernable to Stealth Rock and Yveltal is weak to it as well, they need to be kept off the field at all costs. Primal Kyogre is also a potential threat to this team as it's very weak to Water-type attacks outside of Primal Groudon, so care is needed to limit the number of opportunities Kyogre has to attack.
+
+Zekrom Stall | Provided by Paradise Seeker
+
+Mega Sableye stall with the unique inclusion of Zekrom to help against common threats like Ho-Oh, Marshadow, and Mega Salamence. it also alleviates pressure from Blissey as it can reliably 1v1 non-mixed Primal Kyogre. Calm Mind Arceus-Ground gives the team a strong alternate win condition that can be used once the opposing team has been worn down through status and hazards. Z-Crystal + Earth Power is preferred over Judgement + Earth Plate to always KO Primal Groudon after a boost. Keeping Stealth Rock off the field is vital for preserving Lunala's Shadow Shield and keeping Ho-Oh healthy. In particular, Primal Groudon with Stealth Rock and Toxic can slowly break Lunala over time so it's important to get status on it as soon as possible.
+
+U-turn Mega Scizor + Double Primal Offense | Provided by Garay oak
+
+This Offense team was built around using Primal Kyogre to break opposing teams. Mega Scizor's U-turn is used to safely pivot Kyogre in and Defog on both Scizor and Arceus-Ground helps to keep Kyogre healthy and continually firing off attacks. Stone Edge on specially defensive Primal Groudon helps with the Ho-Oh matchup; bulky Z-Dark Yveltal is a good way to kill Marshadow while the Z-move deals good damage to bulky Arceus formes like Dragon. This team is somewhat limited offensively outside of Kyogre so ensuring that it is able to attack numerous times to get value is key to winning with it.
+
+Dual Primal + Extremekiller Arceus Hyper Offense | Provided by Mysterious M  & Zesty43
+
+Hyper Offense built around using Stealth Rock Ultra Necrozma to set hazards and overwhelm teams. This Ultra Necrozma set puts immense pressure on many of the tier's Defog users and with Power Gem it can heavily chip Yveltal which synergizes very well with Arceus-Normal and Primal Groudon. The two Primals and Mega Salamence hit very hard and can often trade for opposing Pokemon leaving Arceus-Normal to clean late game. This team can be somewhat vulnerable to faster threats like opposing Ultra Necrozma or Mega Mewtwo-Y, so chipping those Pokemon and keeping Arceus-Normal alive to revenge kill is important in those matchups. Ditto is always a problematic matchup for Hyper Offense teams.
+
+"World Cup" Greninja + Mixed RP Groudon HO | Provided by plat27
+
+Hyper Offense that uses suicide lead Greninja to set Spikes or Toxic Spikes in order to overwhelm opponents. One layer of Toxic Spikes is usually preferable to two because of the more immediate chip damage and Spikes can be used in situations where the opponent has a poison type such as Mega Gengar or Toxapex or leads a Pokemon that doesn’t limit Greninja to one hazard. Dragon Tail Primal Groudon is used to punish flying or levitating Defog users such as Mega Salamence and Giratina Origin trying to switch in and Defog and the rest of the Pokemon are set up sweepers that can abuse the chip damage provided by the hazards. Because none of the pokemon have recovery, it’s necessary that the team is played proactively in order to not let opponents be able to remove hazards or outlast its threats.
+
+Double Ghost + Groundceus Balance | Provided by The Strap
+
+Balance Team built around the synergy between four attacks Mega Gengar and Bulk Up Z-Marshadow. Gengar traps and removes many common Answers to Z-Marshadow including Arceus-Fairy, Defensive Zygarde-C and Xerneas making the two a very powerful core. It’s always important to be looking for opportunities where Gengar can mega evolve in order to enable its ability to trap and get the most value out of it. Magearna functions as the team’s cleric and helps to support Gengar with Volt Switch to pivot into it safely. One thing of note about the team is that its only fire resistance is Primal Groudon, so it's important to limit opportunities for Pokemon like opposing Primal Groudon or Ho-Oh to come in and cause damage.
+
+Z Marshadow Hazard Stack Balance | Submitted by PurpleGatorade
+
+Balance team centered around using chip damage from Ferrothorn’s Spikes to wear down teams to where Marshadow or Arceus-Ground can clean them up. Ferrothorn, Primal Groudon and Yveltal are all strong status users that can quickly wear down opposing teams and set up for Marshadow/Arceus. Zygarde-C serves as the team’s main status absorber and can help rack up hazards damage via Dragon Tail. An important aspect of this team is it’s lack of a Defog user, which means that pressuring with the team’s own hazards is important against matchups where opposing entry hazards can cause problems.
+
+Darkceus + CB Ho-Oh Balance | Provided by March Fires
+
+This team is built around Ho-Oh's amazing breaking potential when given enough leeway. Arceus-Dark helps a ton vs Ultra Necrozma and is a valuable check to non-Swords Dance Primal Groudon, Mega Salamence and SD Necrozma-Dusk Mane. Choice Scarf Xerneas is the anti-offense tool, revenge killing Marshadow and Ultra Necrozma if need be. Swords Dance NDM can get kills on bulky Arceus that don't expect the damage output. Team is rounded out with Zygarde-C which is the team's Ekiller answer and status absorber, but also a possible win condition through Coil. Primal Kyogre can be problematic if given free turns, but it's within reason.
+
+Roar Arceus Ground + Ultra Necrozma Balance | Provided by Pearl and Garay oak
+
+This team takes advantage of the synergy between Ferrothorn’s Spikes support and Geomancy Xerneas. Xerneas’s checks are primarily grounded Steel-types like Necrozma-Dusk Mane and Magearna which make it extremely dangerous when Spikes are on the field as even just switching in and out of Xerneas to rack up hazard damage becomes threatening. Scarf U-turn Yveltal provides a strong revenge killer as well as a way to pivot into Ferrothorn to set Spikes and Arceus-Ground with Roar serves the dual purpose of phasing out opposing Geomancy Xerneas and shuffling Pokemon in to rack up more damage with hazards. Of the six Pokemon, only Ferrothorn and Arceus-Ground have recovery, so it's important to get hazards up quickly and keep the opponent on the back foot whenever possible.
+
+Speed tiers
+
+656 -  (252+ at +2)
+606 -  (168+ at +2)
+604 -  (252+ in sand)
+598 -  (252 at +2)
+585 -  (0 at +3)
+582 -  (252+ at +1)
+578 -  (252 at +2)
+574 -  (252+ at +1) , (252+ at +2)
+558 -  (252+ at +1)
+538 -  (252 at +2)
+532 -  (252+ at +1)
+524 -  (252+ at +2)
+522 -  (252 at +2)
+518 -  (252 at +2)
+512 -  (88 at +2)
+510 -  (156 at +2)
+508 -  (252 at +1)
+506 -  (252 at +2)
+---[Boosted]----------
+504 -  (252+)
+493 -  (212 at +1)
+492 -  (252+ at +1)
+489 -  (252+ at +1)
+483 -  (252+ at +1)
+478 -  (252 at +2)
+475 -  (252+ at +1)
+468 -  (0 at +2)
+460 -  (124 at +1)
+---[Base 90+ at +1]---------
+459 -  (252+ at +1)
+448 -  (252 at +1)
+446 -  (132 at +2)
+445 -  (252 at +1)
+441 -  (252+)
+439 -  (252 at +1)
+438 -  (252+)
+436 -  (252+ at +1)
+433 -  (252 at +1)
+430 -  (252+ at +1)
+426 -  (232+ at +1) , (252+ at +1)
+418 -  (252 at +1)
+417 -  (252+ at +1)
+---[Base 140+]----------
+416 -  (252+)
+403 -  (252 at +1)
+401 -  (252)
+395 -  (236)
+394 -  (252+)
+392 -  (252+)
+391 -  (252 at +1)
+388 - (252+), (252 at +1)
+384 -  (88 at +1)
+383 -  (252+)
+379 -  (252 at +1)
+377 –  (252+)
+375 -  (252+)
+---[Base 120+]----------
+372 –  (252+)
+356 -  (192+)
+355 –  (252+)
+350 -  (252+)
+339 -  (252)
+332 -  (0 at +2)
+331 -  (252+)
+330 -  (212), (176+)
+328 –  (252+)
+326 –  (252+)
+323 -  (252)
+322 -  (252+)
+317 –  (252+)
+307 - (124)
+---[Base 90+]----------
+306 –  (252+)
+302 -  (252+)
+301 -  (252)
+299 -  (252)
+297 -  (252)
+291 - (252+)
+290 –  (136) , (56)
+289 -  (252)
+287 -  (252+)
+---[Base 80+]----------
+284 -  (252+), (232)
+280 - (96), (16)
+279 -  (252)
+278 -  (252+)
+273 -  (252+)
+264 -  (232)
+262 -  (252+)
+261 -  (252)
+259 -  (252)
+256 -  (88)
+254 -  (152) , (80)
+253 -  (252)
+248 -  (252+ at -1)
+243 -  (252+)
+239 -  (252)
+235 -  (76)
+234 -  (0)
+226 -  (0)
+216 -  (0)
+206 -   (0)
+194 -  (0-)
+---[Uninvested Base 90+]----------
+190 -  (0)
+186 -  (0)
+167 -  (36)
+166 -  (0)
+158 -  (0)
+146 -  (0)
+143 -  (0-, 0)
+136 -  (0)
+106 -  (0)
+102 -  (0)
+96 -  (0)
+76 -  (0) , (0-)
+56 -  (0-, 0 at -2)
+46 -  (0)
+40 -  (0-, 0)
+
+### post 9462707 author=Lasen url=https://www.smogon.com/forums/threads/ubers-old-gens-hub.3714123/#post-9462707
+Omega Ruby & Alpha Sapphire
+
+Generation 6 mechanics relevant to Ubers:
+
+Burn damage is 12.5%
+
+Soul Dew boosts Latios and Latias's Special Attack and Special Defense by 50%
+
+Dark Void has an accuracy of 80%
+
+Sucker Punch has a base power of 80
+
+Gengar has Levitate
+
+Destiny Bond does not fail in consecutive uses
+
+Mega evolving does not grant speed changes before attacking
+
+Aerilate and sibling abilities yield a damage multiplier of 1.3
+
+Thunder Wave is 100% accurate
+
+Paralysis quarters a paralyzed Pokémon's speed
+
+Parental Bond's second strike is half the power of the first
+
+Prankster does affect Dark-types
+
+The odds of Protect working on consecutive tries go down by 50% each time, not 66%
+
+The base critical hit rate is 1/16, not 1/24
+
+ORAS Viability Rankings
+
+Credit goes to Minority for the Arceus minisprites. Every rank is sorted internally.
+
+S Rank
+
+S+
+
+Primal Groudon
+
+S
+
+Xerneas
+
+Mega Salamence
+
+Mega Gengar
+
+Arceus-Normal
+
+A Rank
+
+A+
+
+Darkrai
+
+Arceus-Ground
+
+Yveltal
+
+Ho-Oh
+
+A
+
+Klefki
+
+Deoxys-A
+
+Giratina-O
+
+Dialga
+
+A-
+
+Latios
+
+Arceus-Water
+
+Arceus-Ghost
+
+Rayquaza
+
+Deoxys-S
+
+Primal Kyogre
+
+B Rank
+
+B+
+
+Lugia
+
+Excadrill
+
+Ferrothorn
+
+Mega Sableye
+
+Arceus-Fairy
+
+Mega Diancie
+
+Arceus-Dragon
+
+Ditto
+
+Mega Mewtwo Y
+
+Cloyster
+
+Tyranitar
+
+B
+
+Mega Kangaskhan
+
+Landorus-T
+
+Arceus-Rock
+
+Shaymin-Sky
+
+Arceus-Steel
+
+Giratina
+
+Mewtwo
+
+Mega Lucario
+
+B-
+
+Bronzong
+
+Blissey
+
+Skarmory
+
+Wobbuffet
+
+Mega Mewtwo X
+
+C Rank
+
+C+
+
+Chansey
+
+Greninja
+
+Scolipede
+
+Jirachi
+
+Smeargle
+
+Mega Slowbro
+
+Arceus-Dark
+
+Mega Tyranitar
+
+Arceus-Poison
+
+Zekrom
+
+Blaziken
+
+C
+
+Gothitelle
+
+Arceus-Ice
+
+Palkia
+
+Aegislash
+
+Arceus-Electric
+
+Latias
+
+Flygon
+
+C-
+
+Kyurem-White
+
+Cresselia
+
+Mega Aerodactyl
+
+Landorus
+
+Groudon
+
+Mega Mawile
+Tentacruel
+
+Mega Gyarados
+
+Arceus-Fighting
+
+Kyogre
+
+Arceus-Grass
+
+Arceus-Flying
+
+D Rank
+
+Reshiram
+
+Arceus-Fire
+
+Arceus-Bug
+
+Arceus-Psychic
+
+Deoxys-D
+
+Deoxys
+
+Genesect
+
+Hoopa-Unbound
+
+Mega Blaziken
+
+ORAS Sample Teams
+
+Traditional Hazard Stack HO
+
+This is widely considered the most sucessful ORAS Ubers team of all time. One of the main draws of the team is how flexible every single slot is; this often leaves opponents guessing as a change of sets can completely change the flow of the game and make an otherwise tough match-up into a winning one. Deoxys-S acts as a dedicated hazard lead, outspeeding Deoxys-A and punishing contact move foes such as Mega Kangaskhan and E-Killer with Rocky Helmet. Skill Swap allows it to beat Scolipede as well as Magic Bouncers like Mega Sabeye and Diancie. Focus Sash Darkrai prays on withstanding hits such as Choice Scarf Xerneas' Moonblast and +2 Extreme Speed from E-Killer and Rayquaza and stopping their swepeing potential. Xerneas opts to go for an all-out-attacker set and can function as either a sweeper of a wallbreaker for the rest of the team. The final three members all soften their shared checks in Giratina-O, Groundceus and stall options such as Lugia and Giratina so one of them can pick up the slack. The team's main weakness is found in its infamy; a lot of hyper offenses tech so that they can have a favorable match-up, Ditto can make one think twice before setting up, while Deoxys-A can pick off any member of the team.
+
+Toxic Spikes Normal Spam by Astounded and Level 56
+
+This is an offensive team that aims to take advantage of the fast paced metagame and hyper offense tendencies of the tier via Toxic Spikes. Cloystser not only sets T-Spikes, but also denies Stealth Rock rather effectively with Rapid Spin. The Normal spam score of E-Killer and Mega Kangaskhan not only forces switches, but racks up damage rather faster through Extreme Speed and Fake Out, respectively. Ho-Oh is both an anti-balance measure and a Darkrai check; it can take any one hit and KO back through Life Orb boosted attacks it pulls with Sleep Talk. It's also a Choice Scarf Xerneas check, seeing as they only run Moonblast and no coverage. Groudon acts as a gluemon, while Xerneas can sweep teams by forcing opposing Primal Groudon in early so it gets poisoned. The team relies heavily on forcing switches and fake speed, so fast foes like Latios and Yveltal can be problematic to switch into. Similarly, the team lives and dies by setting Toxic Spikes; if the opponent somehow finds a way to deny them or has a Mega Gengar to absorb them, things can get dicey.
+
+Double Primal + Double Hex Balance
+
+This is a balance team that aims to spread status and then take advantage of the weakened foes with its Hex spamming Gengar. The two Primals on the team can smokescreen as an offensive duo, making their status spreading job that much easier. Klefki is a good Xerneas check that simultaneously sets Spikes and can take on Deoxys-A. Giratina-O is a solid physical sponge, being able to check Mega Salamence and any Ground-type while acting as the team's hazard control; its lack of recovery means it can't check all of them at once, though. While Mega Gengar is often the wincon, Arceus-Rock is an unsuspecting late-game cleaner. Its Rock Judgement is not resisted by much, and Refresh allows it to come out on top against Klefki as well as take status from bulky Arceus that can't hit it for super-effective damage and setup in their face. The team can sometimes get overwhelmed by physical attackers, as its physical walls all have exploitable weaknesses and the sole Flying resist dies to the ever common Earthquake from Rayquaza and Mega Salamence.
+
+Defiant Durian Stall
+
+This team is a sturdy stall created and perfected by the UPL team of Defiant Durians. Ferrothorn and Blissey can take on one of stall's hardest match-ups in Primal Kyogre no matter its set. Mega Sableye covers E-Killer and Deoxys-A, denies dedicated hazard leads and can help Toxic stick through Fake Out. Lugia is an extremely potent failsafe that can take anything on if it's at max HP and/or it outspeeds it. Psychic is so that Mega Gengar cannot trap and remove it. Giratina is a sturdy Primal Groudon check that denies its Stealth Rock, can phaze it with Dragon Tail if it's a Swords Dance variant, walls it if it's mixed and also acts as a status absorber as it can Rest it off. The final piece of the puzzle is Groundceus, which acts as the Life Orb Yveltal check and alleviates pressure from Lugia by taking on Mega Salamence and Rayquaza. This team's weakness comes from the burden of its pilot; if you are not comfortable with niche threats, you may get surprised by a set and lose a valuable member. Another weakness this team has is to SubPlot Darkrai, which can set up on multiple foes without fearing much thanks to the threat of Dark Void. The way to circumvent this is to have a dedicated sleep absorber, usually Groundceus, and then try and beat it with Ferrothorn and Blissey.
+
+Mega Diancie Double Bird BO by Garay oak and Ayu
+
+This is a bulky offense team that aims to take advantage of the lackluster flying resists in the tier while denying hazards with Diancie's Magic Bounce. Diancie is bulky enough to be able to tank a Ho-Oh Earthquake before mega evolving and also acts as the team's cleric. Yveltal is a fantastic form of speed control, decent pivot and also emergency check to E-Killer. Ferrothorn acts as a Spikes setter that annoys most of the tier and beats Choice Scarf Xerneas quite reliably. Life Orb Ho-Oh can tank +2 Thunder from Xerneas and slows foes down with Thunder Wave while being extremely difficult to switch into safely.
+
+ORAS Speed Tiers
+
+606 -
+
+(168+ at +2)
+604 -
+
+(252+ in sand)
+598 -
+
+(252 at +2)
+582 -
+
+(252+ at +1)
+574 -
+
+(252+ at +1) , (252+ at +2)
+565 -
+
+(252+ at +1)
+558 -
+
+(252+ at +1)
+552 -
+
+(186 at +2)
+550 -
+
+(252 in sand)
+532 -
+
+(252+ at +1)
+530 -
+
+(252+ at +2)
+524 -
+
+(252+ at +2)
+522 -
+
+(252 at +2)
+518 -
+
+(252 at +2)
+508 -
+
+(252 at +1)
+506 -
+
+(76 at +2)
+---[Boosted]----------
+504 -
+
+(252+)
+492 -
+
+(252+ at +1)
+490 -
+
+(44 at +2)
+489 -
+
+(252+ at +1)
+480 -
+
+(176 at +1)
+478 -
+
+(252 at +2)
+475 -
+
+(252+ at +1)
+463 -
+
+(252+ at +1)
+460 -
+
+(56 at +2)
+459 -
+
+(252+ at +1)
+448 -
+
+(252 at +1)
+445 -
+
+(252 at +1)
+440 -
+
+(16+)
+438 -
+
+(252+)
+433 -
+
+(252 at +1)
+430 -
+
+(252+ at +1)
+429 -
+
+(216+)
+426 -
+
+(252+ at +1)
+---[Base 140+]----------
+416 -
+
+(252+)
+399 -
+
+(252)
+397 -
+
+(252+ at +1)
+394 -
+
+(252+)
+388 -
+
+(252+), (252 at +1)
+385 -
+
+(216+)
+383 –
+
+(252+)
+377 –
+
+(252+)
+---[Base 120+]----------
+372 –
+
+(252+)
+356 -
+
+(192+)
+355 –
+
+(252+)
+350 –
+
+(252+)
+---[Base 100+]----------
+339 -
+
+(252)
+330 -
+
+(96+)
+328 –
+
+(252+)
+326 –
+
+(252+)
+320 -
+
+(176)
+319 -
+
+(252)
+317 –
+
+(252+)
+---[Base 90+]----------
+306 –
+
+(252+)
+302 -
+
+(252+)
+299 -
+
+(252)
+297 -
+
+(252)
+290 –
+
+(136), (56)
+289 -
+
+(252)
+---[Base 80+]----------
+287 -
+
+(252+)
+284 –
+
+(252+)
+280 -
+
+(176)
+279 -
+
+(252)
+276 -
+
+(0)
+275 -
+
+(252)
+273 -
+
+(252+)
+268 -
+
+(0)
+265 -
+
+(252+)
+262 -
+
+(252+)
+259 -
+
+(252)
+245 -
+
+(44)
+244 -
+
+(32)
+243 -
+
+(252+)
+239 -
+
+(252)
+236 -
+
+(0)
+234 -
+
+(0)
+226 -
+
+(0)
+218 -
+
+(252+)
+216 -
+
+(0)
+194 -
+
+(0-)
+---[Uninvested Base 90+]----------
+186 -
+
+(0)
+176 -
+
+(0)
+166 -
+
+(0)
+158 -
+
+(0)
+156 -
+
+(0)
+146 -
+
+(0)
+136 -
+
+(0)
+121 -
+
+(0-,0)
+112 -
+
+(0-,0)
+102 -
+
+(0)
+96 -
+
+(0)
+76 -
+
+(0), (0-,0)
+63 -
+
+(0-,0)
+40 -
+
+(0-,0)
+
+### post 9462708 author=Lasen url=https://www.smogon.com/forums/threads/ubers-old-gens-hub.3714123/#post-9462708
+Black 2 & White 2
+
+Generation 5 mechanics relevant to Ubers:
+
+Higher base power of following moves: Draco Meteor (140), Hydro Pump (120), Thunder (120), Fire Blast (120), Surf (95), Ice Beam (95), Flamethrower (95), Thunderbolt (95) Overheat (140), Hurricane (120), Dragon Pulse (90), Hidden Power (70)
+
+Will-O-Wisp has an accuracy of 75%
+
+Defog clears hazards, Light Screen, Reflect, and Safeguard only on the target's side of the field, not your own
+
+Dark and Ghost are resisted by Steel
+
+Sleep turns reset upon switching out
+
+The abilities Drizzle, Drought, Sand Stream, and Snow Warning enable permanent weather
+
+Knock Off has a base power of 20
+
+Ghost types are affected by trapping abilities and effects, such as Shadow Tag
+
+Critical hits deal 2x normal damage, not 1.5x
+
+BW2 Viability Rankings
+
+credit goes to Minority for the Arceus minisprites. Every rank is sorted internally.
+
+S Rank
+
+Kyogre
+
+A Rank
+
+A+
+
+Genesect
+
+Arceus-Ghost
+
+Giratina-O
+
+Groudon
+
+Dialga
+
+Latios
+
+Arceus-Normal
+
+Arceus-Fighting
+
+Darkrai
+
+A
+
+Deoxys-S
+
+Deoxys-A
+
+Ho-Oh
+
+Ferrothorn
+
+Latias
+
+Palkia
+
+Rayquaza
+
+A-
+
+Arceus-Steel
+
+Excadrill
+
+Tyranitar
+
+Kabutops
+
+B Rank
+
+B+
+
+Arceus-Grass
+
+Forretress
+
+Tentacruel
+
+Accelgor
+
+Arceus-Water
+
+Arceus-Rock
+
+Froslass
+
+Gliscor
+
+B
+
+Arceus-Dark
+
+Skarmory
+
+Cloyster
+
+Mewtwo
+
+Shaymin-S
+
+Arceus-Ground
+
+Arceus-Electric
+
+Terrakion
+
+Zekrom
+
+Landorus-T
+
+Giratina
+
+Lugia
+
+B-
+
+Jirachi
+
+Espeon
+
+Heatran
+
+Omastar
+
+Blaziken
+
+Kingdra
+
+Tornadus-T
+
+Arceus-Dragon
+
+Probopass
+
+Garchomp
+
+Qwilfish
+
+Scolipede
+
+C Rank
+
+C+
+
+Ariados
+
+Hippowdon
+
+Reshiram
+
+Kyurem-W
+
+Crustle
+
+Arceus-Psychic
+
+Wobbuffet
+
+Cresselia
+
+Manaphy
+
+Ludicolo
+
+Sableye
+
+Xatu
+
+Thundurus
+
+C
+
+Lilligant
+
+Shiftry
+
+Gastrodon
+
+Chansey
+
+Blissey
+
+Mamoswine
+
+Victini
+
+Deoxys-D
+
+Landorus
+
+Salamence
+
+Arceus-Poison
+
+C-
+
+Smeargle
+
+Aerodactyl
+
+Bronzong
+
+Arceus-Fire
+
+Arceus-Ice
+
+Gothitelle
+
+Abomasnow
+
+D Rank
+
+Dugtrio
+
+Arceus-Flying
+
+Deoxys
+
+Arceus-Bug
+
+BW2 Sample Teams
+
+Droughtfest provided by Kebabe/Hack
+
+Groudon @ Earth Plate
+Ability: Drought
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Stealth Rock
+- Earthquake
+- Stone Edge
+- Dragon Tail
+
+Cloyster @ Focus Sash
+Ability: Skill Link
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Shell Smash
+- Icicle Spear
+- Rapid Spin
+- Spikes
+
+Ho-Oh @ Choice Band
+Ability: Regenerator
+EVs: 144 HP / 252 Atk / 112 Spe
+Adamant Nature
+- Sacred Fire
+- Brave Bird
+- Earthquake
+- Sleep Talk
+
+Arceus @ Silk Scarf
+Ability: Multitype
+EVs: 200 HP / 252 Atk / 56 Spe
+Adamant Nature
+- Swords Dance
+- Extreme Speed
+- Shadow Claw
+- Earthquake
+
+Genesect @ Choice Scarf
+Ability: Download
+EVs: 248 Atk / 8 SpA / 252 Spe
+Naive Nature
+- U-turn
+- Ice Beam
+- Flamethrower
+- Iron Head
+
+Latias @ Soul Dew
+Ability: Levitate
+EVs: 164 HP / 148 SpA / 196 Spe
+Timid Nature
+IVs: 0 Atk / 30 SpA / 30 Spe
+- Draco Meteor
+- Psyshock
+- Hidden Power [Fire]
+- Healing Wish
+
+Description
+
+Built in 2013 when Kebabe modified Hack's RMT Droughtfest, this team has shown great progress against a wide variety of opponents. Instead of hinging on a very thin thread of having to prevent Stealth Rock at all cost to support Ho-oh, the team centers around accomplishing an Arceus-Normal sweep, something it has shown to do very consistently. The fact that it has the flexibility in the hazard game due to Cloyster's abilities to set spikes, spin or luring in and weakening Ekiller-checks such as Arceus-Ghost makes the game plan much more hyper offensively oriented than the typical "magic sun" teams seen at the time. Ho-oh is of course a beast when Stealth Rock isn't up, but one has to understand that the main goal of the team is ultimately an Ekiller sweep.
+
+Sand Balance provided by various users
+
+Tyranitar @ Chople Berry
+Ability: Sand Stream
+EVs: 252 HP / 64 Atk / 56 Def / 136 SpD
+Brave Nature
+- Stealth Rock
+- Payback
+- Superpower
+- Fire Blast
+
+Rayquaza @ Life Orb
+Ability: Air Lock
+EVs: 4 Atk / 252 SpA / 252 Spe
+Hasty Nature
+- Draco Meteor
+- Outrage
+- Fire Blast
+- Extreme Speed
+
+Arceus-Fighting @ Fist Plate
+Ability: Multitype
+EVs: 248 HP / 148 SpA / 112 Spe
+Timid Nature
+- Judgment
+- Toxic
+- Stone Edge
+- Recover
+
+Genesect @ Choice Scarf
+Ability: Download
+EVs: 248 Atk / 8 SpA / 252 Spe
+Naive Nature
+- U-turn
+- Iron Head
+- Ice Beam
+- Explosion
+
+Excadrill @ Air Balloon
+Ability: Sand Rush
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Swords Dance
+- Rapid Spin
+- Iron Head
+- Earthquake
+
+Latias @ Soul Dew
+Ability: Levitate
+EVs: 112 HP / 204 SpA / 192 Spe
+Timid Nature
+- Draco Meteor
+- Psyshock
+- Calm Mind
+- Recover
+
+Description
+
+This sand balance revolves around having relatively sound checks to just about anything in the BW2 Ubers meta. It has a solid match up versus just about anything, and that is its biggest selling point. Sand is greatly disruptive for the more prevalent sun and rain-based teams, and Tyranitar in itself is a fully functioning check to threats like Arceus-Ghost and Latios / Latias. Mixed Rayquaza is something to note in particular on this team. It greatly helps the team's defensive and offensive synergy by checking dangerous weather sweepers while at the same time breaking walls for the team's cleaner, Excadrill. Latias + Genesect + Arceus-Fighting is likely the most solid combination in BW2 Ubers for a balanced team, and forms a solid backbone to check a multitude of big threats. Arceus-Fighting's set is largely contributing to the team's good match up vs sun.
+
+Rain Semi-Stall provided by Pi Face/Hack
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 248 HP / 252 SpD / 8 Spe
+Calm Nature
+IVs: 0 Atk
+- Rest
+- Sleep Talk
+- Scald
+- Roar
+
+Latias @ Soul Dew
+Ability: Levitate
+EVs: 112 HP / 144 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Draco Meteor
+- Thunder
+- Calm Mind
+- Roost
+
+Ferrothorn @ Leftovers
+Ability: Iron Barbs
+EVs: 248 HP / 8 Def / 252 SpD
+Careful Nature
+- Leech Seed
+- Spikes
+- Power Whip
+- Knock Off
+
+Excadrill @ Leftovers
+Ability: Mold Breaker
+EVs: 252 HP / 80 Def / 136 SpD / 40 Spe
+Adamant Nature
+- Stealth Rock
+- Earthquake
+- Rapid Spin
+- Toxic
+
+Arceus-Ghost @ Spooky Plate
+Ability: Multitype
+EVs: 248 HP / 8 Def / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Judgment
+- Surf
+- Will-O-Wisp
+- Recover
+
+Genesect @ Choice Scarf
+Ability: Download
+EVs: 8 Atk / 248 SpA / 252 Spe
+Naive Nature
+- U-turn
+- Ice Beam
+- Bug Buzz
+- Thunder
+
+Description
+
+This team is based on a build by the legendary Pi Face. As that team has a Palkia, and thus no ground immunity, Hack did some remastering. It is a good example of how a team can resemble stall while still be efficient in the offensive BW2 metagame. Three steels might seem over the top but Excadrill and Ferrothorn have noteworthy synergy due to their secondary types. Surf Arceus-Ghost stands out as an odd set. It was first proposed by Donkey, who found it to be a good anti-spinning tool that happened to hit a lot of threats to bulkier teams quite hard. Genesect is there because it is simply too good to not use, even for a bulky team.
+
+Hazard Stacking provided by Problems/Hack
+
+Tyranitar @ Focus Sash
+Ability: Sand Stream
+EVs: 252 Atk / 4 SpA / 252 Spe
+Hasty Nature
+- Stealth Rock
+- Crunch
+- Low Kick
+- Fire Blast
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 248 HP / 8 Def / 252 SpD
+Calm Nature
+IVs: 0 Atk
+- Rest
+- Sleep Talk
+- Roar
+- Scald
+
+Ferrothorn @ Leftovers
+Ability: Iron Barbs
+EVs: 252 HP / 4 Atk / 252 SpD
+Careful Nature
+- Leech Seed
+- Spikes
+- Knock Off
+- Power Whip
+
+Arceus-Fighting @ Fist Plate
+Ability: Multitype
+EVs: 248 HP / 8 Def / 252 Spe
+Timid Nature
+- Judgment
+- Toxic
+- Recover
+- Stone Edge
+
+Giratina-Origin @ Griseous Orb
+Ability: Levitate
+EVs: 156 Atk / 248 Def / 104 Spe
+Adamant Nature
+- Substitute
+- Dragon Tail
+- Earthquake
+- Shadow Sneak
+
+Genesect @ Choice Scarf
+Ability: Download
+EVs: 8 Atk / 248 SpA / 252 Spe
+Naive Nature
+- U-turn
+- Thunder
+- Bug Buzz
+- Ice Beam
+
+Description
+
+Problems made this team for a MUTE game back in 2013 but utilized a lead Garchomp as opposed to Tyranitar. While this guarantees outspeeding Palkia, all Dialga and efficient anti leading of Deoxys-A, Garchomp's lackluster match up against the common Deoxys-S holds it back. Of course, it one is a willing to sacrifice the effeciency vs this lead in particular, Garchomp can replace Tyranitar. This team plays almost entirely off of getting hazards up quicker and in larger quantity than the opponent. This makes handling the team's phazers and Arceus-Fighting incredibly hard.
+
+BW2 Ubers Teambuilding Compendium, compiled by Steelskitty
+
+Dedicated Lead
+
+Spiker
+
+Toxic Spiker
+
+Stealth Rocker
+
+Choice Scarfer
+
+Wallbreaker
+, Spikes, Toxic Spikes
+Stallbreaker
+, Spikes, Toxic Spikes
+Physical Wall
+
+Special Wall
+
+Phazer
+
+Hazard Control
+
+Spinblocker
+
+Wish/Cleric/Healing Wish
+
+Status Absorber
+
+Priority User
+
+Specs Kyogre Check
+
+Kyogre Soft Check
+, Spikes, Toxic Spikes
+Extreme Killer Arceus Check
+
+Darkrai Check
+, Spikes, Toxic Spikes
+Rain Abuser
+
+Sun Abuser
+
+Sand Abuser
+
+### post 9462709 author=Lasen url=https://www.smogon.com/forums/threads/ubers-old-gens-hub.3714123/#post-9462709
+Diamond, Pearl, and Platinum
+
+Generation 4 mechanics relevant to Ubers:
+
+Sleep lasts 1-4 turns; the counter does not reset upon switching out
+
+Sleep talk will fail when used more than one in conjunction with a choice item. Switching out resets this
+
+Magic Coat does not reflect entry hazards, Taunt, or Torment
+
+Extreme Speed has a priority of +1
+
+Explosion and Self-Destruct have an effective base power of 500 and 400, respectively
+
+Pokémon holding Life Orb will not take recoil damage hitting a substitute
+
+Encore lasts from 4-8 turns
+
+Toxic is 85% accurate
+
+Taunt lasts 3-5 turns
+
+Wish restores 50 % of the recipient's health, regardless of what HP the Wish user has
+
+Synchronize does not Poison the opponent when the Synchronizing Pokemon is affected by Toxic Spikes
+
+When a Pokemon uses Healing Wish, the Pokemon that receives the Healing Wish takes hazard damage before health restoration and recovery from status. Additionally, if the Healing Wish user is faster than the foe's attacker, the Healing Wish recipient takes the damage from their attack upon coming in.
+
+Pokemon with Magic Guard can be Paralyzed but not Fully Paralyzed.
+
+DPP Viability Rankings
+
+all of the ranks and subranks are ranked internally
+S Rank
+
+Dialga
+
+Kyogre
+
+Giratina-O
+
+A Rank
+
+A+
+
+Groudon
+
+Deoxys-S
+
+Darkrai
+
+Latias
+
+Mewtwo
+
+Bronzong
+
+A
+
+Latios
+
+Palkia
+
+Jirachi
+
+Rayquaza
+
+Tyranitar
+
+Blissey
+
+A-
+
+Skarmory
+
+Garchomp
+
+Forretress
+
+Heatran
+
+B Rank
+
+B+
+
+Deoxys-A
+
+Kabutops
+
+Ho-Oh
+
+Manaphy
+
+Scizor
+
+Lucario
+
+Wobbuffet
+
+Tentacruel
+
+Kingdra
+
+B
+
+Giratina
+
+Lugia
+
+Qwilfish
+
+Cresselia
+
+Shaymin-S
+
+Froslass
+
+Mew
+
+B-
+
+Ludicolo
+
+Quagsire
+
+Cloyster
+
+Gliscor
+
+Metagross
+
+Clefable
+
+C Rank
+
+C+
+
+Magnezone
+
+Salamence
+
+Victreebel
+
+Infernape
+
+Heracross
+
+Omastar
+
+C
+
+Hariyama
+
+Shiftry
+
+Celebi
+
+Dugtrio
+
+Deoxys-D
+
+D Rank
+
+Deoxys
+
+Machamp
+
+Wynaut
+
+Sample teams
+
+Sun Stall with Choice Scarf Dialga by Seldanna and Nineveh
+
+This team is built around an otherwise underutilized Pokemon: Cresselia, which helps blank Groudon, Rayquaza, and Giratina-O. Lead Forretress is good to deny most Deoxys-S hazards while also setting up Toxic Spikes and potentially Spikes whilst absorbing Darkrai's Dark Void. Groudon helps minimize hax through its Drought preventing freezes and limiting Kyogre's pressure. Blissey helps blank most special attackers while Giratina is a spinblocker and good phazer. Choice Scarf Dialga helps with Hyper Offense matchups and the Lum Darkrai matchup through speed control. More info on the RMT of the team.
+
+Wobbuffet + Rayquaza classic Hyper Offense by shrang
+
+This is a classic hyper offense structure with lead Deoxys-Speed to set up as many hazards as possible. Wobbuffet can trap choice locked Pokemon and remove them and also gives a free setup turn for Rayquaza and Groudon. Mewtwo acts as a very good wallbreaker, with Grass Knot hitting both Kyogre and Groudon while always being able to Selfdestruct against anything it can't outright OHKO. Monoattacking Darkrai can blank status moves from slower foes and gain a free setup opportunity. If Wobbuffet goes down, any Choice Scarfer faster than Rayquaza can be a problem to deal with. Lum Berry Darkrai is also a big issue for this team.
+
+Choice Band Dialga rain Offense by Exiline
+
+This team puts a spin on the classic Rain spikes-less that would otherwise have trouble with the classic sunstall structure posted above. Choice Band Dialga spins the matchup on its head, 2HKOing everything in its wake and baiting Blissey to come in. Lead Kyogre beats most leads besides Focus Sash Deoxys-S. Latios is a fantastic breaker while Bronzong is a solid Stealth Rocker and Draco switch-in that is even better in rain where its fire weakness is removed. Choice Scarf Darkrai outspeeds Kabutops in rain and provides revenge killer for boosted Rayquaza, while last slot Rayquaza can work as a cleaner or wallbreaker.
+
+Standard Rain Hyper Offense ft. Palkia by various users
+
+This team attempts to overwhelm most defensive mons through sheer wallbreaking power. Psycho Boost Deoxys-S helps against Tentacruel to keep Toxic Spikes away. Palkia under rain has next to no switch-ins, with Focus Punch putting Blissey in range of Hydro Pump and Lum Berry aiding vs Darkrai and Kyogre's Thunder paralysis chance. Giratina-O is the best wallbreaker in the tier, with Outrage to help against Thunder Wave + Calm Mind Kyogre. Darkrai helps against Swift Swimmers and other Choice Scarf users and provides a clear end game cleaner.
+
+Choice Scarf Deoxys-S Rain by Seldanna
+
+A different type of Rain Hyper Offense, this team utilizes a Choice Scarf Deoxys-S to come out ontop of more lead matchups. Kyogre can be a mid-game threat, paralyzing Dragon-types and threatening most foes with Surf + Ice Beam. Bronzong is one of the best specially defensive Steels, having 0 weaknesses when in rain. Choice Scarf Dialga acts as a pseudo-steel and also a Sleep absorber, outspeeding most unboosted foes. Latios rounds out the team, with nothing switching safely into it, while Roar forces out foes who try setup on it after a Draco Meteor drop.
+
+Calm Mind Mewtwo + Life Orb Dialga Offense
+
+This team is built around Calm Mind + Recover Mewtwo, one of the best lategame cleaners. BoltBeam coverage is notoriously almost entirely unresisted and Recover makes sure Mewtwo remains healthy throughout. Offensive Dialga can punish opposing Dialga in the 1v1 and beats sun balance defensive walls such as Heatran and Groudon, while having offensive pressure even after a Draco Meteor Special Attack drop thanks to Outrage. Haban Berry Palkia lives Latias, Garchomp and Rayquaza hits and puts the pressure on them, whilst exerting offensive pressure with its great coverage. Choice Scarf Garchomp outspeeds everything that isn't a weather abuser and is extremely difficult to switch into while acting like a sleep absorber.
+
+Role compendium by byronthewellwell
+
+Hazards:
+
+Stealth Rock: Armaldo / Blissey / Bronzong / Deoxys / Deoxys-A / Deoxys-S / Dialga / Forretress / Garchomp / Gliscor / Groudon / Heatran / Jirachi / Mamoswine / Mew / Skarmory / Tyranitar
+Spikes: Cloyster / Deoxys / Deoxys-A / Deoxys-S / Forretress / Froslass / Skarmory /
+Toxic Spikes: Cloyster / Forretress / Qwilfish / Tentacruel
+Rapid Spin: Armaldo / Forretress / Kabutops / Tentacruel
+
+Team Support:
+
+Wish: Blissey / Jirachi / Latias
+Heal Bell / Aromatherapy: Blissey / Shaymin-Sky
+Healing Wish: Blissey / Jirachi / Latias / Shaymin-Sky
+Walls:
+Physically Defensive: Cresselia / Giratina / Groudon / Lugia / Skarmory
+Specially Defensive: Abomasnow / Blissey / Bronzong / Dialga / Heatran / Ho-Oh / Kyogre / Ludicolo / Lugia / Palkia / Scizor / Skarmory / Tyranitar / Wobbuffet
+
+Revenge Killers:
+
+Choice Scarf Users: Darkrai / Deoxys-S / Dialga / Garchomp / Heatran / Jirachi / Kyogre / Metagross / Palkia / Rayquaza / Salamence / Scizor / Shaymin-Sky
+Trappers: Dugtrio / Scizor / Tyranitar / Weavile / Wobbuffet
+
+Weather:
+Sun: Shiftry / Victreebel
+Rain: Kabutops / Kingdra / Ludicolo / Manaphy / Omastar / Qwilfish
+Setters: Abomasnow / Groudon / Kyogre / Tyranitar
+
+Stallbreakers:
+Set-Up Sweepers: Darkrai / Dialga / Garchomp / Giratina / Groudon / Kyogre / Latias / Latios / Lucario / Lugia / Manaphy / Mewtwo / Palkia / Rayquaza / Scizor
+Other: Darkrai / Gliscor / Heatran / Mewtwo / Skarmory / Shaymin-Sky
+
+Priority Users: Abomasnow / Cloyster / Darkrai / Deoxys / Deoxys-A / Deoxys-S / Froslass / Giratina / Giratina-O / Lucario / Qwilfish / Rayquaza / Scizor
+
+Phazers: Dialga / Giratina / Giratina-O / Groudon / Heatran / Latias / Lugia / Kyogre / Skarmory
+
+Lead guide by iris
+
+Lead Guide by Iris
+
+Importable set Compendium by Seldanna
+
+Speed tiers by Nineveh and Seldanna
+
+-----[Tier 1 - Boosted and Deoxys-Speed]-----
+750 -  (176 with Swift Swim at +1)
+660 -  (176+ at +1)
+644 -  (252+ at +2)
+594 -  (0 at +1)
+591 -  (252+ at +1)
+590 -  (252+ with Swift Swim)
+582 -  (252+ at +1)
+574 -  (252+ at +1)
+568 -  (252+ with Swift Swim)
+558 -  (252 at +2)
+538 -  (252 with Swift Swim)
+525 -  (252+ at +1)
+522 -  (252+ with Chlorophyll)
+518 -  (252 with Swift Swim),  (252 with Chlorophyll)
+506 -  (68 at +2)
+504 -  (252+)
+500 -  (136 at +2),  (176 with Swift Swim)
+499 -  (252+ at +1)
+492 -  (252+ at +1)
+476 -  (252 with Chlorophyll)
+475 -  (252+ at +1)
+460 -  (92+)
+-----[Tier 2 - Base 90s at +1]-----
+459 -     (252+ at +1)
+458 -  (252),  (252+ with Swift Swim)
+442 -  (252+ at +1)
+440 -  (176+)
+438 -   (252+)
+433 -  (252 at +1)
+418 -     (252 at +1)
+403 -  (252 at +1)
+395 -  (236)
+394 -  (252+)
+393 -  (252+ at +1)
+388 -  (252+)
+383 -  (252+)
+375 -  (176 at +1)
+372 -  (252+)
+364 -  (252+ at +1)
+352 -  (96+)
+350 -      (252+)
+349 -   (252+ with HP Fire)
+346 -  (252+)
+339 -  (252)
+334 -   (192+)
+333 -  (252+)
+328 -     (252+)
+319 -  (216+)
+317 -   (252+)
+308 -  (176+),  (216+)
+-----[Tier 3 - Max Speed Base 90s]-----
+306 -  (252+)
+295 -  (252+)
+290 -  (192+)
+289 -  (252)
+284 -  (252+)
+279 -  (252)
+269 -  (252)
+262 -  (252+)
+261 -  (252+)
+259 -  (252)
+256 -  (0)
+253 -  (68)
+250 -  (136),  (176)
+244 -  (32),  (112),  (72)
+243 -  (252+)
+239 -  (252)
+229 -  (252+)
+226 -  (0)
+222 -  (128),  (24)
+221 -  (252)
+-----[Tier 4 - Uninvested Base 90s]-----
+216 -  (0)
+209 -  (252)
+206 -  (0)
+194 -  (0-)
+191 -  (140)
+190 -  (0)
+184 -  (0- 0IV)
+176 -  (0)
+168 -  (48)
+166 -  (0- 0IV),  (0)
+158 -  (0)
+156 -  (0)
+146 -  (0)
+142 -  (0-)
+136 -  (0)
+116 -  (0)
+106 -  (0)
+102 -  (0)
+82 -  (0)
+76 -  (0- 0IV)
+63 -  (0- 0IV)
+
+Archived: Farceus DPP Resources
+
+From December 22, 2019, to October 11, 2020, Arceus with 100 EVs in 5 stats (Farceus) was allowed in DPP Ubers. This is the most optimal Arceus that is cartridge-legal in DPP. Following nearly a year of inclusion in the Ubers Tournament Circuit, the pre- and post-Farceus playerbase banned it with a very slim 62.5% majority, making Arceus the only Pokemon to ever be banned from any Ubers generation as of now. The only DPP resources created during this time were a lead guide by Lasen, adapted from iris's old one, and a viability ranking, created on the last day of Farceus being the official metagame. Both are posted below.
+
+Farceus Generation 4 mechanics relevant to Ubers:
+
+The ability Multitype prevents Arceus from getting Tricked
+
+Farceus Viability Ranking
+
+Every rank is sorted internally.
+
+S Rank
+
+Kyogre
+Dialga
+Giratina-Origin
+
+A Rank
+
+A+
+
+Darkrai
+Groudon
+Arceus
+Arceus-Fighting
+Latias
+
+A
+
+Latios
+Palkia
+Mewtwo
+Deoxys-Speed
+Garchomp
+Arceus-Steel
+
+A-
+
+Arceus Ghost
+Ho-Oh
+Rayquaza
+Kabutops
+Skarmory
+Jirachi
+Tyranitar
+Forretress
+
+B Rank
+
+B+
+
+Tentacruel
+Deoxys-Attack
+Giratina
+Lugia
+Blissey
+Bronzong
+Arceus-Ground
+Heatran
+Wobbuffet
+
+B
+
+Qwilfish
+Froslass
+Arceus-Electric:
+Arceus-Grass
+Arceus-Water
+Arceus-Dragon
+Shaymin-Sky
+Manaphy
+Kingdra
+
+B-
+
+Ludicolo
+Scizor
+Arceus-Dark
+Cloyster
+
+C Rank
+
+C+
+
+Mew
+Arceus-Rock
+Infernape
+Gliscor
+Heracross
+Cresselia
+
+C
+
+Arceus-Ice
+Arceus-Poison
+Deoxys-Defense
+Shiftry
+
+C-
+
+Arceus-Bug
+Arceus-Flying
+Omastar
+
+D Rank
+
+Salamence
+Arceus-Fire
+Deoxys
+Arceus-Psychic
+
+E Rank
+
+Wynaut
+
+Farceus Lead Guide
+
+DPP lead guide
+
+(Not Really Ordered)
+
+Deoxys-Speed
+
+The lead you must beat. if it can get 2+ layers on your team for sure, you should consider a lead change. The momentum one gets from SR + spikes makes HO the best and most consistent play style. Can be EV'd and has a movepool just large enough to beat almost any other lead.
+
+-Focus Sash: Taunt, Spikes/Stealth Rock, Shadow Ball, Psycho Boost/Extreme Speed/Stealth Rock – standard deoxys. usually what one wants to counter. Psycho Boost nails Tentacruel (requires investment), Shadow Ball is the mirror, while Extreme Speed only allows 1 layer from Deo-A leads. Taunt depending on how much you want to stop opposing lead from setting-up hazards. 20+ Speed outspeeds Deoxys-Attack, scarfed Neutral natured base 95s or lower (eg. scarf Ogre, Lonely Rayquaza) max speed forces speed ties and allows Taunt vs. opposing Deoxys-Speed.
+
+Offensive Sash: Shadow Ball, Spikes,  HP Fire, Extreme Speed/Taunt – This set foregoes speed and potential longevity in order to be able to beat potential Forretress leads/switches, while also keeping opposing Deoxys to only one Hazard. Rash Nature forces Forre to be running SDef to avoid the OHKO.
+
+Colbur Anti-Dark: 252hp 164 SpD (lives non LO ray draco 100%) Spikes, Superpower,  E-Speed/Shadow Ball, Taunt/Stealth Rocks. The crux is EVs in combination with the Berry. Superpower kills Lum Tyranitar and Darkrai while also avoiding the OHKO from their respective STAB dark-type moves. Gameplan is to set up Spikes on Ttar, live the attack and then Superpower turn 2 to break its sash. 168 Attack EVs needed to OHKO Max HP Tyranitar, whereas uninvested kills equally uninvested Tar. Darkrai always dodges the OHKO, with or without a Chope Berry adorned to it.
+
+Trick Scarf – A good way to handle other Deo-S without fearing speed ties, as well as crippling multiple other leads with a Trick. Speed is provided through Choice Scarf, so you can focus on bulk, instead. A spread of 248 HP / 164 Def / 96+ SpD avoids 2HKO from opposing Deoxys-S Shadow Ball, with the rest put in defense to take Tyranitar as well as possible.
+
+Darkrai
+
+2 sets, Choice Scarf and not
+
+Scarf – Dark Void, Dark Pulse, Trick, Focus Blast, Taunt / Focus Blast / Nasty Plot. Beats most leads 85% of the time. loses to Lum TTar (can’t OHKO) but can “beat” non Lum, Kyogre consistently beats (Either it’s also Scarfed, Lum or runs Sleep Talk) and Dialga. Mew is another lead you beat on paper, but is item dependent. Beats all Deoxys leads and Rayquaza lead.
+
+Non Scarf aka Lum aka Focus Sash aka Chople aka Life Orb – Dark Void, Dark Pulse, Focus Blast, Taunt / Thunder Wave / Nasty Plot / Will-O-Wisp / Thunder / Quick Attack. The itemisation on lead Darkrai is almost as long as the list of viable items in this gen. Beats everything except the ones mentioned above and the rare M2. Trades a possible extra layer for more pressure against teams. 125 speed is the 4th highest in the tier (deoxys / mewtwo / skymin) so darkrai forces a scarf if these mons aren’t on the opponent’s team. First three moves are necessary, last one you have options.
+
+Items:
+
+Chople – loses to rare Scarf leads to 100% beat TTar, a lead created to stop Darkrai, and Deoxys-A. still loses to mewtwo because mewtwo doesn’t die to one pulse. Potentially beats Deoxys-Speed, item dependent.
+
+Lum – loses to ttar in exchange to beat old school leads and get the jump on balance teams,as the way balance deals with darkrai is Status or a scarf. Harder for it to beat Deo-S leads.
+
+(Note: Both items still make the darkrai mirror a guessing game.)
+
+Life Orb – Only seen on the NP set. tries to put immediate pressure. But without SR, you can’t get the kills as easily, so try and preserve.
+
+The 4th Move:
+
+NP – Immediate pressure. leans towards all out offense where you don’t mind trading 1v1. good on wobb teams to force out the scarf
+
+WoW – tries to catch balance teams off guard. Most common switch-ins to Darkrai after Void connects are Kyogre, Dialga, Jirachi, and Scizor. This catches the latter two off guard and makes them usually worthless,while also stacking residual damage on the former two.
+
+Thunder – for sun teams or teams that trouble with Kyogre. It also has the added benefit of paralyzing 30% but mainly you want the 2HKOon RestOgre.
+
+QA / Sucker – QA helps against Deoxys. useful on spike weak teams (usually 5 grounded mons and a gira / ray). The only noteworthy use is the super rare ninjask. Sucker helps against the mewtwo revenge, adds a little more chip on giras when darkrai is in sneak range. Sucker should only be used if you expect a Mewtwo lead.
+
+Thunderwave – tries to catch the Scarfer switching-in. Good for teams that struggle with speed control on their other members. Most teams would appreciate the pressure the first 3 moves on the list bring.
+
+Rayquaza
+
+Life Orb Mixed –  Draco Meteor, Fire Blast, ExtremeSpeed Brick Break / Earthquake. Outrage is super rare. Break on LO is recommended so Lum TTar dies immediately. Speed creep caps with 216 Speed, which outspeeds Neutral natured base 90s(Dialga Don, Ogre). Special Attack is prioritised over Attack as. Can potentially run a set-up move in order to put more offensive pressure on fatter teams, but usually loses even harder to Deoxys Leads that way. Sash should be considered if that’s the case.
+Lum Berry targets Darkrai and Groudon leads, or stray Mews that might try to Thunder Wave. Power drop is noticeable. Focus Sash makes sure you survive whichever one hit your opponent throws at you and is pretty good when you want to preserve Rayquaza for the mid-late game.
+
+Tyranitar
+
+2 sets, the sets are honestly 50/50 - depends on the player
+
+Lum / Focus Sash / Chople 252 HP / enough SpD to live darkrai Blast (248/68 but more is viable to survive Modest Kyogre) / 188+Atk. Adamant/Brave. Payback, Stealth Rock, Superpower/Low Kick/Earthquake, Fire Blast / Thunder Wave / Stone Edge. beats Deoxys, Froslass, Darkrai, Dialga Forretress. Earthquake is used to beat Tentacruel leads. Stone Edge is used just as a strong STAB,as it doesn’t actually hit something meaningful besides Rayquaza. Thunder-Wave is used in the last slot when you want to incapacitate whatever comes in after the suicide lead. Low Kick is preferred if you plan to keep Tyranitar for the long game. Ttars best quality is his longevity. Unlike Deoxys or Darkrai, TTar will come back in the game. Chople is an option if you don’t wanna invest in bulk but want to survive Superpower or Focus Blast.
+
+(Note: Takes 80 Spa to ohko forrey 100% of the time with a Brave Nature, Adamant can kill non Max-max)
+
+Sash 252 Speed / 80 SpA / 176 Attack Hasty. Low Kick, Fire Blast / Stealth Rocks, Crunch, SRocks / Stone Edge- This set changes TTar from a mere Darkrai counter to mainly deoxys / froslass counter. the extra speed allows ttar to punish greedier teams that don’t attack it. best on up tempo teams that don’t mind sacrificing ttar early for good damage on the opponents likely base 90 mon.
+
+Other Moves:
+Pursuit – Only on the lum set too. For teams that need a good lead and benefit from spinning or a dead latias / latios.
+
+Rest – Best used with pursuit and a chesto berry. a paralyzed brave ttar is fine, and you don’t want to waste your lum on that. the price of 2 lost turns is too steep.
+
+The next tier hazard leads
+
+Tentacruel
+
+Timid Lum – Hydro Pump,  Rapid Spin, Toxic Spikes, Icy Wind
+216+ Speed outspeeds +Spd Rayquaza, 176+ creeps base +Spd 90s. 40HP / 204 SDef avoids OHKO from standard Deo-S Psycho Boost. 40 HP needed to live through Payback + sand from standard Tyranitar. Rest of the EVs are usually put in SAtk. Lum berry is mandatory as very few things threaten with an OHKO and it invalidates Darkrai as well as T-Wave spreaders such as Dialga.Cruel has the benefit of beating Deoxys-Speed, Darkrai and Ray. base 100 speed is useful in getting up toxic spikes which is the best hazard in DPP Ubers, as only very few Pokemon are immune + not SR weak in top tier competition. Fits both stall and offensive builds, as it softens breakers and walls alike. Has the added benefit of coming back in and absorbing the T-spikes.
+
+Deoxys-A
+
+Sash Extreme Lead - Spikes, Superpower, Shadow Ball / Dark Pulse, Extreme Speed / Psycho Boost / Icy Wind / Fire Punch
+Deoxys’ Attack form trades Speed form’s decent-to-good Tyranitar match-up for a good match-up against the other common hazard leads. Pressures Deoxys-Speed into only getting one layer of hazards up as it commonly drops Extreme Speed for a better utility move. Max speed is mandatory to outspeed anything that isn’t scarfed or named Deo-S. Superpower from max ATK with a Neutral Nature has a 44% chance of OHKOing uninvested TTar through Chople Berry, but 220 is enough to OHKO standard Blissey.
+Psycho Boost nails Rayquaza and Tentacruel as well as potential Ghost-types wishing to switch-in on the predicted Extreme Speed. Other potential moves include Fire Punch for lead Forretress and Scizor, Signal beam to cover Darkrai and Deoxys at the same time and Stealth Rocks, but they’re all situational at best. Taunt, while appealing, fits better on something that can take a hit or two, meaning you might as well be running Deoxys-Speed at that point. Use only for the surprise factor. Icy Wind is even more niche, allowing you to win the Deo-S match-up 95% of the time. Usually ran without E-Speed, meaning you lose the mirror.
+
+Froslass
+
+Sash Lead – 252+ Speed / 252 SpA. Spikes, Icy Wind, Shadow Ball, Taunt / Destiny Bond / Ice Shard
+Froslass is a decent Spike lead that provides spin-blocking against the likes of Tentacruel or Forretress. It can beat both Deoxys forms and the rare Ray, but hard loses to Darkrai and TTar. Watch out for the rare Icy Wind Deo-A if you’re not running Ice Shard.
+
+Final Moveslot:
+
+Ice Shard – Helpful for the mirror and for removing Deo-A. End result should be a win without risking a 50-50. Also provides valuable momentum in the HO vs. HO match-up, something that’s ever so valuable.
+
+Taunt – Best for T-Spikes weak teams, as nothing that uses T-Spikes in Ubers is faster than Froslass. Extremely useful in lead match-ups that don’t go for hazards such as the weather duo, as well as slower leads that lack priority.
+
+Destiny Bond – A gimmicky option, since you can’t afford Taunt + DBond to have them continually switching. Any status move will just kill you, only run this if you live inside the opponent’s head rent-free.
+
+Dialga
+
+Lum Bulky Stealth Rocks – 252 HP / 112 Speed / 144+ SpA. Draco Meteor, Stealth Rock, Thunder Wave / Flamethrower, Thunder / Aura Sphere
+A very strong anti-lead, Dialga functions quite similarly to the way it functions in the non lead slot; as a general Ghost/Water/Special attacking sponge. Lum Berry gets the beat on Darkrai which can’t beat you unless they’re running Life Orb and get a high roll on Focus Blast. Speed is enough to creep on Jolly Max-Speed TTar. Thunder Wave incapacitates whatever wishes to come in after you deal with the opposing lead. Thunder lands a hefty hit on Kyogre, while Aura Sphere attempts to deal with Tyranitar. Flamethrower is for the Steels that might attempt to switch-in and lead Forre.
+
+Forretress
+
+THE NUT – 252 hp / 252+ SpD / 4 Atk. (Toxic) Spikes, Rapid Spin, Payback, (Toxic) Spikes / Protect / Pain Split / Toxic / Sleep Talk / Explosion / Stealth Rock
+Forretress feats best on stall teams that have a Lugia or hate Spikes, as well as Ho-Oh suns. There is a distinct lack of Pursuit abusers in DPP Ubers outside of the occasional scarf Tyranitar, so stall teams can afford this anti-lead to slow down the game by setting up their hazards, or preventing hazard(s) from Deoxys with an extremely slow spin. Specially Defensive Forretress lives Fire Blast from the usual Tyranitar so it guarantees either one layer for yourself or a lack of hazards on your side of the field. Payback is necessary to hit a Ghost-type that tries to spin-block you if they were allowed a hazard up on a misprediction on your part.
+Occa Berry lets you set-up Toxic Spikes against every lead except Life Orb Rayquaza and Scarf Kyogre, while Lum guarantees a layer against Darkrai.
+
+Final Move:
+
+Protect – scouts the myriad choice users in the tier. Also provides extra Lefties recovery + Poison damage racks up from T-Spikes.
+
+Pain Split – helps combat Gira-O when you don’t have a pursuiter, deals more damage than Payback in the long run.
+
+Sleep Talk – a neat tech move against teams that want a spin vs. Darkrai teams. Makes up for its inconsistency by being godlike in its good match-up.
+
+Toxic – again, for Giratina-O. Has little utility outside that since most switch-ins on Forrey are Steel-types..
+
+Explosion – seen on more balance teams. maybe gets a kill on greedy Lati or Kyogre.
+
+Stealth Rocks – relatively easy to fit on a different member, only run if you can’t find a single other Pokemon to run them on.
+
+Metagross
+
+Steel Anti-Lead – Focus Sash/ Lum 252+ Atk / 252 Speed / Meteor Mash, Bull Punch, Stealth Rock, Explosion
+Metagross is a potent Anti-lead that provides rocks, being able to sponge attacks from every lead except Life Orb Rayquaza and revenge killing them with BP. It mostly takes advantage of its inherent bulk to avoid OHKOs from the most common leads. Lum as always answers Darkrai quite nicely. A Jolly nature can be run to outspeed Tyranitar, but that’s not of much importance when you just kill it with priority. Unlike many of the other leads on here, Metagross isn’t scared of trading kills with a well-timed Explosion, as it usually leads to getting a great momentum lead, which can be the difference between winning or losing any given match in DPP.
+
+Cloyster
+
+Focus Sash Lead – Toxic Spikes, Payback, Ice Shard, Spikes / Rapid Spin / Explosion
+Max Speed and Attack is needed to get the jump on Tyranitar leads and deal as much damage as possible. Cloyster is a remnant of the past and a more aggressive Toxic Spikes setter than Tentacruel because it can set regular Spikes. Anything else is largely the same or worse matchups except super rare leads like skymin. The only defining better matchup is froslass. Deoxys-S tends to be way bulkier than it used to be, so Payback -> Ice Shard is no longer a guaranteed kill. Final move is dependent on whether you struggle with steals, want to punish greedy leads or definitely need hazards removed. Adamant nature can be run if you want to have a chance to kill Deo-S with a combination of Payback + Ice Shard but you can then lose to Edge Tyranitar.
+
+Qwilfish
+
+Sash Rain Abuser – 252 Atk / 252+ Speed Toxic Spikes, Payback, Aqua Jet, Explosion, Destiny Bond / Spikes
+The extremely weird mixture of Tentacruel and Cloyster. Can absorb Toxic Spikes for your team potentially, but switching it in at any point means mistakes were made. Aqua Jet has worse offensive type coverage than Ice Shard on top of everything else, but at least you can outspeed and kill any Kyogre.
+
+Mamoswine
+
+“Ancient” Sash lead – 252+ Atk / 252 Speed / Earthquake, Ice Shard, Stealth Rock, Endeavor
+2007 OU lead now in Ubers! Will allow you to beat a newer player that doesn’t quite know what this ‘mon does or what Endeavour is, but its speed tier is honestly very bad for Ubers standards. Beats Deoxys, Rayquaza, Dialga as well as Dialga. Relies heavily on surprise factor and the opponent’s inexperience.
+
+Groudon
+
+SunSetter – 240 HP / 176+ Def / 8 SpD / 88 Speed / Earthquake, Stealth Rock, Roar, Overheat, Stone Edge / Thunder Wave / Roar
+Groudon is an oddity of a lead, as it provides a ton on paper but actually struggles to fulfill its role in action. Just like many other leads, it catches people by surprise and beats common leads but allows Deo-S to get 2 layers up. It sets up sun nicely and can take a hit from Kyogre, dealing massive damage in the process. Darkrai can meet a similar fate if Lum Berry is elected as the item of choice, as well as Tentacruel. However, leading Groudon has the downside of revealing the value sun plays for your team early and as it lacks consistent recovery not named leftovers, it gets chipped down pretty easily. Stone Edge is the go-to if you wish to hit the likes of Rayquaza and Ho-Oh, while Thunder-wave catches the various dragons and possible Giratinas that might wish to switch-in. Dragon Claw deals decent damage vs. Latis and Gira-O, but also require a hard read and they don’t OHKO. Still a decent middle ground, tho.
+
+Mew
+
+Lum Anti-Lead – 252 HP  252+ Speed / U-Turn, Stealth Rock, Explosion, Taunt.
+Another legacy lead, this Mew set is designed to Taunt slower mons like Tentacruel and absorb the taunt from Deoxys, U-Turn out and revenge kill. With the bulk that current day leads run, this is pretty difficult to pull off consistently. Fire Blast gets a node as the only way Mew has to touch Forretress. Any other option is better fit on a Mewtwo lead. Tyranitar and Tentacruel match-ups are reliant on whatever you both click and can go either way, but Taunt off of base 100 Speed shuts down all the lesser leads that you outspeed.
+
+Armaldo
+
+Lum Spinner – 252 HP / 252+ / Atk / X-Scissor, Rapid Spin, Stealth Rock, Rock Blast / Aqua Jet
+The ultimate DPP gimmick lead, Armaldo can both safely spin in front of Deoxys and Absorb Darkrai’s Sleep, while also threatening to set-up rocks. Slow spin is appreciated as you can’t really outspeed anything anyway. Aqua Jet can be used if you’re confident you’re gonna live the hit from Deo-A.
+Note: Rock Blast does not break sashes in DPP.
+
+Infernape
+
+Sash lead – 48 Atk / 252 SpA / 208+ Speed Naive / Fake Out, Overheat / Fire Blast, Close Combat, Stealth Rock
+Ape has a decent Speed tier, and a pretty good offensive typing, with Fire/Fighting covering pretty much every lead. Between Fake Out and Overheat, Ape can consistently kill lead Deoxys that forego bulk for attacking stats. Close Combat is pretty good at shutting down Kyogre and Dialga leads and cleans Tyranitar with ease. Darkrai however poses a big problem as it sleeps you no questions asked, while Froslass Spikes multiple times in front of you. Tentacruel resists all your moves and doesn’t mind taking a slap to the wrist in exchange for Toxic Spiking and potentially a decent hit with Icy Wind or Hydro Pump on your expected switch, while it also keeps hazards off of its side of the field.
+
+Ariados
+
+Sash Spider – 252+ Atk / 252 Spe / X-Scissor, Toxic Spikes, Shadow Sneak, Baton Pass
+Nothing shows dominance quite like bringing a big tarantula who’s highest stat barely breaks the 300 point mark, in Ubers no less. Ariados has access to Insomnia, making it capable of being a pretty great Darkrai answer, being able to bring it down with a well-timed X-Scissor combined with Shadow Sneak. The above combo also works vs. Deoxys. Baton Pass is useful for getting the jump on a double, without the risk of wasting HP on the Pokemon you want to bring in. Loses to anything not mentioned above, hard
+
+Deoxys-Normal
+
+Sash Inferiority Syndrome – 112 Def 146 SAtk / 252 Speed Naive / Spikes, Stealth Rock, Shadow Ball, Extreme Speed
+Imagine, if you will, a Deoxys-Attack that can potentially win the mirror but doesn’t get the kills it’s supposed to. That’s Deoxys-Normal. It does what Deo-A does, but slightly worse with its upside being… the chance to beat its brother. Don’t bother unless you want to be that guy.
+
+Anti-Hazard Leads with no hazards
+
+Mewtwo
+
+Boom Lum – 4 Atk / 252 SpA / 252+ Speed Naive / Taunt, Icy Wind, Shadow Ball / Thunder, Selfdestruct / Aura Sphere / Psychic
+Mewtwo’s amazing combination of stats and practically limitless movepool has always been envied, and this lead set utilises to its fullest extent. Slow hazard leads can easily be Taunted and later disposed of, while Deoxys-S loses to the combination of Icy Wind and Shadow Ball. Selfdestruct removes problematic set-up sweepers as well weather leads. Darkrai is scared off by a potential Aura Sphere as it doesn’t always OHKO with Dark Pulse, while Psychic can deal with Tentacruel if T-Spikes seem problematic. Tyranitar will survive any hit from Mewtwo and OHKO back with either Payback or Crunch, so be weary of that. Mewtwo has a good enough movepool to fit practically anything on it, so don’t be afraid to experiment.
+
+Shaymin-Sky
+
+Scarf Anti-Lead – 252+ SpA / 252 Speed / Seed Flare / Leaf Storm, Air Slash, HP Ice, Earth Power / Healing Wish
+This goal of this set is to take down the two most common leads in Darkrai and Deoxys without them getting a single move off 60% of the time. Relies quite a bit on luck. Leaf storm can OHKO Kyogre leads and 0 bulk TTar that isn’t running Sash. While it does force the opponents to reveal their scarfers earlier than usual, it’s STAB coverage is blindly walled by multiple Steels in the tier, with Grass being extremely easily resisted in a tier full of Dragon-types. Healing Wish is a situational move, don’t forget it comes after hazards in this gen! A Timid nature is preferred if you’re scared of Scarf Darkrai.
+
+Kyogre
+
+2 Sets
+
+Lum Para spreader – 144 HP / 252+ SpA / 112 Speed / Surf, Ice Beam,  Thunder, Thunder Wave.
+
+Establishes weather early on and beats Darkrai and Tyranitar by trading with Deoxys. Most consistent lead move vs. either Deoxys lead is Thunder, as it has the capacity to stop them from getting 2 layers up. Overall, be cautious of Spikes stacking when using this.
+
+Note: thunder the deoxys over t-wave. 2HKO + 30% para over 25%
+
+Modest Scarf – WaterSpout, Hydro Pump / Surf,Ice Beam, Thunder
+
+Quite old, but gets the jump on people who don’t expect you to still be running this. Can OHKO non Sash leads, only being forced to switch-out of a Dialga lead. Misses important OHKOs and 2HKOs without the benefit of hazard damage but can still work.
+
+Giratina-Origin
+
+Consistent Anti Lead and the best non hazard based one. Only problem is Gira does too much for teams sometimes (Consistent 50+ to Psychics) that you must be careful about taking damage.
+EVs depend too much on the rest of the team, should at least be 112 to outspeed Tyranitar. A sample spread can be 192 Atk / 64 SpA / 252 Speed Naive.The only two constants are your STABs: Shadow Sneak, Draco Meteor / Dragon Claw
+The other 2 moveslot can be:
+
+HP Fire: Forretress / Scizor / Skarmory repellent, albeit Skarm shrugs it off if sun hasn’t been set-up.
+
+Second Dragon move: In case you’re scared of Dracos missing or want to hit on both the Physical and the Special attacking spectrum. Outrage 2HKOs bulky Dialga
+
+EQ: Jirachi + Heatran. gets the beat on Dialga, safe and consistent
+
+Thunder: Kyogre + Efficient skarm removal. Works best on your own rain teams.
+
+Will-o-Wisp: Best suited for the long game. wants to target Groudon / Support Dialga / TTar, but residual damage on anything is good
+
+Thunder-Wave / Toxic: best for stall builds, helps incapacitate potential threats
+
+Shadow Ball: Special Ghost move, doesn’t hit something in particular.
+
+Scizor
+
+Anti-Dark lead – 252 HP / 40+ Atk / 216 SpD Lum Berry / U-Turn, Bullet Punch, Pursuit / Toxic, Roost
+Yet another momentum-based lead not much unlike Mew, but with the added benefit of being able to beat Darkrai easily and trapping Froslass, in exchange for not providing hazard support nor control. Pursuit / Toxic is a toss up for what you want. You could run both over roost but you lose the ability to continually switch on Fire-less Dragons such as Latias. Fits great on some teams, but isn’t usually recommended.
+
+Ninjask
+
+Baton Pass Lead – 216 Atk / 108 Def / 184+ Speed / Baton Pass, X-Scissor, Swords Dance, Substitute / Protect  / Flash (Liechi Berry)
+Ninjask does what it’s been doing since its release; passing Speed Boosts to Pokemon that are hard hitters. The crux of this set is being able to avoid dying to any one hit and then passing a Speed and possibly an Attack boost onto a powerful sweeper. X-Scissor beats Deoxys which is the only mon that is gonna Taunt you. Defense EVs mean you live the E-Speed from Ray and Deo-A with enough HP to make a Sub and pass successfully. The issue lies in the fact that anything on the opposing team that can phase you out will come in and foil your plans with the greatest of ease and of course multiple different Pokemon just straight up killing you, such as Tyranitar.
+
+Ho-Oh
+
+Lead Rooster– 144 HP / 252+ Atk / 112 Speed / Sacred Fire, Brave Bird, Earthquake, Sleep Talk / Roost
+Ho-Oh is quite possibly the most underrated anti-lead currently on the landscape. Its STAB combination is unparalleled, being able to hit everything that isn’t a Rock-Type. Sacred Fire’s high crit rate also provides a concise answer to Deoxys-Speed, no matter its set. Darkrai is also covered with a Lum Berry or Sleep Talk, freeing your team from the shackles of adding secondary sleep absorbers. Ho-Oh isn’t a typical lead as it can be used in the midgame as a breaker, too. The Speed guarantees you creep past max speed Tyranitar and blow it away with Earthquake.
+
+### post 9462710 author=Lasen url=https://www.smogon.com/forums/threads/ubers-old-gens-hub.3714123/#post-9462710
+Advance Generation
+
+Generation 3 mechanics relevant to Ubers:
+
+Struggle recoil 25 % of damage inflicted to opponent. Consequently: Lefties+Wobbuffet (Wynaut) is banned
+
+Special or physical depends on type, not on the move itself
+
+Difference in turn mechanics: comprehensive list can be found here
+
+Turns spent using Sleep Talk when sleeping will be reset upon switching out
+
+KO by spikes or self-KO ends turn
+
+Outrage has 90 base power
+
+Encore lasts 2-6 turns
+
+Taunt lasts for 2 turns
+
+ADV Viability Rankings
+
+Every rank is sorted internally.
+
+S Rank
+
+Groudon
+Kyogre
+Latios
+
+A Rank
+
+A+
+
+Blissey
+Latias
+Mewtwo
+Deoxys-A
+Snorlax
+
+A
+
+Forretress
+Ho-Oh
+Skarmory
+Metagross
+Rayquaza
+
+A-
+
+Lugia
+Deoxys-D
+Tyranitar
+
+B Rank
+
+B+
+
+Gengar
+Heracross
+Mew
+Omastar
+Salamence
+Kabutops
+
+B
+
+Jirachi
+Wobbuffet
+Starmie
+Dusclops
+Magneton
+Swampert
+Dugtrio
+
+B-
+
+Aerodactyl
+Slaking
+Smeargle
+Victreebel
+Cloyster
+Regice
+
+C Rank
+
+C+
+
+Aggron
+Armaldo
+Regirock
+Rhydon
+Weezing
+Celebi
+
+C
+
+Ludicolo
+Exeggutor
+Qwilfish
+Registeel
+Steelix
+Breloom
+Medicham
+Shedinja
+Shiftry
+Umbreon
+Deoxys-S
+
+D Rank
+
+Deoxys
+Wynaut
+
+ADV Sample Teams
+
+Dusclops Sunstall (RED!) by Exiline
+
+Importable
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 196 SpD / 60 Spe
+Adamant Nature
+- Earthquake
+- Hidden Power [Ghost]
+- Overheat
+- Swords Dance
+
+Forretress (M) @ Leftovers
+Ability: Sturdy
+EVs: 248 HP / 244 SpD / 16 Spe
+Careful Nature
+- Hidden Power [Fire]
+- Explosion
+- Spikes
+- Rapid Spin
+
+Ho-Oh @ Leftovers
+Ability: Pressure
+EVs: 192 HP / 252 Atk / 64 Spe
+Adamant Nature
+- Hidden Power [Flying]
+- Shadow Ball
+- Sacred Fire
+- Recover
+
+Blissey @ Leftovers
+Ability: Natural Cure
+EVs: 252 Def / 252 SpD / 4 Spe
+Calm Nature
+IVs: 0 Atk
+- Toxic
+- Light Screen
+- Heal Bell
+- Soft-Boiled
+
+Lugia @ Leftovers
+Ability: Pressure
+Shiny: Yes
+EVs: 252 HP / 176 Def / 72 SpD / 8 Spe
+Bold Nature
+IVs: 0 Atk
+- Toxic
+- Reflect
+- Whirlwind
+- Recover
+
+Dusclops (M) @ Leftovers
+Ability: Pressure
+Shiny: Yes
+EVs: 252 HP / 44 Atk / 20 Def / 12 SpA / 180 SpD
+Sassy Nature
+- Shadow Ball
+- Pursuit
+- Will-O-Wisp
+- Rest
+
+Usage notes
+
+Lugia has Special Defense rather than Speed so as to check Latias and Kyogre better when under Light Screen. The Speed investment on Groudon is highly flexibie, as is Groudon's coverage. Be sure to have something around to KO SubSalac Groudon if it's the opponent's last Pokemon.
+
+Spikes-Stacking Rainstall by various users
+
+Importable
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 252 HP / 224 Def / 32 Spe
+Bold Nature
+IVs: 0 Atk
+- Surf
+- Calm Mind
+- Rest
+- Roar
+
+Forretress @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 80 Atk / 168 SpD / 8 Spe
+Adamant Nature
+- Spikes
+- Rapid Spin
+- Explosion
+- Earthquake
+
+Blissey @ Leftovers
+Ability: Natural Cure
+EVs: 4 HP / 252 Def / 252 SpD
+Calm Nature
+- Heal Bell
+- Seismic Toss
+- Soft-Boiled
+- Toxic
+
+Lugia @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 160 Def / 96 Spe
+Impish Nature
+IVs: 0 Atk
+- Reflect
+- Toxic
+- Whirlwind
+- Recover
+
+Latias @ Soul Dew
+Ability: Levitate
+EVs: 160 HP / 96 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Thunder
+- Ice Beam
+- Recover
+- Calm Mind
+
+Deoxys-Defense @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 76 Def / 180 SpD
+Calm Nature
+IVs: 0 Atk
+- Toxic
+- Knock Off
+- Taunt
+- Recover
+
+Rain Boomspam by Holy Ghost
+
+Importable
+
+Mewtwo @ Lum Berry
+Ability: Pressure
+EVs: 4 Def / 252 SpA / 252 Spe
+Hasty Nature
+- Thunder
+- Ice Beam
+- Self-Destruct
+- Fire Blast
+
+Latios (M) @ Soul Dew
+Ability: Levitate
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Recover
+- Refresh
+- Thunder
+- Ice Beam
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 252 HP / 240 Def / 16 Spe
+Bold Nature
+IVs: 0 Atk
+- Hydro Pump
+- Ice Beam
+- Calm Mind
+- Thunder Wave
+
+Snorlax @ Leftovers
+Ability: Thick Fat
+EVs: 76 HP / 96 Atk / 84 Def / 252 SpD
+Adamant Nature
+- Body Slam
+- Self-Destruct
+- Curse
+- Rest
+
+Forretress @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 4 Atk / 252 Def
+Relaxed Nature
+- Spikes
+- Rapid Spin
+- Explosion
+- Earthquake
+
+Metagross @ Choice Band
+Ability: Clear Body
+EVs: 240 HP / 240 Atk / 28 Spe
+Adamant Nature
+- Meteor Mash
+- Earthquake
+- Pursuit
+- Explosion
+
+Heracross Rain by 0kay
+
+Importable
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 252 HP / 232 Def / 24 Spe
+Bold Nature
+IVs: 0 Atk
+- Surf
+- Roar
+- Calm Mind
+- Rest
+
+Blissey (F) @ Leftovers
+Ability: Natural Cure
+EVs: 188 HP / 68 Def / 252 SpD
+Calm Nature
+IVs: 0 Atk
+- Soft-Boiled
+- Toxic
+- Seismic Toss
+- Aromatherapy
+
+Latios (M) @ Soul Dew
+Ability: Levitate
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Calm Mind
+- Ice Beam
+- Thunder
+- Recover
+
+Skarmory @ Leftovers
+Ability: Keen Eye
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+IVs: 0 Atk
+- Pursuit
+- Toxic
+- Spikes
+- Whirlwind
+
+Heracross @ Salac Berry
+Ability: Swarm
+EVs: 12 HP / 244 Atk / 252 Spe
+Adamant Nature
+- Megahorn
+- Hidden Power [Rock]
+- Substitute
+- Swords Dance
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Shadow Ball
+- Superpower
+- Extreme Speed
+- Pursuit
+
+SubCM Mewtwo Rain by Inspirited
+
+Importable
+
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 236 HP / 220 Def / 16 SpA / 36 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunder Wave
+- Ice Beam
+- Hydro Pump
+- Thunder
+
+Mewtwo @ Leftovers
+Ability: Pressure
+EVs: 204 HP / 84 SpA / 220 Spe
+Modest Nature
+IVs: 0 Atk
+- Calm Mind
+- Thunder
+- Ice Beam
+- Substitute
+
+Latios (M) @ Soul Dew
+Ability: Levitate
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Thunder
+- Ice Beam
+- Recover
+- Refresh
+
+Forretress @ Leftovers
+Ability: Sturdy
+EVs: 248 HP / 84 Atk / 176 SpD
+Impish Nature
+- Spikes
+- Rapid Spin
+- Explosion
+- Earthquake
+
+Snorlax @ Leftovers
+Ability: Immunity
+EVs: 104 HP / 140 Atk / 252 SpD / 12 Spe
+Adamant Nature
+- Body Slam
+- Curse
+- Protect
+- Shadow Ball
+
+Deoxys-Attack @ Choice Band
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Superpower
+- Shadow Ball
+- Extreme Speed
+- Pursuit
+
+Deoxys-Attack Sunstall by Ismakhil
+
+Importable
+
+Groudon @ Leftovers
+Ability: Drought
+EVs: 252 HP / 24 Def / 232 SpD
+Careful Nature
+- Earthquake
+- Hidden Power [Ghost]
+- Toxic
+- Protect
+
+Forretress @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 244 SpD / 12 Spe
+Calm Nature
+- Hidden Power [Fire]
+- Explosion
+- Rapid Spin
+- Spikes
+
+Blissey @ Leftovers
+Ability: Natural Cure
+EVs: 8 HP / 252 Def / 248 SpD
+Careful Nature
+IVs: 0 Atk
+- Seismic Toss
+- Toxic
+- Heal Bell
+- Soft-Boiled
+
+Latias @ Soul Dew
+Ability: Levitate
+EVs: 252 HP / 192 Def / 64 Spe
+Bold Nature
+IVs: 0 Atk
+- Thunder
+- Ice Beam
+- Calm Mind
+- Recover
+
+Ho-Oh @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 80 Atk / 92 Def / 84 SpD
+Careful Nature
+- Shadow Ball
+- Sacred Fire
+- Toxic
+- Recover
+
+Deoxys-Attack @ Spell Tag
+Ability: Pressure
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naughty Nature
+- Superpower
+- Shadow Ball
+- Extreme Speed
+- Fire Punch
+
+set compendium largely by SEA
+
+ADV Ubers Teambuilding Compendium - Credit: Minority
+
+Lati Checks:
+
+Kyogre Check:
+
+Groudon Checks:
+
+Deoxys-A Checks:
+
+Normal Resists:
+
+Spikes:
+
+Rapid Spin:
+
+Trappers:
+
+Cleric, Wish, Screens:
+
+ADV Ubers Speed Tiers - Originally by Minority, edited by Lasen
+
+512 -
+
+(0 in sun)
+475 -
+
+(252+ at +1)
+442 -
+
+(156 at +1) (252+ at +1)
+441 -
+
+(180+)
+440 -
+
+(16+), (56 in rain), (96 in sun), (96 in rain)
+438 -
+
+(252+)
+433 -
+
+(252 at +1)
+405 -
+
+(120+ at +1)
+403 -
+
+(252 at +1)
+400 -
+
+(216 in rain)
+---[Above Standard Deo-A]----------
+399 -
+
+(252)
+394 -
+
+(252+)
+361 -
+
+(252+)
+360 -
+
+(136 in sun)
+359 -
+
+(252)
+---[Base 110+]----------
+350 -
+
+(252+)
+339 -
+
+(252)
+328 -
+
+(252+)
+320 -
+
+(140+)
+319 -
+
+(252)
+317 -
+
+(252+)
+306 -
+
+(252+)
+299 -
+
+(252)
+295 -
+
+(252+)
+289 -
+
+(252)
+280 -
+
+(176)
+279 -
+
+(252)
+270 -
+
+(120+)
+---[Invested Base 90+]----------
+269 -
+
+(252)
+262 -
+
+(252+)
+256 -
+
+(0)
+239 -
+
+(252)
+236 -
+
+(0)
+220 -
+
+(56), (96)
+216 -
+
+(0)
+---[Uninvested Base 90+]----------
+200 -
+
+(216)
+180 -
+
+(136)
+176 -
+
+(0)
+166 -
+
+(0)
+158 -
+
+(0)
+147 -
+
+(128+)
+146 -
+
+(0)
+136 -
+
+(0)
+116 -
+
+(0)
+96 -
+
+(0)
+86 -
+
+(0)
+82 -
+
+(0)
+
+### post 9462711 author=Lasen url=https://www.smogon.com/forums/threads/ubers-old-gens-hub.3714123/#post-9462711
+Gold, Silver, and Crystal
+
+Generation 2 mechanics relevant to Ubers:
+
+No abilities or natures
+
+252 EVs in all 6 stats
+
+IVs are replaced with DVs: 0-15 instead of the usual 0-31
+
+Sleep lasts 2-7 turns
+
+No more than 1 layer of Spikes is possible
+
+Provided the user is not at full health, Sleep Talk can pick the move Rest and succeed, healing the user and resetting sleep turns.
+This also negates the effect of Sleep-inducing moves, allowing the opponent to Sleep one of your Pokemon again.
+
+Toxic reverts to normal poison upon switch-out
+
+Toxic and Leech Seed damage applies after the use of a move, not on a switch.
+Neither applies at the end of a turn where the opponent's Pokemon is KO'd.
+
+Belly Drum glitch: when below 50 % health, the user is granted +2 Attack without any HP being deducted.
+
+There is a 1/256 chance that 100% secondary effects of attacking moves such as Thief or Dynamic Punch will not have their secondary effect applied.
+
+Pokemon now have a 10% chance to thaw from frozen status
+Fire-type attacks, except Hidden Power Fire, will thaw a Frozen target.
+
+Pokemon cannot move on the turn they thaw, unless their opponent's attack thaws them.
+
+Shiny Pokemon are not recommended; DVs determine whether Pokemon are shiny or not, and shinies have imperfect DVs.
+
+If both players use a phazing move at the same time, the faster phazer's move fails.
+This also applies when one of the phazing Pokemon is asleep.
+
+Draining moves always miss against Pokemon that are behind Substitutes.
+
+When Skarmory and Lugia use Curse behind Reflect, their Defense stats will overflow, becoming very low. This also applies to Thick Club 15 Attack DVs Marowak's Attack stat after it uses a Swords Dance, Shuckle's unboosted Defense behind Reflect, Barrier Mewtwo behind Reflect, and so forth.
+
+Counter works on every Hidden Power type.
+
+Critical hits ignore the Attack drop from burns.
+
+If the Attack stat of the Pokemon landing a critical hit is higher than the Defense of its foe, then a critical hit will ignore any stat changes on either side of the field.
+
+GSC Viability Rankings compiled by Isa
+
+All Pokemon are ranked top to bottom based on Viability.
+
+S Rank:
+
+S
+
+Snorlax
+
+Mewtwo
+
+Mew
+
+A Rank:
+
+A1
+
+Cloyster
+
+Zapdos
+
+Tyranitar
+
+A2
+
+Celebi
+
+Steelix
+
+Lugia
+
+Jolteon
+
+Ho-Oh
+
+Forretress
+
+Golem
+
+Raikou
+
+A3
+
+Gengar
+
+Vaporeon
+
+B Rank:
+
+B1
+
+Skarmory
+
+Heracross
+
+B2
+
+Umbreon
+
+Exeggutor
+
+Quagsire
+
+Marowak
+
+Rhydon
+
+Blissey
+
+Misdreavus
+
+C Rank:
+
+C1
+
+Houndoom
+
+Starmie
+
+Smeargle
+
+Omastar
+
+C2
+
+Suicune
+
+Aerodactyl
+
+Corsola
+
+Muk
+
+Miltank
+
+Jynx
+
+Shuckle
+
+GSC Sample Teams
+
+Ho-Oh Celebi + MeanPass by Conflict
+
+Importable
+
+Snorlax @ Leftovers
+Ability: Immunity
+- Lovely Kiss
+- Rest
+- Curse
+- Double-Edge
+
+Celebi @ Leftovers
+Ability: Natural Cure
+- Heal Bell
+- Leech Seed
+- Recover
+- Giga Drain
+
+Forretress @ Leftovers
+Ability: Sturdy
+- Explosion
+- Spikes
+- Toxic
+- Rapid Spin
+
+Golem @ Leftovers
+Ability: Rock Head
+- Earthquake
+- Rapid Spin
+- Roar
+- Explosion
+
+Ho-Oh @ Leftovers
+Ability: Pressure
+- Flamethrower
+- Toxic
+- Whirlwind
+- Recover
+
+Umbreon @ Leftovers
+Ability: Synchronize
+- Baton Pass
+- Charm
+- Mean Look
+- Rest
+
+Barrier Mewtwo + Thief Gengar by Inder
+
+Importable
+
+Snorlax @ Leftovers
+Ability: None
+- Double-Edge
+- Curse
+- Rest
+- Lovely Kiss
+
+Forretress @ Leftovers
+Ability: None
+IVs: 6 HP / 28 Atk / 24 Def
+- Hidden Power [Fire]
+- Spikes
+- Explosion
+- Rapid Spin
+
+Tyranitar @ Leftovers
+Ability: None
+- Rock Slide
+- Curse
+- Rest
+- Roar
+
+Zapdos @ Leftovers
+Ability: None
+IVs: 14 HP / 28 Atk / 26 Def
+- Thunder
+- Hidden Power [Water]
+- Rest
+- Sleep Talk
+
+Mewtwo @ Leftovers
+Ability: None
+- Flamethrower
+- Barrier
+- Toxic
+- Recover
+
+Gengar
+Ability: None
+- Ice Punch
+- Dynamic Punch
+- Thief
+- Explosion
+
+Big Six by Isa
+
+Importable
+
+Snorlax @ Leftovers
+Ability: none
+- Lovely Kiss
+- Double-Edge
+- Rest
+- Curse
+
+Zapdos @ Leftovers
+Ability: none
+EVs: 252 HP / 252 Def / 252 SpA / 252 SpD / 252 Spe
+IVs: 14 HP / 28 Atk / 26 Def
+- Thunder
+- Hidden Power [Water]
+- Rest
+- Sleep Talk
+
+Mew @ Leftovers
+Ability: none
+- Explosion
+- Swords Dance
+- Shadow Ball
+- Submission
+
+Mewtwo @ Leftovers
+Ability: none
+- Barrier
+- Recover
+- Flamethrower
+- Toxic
+
+Tyranitar @ Leftovers
+Ability: none
+- Rest
+- Roar
+- Curse
+- Rock Slide
+
+Cloyster @ Leftovers
+Ability: none
+- Spikes
+- Surf
+- Icy Wind
+- Explosion
+
+Golem boom offense by zf
+
+Importable
+
+Snorlax @ Leftovers
+Ability: none
+- Double-Edge
+- Lovely Kiss
+- Curse
+- Rest
+
+Zapdos @ Leftovers
+Ability: none
+IVs: 14 HP / 28 Atk / 26 Def
+- Thunder
+- Hidden Power [Water]
+- Rest
+- Sleep Talk
+
+Forretress @ Leftovers
+Ability: none
+IVs: 6 HP / 28 Atk / 24 Def
+- Explosion
+- Hidden Power [Fire]
+- Spikes
+- Rapid Spin
+
+Mew @ Leftovers
+Ability: none
+- Earthquake
+- Rock Slide
+- Explosion
+- Swords Dance
+
+Mewtwo @ Leftovers
+Ability: none
+- Thunder
+- Ice Beam
+- Submission
+- Self-Destruct
+
+Golem @ Leftovers
+Ability: none
+- Earthquake
+- Rapid Spin
+- Explosion
+- Roar
+
+Jolteon Growthpass by zf
+
+Importable
+
+Snorlax @ Leftovers
+Ability: none
+- Double-Edge
+- Lovely Kiss
+- Curse
+- Self-Destruct
+
+Mew @ Leftovers
+Ability: none
+- Earthquake
+- Rock Slide
+- Explosion
+- Swords Dance
+
+Jolteon @ Leftovers
+Ability: none
+IVs: 14 HP / 28 Atk / 26 Def
+- Thunder
+- Hidden Power [Water]
+- Growth
+- Baton Pass
+
+Mewtwo @ Leftovers
+Ability: none
+- Thunder
+- Ice Beam
+- Fire Blast
+- Self-Destruct
+
+Cloyster @ Leftovers
+Ability: none
+- Surf
+- Icy Wind
+- Explosion
+- Spikes
+
+Tyranitar @ Leftovers
+Ability: none
+- Crunch
+- Fire Blast
+- Ice Beam
+- Roar
+
+Lugia Balance by Mr.378
+
+Importable
+
+Snorlax @ Leftovers
+Ability: none
+- Double-Edge
+- Lovely Kiss
+- Curse
+- Rest
+
+Mewtwo @ Leftovers
+Ability: none
+- Fire Blast
+- Thunder
+- Ice Beam
+- Self-Destruct
+
+Mew @ Leftovers
+Ability: none
+- Rock Slide
+- Earthquake
+- Explosion
+- Swords Dance
+
+Lugia @ Leftovers
+Ability: none
+- Curse
+- Recover
+- Aeroblast
+- Whirlwind
+
+Steelix @ Leftovers
+Ability: none
+- Explosion
+- Earthquake
+- Roar
+- Curse
+
+Cloyster @ Leftovers
+Ability: none
+IVs: 14 HP / 28 Atk
+- Surf
+- Hidden Power [Electric]
+- Explosion
+- Spikes
+
+Cloyster Boom Offense by 64 Squares
+
+Importable
+
+Mewtwo @ Leftovers
+Ability: none
+- Psychic
+- Fire Blast
+- Blizzard
+- Self-Destruct
+
+Mew @ Leftovers
+Ability: none
+- Swords Dance
+- Submission
+- Shadow Ball
+- Soft-Boiled
+
+Snorlax @ Leftovers
+Ability: none
+- Lovely Kiss
+- Curse
+- Double-Edge
+- Rest
+
+Zapdos @ Leftovers
+Ability: none
+IVs: 14 HP / 28 Atk / 26 Def
+- Thunder
+- Hidden Power [Water]
+- Rest
+- Sleep Talk
+
+Steelix @ Leftovers
+Ability: none
+- Curse
+- Earthquake
+- Roar
+- Explosion
+
+Cloyster @ Leftovers
+Ability: none
+- Spikes
+- Surf
+- Toxic
+- Explosion
+
+Rhydon Balance by steelskitty
+
+Importable
+
+Snorlax @ Leftovers
+Ability: none
+- Lovely Kiss
+- Body Slam
+- Curse
+- Rest
+
+Mew @ Leftovers
+Ability: none
+- Submission
+- Swords Dance
+- Shadow Ball
+- Soft-Boiled
+
+Zapdos @ Leftovers
+Ability: none
+IVs: 14 HP / 28 Atk / 26 Def
+- Hidden Power [Water]
+- Thunder
+- Rest
+- Sleep Talk
+
+Rhydon @ Leftovers
+Ability: none
+- Curse
+- Roar
+- Rock Slide
+- Earthquake
+
+Forretress @ Leftovers
+Ability: none
+IVs: 6 HP / 28 Atk / 24 Def
+- Explosion
+- Rapid Spin
+- Hidden Power [Fire]
+- Spikes
+
+Celebi @ Leftovers
+Ability: none
+IVs: 6 HP / 28 Atk / 24 Def
+- Heal Bell
+- Toxic
+- Recover
+- Leech Seed
+
+GSC Ubers Teambuilding Compendium
+
+Snorlax Check
+
+Mew Check
+
+Mewtwo Check
+
+Lugia Check
+
+Tyranitar Check
+
+Electric Sponge
+
+Ground Sponge
+
+Phazer
+
+Status Absorber
+
+Curser
+
+Boomer
+
+Baton Pass
+
+Trapping
+
+Spikes
+
+Rapid Spin
+
+Cleric
+
+Set Compendium by Isa and Corvere
+
+### post 9462712 author=Lasen url=https://www.smogon.com/forums/threads/ubers-old-gens-hub.3714123/#post-9462712
+Red, Blue and Yellow
+
+Generation 1 mechanics relevant to Ubers:
+
+There is a 1/256 chance for 100% accuracy moves to miss.
+
+Recovery moves also fail if a Pokemon's HP Is 255 or 511 points below their Max HP. Example: Chansey at 192 HP is unable to successfully use Softboiled.
+
+Critical Hit chance is determined by the Pokemon's speed i.e A base 130 speed Pokemon such as Mewtwo or Jolteon has a 25% chance to land a critical hit. (Base speed/512)
+Critical hits ignore your and your opponent's stat boosts.
+
+Pokemon that are asleep do not move on the turn they wake up.
+
+Pokemon that are frozen do not thaw by themselves (only via being hit by a Fire move that can cause a burn, or Haze), due to this there is a freeze clause.
+
+Boosting moves such as Agility can eliminate the loss of speed caused by paralysis if the user is already paralyzed.
+
+Hyper Beam does not have a recharge turn if it KOs the defending Pokemon. A Pokemon who has used Hyper Beam and requires recharging can have their status effect overwritten. For example: A paralyzed Tauros uses Hyper Beam, has to recharge, and then can be put to sleep by an Exeggutor with Sleep Powder, despite already being Paralyzed.
+
+Substitute does not block sleep and paralysis. On the turn a Substitute is broken (ie by Body Slam), the Pokemon that was behind the Substitute cannot be hit with a status effect resultant from the move that broke the Substitute.
+
+Special Defense and Special Attack are one stat called "Special". The number is equal to the Pokemon's Special Defense from Generation II onward.
+
+Counter can only counter Normal or Fighting type moves specifically. Counter can also counter back damage from previous turns provided the opponent's Pokemon does not move — i.e full paralysis or on switching out. Counter fails if the opponent's last-selected move was not Normal or Fighting-type. If it was, however, a Pokemon can Counter its own damage. For instance, an opposing Tauros Hyper Beams your Chansey and you use Thunderbolt. The Tauros recharges and you use Counter. You will do twice as much damage as you did with Thunderbolt. Some non-damaging moves reset this damage count, making Counter fail. A list of these can be found here: https://www.smogon.com/dex/rb/moves/counter/.
+
+Reflect and Light Screen affect the user only, doubling their defensive stats, and are permanent until the user switches out. Critical hits still ignore them and Haze removes them.
+
+Rest does not eliminate the stat drops caused by Status effects until the Pokemon switches out.
+
+Multi-hit moves such as Double Kick always do the same amount of damage based on the first hit, also if the first hit criticals all the multi-hits will also land a critical.
+
+Explosion and Self-Destruct do not cause the user to faint if they KO the target's Substitute.
+
+Hyper Beam does not force a recharge if it KOs the target's Substitute.
+
+After a Pokemon hits Hyper Beam but before it recharges, sleep can overwrite any other status the recharging Pokemon has.
+
+Damaging moves with secondary status effects cannot apply those status effects to Pokemon who share the same type of the damaging move. For instance: Body Slam cannot paralyze Normal-types, Thunderbolt and Thunder cannot paralyze Electric-types (Thunder Wave, however, can), Sludge cannot poison Poison-types, and so on.
+
+Paralysis and Burn have their stat multiplier reapplied if the opponent boosts or if their own stats are dropped in any way — for instance, a Slowbro using Amnesia against a Paralyzed Mewtwo will quarter Mewtwo's speed again on top of the original quartering from Paralysis. This can happen until the stat cap stops your Pokemon from boosting or +6/-6 is reached. These changes are not saved when the affected Pokemon switches out.
+
+Critical hits ignore the Attack drop from burns.
+
+Other Move differences: Blizzard has an accuracy of 90%, Fire Blast has a 30% chance to burn, Thunder has a 10% chance to paralyze, Psychic has a 33% chance to drop the opponents Special Stat, Explosion is 170 base power and Self-Destruct is 130, Night Shade and Seismic Toss can hit any Pokemon regardless of typing.
+
+Type differences: Fire does not resist Ice, Poison is super effective against Bug, Bug is also super-effective against poison, due to a bug Psychic Types are immune to Ghost-Type attacks such as Lick.
+
+August 2025 RBY Viability Rankings organized by Sabelette
+
+S Rank:
+
+S
+
+Mewtwo
+Mew
+
+A Rank:
+
+Exeggutor
+Tauros
+Snorlax
+
+B1 Rank:
+
+Cloyster
+Zapdos
+Rhydon
+Gengar
+
+B2 Rank:
+
+Chansey
+Jynx
+Alakazam
+Slowbro
+Starmie
+
+C Rank:
+
+Articuno
+Dragonite
+Golem
+Victreebel
+Jolteon
+Hypno
+
+D Rank
+
+Lapras
+Sandslash
+Moltres
+
+E Rank
+
+Persian
+Electrode
+Aerodactyl
+
+F rank
+
+Dodrio
+Poliwrath
+Arbok
+Ditto
+
+RBY Sample Teams
+
+Lead Gar Boomspam by gastlies
+Zap Egg Thorlax by gastlies
+Zam Egg Bull by gastlies
+Lead Zap Bull by gastlies
+Zam Egg Cuno by Sabelette
+Lead2 MieEggDon Nite by Sabelette
+EggBroSlash by Sabelette
+Recoverless Hyper Offense by Sabelette
+Zap Cloy Egg Slash by Eledyr
+Gar Egg Don by Eledyr
+Jynx Cloy Bull by Eledyr
+Gar Zap by Peasounay
+
+### post 9562570 author=Lasen url=https://www.smogon.com/forums/threads/ubers-old-gens-hub.3714123/#post-9562570
+First post of the new thread! ORAS and GSC samples have been updated, as well as a GSC VR. Expect more posts soon (BW VR? never heard of her!)
+
+### post 9563370 author=Nineveh url=https://www.smogon.com/forums/threads/ubers-old-gens-hub.3714123/#post-9563370
+Hi! It came to my mind our DPP Ubers VR felt a little wrong or outdated on a few aspects, and I want to suggest a few changes we could take in consideration.
+There are a few noms I feel pretty strong on (notably the 2 rises). However I thought I could also mention lesser changes while I was at it.
+
+Rises
+A- to Low A
+Bronzong is a staple in so many good teams right now. The only valid argument to keep it down in A- would be how it's not that splashable and specific to some teams. However, that argument falls flat when you consider those teams are the most consistent ones as of right now, and that Bronzong is part of the reason why they are. It has also shown a lot of usage in UWL to back that up.
+
+B+ to A-
+Blissey is just good. Rain check + rocks + twave are exceedingly good on any mon, and Blissey also provides the utility of a draco meteor + fire resist; these attributes make her the best SR user on Sun apart from Groudon itself. Outrage Giratina is not as good at beating her as you would think - it's a good option to catch Blissey when it hard switches in, but otherwise it can be scouted for by using Soft-Boiled.
+
+Drops
+A- to B+
+Not extra vocal on this, this is my least convinced nom, but it has somewhat disappeared as of recently. I would rather see it in a tier with other low usage mons. Also, sun likes Blissey right now and they don't pair too well, so I think Blissey should be higher than it.
+
+B+ to B
+Neither of those mon has shown anything special in a while. Kingdra should not share its tier with the superior Kabutops, and raising Kabutops does not feel right so Kingdra should go down. Tentacruel is the one I'm the least convinced about, it's still better than the other T-Spikers if you wanna use the weird CM Tina Rains / TSpikes offense - the real question is if you want to run those teams. Manaphy doesn't like neither Sun and Rain HO being big, and the important support it requires does not really seem worth the investment right now.
+
+B+ to B-
+I was initially writing about dropping this to B, but this thing is so fringe at its role that you tend to forget what said role even is. Para magnet, takes regular damage on rocks despite being a steel, needs to Roost way too often when SpeDef, and offensive sets get to click only one move per game on average, so you wish that one move was better. It compares really poorly to a lot of stuff ranked in B (they win games).
+
+B to B-
+Didn't really care much about low tiers, but scrolling down the VR, Mew is the very first mon where I really questioned whether I'd willingly put it in a team while trying to make it good. Lead sets are generally outclassed by other rock leads, and the only reason to keep Mew a little high is its usage in non-results BP teams.
+
+Minor changes within ranks
+
+A+ is really weird right now, Darkrai is absolutely good but hard to rank - it can go from winning a game turn 5 to show a lack of power/reliability in another one, Mewtwo is GOOD, Deo-S is undeniably the best lead and Sun is super consistent hence Groudon deserves to be high (see last part). Latias is the only of the 5 that doesn't feel amazing right now, I'd keep it in A+ but it's def going last.
+A rank feels weird, particularly with this being on top, but I'm not too sure what feels better and I ultimately don't care enough about sub-rankings to think them all through - just pointing out it feels off.
+I think this tier has mons that feel really weird to compare. However, taking my changes above into consideration, Skarmory has way less representation than both Blissey and Forry do, so it should not sit at the top of the rank.
+I don't like it but it's better than what it's being credited for, still creates some of the most warped match-ups at times. Would see it a the top of B+?
+
+Finally, I would like to suggest the possibility of a new tier. I think both Groudon and Giratina-Origin feel a little off, Giratina is an amazing glue and works in literally every offense, yet I don't think it matches Kyogre and Dialga in terms of actual work done in game. On the lower rank, Groudon is on Dialga levels of team support, if not better - as I believe it paras more reliably and more relevant stuff. While this wouldn't change the general ranking, I believe both sitting together in a S- tier is more appropriate.
+
+### post 9563817 author=shrang url=https://www.smogon.com/forums/threads/ubers-old-gens-hub.3714123/#post-9563817
+Agree Manaphy is bad. It has not aged well as a mon. It's too slow to get going and in practice you'll either do nothing or lose to hax most of the time. I personally think TG is meh - it's pretty weak and needing to double up with Ogre is sad, and CM just takes too slow to get going. In theory CM beats a lot of mon (like Scarf Dialga/Ogre/Palkia) if you have a CM up already, but in reality you'll get critted before you've boosted enough. I've even had a game where I actually set up CM/Recover M2 (without Thunder!) on it and it can't even 2HKO you with Surf if you're both at +6, which means it still comes down to crit anyway.
+Support sets can be fun (Knock Off, Heal Bell, etc) but the problem is with Manaphy needs high support by itself so when the support that it provides is outweighed by the support it needs it becomes a problem.
+I think it can go down to B- under Ludicolo - Ludi is way more consistent than Manaphy is without anywhere near as much support required.
+
+### post 9567776 author=Edlefsen url=https://www.smogon.com/forums/threads/ubers-old-gens-hub.3714123/#post-9567776
+Special\Physical depends on type ? (@gen3) So all psychic moves are special, all fighting are physic etc. ?
+
+### post 9567822 author=Lasen url=https://www.smogon.com/forums/threads/ubers-old-gens-hub.3714123/#post-9567822
+Edlefsen said:
+
+Special\Physical depends on type ? (@gen3) So all psychic moves are special, all fighting are physic etc. ?
+
+Click to expand...
+
+yes; you can reference the following table for gens 1-3
+
+### post 9569758 author=zf url=https://www.smogon.com/forums/threads/ubers-old-gens-hub.3714123/#post-9569758
+Move snorlax to S rank in adv, u CANnot have good team Without the Lax.
+Certainly
+A meta definer pokemon.
+So many sets… so many options. If you craft a team, you Must not be weak to this behemoth
+
+### post 9578374 author=Inspirited url=https://www.smogon.com/forums/threads/ubers-old-gens-hub.3714123/#post-9578374
+I mostly agree with Nineveh on the ranking shifts and the disagreements are so marginal that I really don't think it matters all that much.
+
+S:
+A+:
+A:
+A-:
+
+This is how I have S through A- ranked personally and, if anything, is a better representation of what we currently see when the tier is played. I am currently doing some experiments with older Gira-O sets that are actually kind of dangerous to Bronzong and its team, but as of right now I can't say anything about how they will shape things if they do any metagame shaping at all. As for the whole S- thing, I would rather just move Groudon into S if we are to change where it is at all. Comparing Giratina-O to Dialga and Kyogre does feel a bit odd but between what it enables and what it does / can do (we'll see about this) on its own does still get it there I think. Comparing it to Groudon is almost as difficult which is why I am not super opposed to having Groudon possibly join S.
+
+### post 9586905 author=Edgar url=https://www.smogon.com/forums/threads/ubers-old-gens-hub.3714123/#post-9586905
+BW:
+
+Deoxys-S A --> A+  or even S.
+
+I'm gonna be blunt and say that we should stop lying to ourselves saying that any other leads can compare to him (the only one that comes close is god forry). Lil' bro has every tool it needs to get a good matchup against every lead you can name and being the lead matchup victor is too good of a head start in BW. Not to mention, it can run so many viable items such as Rocky Helmet, Red Card and King's Rock that is honestly fucking disgusting. I will probably expand more if there is some discussion to be had but those are my initial thoughts.
+
+### post 9763142 author=TheRealBigC url=https://www.smogon.com/forums/threads/ubers-old-gens-hub.3714123/#post-9763142
+Please could the forum mods pin this thread?
+
+### post 9764601 author=katerina url=https://www.smogon.com/forums/threads/ubers-old-gens-hub.3714123/#post-9764601
+hello! i dont know where to post this so excuse if this is not the place, but i recently made a set compendium for gsc ubers with the help of Isa. every pokemon thats ranked in the gsc ubers vr is showcased in this compendium, with (almost) every viable set they can run in the format.
+
+heres the compendium: https://pokepast.es/785e256f1f0b2f6b
+
+this compendium will hopefully give some more insight to gsc ubers, where many newbies and veterans alike can see it and be reminded or learn about the plethora of interesting sets there are! if this could get added to the gsc post we would appreciate it, thanks!
+
+### post 9768021 author=PatheticAce url=https://www.smogon.com/forums/threads/ubers-old-gens-hub.3714123/#post-9768021
+SS VR shift proposals:
+
+Drops:
+
+: S(2) ->S(3)
+
+Small change, but I do think that Eternatus is the least mandatory of the YEN mons to include on a team. There's a solid combination of viable mons that can fulfill its traditional roles of being a Kyogre/Marshadow/Ho-Oh check and Knock-Off switch in and also don't freely let in Necrozma-Dusk Mane. Its also sometimes dropped on HO teams since it often lacks the power or setup capabilities needed to do well in certain matchups. Eternatus is still fantastic of course, but I simply don't think its better than Necrozma-Dusk Mane.
+
+: B+ ->B or lower
+
+Lunala fell off really hard by the end of SS, and I genuinely think it would have dropped further if the gen hadn't ended. Adding one to a team makes your Marshadow and Calyrex-S matchup significantly worse, and its overeliance on Shadow Shield being active simply for it to accomplish its role of being a Defensive Wall hinders it significantly, especially since almost everything it tries to check can status it with ease anyways.
+
+: B -> B-
+
+Even in a gen with Toxic, Teleport, and 16 Soft-Boiled PP, Blissey is still a passive pink blob that is hard to justify using outside of dedicated stall teams. Not much to say here, it doesn't do a lot and makes teams noticeably weaker against literally any physical attacker.
+
+Rises
+
+: B -> B+
+Pheromosa's combination of powerful fighting STAB and pivoting capabilities allow it to stand out from other common attackers like Marshadow and Darmanitan-G, which I believe deserves more recognition . Close Combat or Low Kick is relatively spammable and STAB U-Turn does a surprisingly decent amount of chip damage on most switch-ins. It's coverage moves are solid as well, with Throat Chop/Assurance allowing it to revenge kill non Scarfed Calyrex-S and Triple Axel being able to KO Eternatus trying to swich in. It still has the bulk of a wet Post-It note and notably gets picked of by uninvested Yveltal Sucker Punch after some hazard chip, but its offensive and pivoting abilities shouldn't go overlooked.
+
+: C+ ->B-
+
+Clefable's role compression and solid utility options are deserving of a higher ranking. Stealth Rock frees up NDM and Groudon a lot, while Softboiled gives it reliable recovery and sets it apart from defensive Xerneas. It checks essentially every Yveltal set and cripples many defensive mons trying to switch in with T-Wave or Knock Off. Magic Guard is always useful, especially in a tier filled with Ferrothorn spikes and status spam. It still struggles to avoid being setup fodder and its stats are noticeably worse than Xerneas, but I think its defensive niche makes it very much worth using.
+
+: C- ->C
+
+(im not tripping guys I promise)
+Probably the weirdest proposal out of all of these, but I think Audino should rise because its very cute of its ability to check Calyrex-S while also providing solid team support. With Calyrex-S being the most dominant offensive force in the metagame, having a defensive backup check to it that takes some pressure off of your Yveltal is a niche that not many pokemon can fulfil, but Audino is able to switch in to Astral Barrage and Psyshock with ease. It can absorb Trick for Yveltal and is able to PP stall mono-attacking sets alongside it. Regenerator is a fantastic ability and allows Audino to switch in and out much more freely compared to most other defensive mons. Knock Off, Thunder Wave, and Heal Bell are always useful, but its unique inclusion of Wish helps it heal up its teammates who may lack recovery otherwise, such as Kyogre, Groudon, and Lando-T. It shares many flaws with Clefable such as being quite passive and having lackluster stats, but I do think that its positive attributes are significant enough to warrent a rise.
+
+### post 9857414 author=Gamer1234556 url=https://www.smogon.com/forums/threads/ubers-old-gens-hub.3714123/#post-9857414
+BW Ubers VR (Based on Tour Usage Stats):
+
+DISCLAIMER: This VR is based on data extrapolated from tours stats that have been going on this year, namely the BW PL III, UPL IX, Ubers Winter Seasonal II and the now completed RoA Spotlight. Therefore, this list should not be seen as my personal thoughts and must be taken with a grain of salt.
+
+I will be giving my thoughts on this VR some point in the future.
+
+S:
+A+:
+A:
+A-:
+B+:
+B:
+B-:
+C:
+
+Personal Thoughts:
+TBA
+
+### post 9928392 author=PatheticAce url=https://www.smogon.com/forums/threads/ubers-old-gens-hub.3714123/#post-9928392
+After playing a bit on the SS Ubers ladder, I wanted to share a set that I've been using to decent success.
+
+Calyrex-Shadow @ Focus Sash
+Ability: As One (Spectrier)
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest/Timid Nature
+IVs: 0 Atk
+- Astral Barrage
+-Disable
+- Nasty Plot
+- Draining Kiss
+
+This combines the incredible snowball potential of Sash NP set with the powerful utility disable provides to allow it to 1v1 nearly all Yveltal. If you can manage to get Caly in safely, most likely after a sack or a good double, your opponent will essentially be forced to switch in their Yveltal as you NP. You can then Draining Kiss them as they bring you down to your sash. The most crucial part of this interaction occurs on the next turn, when you disable them to prevent them from KOing you. The main perk of this set over others is being able to reliably beat sucker punch Yveltal, as if they sucker on that turn then they will be unable to use it on the next turn as you attack. If they lack sucker and try to use the same dark move they used last turn, that will be stopped as well. After that you can then KO the Yveltal and hopefully sweep. Timid is probably better since you can speed tie other Calyrex, which can be the difference between sweeping a team or getting immediately KO'd, but I tend to use Modest because I like being able to 2HKO max Sdef Yveltal. Obviously this set has flaws, such as getting beaten by non-sucker double-dark move Yveltal, getting revenged by Marsh/scarfers like other Calyrex, and not being able to hit Blissey/Chansey for meaningful damage, but in my experience it is well worth considering on many HO teams.
+
+### post 10077669 author=Lasen url=https://www.smogon.com/forums/threads/ubers-old-gens-hub.3714123/#post-10077669
+SS VR Update!
+
+New Additions
+Galvantula UR → B-
+
+Rises
+Necrozma-Dusk-Mane S(3) → S(2)
+Calyrex-Shadow S-(2) → S-(1)
+Ferrothorn A+(4) → A+(2)
+Clefable C+ → B
+Palkia B- → B
+Tyranitar C → B-
+Genesect D → C
+
+Drops
+Eternatus S(2) → S(3)
+Kyogre S-(1) → S-(2)
+Marshadow A+(2) → A(1)
+Xerneas A+(3) → A(2)
+Zygarde A(1) → A-(1)
+Zekrom A(2) → A-(2)
+Weavile A-(1) → A-(3)
+Darmanitan-Galar A-(2) → B
+Aerodactyl B+ → C+
+Lunala B+ → B
+Mewtwo B+ → B-
+Rayquaza B+ → B
+Blissey B → B-
+Dracovish B → B-
+Landorus B → C+
+Magnezone B → C
+Shuckle B → B-
+Zarude B → C+
+Buzzwole B- → C
+Slurpuff B- → C+
+Calyrex-Ice C+ → C
+Cloyster C+ → C
+Giratina C+ → C
+Giratina-Origin C+ → C
+Zamazenta-Crowned C+ → C
+Ditto C → C-
+Excadrill C → C-
+Heatran C → C-
+Solgaleo C → D
+Magearna C- → D
+Reshiram C- → D
+
+Unranks
+Shedinja C → UR
+Audino C- → UR
+Dugtrio C- → UR
+Suicune C- → UR
+Xatu C- → UR
+
+High ranks shrunk, low ranked got bloated. People value HO a lot less. People value full-stall a lot less. Ox04 showed people Genesect's light, Icemaster showed people Clefable's light. Any Pokemon under B+ people don't wanna use. Palkia rise I cannot tell you why I hate SS!
+
+### post 10305714 author=Magician url=https://www.smogon.com/forums/threads/ubers-old-gens-hub.3714123/#post-10305714
+I forgot to post this shit once classic ended but we here now, tier list template for every old gen. If you do use this in the future and you prefer linking your own over downloading it, make sure you aren't logged in via your twitter/x account or you will dox yourself if you send a link of your own version, don't make this mistake, thank u.
+
+Red, Blue and Yellow
+
+https://tiermaker.com/create/rby-ubers-viability-rankings-15724150
+
+Gold, Silver, and Crystal
+
+https://tiermaker.com/create/gsc-ubers-viability-rankings-15724150
+
+Advance Generation
+
+https://tiermaker.com/create/adv-ubers-viability-tier-list-15724150
+
+Diamond, Pearl, and Platinum
+
+https://tiermaker.com/create/dpp-ubers-viability-15724150
+
+Black & White
+
+https://tiermaker.com/create/bw-ubers-viability-rankings-15724150
+
+Omega Ruby & Alpha Sapphire
+
+https://tiermaker.com/create/oras-ubers-viability-rankings-15724150
+
+Ultra Sun & Ultra Moon
+
+https://tiermaker.com/create/sm-ubers-viability-rankings-15724150
+
+Sword & Shield
+
+https://tiermaker.com/create/ss-ubers-viability-rankings-15724150
+
+The overall team tour sheet has been updated, u can stop askin me now aight, yk who yall are. https://docs.google.com/spreadsheets/d/1P_I8rcZ7dKkLY8IK00Aq6Adkyvt8_aogh0MnVpVqq5M/edit?usp=sharing
+
+### post 10313668 author=AM url=https://www.smogon.com/forums/threads/ubers-old-gens-hub.3714123/#post-10313668
+Tl;dr Very long rambling geezer post about ORASPL Ubers prepping/helping Crossia, maybe some general thoughts about the format.
+
+Cross and I, Lol...
+
+The actual post to not make a huge wall on the thread
+
+The Ubers portion of the Candice Strikers season has ended which has led Crossia, our main player, to a 6-2 record which I'm happy for Crossia. It was nice to know our prep and hard work throughout the tour fostered a good record on his end. It's always a toss up with this format to see who is going to put in the effort in a format that I think gets a lot of flack from many, mostly due to these same people preferring or being mains in other formats which is perfectly understandable. While I knew of Crossia prior seeing them on the SV Ladder (cursed af ladder), it was a bit of relief for me that he wanted to tryhard prep so I can have an excuse to get back to building/prepping for Oras Ubers stuff which is a tier I always enjoyed watching/building in. My last tour stint in ORAS Ubers was the Most Wanted where Orch was previously our captain, in which I had a pretty poor result 1-3. With Orch gone and CKW (ckw though thank you for your input when I asked about possible M-Blaziken/Wobb bring) retired the people I would usually go to for their advice here, I know there was a lot of reliance on myself and Crossia to do well for a core that was probably on nobody's radar and would've been on the bottom of any mental rankings people have of Ubers over mainstays like Strap, nora, suzuya, etc. Would like to thank ElectricityCat roxie for picking me up to support, as while we're still currently in tie-break finals I had lots of fun with our team and hope we can run it back again regardless of future results. To end the intro off I'll go through our weeks with some of the thought process we had. I'll probably post some of the pastes used and with permission from Crossia for teams that was theirs that either I revised or gave the greenlight for. All replays are in the ORASPL 2024 replay thread for reference in ORAS ROA Forum. Any grammar stuff, incorrect pronouns (if so let me know by messaging AM on PS I will see your message after I get online), I will edit later if needed.
+
+W1: Strap
+
+https://pokepast.es/01bff20697bbd67f - Crossia's Exca
+
+Suzuya or Strap was going to be the strongest player in the pool on paper but I 100% expected a recycle of some old team because they were focused on SCL. We expected some sort of offense from Strap but Strap decided to troll and load Durian. Week 1 was a bit of a refresher experience for me, with trying to refresh myself back into real tour prep. While I'm not really new to prepping for tours, building for other people, building and working with someone you don't know and getting a gauge of how they play/think to create and use something they're comfortable requires collaborative effort. Crossia is someone that hated using fat teams and wanted stuff to have agency and apply offensive pressure, which fortunately for me felt the same way. My goal for the tour was to make sure they loaded stuff that can do this without being too weak into various playstyles. We got lucky in this game with the mixed RP Don burning the Lugia in which Strap was forced to trade for rocks to not lose all pressure. Don sweeps, Cross gets a win on the board.
+
+W2: Reje
+
+https://pokepast.es/e2cc57a39952edbd - Crossia Luc/Webs revised by me
+
+This team went through maybe 3/4 different iterations where the base was a Kyurem-White Webs with Lucario Cross had (more on that later) with things like CM Arceus-Ghost, random ditto, etc. on the different versions we tested. I didn't really like the Kyurem Webs original since it's only out against Xern was Ditto but we stuck to using Webs. With Crossia's Webs I decided to go back into my builder and check some of my own as well as a couple of ckw Webs that I always liked using in games. The only thing I knew of Reje is they tended to load weird stuff (Solrock in their scout....). Last minute Bullet Punch was changed to Sub Lucario like the original paste had and we got the greatest matchup alive, Smeargle Webs which would have nuzzle so free Sub. Cross made this game much harder than it needed to be by not CC'ing the M-Aero behind sub but he got it done.
+
+W3: nora
+
+https://pokepast.es/87805e4e6bec06e7 - Cross Tenta
+
+Scout showed a lot of HexGar type stuff and there was a lot of prep/drafts but stuff wasnt really sticking for this week in terms of like cool stuff, techs to catch noras tendencies off guard test wise (Eject Ho-Oh into Suit Deo-A to catch M-Gar for example). Cross showed me the Tenta and after some minor fixes and numerous tests it was obvious Cross was more comfortable using that then other stuff we tried out. I gave this the greenlight, on paper team is kind of whacky but I had to trust it to get the job done and it was a bit different than what Cross was loading so I would hope it would benefit us prep wise. nora loaded something a bit different than the usual and Cross wins with some luck on our side.
+
+W4: Mashing
+
+Wasn't Cross/mine so wont be posting unless Alice says it's okay
+
+I already knew Mashing was going to offense, my only regret for this week was not really cracking down on the prep/team choice due to me being pretty busy. Alice Kazumi provided an old Scizor team that seemed okay in tests so I greenlit it. But this was a lesson for me to not let my foot off the gas, especially when Cross is 3-0 at this point. We shouldn't have loaded Mence again as we already did twice which would make Crossia more susceptible to counter styling and with the Cloyster Offense with obvious Shuca Dialga mashing brought I feel like that's what happened here. Band Scizor is pretty funny though so thank you Alice for bring regardless.
+
+W5: entro
+
+Great player, and I played him the week before for Ubers Retro Cup so I knew he was quite capable in old gens as well. Our original plan was to load the below screenshot. But then after various tests and discussion from ElectricityCat we decided to make Cross load Durian stall. Entros scout and the possibility of him loading anti-offense made Durian a good pick. Game was won on preview and not surprisingly they loaded Ditto/Dialga probably expecting offense against Crossia. This allowed us I think in the future to not be too predictable, much to the torture of Crossia having to play stall.
+
+W6: Suzuya
+
+https://pokepast.es/b8283fb1dc7f4697 - Cross Webs (original Web team based on Wk2 team)
+
+Our plan was to eventually just load the above HelmDog team, one of the two variations I built, into Suzuya because Suzuya was loading lot of garbage like Bronzong (sorry boss if you see this Zong has been bad for years). Earlier weeks we also decided the possibility of loading Kyurem-White cause his teams were so bad into it but never fleshed out a good team. The week was won by the time Cross/Suzuya played and I greenlit Crossia to load the Kyurem Webs.  Kyurem-White didnt touch the field because SD Refresh Arc into the Tspikes Scoli Volbeat squad (shoutouts the French I think for this team) was an impossible matchup for Suzuyas bring.
+
+Wk7: Skimmy
+
+We were already locked into playoffs so this was our "break week" and I provided some options for Larvi who was subbed in, screens below, as rough drafts. I suggested to Larvi that if they're not things you want to use we can load the Diancie, Yve team in the samples. I think we had a good matchup with M-Diancie against Skimmy but we had to play a bit more aggressively with our Diancie, take a couple of risks. Thank you to SM Larvi for subbing in here and taking time to practice regardless.
+
+Semis: Mashing Round 2
+
+https://pokepast.es/d581e8053c0cc27d - AM MScizorDeoABulkyOffense
+
+Our ORASPL team was/is overpowered, Cross was having a strong showing, and for semis/finals we went into overdrive prep mode and I decided to put something together that could possibly chokehold the stuff Mashing likes to bring. I did not want to leave a single opening in the team while making it playable for Crossia's aggressive tendencies. I had a team in my builder that was M-Sciz, screen below that I felt was a good foundation and Cross suggested we havent used Rai yet so might be good.
+
+I am not too high on Darkrai as a mon in the tier, whch feels more like a paper threat, even if it needs to be respected in the builder. After many tests with various versions of this team and Deo-A teams we ended up deciding to take the best of both worlds, the foundation of this team, with Deoxys-Attack that we've been wanting to load since Wk3. Deoxys-Attack is one of the hardest mons to prep for in terms of its variations defensively, forcing all sorts of sacks to remove it. I figured U-turn Sciz could get it in safely. Cross makes a big play in low kicking the Ekiller which eventually allowed Cross to secure the win. This team is a bit weak to Arc-Ghost which justified the older Rai version but I think the Deo-A version fixed a lot of issues I felt we were having playwise.
+
+Finals: nora round 2
+
+https://pokepast.es/a8edcbe003347517 - AM M2Y ArcDark bulky offense
+
+Same as last week, overdrive mode, lots of building, lots of prep, tests covering every line possible. Variations below though look the same/similar all have different sets. So these 6 you can play around with sets. There was probably more variations but mons were probably replaced.
+
+I asked Faded who was in another team tour I'm in if they could pass me the Arc-Flying team used (ty FadedCharm) so I can get an idea. Looking through nora's games we came to find out they had no respect for stall/fat breakers, things like M2Y, Arc-Dark who has sort of went extinct, etc. I decided to cook up this variation above with a lot of going back and forth between different sets for Gira, Xern, Don. This week was quite mentally draining for all of us I think. I had to consider the possibility keys might be helping or providing a pointer to nora so covering everything the meta had to offer, any possible outside help they're getting now that it's finals and teams are out, this week being super important for us, and also various holes we were finding due to certain movesets being omitted in tests. Eventually we committed to the above paste with fingers crossed. Unfortunately the game didn't pan out how we wanted it to, and nora brought a good team choice that deviated from their tendencies, with Blissey to cover our Arc-Dark. We had a good matchup but our win conditions were thrown out too early in which Mewtwo secures a 1hko or 2hko on everything as long we keep it healthy. I discussed with Crossia after but everything is in hindsight really, just a tough day and I appreciate all his effort. I think eventually I will make a version with a more offensive Don or run the 56 Def Relaxed variation of SpDef don and either 3 attacks Moon, Psy, Focu, Geo Xern or something like Aroma Xern. Unsure and regardless of the circumstances I was ultimately happy with how this team turned out despite the mental exhaustion from this and other tours lol. I am glad we didnt bring any klefki version, which would've been horrible into the Perishgar.
+
+That about wraps up the tour stuff. A big shoutout to Crossia the star Ubers player and a side shoutout to HSBT who saved our Season to allow the tiebreak also with various scouts for everyone.
+
+Overall thoughts of meta
+
+If it wasn't evident of my massive yap above I think ORAS Ubers is a pretty fun format. While the sandbox nature of it can feel a bit too much variety at times, the builder allows for a lot playstyles ranging from stall, bulky offense, hyper offense (It's okay to run something else other than traditional I swear!) to be used as well as various ways to tech with different mons for specific matchups. If I had my way personally however, I would probably have a hard ban on the move Baton Pass. I think the cheesy nature of Scoli, such as bluffing a tspike lead to Iron Defense/Sub pass with speed, can feel kind of lame at times. Granted it's perfectly understandable not to be a big issue as it hasn't seen serious successful tour play, Spdef Roar Don everywhere still, etc. Otherwise great format that doesn't deserve the flack it gets, at least to me. I may put a personal VR later after I can look but that will be a separate post I think.

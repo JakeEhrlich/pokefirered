@@ -1,0 +1,175 @@
+### post 9846829 author=Rabia url=https://www.smogon.com/forums/threads/adv-nu-resources.3730732/#post-9846829
+ADV NU, the first generation of NU created retroactively (yet beloved all the same)!
+
+This is the resource hub for everything ADV. Here, you will find the viability rankings, sample teams, and anything else we include that is of importance.
+
+Viability Rankings | Sample Teams
+
+### post 9846860 author=Rabia url=https://www.smogon.com/forums/threads/adv-nu-resources.3730732/#post-9846860
+VIABILITY RANKINGS :D (alphabetical)
+
+Last updated: September 5th, 2026
+
+### post 9846878 author=Rabia url=https://www.smogon.com/forums/threads/adv-nu-resources.3730732/#post-9846878
+SAMPLE TEAMS :D
+
+Pursuit Metang Physical Spam by Bughouse
+
+Lead Protect Whiscash by Bughouse
+
+ParaSpam SubSpam WOKE NONSENSE by Bughouse
+
+Sableye Spikes Bulky Offense by violet river
+
+Lead Octillery Spikesless by violet river
+
+Murkrow + Pineco Spikes by plznostep
+
+Haunter + Roselia Balance by plznostep
+
+Lead CB Golbat by Shengineer
+
+Bulky Plusle Lead by Shengineer
+
+Support your local Huntail by Bughouse
+
+BP Mawile + Pikachu by Rabia
+
+Lead Sub Torkoal by Bughouse
+
+archive
+
+Lead Octillery by Rabia
+
+Offensive Calm Mind Chimecho by poh
+
+Flying-type Spam by poh
+
+Baton Pass
+
+Pressuring Water-types 101 by Rabia
+
+Semi-Rain Offense by ArcticBreeze
+
+Lead Choice Band Hitmonchan Balance by ArcticBreeze
+
+THE VIG by ArcticBreeze
+
+Very Quirky Hyper Offense by Jisoo
+
+### post 10634433 author=Togkey url=https://www.smogon.com/forums/threads/adv-nu-resources.3730732/#post-10634433
+Official ADV NU viability rankings update brought to you by yours truly! This was conducted using votes from Bughouse, Oathkeeper, Rabia, Real FV13, shiloh, ima, violet river, and myself. The voting slate can be found here.
+
+Rises:
+
+Hitmonchan A+ → S
+Hitmonchan is part of the big three, and is arguably the most warping presence in the tier based on other rises in the VR. Best and only Rapid Spin user, strong priority, setup moves, and high BP coverage attacks make Hitmonchan a force to be reckoned with.
+Plusle A → A+
+In a metagame dominated by Water-types, Plusle's speed tier and powerful Thunderbolts make it an excellent late-game cleaner and mid-game wallbreaker. Substitute + Baton Pass and Encore as utility options give Plusle some more depth than Pikachu, something it is often compared to.
+Golbat A- → A+
+It's not a bird, but it's the best "bird" (it clicks Choice Band Flying moves fast and good). Setting it apart from Pidgeot and Murkrow is its ability to check Hitmonchan. STAB Sludge Bomb + Hidden Power Ground is quite difficult to safely come in on, and Golbat has plenty of options for a fourth move for utility like Sleep Talk and Quick Attack for Bellossom and Flail + Salac sweepers, respectively.
+Octillery A- → A
+One of the best leads in the metagame, it's a fair bit more devastating than Wailord as a lead, due to its access to Fire Blast for Glalie and Grass-types and Thunder Wave for uh.. everything lol. Lum Berry leads and Light Screen lead Glalie are cropping up a lot more in response to the uptick in Octillery usage.
+Pupitar A- → A
+Pupitar phenomenal compression for offensive teams, boasting a similar defensive profile as Metang when resisting Normal- and Flying-type attacks but having far more offensive potential with its powerful QuakeSlide (feels weird writing that instead of EdgeQuake as a zoomer) and other hax like Substitute + Liechi Berry, Hidden Power Bug for Bellossom and Chimecho, and even Focus Band to maximize its odds of beating Wailord.
+Kecleon B → A
+By far the best overall special tank in the tier, 120 base SDef just mogs everything else. Color Change is actually quite beneficial for this task, letting it stifle Electric- and Fire-type attackers, although Water-types like Wailord and Octillery can use Hidden Power Electric after turning Kecleon into a Water-type. Kecleon boasts a powerful Return / Body Slam, and with minimal investment it can OHKO Haunter with Shadow Ball. Focus Punch makes it pretty scary to pivot around on, Kecleon is best known as a great Thunder Wave spreader. Counter (which works against Hidden Power in ADV) and Choice Band + Trick are both other options.
+Pidgeot B → B+
+Not quite Golbat but still a good bird nonetheless, and is even seen alongside Golbat sometimes. Pidgeot is exactly one point faster than Golbat and other base 90-speed Pokemon, and has STAB Quick Attack.
+Relicanth B → A-
+Relicanth has incredible stats for NU's power level and powerful coverage with QuakeSlide and Hidden Power options like Flying for Hitmonchan and Grass-types, or Ghost for Haunter and Chimecho. Choice Band sets and defensive sets are both amazing right now.
+Whiscash B → A-
+Whiscash is similar to Relicanth; bulky Water-type with strong attacks. Both are simply amazing wallbreakers against bulky teams, and as Hidden Power Electric takes superiority to Grass, teams may struggle to hit Whiscash hard.
+Arbok B- → B+
+With Intimidate and the Poison typing, Arbok is one of the best Hitmonchan checks in the tier. Sludge Bomb and Earthquake are powerful attacks that are hard to switch into, making Arbok a great Choice Band or Substitute wallbreaker.
+Seadra B- → B
+Seadra has enough bulk to take on most other leads with a faster Hydro Pump than other Water-types. It's natural bulk + Poison Point gives it an edge against Hitmonchan leads while trading favorably into the likes of Glalie, Octillery, and of course Fire-types.
+Swalot C → B
+More insane version of Arbok, Swalot trades speed and Intimidate for Explosion and more coverage, making Swalot very unpredictable and scary. It's been seen as a lead that can trade against just about anything with Choice Band attacks, but its access to Fire Punch lets it lure Metang effectively as well.
+Trapinch UR → C
+Anything that Trapinch can EV to live against must be afraid of the antlion. Metang and Kecleon are two of the biggest targets for Trapinch, as dispatching them heavily supports other attackers. Trapinch literally has 5 base Speed and it's still a baby with poor bulk, but trapping is broken so when it works it's pretty good.
+Mightyena UR → C
+Stall exclusive pretty much; checks Haunter and Chimecho with Crunch + Roar. It's access to Heal Bell is great compression. Not a super common Pokemon but it has a lot of utility.
+Shuckle UR → C
+Fat fuck turtle sometimes just sits there and clicks Toxic or Encore. It's not good but insert don't fuckle with Shuckle joke here.
+Magby UR → C
+One of two Pokemon that can outspeed and OHKO Glalie, the other one being Ponyta (ngl Ponyta could be ranked too). Magby also has Thunder Punch, letting it run Hidden Power Grass to maximize its coverage and therefore get as much damage out of its terrible stats as possible.
+
+Drops:
+
+Chimecho S → A+
+Chimecho is just too slow to get going in the metagame. It needs to invest in its bulk but then it fails to take out Metang and Cacturne. It hardly checks Hitmonchan because it's slower and can be 2HKO'd by Hidden Power Ghost. Besides any metagame developments, the four current S ranks are just simply better than Chimecho.
+Flareon S → A+
+Water-types and physical attackers are at an all-time high right now. Similarly to Chimecho, Flareon thrived in slower metagames as a slow-but-powerful wallbreaker.
+Wailord S → A+
+Same thing as Chimecho; the other S ranks are simply better. Wailord is still a cut above the rest and could even rejoin his friends in S rank some day but for now he has a lot of work to do, especially now that he faces competition from other Water-types like Whiscash and Octillery.
+Pelipper A+ → A
+Not a huge shift for Pelipper, but again with the competition of other Water-types and an influx in special attackers like Plusle make its life quite hard. Pelipper often as to pick between being offensive and defensive, but once it finds a healthy hybrid role I expect it to rise again.
+Sableye A+ → A
+Sableye is very potent and thus is prepared for a lot more lately. Taunt, Toxic, Spikes, Encore, etc.. keep a lot of pressure on Calm Mind sets, and of course it's a complete target for getting crit eventually. Basically people just wised up to his shenanigans.
+Torkoal A+ → A
+Torkoal is generally just worse off than the other A rank Pokemon, especially with Water-types running amok and Glalie using Light Screen to deal with Fire-types. Torkoal is still a great anchor for offense using Explosion and Yawn to make trades but its Hidden Power is too weak. It's still a great check to physical attackers like Hitmonchan, Metang, and the birds so it may crop back up again.
+Pikachu A → B+
+Pikachu is just more effort than it's worth; the metagame is much faster now and anything faster than Pikachu can basically OHKO it. Pikachu is still an OHKO machine in its own right, but it takes perfect piloting and pivoting to get it in when you can just get Spikes up and KO stuff with Plusle.
+Roselia A → B
+Roselia has been the laughing stock of the community for a while now. It's bulk is terrible and it's super passive. On paper the typing and access to Spikes is incredible but it rarely has time to make use of it. Roselia has seen experimentation as a PHYSICAL wall as it does decently into Hitmonchan, and this development could see it rising a little bit but A rank was simply much too high for it.
+Vigoroth A → A-
+Vigoroth's biggest issue is 4MSS. It wants Bulk Up and Slack Off and a STAB move, but it really needs both of Shadow Ball and Earthquake. Forgoing one of the two sacrifices a matchup into Haunter or Steel- and Rock-types but Vigoroth is still pretty scary to play against when you don't know what set it is.
+Mawile A- → B-
+Pretty much exclusive to Baton Pass now. To Mawile's credit it's damn good at Baton Passing but there's little reason to use it over Metang or a Rock-type and lacks threatening attacks unlike them.
+Murkrow A- → B
+Lacks the bulk of the other birds, although it is marginally stronger. Insomnia lets it pivot in against Bellossom but it folds like a lawn chair to any attack, making it more high maintenance than it's worth.
+Sudowoodo A- → B+
+Sudowoodo was much better suited to the lead metagame with Flareon and Glalie as common leads. Hitmonchan and Water-types make him sad. Without a Choice Band he ends up just shy of some KOs but he's still a decent trade bot with Explosion.
+Crawdaunt B → B-
+Crawdaunt has a very cool typing for the tier, walling Chimecho and doing well into Fire- and Water-types, but he lacks an identity as he's basically weaker, slower, or frailer than the other Water-types. STAB Crunch is cool but there's very rarely a reason to put Crawdaunt on a team over its competition.
+Diglett B → B-
+Fast Trapinch, he can dispatch frailer targets like Flareon and anything at low HP. Still hits the main targets like Metang and Kecleon but fails to get the raw OHKOs Trapinch can.
+Gonna speedrun these because they're pretty insignificant:
+Dunsparce B- → C
+Decent Haunter check but too passive.
+Lickitung B- → C
+Stall exclusive with Heal Bell and Knock.
+Minun B- → C
+Baton Pass exclusive, strictly worse Plusle otherwise.
+Tangela B- → C
+Cool physical tank and SunnyBeam sweeper but generally worse Bellossom.
+Togetic B- → C
+Same deal as Lickitung.
+Tropius B- → C
+Just a weird fucking guy that can do a lot but is subpar at all of it; Chlorophyll sweeper but he's a physical attacker with weak STAB moves? He's decently bulky but not as much as Bellossom and Tangela.
+Wigglytuff B- → C
+Coverage monster meant to trade early-on but generally worse than Swalot at this role and Swalot is already mid
+
+Unranked:
+
+Spoiler
+
+Dragonair C → UR
+Graveler C → UR
+Houndour C → UR
+Ledian C → UR
+Magcargo C → UR
+Wartortle C → UR
+Yanma C → UR
+
+With these changes comes the introduction of the B+ sub-rank. Feel free to reach out on Smogon or on Discord (@herstories) if you have any questions or spotted any errors.
+
+### post 10836271 author=Rabia url=https://www.smogon.com/forums/threads/adv-nu-resources.3730732/#post-10836271
+finally, updated VR for a post-Glalie metagame! samples were also updated. will include some reasonings for shifts but ultimately the reasoning will be "Glalie is gone now"
+
+some reasonings
+
+S rank:  All pretty clearly defining Pokemon in the tier, though Haunter was on the precipice of A+. Hitmonchan unanimously was voted to S, pretty easy to see why with how versatile and consistent it is, and teams typically need at least two checks to it to feel safe. Chimecho and Bellossom are cornerstone defensive pieces in the metagame, with Chimecho doubling as arguably the best sweeper and Bellossom basically taking Glalie's role of the "I will end your special attackers' hopes and dreams" Pokemon.
+
+birds:  Basically their rankings were based on their defensive utility in large part. Golbat is a great Hitmonchan check and also switches into other Poison-types + Bellossom quite well. Pidgeot is at least immune to Hidden Power Ghost and can check Chimecho in a pinch, but arguably its best trait relative to its competition is its base 91 Speed. It gets the jump on quite a few key attackers, which means a lot. Murkrow comes in last but blanks Chimecho's Psychic entirely and cannot be put to sleep. It also has the most spammable STAB move of them all in Drill Peck and similarly has a slightly better Speed tier than Golbat. But, it's really fucking frail and most vulnerable to priority out of any of them.  Raticate isn't a bird but fuck it I'll mention it here. Raticate offers about nothing defensively, and in a tier that has slowed down a bit its speed advantage is no longer that huge of a benefit. It is still great at owning some blanket physical walls like Pelipper and Chimecho with its strong Choice Band Double-Edge, but the birds are not much far behind it in that role. It's still a fine option but far from defining.
+
+spikers:  Spikes in ADV are amazing even when the setters are poverty, but in this early VR update, there's still some disagreement on just how highly to rate them. Cacturne is pretty clearly the best of the worst, with its strong offenses being a major reason why. It mogs Hitmonchan with HP Flying and can tech HP Psychic if it so pleases to troll the Poison-types. Pineco and Roselia were tiered pretty similarly, though Pineco got more favorable votes overall. Basically it just amounted to compressing spin + removal into one and it using defensive Metang as Spikes fodder. Roselia meanwhile just remains The Best Spiker In ADV NU despite what this VR tells you (please don't make me update the analysis), and it's just generally a fine Pokemon to use. The biggest indictment against it is probably the direct competition with Bellossom, which limits its overall use cases. Omanyte is dreadful and only got ranked as highly as it did because of Spikes. It's ok at getting layers against the birds, but frankly you get caught by HP Ground once and you're fried for the rest of the battle.
+
+trapping:  You may notice Trapinch went from UR to B! In a slower metagame, Trapinch's more reliable trapping of bulky foes like Torkoal and Metang plus retaining the Flareon KO is pretty real. Diglett's speed remains relevant because Pikachu can be annoying, but the gap between them is no longer that large.
+
+waters:  Dewgong and Wailord are pretty clearly the two best Water-types because they blend offensive and defensive capabilities better than the others. Dewgong remains a bit awkward to build with but has a very high offensive ceiling as a trade-off--STAB Ice Beam is just really good especially with Bellossom dominating. Octillery continues being a great offensive option with some decent bulk and utility via Thunder Wave, and Bellossom's rise in some ways helps it because 1) Fire Blast is actually kind of annoying especially with Spikes + paralysis being in play, and 2) Bellossom can be an Octillery teammate and make up for its lacking defensive traits. Pelipper is still good especially in a Hitmonchan-centric tier, but its falloff has continued and probably worsened post-Glalie, since Glalie was actually a pretty free matchup for Substitute sets. Huntail is frankly a bit bad now. Rain Dance is still a spooky late-game sweeper and it's maybe the most straightforward sweeper to support in the metagame, but Bellossom > Glalie makes it harder because you can't just Pump through it.
+
+new additions:  idt there were any other new ones? Shedinja is just a bit more viable with Spikes not being on literally every team now, and Wartortle is a very real stall pick with Rapid Spin.
+
+removals:  The BP-based removals are pretty obvious. Abra is one that just hasn't been used successfully recently, being limited to Psychic "spam". Magby was like half ok in the Glalie metagame and lost its biggest niche. Mightyena is honestly a surprising one to me, but frankly no one uses it outside of like two people. It's a good Chimecho + Haunter check tho and Heal Bell is nice. Shelgon is ass. Togetic got her lunch stolen by Dunsparce.

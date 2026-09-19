@@ -324,7 +324,7 @@ static int PlayBattle(struct BattleSim *sim, const char *label, int scriptOppone
     static char msg[4096];
     char *p;
     struct Snapshot snap;
-    int i, ev, decisions = 0, battleFailed = 0, simFrom = 0, stopped = 0;
+    int i, ev, decisions = 0, battleFailed = 0, simFrom = 0, stopped = 0, failedOnce = 0;
     u32 romFrom = 0;
     u32 flags = sim->battleTypeFlags;
     u32 seed = sim->rngValue;
@@ -389,12 +389,17 @@ static int PlayBattle(struct BattleSim *sim, const char *label, int scriptOppone
             printf("  turn %d, sim log:\n", sim->turnCount);
             Sim_PrintLog(sim);
             Sim_PrintBattlers(sim);
-            break;
+            if (!getenv("CROSSCHECK_CONTINUE") || ev == 2)
+                break;
+            sMismatches = 0; // keep going (diagnostics only): the sides may drift further apart
+            battleFailed = 0;
+            failedOnce = 1;
         }
         if (ev == 2)
         {
-            printf("  ok: %d decisions, %d turns, outcome %d, engine rng calls %u (rom made %u other calls)\n",
-                   decisions, sim->turnCount, snap.outcome, sRomEngineCalls, sRomOtherCalls);
+            printf("  %s: %d decisions, %d turns, outcome %d, engine rng calls %u (rom made %u other calls)\n",
+                   failedOnce ? "finished after mismatches" : "ok", decisions, sim->turnCount, snap.outcome, sRomEngineCalls, sRomOtherCalls);
+            if (failedOnce) battleFailed = 1;
             break;
         }
         if (stop && stop(ctx, sim))
@@ -501,7 +506,12 @@ static int Replay(const char *path, const char *filter)
                 if (*q == '1') { q++; while (*q == ' ') q++; HexToBytes(q, (u8 *)sim.enemyParty, 600); }
             }
             else
+            {
+                // random-trainer battle: the driver previewed the party with Sim_LoadTrainerParty (Sim_Start re-creates it)
+                Sim_LoadTrainerParty(&sim, trainer);
+                sim.battleTypeFlags = flags;
                 Sim_SetPolicy(&sim, B_SIDE_OPPONENT, Sim_VanillaAIPolicy);
+            }
             sim.trainerBattleOpponent_A = trainer;
             sim.badgeFlags = cfgBadges;
             sim.createTrainerParty = cfgCreate;
@@ -514,6 +524,7 @@ static int Replay(const char *path, const char *filter)
             ran++;
             decisions = 0; simFrom = 0; romFrom = 0; battleFailed = 0; started = 1;
             if (Sim_Start(&sim) != 0) { printf("  invalid setup\n"); failed++; battleFailed = 1; }
+            else if (getenv("CROSSCHECK_DUMP")) { FILE *d = fopen(getenv("CROSSCHECK_DUMP"), "wb"); fwrite(&sim, sizeof(sim), 1, d); fclose(d); }
             continue;
         }
         if (!started || battleFailed) continue;
@@ -535,6 +546,8 @@ static int Replay(const char *path, const char *filter)
             sPushback = 1;
             ev = ReadEvent(&snap);
             r = Sim_Run(&sim);
+            if (getenv("CROSSCHECK_DUMP_DECISION") && atoi(getenv("CROSSCHECK_DUMP_DECISION")) == decisions + 1 && getenv("CROSSCHECK_DUMP"))
+            { FILE *d = fopen(getenv("CROSSCHECK_DUMP"), "wb"); fwrite(&sim, sizeof(sim), 1, d); fclose(d); }
             if (ev == 1)
             {
                 decisions++;
@@ -580,6 +593,36 @@ static int Replay(const char *path, const char *filter)
     return failed != 0;
 }
 
+// Plays the battle in the simulator alone with the same host decisions, printing the engine RNG call count
+// and the callers since the previous decision (CROSSCHECK_SIMONLY=1). Used to compare with --replay.
+static void SimOnlyBattle(struct BattleSim *sim, const char *label)
+{
+    int decisions = 0, simFrom = 0, r;
+    printf("%s: flags %x, seed %x (sim only)\n", label, sim->battleTypeFlags, sim->rngValue);
+    gSimRngTraceEnabled = 1;
+    gSimRngTraceCount = 0;
+    if (Sim_Start(sim) != 0) { printf("  invalid setup\n"); return; }
+    if (getenv("CROSSCHECK_DUMP")) { FILE *d = fopen(getenv("CROSSCHECK_DUMP"), "wb"); fwrite(sim, sizeof(*sim), 1, d); fclose(d); }
+    for (;;)
+    {
+        struct SimAction act;
+        int i;
+        r = Sim_Run(sim);
+        if (getenv("CROSSCHECK_DUMP_DECISION") && atoi(getenv("CROSSCHECK_DUMP_DECISION")) == decisions + 1 && getenv("CROSSCHECK_DUMP"))
+        { FILE *d = fopen(getenv("CROSSCHECK_DUMP"), "wb"); fwrite(sim, sizeof(*sim), 1, d); fclose(d); }
+        printf("  decision %d: rngCalls %u (%s)\n", decisions, sim->rngCalls, r == SIM_RUN_REQUEST ? "request" : "end");
+        for (i = simFrom; i < gSimRngTraceCount; i++)
+            printf("      %04x %s\n", gSimRngTrace[i].value, gSimRngTrace[i].caller);
+        if (r != SIM_RUN_REQUEST) break;
+        decisions++;
+        ChooseAction(sim, sim->requestBattler, sim->requestKind, &act);
+        printf("  ACT %d %d %d %d %d (battler %d kind %d)\n", act.type, act.moveSlot, act.target, act.partySlot, act.item, sim->requestBattler, sim->requestKind);
+        Sim_Answer(sim, sim->requestBattler, &act);
+        simFrom = gSimRngTraceCount;
+        if (decisions > 400) break;
+    }
+}
+
 int main(int argc, char **argv)
 {
     if (argc > 2 && !strcmp(argv[1], "--replay"))
@@ -605,7 +648,7 @@ int main(int argc, char **argv)
         if (!sRecord) { printf("cannot open %s for recording\n", getenv("CROSSCHECK_RECORD")); return 2; }
         setvbuf(sRecord, NULL, _IOFBF, 1 << 16);
     }
-    if (getenv("CROSSCHECK_DRYRUN"))
+    if (getenv("CROSSCHECK_DRYRUN") || getenv("CROSSCHECK_SIMONLY"))
         sSock = -1; // print the battles of a seeded batch without touching the ROM
     else if (connect(sSock, (struct sockaddr *)&addr, sizeof(addr)) != 0)
     {
@@ -643,6 +686,11 @@ int main(int argc, char **argv)
         snprintf(label, sizeof(label), "battle %d: trainer %u", b, trainer);
         if (b < fromBattle)
             continue;
+        if (sSock < 0 && getenv("CROSSCHECK_SIMONLY"))
+        {
+            SimOnlyBattle(&sim, label);
+            continue;
+        }
         if (sSock < 0)
         {
             int k;

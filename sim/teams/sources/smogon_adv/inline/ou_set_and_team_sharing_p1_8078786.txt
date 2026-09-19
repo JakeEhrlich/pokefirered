@@ -1,0 +1,45 @@
+thelinearcurve said:
+
+[...]
+View attachment 167183
+Askarmatitos (Skarmory) @ Leftovers
+Ability: Keen Eye
+EVs: 248 HP / 124 SpD / 136 Spe
+Careful Nature
+- Spikes
+- Taunt
+- Drill Peck
+- Roar
+
+I've really started to like this spread recently, 210 hits a nice benchmark of almost always outspeeding opposing Skarm, and outspeeding standard speed crept Milo (surprisingly handy) as well as all M A C H A M P (BU sets murder traditional SkarmBliss teams).
+
+Askarmatitos (Skarmory) @ Leftovers
+Ability: Keen Eye
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Hidden Power [Ground]
+- Drill Peck
+- Spikes
+- Taunt
+
+YOLOskarm!! (I think this set has become commonly known after SPLX) Dangerous spike setter for Spike abuse teams. Outspeeds and OHKOs Max/Max HP Fire Magneton, which is absolutely game changing. Can single-handedly destroy offences, SkarmMag as sometimes Magneton is the only answer. Drill Peck hits surprisingly hard, and discourages Gengar from getting a free switch. Taunt shuts down opposing Skarm, and helps Skarm beat Bliss 1v1, but sometimes the team might require Roar in the last slot.
+
+Mag teams that absolutely require Mag to trap Skarm are now required to run a lot of bulk (see Mag set below) or run Timid, which in turn lowers OHKO% for Standard Sp Def Skarm.
+
+On the other hand, running 0 bulk means that Skarm is now murdered by special attacks, and must pivot carefully against opposing Salamence, Tar and Pert.
+
+I really do wonder if, by 2020, Skarm will ever run Soft Sand and/or Jolly nature.
+[...]
+
+Click to expand...
+
+Nice to see you posting here buddy! We've play many times in ADV ladder and I got stomped by your teams .
+
+All read was really enjoyable but I'll stop at the Skarmory analysis. I'm pretty sure that Eeveeto is running soft sand Skarm at least since a couple of years, probably with 252+/252 but not sure about it. Although it seems a gimmicky set (because even with soft sand the OHKO isn't guaranteed on some Mag versions -i.e. the one you posted- and the drawbacks for lack of recovery and defensive capabilities) definetely is an option if you want to preserve the other 5 mon slots and not run Dug/P2.
+
+252+ Atk Soft Sand Skarmory Hidden Power Ground vs. 240 HP / 0 Def Magneton: 282-332 (93.6 - 110.2%) -- 62.5% chance to OHKO.
+
+Click to expand...
+
+See you rocking on PS!
+

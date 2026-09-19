@@ -1,0 +1,186 @@
+Padeli said:
+
+"COTH" - Explanation & Replays
+Click Sprites for PokePaste
+View attachment 855338View attachment 855339View attachment 855340View attachment 855341View attachment 855342View attachment 855343
+
+I've been wanting to remake this post for a while now - I had made a very short write-up for this team when I started using it in July 2025, but since playing tours I tried to cut down on/remove my forum posting for privacy. However, this team has been spammed like crazy recently (both on ladder and in tournament) to the point where it doesn't matter whether it's posted and explained publicly or not. If that's the case, I think it absolutely deserves a formal write-up. It's my favorite team I've ever made and has really caught much more public wind this year than I expected, so it feels kind of silly for it go undocumented. I also hope that by posting/archiving the team, some of the spamming will die down a bit, because in reality it probably is a bit overused and misplayed. But I think it's also quite misunderstood, which is another reason to write.
+
+For some context before the main post though: between ROAPL, ADV Cup, ADVGC, ADVPL, etc, I managed to go 22-4 with this team in tournament so far in 2026, and I also got a super lucky high ladder run to 1985 ELO in June of this year, even when most opponents already know that I spam this team. I've posted all those tournament replays as well as some of the high ladder replays at the bottom of the post. Maybe those results don't mean anything to some people, but I'm personally very happy with how it's done for me. Of course, tons of people have used this exact 6 before with various movesets, so it's very far from original, but nowadays I do probably use it the most (possibly too much...).
+
+Disclaimer
+
+1. I want to emphasize that in no way is this "my 6". I first saw it used in a video by McMeghan in 2021 (SPL), but with very different sets and a completely different context/motivation. Realistically, it was surely come up with in the 15+ years prior, though. In a sense there's not really such a thing as an original 6 anymore - but I suppose with my set choices and excessive use of it this paste is "mine".
+
+2. I'm sorry to those who hate to see this team used/posted/talked about so much - I wish I could post some newer stuff or something more original, but we can't pick and choose what teams win games, and frankly, sorry to say it but - this team just wins games. While I do love this team, I do kind of hope that the trend will die down some, because yeah, like any team that is overly-spammed, it gets annoying. Sorry...
+
+3. I am sorry if this post reads as pretentious, I really don't intend it to be. I apologize if this comes off as "bragging". I'm just posting for fun and to share my favorite team, like many others do in this thread. Yes, I think it's a great team that has won lots of games for not just me this year, but I don't want to give the impression that I think this is the one true "solution to adv" or something; that's all nonsense, I don't think that. It's just my favorite team. Please do not kill me.
+
+Background & Motivation.
+
+The team was first and foremost designed to excel at "noobfarming" on ladder.
+
+I guess it's no secret that I'd been majorly addicted to laddering since 2023 until this year, and in past years had always been trying to "solve it", meaning, I wanted to find a team that can consistently beat all teams you could potentially face on ladder at any moment in time (which is essentially every single possible combination of Pokemon + any crazy set of moves you could imagine). This one is closer to achieving that than any of my other ladder teams from 2023 - 2025 by far.
+
+Even if you think it's dumb, just subscribe to the following idea for the time-being: in the above laddering context (deliberately trying to build for 2000 ELO with a single team), spikes are highly desirable, or perhaps simply essential. It's pretty well understood that spikes, sand, and maybe trappers, make climbing the easiest due to their consistency in the context of facing highly random teams/compositions. These strategies (especially spikes) are often harder for the inexperienced low-ladderers to understand: a lot of them either choose to use teams that are weak to spikes+sand without considering their impact, and/or don't know how to play around them (though, this is becoming less true). It just tremendously simplifies the matchups when you face such extremely random compositions on the ladder, simple as that. This paragraph could be an entire post in its own right, and there's other desirable traits for such a team to consider, so I'll just stop there for now and ask the reader to buy in for a moment.
+
+Pretend that you want a team that has most or all of the below elements:
+
+1. Spikes
+2. Tyranitar
+3. Blissey+Spin
+4. Rock Resist
+5. The move Calm Mind OR Gengar
+6. One of Salamence, Aerodactyl, Zapdos, Moltres/Charizard
+7. An offensive Pokemon with a high potential for luck or "hax" (such as Aerodactyl rock slide, Metagross meteor mash)
+
+Again, not at all saying you have to have all of these things in a good ladder team, it's indeed very hard to fit all those, and most great teams lack at least 1-2 of them. But a lot of historically really successful ladder teams do have most of these traits - Skarpherim's "Sapphire Beach" 2036 ELO team has all of them, El Classico and Badummy's team has all but (3), etc. By that I really just mean, many very very strong players have favored these traits in their chosen teams for very high ladder runs.
+
+The above list of traits for a team is basically the "Big5" mold. Big5 used to be considered the most standard archetype due to its neutrality (not really the case anymore), and close to neutral is basically what we are going for on ladder. However, it's not possible to fit all of them - the question is, which ones will you drop/compress? This is the question that motivates a lot of spikes teams. Maybe you compress (3) and (5) with CM Bliss. Maybe you save space fitting (3) and (1) using Forretress. Maybe you use Aerodactyl to have (6) and (7) in one slot. I guess I am wagering that compressing Spikes+Spin in this context is very good, but that's again a conversation for a separate post. I wanted to find a team that has basically all of these traits, especially (7), because in my opinion it's quite essential for stringing together a ton of games (a massive luck streak is necessary to an extent for a huge ladder run). It does really sound very stupid, but I insist (7) is a super valuable trait for a team to have in this context.
+
+All of that laddering background stuff said (which, again, could be a whole separate post entirely), I'll talk about the game-plan I decided on, motivated by the above list of properties I wanted for my team. Consider the following Jirachi spread, which the whole team is built around, and is motivated by the above ideas.
+
+Pokemon.
+View attachment 855353
+Jirachi @ Leftovers
+Ability: Serene Grace
+EVs: 252 HP / 88 SpA / 168 Spe
+Timid Nature
+IVs: 0 Atk
+- Thunderbolt
+- Ice Punch
+- Substitute
+- Calm Mind
+
+The centerpiece to the team. After getting smashed by the top players using this on ladder in 2024, and seeing their success with it, I realized that theoretically this thing is outstanding for laddering. It appreciates/satisfies almost all of the above traits in a totally unique way: it has natural synergy with spikes, really wants to have sand, gives you a backup rock resist, is basically the scariest calm minder, and worst of all ... potentially most dishonorable of all ... you always have a 20% to freeze. It matchup divides basically all fat teams, plays around Dugtrio with substitute, abuses sand to beat Blissey, and even worse, it can still game-rob faster paced teams. Not to mention the obvious, which is that BoltBeam coverage is great with spikes. Very strong and basically unparalleled traits in a "noobfarming" context, especially because it also really badly punishes players who don't know how to beat it in a way that other Pokemon can't replicate. It also has 100% accurate moves, and it's very slippery by nature, so it converts games very quickly and easily if given the right support. But that's the issue - it's surprisingly hard to build around. Nearly impossible, maybe. The goal for the rest of the team attempts to shoot the gap between fitting as many of the above traits as possible while supporting Jirachi. In order to abuse it's traits (sand immunity, hax) to the full extent, it's natural to ask for spin support, and even wish support. Wish allows Jirachi to spam Substitute multiple times per game if needed, instead of forcing the player to go all in with it at the perfect moment. This way, you can roll paras/freezes a huge amount of times in the longer games if you need to. So, the rest of the team will focus on fitting those slots instead of purely building around offensive synergy with it, especially since I also want to prioritize fitting a Blissey.
+
+View attachment 855365
+Blissey @ Leftovers
+Ability: Natural Cure
+EVs: 224 HP / 252 Def / 32 Spe
+Bold Nature
+IVs: 0 Atk
+- Seismic Toss
+- Thunder Wave
+- Soft-Boiled
+- Wish
+
+As mentioned above, for the goal of this team, it's desirable to have a Blissey and also Wish support. So, Wish Blissey. Additionally, Bold with TWave is unkillable for a huge amount of teams. It's just an extremely strong defensive Pokemon in Gen3 due to the power level, and synergizes well with Spikes. Most importantly, the use of Wish enables positioning for Jirachi and Forretress in long games: if needed, you can last a bit longer in the Spikes war by wishing up Forre, or you can wish up Jirachi after spinning to go in for a second or even third time with it. Helps absorb status, paralyzes enemies for sub/sand abuse, etc. And again, if playing vs less experienced players on ladder, Blissey's variance reduction is super helpful. I think this set fits very naturally alongside Jirachi and Forretress. In general, I've seen Wish+TWave gaining a lot of traction. I call this moveset "God" Bliss. You could try to use Toxic, since Blissey can lure Pert/Tar for Jirachi, but I find that this moveset has the better overall matchups, which again, in the ladder context is the main goal. I suppose that by choosing to use Blissey, it takes the team in a more defensive direction - but I'd argue the use of this particular moveset does not lock the team into that style of play. It acts as a universal pivot - you can live basically anything and pass a Wish. It's useful in the face of those momentum based offenses too, so indeed you do have options in both fast and slow games with this moveset. And of course, Wish can be passed to the other members too, enabling more exotic win paths sometimes. Very cool set.
+
+View attachment 855359
+Forretress @ Leftovers
+Ability: Sturdy
+EVs: 248 HP / 8 Def / 252 SpD
+Sassy Nature
+IVs: 30 SpD / 30 Spe
+- Hidden Power [Bug]
+- Spikes
+- Rapid Spin
+- Zap Cannon / Explosion
+
+It's actually a very very good partner for SubCM Jirachi in particular. If you investigate the other possible teams that use the above Jirachi spread, you'll find that the best versions either drop Swampert for Claydol, or drop Blissey+Spin entirely. I do not wish to drop Blissey on ladder due to its defensive consistency in the face of extreme variance vs inexperienced players, but also want Swampert and TTar: and so, the best way to fix this slot issue is to just use Forretress. Here is the super important thing to understand about my version of this team: this team should NOT be viewed as a "Forre Balance" just because I am using a Forretress. I guess it is a "balance", but it's more about going all in to support Jirachi while still building a fundamentally solid team, and Forretress just happens to be useful for that. This is more accurate than pinning the team as a "Forre Team". The moves are straight forward, except that you should strongly consider using Zap Cannon, as it's well known that even if you use Pursuit TTar, your forretress team will struggle with Gengar. Zap Cannon owns Gar on the switch, and also really irritates Skarmory. It's a great tool to make the Skarm+Gar matchup more playable. Bug/Zap Cannon in general can irritate all spikers, spinners, and spinblockers. Together with the extremely valuable compression, the team will at least have a hand in the spikes war, while not relying on winning it (because we have the demonic Jirachi set), as Forretress is not that type of Pokemon. I'd maybe argue after all my time with these "Ladder teams" and Big5 variants, that compressing the Spike+Spin role is probably underrated for laddering, because in matchups where the opponent brings no spikes, you've saved an entire slot, and due to the quite often large skill gap on ladder, playing Forre Spikes is not really a problem. It's not as good vs experienced players obviously, but again, teambuilding is in large part about context/goal, and the goal of this team is to farm on ladder. Forretress is actually really good for that too.
+
+View attachment 855370
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 212 HP / 252 SpA / 44 Spe
+Quiet Nature
+- Crunch
+- Brick Break  / Counter
+- Flamethrower / Fire Blast
+- Pursuit
+
+Not much to say. Sand support for Jirachi, sand in general on ladder, pursuit support to enable both Forretress and Mono Wish Blissey. The team is looking cooked vs Snorlax and also can't directly pressure opposing Blissey - so Brick Break is helpful. It also allows our set to trade into opposing TTar if needed, which also supports Jirachi. One thing I'll mention is that it'd be interesting to try to use a physical TTar, which would have more direct offensive synergy with Jirachi, and then maybe use Ghost Forretress. The issue is you also really would like that Blissey set. So, I think just a standard Pursuit TTar ends up being better. But it's an interesting question that I'd like to explore more. I think the recent TTar/Forre teams that drop Pursuit are probably quite good. One important note is that this team ends up forfeiting to lead dug weather clear into Suicune/Snorlax types of teams, so you may want to slot counter if leading with TTar, or you can just lead Salamence and outplay, but it's still a very weak matchup. If you use Counter for lead Dug, use max HP and defense EV's, of course.
+
+View attachment 855373
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 248 HP / 228 Def / 32 Spe
+Bold Nature
+IVs: 0 Atk
+- Surf
+- Toxic
+- Protect
+- Roar
+
+The modern standard defensive Swampert. Fits great alongside TTar and Forre. Roar is necessary because we don't have a Skarmory. This slot is more deliberately defensive than the others, in that it's kinda just necessary to have it on this composition. You can ask maybe should we have some offensive set that can lure Jirachi's checks but not really. Again, this set is really awesome to ladder with. There are lots of status/TSS weak offenses ladderers use that will struggle vs this. Not much to say since it's very standard, but just pretty much the only conclusion for a physical wall alongside Jirachi, TTar, and Forretress (can't really be metagross or flygon, etc). Something to note: I do not attempt to use Aroma Bliss or Refresh Pert on this team. This is because the team is not intending to last forever in long games, it's just intending to win with Jirachi within ~100-200 turns if needed, not rest/aroma up for 300+. The point is that you end up with enough offensive tempo with Jirachi vs those very slow paced teams, and in the faster paced games, you love to have ProTox pert.
+
+View attachment 855374
+Salamence @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Naive Nature
+- Dragon Claw
+- Brick Break
+- Flamethrower / Fire Blast
+- Hidden Power [Grass]
+
+The last slot to fit is a bird. In terms of breaking synergy for Jirachi, actually it's maybe the worst in a sense - Aero could lure Pert/Meta better, or perhaps Molt/Zard could sometimes lure a TTar. But again, I kind of argue that in this context it's better to slot the "generally good" fit, as oppose to thinking about direct offensive synergy for Jirachi. The goal as stated previously, is to Spin+Wish for it, and fit the other strong ladder traits. Salamence as the bird fits great for all of those other reasons. Intimidate+Fighting resist is excellent on ladder; it also destroys lots of Magneton offenses, it also synergizes great defensive with Bold Blissey (anything that gets intimidated is basically then blanked by Bold Bliss). Also, while not providing direct overload synergy for Jirachi, it can matchup divide for it: in matchups where Salamence is blanked by say MiloDol or RestZap, Jirachi typically can break those teams through Spin+Wish support. For faster paced teams Salamence + 1 Spike is often nice. +Speed nature is mandatory here in my opinion.
+
+Matchups & Conclusion.
+
+To summarize: this team was designed primarily for farming ladder ELO, by including assumptions about skill-gaps and random "Jerry" 6's on ladder into the building process, focusing on supporting SubCM Jirachi as the primary goal of the team instead of over-relying on Forretress to win the spikes war (again, note that the team is far from perfect defensively). Survive long enough in the fat matchup to win with Jirachi, and use classic TSS elements to defend vs generic or "random 6" sand/spike weak ladder offenses. In the end, you get a very consistent and quite flexible team with an emphasis on passive damage and only 1 real missing move (Toxic), to minimize randomness in the face of weaker opponents (the main reason to use flamethrower here). While it is a "balance", hopefully I've convinced you that it plays more like a sort of bulky offense (see replays) with this choice of movesets. But fine, in a way, this team is a huge balancing act. That's sometimes not desirable, but in the right setting/context or vs. the right opponent, having both defensive and offensive options in game can still be very strong in my opinion, even in the hyper polarized modern era.
+
+In terms of tournaments, while I think it's just a generally really sound set of 6 with strong Pokemon, it's definitely not the sort of thing you should use if you're not practiced with it, or if you face someone better than you most of the time (I did manage to steal some wins off great players with it though, so it doesn't have to be just for comfort/ladder). However, I would argue it still has clear use cases. Historically, the Jirachi is chosen to be Defensive with Toxic, but in this version, you have an excellent wincon vs lots of fat teams - especially dugless stalls. I would argue the matchup is good in those cases. In most other cases, it's closer to neutral or on paper perhaps slightly negative across the board - but often that's the case with teams that strive to be close to all around neutral (which, isn't exactly possible anyways). But again, the one really rough matchup for it is dugtrio weather clear stuff, such as Dugtrio+Weather Clear Claydol+Snorlax. What can you do, basically all teams will have a weakness. But even then, this Jirachi set can always get you...
+
+Tour & High Ladder Replays
+
+No guarantee I played any of these optimally.
+
+Tour Wins:
+
+https://replay.pokemonshowdown.com/smogtours-gen3ou-920814
+https://replay.pokemonshowdown.com/smogtours-gen3ou-936801
+https://replay.pokemonshowdown.com/smogtours-gen3ou-945977
+https://replay.pokemonshowdown.com/gen3ou-2632640970-o4iq8x0g4d5tlhh8fmoyos478gexl7jpw
+https://replay.pokemonshowdown.com/smogtours-gen3ou-954304
+https://replay.pokemonshowdown.com/smogtours-gen3ou-954317
+https://replay.pokemonshowdown.com/gen3ou-2638516890-m48bhb5srgvmaix8pip1x7id0i6avlhpw
+https://replay.pokemonshowdown.com/gen3ou-2580117252-cvbrd6ggyyxp7v35ghgwc6i1p57moo6pw?p2
+https://replay.pokemonshowdown.com/gen3ou-2593771427-v0ylcropn22lvq0c8y1k50dnhn8j878pw?p2
+https://replay.pokemonshowdown.com/gen3ou-2594087895-6gpfx1j8dybq0neqokbc41012kulmq8pw?p2
+https://replay.pokemonshowdown.com/gen3ou-2604440871-snx1svvpjp4qx3bqnglnhxc8swf2kqdpw?p2
+https://replay.pokemonshowdown.com/gen3ou-2604447720-liaswbyh9djuuv612kb0g8b9i5l0wt3pw?p2
+https://replay.pokemonshowdown.com/gen3ou-2604468773-bu9a5t48q06lrwwcjjvcbdi60imwxogpw?p2
+https://replay.pokemonshowdown.com/gen3ou-2604480480-hu81kukkmmi05mumbp3jagt91kwn7ispw?p2
+https://replay.pokemonshowdown.com/gen3ou-2616463777-dg3153f0mysvtfkqapkq0h8btum2eu0pw
+https://replay.pokemonshowdown.com/smogtours-gen3ou-942725
+https://replay.pokemonshowdown.com/smogtours-gen3ou-942723
+https://replay.pokemonshowdown.com/gen3ou-2626428918-12oujnfsgme3itbiadckplfi6occ7ggpw
+https://replay.pokemonshowdown.com/smogtours-gen3ou-948498
+https://replay.pokemonshowdown.com/smogtours-gen3ou-950371
+https://replay.pokemonshowdown.com/gen3ou-2640856519-vys7xjpy4yf14su9bixigv3pe3gbm07pw
+https://replay.pokemonshowdown.com/smogtours-gen3ou-959839
+
+Tour Losses:
+
+https://replay.pokemonshowdown.com/gen3ou-2594073491-aqbtn5r1we42x8uhjjklndu6db413o0pw
+https://replay.pokemonshowdown.com/gen3ou-2615924133-n89cl9vgqd0nq4xrt8gbcuaegw0no99pw
+https://replay.pokemonshowdown.com/smogtours-gen3ou-955591?p2
+https://replay.pokemonshowdown.com/smogtours-gen3ou-955557?p2
+
+1900+ Ladder Replays:
+
+https://replay.pokemonshowdown.com/gen3ou-2626602936-6hl8h543nltuxgh86gxobsd06iyn0gapw?p2
+https://replay.pokemonshowdown.com/gen3ou-2626607766-kwq847she62qek3m5fxxkcbri1gqwcqpw?p2
+https://replay.pokemonshowdown.com/gen3ou-2626612601-fi25t2y7jow7t7uxxaol4xc03icw4m1pw?p2
+https://replay.pokemonshowdown.com/gen3ou-2626631764-db4dippl1n4ra0m9945bie63bajjunipw?p2
+https://replay.pokemonshowdown.com/gen3ou-2626635182-ogrqq678g6l7jkansam16uc6jlkdu77pw?p2
+https://replay.pokemonshowdown.com/gen3ou-2626638597-w6953qrop9dov5wi7xd4ax9nx2fjxmgpw?p2
+https://replay.pokemonshowdown.com/gen3ou-2626642231-cr3ty6rex74jx15rkx6yvtc8pcpg9trpw?p2 (this one is lucky)
+https://replay.pokemonshowdown.com/gen3ou-2626649603-g0drj343thgwfj10grp387r7o4oxw2vpw?p2
+https://replay.pokemonshowdown.com/gen3ou-2626654571-b4kukp9g0pyrrel862hjrcf82ht48dmpw?p2
+https://replay.pokemonshowdown.com/gen3ou-2626658832-t6mvm0bradgd3qw4xtmqouj4o5r9wrfpw?p2
+https://replay.pokemonshowdown.com/gen3ou-2626663009-nrxhmr8t5iw5k423sxxh32ind8lbuxdpw?p2
+https://replay.pokemonshowdown.com/gen3ou-2626670874-fxoujyp29xntnucyq3tcu0q0uvgrm6epw?p2 (final loss)
+
+Fun fact: The name "COTH100" stands for CallOfTheHaunted100, which is a reference to this classic pimpnite video. They were apparently an internet troll during Gen4 Wi-Fi era battling who spammed Iron Head Jirachi. I guess I'm a larper.
+
+My motivation / desire to ladder is probably at an all time low, which feels great because laddering sucks. I didn't ladder much at all this year aside from June. I think that + the already very public knowledge/spamming of my team motivates me to finally just properly write about it. I think the era of me posting/testing/spamming ladder teams is over, in part because I don't think I can make a team I'd be more satisfied with for laddering, and also because I think it's unlikely I get back up into the 1980's+. So yeah, I'm moving on from laddering, but surely I'll still be on there spamming this team from time to time. Tournaments are more fulfilling now. I'd always be curious to see what people are using at really high ladder ELO's though.
+
+If you read this whole post, thanks very much for reading. It's great that people have been posting on the forums a lot lately (I guess it's VR season). Really fun to read all the team sharing posts. I have some ideas for other forum content I'd like to make just for creative reasons (which is basically what this is; a document), but we'll see. Again, I am sorry for not posting something more original ... and apologies to those who got frozen.
+
+Click to expand...
+
+these look very cooked vs cune lax squad quite common on ladder. i wonder meta changed and make it outdated
+

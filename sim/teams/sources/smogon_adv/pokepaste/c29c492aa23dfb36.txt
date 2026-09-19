@@ -1,0 +1,2583 @@
+Hello! Welcome to my very funny team dump.
+This dump encompasses most of my teams from the past seven-or-so months, hopefully the good ones.
+I've organised it into 3 sections, each section separated by a pizza:
+Section 1: the highlights;
+Section 2: decent teams I didn't bring to tours;
+Section 3: decent teams I did bring to tours.
+Every team has a blurb. I thought they would be fun to write.
+I also listed any tournament sets I brought them to.
+I've omitted some teams I used in tournaments for being too derivative or too garbage.
+But the vast majority of teams you've seen me use are here.
+
+Big shoutouts to: Mezzoloth, Giraffe, Fruhdazi, Muteki, UDM, pzwrd, Zetts.
+Slightly smaller thanks to Darth Tyros.
+
+=== [gen3ou] Team Dump April 2026/Instawin Suicune Offence ===
+I put this team at the start because it's the one I most want to be everywhere on 1300s ladder.
+Tournaments: Mugulis Cup 2 (R4, R8, R11)
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 8 Def / 112 SpA / 136 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Substitute  
+- Surf  
+- Roar  
+
+Dugtrio @ Choice Band  
+Ability: Arena Trap  
+EVs: 80 HP / 156 Atk / 176 SpD / 96 Spe  
+Jolly Nature  
+- Earthquake  
+- Aerial Ace  
+- Hidden Power [Bug]  
+- Beat Up  
+
+Raikou @ Leftovers  
+Ability: Pressure  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Calm Mind  
+- Substitute  
+- Thunderbolt  
+- Hidden Power [Grass]  
+
+Registeel @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 4 Atk / 156 SpD / 96 Spe  
+Careful Nature  
+- Thunder Wave  
+- Seismic Toss  
+- Counter  
+- Explosion  
+
+Swampert @ Salac Berry  
+Ability: Torrent  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Substitute  
+- Endeavor  
+- Surf  
+- Toxic  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 32 HP / 252 Atk / 68 SpD / 156 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Earthquake  
+- Hidden Power [Flying]  
+- Rock Slide  
+
+
+=== [gen3ou] Team Dump April 2026/Big 5 Molt TSS 2 ===
+Some people know me as a big 5 Molt merchant, but that's because my scout is an ink blot test that people fail. Anyway, this team sucks.
+Tournaments: ADV Revival 3 (R6, R7, R9), Mugulis Cup 2 (R8)
+
+Tyranitar @ Lum Berry  
+Ability: Sand Stream  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Dragon Dance  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Bug]  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+- Spikes  
+- Drill Peck  
+- Protect  
+- Roar  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 252 HP / 212 Def / 44 SpD  
+Bold Nature  
+- Surf  
+- Ice Beam  
+- Earthquake  
+- Protect  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 116 SpD / 140 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Wish  
+- Toxic  
+- Seismic Toss  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 4 HP / 156 Def / 120 SpA / 12 SpD / 216 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Fire Punch  
+- Ice Punch  
+- Thunderbolt  
+- Destiny Bond  
+
+Moltres @ Leftovers  
+Ability: Pressure  
+EVs: 28 HP / 252 SpA / 228 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Flamethrower  
+- Hidden Power [Grass]  
+- Toxic  
+- Will-O-Wisp  
+
+
+=== [gen3ou] Team Dump April 2026/CBTar B5Molt 2 ===
+I got bored of that big 5 Molt team, so I made a new one. CB Tar is funny. This Gengar EV spread does the exact same thing as utility Gengar, while also outspeeding +1 Tar. Moltres is EV'd to live two Celebi psychics, or two CB Medi brick breaks.
+Tournaments: Mushi League S21 (Week 3)
+
+Tyranitar @ Choice Band  
+Ability: Sand Stream  
+EVs: 40 HP / 252 Atk / 4 Def / 212 Spe  
+Adamant Nature  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Bug]  
+- Focus Punch  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+- Spikes  
+- Drill Peck  
+- Protect  
+- Roar  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 240 HP / 176 Def / 92 SpA  
+Relaxed Nature  
+- Surf  
+- Ice Beam  
+- Earthquake  
+- Protect  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 252 SpA / 4 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Soft-Boiled  
+- Ice Beam  
+- Thunderbolt  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 120 HP / 204 SpD / 184 Spe  
+Hasty Nature  
+- Explosion  
+- Will-O-Wisp  
+- Fire Punch  
+- Giga Drain  
+
+Moltres @ Leftovers  
+Ability: Pressure  
+EVs: 56 HP / 8 Def / 172 SpA / 44 SpD / 228 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Flamethrower  
+- Hidden Power [Grass]  
+- Toxic  
+- Roar  
+
+
+=== [gen3ou] Team Dump April 2026/FIXED AgilZap 4 ===
+I LOVE AGILZAP!!! Honestly, I've lost track of which variants of this team I brought to which tour games. I'm just gonna list every time I brought this 6, regardless of movesets.
+I should explain the Swampert set. Swampert is the switch-in against Blissey. Max HP and 8 spdef EVs allows it to sub in Blissey's face and throw off big attacks into everything that isn't a bulky water. It also outspeeds Claydol to deny spin. I'm trying to spread awareness of this Swampert set because I think it's amazing.
+I'm also showcasing this Gengar spread that lives +1 Salamence HP Fly, while also being max speed.
+Tournaments: ADV Revival 3 (R9), Mugulis Cup 2 (R6), Mushi League (Week 4)
+
+Tyranitar @ Lum Berry  
+Ability: Sand Stream  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Dragon Dance  
+- Rock Slide  
+- Hidden Power [Bug]  
+- Earthquake  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 252 HP / 112 SpA / 8 SpD / 136 Spe  
+Modest Nature  
+- Ice Beam  
+- Surf  
+- Focus Punch  
+- Substitute  
+
+Registeel @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+- Seismic Toss  
+- Thunder Wave  
+- Counter  
+- Explosion  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+- Spikes  
+- Toxic  
+- Drill Peck  
+- Roar  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 140 HP / 108 Def / 8 SpA / 252 Spe  
+Timid Nature  
+- Will-O-Wisp  
+- Thunderbolt  
+- Giga Drain  
+- Explosion
+
+aaajuñiga (Zapdos) @ Leftovers  
+Ability: Pressure  
+EVs: 120 Atk / 228 SpA / 24 SpD / 136 Spe  
+Mild Nature  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Drill Peck  
+- Agility  
+
+
+=== [gen3ou] Team Dump April 2026/AgilZap 7 ===
+The Houndooms told me the team needed a SuitTar. That's why that's why. I've been experimenting with thunder wave over agility a bit, too, at the recommendation of Darth Tyros, but that's not on this version of the team.
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 184 HP / 132 Atk / 192 SpA  
+Quiet Nature  
+- Crunch  
+- Pursuit  
+- Earthquake  
+- Focus Punch  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 252 HP / 216 SpA / 8 SpD / 32 Spe  
+Quiet Nature  
+- Hydro Pump  
+- Ice Beam  
+- Focus Punch  
+- Substitute  
+
+Registeel @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 212 SpD / 44 Spe  
+Careful Nature  
+- Seismic Toss  
+- Thunder Wave  
+- Toxic  
+- Explosion  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+IVs: 0 Atk  
+- Spikes  
+- Toxic  
+- Taunt  
+- Roar  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 168 HP / 164 SpD / 176 Spe  
+Hasty Nature  
+- Explosion  
+- Will-O-Wisp  
+- Thunderbolt  
+- Giga Drain  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 120 Atk / 228 SpA / 24 SpD / 136 Spe  
+Mild Nature  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Drill Peck  
+- Agility  
+
+
+=== [gen3ou] Team Dump April 2026/I saw a team like this in a toothpaste ad once V4 ===
+When I got paired against Martini for my Mushi League debut, Fruhdazi came down from heaven to issue his first commandment:
+"Hmmm
+What about Fighters? @Halbert Simpson
+Breloom / machamp
+U can run some dol offense w em
+Or registeel spikes"
+And then I immediately built my magnum opus.
+Tournaments: Mushi League S21 (Week 1)
+
+Machamp @ Leftovers  
+Ability: Guts  
+EVs: 64 HP / 212 Atk / 232 Spe  
+Adamant Nature  
+- Bulk Up  
+- Rock Slide  
+- Cross Chop  
+- Hidden Power [Ghost]  
+
+Raikou @ Leftovers  
+Ability: Pressure  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Substitute  
+- Calm Mind  
+- Thunderbolt  
+- Hidden Power [Grass]  
+
+Gyarados @ Leftovers  
+Ability: Intimidate  
+EVs: 40 HP / 252 Atk / 8 SpD / 208 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Taunt  
+- Hidden Power [Rock]  
+- Earthquake  
+
+Claydol @ Leftovers  
+Ability: Levitate  
+EVs: 248 HP / 216 Atk / 44 Def  
+Adamant Nature  
+- Rapid Spin  
+- Earthquake  
+- Shadow Ball  
+- Explosion  
+
+Registeel @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 224 SpD / 32 Spe  
+Careful Nature  
+- Seismic Toss  
+- Thunder Wave  
+- Counter  
+- Explosion  
+
+Moltres @ Leftovers  
+Ability: Pressure  
+EVs: 56 HP / 8 Def / 172 SpA / 44 SpD / 228 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Flamethrower  
+- Overheat  
+- Hidden Power [Grass]  
+- Will-O-Wisp  
+
+
+=== [gen3ou] Team Dump April 2026/I saw a team like this in a toothpaste ad once V5 ===
+https://replay.pokemonshowdown.com/gen3ou-2539656768-a0t04gh5vbayr6hjhjoelvc4o2m09vcpw
+BRIANZARD!!!
+Tournaments: Mushi League S21 (Week 1)
+
+Machamp @ Leftovers  
+Ability: Guts  
+EVs: 64 HP / 212 Atk / 232 Spe  
+Adamant Nature  
+- Bulk Up  
+- Rock Slide  
+- Cross Chop  
+- Hidden Power [Ghost]  
+
+Raikou @ Leftovers  
+Ability: Pressure  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Substitute  
+- Calm Mind  
+- Thunderbolt  
+- Hidden Power [Grass]  
+
+Gyarados @ Leftovers  
+Ability: Intimidate  
+EVs: 44 HP / 252 Atk / 8 SpD / 204 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Thunder Wave  
+- Hidden Power [Flying]  
+- Earthquake  
+
+Claydol @ Leftovers  
+Ability: Levitate  
+EVs: 248 HP / 216 Atk / 44 Def  
+Adamant Nature  
+- Rapid Spin  
+- Earthquake  
+- Shadow Ball  
+- Explosion  
+
+Registeel @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 224 SpD / 32 Spe  
+Careful Nature  
+- Seismic Toss  
+- Thunder Wave  
+- Counter  
+- Explosion  
+
+Charizard @ Leftovers  
+Ability: Blaze  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Hasty Nature  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Rock Slide  
+- Beat Up  
+
+
+=== [gen3ou] Team Dump April 2026/Improved OffMie 9. ===
+This is a slightly modified version of the team I brought against Zetts in Mugulis. This version almost but not quite got brought to Mushi twice, against Hikari and Zetts again. This team is simply too cool for mortal eyes.
+Starmie is teched to live +1 Salamence HP Fly. I think.
+Tournaments: Mugulis Cup 2 (R10)
+
+Salamence (M) @ Leftovers  
+Ability: Intimidate  
+EVs: 252 HP / 16 SpA / 240 Spe  
+Rash Nature  
+- Brick Break  
+- Flamethrower  
+- Toxic  
+- Wish  
+
+Forretress (M) @ Leftovers  
+Ability: Sturdy  
+EVs: 248 HP / 8 Atk / 252 SpD  
+Sassy Nature  
+- Spikes  
+- Rapid Spin  
+- Earthquake  
+- Explosion  
+
+Tyranitar (F) @ Leftovers  
+Ability: Sand Stream  
+EVs: 44 HP / 244 SpA / 220 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Pursuit  
+- Crunch  
+- Flamethrower  
+- Roar  
+
+Swampert (M) @ Leftovers  
+Ability: Torrent  
+EVs: 252 HP / 176 Def / 80 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Toxic  
+- Refresh  
+- Protect  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 80 HP / 252 Def / 120 SpD / 56 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Wish  
+- Thunder Wave  
+- Seismic Toss  
+
+Starmie @ Leftovers  
+Ability: Natural Cure  
+EVs: 72 HP / 8 Def / 176 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Surf  
+- Ice Beam  
+- Hidden Power [Grass]  
+- Recover  
+
+
+=== [gen3ou] Team Dump April 2026/OffMie 10. ===
+Giraffe liked this one. thx Giraffe. Shoutouts to Giraffe btw.
+Tournaments: Mushi League S21 (Week 5)
+
+Regirock @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Adamant Nature  
+- Thunder Wave  
+- Rock Slide  
+- Superpower  
+- Explosion  
+
+Starmie @ Leftovers  
+Ability: Natural Cure  
+EVs: 72 HP / 8 Def / 176 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Surf  
+- Ice Beam  
+- Thunderbolt  
+- Recover  
+
+Jolteon @ Leftovers  
+Ability: Volt Absorb  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Baton Pass  
+- Roar  
+
+Metagross @ Choice Band  
+Ability: Clear Body  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Meteor Mash  
+- Earthquake  
+- Rock Slide  
+- Explosion  
+
+Cloyster @ Leftovers  
+Ability: Shell Armor  
+EVs: 72 HP / 8 SpA / 244 SpD / 184 Spe  
+Timid Nature  
+- Spikes  
+- Rapid Spin  
+- Surf  
+- Explosion  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Rash Nature  
+IVs: 30 HP / 30 SpA  
+- Dragon Claw  
+- Brick Break  
+- Hidden Power [Grass]  
+- Fire Blast  
+
+
+=== [gen3ou] Team Dump April 2026/DD Gyara 3 ===
+The idea is that the entire team forces damage against Zap, so that the Gyara can sweep. The most obviously epic tech is max spdef counter Swampert.
+Tournaments: Mugulis Cup 2 (R6)
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 68 HP / 236 SpA / 204 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Toxic  
+- Protect  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Spikes  
+- Toxic  
+- Protect  
+- Roar  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 252 HP / 4 Atk / 252 SpD  
+Sassy Nature  
+- Protect  
+- Earthquake  
+- Counter  
+- Ice Beam  
+
+Tyranitar @ Chesto Berry  
+Ability: Sand Stream  
+EVs: 128 HP / 128 Atk / 252 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Rock Slide  
+- Earthquake  
+- Rest  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 168 HP / 164 SpD / 176 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Will-O-Wisp  
+- Taunt  
+- Giga Drain  
+- Fire Punch  
+
+Gyarados @ Leftovers  
+Ability: Intimidate  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Taunt  
+- Hidden Power [Flying]  
+- Earthquake  
+
+
+=== [gen3ou] Team Dump April 2026/DD Gyara 4 ===
+This is an improved version of the Gyara team. This is another team I think should plague 1300s on ladder.
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 48 HP / 4 Def / 252 SpA / 204 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Toxic  
+- Protect  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 248 SpD / 8 Spe  
+Calm Nature  
+- Spikes  
+- Toxic  
+- Drill Peck  
+- Roar  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 252 HP / 4 Atk / 252 SpD  
+Sassy Nature  
+- Protect  
+- Earthquake  
+- Counter  
+- Ice Beam  
+
+Gyarados @ Leftovers  
+Ability: Intimidate  
+EVs: 20 HP / 252 Atk / 32 SpD / 204 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Taunt  
+- Hidden Power [Flying]  
+- Earthquake  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 148 HP / 252 Atk / 108 Spe  
+Adamant Nature  
+- Agility  
+- Meteor Mash  
+- Earthquake  
+- Explosion  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 44 HP / 244 SpA / 220 SpD  
+Sassy Nature  
+- Pursuit  
+- Crunch  
+- Flamethrower  
+- Focus Punch  
+
+
+=== [gen3ou] Team Dump April 2026/Pizza! ===
+
+Unown-P  
+Ability: Levitate  
+
+Unown-I  
+Ability: Levitate  
+
+Unown-Z  
+Ability: Levitate  
+
+Unown-Z  
+Ability: Levitate  
+
+Unown  
+Ability: Levitate  
+
+Unown-Exclamation  
+Ability: Levitate  
+
+
+=== [gen3ou] Team Dump April 2026/Unremarkable SuitTar Offence 1 ===
+I started making this for the last week of Mushi initially, so I'm allowed to put it on the post-Mushi teamdump. Giraffe told me to replace Houndoom with SuitTar, and then the team was, like, really good. This is why I shouldn't be allowed to teambuild.
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Toxic  
+- Thunder Wave  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 176 Atk / 80 Def  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Protect  
+- Explosion  
+
+Flygon @ Leftovers  
+Ability: Levitate  
+EVs: 132 Atk / 124 SpA / 252 Spe  
+Naive Nature  
+- Earthquake  
+- Fire Blast  
+- Rock Slide  
+- Substitute  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 44 HP / 244 SpA / 220 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Pursuit  
+- Crunch  
+- Flamethrower  
+- Roar  
+
+Cloyster @ Leftovers  
+Ability: Shell Armor  
+EVs: 72 HP / 8 SpA / 244 SpD / 184 Spe  
+Timid Nature  
+- Spikes  
+- Surf  
+- Rapid Spin  
+- Explosion  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 252 HP / 4 SpA / 252 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Surf  
+- Ice Beam  
+- Counter  
+- Refresh  
+
+
+=== [gen3ou] Team Dump April 2026/SuitTar RefRachi TSS ===
+This is the team I hit my ladder peak of 1699 with. The ADV police are going to have me.
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 252 HP / 252 SpA / 4 SpD  
+Mild Nature  
+- Pursuit  
+- Flamethrower  
+- Earthquake  
+- Hidden Power [Bug]  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 136 Def / 120 SpD  
+Impish Nature  
+- Spikes  
+- Hidden Power [Steel]  
+- Protect  
+- Roar  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 4 HP / 252 Def / 252 SpA  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Calm Mind  
+- Ice Beam  
+- Thunderbolt  
+
+Claydol @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 84 Def / 132 SpA / 40 SpD  
+Sassy Nature  
+- Rapid Spin  
+- Toxic  
+- Rest  
+- Explosion  
+
+Milotic @ Leftovers  
+Ability: Marvel Scale  
+EVs: 252 HP / 252 Def / 4 SpA  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Toxic  
+- Refresh  
+- Recover  
+
+Jirachi @ Leftovers  
+Ability: Serene Grace  
+EVs: 240 HP / 144 Def / 92 SpD / 32 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Fire Punch  
+- Refresh  
+- Wish  
+- Protect  
+
+
+=== [gen3ou] Team Dump April 2026/I saw a team like this in a toothpaste ad once V3 ===
+This is a variant of the Machamp Raikou Gyara Claydol team that I built. Fruhdazi said it's too weak to enemy Metagross. I still like it a lot, though. Meta and Blissey constitute the Zapdos switch-in and steel type, where once Registeel did stand.
+
+Metagross @ Choice Band  
+Ability: Clear Body  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Meteor Mash  
+- Earthquake  
+- Rock Slide  
+- Explosion  
+
+Machamp @ Leftovers  
+Ability: Guts  
+EVs: 64 HP / 212 Atk / 232 Spe  
+Adamant Nature  
+- Bulk Up  
+- Rock Slide  
+- Cross Chop  
+- Hidden Power [Ghost]  
+
+Raikou @ Leftovers  
+Ability: Pressure  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Substitute  
+- Calm Mind  
+- Thunderbolt  
+- Hidden Power [Grass]  
+
+Gyarados @ Leftovers  
+Ability: Intimidate  
+EVs: 28 HP / 252 Atk / 20 SpD / 208 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Thunder Wave  
+- Hidden Power [Rock]  
+- Earthquake  
+
+Claydol @ Leftovers  
+Ability: Levitate  
+EVs: 248 HP / 252 Atk / 8 Def  
+Impish Nature  
+- Rapid Spin  
+- Earthquake  
+- Shadow Ball  
+- Explosion  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 24 HP / 252 Def / 196 SpA / 36 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Wish  
+- Ice Beam  
+- Seismic Toss  
+
+
+=== [gen3ou] Team Dump April 2026/Moltres MixZap okay it's mixzap now ===
+Here's the thunder wave mixed Zapdos spread I'm using. This team isn't very good (at the moment), but it's very fun to use, and that's what matters.
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Adamant Nature  
+- Substitute  
+- Focus Punch  
+- Rock Slide  
+- Hidden Power [Bug]  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 148 HP / 252 Atk / 108 Spe  
+Adamant Nature  
+- Agility  
+- Meteor Mash  
+- Earthquake  
+- Explosion  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 248 HP / 244 SpD / 16 Spe  
+Careful Nature  
+- Spikes  
+- Drill Peck  
+- Toxic  
+- Roar  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 8 Def / 252 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Surf  
+- Counter  
+- Refresh  
+- Protect  
+
+Moltres @ Leftovers  
+Ability: Pressure  
+EVs: 56 HP / 8 Def / 172 SpA / 44 SpD / 228 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Flamethrower  
+- Overheat  
+- Hidden Power [Grass]  
+- Roar  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 120 Atk / 216 SpA / 24 SpD / 148 Spe  
+Hasty Nature  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Drill Peck  
+- Thunder Wave  
+
+
+=== [gen3ou] Team Dump April 2026/BoltBeamTar TSS. ===
+I built this for when I was facing Tetrafolium in Mushi. Fruhdazi said it was too phys weak (and it probably still is), but I still like the team enough to showcase it.
+
+Skarmory  
+Ability: Keen Eye  
+EVs: 252 HP / 4 Def / 252 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Spikes  
+- Thief  
+- Toxic  
+- Roar  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Hasty Nature  
+- Brick Break  
+- Flamethrower  
+- Ice Beam  
+- Thunder  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 252 SpA / 4 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Calm Mind  
+- Ice Beam  
+- Thunderbolt  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 108 Atk / 100 SpD / 48 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Protect  
+- Explosion  
+
+Starmie @ Leftovers  
+Ability: Natural Cure  
+EVs: 248 HP / 204 SpD / 56 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Rapid Spin  
+- Recover  
+- Thunder Wave  
+- Surf  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 112 HP / 220 SpD / 176 Spe  
+Timid Nature  
+- Will-O-Wisp  
+- Fire Punch  
+- Giga Drain  
+- Explosion  
+
+
+=== [gen3ou] Team Dump April 2026/ABR-inspired boom nonsense ===
+The only thing I learned from that one Jim Cool vid where he reads ABR's entire VR is that exploding a bunch of defensive pieces is a vaguely good strategy. There's a (arguably) better version of this team below, but I'm obligated to post the one with Moltres. It's not like this version of the team is bad.
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 248 HP / 176 Atk / 36 SpA / 48 Spe  
+Brave Nature  
+- Meteor Mash  
+- Earthquake  
+- Pursuit  
+- Explosion  
+
+Forretress @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 252 SpD  
+Careful Nature  
+- Spikes  
+- Rapid Spin  
+- Hidden Power [Ghost]  
+- Explosion  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 248 HP / 44 Def / 8 SpA / 112 SpD / 96 Spe  
+Timid Nature  
+- Hypnosis  
+- Ice Punch  
+- Thunderbolt  
+- Explosion  
+
+Snorlax @ Leftovers  
+Ability: Thick Fat  
+EVs: 144 HP / 96 Atk / 132 Def / 124 SpD / 12 Spe  
+Careful Nature  
+- Curse  
+- Rest  
+- Body Slam  
+- Earthquake  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 220 SpD / 36 Spe  
+Calm Nature  
+IVs: 2 Atk / 30 SpA  
+- Leech Seed  
+- Recover  
+- Hidden Power [Grass]  
+- Psychic  
+
+Moltres @ Leftovers  
+Ability: Pressure  
+EVs: 192 HP / 80 SpA / 236 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Flamethrower  
+- Hidden Power [Grass]  
+- Morning Sun  
+- Roar  
+
+
+=== [gen3ou] Team Dump April 2026/Pizza! (1) ===
+
+Unown-P  
+Ability: Levitate  
+
+Unown-I  
+Ability: Levitate  
+
+Unown-Z  
+Ability: Levitate  
+
+Unown-Z  
+Ability: Levitate  
+
+Unown  
+Ability: Levitate  
+
+Unown-Exclamation  
+Ability: Levitate  
+
+
+=== [gen3ou] Team Dump April 2026/ABR-inspired boom nonsense + RestZap ===
+This team lost in tournament, but it won in my heart.
+Tournaments: Mushi League S21 (Week 6)
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 248 HP / 176 Atk / 36 SpA / 48 Spe  
+Brave Nature  
+- Meteor Mash  
+- Earthquake  
+- Pursuit  
+- Explosion  
+
+Forretress @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 252 SpD  
+Careful Nature  
+- Spikes  
+- Rapid Spin  
+- Hidden Power [Ghost]  
+- Explosion  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 248 HP / 44 Def / 8 SpA / 112 SpD / 96 Spe  
+Timid Nature  
+- Hypnosis  
+- Ice Punch  
+- Thunderbolt  
+- Explosion  
+
+Snorlax @ Leftovers  
+Ability: Thick Fat  
+EVs: 144 HP / 96 Atk / 132 Def / 124 SpD / 12 Spe  
+Careful Nature  
+- Curse  
+- Rest  
+- Body Slam  
+- Earthquake  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 220 SpD / 36 Spe  
+Calm Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Leech Seed  
+- Recover  
+- Hidden Power [Fire]  
+- Giga Drain  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 248 HP / 228 SpD / 32 Spe  
+Calm Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Toxic  
+- Rest  
+
+
+=== [gen3ou] Team Dump April 2026/MixMence + Squid Game 5. ===
+The idea is that Tentacruel is a mixed wall with spin and it just sits in front of peckless Skarmory forever. A lot of spikeoffs struggle with mixed threats, so I wanted to run this. In hindsight, Aero over Gengar was probably the idea...
+Giraffe thought this team sucked. He even told me Gengar was weird on the team. Even though I ignored some of his advice in pursuit of my own divine vision, what he said helped me make the team suck 5% less. Tentacruel swept in tournament. The team still sucks though (it's 100% my fault it sucks, in case it wasn't obvious).
+Tournaments: Mushi League S21 (Week 5)
+
+Salamence (M) @ Leftovers  
+Ability: Intimidate  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Hasty Nature  
+- Wish  
+- Dragon Claw  
+- Fire Blast  
+- Brick Break  
+
+Skarmory (M) @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Spikes  
+- Toxic  
+- Counter  
+- Roar  
+
+Gengar (M) @ Leftovers  
+Ability: Levitate  
+EVs: 120 HP / 204 SpD / 184 Spe  
+Hasty Nature  
+- Explosion  
+- Will-O-Wisp  
+- Thunderbolt  
+- Giga Drain  
+
+Tentacruel (M) @ Leftovers  
+Ability: Liquid Ooze  
+EVs: 80 HP / 172 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Surf  
+- Ice Beam  
+- Toxic  
+- Rapid Spin  
+
+Swampert (F) @ Leftovers  
+Ability: Torrent  
+EVs: 240 HP / 152 Def / 44 SpD / 32 Spe  
+Brave Nature  
+- Ice Beam  
+- Earthquake  
+- Refresh  
+- Protect  
+
+Tyranitar (F) @ Leftovers  
+Ability: Sand Stream  
+EVs: 44 HP / 244 SpA / 220 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Pursuit  
+- Crunch  
+- Fire Blast  
+- Roar  
+
+
+=== [gen3ou] Team Dump April 2026/FIXED Dusclops MonoPert Spikes ===
+I brought a version of this against Mah in round 9 of Mugulis, and got destroyed. I then replaced Salamence with Moltres, and the team was suddenly good enough to win a tournament set. This is the story of my life.
+Tournaments: Mushi League S21 (Week 4)
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 24 HP / 252 Def / 136 SpA / 96 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Wish  
+- Seismic Toss  
+- Ice Beam  
+
+Skarmory  
+Ability: Keen Eye  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+IVs: 0 Atk  
+- Spikes  
+- Thief  
+- Protect  
+- Roar  
+
+Claydol @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 252 Atk / 4 Def  
+Relaxed Nature  
+- Rapid Spin  
+- Earthquake  
+- Psychic  
+- Refresh  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 136 Def / 124 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Toxic  
+- Refresh  
+- Protect  
+
+Dusclops @ Leftovers  
+Ability: Pressure  
+EVs: 232 HP / 44 Def / 176 SpD / 56 Spe  
+Careful Nature  
+- Will-O-Wisp  
+- Focus Punch  
+- Shadow Ball  
+- Rest  
+
+Moltres @ Leftovers  
+Ability: Pressure  
+EVs: 128 HP / 144 SpA / 236 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Flamethrower  
+- Hidden Power [Grass]  
+- Toxic  
+- Roar  
+
+
+=== [gen3ou] Team Dump April 2026/Breloom OffMie Spikes 2 ===
+This team is very derivative of similar Breloom SuitTar offences. My innovation is roarless lead Skarm, and it was kickass in practice. This was also the first time I used this SuitTar spread. This SuitTar is the future. Trust me.
+Tournaments: Mushi League S21 (Week 3)
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 136 Def / 8 SpD / 112 Spe  
+Impish Nature  
+- Spikes  
+- Taunt  
+- Drill Peck  
+- Counter  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 44 HP / 244 SpA / 220 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Pursuit  
+- Crunch  
+- Flamethrower  
+- Roar  
+
+Breloom @ Leftovers  
+Ability: Effect Spore  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Spore  
+- Stun Spore  
+- Brick Break  
+- Mach Punch  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 252 HP / 112 SpA / 8 SpD / 136 Spe  
+Modest Nature  
+- Ice Beam  
+- Surf  
+- Focus Punch  
+- Substitute  
+
+Registeel @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 44 Def / 160 SpD / 52 Spe  
+Careful Nature  
+- Seismic Toss  
+- Thunder Wave  
+- Counter  
+- Explosion  
+
+Starmie @ Leftovers  
+Ability: Natural Cure  
+EVs: 72 HP / 8 Def / 176 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Surf  
+- Ice Beam  
+- Thunderbolt  
+- Rapid Spin  
+
+
+=== [gen3ou] Team Dump April 2026/Fake BoahTar AeroMag 1 ===
+I lost with this one. I suck. Team's good.
+Tournaments: Mushi League S21 (Week 2)
+
+Swipe Subway Card (Swampert) @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 124 Atk / 92 SpA / 44 SpD  
+Brave Nature  
+- Surf  
+- Ice Beam  
+- Earthquake  
+- Refresh  
+
+Captcha (Skarmory) @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+- Spikes  
+- Toxic  
+- Drill Peck  
+- Roar  
+
+Wed Bertha (Magneton) @ Magnet  
+Ability: Magnet Pull  
+EVs: 252 SpA / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Thunderbolt  
+- Hidden Power [Fire]  
+- Toxic  
+- Protect  
+
+Cars 2 Essay (Celebi) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 220 SpD / 36 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Leech Seed  
+- Recover  
+- Psychic  
+- Baton Pass  
+
+Launch The Nukes (Tyranitar) @ Leftovers  
+Ability: Sand Stream  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Hasty Nature  
+- Brick Break  
+- Rock Slide  
+- Crunch  
+- Thunder  
+
+Impostor Jimothy (Aerodactyl) (F) @ Choice Band  
+Ability: Rock Head  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Flying]  
+- Double-Edge  
+
+
+=== [gen3ou] Team Dump April 2026/SuitTar Milobi TSS 2 ===
+For week 2 of Mushi, I decided to try a new style of tournament prep, where I just bring the team that is the least like anything I have ever brought before. I asked the Dooms for help with doing some MiloBi stuff, and Muteki sent pretty much this exact team... with a Skarmory. Hclat's force spirit sat on my shoulder and told me to replace Skarm with Forretress.
+(I dunno where Muteki got the team from. Maybe he made it, but if he didn't then my bad for not crediting properly.)
+Tournaments: Mushi League S21 (Week 2)
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 8 HP / 156 SpA / 132 SpD / 212 Spe  
+Modest Nature  
+- Crunch  
+- Pursuit  
+- Earthquake  
+- Roar  
+
+Forretress @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+- Spikes  
+- Rapid Spin  
+- Hidden Power [Flying]  
+- Earthquake  
+
+Magneton @ Magnet  
+Ability: Magnet Pull  
+EVs: 40 HP / 248 SpA / 220 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Thunderbolt  
+- Hidden Power [Fire]  
+- Toxic  
+- Protect  
+
+Milotic @ Leftovers  
+Ability: Marvel Scale  
+EVs: 252 HP / 252 Def / 4 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Toxic  
+- Refresh  
+- Recover  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 220 SpD / 36 Spe  
+Calm Nature  
+IVs: 2 Atk / 30 SpA  
+- Leech Seed  
+- Recover  
+- Psychic  
+- Hidden Power [Grass]  
+
+Flygon @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 220 Def / 36 Spe  
+Impish Nature  
+- Earthquake  
+- Rock Slide  
+- Toxic  
+- Protect  
+
+
+=== [gen3ou] Team Dump April 2026/FIXED CloyMag OffMie ===
+This team got glowing reviews. It's sure to sweep this award season.
+"Ngl i lowk f*ck w it" ~ Fruhdazi
+"lwk i f*ck with this" ~ pzwrd
+I was running lead Aero into Zetts, but the team should fair better with lead Tar. Also pz fixed the Cloy EVs.
+Tournaments: Mugulis Cup 2 (R10)
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 76 Atk / 184 Spe  
+Adamant Nature  
+IVs: 30 SpD / 30 Spe  
+- Dragon Dance  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Bug]  
+
+Magneton @ Magnet  
+Ability: Magnet Pull  
+EVs: 36 HP / 252 SpA / 36 SpD / 184 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Toxic  
+- Thunder Wave  
+
+Cloyster @ Leftovers  
+Ability: Shell Armor  
+EVs: 72 HP / 8 SpA / 244 SpD / 184 Spe  
+Timid Nature  
+- Spikes  
+- Rapid Spin  
+- Surf  
+- Explosion  
+
+Registeel @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 228 Atk / 24 Def / 4 SpD  
+Impish Nature  
+- Superpower  
+- Thunder Wave  
+- Seismic Toss  
+- Explosion  
+
+Aerodactyl @ Choice Band  
+Ability: Rock Head  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Flying]  
+- Double-Edge  
+
+Starmie @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Surf  
+- Ice Beam  
+- Psychic  
+- Thunderbolt  
+
+
+=== [gen3ou] Team Dump April 2026/Very Normal Forretress Team ===
+yeah
+Tournaments: Mugulis Cup 2 (R10)
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 252 HP / 16 SpA / 240 Spe  
+Rash Nature  
+- Brick Break  
+- Flamethrower  
+- Dragon Claw  
+- Wish  
+
+Forretress @ Leftovers  
+Ability: Sturdy  
+EVs: 248 HP / 8 Atk / 252 SpD  
+Sassy Nature  
+- Spikes  
+- Rapid Spin  
+- Hidden Power [Fire]  
+- Explosion  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 32 HP / 224 SpA / 252 SpD  
+Sassy Nature  
+- Pursuit  
+- Flamethrower  
+- Brick Break  
+- Toxic  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 252 HP / 140 Def / 116 SpD  
+Relaxed Nature  
+- Surf  
+- Earthquake  
+- Protect  
+- Roar  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 80 HP / 252 Def / 120 SpD / 56 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Aromatherapy  
+- Thunder Wave  
+- Seismic Toss  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 140 HP / 108 Def / 8 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Taunt  
+- Will-O-Wisp  
+- Thunderbolt  
+- Ice Punch  
+
+
+=== [gen3ou] Team Dump April 2026/DD MixTar SpikeOff ===
+This is one of those really funny teams.
+Tournaments: Mugulis Cup 2 (R9)
+
+Metagross @ Choice Band  
+Ability: Clear Body  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Rock Slide  
+- Explosion  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 248 HP / 252 SpD / 8 Spe  
+Careful Nature  
+- Spikes  
+- Drill Peck  
+- Toxic  
+- Roar  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 216 SpA / 44 SpD  
+Brave Nature  
+- Hydro Pump  
+- Ice Beam  
+- Earthquake  
+- Refresh  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Hasty Nature  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Dragon Claw  
+- Brick Break  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 4 HP / 252 Def / 252 SpA  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Wish  
+- Ice Beam  
+- Seismic Toss  
+
+Tyranitar @ Salac Berry  
+Ability: Sand Stream  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Rash Nature  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Rock Slide  
+- Dragon Dance  
+
+
+=== [gen3ou] Team Dump April 2026/I really really want to freeze a SuitTar. ===
+I built and ran this like 3 weeks before they implemented the pursuit fix, even though the pursuit fix was the only reason I made the team. Whoops.
+Tournaments: Mugulis Cup 2 (R9)
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 4 Atk / 252 Def  
+Impish Nature  
+- Meteor Mash  
+- Toxic  
+- Rest  
+- Explosion  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+- Spikes  
+- Drill Peck  
+- Protect  
+- Roar  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 168 HP / 164 SpD / 176 Spe  
+Hasty Nature  
+- Fire Punch  
+- Ice Punch  
+- Giga Drain  
+- Explosion  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 252 SpA / 4 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Aromatherapy  
+- Seismic Toss  
+- Ice Beam  
+
+Claydol @ Leftovers  
+Ability: Levitate  
+EVs: 248 HP / 252 Atk / 8 SpD  
+Careful Nature  
+- Rapid Spin  
+- Earthquake  
+- Shadow Ball  
+- Rest  
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 144 Def / 112 SpA  
+Bold Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Surf  
+- Sleep Talk  
+- Rest  
+
+
+=== [gen3ou] Team Dump April 2026/Double Blobster 2 ===
+https://replay.pokemonshowdown.com/smogtours-gen3ou-896812
+I'm so good at this game.
+Tournaments: Mugulis Cup 2 (R8)
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 8 Def / 112 SpA / 136 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Ice Beam  
+- Surf  
+- Substitute  
+
+Moltres @ Leftovers  
+Ability: Pressure  
+EVs: 28 HP / 252 SpA / 228 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Flamethrower  
+- Hidden Power [Grass]  
+- Toxic  
+- Roar  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 148 HP / 252 Atk / 108 Spe  
+Adamant Nature  
+- Agility  
+- Meteor Mash  
+- Earthquake  
+- Body Slam  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 252 HP / 92 SpA / 28 SpD / 136 Spe  
+Calm Nature  
+- Ice Beam  
+- Surf  
+- Earthquake  
+- Refresh  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 116 HP / 252 Def / 140 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Wish  
+- Thunder Wave  
+- Seismic Toss  
+
+Snorlax @ Leftovers  
+Ability: Immunity  
+EVs: 92 HP / 128 Atk / 112 Def / 164 SpD / 12 Spe  
+Adamant Nature  
+- Curse  
+- Body Slam  
+- Shadow Ball  
+- Rest  
+
+
+=== [gen3ou] Team Dump April 2026/V5 with Skill Swap Bliss 3 (Vape) ===
+This is actually one of my favourite teams. It's epic.
+Tournaments: Mugulis Cup 2 (R4)
+
+Superman (Skarmory) @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 136 Def / 120 SpD  
+Impish Nature  
+- Spikes  
+- Drill Peck  
+- Protect  
+- Roar  
+
+Agadoo (Blissey) (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 252 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Skill Swap  
+- Toxic  
+- Seismic Toss  
+
+Hokey Cokey (Vaporeon) @ Leftovers  
+Ability: Water Absorb  
+EVs: 252 HP / 252 Def / 4 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Toxic  
+- Wish  
+- Protect  
+
+I Am The Music Man (Claydol) @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 240 Atk / 4 SpD  
+Careful Nature  
+- Rapid Spin  
+- Earthquake  
+- Shadow Ball  
+- Refresh  
+
+Do The Conga (Dugtrio) @ Choice Band  
+Ability: Arena Trap  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Hidden Power [Bug]  
+- Aerial Ace  
+- Screech  
+
+Mary Ann (Metagross) @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 4 Atk / 148 SpA / 104 SpD  
+Quiet Nature  
+- Meteor Mash  
+- Hidden Power [Fire]  
+- Earthquake  
+- Refresh  
+
+
+=== [gen3ou] Team Dump April 2026/FIXED Armaldo Moltres Suicune ===
+This is a touched up version of a team I brought to Mugulis. WARNING: The Milobi matchup sucks. You'll be doing yourself a favour by forfeiting against Milobi on ladder.
+Tournaments: Mugulis Cup 2 (R4)
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 252 HP / 176 Def / 80 SpD  
+Relaxed Nature  
+- Ice Beam  
+- Earthquake  
+- Refresh  
+- Protect  
+
+Armaldo @ Leftovers  
+Ability: Battle Armor  
+EVs: 252 HP / 252 Def / 4 SpA  
+Bold Nature  
+IVs: 0 Atk  
+- Knock Off  
+- Seismic Toss  
+- Harden  
+- Rest  
+
+Claydol @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Careful Nature  
+- Rapid Spin  
+- Shadow Ball  
+- Earthquake  
+- Rest  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 160 HP / 252 Def / 40 SpD / 56 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Aromatherapy  
+- Seismic Toss  
+- Thunder Wave  
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 112 SpA / 144 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Surf  
+- Sleep Talk  
+- Rest  
+
+Moltres @ Leftovers  
+Ability: Pressure  
+EVs: 56 HP / 8 Def / 172 SpA / 44 SpD / 228 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Flamethrower  
+- Will-O-Wisp  
+- Roar  
+- Rest  
+
+
+=== [gen3ou] Team Dump April 2026/Jirachi Regirock Slop ===
+Yeah, this is probably the second canonical 6 in the bible of slop. But I arrived at the conclusion that Regirock + Jirachi + Celebi were good together on slop independently from anyone else, so I'm having this one.
+Tournaments: Mugulis Cup 2 (R2)
+
+BURN-E (Tyranitar) @ Lum Berry  
+Ability: Sand Stream  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Hidden Power [Rock]  
+- Earthquake  
+- Double-Edge  
+
+M-O (Swampert) @ Salac Berry  
+Ability: Torrent  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Substitute  
+- Endeavor  
+- Surf  
+- Roar  
+
+WALL-E (Regirock) @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 60 Atk / 196 SpD  
+Impish Nature  
+- Thunder Wave  
+- Hidden Power [Rock]  
+- Counter  
+- Explosion  
+
+Hal (Celebi) @ Leftovers  
+Ability: Natural Cure  
+EVs: 12 HP / 252 SpA / 244 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Leech Seed  
+- Calm Mind  
+- Giga Drain  
+- Hidden Power [Fire]  
+
+EVE (Jirachi) @ Leftovers  
+Ability: Serene Grace  
+EVs: 252 HP / 80 SpA / 176 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Substitute  
+- Psychic  
+- Fire Punch  
+
+AUTO (Salamence) @ Leftovers  
+Ability: Intimidate  
+EVs: 252 Atk / 120 SpD / 136 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Brick Break  
+- Hidden Power [Flying]  
+- Earthquake  
+
+
+=== [gen3ou] Team Dump April 2026/Muk's Mansion 2 ===
+Yes, this won in tournament. But also, it was only round 1 of Mugulis.
+Tournaments: Mugulis Cup 2 (R1)
+
+Tyranitar @ Lum Berry  
+Ability: Sand Stream  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Hasty Nature  
+- Ancient Power  
+- Flamethrower  
+- Brick Break  
+- Hidden Power [Grass]  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+- Spikes  
+- Toxic  
+- Drill Peck  
+- Roar  
+
+Muktonio (Muk) @ Leftovers  
+Ability: Sticky Hold  
+EVs: 216 HP / 108 Def / 184 SpD  
+Adamant Nature  
+- Substitute  
+- Focus Punch  
+- Sludge Bomb  
+- Explosion  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 216 SpA / 44 SpD  
+Brave Nature  
+- Surf  
+- Ice Beam  
+- Earthquake  
+- Refresh  
+
+Iron Mukulis (Metagross) @ Lum Berry  
+Ability: Clear Body  
+EVs: 148 HP / 252 Atk / 108 Spe  
+Adamant Nature  
+- Agility  
+- Meteor Mash  
+- Earthquake  
+- Explosion  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 148 HP / 68 Atk / 252 SpD / 40 Spe  
+Jolly Nature  
+- Dragon Dance  
+- Brick Break  
+- Hidden Power [Flying]  
+- Rock Slide  
+
+
+=== [gen3ou] Team Dump April 2026/Moltres """""""Slop""""""" (Someone needs to euthanise me) ===
+I won this tournament game because Moltres dodged an Aero rock slide and crit it back. This was the only reason I made it to round 9 of revival 3.
+Tournaments: ADV Revival 3 (R8)
+
+Tyranitar @ Lum Berry  
+Ability: Sand Stream  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Hidden Power [Rock]  
+- Earthquake  
+- Double-Edge  
+
+Swampert @ Salac Berry  
+Ability: Torrent  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Substitute  
+- Endeavor  
+- Surf  
+- Toxic  
+
+Registeel @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 164 SpD / 92 Spe  
+Careful Nature  
+- Seismic Toss  
+- Thunder Wave  
+- Counter  
+- Explosion  
+
+Moltres @ Leftovers  
+Ability: Pressure  
+EVs: 20 HP / 252 SpA / 236 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Overheat  
+- Flamethrower  
+- Hidden Power [Grass]  
+- Toxic  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 80 HP / 252 SpA / 176 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Leech Seed  
+- Calm Mind  
+- Giga Drain  
+- Psychic  
+
+Dragonite @ Leftovers  
+Ability: Inner Focus  
+EVs: 220 HP / 4 Atk / 88 Def / 196 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Brick Break  
+- Hidden Power [Rock]  
+- Earthquake  
+
+
+=== [gen3ou] Team Dump April 2026/Tauros Umbreon Balance ===
+It's ABR's Slaking 6... but it has a Tauros. That's the whole idea.
+Tournaments: ADV Revival 3 (R8), Mugulis Cup 2 (R1)
+
+Tauros (M) @ Choice Band  
+Ability: Intimidate  
+EVs: 40 HP / 252 Atk / 216 Spe  
+Jolly Nature  
+- Return  
+- Hidden Power [Ghost]  
+- Earthquake  
+- Hyper Beam  
+
+Forretress (F) @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 64 Def / 192 SpD  
+Relaxed Nature  
+- Spikes  
+- Rapid Spin  
+- Hidden Power [Fire]  
+- Explosion  
+
+Umbreon (M) @ Leftovers  
+Ability: Synchronize  
+EVs: 252 HP / 80 SpA / 176 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Pursuit  
+- Toxic  
+- Wish  
+- Protect  
+
+Swampert (M) @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 216 Def / 44 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Toxic  
+- Refresh  
+- Protect  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 20 HP / 252 Def / 236 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Wish  
+- Seismic Toss  
+- Thunder Wave  
+
+Moltres @ Leftovers  
+Ability: Pressure  
+EVs: 172 HP / 100 SpA / 236 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Flamethrower  
+- Hidden Power [Grass]  
+- Sunny Day  
+- Roar  
+
+
+=== [gen3ou] Team Dump April 2026/Not slop (World's fattest Salamence) ===
+The bulk on Mence singlehandedly won me the whole set, when it lived Zapdos HP ice from full and KO'd back with HP Rock. I'm so cool.
+Tournaments: ADV Revival 3 (R7)
+
+Tyranitar @ Lum Berry  
+Ability: Sand Stream  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Hidden Power [Rock]  
+- Earthquake  
+- Double-Edge  
+
+Swampert @ Salac Berry  
+Ability: Torrent  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Substitute  
+- Endeavor  
+- Surf  
+- Roar  
+
+Registeel @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 164 SpD / 92 Spe  
+Careful Nature  
+- Seismic Toss  
+- Thunder Wave  
+- Hidden Power [Ghost]  
+- Explosion  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 140 HP / 108 Def / 8 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Fire Punch  
+- Thunderbolt  
+- Ice Punch  
+- Destiny Bond  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 124 HP / 132 SpA / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Toxic  
+- Protect  
+
+Salamence (M) @ Leftovers  
+Ability: Intimidate  
+EVs: 144 HP / 68 Atk / 252 SpD / 44 Spe  
+Jolly Nature  
+- Dragon Dance  
+- Hidden Power [Rock]  
+- Aerial Ace  
+- Brick Break  
+
+
+=== [gen3ou] Team Dump April 2026/Forre Claydol team by Halbert and Mezzoloth (Slightly modified again by me) ===
+Back in June 2025, I was running a similar team to this on ladder (it had mixed Meta over suit Tar). I faced Mezzoloth on ladder, and they liked my Forre Claydol idea enough to shoot me a friend request on discord and start workshopping improvements for the team. This was just a really nice interaction from when I was still very much on the fringes of the ADV community. So big shoutouts to Mezzoloth for that. NOTE: Mezzo originally built the Claydol with Rock Slide and these EVs: 248 HP / 208 Atk / 16 Def / 36 SpD.
+Tournaments: ADV Revival 3 (R5)
+
+Aerodactyl @ Choice Band  
+Ability: Rock Head  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Rock Slide  
+- Double-Edge  
+- Hidden Power [Bug]  
+
+Forretress @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 4 Atk / 252 SpD  
+Careful Nature  
+- Spikes  
+- Earthquake  
+- Hidden Power [Bug]  
+- Explosion  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 240 HP / 8 Def / 168 SpA / 92 SpD  
+Modest Nature  
+IVs: 0 Atk  
+- Crunch  
+- Pursuit  
+- Flamethrower  
+- Roar  
+
+Claydol @ Leftovers  
+Ability: Levitate  
+EVs: 248 HP / 240 Atk / 20 Def  
+Impish Nature  
+- Rapid Spin  
+- Earthquake  
+- Hidden Power [Rock]  
+- Explosion  
+
+Milotic @ Leftovers  
+Ability: Marvel Scale  
+EVs: 208 HP / 248 Def / 52 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Toxic  
+- Refresh  
+- Recover  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 252 SpA / 4 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Ice Beam  
+- Toxic  
+- Snatch  
+- Soft-Boiled  
+
+
+=== [gen3ou] Team Dump April 2026/Registeel Leech3Bi Spikes 2 ===
+This team put up two GOATed performances in ADV Revival 3, but I'm not sure if it's actually any good.
+Tournaments: ADV Revival 3 (R4, R6)
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 136 Def / 120 SpD  
+Impish Nature  
+IVs: 0 Atk  
+- Spikes  
+- Protect  
+- Toxic  
+- Roar  
+
+Registeel @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 4 Atk / 160 SpD / 92 Spe  
+Careful Nature  
+- Seismic Toss  
+- Thunder Wave  
+- Toxic  
+- Explosion  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 92 HP / 236 SpA / 180 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Leech Seed  
+- Giga Drain  
+- Hidden Power [Fire]  
+- Psychic  
+
+Claydol @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 240 Atk / 16 Def  
+Impish Nature  
+- Rapid Spin  
+- Shadow Ball  
+- Earthquake  
+- Explosion  
+
+Starmie @ Leftovers  
+Ability: Natural Cure  
+EVs: 240 HP / 52 SpA / 216 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Rapid Spin  
+- Recover  
+- Surf  
+- Ice Beam  
+
+Moltres @ Leftovers  
+Ability: Pressure  
+EVs: 68 HP / 204 SpA / 236 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Flamethrower  
+- Hidden Power [Grass]  
+- Toxic  
+- Roar  
+
+
+=== [gen3ou] Team Dump April 2026/Cloy Jolt Spikes ===
+Ahh, the beginning of the Moltres renaissance. I decided out of the blue that Moltres was the best mon in ADV and cooked up 3 Molt teams for round 4 of ADV Revival 3. I then gamed harder than ever before to win that set. From that day forward, it was me and Moltres to the moon.
+Tournaments: ADV Revival 3 (R4, R9)
+
+Tyranitar @ Lum Berry  
+Ability: Sand Stream  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Bug]  
+
+Jolteon @ Leftovers  
+Ability: Volt Absorb  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Baton Pass  
+- Roar  
+
+Cloyster @ Leftovers  
+Ability: Shell Armor  
+EVs: 252 HP / 68 SpA / 188 Spe  
+Naive Nature  
+- Spikes  
+- Rapid Spin  
+- Ice Beam  
+- Explosion  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 164 Def / 96 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Toxic  
+- Refresh  
+- Protect  
+
+Moltres @ Leftovers  
+Ability: Pressure  
+EVs: 68 HP / 188 SpA / 24 SpD / 228 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Flamethrower  
+- Hidden Power [Grass]  
+- Will-O-Wisp  
+- Roar  
+
+Dugtrio @ Choice Band  
+Ability: Arena Trap  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Hidden Power [Bug]  
+- Aerial Ace  
+- Rock Slide  
+
+
+=== [gen3ou] Team Dump April 2026/Kirby Spikeless Balance ===
+Special attacking Claydol FTW. When you use this team, you have to say the Kirby character names like they do in Kirby's Avalanche. God I wish Bronto Burt was playable in Kirby Air Riders.
+Tournaments: ADV Revival 3 (R3)
+
+Kabu (Tyranitar) (M) @ Leftovers  
+Ability: Sand Stream  
+Shiny: Yes  
+EVs: 252 HP / 132 SpA / 124 Spe  
+Rash Nature  
+- Substitute  
+- Focus Punch  
+- Crunch  
+- Thunder  
+
+Squishy (Blissey) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 116 SpD / 140 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Wish  
+- Seismic Toss  
+- Thunder Wave  
+
+Poppy Bros. Sr. (Milotic) (M) @ Leftovers  
+Ability: Marvel Scale  
+Shiny: Yes  
+EVs: 252 HP / 252 Def / 4 SpA  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Hypnosis  
+- Refresh  
+- Recover  
+
+King Dedede (Claydol) @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 252 SpA / 4 SpD  
+Sassy Nature  
+- Rapid Spin  
+- Psychic  
+- Hidden Power [Fire]  
+- Explosion  
+
+Meta Knight (Metagross) @ Leftovers  
+Ability: Clear Body  
+EVs: 68 HP / 252 SpA / 188 Spe  
+Rash Nature  
+- Meteor Mash  
+- Psychic  
+- Hidden Power [Fire]  
+- Explosion  
+
+Bronto Burt (Salamence) (M) @ Leftovers  
+Ability: Intimidate  
+EVs: 144 HP / 68 Atk / 252 SpD / 44 Spe  
+Jolly Nature  
+- Dragon Dance  
+- Hidden Power [Rock]  
+- Aerial Ace  
+- Earthquake  
+
+
+=== [gen3ou] Team Dump April 2026/Armaldo Semi-Stall V4 ===
+I built this team in August and was running it non-stop while on holiday in Ireland. This is a good story.
+Tournaments: ADV Revival 3 (R1)
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 252 HP / 212 Def / 44 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Toxic  
+- Refresh  
+- Protect  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 152 Def / 104 Spe  
+Impish Nature  
+- Spikes  
+- Drill Peck  
+- Roar  
+- Rest  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 4 HP / 252 Def / 252 SpA  
+Bold Nature  
+IVs: 0 Atk  
+- Refresh  
+- Soft-Boiled  
+- Ice Beam  
+- Seismic Toss  
+
+Claydol @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 164 Atk / 92 SpD  
+Sassy Nature  
+- Rapid Spin  
+- Psychic  
+- Rest  
+- Explosion  
+
+Armaldo @ Leftovers  
+Ability: Battle Armor  
+EVs: 252 HP / 196 Def / 60 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Knock Off  
+- Seismic Toss  
+- Harden  
+- Rest  
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 252 Def / 4 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Calm Mind  
+- Roar  
+- Rest  
+
+
+=== [gen3ou] Team Dump April 2026/AgilZap Champular Offence ===
+This team sucks, but it was the beginning of my long and beautiful marriage to agility Zapdos.
+Tournaments: ADV Revival 3 (R1)
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 252 HP / 132 SpA / 124 Spe  
+Rash Nature  
+- Substitute  
+- Focus Punch  
+- Crunch  
+- Thunder  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 164 HP / 168 SpD / 176 Spe  
+Hasty Nature  
+- Thunderbolt  
+- Fire Punch  
+- Giga Drain  
+- Explosion  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 252 HP / 4 SpA / 252 SpD  
+Brave Nature  
+- Curse  
+- Protect  
+- Earthquake  
+- Ice Beam  
+
+Forretress @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 4 Atk / 252 SpD  
+Careful Nature  
+- Spikes  
+- Rapid Spin  
+- Hidden Power [Ghost]  
+- Explosion  
+
+Machamp @ Leftovers  
+Ability: Guts  
+EVs: 16 HP / 32 Atk / 232 SpD / 228 Spe  
+Adamant Nature  
+- Substitute  
+- Focus Punch  
+- Hidden Power [Bug]  
+- Encore  
+
+aaajuñiga (Zapdos) @ Leftovers  
+Ability: Pressure  
+EVs: 120 Atk / 252 SpA / 136 Spe  
+Mild Nature  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Drill Peck  
+- Agility 

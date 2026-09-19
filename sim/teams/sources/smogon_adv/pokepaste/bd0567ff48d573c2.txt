@@ -1,0 +1,57 @@
+tar-15 (Tyranitar) @ Leftovers  
+Ability: Sand Stream  
+EVs: 184 HP / 68 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Hidden Power [Bug]  
+- Rock Slide  
+- Dragon Dance  
+- Earthquake  
+
+Idioteque9 (Vaporeon) @ Leftovers  
+Ability: Water Absorb  
+EVs: 248 HP / 252 Def / 8 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Haze  
+- Wish  
+- Protect  
+
+ParanoidAndroid8 (Forretress) @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 4 Atk / 252 SpD  
+Careful Nature  
+- Hidden Power [Ghost]  
+- Explosion  
+- Counter  
+- Spikes  
+
+AllINeed10 (Claydol) @ Leftovers  
+Ability: Levitate  
+EVs: 248 HP / 232 Atk / 16 Def / 12 SpD  
+Relaxed Nature  
+- Earthquake  
+- Rapid Spin  
+- Psychic  
+- Explosion  
+
+addedreverb (Blissey) (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 212 SpA / 44 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Aromatherapy  
+- Seismic Toss  
+- Ice Beam  
+- Soft-Boiled  
+
+esx w/o touching (Gengar) @ Leftovers  
+Ability: Levitate  
+EVs: 248 HP / 12 Def / 60 SpD / 188 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Will-O-Wisp  
+- Taunt  
+- Thunderbolt  
+- Destiny Bond  
+

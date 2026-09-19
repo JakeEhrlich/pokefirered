@@ -1,0 +1,9 @@
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 216 HP / 252 SAtk / 40 Spd
+IVs: 30 HP / 30 SAtk
+Modest Nature (+SAtk, -Atk)
+- Hidden Power [Grass]
+- Thunderbolt
+- Rest
+- Sleep Talk

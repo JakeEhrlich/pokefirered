@@ -1,0 +1,57 @@
+Octillery @ Leftovers  
+Ability: Suction Cups  
+EVs: 172 HP / 252 SpA / 84 Spe  
+Modest Nature  
+- Surf  
+- Fire Blast  
+- Hidden Power [Electric]  
+- Thunder Wave  
+
+Bellossom @ Leftovers  
+Ability: Chlorophyll  
+EVs: 248 HP / 240 Def / 20 Spe  
+Bold Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Hidden Power [Fire]  
+- Giga Drain  
+- Stun Spore  
+- Moonlight  
+
+Metang @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 28 Def / 228 SpD  
+Impish Nature  
+- Meteor Mash  
+- Earthquake  
+- Toxic  
+- Protect  
+
+Wailord @ Leftovers  
+Ability: Water Veil  
+EVs: 96 HP / 252 SpA / 104 SpD / 56 Spe  
+Modest Nature  
+IVs: 3 Atk / 30 SpA  
+- Hydro Pump  
+- Ice Beam  
+- Hidden Power [Electric]  
+- Substitute  
+
+Chimecho @ Leftovers  
+Ability: Levitate  
+EVs: 248 HP / 112 Def / 96 SpA / 52 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Calm Mind  
+- Psychic  
+- Hidden Power [Fire]  
+- Heal Bell  
+
+Hitmonchan (M) @ Leftovers  
+Ability: Keen Eye  
+EVs: 192 HP / 252 Atk / 64 Spe  
+Adamant Nature  
+- Bulk Up  
+- Sky Uppercut  
+- Hidden Power [Ghost]  
+- Mach Punch  
+

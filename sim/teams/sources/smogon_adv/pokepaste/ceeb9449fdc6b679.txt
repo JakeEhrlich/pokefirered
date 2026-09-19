@@ -1,0 +1,57 @@
+Kangaskhan (F) @ Leftovers  
+Ability: Early Bird  
+EVs: 252 HP / 24 Def / 216 SpD / 16 Spe  
+Careful Nature  
+- Body Slam  
+- Earthquake  
+- Wish  
+- Rest  
+
+Girafarig @ Leftovers  
+Ability: Early Bird  
+EVs: 196 HP / 252 Def / 60 SpA  
+Bold Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Psychic  
+- Rest  
+- Agility  
+
+Arcanine @ Leftovers  
+Ability: Intimidate  
+EVs: 72 HP / 144 Atk / 4 Def / 180 SpA / 108 Spe  
+Naughty Nature  
+- Fire Blast  
+- Crunch  
+- Hidden Power [Ground]  
+- Extreme Speed  
+
+Ampharos @ Leftovers  
+Ability: Static  
+EVs: 252 HP / 92 Def / 76 SpA / 88 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 Def  
+- Heal Bell  
+- Thunder Wave  
+- Thunderbolt  
+- Hidden Power [Ice]  
+
+Gligar @ Leftovers  
+Ability: Hyper Cutter  
+EVs: 248 Atk / 8 SpD / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Hidden Power [Flying]  
+- Iron Tail  
+- Swords Dance  
+
+Omastar  
+Ability: Shell Armor  
+EVs: 248 HP / 176 Def / 64 SpA / 20 Spe  
+Modest Nature  
+IVs: 3 Atk / 30 SpA  
+- Spikes  
+- Surf  
+- Hidden Power [Electric]  
+- Thief  
+

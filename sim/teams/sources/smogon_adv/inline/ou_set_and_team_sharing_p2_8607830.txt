@@ -1,0 +1,100 @@
+Hey ADV-ers! I wanted to share few creative sets i toyed around over last couple of months that gave me advantange in some game and are loads of fun to play with! I'll probably go into too much detail so bear with me :D
+
+SpDef No HP Venusaur (Gacusaur xd)
+
+Venusaur @ Leftovers
+Ability: Overgrow
+EVs: 60 Def / 252 SpD / 196 Spe
+Calm Nature
+IVs: 0 Atk
+- Leech Seed
+- Roar
+- Giga Drain
+- Sleep Powder
+
+I'm a big Venusaur fanboy, probably as much as UD or eden. It is just superior grass mon with access to sleep (yeah i never got on the Loom train). However i was never fully satisfied with its offensive sets. They just seriously lacked in power and bulk, not to mention once they got statused they were practicaly worthless.
+
+I got the idea for Roar Venu from Cowboy Dan, Sleep + Leech Seed forces so many switches, so why not capitalize on it by roaring and repeating the process of Leech and Roar. Obviously for this to work you need Spikes down, so it is really not splashable on many teams. However even the small increments of damage add up and make life easier for a sweeper like Aero in the back.
+
+Best way to use is with Spiker (all 3 work) + Pursuit (Tar or Umbreon even) and a Mag/Spinner to deal with opposing spikes.
+Venusaur has one usefull niche, and it is that it walls Mono Waters all day long by being immune to Toxic. It excels vs fat, do nothing teams since it scares off all 3 spinners (untill Forry notices lack of HP Fire), it's lack of HP investment (think of it as Dusclops using Pain Split or SubSeeding Sceptile) means you gets tremendous recovery from the likes of Bliss (more then you take from Ice Beam) and with max SpDef investment allows you to fill the roll of Special wall on the kind of teams that can't afford Blissey or Lax. I opted for Giga Drain over HP Grass/Razor Leaf because w/o significant SpA investment you won't be hurting stuff anyway, and recovery is more usefull here.
+
+Speed is set to outspeed max speed Tyranitar (you LS the lead one and if it is UDTar with Lum you can 1 vs 1 it). Generally you want to LS all leads to not allow your opp to choose their sleep sack, exception are Metagross which you try to sleep, and you switch out of Mence. SubZap/Jolt can Sub on you but you Roar them so no need for that weak Sludge Bomb. Rest of EV'sare simply put into Defense since it's really frail on the physical side. You can try other spreads hitting various benchmarks like always KO'ing Dug after single spike but imo it's generally not worth it. There is probably some of you that could optimise these EV's but i didn't bother with them too much.
+
+Again, as any set, this one ain't w/o its flaws. Para hurts him, phys attack sting as hell and becomes less effective when suprise factor is out of the gate. However biggest problem is the 75% Sleep accuracy :(
+
+This is the team i found this set to be most effective on (it has fallen a bit out of favour with certain metagame changes, and it always had it's problems like facing Moltres or MixMence). I've been giving it away to fellow Venusaur aficionados and got postive feedback :)
+It does resemble BKC's team with Celebi over Venu, however this was not intentional, but SkarmMag as a playstyle is really constrictive to build around.
+
+Team Importable
+
+And here are some replays with various mu's, altough there are some great ones missing so i might give it a closer look since i did got 3 times to 1500 using solely this team. I apologize if i shared a replay someone doesn't want to be public, pm me and i'll remove it. Altough to be fair this was 5 months ago, and I run a Forry version of this team now which is more suitable to todays meta, I still think this team is potent in the right hands and a blast to play so hf with it!
+
+vs MiloDol Stall
+vs Offensive TSS
+vs Triple Trap CuneLax
+vs SkarmMag
+vs BKC SkarmMag team
+vs Offensive TSS
+vs Bulky TSS
+vs Double Trap CM Pass
+
+EndSalac Rachi (GacuRachi xd)
+
+Jirachi @ Salac Berry
+Ability: Serene Grace
+EVs: 100 HP / 252 SpA / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Endure
+- Ice Punch
+- Thunder
+- Rain Dance
+
+Not gonna lie, the EndSalac idea came to me just few days ago but i am already enamored with this set
+I think Endure (as on any Sand immune mon) has potential over CM with both Petaya and Salac Berry on Superachi sets too. I used it on Rain team along with SubKingdra set and SubSalacHera which have great synergy (team down below!), one cleaning Offense and other breaking through Stall respectively.
+
+Firstly i used Dynamic Punch over Endure since i badly i wanted to hurt both Bliss and Tar which are prime targets for Rain team. It kind of worked, around 50% of time :/ Set had Leftovers and Timid max speed so i can Ice Punch those pesky Dragons (especially MixMence since that is the only mon in entire game that can hit Kingdra for SE Damage).
+
+100% accurate Thunder in Rain is self explanatory, and Serene Grace doubled Para chance (60%) allows sweepers to set up subs more easily.
+However having all of Speed, Spa and Att w/o any bulk wasn't good enough for me so i came up with somewhat meme idea and put Water Pulse over DP to get that ParaFusion going. Thing is it didn't work well, and damage even in rain on Tar wasn't enough.
+
+Then it came to me, Endure as an assurance i get that Rain going vs everything (speed investment with Salac outruns every mon bar Ninjask).
+
+Saying goes in ADV that there is always a Rachi set that can seriously hurt every team, so you'll prob get milleage out of this one just on pure suprise factor alone. I am currently testing afformentioned different EndSalac sets, and for now they show promising results. I think this set is here to stay, in one form or another and I encourage all of you to give it a chance in your teambuilder.
+
+Substitute Kingdra
+
+Kingdra @ Leftovers
+
+Ability: Swift Swim
+EVs: 100 HP / 252 SpA / 156 Spe
+Modest Nature
+IVs: 0 Atk
+- Substitute
+- Ice Beam
+- Hydro Pump
+- Rain Dance
+
+This is a minor but very important change on standard Kingdra set. Since it needs only 3 moves to be effective and the last move can be literaly anything i innitialy opted for Protect. S/o to Sadlysius as fellow Rain enthusiast (check his Rain Guide for more detail how to wield this type of teams in ADV).
+
+As an avid JoltSpikesStack teams user i know the full potency of Kingdra (and it's Mexican friend) since your best answer is usually booming on them with your Gar, Gross or Cloy or trying to status it by Fear/AstaRachi or Skarm.
+
+After giving it some thought I realised I can achieve the same thing with Sub, which also blocks status from afformentioned mons and other Waters while simultaneously getting Leftovers recovery with sand removed (other items are also an option, i.e. Lum Berry or Mystic Water).
+Milo is a problematic one, but it will never break your Sub and you can Freeze it to get Hera in and set up freely.
+As i said those two mons have great synergy, removing Sand for Hera means you can even run EndReversal sets (which i am not fan of tbh and i think they are better reserved for sand immune mon i.e. Scizzor or Rhydon.)
+
+Give it a try yourself and enjoy opponent clicking that X button as soon as it blows into your Sub :D
+
+Team may not be perfect since you don't have immediate lead Tar switch in so you are in conundrum of going BP while it may RS, blindly EQ or IB and kill your Dug, you also don't have good FP switch in :/ There is also a lot of pressure on Dug since it needs to kill both Tar and opposing Special Wall (Bliss, Celebi) for Kingdra to maximise it's potential.
+Btw this is the kind of team vapicuno ment to use Beat up Dug on because you have good average Att stat on your mons.
+Lax also wants to boom on both Tar and Skarm, while still checking special threats and dealing with Gar (chipping it for Hera RS). Team can probably be optimized but I leave that to better builders then me, in meantime HF with it!
+
+Team Importable
+
+I used both of this mons on different teams, but this one features both and i had great succes with it both in tours and ladder. Here are some replays, and again I apologize if i shared a replay someone doesn't want to be public, pm me and i'll remove it.
+
+vs Offense
+vs JoltSpikesStack
+vs SandVeil
+

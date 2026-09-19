@@ -1,0 +1,1400 @@
+=== [gen3zu] Ponyta + top teammates ===
+
+Ponyta @ Silk Scarf
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Hasty Nature
+- Fire Blast
+- Quick Attack
+- Double-Edge
+- Hidden Power Ground
+
+Seaking @ Lum Berry
+Ability: Swift Swim
+EVs: 136 HP / 252 SpA / 120 Spe
+Modest Nature
+- Hydro Pump
+- Hidden Power Grass
+- Ice Beam
+- Rain Dance
+
+Mightyena @ Leftovers
+Ability: Intimidate
+EVs: 76 HP / 252 Atk / 180 Spe
+Jolly Nature
+- Heal Bell
+- Hidden Power Fighting
+- Howl
+- Return
+
+Beedrill @ Salac Berry
+Ability: Swarm
+EVs: 4 HP / 244 Atk / 112 Def / 148 Spe
+Adamant Nature
+- Swords Dance
+- Hidden Power Bug
+- Substitute
+- Sludge Bomb
+
+Gloom @ Leftovers
+Ability: Chlorophyll
+EVs: 252 HP / 252 SpD / 4 Spe
+Calm Nature
+- Sludge Bomb
+- Hidden Power Grass
+- Moonlight
+- Stun Spore
+
+Koffing @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 4 Atk / 252 Def
+Relaxed Nature
+- Sludge Bomb
+- Flamethrower
+- Explosion
+- Hidden Power Water
+
+=== [gen3zu] Mightyena + top teammates ===
+
+Mightyena @ Leftovers
+Ability: Intimidate
+EVs: 76 HP / 252 Atk / 180 Spe
+Jolly Nature
+- Heal Bell
+- Hidden Power Fighting
+- Howl
+- Return
+
+Ponyta @ Silk Scarf
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Hasty Nature
+- Fire Blast
+- Quick Attack
+- Double-Edge
+- Hidden Power Ground
+
+Seaking @ Lum Berry
+Ability: Swift Swim
+EVs: 136 HP / 252 SpA / 120 Spe
+Modest Nature
+- Hydro Pump
+- Hidden Power Grass
+- Ice Beam
+- Rain Dance
+
+Gloom @ Leftovers
+Ability: Chlorophyll
+EVs: 252 HP / 252 SpD / 4 Spe
+Calm Nature
+- Sludge Bomb
+- Hidden Power Grass
+- Moonlight
+- Stun Spore
+
+Beedrill @ Salac Berry
+Ability: Swarm
+EVs: 4 HP / 244 Atk / 112 Def / 148 Spe
+Adamant Nature
+- Swords Dance
+- Hidden Power Bug
+- Substitute
+- Sludge Bomb
+
+Wailmer @ Salac Berry
+Ability: Water Veil
+EVs: 40 Atk / 164 SpA / 128 SpD / 176 Spe
+Hasty Nature
+- Self-Destruct
+- Earthquake
+- Hydro Pump
+- Endure
+
+=== [gen3zu] Gloom + top teammates ===
+
+Gloom @ Leftovers
+Ability: Chlorophyll
+EVs: 252 HP / 252 SpD / 4 Spe
+Calm Nature
+- Sludge Bomb
+- Hidden Power Grass
+- Moonlight
+- Stun Spore
+
+Ponyta @ Silk Scarf
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Hasty Nature
+- Fire Blast
+- Quick Attack
+- Double-Edge
+- Hidden Power Ground
+
+Mightyena @ Leftovers
+Ability: Intimidate
+EVs: 76 HP / 252 Atk / 180 Spe
+Jolly Nature
+- Heal Bell
+- Hidden Power Fighting
+- Howl
+- Return
+
+Seaking @ Lum Berry
+Ability: Swift Swim
+EVs: 136 HP / 252 SpA / 120 Spe
+Modest Nature
+- Hydro Pump
+- Hidden Power Grass
+- Ice Beam
+- Rain Dance
+
+Porygon @ Leftovers
+Ability: Trace
+EVs: 252 HP / 4 SpA / 252 SpD
+Calm Nature
+- Recover
+- Thunder Wave
+- Ice Beam
+- Thunderbolt
+
+Onix @ Leftovers
+Ability: Rock Head
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Explosion
+- Rock Slide
+- Substitute
+
+=== [gen3zu] Clamperl + top teammates ===
+
+Clamperl @ Deep Sea Tooth
+Ability: Shell Armor
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Surf
+- Ice Beam
+- Hidden Power Grass
+- Substitute
+
+Ponyta @ Silk Scarf
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Hasty Nature
+- Fire Blast
+- Quick Attack
+- Double-Edge
+- Hidden Power Ground
+
+Castform @ Nothing
+Ability: Forecast
+EVs: 152 HP / 244 Atk / 52 SpD / 60 Spe
+Adamant Nature
+- Hidden Power Grass
+- Thunder Wave
+- Return
+- Thief
+
+Koffing @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 4 Atk / 252 Def
+Relaxed Nature
+- Sludge Bomb
+- Flamethrower
+- Explosion
+- Hidden Power Water
+
+Elekid @ Petaya Berry
+Ability: Static
+EVs: 252 SpA / 4 SpD / 252 Spe
+Hasty Nature
+- Thunderbolt
+- Substitute
+- Ice Punch
+- Hidden Power Grass
+
+Treecko @ Petaya Berry
+Ability: Overgrow
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Endeavor
+- Substitute
+- Giga Drain
+- Hidden Power Fire
+
+=== [gen3zu] Beedrill + top teammates ===
+
+Beedrill @ Salac Berry
+Ability: Swarm
+EVs: 4 HP / 244 Atk / 112 Def / 148 Spe
+Adamant Nature
+- Swords Dance
+- Hidden Power Bug
+- Substitute
+- Sludge Bomb
+
+Ponyta @ Silk Scarf
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Hasty Nature
+- Fire Blast
+- Quick Attack
+- Double-Edge
+- Hidden Power Ground
+
+Seaking @ Lum Berry
+Ability: Swift Swim
+EVs: 136 HP / 252 SpA / 120 Spe
+Modest Nature
+- Hydro Pump
+- Hidden Power Grass
+- Ice Beam
+- Rain Dance
+
+Wailmer @ Salac Berry
+Ability: Water Veil
+EVs: 40 Atk / 164 SpA / 128 SpD / 176 Spe
+Hasty Nature
+- Self-Destruct
+- Earthquake
+- Hydro Pump
+- Endure
+
+Mightyena @ Leftovers
+Ability: Intimidate
+EVs: 76 HP / 252 Atk / 180 Spe
+Jolly Nature
+- Heal Bell
+- Hidden Power Fighting
+- Howl
+- Return
+
+Geodude @ Leftovers
+Ability: Rock Head
+EVs: 252 HP / 28 Atk / 96 Def / 132 Spe
+Impish Nature
+- Earthquake
+- Rock Blast
+- Substitute
+- Explosion
+
+=== [gen3zu] Porygon + top teammates ===
+
+Porygon @ Leftovers
+Ability: Trace
+EVs: 252 HP / 4 SpA / 252 SpD
+Calm Nature
+- Recover
+- Thunder Wave
+- Ice Beam
+- Thunderbolt
+
+Seaking @ Lum Berry
+Ability: Swift Swim
+EVs: 136 HP / 252 SpA / 120 Spe
+Modest Nature
+- Hydro Pump
+- Hidden Power Grass
+- Ice Beam
+- Rain Dance
+
+Gloom @ Leftovers
+Ability: Chlorophyll
+EVs: 252 HP / 252 SpD / 4 Spe
+Calm Nature
+- Sludge Bomb
+- Hidden Power Grass
+- Moonlight
+- Stun Spore
+
+Mightyena @ Leftovers
+Ability: Intimidate
+EVs: 76 HP / 252 Atk / 180 Spe
+Jolly Nature
+- Heal Bell
+- Hidden Power Fighting
+- Howl
+- Return
+
+Clamperl @ Deep Sea Tooth
+Ability: Shell Armor
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Surf
+- Ice Beam
+- Hidden Power Grass
+- Substitute
+
+Anorith @ Salac Berry
+Ability: Battle Armor
+EVs: 4 HP / 252 Atk / 108 SpD / 144 Spe
+Adamant Nature
+- Rock Slide
+- Brick Break
+- Swords Dance
+- Substitute
+
+=== [gen3zu] Koffing + top teammates ===
+
+Koffing @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 4 Atk / 252 Def
+Relaxed Nature
+- Sludge Bomb
+- Flamethrower
+- Explosion
+- Hidden Power Water
+
+Ponyta @ Silk Scarf
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Hasty Nature
+- Fire Blast
+- Quick Attack
+- Double-Edge
+- Hidden Power Ground
+
+Clamperl @ Deep Sea Tooth
+Ability: Shell Armor
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Surf
+- Ice Beam
+- Hidden Power Grass
+- Substitute
+
+Castform @ Nothing
+Ability: Forecast
+EVs: 152 HP / 244 Atk / 52 SpD / 60 Spe
+Adamant Nature
+- Hidden Power Grass
+- Thunder Wave
+- Return
+- Thief
+
+Elekid @ Petaya Berry
+Ability: Static
+EVs: 252 SpA / 4 SpD / 252 Spe
+Hasty Nature
+- Thunderbolt
+- Substitute
+- Ice Punch
+- Hidden Power Grass
+
+Mightyena @ Leftovers
+Ability: Intimidate
+EVs: 76 HP / 252 Atk / 180 Spe
+Jolly Nature
+- Heal Bell
+- Hidden Power Fighting
+- Howl
+- Return
+
+=== [gen3zu] Anorith + top teammates ===
+
+Anorith @ Salac Berry
+Ability: Battle Armor
+EVs: 4 HP / 252 Atk / 108 SpD / 144 Spe
+Adamant Nature
+- Rock Slide
+- Brick Break
+- Swords Dance
+- Substitute
+
+Ponyta @ Silk Scarf
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Hasty Nature
+- Fire Blast
+- Quick Attack
+- Double-Edge
+- Hidden Power Ground
+
+Mightyena @ Leftovers
+Ability: Intimidate
+EVs: 76 HP / 252 Atk / 180 Spe
+Jolly Nature
+- Heal Bell
+- Hidden Power Fighting
+- Howl
+- Return
+
+Seaking @ Lum Berry
+Ability: Swift Swim
+EVs: 136 HP / 252 SpA / 120 Spe
+Modest Nature
+- Hydro Pump
+- Hidden Power Grass
+- Ice Beam
+- Rain Dance
+
+Porygon @ Leftovers
+Ability: Trace
+EVs: 252 HP / 4 SpA / 252 SpD
+Calm Nature
+- Recover
+- Thunder Wave
+- Ice Beam
+- Thunderbolt
+
+Beedrill @ Salac Berry
+Ability: Swarm
+EVs: 4 HP / 244 Atk / 112 Def / 148 Spe
+Adamant Nature
+- Swords Dance
+- Hidden Power Bug
+- Substitute
+- Sludge Bomb
+
+=== [gen3zu] Ariados + top teammates ===
+
+Ariados @ Leftovers
+Ability: Swarm
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+- Sludge Bomb
+- Baton Pass
+- Signal Beam
+- Psychic
+
+Ponyta @ Silk Scarf
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Hasty Nature
+- Fire Blast
+- Quick Attack
+- Double-Edge
+- Hidden Power Ground
+
+Seaking @ Lum Berry
+Ability: Swift Swim
+EVs: 136 HP / 252 SpA / 120 Spe
+Modest Nature
+- Hydro Pump
+- Hidden Power Grass
+- Ice Beam
+- Rain Dance
+
+Mightyena @ Leftovers
+Ability: Intimidate
+EVs: 76 HP / 252 Atk / 180 Spe
+Jolly Nature
+- Heal Bell
+- Hidden Power Fighting
+- Howl
+- Return
+
+Abra @ Petaya Berry
+Ability: Synchronize
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Psychic
+- Calm Mind
+- Hidden Power Grass
+- Encore
+
+Snorunt @ Salac Berry
+Ability: Inner Focus
+EVs: 168 SpA / 112 SpD / 228 Spe
+Timid Nature
+- Spikes
+- Ice Beam
+- Endure
+- Hidden Power Grass
+
+=== [gen3zu] Abra + top teammates ===
+
+Abra @ Petaya Berry
+Ability: Synchronize
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Psychic
+- Calm Mind
+- Hidden Power Grass
+- Encore
+
+Mightyena @ Leftovers
+Ability: Intimidate
+EVs: 76 HP / 252 Atk / 180 Spe
+Jolly Nature
+- Heal Bell
+- Hidden Power Fighting
+- Howl
+- Return
+
+Ponyta @ Silk Scarf
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Hasty Nature
+- Fire Blast
+- Quick Attack
+- Double-Edge
+- Hidden Power Ground
+
+Clamperl @ Deep Sea Tooth
+Ability: Shell Armor
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Surf
+- Ice Beam
+- Hidden Power Grass
+- Substitute
+
+Ariados @ Leftovers
+Ability: Swarm
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+- Sludge Bomb
+- Baton Pass
+- Signal Beam
+- Psychic
+
+Seaking @ Lum Berry
+Ability: Swift Swim
+EVs: 136 HP / 252 SpA / 120 Spe
+Modest Nature
+- Hydro Pump
+- Hidden Power Grass
+- Ice Beam
+- Rain Dance
+
+=== [gen3zu] Onix + top teammates ===
+
+Onix @ Leftovers
+Ability: Rock Head
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Explosion
+- Rock Slide
+- Substitute
+
+Gloom @ Leftovers
+Ability: Chlorophyll
+EVs: 252 HP / 252 SpD / 4 Spe
+Calm Nature
+- Sludge Bomb
+- Hidden Power Grass
+- Moonlight
+- Stun Spore
+
+Mightyena @ Leftovers
+Ability: Intimidate
+EVs: 76 HP / 252 Atk / 180 Spe
+Jolly Nature
+- Heal Bell
+- Hidden Power Fighting
+- Howl
+- Return
+
+Ponyta @ Silk Scarf
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Hasty Nature
+- Fire Blast
+- Quick Attack
+- Double-Edge
+- Hidden Power Ground
+
+Seaking @ Lum Berry
+Ability: Swift Swim
+EVs: 136 HP / 252 SpA / 120 Spe
+Modest Nature
+- Hydro Pump
+- Hidden Power Grass
+- Ice Beam
+- Rain Dance
+
+Doduo @ Choice Band
+Ability: Early Bird
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Quick Attack
+- Drill Peck
+- Double-Edge
+- Hidden Power Ground
+
+=== [gen3zu] Quilava + top teammates ===
+
+Quilava @ Leftovers
+Ability: Blaze
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Substitute
+- Fire Blast
+- Hidden Power Grass
+- Toxic
+
+Seaking @ Lum Berry
+Ability: Swift Swim
+EVs: 136 HP / 252 SpA / 120 Spe
+Modest Nature
+- Hydro Pump
+- Hidden Power Grass
+- Ice Beam
+- Rain Dance
+
+Gloom @ Leftovers
+Ability: Chlorophyll
+EVs: 252 HP / 252 SpD / 4 Spe
+Calm Nature
+- Sludge Bomb
+- Hidden Power Grass
+- Moonlight
+- Stun Spore
+
+Ponyta @ Silk Scarf
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Hasty Nature
+- Fire Blast
+- Quick Attack
+- Double-Edge
+- Hidden Power Ground
+
+Mightyena @ Leftovers
+Ability: Intimidate
+EVs: 76 HP / 252 Atk / 180 Spe
+Jolly Nature
+- Heal Bell
+- Hidden Power Fighting
+- Howl
+- Return
+
+Clamperl @ Deep Sea Tooth
+Ability: Shell Armor
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Surf
+- Ice Beam
+- Hidden Power Grass
+- Substitute
+
+=== [gen3zu] Doduo + top teammates ===
+
+Doduo @ Choice Band
+Ability: Early Bird
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Quick Attack
+- Drill Peck
+- Double-Edge
+- Hidden Power Ground
+
+Gloom @ Leftovers
+Ability: Chlorophyll
+EVs: 252 HP / 252 SpD / 4 Spe
+Calm Nature
+- Sludge Bomb
+- Hidden Power Grass
+- Moonlight
+- Stun Spore
+
+Mightyena @ Leftovers
+Ability: Intimidate
+EVs: 76 HP / 252 Atk / 180 Spe
+Jolly Nature
+- Heal Bell
+- Hidden Power Fighting
+- Howl
+- Return
+
+Porygon @ Leftovers
+Ability: Trace
+EVs: 252 HP / 4 SpA / 252 SpD
+Calm Nature
+- Recover
+- Thunder Wave
+- Ice Beam
+- Thunderbolt
+
+Ponyta @ Silk Scarf
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Hasty Nature
+- Fire Blast
+- Quick Attack
+- Double-Edge
+- Hidden Power Ground
+
+Onix @ Leftovers
+Ability: Rock Head
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Explosion
+- Rock Slide
+- Substitute
+
+=== [gen3zu] Rhyhorn + top teammates ===
+
+Rhyhorn @ Leftovers
+Ability: Rock Head
+EVs: 112 HP / 252 Atk / 4 SpD / 140 Spe
+Adamant Nature
+- Earthquake
+- Megahorn
+- Rock Blast
+- Rock Slide
+
+Seaking @ Lum Berry
+Ability: Swift Swim
+EVs: 136 HP / 252 SpA / 120 Spe
+Modest Nature
+- Hydro Pump
+- Hidden Power Grass
+- Ice Beam
+- Rain Dance
+
+Gloom @ Leftovers
+Ability: Chlorophyll
+EVs: 252 HP / 252 SpD / 4 Spe
+Calm Nature
+- Sludge Bomb
+- Hidden Power Grass
+- Moonlight
+- Stun Spore
+
+Ponyta @ Silk Scarf
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Hasty Nature
+- Fire Blast
+- Quick Attack
+- Double-Edge
+- Hidden Power Ground
+
+Mightyena @ Leftovers
+Ability: Intimidate
+EVs: 76 HP / 252 Atk / 180 Spe
+Jolly Nature
+- Heal Bell
+- Hidden Power Fighting
+- Howl
+- Return
+
+Porygon @ Leftovers
+Ability: Trace
+EVs: 252 HP / 4 SpA / 252 SpD
+Calm Nature
+- Recover
+- Thunder Wave
+- Ice Beam
+- Thunderbolt
+
+=== [gen3zu] Corsola + top teammates ===
+
+Corsola @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 240 Def / 16 Spe
+Bold Nature
+- Recover
+- Surf
+- Calm Mind
+- Ice Beam
+
+Ponyta @ Silk Scarf
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Hasty Nature
+- Fire Blast
+- Quick Attack
+- Double-Edge
+- Hidden Power Ground
+
+Mightyena @ Leftovers
+Ability: Intimidate
+EVs: 76 HP / 252 Atk / 180 Spe
+Jolly Nature
+- Heal Bell
+- Hidden Power Fighting
+- Howl
+- Return
+
+Snorunt @ Salac Berry
+Ability: Inner Focus
+EVs: 168 SpA / 112 SpD / 228 Spe
+Timid Nature
+- Spikes
+- Ice Beam
+- Endure
+- Hidden Power Grass
+
+Sunflora @ Leftovers
+Ability: Chlorophyll
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+- Hidden Power Fire
+- Synthesis
+- Leech Seed
+- Razor Leaf
+
+Ariados @ Leftovers
+Ability: Swarm
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+- Sludge Bomb
+- Baton Pass
+- Signal Beam
+- Psychic
+
+=== [gen3zu] Tropius + top teammates ===
+
+Tropius @ Leftovers
+Ability: Chlorophyll
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Earthquake
+- Hidden Power Flying
+- Swords Dance
+- Sunny Day
+
+Ponyta @ Silk Scarf
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Hasty Nature
+- Fire Blast
+- Quick Attack
+- Double-Edge
+- Hidden Power Ground
+
+Mightyena @ Leftovers
+Ability: Intimidate
+EVs: 76 HP / 252 Atk / 180 Spe
+Jolly Nature
+- Heal Bell
+- Hidden Power Fighting
+- Howl
+- Return
+
+Seaking @ Lum Berry
+Ability: Swift Swim
+EVs: 136 HP / 252 SpA / 120 Spe
+Modest Nature
+- Hydro Pump
+- Hidden Power Grass
+- Ice Beam
+- Rain Dance
+
+Gloom @ Leftovers
+Ability: Chlorophyll
+EVs: 252 HP / 252 SpD / 4 Spe
+Calm Nature
+- Sludge Bomb
+- Hidden Power Grass
+- Moonlight
+- Stun Spore
+
+Quilava @ Leftovers
+Ability: Blaze
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Substitute
+- Fire Blast
+- Hidden Power Grass
+- Toxic
+
+=== [gen3zu] Voltorb + top teammates ===
+
+Voltorb @ Petaya Berry
+Ability: Static
+EVs: 4 Atk / 252 SpA / 252 Spe
+Hasty Nature
+- Explosion
+- Thunderbolt
+- Substitute
+- Hidden Power Ice
+
+Beedrill @ Salac Berry
+Ability: Swarm
+EVs: 4 HP / 244 Atk / 112 Def / 148 Spe
+Adamant Nature
+- Swords Dance
+- Hidden Power Bug
+- Substitute
+- Sludge Bomb
+
+Wailmer @ Salac Berry
+Ability: Water Veil
+EVs: 40 Atk / 164 SpA / 128 SpD / 176 Spe
+Hasty Nature
+- Self-Destruct
+- Earthquake
+- Hydro Pump
+- Endure
+
+Anorith @ Salac Berry
+Ability: Battle Armor
+EVs: 4 HP / 252 Atk / 108 SpD / 144 Spe
+Adamant Nature
+- Rock Slide
+- Brick Break
+- Swords Dance
+- Substitute
+
+Porygon @ Leftovers
+Ability: Trace
+EVs: 252 HP / 4 SpA / 252 SpD
+Calm Nature
+- Recover
+- Thunder Wave
+- Ice Beam
+- Thunderbolt
+
+Elekid @ Petaya Berry
+Ability: Static
+EVs: 252 SpA / 4 SpD / 252 Spe
+Hasty Nature
+- Thunderbolt
+- Substitute
+- Ice Punch
+- Hidden Power Grass
+
+=== [gen3zu] Snorunt + top teammates ===
+
+Snorunt @ Salac Berry
+Ability: Inner Focus
+EVs: 168 SpA / 112 SpD / 228 Spe
+Timid Nature
+- Spikes
+- Ice Beam
+- Endure
+- Hidden Power Grass
+
+Ponyta @ Silk Scarf
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Hasty Nature
+- Fire Blast
+- Quick Attack
+- Double-Edge
+- Hidden Power Ground
+
+Corsola @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 240 Def / 16 Spe
+Bold Nature
+- Recover
+- Surf
+- Calm Mind
+- Ice Beam
+
+Ariados @ Leftovers
+Ability: Swarm
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+- Sludge Bomb
+- Baton Pass
+- Signal Beam
+- Psychic
+
+Sunflora @ Leftovers
+Ability: Chlorophyll
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+- Hidden Power Fire
+- Synthesis
+- Leech Seed
+- Razor Leaf
+
+Abra @ Petaya Berry
+Ability: Synchronize
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Psychic
+- Calm Mind
+- Hidden Power Grass
+- Encore
+
+=== [gen3zu] Flaaffy + top teammates ===
+
+Flaaffy @ Leftovers
+Ability: Static
+EVs: 36 HP / 252 SpA / 4 SpD / 216 Spe
+Modest Nature
+- Thunderbolt
+- Fire Punch
+- Thunder Wave
+- Heal Bell
+
+Clamperl @ Deep Sea Tooth
+Ability: Shell Armor
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Surf
+- Ice Beam
+- Hidden Power Grass
+- Substitute
+
+Anorith @ Salac Berry
+Ability: Battle Armor
+EVs: 4 HP / 252 Atk / 108 SpD / 144 Spe
+Adamant Nature
+- Rock Slide
+- Brick Break
+- Swords Dance
+- Substitute
+
+Ponyta @ Silk Scarf
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Hasty Nature
+- Fire Blast
+- Quick Attack
+- Double-Edge
+- Hidden Power Ground
+
+Mightyena @ Leftovers
+Ability: Intimidate
+EVs: 76 HP / 252 Atk / 180 Spe
+Jolly Nature
+- Heal Bell
+- Hidden Power Fighting
+- Howl
+- Return
+
+Koffing @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 4 Atk / 252 Def
+Relaxed Nature
+- Sludge Bomb
+- Flamethrower
+- Explosion
+- Hidden Power Water
+
+=== [gen3zu] Aipom + top teammates ===
+
+Aipom @ Choice Band
+Ability: Run Away
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Double-Edge
+- Brick Break
+- Return
+- Shadow Ball
+
+Ponyta @ Silk Scarf
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Hasty Nature
+- Fire Blast
+- Quick Attack
+- Double-Edge
+- Hidden Power Ground
+
+Mightyena @ Leftovers
+Ability: Intimidate
+EVs: 76 HP / 252 Atk / 180 Spe
+Jolly Nature
+- Heal Bell
+- Hidden Power Fighting
+- Howl
+- Return
+
+Gloom @ Leftovers
+Ability: Chlorophyll
+EVs: 252 HP / 252 SpD / 4 Spe
+Calm Nature
+- Sludge Bomb
+- Hidden Power Grass
+- Moonlight
+- Stun Spore
+
+Clamperl @ Deep Sea Tooth
+Ability: Shell Armor
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Surf
+- Ice Beam
+- Hidden Power Grass
+- Substitute
+
+Porygon @ Leftovers
+Ability: Trace
+EVs: 252 HP / 4 SpA / 252 SpD
+Calm Nature
+- Recover
+- Thunder Wave
+- Ice Beam
+- Thunderbolt
+
+=== [gen3zu] Chinchou + top teammates ===
+
+Chinchou @ Leftovers
+Ability: Volt Absorb
+EVs: 56 HP / 204 Def / 168 SpA / 80 Spe
+Bold Nature
+- Thunderbolt
+- Thunder Wave
+- Surf
+- Confuse Ray
+
+Clamperl @ Deep Sea Tooth
+Ability: Shell Armor
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Surf
+- Ice Beam
+- Hidden Power Grass
+- Substitute
+
+Porygon @ Leftovers
+Ability: Trace
+EVs: 252 HP / 4 SpA / 252 SpD
+Calm Nature
+- Recover
+- Thunder Wave
+- Ice Beam
+- Thunderbolt
+
+Rhyhorn @ Leftovers
+Ability: Rock Head
+EVs: 112 HP / 252 Atk / 4 SpD / 140 Spe
+Adamant Nature
+- Earthquake
+- Megahorn
+- Rock Blast
+- Rock Slide
+
+Quilava @ Leftovers
+Ability: Blaze
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Substitute
+- Fire Blast
+- Hidden Power Grass
+- Toxic
+
+Mightyena @ Leftovers
+Ability: Intimidate
+EVs: 76 HP / 252 Atk / 180 Spe
+Jolly Nature
+- Heal Bell
+- Hidden Power Fighting
+- Howl
+- Return
+
+=== [gen3zu] Wartortle + top teammates ===
+
+Wartortle @ Leftovers
+Ability: Torrent
+EVs: 252 HP / 120 Def / 136 SpA
+Bold Nature
+- Surf
+- Protect
+- Toxic
+- Refresh
+
+Delcatty @ Leftovers
+Ability: Cute Charm
+EVs: 252 HP / 240 SpD / 16 Spe
+Careful Nature
+- Wish
+- Protect
+- Body Slam
+- Heal Bell
+
+Abra @ Petaya Berry
+Ability: Synchronize
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Psychic
+- Calm Mind
+- Hidden Power Grass
+- Encore
+
+Ponyta @ Silk Scarf
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Hasty Nature
+- Fire Blast
+- Quick Attack
+- Double-Edge
+- Hidden Power Ground
+
+Gloom @ Leftovers
+Ability: Chlorophyll
+EVs: 252 HP / 252 SpD / 4 Spe
+Calm Nature
+- Sludge Bomb
+- Hidden Power Grass
+- Moonlight
+- Stun Spore
+
+Ariados @ Leftovers
+Ability: Swarm
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+- Sludge Bomb
+- Baton Pass
+- Signal Beam
+- Psychic
+
+=== [gen3zu] Sunflora + top teammates ===
+
+Sunflora @ Leftovers
+Ability: Chlorophyll
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+- Hidden Power Fire
+- Synthesis
+- Leech Seed
+- Razor Leaf
+
+Ponyta @ Silk Scarf
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Hasty Nature
+- Fire Blast
+- Quick Attack
+- Double-Edge
+- Hidden Power Ground
+
+Ariados @ Leftovers
+Ability: Swarm
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+- Sludge Bomb
+- Baton Pass
+- Signal Beam
+- Psychic
+
+Corsola @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 240 Def / 16 Spe
+Bold Nature
+- Recover
+- Surf
+- Calm Mind
+- Ice Beam
+
+Snorunt @ Salac Berry
+Ability: Inner Focus
+EVs: 168 SpA / 112 SpD / 228 Spe
+Timid Nature
+- Spikes
+- Ice Beam
+- Endure
+- Hidden Power Grass
+
+Elekid @ Petaya Berry
+Ability: Static
+EVs: 252 SpA / 4 SpD / 252 Spe
+Hasty Nature
+- Thunderbolt
+- Substitute
+- Ice Punch
+- Hidden Power Grass
+
+=== [gen3zu] Delcatty + top teammates ===
+
+Delcatty @ Leftovers
+Ability: Cute Charm
+EVs: 252 HP / 240 SpD / 16 Spe
+Careful Nature
+- Wish
+- Protect
+- Body Slam
+- Heal Bell
+
+Wartortle @ Leftovers
+Ability: Torrent
+EVs: 252 HP / 120 Def / 136 SpA
+Bold Nature
+- Surf
+- Protect
+- Toxic
+- Refresh
+
+Ariados @ Leftovers
+Ability: Swarm
+EVs: 252 HP / 252 Def / 4 SpD
+Relaxed Nature
+- Sludge Bomb
+- Baton Pass
+- Signal Beam
+- Psychic
+
+Clamperl @ Deep Sea Tooth
+Ability: Shell Armor
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Surf
+- Ice Beam
+- Hidden Power Grass
+- Substitute
+
+Abra @ Petaya Berry
+Ability: Synchronize
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Psychic
+- Calm Mind
+- Hidden Power Grass
+- Encore
+
+Geodude @ Leftovers
+Ability: Rock Head
+EVs: 252 HP / 28 Atk / 96 Def / 132 Spe
+Impish Nature
+- Earthquake
+- Rock Blast
+- Substitute
+- Explosion
+
+=== [gen3zu] Cubone + top teammates ===
+
+Cubone @ Thick Club
+Ability: Rock Head
+EVs: 196 HP / 252 Atk / 60 Spe
+Adamant Nature
+- Swords Dance
+- Double-Edge
+- Substitute
+- Bonemerang
+
+Ponyta @ Silk Scarf
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpA / 252 Spe
+Hasty Nature
+- Fire Blast
+- Quick Attack
+- Double-Edge
+- Hidden Power Ground
+
+Mightyena @ Leftovers
+Ability: Intimidate
+EVs: 76 HP / 252 Atk / 180 Spe
+Jolly Nature
+- Heal Bell
+- Hidden Power Fighting
+- Howl
+- Return
+
+Anorith @ Salac Berry
+Ability: Battle Armor
+EVs: 4 HP / 252 Atk / 108 SpD / 144 Spe
+Adamant Nature
+- Rock Slide
+- Brick Break
+- Swords Dance
+- Substitute
+
+Nidorina @ Nothing
+Ability: Poison Point
+EVs: 100 Def / 252 SpA / 156 Spe
+Modest Nature
+- Counter
+- Ice Beam
+- Thunderbolt
+- Thief
+
+Seaking @ Lum Berry
+Ability: Swift Swim
+EVs: 136 HP / 252 SpA / 120 Spe
+Modest Nature
+- Hydro Pump
+- Hidden Power Grass
+- Ice Beam
+- Rain Dance
+

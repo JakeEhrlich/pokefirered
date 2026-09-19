@@ -1,0 +1,56 @@
+Arcanine  
+Ability: Intimidate  
+EVs: 192 HP / 8 Atk / 252 SpA / 56 Spe  
+Rash Nature  
+- Thief  
+- Fire Blast  
+- Hidden Power [Electric]  
+- Extreme Speed  
+
+Kangaskhan (F) @ Leftovers  
+Ability: Early Bird  
+EVs: 216 HP / 216 Atk / 20 Def / 44 SpD / 12 Spe  
+Adamant Nature  
+- Earthquake  
+- Return  
+- Shadow Ball  
+- Rest  
+
+Golduck @ Lum Berry  
+Ability: Damp  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Surf  
+- Calm Mind  
+- Hidden Power [Grass]  
+- Psychic  
+
+Glalie @ Leftovers  
+Ability: Inner Focus  
+EVs: 248 HP / 124 Def / 136 SpD  
+Careful Nature  
+- Earthquake  
+- Toxic  
+- Explosion  
+- Spikes  
+
+Solrock @ Choice Band  
+Ability: Levitate  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Shadow Ball  
+- Rock Slide  
+- Earthquake  
+- Explosion  
+
+Gorebyss @ Lum Berry  
+Ability: Swift Swim  
+EVs: 96 HP / 252 SpA / 160 Spe  
+Modest Nature  
+IVs: 3 Atk / 30 SpA  
+- Surf  
+- Ice Beam  
+- Hidden Power [Electric]  
+- Rain Dance  
+

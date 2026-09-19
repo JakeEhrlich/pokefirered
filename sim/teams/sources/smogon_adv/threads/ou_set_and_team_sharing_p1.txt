@@ -1,0 +1,862 @@
+### post 8078691 author=thelinearcurve url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/#post-8078691
+Edit:
+Linear Share 2 (September 2020)
+Linear Share 3 (July 2021)
+some of this stuff doesn't age so well!
+
+To begin with, I'd like to showcase some sets:
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 184 HP / 192 Atk / 132 Spe
+Adamant Nature
+IVs: 30 SpD / 30 Spe
+- Focus Punch
+- Rock Slide
+- Earthquake
+- Hidden Power [Bug]
+
+Fits super well on many teams. Reasonable speed investment means that Tar is now outrunning much of the mixed and bulky clutter in the 160/170 region, while still retaining enough bulk to live Dug EQ. As long as it avoids toxic, it really bullies out Blissey and doesn't mind paralysis too much from opposing Twave Bliss/AstaRachi. With the right predictions Adamant FP chunks even its best checks, forces Milo recover etc.
+Other decent options: invest in slightly more HP to live hydro from offensive star, or invest in 8 more speed EVS to creep Pasy's Adamant Dol.
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 32 Atk / 224 SpA / 252 Spe
+Naive Nature
+IVs: 30 Def / 30 SpA
+- Fire Blast
+- Hidden Power [Grass]
+- Ice Beam
+- Brick Break
+
+This mixed lure is really hard to switch into with its great elemental coverage, and can often soften up the opposing team for an Aero/DDMence cleanup. Fits well on Spike teams as well as Spikeless Offence. Hitting 243 speed, it can guarantees outruns all Swampert, at least speed tie with opposing Tar, and outspeed most Metagross. You may also find yourself outrunning lazily EVed Jira/Cele/Zap.
+Other decent options: Lum Berry>Leftovers (although I've always found the passive recovery more useful than a onetime status heal. Great for shrugging off Gengar Will-O, or in the lead spot to counterlead sleepers); -def instead of -sp def (depends on team. I believe BKC & UD prefer -def. I think it's a bit of waste to get murdered by nonCB Flygon EQ and BB from Salamence because of the potential Ice coverage trade); Salac Berry>Leftovers for some spice on HO teams
+
+komodo (Metagross) @ Salac Berry
+Ability: Clear Body
+Shiny: Yes
+EVs: 168 HP / 128 Atk / 8 Def / 204 Spe
+Jolly Nature
+- Meteor Mash
+- Earthquake
+- Rock Slide
+- Explosion
+
+Oh my god this is one of my favourite Asta-Techs: Anti-Modern ADV! Unboosted, 249 guarantees outrunning Pert and Tar, and outruns almost all bulky threats (and making it harder to revenge trap with Magneton), helping Gross blow open a hole for Phys Spam. The bulk helps it live just about everything, activating Salac Berry and outspeeding everything outside of Jolt/Aero. Can be a devastating surprise endgame sweep itself, making use of Spikes! Another thing this set does is help prevent EndPert from murdering offence, since the Gross can switch in on an Endeavour/Torrent Hydro, then outspeed Pert. I feel like Endure sacrifices vital coverage and sort of wastes Metagross' fantastic bulk. The third move is interchangeable between Rock Slide, HP Grass (and changing nature to -sp def) or HP Bug to a lesser extent depending on whether the team wants Zapdos, Swampert or Celebi threatened more. HP Grass has great surprise value. For example, between Mag, Gross coverage + boom, opposing teams might not have anything left to fend off a Ttar/Mence/Aero sweep.
+
+DiznoNarrates (Zapdos) @ Leftovers
+Ability: Pressure
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 2 Atk / 30 SpA
+- Thunderbolt
+- Hidden Power [Grass]
+- Thunder Wave
+- Roar
+
+One of my absolute favs, and very viably slapped onto almost any Spike Abuse and Spikeless Offence team, and one of the best leads in the game. Max/Max means that you at least speed tie with opposing +Max base 100s, and usually outspeed the rest. This is huge for opposing Zapdos and MixMence, which can be very hard to pivot for Spikeless Offence teams. Twave is a handy catch all, especially for crippling WishTect Rachi and Jolteon. Roar rounds out the set beautifully disrupting CM and/or passes from Jirachi and Celebi, as well as other assorted ladder cheese. HP Ice is definitely very useful for massive damage on Flygon/Mence, as well as doing >0 damage on Celebi. When running ice, Zapdos can very easily bluff grass to force out Pert, and sometimes the real HP does not get revealed until the decisive endgame. For ladder I usually stick with Grass because most of the time ladderers seem to leave in their Pert against Zap.
+
+The Big Fat Kill (Snorlax) @ Leftovers
+Ability: Immunity
+EVs: 16 HP / 176 Atk / 120 Def / 160 SpD / 36 Spe
+Adamant Nature
+- Body Slam
+- Focus Punch/Earthquake
+- Shadow Ball
+- Self-Destruct
+The beauty in running 36 Speed EV is that you know you're always going to outspeed opposing Lax. Decided Camerupt (lol) would be the benchmark for me to not go overboard on investment. Sacrifices some bulk, but outside of extreme team dedication, Lax doesn't last that long anyway. Still enough Sp Def almost never be 3ko'ed by Modest Zap Tbolt/2ko'ed by +1 Modest Cune Hydro in sand. FP/EQ depending on how well the team handles Skarm, Metagross and Jirachi.
+
+Cloyster @ Leftovers
+Ability: Shell Armor
+EVs: 72 HP / 244 SpD / 192 Spe
+Timid Nature
+- Surf
+- Ice Beam
+- Explosion
+- Spikes
+
+I feel like this is Cloyster spread is also a big thing for modern ADV. Cloyster is well suited for PhysSpam or Spike Abuse teams due to its ability to spike on Bulky Waters, as well as a timely boom. I believe all Cloy should be fast. It gets worn down by Sand and Status anyway, so better to hit a speed tier good for the metagame. Hitting 246 speed means outspeeding all Tar and Pert (I'm starting to sound repetitive aren't I) and importantly almost all Rest Zapdos and Bulky Celebi, meaning it can spike+boom to quickly gain the initiative. HP Grass is an option over Ice Beam if the team really appreciates Swampert chip without needing to boom. The other EVs are spread such that Cloyster will always live a tbolt from timid Off Star.
+
+d3Rp1tY p3rT (Swampert) @ Leftovers
+Ability: Torrent
+EVs: 4 Atk / 252 SpA / 252 Spe
+Rash Nature
+- Hydro Pump
+- Ice Beam
+- Earthquake
+- Focus Punch
+
+YES YES! Defining Mon of modern ADV and one of my favourite sets. It's such great team glue. With Max Modest investment, Swamperts attack really sting. Skarmory does not appreciate taking ~50% hydros (omg seeing Skarm get crit ohko'ed by pump is one of the greatest feelings other than maybe Champ cross chop crit ohkoing Mence), and Sp Def Zap can no longer rest loop pressure/toxic stall. Celebi is also forced to recover more often. Focus Punch + EQ kills Blissey, which means Blissey is hardly a check! Focus Punch's PP also enables Pert to crit fish against resting cune more freely. 219 is a beautiful speed to hit, outrunning Marowak, most Tar/Meta/Pert/Milo/RestCune etc. and especially outspeeding AstaRachi is nice. As with all mixed threats, Milotic is one of the best answers to MixPert.
+
+Against speedcreep-weary opponents, an alternative spread of [EVs: 112 Def / 252 SpA / 144 Spe  ] may be preferable, since the defensive bulk really helps against Tar/Dug/Aero etc. although you no longer outrun uncommon but dangerous things like Machamp or Marowak.
+
+MixPert is a great mon but requires additional physical backbone support since no longer reliably checks Mence/Tar/Aero. E.g. Metagross and Jirachi are good partners for Pert.
+
+Askarmatitos (Skarmory) @ Leftovers
+Ability: Keen Eye
+EVs: 248 HP / 124 SpD / 136 Spe
+Careful Nature
+- Spikes
+- Taunt
+- Drill Peck
+- Roar
+
+I've really started to like this spread recently, 210 hits a nice benchmark of almost always outspeeding opposing Skarm, and outspeeding standard speed crept Milo (surprisingly handy) as well as all M A C H A M P (BU sets murder traditional SkarmBliss teams).
+
+Askarmatitos (Skarmory) @ Leftovers
+Ability: Keen Eye
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Hidden Power [Ground]
+- Drill Peck
+- Spikes
+- Taunt
+
+YOLOskarm!! (I think this set has become commonly known after SPLX) Dangerous spike setter for Spike abuse teams. Outspeeds and OHKOs Max/Max HP Fire Magneton, which is absolutely game changing. Can single-handedly destroy offences, SkarmMag as sometimes Magneton is the only answer. Drill Peck hits surprisingly hard, and discourages Gengar from getting a free switch. Taunt shuts down opposing Skarm, and helps Skarm beat Bliss 1v1, but sometimes the team might require Roar in the last slot.
+
+Mag teams that absolutely require Mag to trap Skarm are now required to run a lot of bulk (see Mag set below) or run Timid, which in turn lowers OHKO% for Standard Sp Def Skarm.
+
+On the other hand, running 0 bulk means that Skarm is now murdered by special attacks, and must pivot carefully against opposing Salamence, Tar and Pert.
+
+I really do wonder if, by 2020, Skarm will ever run Soft Sand and/or Jolly nature.
+
+Magneton @ Magnet
+Ability: Magnet Pull
+EVs: 240 HP / 212 SpA / 56 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA / 30 Spe
+- Thunderbolt
+- Hidden Power [Fire]
+- Toxic
+- Thunder Wave
+
+Mag Dol teams really appreciate this spread. With all the YOLOskarms running around, aside from running timid Mag, super fat Mag is the other answer to this metagame trend. Ojama's spread that lives Forre EQ is unnecessary cos Forre is a terrible Mon, so 240HP guarantees lives HP Ground while sparing enough EVs so that Mag isn't outsped by every mon and its dog. Important to note Metagross doesn't really get revenge trapped anymore, and handy to know that 240HP Mag guarantee lives 1 layer of spike + Off Star Hydro.
+
+Set Paste
+Here https://pastebin.com/raw/haMgma5w is a pastebin for importing sets into the damage calc. A couple of months ago I got sick of having to import custom sets all the time so I just made a paste for common sets I expect to use and face. (The Smogon sets are dated and incomplete). That being said, I haven't updated it in a while so this paste is not entirely complete either, but is still really useful anyway. You may notice I'm big on my speed creeps. I like to know that my Tar will outspeed your Tar, etc. My defensive benchmarks are in fact not at all refined. From what I gather, Roro and Mdrag would be the experts to consult in that matter.
+
+Team Paste
+Teams: https://pastebin.com/raw/jyFh4AF3 This is currently my entire folder!
+Many of my bulky teams, and many of my offence teams, get picked off by Dug. I do not know how to fix this, and is probably one of my biggest weaknesses. At the same time, I struggle building Dug teams too. Bah!
+
+Team Remarks
+
+My favourite team archetypes atm are Cloyster Spikestacks and Mag Offence. Cloyster generally has consistent MU wise and type synergy often allows threatening doubles. One benefit of having the offensive initiative is that the opponent is required to guess/scout the Tar/Gar/Gross sets etc.
+
+Once my bread and butter, Forre is very unreliable in the current metagame because of the discovery of Sp Def Gar and all the mixed threats running around. Another downside is that Forre usually broadcasts half the team.
+
+Some other thoughts:
+-Will-O Taunt Gar pairs well (but it benefits from Skarm anyway)
+-A double water core with MixPert has decent surprise value (Asta had a very win over Ojama in the 2018 ADV Cup)
+-Sing Bliss paired with Dug/CB Gon can free things up nicely
+-An interesting tech is to run Counter/Zap Cannon/Spike/Spin to not be complete food for Skarm Gar. Zap Cannon is a free move to click against opposing Skarm and has very good surprise value. Despite its low accuracy, Forre will usually have multiple chances to click it.
+-BP Cele can be very nasty without Roar Zap, and CMRachi can be very nasty without Dug.
+-Forre often cannot afford to run HP Bug and thus can be countered by Recover Mie or Claydol to some extent.
+
+SkarmBliss is still very good. Recently I have started to pair the infamous duo with +att Claydol. This was very effective on ladder. I really appreciated the longevity of the core. Sometimes, however, Double Trap + weather reset can be unwinnable so depending on the team it's really important to keep Skarm from getting trapped by Mag. I have also found the Toxic Zap+Dug MU to be quite irritating. SkarmBliss must also be weary of fighting type offence, as well as tiptoe MixPert carefully.
+
+SkarmJolt can be deadly in the right MU, but has an uphill battle against any Mag Dol team. twave zap is very problematic too. Similar things can be said about SkarmRachi, which often has to deal with an additional problem of Moltres. For these reasons I use SkarmJolt and SkarmRachi sparingly.
+
+The metagame has adapted to SkarmMag, which was hugely popular ~2 years ago. Mag Dol can be very annoying, as well as Cloyster and Fighters. Without Blissey, Molt is a pain to pivot. The SkarmMag Molt team would be super solid and one of the best teams if it weren't slaughtered by Mag Lax (I considered metal sound on Mag as a lastmon lax countermeasure, but often mag lax is paired with dug which traps Mag).
+
+The Smeargle Offence has deadly offensive potential but is unfortunately 6-0'ed by DDMence ):
+
+Breloom / Jynx are fantastic sleepers and very fun to use. Fighting mon + Houndoom is a terrific core.
+
+There's a whole collection of Spikeless Offence teams. I had a liking for these 0.5-1 year ago (including with Mix Dpunch Rachi). However, I stopped using Dpunch Rachi as I realised during battles I never wanted to risk clicking Dpunch against Ttar. A problem for these teams is spike+electric, and also dug+solid phys checks. For the above reasons Spikeless offence requires hard reads/doubles, high risk mediocre reward.
+
+-BP matches are largely decided on MU so are many other archetypes (e.g. you prey on my common teams with Fat Do Nothing Mag/Dol/Dug/Milo, ofc I can do the reverse to you with free set up)
+-requires more 'skill' than people give credit for. There are often critical prediction turns with regards to Double BPing to not be put in a checkmate situation from Skarm or CB Gross without a sub up, on Mr Mime for example.
+
+Closing Thoughts
+The strongest ADVers are BKC, Astamatitos, Lavos and Marcop. Compared to them , it feels like my teams lack that special spark. Teambuilding and counterstyling preparation for a tournament match are probably the relatively weaker parts of my game.
+
+I'd be thrilled to hear suggestions/edits/other options as well as your favourite team from the dump!
+
+Special thanks to friends who I play 1000x games with, and who help me test and teambuild; the ADV discord chat for interesting discussion and hilarious shitposts; the AG community (it's been a while but I'll never forget my roots! Whenever I pop in you guys are always so welcoming); and the Classiest teams and the Oceania WCOP team for such wonderful, supportive environments.
+
+You all make me feel most loved and make me cherish all my experiences on Showdown!
+
+### post 8078773 author=Stox url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/#post-8078773
+Sick shit as per, linear, adv ladder mafia rly out here informing the ignorant masses, beautiful.
+
+I'll drop a few spreads that I think are very important atm and divulge my thoughts on a few archetypes you missed, and probably a couple you went over, with my own thoughts on them, as well as my general thougts on the current 'fast' meta when I'm back from work tonight.
+
+### post 8078786 author=Deleted User 108547 url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/#post-8078786
+thelinearcurve said:
+
+[...]
+View attachment 167183
+Askarmatitos (Skarmory) @ Leftovers
+Ability: Keen Eye
+EVs: 248 HP / 124 SpD / 136 Spe
+Careful Nature
+- Spikes
+- Taunt
+- Drill Peck
+- Roar
+
+I've really started to like this spread recently, 210 hits a nice benchmark of almost always outspeeding opposing Skarm, and outspeeding standard speed crept Milo (surprisingly handy) as well as all M A C H A M P (BU sets murder traditional SkarmBliss teams).
+
+Askarmatitos (Skarmory) @ Leftovers
+Ability: Keen Eye
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Hidden Power [Ground]
+- Drill Peck
+- Spikes
+- Taunt
+
+YOLOskarm!! (I think this set has become commonly known after SPLX) Dangerous spike setter for Spike abuse teams. Outspeeds and OHKOs Max/Max HP Fire Magneton, which is absolutely game changing. Can single-handedly destroy offences, SkarmMag as sometimes Magneton is the only answer. Drill Peck hits surprisingly hard, and discourages Gengar from getting a free switch. Taunt shuts down opposing Skarm, and helps Skarm beat Bliss 1v1, but sometimes the team might require Roar in the last slot.
+
+Mag teams that absolutely require Mag to trap Skarm are now required to run a lot of bulk (see Mag set below) or run Timid, which in turn lowers OHKO% for Standard Sp Def Skarm.
+
+On the other hand, running 0 bulk means that Skarm is now murdered by special attacks, and must pivot carefully against opposing Salamence, Tar and Pert.
+
+I really do wonder if, by 2020, Skarm will ever run Soft Sand and/or Jolly nature.
+[...]
+
+Click to expand...
+
+Nice to see you posting here buddy! We've play many times in ADV ladder and I got stomped by your teams .
+
+All read was really enjoyable but I'll stop at the Skarmory analysis. I'm pretty sure that Eeveeto is running soft sand Skarm at least since a couple of years, probably with 252+/252 but not sure about it. Although it seems a gimmicky set (because even with soft sand the OHKO isn't guaranteed on some Mag versions -i.e. the one you posted- and the drawbacks for lack of recovery and defensive capabilities) definetely is an option if you want to preserve the other 5 mon slots and not run Dug/P2.
+
+252+ Atk Soft Sand Skarmory Hidden Power Ground vs. 240 HP / 0 Def Magneton: 282-332 (93.6 - 110.2%) -- 62.5% chance to OHKO.
+
+Click to expand...
+
+See you rocking on PS!
+
+### post 8078801 author=Triangles url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/#post-8078801
+Your EVs are the work of a serial killer (in a good way).
+
+### post 8078805 author=Dizno url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/#post-8078805
+thelinearcurve said:
+
+DiznoNarrates (Zapdos) @ Leftovers
+Ability: Pressure
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+IVs: 2 Atk / 30 SpA
+- Thunderbolt
+- Hidden Power [Grass]
+- Thunder Wave
+- Roar
+
+Click to expand...
+
+Nice Zappy name mate
+
+Fr though great post. I'm sure everybody is just as appreciative as I am to get insider info from the goat of the tier himself. I had the pleasure of testing these teams out for myself during SPL when you passed them to me for testing fresh off the tree. I can confirm max speed swampy is great at punishing those speedy hp grass tars you see so often these days. I noticed a couple of cool Asta techs in there too. That Magneton spread once caused a moment of entanglement when I found myself doing 94% to a skarm despite the fact that its got magnet. A conversation followed where I almost inquired as to whether my opponent had managed to import assault vest into the tier xd.
+
+For a long time, I think the tier has badly needed new innovation and creativity. It is distressing to repeatedly see the same BKC teams from 4+ years ago being recycled in tour games, often with unchanged nicknames. Nothing wrong with using other peoples teams, but it's become a form of team prostitution at this stage. That's why I am always so grateful to see these type of posts emerge on the site even if it is shortly before ADV Cup. The set paste link you provided is a fantastic idea. The presets in the calculator are so old they look like they were made by somebody who has never played the tier. I've always wondered where tf RestTalk Moltres was even used.
+
+Also, I presume based on the title of this thread, it is open to everybody to post their own quirks and quiddities here. If that's the case, I'll be sure to share some of my own goofs
+<3
+
+### post 8078815 author=thelinearcurve url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/#post-8078815
+Cheers all, appreciate the feedback.
+
+Yes please Dizno!
+
+### post 8078818 author=Zokuru url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/#post-8078818
+Great stuff man, I didn't read everything yet but wanted to react to something.
+
+thelinearcurve said:
+
+I really do wonder if, by 2020, Skarm will ever run Soft Sand and/or Jolly nature.
+
+Click to expand...
+
+Skarmory @ Soft Sand
+Ability: Keen Eye
+EVs: 112 HP / 224 Atk / 172 Spe
+Jolly Nature
+- Hidden Power [Ground]
+- Drill Peck
+- Spikes
+- Taunt
+
+This is already what I run, avoid speedties vs max speed Mags, gives you more bulk. You can drop some HP for more Attack to have better chance beat bulky Mags, I was just toying with that so it's not super optimal yet I guess.
+
+### post 8078837 author=Eeveeto url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/#post-8078837
+Kaisser said:
+
+Nice to see you posting here buddy! We've play many times in ADV ladder and I got stomped by your teams .
+
+All read was really enjoyable but I'll stop at the Skarmory analysis. I'm pretty sure that Eeveeto is running soft sand Skarm at least since a couple of years, probably with 252+/252 but not sure about it. Although it seems a gimmicky set (because even with soft sand the OHKO isn't guaranteed on some Mag versions -i.e. the one you posted- and the drawbacks for lack of recovery and defensive capabilities) definetely is an option if you want to preserve the other 5 mon slots and not run Dug/P2.
+
+Click to expand...
+
+Confirming this, and yes, I run Max Speed Jolly with Soft Sand. Its my favourite set for Skarm because the Mon is so common, that it makes Magneton very common too, and I don,t like predicting or scouting against it. So, being so fast, the set guarantees one layer of Spikes and 2 of them most of the games, regardless of the presence of Magneton in the opposing team. When I want a Spiker not named Cloyster ( or Cacturne, or Lord Helix) I almost always resort to that Skarm and put it as a lead, works quite well against not Zapdos/Gengar leads.
+
+### post 8078895 author=Lord Ninjax url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/#post-8078895
+yo!  it's always nice to see people sharing cool ADV stuff, esp from a serial shredder like yourself.  really impressed by your metagame thoughts, as it shows a deep read of peoples' favorites and knowledge about how to exploit them - especially with your mixed lures and stacking of threats that just seek to overwhelm defensive cores.  your ev spreads are also really cool (I tend to go for random bulk and specific defensive benchmarks on mine but I can appreciate how you aggressively target speed tiers and thereby threaten to open up entire teams from the getgo).
+
+fave team from your dump was probably definitely the double cm spikes dug (roarcune superachi skarm sdef gar dug fblast bliss) - really cool spin on both the spikes balance and cmspam archetypes that manages to combine the best of both worlds.  also being a spikes team which is so slickly crafted that I can't squeeze tar in is cool (have you tried going triple cm with that?  I messed around with it and despite some issues the threat factor is really good, wish on rachi / bliss to support cune a little is also a good tech).  your cloy teams were really solid in general though (and I do agree that cloy feels like the way to go when spiking these days, it works better vs the bkc-esque heavy offenses that look to turn skarm into a liability and having boom can also be super huge).  fast skarm is just fire.
+
+anyways I'm washed as fuck but I will add more in-depth thoughts on certain sets / teams / archetypes that catch my eye later sometime (as well as maybe post some of the stuff I passed marcop for SPL).  on the whole though this is really cool and thanks a ton for sharing.
+
+### post 8078942 author=Sadlysius url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/#post-8078942
+First of all, amazing and super valuable thread. Thanks a lot for this!
+
+Second, I would like to address this sentence "(...) it feels like my teams lack that special spark".
+
+I think that you are one of the best players at analyzing the metagame and creating teams that define treads (specific movesets, lineups, etc.) so I have to politely disagree with that quote. It feels like you are always two steps ahead when someone faces you, and your teams are one of the most important reasons behind that feeling.
+Finally, I would like to thank you again for creating this thread. It summarizes perfectly the metagame/state of modern ADV and I feel like it will help a lot of new players/non-ADV mains as a sort of introduction to the tier.
+Hopefully we can play more times in the future :).
+
+PS. I'm preparing a post for general discussion about an specific archtype, and also forgive my grammar and all that non-English native speaker stuff :(
+
+- Sadlysius
+
+### post 8079273 author=Stox url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/#post-8079273
+As promised I'll drop some knowledge for u lucky souls now that I'm home.
+
+As per request of the adv ladder night mafia, I'm holding my full guide to both major baton pass teams in the tier hostage until after the Smogon Blassic, sorry @fairygen players that were looking for some free dubs.
+
+sub then spore then drum then pass x
+
+_________________________________________________________________________
+
+Lemme start off with what I'm probably known best for: physspam.
+"Stockings might be a scary opponent if he didn't only play physspam and bellypass." - G(host lol mongo don't get caught)OATNinjax
+
+Physspam is a subcategory of spikeless (normally) offense which linear has already covered, however it's a big enough style on it's own for me to consider doing a separate writeup on it as a whole (despite linear's small paragraph being primarily aimed towards it.). Physspam is an ever-present offensive archetype that typically has very even to good board matchups, with some bad matchups and rarely has awful ones.
+The archetype is categorised and named due to its reliance on cores utilising a powerful physically offensive presence, usually using 4-6 of the mons I've listed above. Due to the nature of how these teams are built they are very often able to have a solid gameplan against any lineup of 6 and always have the potential to make room for powerful reads and swings in tempo.
+I agree with linear in that often spike electric teams such as the typical jolt spikes balances/offenses are almost always a difficult matchup. However, I believe that they are definitely not unwinnable and often a good offensive callout can lead to a massive advantage vs these types of team. Teams with dug+multiple phys checks are also a bad matchup, and are much less easy to get ahead on off of strong offensive reads, dealing with these teams more often comes down to getting ahead in the builder rather than in game.
+
+If you are comfortable in playing with an aggressive playstyle where you have to control the tempo of the game and take risks both in game and in builder then I don't think there is a problem with using physspam in the current 'fast' meta, however it may not be a common choice among those who prefer longer games with minimal matchup worries.
+
+Here are some examples of the archetype, the first being an example of a traditional physspam from Triangles(?), the second being a more modern variant from me:
+
+https://pokepast.es/a37f7137af0973f4-
+https://pokepast.es/47646faa9ccc9268
+
+_________________________________________________________________________
+
+CMspam is a rarer one, but still something I'd like to cover.
+"For when beating Blissey is overrated." - Big Kevin Crocune
+
+CMspam is a very love/hate type of team, as in Golden Sun loves it and every other adv player hates it. Jokes aside, CMspam is a subcategory of special offense that has seen better days. It has a few very polarizing matchups, making it less than ideal for players wishing for consistency.
+CMspam is named and identified in game by having multiple calm mind sweepers/breakers, almost always dug (usually adamant as it is primarily for trapping fat, slow mons as opposed to revenge killing threats), and lures or counters to common fat shit. CMspam is usually built in a hyper offensive way relying on not only a decent matchup but also fast and strong early game pressure to force out common special walls (bliss, lax) to clear them and end the game fast, as these teams often can't survive in a long game. These teams often make use of CM+ baton pass to maintain tempo and perform a lot of wee tricks (cm to dug on bliss is especially cute.)
+CMspam's place in the meta in the past few years has been very shaky and it is most often brought to tour games by someone prepping for a specific playstyle, it is a very high ceiling archetype and is always responsible for some of the most brutal wins in every tour, however as high as it's ceiling is, it has an equally low floor and this should always be kept in mind when you wish to bring it to tour. in my opinion, possibly the worst matchup in modern adv is standard cmspam vs double normal fat shit, do not bring it if you expect to see this.
+
+If you're fine with having games decided one way or the other at the builder, are looking for an incredibly fast game regardless of winner or are comfortable in the fact that your opponent wont bring one of the more terrible matchups then it's a fine choice to bring, however I feel that it's relative disadvantage against a majority of common styles in the meta make it a bad archetype to bring without solid reasoning.
+
+The first example I've provided is the most standard CMspam lineup and is what you should expect from the archetype, the second example is from linear's dump but has endsalac tar over p2 and has slight changes to the rest of the spreads/sets.
+
+https://pokepast.es/e41f6b1a51d29f6b-
+https://pokepast.es/e5e37d8d1f9dea7d
+
+_________________________________________________________________________
+
+I'll go over more archetypes in the future, but I'm short on time, so I want to go over some underrated mons that I believe have either untapped potential or a genuine spot in the current meta.
+
+_________________________________________________________________________
+
+Jumpluff
+
+J (Jumpluff) @ Leftovers
+Ability: Chlorophyll
+Shiny: Yes
+EVs: 56 Def / 200 SpD / 252 Spe or EVs: 140 Atk / 56 Def / 60 SpD / 252 Spe
+Jolly Nature
+- Encore or Hidden Power Flying
+- Leech Seed
+- Substitute
+- Sleep Powder
+
+Right so this little pink FUCK is the biggest thing I want to talk about here, in the past couple weeks since returning I've brought it up multiple times on discord to various folk. So, in theory it beats every mon slower than itself 1v1, which is cute, but it's not important, what's important is that it has access to the most powerful status in adv and is INCREDIBLE at forcing multiple switches, which is absurdly good on teams that can reliably control spikes. Due to this, in the late-endgame this mon has so much power and can seal games on it's own.
+The second set kills hera and loom, cute.
+
+UD actually used this in Callous Cup: https://replay.pokemonshowdown.com/smogtours-gen3ou-389687
+
+Lunatone
+
+L (Lunatone) @ Leftovers
+Ability: Levitate
+Shiny: Yes
+EVs: 252 HP / 236 Def / 20 Spe
+Bold Nature
+- Baton Pass
+- Calm Mind
+- Ice Beam
+- Hypnosis
+
+Lunatone is a very interesting mon that I could see being potentially very good on fatter special offenses, it comes in very freely on a lot of physical threats, sleeps something on the switch (88% of the time uhhhhh), and makes your fat special mons hit like offensive mons with ease, allowing you to open up many teams (think zap, regice). It also passes +1 spd to dug to kill bliss?
+Passing to bulky tar/gross is very good too.
+
+Mainly basing this evaluation off of this old Smurf team that I really enjoy using on ladder: https://pokepast.es/4bc1bbff5e82a364
+
+Breloom
+
+B (Breloom) @ Leftovers
+Ability: Effect Spore
+Shiny: Yes
+EVs: 52 HP / 252 Atk / 204 Spe
+Adamant Nature
+- Spore
+- Stun Spore
+- Focus Punch or Sky Uppercut or Brick Break
+- Hidden Power Ghost or Hidden Power Bug or Substitute
+
+So loom is nothing new and is especially hot right now but I really want to bring up this specific set from infamous online pokemon presence Piexplode/Disaster Area. Now I of all people know how much and how often Piex's techs miss but by GOD this one hit. On offensive teams this set is incredible for crippling your opponents gameplan, I've never seen something more consistently para gar. I really recommend trying this one out.
+
+Armaldo
+
+A (Armaldo) @ Leftovers
+Ability: Battle Armor
+Shiny: Yes
+EVs: 248 HP / 252 SpD / 8 Spe
+Careful Nature
+- Seismic Toss
+- Knock Off
+- Harden
+- Rest
+
+big up to Astamatitos for creating this goatly set x
+
+LADDER NIGHT MAFIA FUCK WHAT U HEARD
+Word to the all the ladder night gang on this one, Armaldo is a very interesting mon that has access to a move that got done DIRTY in adv (knock), it's really powerful against fatter teams and is possibly the best lax counter in the game, knock utility is amazing even if it does 0 (zero) damage. In an ideal scenario, knock can turn sand into a completely one-sided hazard, which is amazing. it removes bands and berries to cripple offenses and it walls various physical attackers solidly.
+
+_________________________________________________________________________
+
+Not quite what I promised as I'm short on time today, I'll dive into more archetype overviews tomorrow and bring up some more meta relevant spreads and overall meta discussion tomorrow as long as I'm not busy.
+
+### post 8085682 author=Triangles url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/#post-8085682
+https://pokepast.es/28a5b59503af18fd
+Here's drumpass you sweaty nerds. Have fun beating good players in Cup with it!
+How to use: Swagger on Zap is good for popping Lum Berries that otherwise stop smear. Use Roar to find the right target for your Smear, i.e not a phazer and not too fast. Gardevoir is like a second Zapdos for if your Zap setup doesn't work - Icy Wind to slow down fast mons so Smearer is faster and Memento to get Smear in safely. Torment is a luxury. Basically use those 2 to get yourself into a safe position to get your Smearer in. Once Smear is in, Sub down first, then Spore second (to maximize possible sleep turns).  Drum up, get your Salac, and pass it.
+As for what reciever you pick - Medicham if you can get a perfectly clean pass (also the sdef on cham is for starm), Cradily if you are vs a Phazer like Skarm, and Aggron if you are vs something that is threatening Boom. 3 recievers can't actually cover all the bases, which is the disadvantage of this variant of drumpass as opposed to 4 reciever ones which just use Zapdos as Smear setup. On the other hand, you get a far easier Smear in with this lot.
+
+Anyway, be sure to use this team vs someone who mains the tier or someone you just think is straight up better than you. It's not an autowin by any means but it nicely takes skill out the equasion if you just want Classic points.
+
+### post 8085683 author=Triangles url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/#post-8085683
+Use this post as the dislike button for the above post.
+
+### post 8086018 author=Lord Ninjax url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/#post-8086018
+warning to newer users: please for the love of god do not use the second physspam team stox posted, I realise it looks good on paper but he really just took the standard undis physspam and replaced its zap / water switchin with a mon that loses to both, for the sole benefit of...being able to force pert out after it gets a kill?  seriously who uses teams 6-0ed by rest cune in 2019.  anyways psa there are good physspams out there but that is not one of them.
+
+anyways I'm not just here to rag on someone else:
+
+comment on the team dump as a whole (warning: long)
+
+in which I go over the dump by archetype feat general comments as well as individual teams / trends that caught my eye and some recos to newer folk about which teams to start out with (please have patience, I'm filling this out):
+
+cloy offense:
+
+forry balance:
+
+fighting mon + pursuit offense:
+
+brawl bulky offense:
+
+dug + specmons balance:
+
+mag / magdol balance:
+
+mag offense:
+
+full weather:
+
+tss / spikes balance in general:
+
+skarmmag balance:
+
+more spikes stuff:
+
+phys-centric offense:
+
+general metagame thoughts
+
+(please have patience, I'm filling this out)
+
+other cool techs you guys might like
+
+(please have patience, I'm filling this out)
+
+Tyranitar @ Leftovers / Lum Berry
+Ability: Sand Stream
+184 HP / 12 Atk / 172 SpA / 140 Spe
+Mild Nature
+- Fire Blast
+- Focus Punch
+- Hidden Power Grass
+- Rock Slide
+
+alternative mixtar spread that I personally prefer.  the flygon population has dropped phenomenally after last spl's spree of ib ddtars, which means that ib's utility has decreased outside of surprising random ddmences (note that cbmence is also resurging a little and that tends to punish a lot of t1 icebeamers).  focus punch > brick break allows you to slam certain things on the switch while rock slide as a stab is nice (in particular this allows you to smack gengar, which ordinary mixtar sometimes struggles to touch)  on that note the other twist of this set is that where more tars go for speed, this goes for bulk, allowing it to fulfill a secondary role vs offensive teams by holding off the zap / gar (which most mixtar teams sometimes find themselves struggling with).  12 atk ensures rock slide ohkos aero and speed outruns fastdol as well taunt skarms creeping that benchmark.  I won't pass judgement on whether this is superior or inferior to linear's faster variant but this is still valid and has more than its share of good matchups to justify it.
+
+Tyranitar @ Lum Berry
+Ability: Sand Stream
+20 HP / 236 Atk / 252 Spe
+Adamant / Jolly Nature
+- Rock Slide
+- Earthquake
+- Dragon Dance
+- Double-Edge
+
+one of my biggest annoyances with grass / ib ddtar has always been how they're both basically one-target moves (seriously neither move 3hkos claydol from full gtfo) - and while they're valid targets, every dd ib tar user has a horror story about saving it till the lategame only to see it stuffed by a 60% pert.  anyways I know pdc posted hyper beam ddtar but this predates it by quite a bit (I don't claim to be the first to use it but I have slapped it on a bunch of my builds since like early 2018 and been a consistent advocate), and I prefer double edge simply because it doesn't force you to commit to breaking like hyper beam does (taking 20-30% recoil is on-average better than being locked in and letting something take a swipe at you - or worse, seeing the meta / mence get a speed boost and proceed to sweep your offense team off the face of the earth).  the power increment on both eq and rock slide is definitely a solid selling point - this 2hkos defensive flygon and claydol and threatens to 2hko pert (while utterly steamrolling their offensive variants with a little chip), and dedge's damage output can also be really clutch when it comes to cleaning out games (vs stuff like zapdos or healthy-ish lax, situations where a rock slide miss might mean a swift demise), but in general I like it for how double-edge usually finds a target and hits it hard.  also the general slant of the metagame towards offensive pert and tends to favour this demon quite a bit.  liechi / salac / silk scarf are all valid options here too (silk scarf gives dedge a 75% chance for jolly to ohko offensive star, among other things)
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 248 HP / 120 Def / 96 SpA / 44 SpD
+Quiet Nature
+- Earthquake
+- Ice Beam
+- Hydro Pump
+- Protect
+
+in an age of perts that are competing to become as offensive as possible, this is sort of a throwback but not in the worst possible way - for one thing, having protect is never going to be truly retro so long as offense exists.  anyways quick explanation of the evs - 248 / 44 means you always live modest zap hp grass, 96 spa is a jump point (basically a point where the way the game calculates stats means that the 4 extra evs you add from 92 to 96 give you 2 full points in spa - maximising hit for investment basically), and the rest being in defense gives you a little more stability vs ddtar, ddmence, aero...etc etc.  not particularly innovative but I wanted to showcase the spread and bring a little attention to the idea that offensive pert doesn't necessarily have to be 252 / 252 (not that that's bad or anything though)
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 140 HP / 216 SpA / 152 Spe
+Rash Nature
+- Hydro Pump
+- Earthquake
+- Focus Punch
+- Refresh
+
+this looks whack but I swear it works - a lot of people see pert throwing out nuclear hydros and assume tox / burn will give them some room to play around it, only for their eyeballs to pop out when this refreshes the burn off (bonus points if you do it on a protect).  gives the set a little longevity while still bluffing pure offensive and playing like it, which is nice.  this pert slots really nicely into standardish skarm gar bliss structures, who tend to carry the mix of anti-phys qualities, status and ice moves that mean that ddmence / cele can't make too much of the free momentum that this gives (also remember that it'll take them a while to realise that they're completely safe and they'll probably be down a mon or two by then).  not the optimal tech but this has its uses and its pretty darn cool as well.
+
+Also on the note of offensive pert on the standard set hp grass over eq is a neat tech, I came up with it on one of my variants of bkcpass as a way to bop pert but found it fitting really nicely on a bunch of bulky offenses too - those teams tend to have the tools to fend off meta / rachi / tar, compensating for the loss of eq (and hydro does similarish damage to most of eq's targets anyways), while appreciating how you surprise drop opposing pert (you also smack cloy with it which is nice).  an offbeat option but a valid one, I know hclat liked it and slapped it onto a gyara team of his so there's that too.
+
+Metagross @ Lum Berry / Salac Berry (lefties works too and cb can run the same four moves)
+Ability: Clear Body
+EVs: variable
+Adamant / Jolly Nature
+- Meteor Mash
+- Earthquake
+- Explosion
+- Double-Edge
+
+similarly to ddtar, meta can also solidly run double edge in the fourth slot - as linear pointed out, people tend to swap between slide / grass / bug depending on which of zap / pert / cele they want dead, and dedge technically covers them all while also backing up a stab with less than 100% accuracy.  also recoil can push you into pinch berry range which is cool - technically it cuts into your longevity too but berry meta shouldn't be your primary way of checking rocks anyways.  this has already caught on on cb sets in particular but I feel like it works even better here and appropriately deserves a shout.
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 252 Atk / 12 SpA / 244 Spe
+Lonely Nature (hasty with a diff spread can work too ig)
+- Thunderbolt
+- Hidden Power Fighting
+- Drill Peck
+- Toxic / Thunder Wave / Baton Pass
+
+this is technically an unset but it's been around a while at tour level so might as well.  the set is fairly straightforward (bp is technically the preferred fourth move but I like tox to punish pert and judging from the dump linear prefers twave to snag cheeky gar / jolt) - tbolt is damage and so zap can pretend to do zap things, hp fight hits tar primarily but also 3hkos bliss and lax with sand / spikes support, drill peck slays hera and hits everything that tbolt doesn't (cele, grounds, etc).  this slots really nicely onto cloy teams as they can switch in on pert (this set's usual nemesis), and they appreciate something that abuses spikes and can surprise tar (which usually threatens those teams quite a bit).  looks really whack and can sometimes struggle at doing typical zap duties (like holding off the meta / cune) but it's alright in practice and very good at catching people off-guard if played right.
+
+(busy now but will edit this later with more stuff as well as examples of teams that include these sets).
+
+### post 8086120 author=Stox url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/#post-8086120
+Ilysm jax when does yr ban expire
+
+### post 8146434 author=sumwun url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/#post-8146434
+This post isn't about a team or playstyle, so please tell me if I posted it in the wrong place. Also if anything comes across as rude, please try to remember that I didn't mean it.
+
+So I made a program that takes any combination of Pokemon usage files from smogon.com/stats/ and averages the usage stats for each Pokemon. I used it to average all the 1760 stats from the past 12 months, and this is what I got.
+
+ADV/RSE OU (1760 stats)
+
+Code:
+
+Combined usage for ADV/RSE OU (1760 stats)
++ ---- + ------------------ + ------- +
+| Rank | Pokemon            | Percent |
++ ---- + ------------------ + ------- +
+|   0  | Tyranitar          | 65.814% |
+|   1  | Swampert           | 43.160% |
+|   2  | Metagross          | 40.604% |
+|   3  | Skarmory           | 38.402% |
+|   4  | Gengar             | 36.050% |
+|   5  | Zapdos             | 32.290% |
+|   6  | Snorlax            | 27.610% |
+|   7  | Salamence          | 27.281% |
+|   8  | Suicune            | 26.543% |
+|   9  | Magneton           | 24.561% |
+|  10  | Celebi             | 23.665% |
+|  11  | Jirachi            | 23.211% |
+|  12  | Blissey            | 20.489% |
+|  13  | Dugtrio            | 20.399% |
+|  14  | Jolteon            | 15.784% |
+|  15  | Aerodactyl         | 13.567% |
+|  16  | Claydol            | 12.577% |
+|  17  | Starmie            | 11.991% |
+|  18  | Heracross          | 11.372% |
+|  19  | Flygon             |  8.336% |
+|  20  | Moltres            |  7.105% |
+|  21  | Cloyster           |  5.921% |
+|  22  | Forretress         |  5.599% |
+|  23  | Milotic            |  5.383% |
+|  24  | Gyarados           |  5.210% |
+|  25  | Vaporeon           |  3.259% |
+|  26  | Porygon2           |  2.945% |
+|  27  | Umbreon            |  2.839% |
+|  28  | Weezing            |  2.445% |
+|  29  | Jynx               |  2.187% |
+|  30  | Raikou             |  2.143% |
+|  31  | Venusaur           |  2.083% |
+|  32  | Marowak            |  1.973% |
+|  33  | Mr. Mime           |  1.942% |
+|  34  | Regice             |  1.905% |
+|  35  | Houndoom           |  1.438% |
+|  36  | Kingdra            |  1.407% |
+|  37  | Breloom            |  1.271% |
+|  38  | Hariyama           |  1.194% |
+|  39  | Scizor             |  1.181% |
+|  40  | Ludicolo           |  1.072% |
+|  41  | Smeargle           |  1.055% |
+|  42  | Charizard          |  0.943% |
+|  43  | Blaziken           |  0.856% |
+|  44  | Machamp            |  0.821% |
+|  45  | Ninjask            |  0.820% |
+|  46  | Alakazam           |  0.809% |
+|  47  | Medicham           |  0.792% |
+|  48  | Steelix            |  0.761% |
+|  49  | Cacturne           |  0.650% |
+|  50  | Dragonite          |  0.580% |
+|  51  | Cradily            |  0.542% |
+|  52  | Rhydon             |  0.478% |
+|  53  | Registeel          |  0.449% |
+|  54  | Gardevoir          |  0.358% |
+|  55  | Donphan            |  0.357% |
+|  56  | Mawile             |  0.348% |
+|  57  | Entei              |  0.329% |
+|  58  | Dusclops           |  0.321% |
+|  59  | Slaking            |  0.313% |
+|  60  | Arcanine           |  0.235% |
+|  61  | Ursaring           |  0.233% |
+|  62  | Gligar             |  0.232% |
+|  63  | Regirock           |  0.227% |
+|  64  | Sceptile           |  0.211% |
+|  65  | Swellow            |  0.157% |
+|  66  | Exeggutor          |  0.156% |
+|  67  | Camerupt           |  0.153% |
+|  68  | Armaldo            |  0.146% |
+|  69  | Exploud            |  0.142% |
+|  70  | Tauros             |  0.120% |
+|  71  | Articuno           |  0.120% |
+|  72  | Aggron             |  0.113% |
+|  73  | Nidoking           |  0.091% |
+|  74  | Lanturn            |  0.082% |
+|  75  | Octillery          |  0.082% |
+|  76  | Ampharos           |  0.080% |
+|  77  | Lapras             |  0.080% |
+|  78  | Nidoqueen          |  0.064% |
+|  79  | Miltank            |  0.063% |
+|  80  | Sandslash          |  0.058% |
+|  81  | Omastar            |  0.053% |
+|  82  | Espeon             |  0.049% |
+|  83  | Wailord            |  0.048% |
+|  84  | Banette            |  0.047% |
+|  85  | Dodrio             |  0.042% |
+|  86  | Electrode          |  0.041% |
+|  87  | Jumpluff           |  0.040% |
+|  88  | Slowbro            |  0.039% |
+|  89  | Crobat             |  0.037% |
+|  90  | Linoone            |  0.037% |
+|  91  | Misdreavus         |  0.037% |
+|  92  | Hypno              |  0.035% |
+|  93  | Shedinja           |  0.032% |
+|  94  | Volbeat            |  0.031% |
+|  95  | Pikachu            |  0.030% |
+|  96  | Feraligatr         |  0.029% |
+|  97  | Golem              |  0.028% |
+|  98  | Electabuzz         |  0.027% |
+|  99  | Lunatone           |  0.027% |
+| 100  | Tentacruel         |  0.026% |
+| 101  | Mantine            |  0.026% |
+| 102  | Flareon            |  0.024% |
+| 103  | Venomoth           |  0.024% |
+| 104  | Hitmonchan         |  0.023% |
+| 105  | Kangaskhan         |  0.023% |
+| 106  | Solrock            |  0.022% |
+| 107  | Chimecho           |  0.021% |
+| 108  | Clamperl           |  0.021% |
+| 109  | Quagsire           |  0.021% |
+| 110  | Blastoise          |  0.018% |
+| 111  | Poliwrath          |  0.017% |
+| 112  | Kabutops           |  0.017% |
+| 113  | Zangoose           |  0.017% |
+| 114  | Shiftry            |  0.015% |
+| 115  | Altaria            |  0.013% |
+| 116  | Typhlosion         |  0.013% |
+| 117  | Scyther            |  0.012% |
+| 118  | Gorebyss           |  0.010% |
+| 119  | Chansey            |  0.009% |
+| 120  | Shuckle            |  0.009% |
+| 121  | Vileplume          |  0.009% |
+| 122  | Hitmontop          |  0.008% |
+| 123  | Walrein            |  0.007% |
+| 124  | Raichu             |  0.007% |
+| 125  | Muk                |  0.007% |
+| 126  | Glalie             |  0.007% |
+| 127  | Ninetales          |  0.006% |
+| 128  | Kecleon            |  0.006% |
+| 129  | Diglett            |  0.006% |
+| 130  | Qwilfish           |  0.006% |
+| 131  | Grumpig            |  0.006% |
+| 132  | Azumarill          |  0.005% |
+| 133  | Absol              |  0.005% |
+| 134  | Clefable           |  0.004% |
+| 135  | Manectric          |  0.004% |
+| 136  | Sableye            |  0.004% |
+| 137  | Hitmonlee          |  0.004% |
+| 138  | Pinsir             |  0.004% |
+| 139  | Golduck            |  0.004% |
+| 140  | Kingler            |  0.003% |
+| 141  | Haunter            |  0.003% |
+| 142  | Sneasel            |  0.003% |
+| 143  | Piloswine          |  0.003% |
+| 144  | Sharpedo           |  0.002% |
+| 145  | Dunsparce          |  0.002% |
+| 146  | Politoed           |  0.002% |
+| 147  | Girafarig          |  0.002% |
+| 148  | Trapinch           |  0.002% |
+| 149  | Granbull           |  0.002% |
+| 150  | Roselia            |  0.002% |
+| 151  | Rapidash           |  0.002% |
+| 152  | Vigoroth           |  0.002% |
+| 153  | Meganium           |  0.002% |
+| 154  | Rattata            |  0.001% |
+| 155  | Victreebel         |  0.001% |
+| 156  | Whiscash           |  0.001% |
+| 157  | Magcargo           |  0.001% |
+| 158  | Gastly             |  0.001% |
+| 159  | Wigglytuff         |  0.001% |
+| 160  | Beedrill           |  0.001% |
+| 161  | Abra               |  0.001% |
+| 162  | Meditite           |  0.001% |
+| 163  | Lickitung          |  0.001% |
+
+What would happen if OU and BL updated using these stats:
+
+Moltres moves from BL to OU
+Porygon2 moves from OU to BL
+Raikou moves from OU to BL
+Regice moves from OU to BL
+
+Other stuff I noticed:
+Gengar and Blissey aren't used a whole lot despite being very high on the viability rankings.
+Snorlax and Swampert are among the most common despite not being the most viable.
+Mr. Mime averaged almost 2% usage, more than all the D-rank Pokemon.
+
+Edit: Note that I gave the same weight to each month when calculating averages and completely ignored things like battles per month. Also I truncated each number at 3 decimal places, so the numbers in this post can be up to 0.001% off.
+
+Edit: This calculator now has its own GitHub repository.
+
+### post 8334208 author=ed06288 url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/#post-8334208
+Claydol still underused. Dodges earthquake, absorbs rock slide well, immune to sandstorm. Comes with rapid spin and psychic to punish Gengar switch in.
+
+For the sake of nominating a lesser used pokemon, you'd think blaziken could see more play. Can beat the duo of blissey/skarmory and can pack thunderpunch to punish counters like gyarados.
+
+Having played religiously for at least 2 years, I think Tyranitar, Blissey, Skarmory, and Gengar are the best. Gengar slowly grew on me over time. He's sneaky good.
+
+### post 8334218 author=ed06288 url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/#post-8334218
+sumwun said:
+
+Moltres moves from BL to OU
+Porygon2 moves from OU to BL
+Raikou moves from OU to BL
+Regice moves from OU to BL
+
+Other stuff I noticed:
+Gengar and Blissey aren't used a whole lot despite being very high on the viability rankings.
+Snorlax and Swampert are among the most common despite not being the most viable.
+Mr. Mime averaged almost 2% usage, more than all the D-rank Pokemon.
+
+Click to expand...
+
+@sumwun I was wondering if they could update rankings. I know gen 3 is old but I feel there are some subtle changes to be made. I have noticed moltres is pretty popular with the regulars. I play it occasionally, it always seems to haul its weight. And really, porygon2 isn't he best? I guess I could see that. I don't know. I some him as strong but niche.
+
+Raikou's pressure ability occasionally gives me problems. Regice has a million problems but blissey gets boring after a while.
+
+And yeah, Blissey is busted. Gengar is both busted and overrated in part because there's so few ghost types. Snorlax feels like a liability sometimes. Still really good. I disagree on swampert, it's both a nice pivot point and hits back fairly hard.
+
+### post 8334234 author=ed06288 url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/#post-8334234
+Can stuff ever be banned or unbanned on pokemon showdown ladder play? Whether it be moves or pokemon? Who's in control of that?
+
+### post 8334278 author=OrangeGuru url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/#post-8334278
+ed06288 said:
+
+Can stuff ever be banned or unbanned on pokemon showdown ladder play? Whether it be moves or pokemon? Who's in control of that?
+
+Click to expand...
+
+For one, yes stuff could get banned/unbanned in theory, but the gen 3 meta has been stabilized for so long that nothing has changed, which means the same reasoning for why things are/are not broken remains the same; so no nothing will likely change in this meta.
+
+Two, Smogon (which is in charge of creating the banlist) very rarely bans individual moves because they prefer a simple banlist. And banning moves on certain pokemon could lead to a slippery slope (i.e banning soft-boiled on Blissey, but not on Togetic). Specifically, the Old Gens council for Gen 3 is in charge of maintaining the meta game for Gen 3. Hope this answered your questions
+
+### post 8335243 author=ed06288 url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/#post-8335243
+Sometimes I wish hidden power wasn't a thing. It was too hard to breed on catridge (for sane people) and doesn't feel "in the spirit of pokemon." This is why I like gen 1 as it has a more vanilla feel to it.
+
+### post 8335266 author=sumwun url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/#post-8335266
+ed06288 said:
+
+For the sake of nominating a lesser used pokemon, you'd think blaziken could see more play. Can beat the duo of blissey/skarmory and can pack thunderpunch to punish counters like gyarados.
+
+Click to expand...
+
+I think the main problem with Blaziken is that its low defenses, relatively low speed, and common weaknesses make it bad at checking most fast offensive Pokemon, including Gyarados. Max speed Gyardos outspeeds and one-shots max speed Blaziken.
+
+0 SpA Blaziken Thunder Punch vs. 68 HP / 0 SpD Gyarados: 238-280 (68.3 - 80.4%) -- guaranteed 2HKO after Leftovers recovery
+252+ Atk Gyarados Hidden Power Flying vs. 80 HP / 0 Def Blaziken: 328-386 (102.1 - 120.2%) -- guaranteed OHKO
+
+Defensive "SkarmBliss" teams can usually counter Blaziken with Gengar, Swampert, or some other bulky water.
+
+ed06288 said:
+
+@sumwun I was wondering if they could update rankings. I know gen 3 is old but I feel there are some subtle changes to be made. I have noticed moltres is pretty popular with the regulars. I play it occasionally, it always seems to haul its weight. And really, porygon2 isn't he best? I guess I could see that. I don't know. I some him as strong but niche.
+
+Click to expand...
+
+If you want to update the rankings, you should post in that thread, not this one. I'm pretty sure this thread is just for casual discussion.
+
+ed06288 said:
+
+Can stuff ever be banned or unbanned on pokemon showdown ladder play? Whether it be moves or pokemon? Who's in control of that?
+
+Click to expand...
+
+Smogon tiering policy: https://www.smogon.com/forums/threads/tiering-policy-framework.3628026/
+Old generation councils: https://www.smogon.com/forums/threads/old-generation-councils.3622472/
+In case you're wondering, the most recent ban/clause change in RSE OU was the baton pass nerf. Additionally, if you have an idea for banning or unbanning something and want to play with that idea, then you can try hosting your own pet mod or tournament.
+
+### post 8335280 author=ed06288 url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/#post-8335280
+Thanks for the detailed reply I'll dig around in those links. I probably won't bother the councils too much. I just want to have a place to blab about hypothetical changes to the format. I also like derailing threads into discussion about bad pokemon lol.
+
+### post 8335356 author=pasy_g url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/#post-8335356
+sumwun said:
+
+I think the main problem with Blaziken is that its low defenses, relatively low speed, and common weaknesses make it bad at checking most fast offensive Pokemon, including Gyarados. Max speed Gyardos outspeeds and one-shots max speed Blaziken.
+
+0 SpA Blaziken Thunder Punch vs. 68 HP / 0 SpD Gyarados: 238-280 (68.3 - 80.4%) -- guaranteed 2HKO after Leftovers recovery
+252+ Atk Gyarados Hidden Power Flying vs. 80 HP / 0 Def Blaziken: 328-386 (102.1 - 120.2%) -- guaranteed OHKO
+
+Defensive "SkarmBliss" teams can usually counter Blaziken with Gengar, Swampert, or some other bulky water.
+
+Click to expand...
+
+I'll have to heavily disagree on that part. The SkarmBliss teams "Beerlover Style" are actually the best food a Blaziken can get. Gengar does an absolutely horrible job at countering blaziken, if anything it functions as a switchin to Gengar, thanks to being one of the few Pokemon that can safely switch into Will-o-Wisp. The combination of Fighting- (Tyranitar, Blissey) Fire-STAB (Gengar, Skarmory) and a Hidden Power Grass (Swampert, Starmie) makes it extremely hard to keep a Blaziken under control. Just spamming Fighting moves already does a great job at hitting bulky waters very hard, Milotic and Starmie are the only Pokemon you could consider to be a counter, but Starmie already has a lot of problems switching into those moves if it doesn't carry Recover (which they often don't run on that specific team).
+
+Outside of that its usually lackluster vs more offensive teams, because of the speed issue you mentioned. A Zapdos, very fast Suicune, Celebi + Jirachi, Salamence, Aerodactyl and what now are faster and often have moves to heavily damage, if not right out kill it. That doesnt mean it cant do anything versus these teams tho, if you can position a Blaziken versus those kind of teams they might have troubles switching in or you can use it to damage a defensive backbone like Swampert to open up for other mons on the team (positioning via doubleswitch or BP on Snorlax for example).
+
+While Gyarados usually is a good answer to Blaziken, its not really played in an amount to make it a prime example of why Blazikens usage is so low. The bigger issues are Dugtrio (which is a big reason for invalidating a lot of Pokemon that could have potential), combination of Spikes and Sandstorm weakness, Salamence (which usually does pretty similar things to Gyarados, but is played more often) and ultimatively the lack of "creativity" (if we wanna call it that) and the lack of willingness to play something outside of comfort zone or commonly accepted good strategies.
+
+I think this is a good time to tell anyone who reads this, if something pops in your head or you want to try something crazy, just go for it. Maybe dont first time try something in a tournament, but think about "crazy" sets or rarely played mons and see how things go. Theorycrafting doesn't always reflect how things play out in reality (it rarely does, lol, unless you have a crazy deep understanding of the game, which probably nobody even has). Trying out new stuff is fun and helps to advance the metagame and here and then you might even find something new, gamebreaking, metagamechanging, which you surely wouldn't if you copied the best winrate teams and only play games down your formula - trap, spin, boost, rest, boost, pray you don't get crit, otherwise cry, im on the magdol-high.
+
+### post 8335769 author=sumwun url=https://www.smogon.com/forums/threads/set-dump-team-dump-and-previously-general-metagame-discussion.3648620/#post-8335769
+ed06288 said:
+
+PEOPLE ARE ABSOLUTELY TERRIBLE AT EVALUATING MOVES. THEY WILL SEE THE WORST POSSIBLE SCENARIO AND CONFLATE THAT TO EPIC PROPORTIONS. ADD IN THE MYTHS AND LEGENDS OF THE MIGHTY DOUBLE TEAM, AND YOU HAVE PEOPLE WHO HAVE NEVER EVEN PLAYED WITH THE MOVE SPREADING CAMPFIRE STORIES ABOUT IT
+
+Click to expand...
+
+Is this referring to baton pass or something else?
+
+pasy_g said:
+
+I'll have to heavily disagree on that part. The SkarmBliss teams "Beerlover Style" are actually the best food a Blaziken can get. Gengar does an absolutely horrible job at countering blaziken, if anything it functions as a switchin to Gengar, thanks to being one of the few Pokemon that can safely switch into Will-o-Wisp. The combination of Fighting- (Tyranitar, Blissey) Fire-STAB (Gengar, Skarmory) and a Hidden Power Grass (Swampert, Starmie) makes it extremely hard to keep a Blaziken under control. Just spamming Fighting moves already does a great job at hitting bulky waters very hard, Milotic and Starmie are the only Pokemon you could consider to be a counter, but Starmie already has a lot of problems switching into those moves if it doesn't carry Recover (which they often don't run on that specific team).
+
+Click to expand...
+
+I admit that I've never seen a good player use a Blaziken. Every Blaziken I've faced was from a low ladder noob and easily got countered by whatever bulky water I had.

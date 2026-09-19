@@ -1,0 +1,56 @@
+Haunter @ Lum Berry  
+Ability: Levitate  
+EVs: 16 HP / 252 SpA / 240 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Psychic  
+- Thunderbolt  
+- Destiny Bond  
+- Taunt  
+
+Dewgong @ Leftovers  
+Ability: Thick Fat  
+EVs: 40 HP / 252 SpA / 216 Spe  
+Modest Nature  
+- Ice Beam  
+- Surf  
+- Hidden Power [Electric]  
+- Encore  
+
+Chimecho @ Leftovers  
+Ability: Levitate  
+EVs: 252 HP / 228 Def / 28 Spe  
+Bold Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Psychic  
+- Hidden Power [Fire]  
+- Calm Mind  
+- Heal Bell  
+
+Golbat @ Choice Band  
+Ability: Inner Focus  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Sludge Bomb  
+- Hidden Power [Ground]  
+- Shadow Ball  
+- Sleep Talk  
+
+Glalie @ Leftovers  
+Ability: Inner Focus  
+EVs: 128 HP / 128 Atk / 252 Spe  
+Jolly Nature  
+- Shadow Ball  
+- Earthquake  
+- Explosion  
+- Spikes  
+
+Flareon @ Salac Berry  
+Ability: Flash Fire  
+EVs: 252 Atk / 4 SpA / 252 Spe  
+Hasty Nature  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Flail  
+- Endure  
+

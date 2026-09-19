@@ -1,0 +1,53 @@
+ADV OU - not that I think this poke is that viable but I'll sell it to you, here goes:
+
+Whitney's Miltank lol (F) @ Leftovers
+Ability: Thick Fat
+EVs: 236 HP / 216 Atk / 40 SpD / 16 Spe
+Adamant Nature
+- Body Slam
+- Shadow Ball
+- Milk Drink
+- Earthquake
+
+Context behind the set:
+Trying to be different with a team I had and kept switching up a team member. First I used Zangoose (cool lead, Immunity niche back when it was a more Toxic-heavy meta, Liechi, Swords Dance, Taunt). Then I had Tauros (CB lead but not on a Mag team). I ultimately fit this Miltank in over either of them (which afforded me to put the Tyranitar I had on the team in the lead). Miltank just ended up being a good physical attacker, still,  like the other two pokes I had on before it, but it could now switch attacks and have that awesome 3 attacks coverage with all the arguably best normal, ghost, and ground moves on one set. It's not as scary of a threat potential like the other two are, but Milk Drink rounds it out as a very useful 50% healing move that can make Miltank have a role defensively that I just could not get with Zangoose or Tauros. Thick Fat on it sort of helped because the only other thing on the team that resisted Ice was a Starmie (rapid spin and being FAST was useful for the team - try Thunder out!).
+
+The EVs were just me trying to balance offense with defense. No real damage calculation benchmarks. Generally speaking...
+Adamant is a big deal so you actually do some lasting damage. (25% chance to OHKO full health 4 HP Dugtrio , meh, but I've seen Snorlax not OHKO Dugtrio with Body Slam before so it ain't too bad). It's a shame you don't quite end up getting the 2HKOs you want, but going first against the things you might 3hko instead of barely 2hko can still help you excecute strategies.
+
+Also while on the subject of the speed....those EVs make it tie with Endeavor Swampert. This thing is in the 100 base speed tier with things like Zapdos and Celebi...holy shit, just remember that!
+
+The HP EVs make 390 hit points. I guess an even number ensures Milk Drink is truly healing 50% and not 49.87% or whatever. I'm anal about that if it happens to work that way.
+
+The little bit of special defense is just to take some Gengar, MixMence, and possible Waters and Zapdos on a bit better. Annoying that most Zapdos are all like near max special attack and just straight out 2hko you anyway, but there are some cases that Milk Drink out-heals the T-bolt damage and you can play the Body Slam para game if desperate and have nothing else to take on Zap.
+
+OK...so...Normal types. What's the deal? Why use this? Well...I describe this Miltank as sort of a mid-rangey combination between Snorlax and Blissey. But they are obviously more viable. We don't really need to debate how it is nothing like a special wall or tank like those two are. I am just compelled to sort of show the things this Miltank has going for it, though, funnily enough.
+
+Why it's like a Snorlax:
+-It provides just about the same  physical presence a traditional snorlax provides. (the same expectations without the self-destruct obviously!)
+-Body Slam  -- good damage and para shenanigans.
+-Comparable or possibly better physical bulk (depends on EVs)
+What it has over Snorlax:
+-Speed
+-50% healing move
+
+Why it's like a Blissey:
+-The 50% recovery move combined with the paralysis possibility from Body Slamming stuff. Able to heal up against certain things (Salamence for example) , or sometimes fish for free turns to heal up fully a la a Porygon2 or a Blissey would. Basically it can last a bit and be used to scout some. A recovery move is highly useful.
+What it has over Blissey:
+-Speed
+-Usually better physical bulk (takes brick break better, wouldn't you say?)
+-Physical attacks like Body Slam (sooooo good), and good coverage with them.
+
+Another possible cool perk: Maybe some old-school opponents will hesitate to status Miltank and the rest of the team since they know Heal Bell is/was usually a move. (ahhh I remember my first team with a Heal Bell Granbull!) But surprise! My recommended set, as you see, is not going to carry Heal Bell. But you are bluffing having it almost automatically when you show you have Miltank. At least it might work this way for some opponents to make them think twice about the future status moves they would want to use.
+
+Recap:
+So the Speed to hit all of Meta, Tar, Swampert. You have the speed advantage to go first against the mainstays in the tier. Possibly even scary shit like slow Gyarados, or an Adamant Breloom which Snorlax and Blissey are just food for. That is what truly makes it shine more than Blissey or Snorlax, but at the same time you can view Miltank as blending some of the neat traits from each of Snorlax and Blissey.
+
+STAB Body Slam is just the bee's knees. Skarm's going to wall you but Miltank has got some longevity and if played right you get it in favorably and throw out a Body Slam and suddenly a paralyzed Skarm becomes a lot more manageable for some teams...makes Rock Slides from Tar that much more scary and able to wear the Skarm down and also alleviates a lot of stuff, like the aforementioned Tar and stuff like Rapid Spin  Starmie from getting Toxic stalled 25% less of the time when Skarm doesn't end up attacking due to full para in a turn. (You want to be original and skilled and not just auto put Magneton on a team with this Miltank, ok?)
+
+Milk Drink to stay in and scout/stall possibly. A real luxury it has combined with the Speed. It is a very self-sufficient, and an efficient, move and a safe option much of the time to want to stay healthy. Balance your offense with defense.
+
+The current analysis for Miltank...I have to laugh at. I mean... Curse is tough to pull off. I've seen it work but it's kind of skill-less. That Psych Up set? If you read it it's amusing what it describes that can be Psyched Up. (Snorlax Curse boosts might be the only thing that makes any sense to want to Psych Up.) It sort of glosses over that it takes a turn to use Psych Up while the opponent (Snorlax, DD Sala, DD Tyra, CM Cune(?!), sure go ahead and Psych Up on that...) probably attack the shit out of you. So then you Psych Up...but what exactly is the plan next against any of the things that it describes you use Psych Up against, especially if the Miltank is low on health at that point? It's so stupid. It needs updating.
+
+Thanks for reading.
+

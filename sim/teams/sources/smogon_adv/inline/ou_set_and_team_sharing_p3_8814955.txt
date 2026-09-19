@@ -1,0 +1,129 @@
+Sets I've been using and have been working consistently over the past 6 months.
+
+Tyranitar @ Salac Berry
+Ability: Sand Stream
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Crunch
+- Pursuit
+- Taunt
+- Fire Blast / HP Grass / etc
+
+TDK and I came up with this when we wanted to use Pursuit Ttar in a fast paced team and I've been liking it a lot when using it. I prefer the bulk in Forry teams, but in some Offense, this set will allow you to prevent Spikes from going up or stuff like Milotic from healing thanks to the max speed investment. More importantly, Salac allows Tyranitar to be pretty clutch in some situations, especially with Pursuit to revenge kill / trap Pokemons that would least expect it. This can be triggered either through pivoting or taking spikes damage. Also Tyranitar is still bulky enough to tank hits from full that'd leave it at <25% such as MixMence BB. Pretty neat vs offMie, Gengar or Salamence, good Breloom partner. Credits to Asta for bringing this in CI3.
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 248 HP / 184 SpD / 76 Spe
+Timid Nature
+IVs: 2 Atk / 30 SpA
+- Thunderbolt
+- Hidden Power [Grass]
+- Agility
+- Baton Pass
+
+This is my go-to Zapdos on Offense now. I prefer this spread to the Calm one because outspeeding Moltres, off Cune, all the 262-range, Heracross and whatever lays beneath 280 allows Zapdos to check a lot of Pokemons. This is still very tanky, you soak two IB from OffMie from example, three IB from Pert (you may die to Sand though), two IP from Offensive Gengar, two FT from Modest Moltres, and max HP is generally good vs Fighters.
+I used to love TW over Agility, but I've grown fan of the later. Agility allows for some pretty creative building/gameplay, and it's a better move to click when you don't have Spikes and are facing Celebi/Blissey, two of Zapdos most common checks. AgilityPass has a ton of potential with many Pokemons that fit in Zapdos offenses (Fighters, MixBreakers like Ttar or even Pert, CMers like Celebi/Jirachi).
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 248 HP / 184 SpD / 76 Spe
+Timid Nature
+- Thunderbolt
+- Toxic
+- Agility
+- Baton Pass
+
+Toxic + AgiPass is very unusual but this set has some cool synergy with a few Pokemons. I like it on CM Chains for the following reasons: you can poison Ttar/Pert, which benefits SubCM Jirachi (if it's Refresh Pert, Jirachi sits on it anyway). You can Toxic Blissey and BP into Celebi. Blissey WILL have to switch out now, which gives Celebi a free turn to BP boosts eventually. BPing an opposite (Roar) Zap or Mence also helps a lot Celebi. Credits to vapicuno for orinigally suggesting Toxic when we were discussing Hidden Powers of choice.
+
+Swampert @ Leftovers
+Ability: Torrent
+Bold Nature
+- Surf
+- Roar
+- Refresh
+- Protect
+
+This might look standard, but I don't think I've seen many Pert with all of Prot/Roar/Refresh before, it's usually Toxic/Refresh or Toxic/Roar. Anyway, I think this set is really sick on teams playing the long game. Roar Pert is just the sturdiest phazer imo, healing while shuffling even in Sand. Toxic ruins defensive Swampert, especially in longer games, so Refresh means it won't be a problem. Very good vs Skarm as a result. I don't think Toxic is That Good because of how prevalent Natural Cure Pokemons are used to deal with Pert. Milotic/Skarm/Forre also don't mind it. As for the EVs, since it's MonoPert you have a lot of liberty with them, just use whatever SpA/SpD/Speed you prefer.
+Not that I invented anything there btw, as Gacu was using this in his TSS.
+
+Swampert @ Leftovers
+Ability: Torrent
+Bold Nature
+- Surf
+- Roar
+- Protect
+- Focus Punch
+
+I think this set is the future of Swampert in high tempo Spikes Offense. Long explanation in spoilers below:
+
+Spoiler
+
+Swampert is a good defensive glue on many teams right? On offensive spikes teams, it easily finds a slot as a "let me not autolose to DDTar, Mence, Meta" etc kind of thing.
+
+So now, what set do you want to use on spikes off with Pert.
+
+A lot of people have been using OffPert because it keeps offensive momentum while being a glue. The problem imo is that OffPert is way too frail, and it usually fails at being a good defensive glue, ESPECIALLY without Protect. Protect goes such a long way on Swampert to stay healthy for its defensive duties.
+
+If you wanna have Protect on Pert, you're losing offensive coverage, but as it's been shown on more defensive kind of teams, MonoPert is can get by very efficiently. Surf pretty much hits everything. Not to mention, Roar + Spikes is really good vs p.much anything that can switch on Surf, beside like Zapdos (not like IB helps a lot there, and Mence which is often naturally checked through other team members, but its probably the biggest tradeoff with this set anyway).
+
+The thing is, Prot/Roar/Surf usually has Toxic on the last slot, which imo is way too slow for off spikes. You'd rather roar most targets to accumulate spikes dmg. The biggest thing tho, is that Blissey gets a free heal on FP-less Swampert, which is actually soooo annoying for spikesoff, esp bc they try to abuse things like Gengar, Jolteon and Starmie. That's where FP is clutch, it just prevents Bliss from healing but it's prob the biggest thing you want to hit for those teams anyway, and even -atk pert does more than enough so you're not sacrificing any bulk or speed/spatk investment. So yeah, summary: you have a real defensive glue on spikes off that maintain the offensive pressure vs p.much everything through roar and focus punch while having protect to keep it healthy.
+
+Salamence @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Naive Nature
+- Dragon Claw
+- Fire Blast
+- Brick Break
+- Roar / Wish
+
+I think HP Grass is far from mandatory on MixMence. I'm a big fan of Wish on Spikesless. WishPass and WishSack have tremendous value on partners like Snorlax. Roar with Spikes has no counters beside SpDef Zap. Having a Phazer is also always clutch defensively to deal with stuff like Suicune/Celebi (and Mence has a really good typing for both). By the way, consider Hasty for some match-ups, 8 HP allows you to always tank Mence DClaw from full, can be clutch if you have Fighters in the back.
+
+Snorlax @ Leftovers
+Ability: Immunity
+EVs: 52 HP / 252 Atk / 68 Def / 136 SpD
+Adamant Nature
+- Curse
+- Earthquake
+- Shadow Ball
+- Self-Destruct
+
+Big fan of this coverage. Early game Lax now doesn't have to be scared of Ttar and Metagross, nor does it Need to get a Gengar removed from play to be threatening. Since you don't wanna waste time booming with it, I like 252+ Atk because it's more damage before the boom (also better rolls vs some defensive Meta). Curse can snowball harder than 4Atk, in some matchups its broken (Sandless usually). Wish support is sick too, check star vs marcop SPL Final game.
+
+Breloom @ Leftovers
+Ability: Effect Spore
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+IVs: 0 HP
+- Substitute
+- Leech Seed
+- Focus Punch
+- Spore
+
+For the historians, this is how Breloom used to be played before its spike to popularity. It doesn't really play like current Loom, I'd argue it has a lower floor but higher celling. SubSeeding (with 0 IV in HP to heal more from Leech) after Sporing can be quite the headache from your opponent. Imo you use it late game to create a situation where Breloom can checkmate the opponent. Sporing one into SubSeeding the other. Use with AgilityPass for crazier results, as outspeeding the entire meta with this set means you can pretty much 1v1 every 'mon in the game.
+
+Forretress @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 8 Atk / 248 SpD
+Careful Nature
+- Spikes
+- Explosion
+- Hidden Power [Bug] / HP Ghost
+- Earthquake / Counter
+
+Spinless Forry. I know people who've been trying ForreDol usually use double spin, but I like how 3 attacking slots allow Forry to threaten every common counterplay. HP Bug for bulkyMie/Claydol/hit on Ttar. HP Ghost for Gengar, and sort of offMie/Claydol. EQ for Meta/Mag/Ttar. Counter for Mag/overall utility. Boom is just good. This also means your Tyranitar doesn't have to be a Pursuit variant now.
+
+Jynx (F) @ Lum Berry
+Ability: Oblivious
+EVs: 200 SpA / 56 SpD / 252 Spe
+Timid Nature
+IVs: 2 Atk / 30 SpA / 30 Spe
+- Lovely Kiss
+- Taunt
+- Hidden Power [Fire]
+- Ice Beam
+
+Great offensive lead with Dug partner. Plays similarly as LeadRaikou except this also has Sleep on top of it. Bit worse vs back pure Water and lead Mence though; altho only CB Jolly, because MixMence won't OHKO if Naive (the 56SpDef EVs are here for that situation). I've theorized many sets, and even consulted HClat the specialist, but I've settled down for this one, as HP Fire and Ice Beam set up traps on Jira/Meta/Ttar and Bliss quite well. Taunt is to prevent Spikes/recovery/potential set ups or subs.
+
+And that's it! I think all those sets have the potential to be easily fit into teams and aren't too nichy. I have many more ideas to test in the future, so until next time :)
+

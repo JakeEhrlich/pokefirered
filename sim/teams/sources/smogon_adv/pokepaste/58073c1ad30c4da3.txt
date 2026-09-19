@@ -1,0 +1,55 @@
+Solrock @ Choice Band  
+Ability: Levitate  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Adamant Nature  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Fighting]  
+- Explosion  
+
+Muk @ Leftovers  
+Ability: Sticky Hold  
+EVs: 212 HP / 24 Atk / 56 Def / 216 SpD  
+Careful Nature  
+- Curse  
+- Sludge Bomb  
+- Mean Look  
+- Rest  
+
+Lapras @ Leftovers  
+Ability: Water Absorb  
+EVs: 12 HP / 252 Def / 212 SpA / 16 SpD / 16 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Ice Beam  
+- Thunderbolt  
+- Heal Bell  
+- Toxic  
+
+Kangaskhan (F) @ Leftovers  
+Ability: Early Bird  
+EVs: 212 HP / 16 Atk / 12 Def / 252 SpD / 16 Spe  
+Adamant Nature  
+- Body Slam  
+- Focus Punch  
+- Wish  
+- Rest  
+
+Hitmontop (M) @ Leftovers  
+Ability: Intimidate  
+EVs: 252 HP / 96 Atk / 124 Def / 16 SpD / 20 Spe  
+Careful Nature  
+- Bulk Up  
+- Brick Break  
+- Hidden Power [Ghost]  
+- Rapid Spin  
+
+Scyther @ Lum Berry  
+Ability: Swarm  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Swords Dance  
+- Silver Wind  
+- Aerial Ace  
+- Hidden Power [Ground]  
+

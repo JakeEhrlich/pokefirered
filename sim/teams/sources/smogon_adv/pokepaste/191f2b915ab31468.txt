@@ -1,0 +1,57 @@
+Tyranitar (M) @ Choice Band
+Ability: Sand Stream
+EVs: 160 Atk / 144 Def / 204 Spd
+IVs: 30 SDef / 30 Spd
+Adamant Nature (+Atk, -SAtk)
+- Focus Punch
+- Earthquake
+- Hidden Power [Bug]
+- Rock Slide
+
+Aerodactyl (M) @ Choice Band
+Ability: Rock Head
+EVs: 4 HP / 252 Atk / 252 Spd
+IVs: 30 HP / 30 Atk / 30 Def / 30 SAtk / 30 SDef
+Jolly Nature (+Spd, -SAtk)
+- Double-Edge
+- Earthquake
+- Hidden Power [Flying]
+- Rock Slide
+
+Salamence (M) @ Silk Scarf
+Ability: Intimidate
+EVs: 252 Atk / 116 SAtk / 140 Spd
+IVs: 30 HP / 30 SAtk
+Naughty Nature (+Atk, -SDef)
+- Double-Edge
+- Fire Blast
+- Brick Break
+- Hidden Power [Grass]
+
+Starmie @ Leftovers
+Ability: Natural Cure
+EVs: 240 HP / 240 Def / 28 Spd
+Timid Nature (+Spd, -Atk)
+- Ice Beam
+- Rapid Spin
+- Recover
+- Surf
+
+Swampert (M) @ Leftovers
+Ability: Torrent
+EVs: 252 HP / 136 Def / 120 SAtk
+Relaxed Nature (+Def, -Spd)
+- Earthquake
+- Ice Beam
+- Protect
+- Hydro Pump
+
+Blissey (F) @ Leftovers
+Ability: Natural Cure
+EVs: 252 Def / 252 SAtk / 4 SDef
+IVs: 30 Atk / 30 SAtk
+Modest Nature (+SAtk, -Atk)
+- Flamethrower
+- Seismic Toss
+- Soft-Boiled
+- Ice Beam

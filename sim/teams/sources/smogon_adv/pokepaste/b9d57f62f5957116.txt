@@ -1,0 +1,55 @@
+Plusle @ Leftovers  
+Ability: Plus  
+EVs: 252 HP / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Substitute  
+- Toxic  
+- Thunderbolt  
+- Baton Pass  
+
+Pidgeot @ Choice Band  
+Ability: Keen Eye  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Double-Edge  
+- Aerial Ace  
+- Hidden Power [Ground]  
+- Quick Attack  
+
+Kecleon @ Leftovers  
+Ability: Color Change  
+EVs: 240 HP / 252 SpD / 16 Spe  
+Careful Nature  
+- Body Slam  
+- Shadow Ball  
+- Rest  
+- Sleep Talk  
+
+Cacturne @ Leftovers  
+Ability: Sand Veil  
+EVs: 12 HP / 168 Atk / 76 SpD / 252 Spe  
+Hasty Nature  
+- Hidden Power [Flying]  
+- Giga Drain  
+- Feint Attack  
+- Spikes  
+
+Golbat @ Leftovers  
+Ability: Inner Focus  
+EVs: 244 HP / 120 Atk / 144 Spe  
+Adamant Nature  
+- Sludge Bomb  
+- Curse  
+- Shadow Ball  
+- Hidden Power [Ground]  
+
+Metang @ Leftovers  
+Ability: Clear Body  
+EVs: 240 HP / 28 Def / 228 SpD / 12 Spe  
+Impish Nature  
+- Meteor Mash  
+- Earthquake  
+- Toxic  
+- Protect  
+

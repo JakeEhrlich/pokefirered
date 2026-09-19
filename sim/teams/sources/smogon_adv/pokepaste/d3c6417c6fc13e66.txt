@@ -1,0 +1,55 @@
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 184 HP / 224 SpA / 100 Spe  
+Quiet Nature  
+- Meteor Mash  
+- Psychic  
+- Hidden Power [Fire]  
+- Explosion  
+
+Raikou @ Leftovers  
+Ability: Pressure  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Calm Mind  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Substitute  
+
+Regice @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 104 Atk / 152 SpA  
+Quiet Nature  
+- Ice Beam  
+- Thunderbolt  
+- Explosion  
+- Thunder Wave  
+
+Tyranitar @ Salac Berry  
+Ability: Sand Stream  
+EVs: 16 HP / 176 Atk / 120 Def / 12 SpA / 184 Spe  
+Naughty Nature  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Grass]  
+- Dragon Dance  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Hasty Nature  
+- Thunderbolt  
+- Ice Punch  
+- Fire Punch  
+- Explosion  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 116 HP / 252 SpA / 140 Spe  
+Rash Nature  
+- Hydro Pump  
+- Ice Beam  
+- Earthquake  
+- Focus Punch  
+

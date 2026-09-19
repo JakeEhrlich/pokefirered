@@ -1,0 +1,58 @@
+Octillery @ Sitrus Berry  
+Ability: Suction Cups  
+EVs: 180 HP / 252 SpA / 72 SpD / 4 Spe  
+Modest Nature  
+IVs: 3 Atk / 30 SpA  
+- Surf  
+- Hidden Power [Electric]  
+- Fire Blast  
+- Thunder Wave  
+
+Hitmonchan @ Leftovers  
+Ability: Keen Eye  
+EVs: 228 HP / 224 Atk / 56 Spe  
+Adamant Nature  
+- Bulk Up  
+- Sky Uppercut  
+- Hidden Power [Ghost]  
+- Mach Punch  
+
+Glalie @ Leftovers  
+Ability: Inner Focus  
+EVs: 252 HP / 4 SpD / 252 Spe  
+Jolly Nature  
+- Spikes  
+- Light Screen  
+- Earthquake  
+- Explosion  
+
+Haunter @ Leftovers  
+Ability: Levitate  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Thunderbolt  
+- Hidden Power [Fire]  
+- Will-O-Wisp  
+- Skill Swap  
+
+Kecleon @ Leftovers  
+Ability: Color Change  
+Shiny: Yes  
+EVs: 252 HP / 152 Atk / 88 Def / 16 SpD  
+Careful Nature  
+- Counter  
+- Shadow Ball  
+- Thunder Wave  
+- Protect  
+
+Chimecho @ Leftovers  
+Ability: Levitate  
+EVs: 216 HP / 148 SpA / 144 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Psychic  
+- Hidden Power [Fire]  
+- Calm Mind  
+- Heal Bell  
+

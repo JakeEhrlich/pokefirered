@@ -1,0 +1,140 @@
+Hi everyone! I'm going share some sets and team I've been working on. I'm pretty new to ADV so if the team isn't very good you know the exact reason.
+
+SunnyBeam Claydol-
+
+Claydol @ Leftovers
+Ability: Levitate
+EVs: 108 Atk / 204 Def / 52 SpA / 144 Spe
+Naughty Nature
+- Sunny Day
+- Solar Beam
+- Rapid Spin
+- Earthquake
+
+The point of the set is to catch swampert but the problem is that you don't OHKO it(I'm not about to run 252 SpA modest and sacrifice my defensive prowess). It also serves the purpose of changing the weather so flail / reversal users don't have to worry about sand as much. The evs allow you to live a banded metagross meteor mash for clutch situations. It has enough speed so it can out speed 252 speed adament t-tar and the SpA allows you to OHKO standard offensive pert with solar beam and make a huge dent in defensive pert. It has enough Atk so it always 2hkoes banded t-tar and 3hkoes special t-tar while special t-tar can't 3hkoe you back.
+
+Hidden Power Fire Claydol
+
+Claydol @ Leftovers
+Ability: Levitate
+EVs: 84 Atk / 16 Def / 252 SpA / 8 SpD / 148 Spe
+Rash Nature
+- Ice Beam / Psychic
+- Explosion / Rapid Spin
+- Earthquake
+- Hidden Power [Fire]
+
+This utilizes Hidden Power Fire as a deadly surprise for Forretresses and Skarms alike. Any forretress under 60% will wish it didn't switch in and Skarm will wish those HP Fires weren't able to 4hkoe it or take 2 HP Fires and 1 explosion. Offensive Skarm gets 2hkoed by HP Fire and fails to 2hkoe claydol back. The speed is to out pace 252 Adamant Speed t-tar and the SpA gives you the best chance to beat Wish Mence with sand up. 84 Atk OHKOes milotic as long as sand is up and they don't recover of the turn you explode. 8 SpDef allows you to live 3 consecutive HP Grasses from special t-tar.
+
+Mirror Coat Suicune-
+
+Suicune @ Leftovers
+Ability: Pressure
+EVs: 240 HP / 160 Def / 100 SpD / 8 Spe
+Bold Nature
+IVs: 0 Atk
+- Mirror Coat
+- Surf
+- Rest
+- Calm Mind
+
+By far, my favorite tec to have ever made. The sets purpose is to catch mons like starmie, gengar, CM Blissey, zapdos, raikou, and more Special attackers off guard. It has enough SpDef to live a +6 modest t-bolt from blissey as long as you have 1 CM up(Thats gonna be one heck of a mirror coat). It has enough HP so it always lives 4 seismic tosses and 8 speed allows it to out pace jolly wak and 4 speed suicunes.
+
+The biggest downside is that it usually only works once. Once the opponent knows about the mirror coat tec its easier to avoid losing one if their mons. However, this can create some interesting mind games and 50/50s that would normally end up in your loss. Overall, it can be a very useful team mate or just another sack.
+
+Heres a team I built using the some of the mons above:
+
+Paste
+
+Blaziken @ Salac Berry
+Ability: Blaze
+EVs: 252 Atk / 4 SpA / 252 Spe
+Hasty Nature
+- Endure
+- Overheat
+- Rock Slide
+- Sky Uppercut
+
+Suicune @ Leftovers
+Ability: Pressure
+EVs: 240 HP / 160 Def / 100 SpD / 8 Spe
+Bold Nature
+IVs: 0 Atk
+- Mirror Coat
+- Surf
+- Rest
+- Calm Mind
+
+Claydol @ Leftovers
+Ability: Levitate
+EVs: 108 Atk / 204 Def / 52 SpA / 144 Spe
+Naughty Nature
+- Sunny Day
+- Solar Beam
+- Rapid Spin
+- Earthquake
+
+Dugtrio @ Choice Band
+Ability: Arena Trap
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Earthquake
+- Rock Slide
+- Aerial Ace
+- Hidden Power [Bug]
+
+Celebi @ Leftovers
+Ability: Natural Cure
+EVs: 232 HP / 140 Def / 96 SpA / 40 Spe
+Timid Nature
+IVs: 2 Atk / 30 Def
+- Calm Mind
+- Baton Pass
+- Hidden Power [Ice]
+- Recover
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 144 Def / 112 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Hidden Power [Ice]
+- Agility
+- Roar
+
+Replays:
+
+McMeghan Lead Raikou: https://replay.pokemonshowdown.com/gen3ou-1208346034-mj7ekl8aewaud873fo4g03xrpx5os64pw
+BKC SkarmMag: https://replay.pokemonshowdown.com/gen3ou-1208353075-w5zi5hifqv6o4o29v7zrd0tiztyir5qpw
+SkarmBliss: https://replay.pokemonshowdown.com/gen3ou-1208635106-7txwb404bbnfwgtr6f9l7kmaw853yehpw
+Beat Up Dug: https://replay.pokemonshowdown.com/gen3ou-1208629227-g80v81uom9kgv0z93rr0mi2uihupvfepw
+
+Mixed Metagross Sets
+
+Mixed gross sets aren't brand new to the meta game but I wanted to share some sets I've been using.
+
+Metagross @ Leftovers / Metal Coat
+Ability: Clear Body
+Shiny: Yes
+EVs: 184 HP / 184 SpA / 140 SpD
+Quiet Nature
+- Psychic
+- Ice Punch
+- Hidden Power [Fire]
+- Meteor Mash / Explosion
+
+This set's main purpose is to catch and destroy mence. It has a 93.8% chance to live a banded mence / t-tar / gross eq at full HP and can kill it back with ice punch. The ev's are to live hard hitting banded mons listed above and get 3hkoed by timid 252 SpA Starmie just in case you need it to clutch. Meteor Mash is my go to move of choice but if you want a move that can produce incredible amounts of damage Explosion is what you want. Metal Coat is also an option over Lefties because its not a dead giveaway that your not banded and you still have a little more power with meteor mash.
+
+Metagross @ Leftovers  / Metal Coat
+Ability: Clear Body
+EVs: 184 HP / 36 Atk / 4 Def / 44 SpA / 136 SpD / 104 Spe
+Modest Nature
+- Hidden Power [Grass]
+- Meteor Mash
+- Earthquake
+- Explosion
+
+These evs may seem a little odd but I swear there's a purpose. The 184 HP gives you the 93.8% to live those strong banded attacks but coupled with the 4 Def you guarantee live them(As long as they don't crit). The SpA is to 4hko claydol if you can bombard them with repeated HP Grasses. It should also be mentioned that Meteor Mash still does more to the standard Claydol set. The SpDef is for the same reason as the set above, to avoid getting 3hkoed by hydro pump. 104 speed is able to outspeed mons that hit 201 speed, notably "standard" DD t-tar. Explosion allows it to nuke bulky waters that HP Grass can't do much against like milotic and suicune.
+
+Hope you enjoyed reading!
+

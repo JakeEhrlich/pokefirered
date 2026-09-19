@@ -1,0 +1,1441 @@
+Zap Dug GULL
+My attempt to use Pelipper in Adv
+used Week 1 Vs Zacpz 
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 252 SpA / 60 SpD / 196 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Substitute  
+- Baton Pass  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 240 HP / 248 SpA / 20 Spe  
+Rash Nature  
+- Meteor Mash  
+- Psychic  
+- Hidden Power [Fire]  
+- Explosion  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 76 SpA / 180 Spe  
+Modest Nature  
+IVs: 3 Atk / 30 SpA  
+- Calm Mind  
+- Baton Pass  
+- Giga Drain  
+- Hidden Power [Electric]  
+
+Flock Up!!! (Pelipper) @ Leftovers  
+Ability: Keen Eye  
+EVs: 248 SpA / 32 SpD / 228 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Hydro Pump  
+- Ice Beam  
+- Hidden Power [Grass]  
+- Agility  
+
+Dugtrio @ Choice Band  
+Ability: Arena Trap  
+EVs: 40 HP / 144 Atk / 100 SpD / 224 Spe  
+Jolly Nature  
+- Earthquake  
+- Hidden Power [Bug]  
+- Aerial Ace  
+- Beat Up  
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 96 SpA / 160 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Substitute  
+- Surf  
+- Ice Beam  
+
+CB Tar Star
+As many of you know im a big fan of CB Tar my first Cb Tar creation of last season (dont worry theres gonna be more)
+Week 1 Vs Zacpz
+
+Tyranitar @ Choice Band  
+Ability: Sand Stream  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Rock Slide  
+- Earthquake  
+- Brick Break  
+- Double-Edge  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Mild Nature  
+- Dragon Claw  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Brick Break  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 240 SpD / 16 Spe  
+Careful Nature  
+- Spikes  
+- Drill Peck  
+- Toxic  
+- Roar  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 236 SpA / 20 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Thunder Wave  
+- Ice Beam  
+- Seismic Toss  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 252 Atk / 88 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Explosion  
+- Agility  
+
+Starmie @ Leftovers  
+Ability: Natural Cure  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Hydro Pump  
+- Thunderbolt  
+- Ice Beam  
+- Rapid Spin  
+
+Lunatone Weather Clear
+My opp this weak loved cb mence stuff so lunatone was a fun niche choice i decided to bring
+Week 2 Vs Saint Ome
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 104 HP / 224 SpA / 180 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Roar  
+- Baton Pass  
+
+Dugtrio @ Choice Band  
+Ability: Arena Trap  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Hidden Power [Bug]  
+- Rock Slide  
+- Aerial Ace  
+
+Exeggutor @ Lum Berry  
+Ability: Chlorophyll  
+EVs: 44 Atk / 248 SpA / 216 Spe  
+Mild Nature  
+- Sunny Day  
+- Solar Beam  
+- Hidden Power [Fire]  
+- Explosion  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 240 HP / 248 SpA / 20 Spe  
+Rash Nature  
+- Meteor Mash  
+- Psychic  
+- Hidden Power [Fire]  
+- Explosion  
+
+Lunatone @ Leftovers  
+Ability: Levitate  
+EVs: 248 HP / 72 Def / 96 SpA / 92 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Baton Pass  
+- Ice Beam  
+- Hypnosis  
+
+Heracross @ Salac Berry  
+Ability: Swarm  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Swords Dance  
+- Megahorn  
+- Reversal  
+- Endure  
+
+Zap Dug DD Tar
+Week 2 Vs Saint Ome
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 220 SpA / 108 SpD / 180 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Substitute  
+- Baton Pass  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 248 Atk / 92 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Explosion  
+- Agility  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 76 SpA / 180 Spe  
+Modest Nature  
+IVs: 3 Atk / 30 SpA  
+- Calm Mind  
+- Baton Pass  
+- Giga Drain  
+- Hidden Power [Electric]  
+
+Dugtrio @ Choice Band  
+Ability: Arena Trap  
+EVs: 40 HP / 144 Atk / 100 SpD / 224 Spe  
+Jolly Nature  
+- Earthquake  
+- Hidden Power [Bug]  
+- Aerial Ace  
+- Beat Up  
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 100 HP / 240 SpA / 168 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Hydro Pump  
+- Ice Beam  
+- Roar  
+
+Tyranitar @ Lum Berry  
+Ability: Sand Stream  
+EVs: 24 Atk / 232 SpA / 252 Spe  
+Lonely Nature  
+- Rock Slide  
+- Dragon Dance  
+- Fire Blast  
+- Hidden Power [Grass]  
+
+Venu Suit Tar Aero
+Was trying out a lot of Venu on ladder this week
+Week 3 Vs Im The Jarl
+
+Venusaur @ Leftovers  
+Ability: Overgrow  
+EVs: 8 HP / 192 SpA / 56 SpD / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 Def  
+- Sleep Powder  
+- Leech Seed  
+- Razor Leaf  
+- Hidden Power [Ice]  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 252 HP / 176 Def / 36 SpA / 44 Spe  
+Relaxed Nature  
+- Hydro Pump  
+- Earthquake  
+- Ice Beam  
+- Focus Punch  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 240 SpD / 16 Spe  
+Careful Nature  
+- Spikes  
+- Roar  
+- Toxic  
+- Drill Peck  
+
+Magneton @ Magnet  
+Ability: Magnet Pull  
+EVs: 56 HP / 252 SpA / 200 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Thunderbolt  
+- Hidden Power [Fire]  
+- Toxic  
+- Thunder Wave  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 252 SpA / 8 Spe  
+Modest Nature  
+- Crunch  
+- Pursuit  
+- Counter  
+- Focus Punch  
+
+Aerodactyl @ Choice Band  
+Ability: Rock Head  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Double-Edge  
+- Earthquake  
+- Hidden Power [Bug]  
+- Rock Slide  
+
+CM Bliss Mence Aero Spikes
+heavily influenced by some of cowboy dans teams
+Week 3 Vs Im The Jarl
+
+Tyranitar @ Lum Berry  
+Ability: Sand Stream  
+EVs: 8 Atk / 248 SpA / 252 Spe  
+Naive Nature  
+- Ice Beam  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Brick Break  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Mild Nature  
+- Dragon Claw  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Brick Break  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 240 SpD / 16 Spe  
+Careful Nature  
+- Spikes  
+- Drill Peck  
+- Toxic  
+- Roar  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 252 SpA / 4 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Calm Mind  
+- Ice Beam  
+- Thunderbolt  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 136 Def / 80 SpA / 44 Spe  
+Relaxed Nature  
+- Hydro Pump  
+- Ice Beam  
+- Earthquake  
+- Focus Punch  
+
+Aerodactyl @ Choice Band  
+Ability: Rock Head  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Bug]  
+- Double-Edge  
+
+Anti Aero Superman
+Inspired by Redless's video on ASS and because my opp was a big fan of Aero themselves 
+Week 3 Vs Im the Jarl
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 252 SpA / 8 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Crunch  
+- Pursuit  
+- Fire Blast  
+- Hidden Power [Grass]  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 4 Def / 252 SpD  
+Careful Nature  
+IVs: 0 Atk  
+- Spikes  
+- Roar  
+- Toxic  
+- Protect  
+
+Jirachi @ Leftovers  
+Ability: Serene Grace  
+EVs: 248 HP / 184 Def / 24 SpA / 32 SpD / 20 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Wish  
+- Fire Punch  
+- Protect  
+- Toxic  
+
+Aerodactyl @ Choice Band  
+Ability: Rock Head  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Bug]  
+- Double-Edge  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 220 SpD / 36 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Thunderbolt  
+- Toxic  
+- Rest  
+- Roar  
+
+Flygon @ Leftovers  
+Ability: Levitate  
+EVs: 248 HP / 196 Def / 24 SpD / 40 Spe  
+Impish Nature  
+- Earthquake  
+- Rock Slide  
+- Toxic  
+- Protect  
+
+Jask Smeargle
+Variation of Hclats Jask team pretty goodinto my opp this weeks favorite kind of structures
+Week 4 Vs Sato
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 252 HP / 240 Atk / 16 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Rock Slide  
+- Explosion  
+
+Smeargle @ White Herb  
+Ability: Own Tempo  
+EVs: 12 HP / 252 SpD / 244 Spe  
+Jolly Nature  
+IVs: 0 Atk  
+- Wish  
+- Spore  
+- Substitute  
+- Baton Pass  
+
+Ninjask @ Leftovers  
+Ability: Speed Boost  
+EVs: 252 HP / 236 SpD / 20 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Protect  
+- Baton Pass  
+- Toxic  
+- Substitute  
+
+Marowak @ Thick Club  
+Ability: Rock Head  
+EVs: 44 HP / 216 Atk / 248 Spe  
+Adamant Nature  
+- Swords Dance  
+- Earthquake  
+- Rock Slide  
+- Hidden Power [Bug]  
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 8 Def / 176 SpA / 72 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Surf  
+- Roar  
+- Substitute  
+
+Magneton @ Magnet  
+Ability: Magnet Pull  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Thunder Wave  
+- Reflect  
+
+Generic Zap Dug With Starmie
+Week 4 Vs Sato
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 252 SpA / 60 SpD / 196 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Substitute  
+- Baton Pass  
+
+Dugtrio @ Choice Band  
+Ability: Arena Trap  
+EVs: 80 HP / 160 Atk / 172 SpD / 96 Spe  
+Jolly Nature  
+- Earthquake  
+- Beat Up  
+- Aerial Ace  
+- Hidden Power [Bug]  
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 96 SpA / 160 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Ice Beam  
+- Substitute  
+- Surf  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 220 HP / 112 SpA / 176 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Calm Mind  
+- Baton Pass  
+- Hidden Power [Grass]  
+- Psychic  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 252 Atk / 88 Spe  
+Adamant Nature  
+- Agility  
+- Earthquake  
+- Explosion  
+- Meteor Mash  
+
+Starmie @ Leftovers  
+Ability: Natural Cure  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Hydro Pump  
+- Ice Beam  
+- Thunderbolt  
+- Psychic  
+
+Forre Suicune Sub Rachi
+One of my favorite forre structures inspired by a Callous team and just tweaked for my preferences
+Week 4 Vs Sato
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 240 HP / 252 SpA / 16 SpD  
+Modest Nature  
+IVs: 0 Atk  
+- Crunch  
+- Pursuit  
+- Ice Beam  
+- Fire Blast  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Mild Nature  
+- Dragon Claw  
+- Brick Break  
+- Fire Blast  
+- Hidden Power [Grass]  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 112 HP / 252 Def / 144 SpA  
+Bold Nature  
+IVs: 0 Atk  
+- Ice Beam  
+- Seismic Toss  
+- Soft-Boiled  
+- Thunder Wave  
+
+Forretress @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 4 Def / 252 SpD  
+Careful Nature  
+- Spikes  
+- Zap Cannon  
+- Rapid Spin  
+- Earthquake  
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 240 HP / 244 Def / 24 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Rest  
+- Roar  
+- Surf  
+
+Jirachi @ Leftovers  
+Ability: Serene Grace  
+EVs: 252 HP / 104 SpA / 152 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Ice Punch  
+- Substitute  
+- Thunderbolt  
+
+Politoed Jolt Spikes
+Team inspired by DA. played my brother this week so i wanted to have some fun with it
+Week 5 Vs Supersam
+
+Politoed  
+Ability: Water Absorb  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Thief  
+- Hypnosis  
+- Hydro Pump  
+- Ice Beam  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 156 SpD / 100 Spe  
+Careful Nature  
+- Spikes  
+- Roar  
+- Drill Peck  
+- Taunt  
+
+Jolteon @ Leftovers  
+Ability: Volt Absorb  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Baton Pass  
+- Roar  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 8 HP / 84 Def / 240 SpA / 176 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Will-O-Wisp  
+- Destiny Bond  
+- Thunderbolt  
+- Ice Punch  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 252 HP / 252 Atk / 4 Def  
+Adamant Nature  
+- Rock Slide  
+- Earthquake  
+- Focus Punch  
+- Hidden Power [Bug]  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 164 HP / 240 SpA / 104 Spe  
+Quiet Nature  
+- Meteor Mash  
+- Psychic  
+- Hidden Power [Fire]  
+- Explosion  
+
+Zap Dug Triple Dog
+yea its not good but very fun lol
+Week 5 Vs Supersam
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 252 SpA / 104 SpD / 152 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Sunny Day  
+- Baton Pass  
+
+Dugtrio @ Choice Band  
+Ability: Arena Trap  
+EVs: 40 HP / 144 Atk / 100 SpD / 224 Spe  
+Jolly Nature  
+- Earthquake  
+- Beat Up  
+- Hidden Power [Bug]  
+- Aerial Ace  
+
+Walking Wake? (Suicune) @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 96 SpA / 160 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Substitute  
+- Calm Mind  
+- Surf  
+- Ice Beam  
+
+Raging Bolt? (Raikou) @ Leftovers  
+Ability: Pressure  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 Def  
+- Substitute  
+- Calm Mind  
+- Thunderbolt  
+- Hidden Power [Ice]  
+
+Gouging Fire? (Entei) @ Leftovers  
+Ability: Pressure  
+EVs: 132 HP / 192 SpA / 184 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Substitute  
+- Calm Mind  
+- Flamethrower  
+- Hidden Power [Grass]  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 252 Atk / 88 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Explosion  
+- Agility  
+
+Starmie DD Tar Aero spikes
+made this team to play Ghostfall but the set ended up in activity but overall liked this team. crazy good on ladder, 
+Week 6 Vs Ghostfall and Week 7 Vs TyCarter
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 80 Atk / 8 Def / 172 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Rock Slide  
+- Earthquake  
+- Double-Edge  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 216 Def / 44 SpD  
+Relaxed Nature  
+- Hydro Pump  
+- Ice Beam  
+- Earthquake  
+- Protect  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 252 SpA / 4 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Ice Beam  
+- Seismic Toss  
+- Toxic  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 248 HP / 248 SpD / 12 Spe  
+Careful Nature  
+- Spikes  
+- Toxic  
+- Drill Peck  
+- Roar  
+
+Aerodactyl @ Choice Band  
+Ability: Rock Head  
+EVs: 228 Atk / 28 SpD / 252 Spe  
+Jolly Nature  
+- Rock Slide  
+- Double-Edge  
+- Earthquake  
+- Hidden Power [Bug]  
+
+Starmie @ Leftovers  
+Ability: Natural Cure  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Hydro Pump  
+- Ice Beam  
+- Thunderbolt  
+- Rapid Spin  
+
+Rose Spikes
+Another i made for playing Ghostfall i only used on ladder but its pretty fun
+Week 6 Vs Ghostfall
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 80 Atk / 8 Def / 172 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Rock Slide  
+- Earthquake  
+- Double-Edge  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 216 Def / 44 Spe  
+Relaxed Nature  
+- Hydro Pump  
+- Earthquake  
+- Ice Beam  
+- Focus Punch  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 120 Atk / 236 SpA / 152 Spe  
+Mild Nature  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Thunder Wave  
+- Drill Peck  
+
+Roselia @ Leftovers  
+Ability: Natural Cure  
+EVs: 248 HP / 8 SpA / 196 SpD / 56 Spe  
+Calm Nature  
+IVs: 2 Atk / 30 SpA  
+- Spikes  
+- Stun Spore  
+- Leech Seed  
+- Hidden Power [Grass]  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 248 HP / 40 Def / 32 SpD / 188 Spe  
+Timid Nature  
+- Will-O-Wisp  
+- Ice Punch  
+- Thunderbolt  
+- Explosion  
+
+Aerodactyl @ Choice Band  
+Ability: Rock Head  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Rock Slide  
+- Earthquake  
+- Double-Edge  
+- Hidden Power [Bug]  
+
+CB Tar Paraspam
+probably my favorite team i made this season built it based off a team Mayopocket wanted me to help them fix. 
+Week 7 Vs TyCarter
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 120 Atk / 212 SpA / 176 Spe  
+Mild Nature  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Thunder Wave  
+- Drill Peck  
+
+Tyranitar @ Choice Band  
+Ability: Sand Stream  
+EVs: 72 HP / 184 Atk / 40 Def / 212 Spe  
+Adamant Nature  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Bug]  
+- Focus Punch  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 124 Def / 248 SpA / 136 Spe  
+Rash Nature  
+- Hydro Pump  
+- Earthquake  
+- Ice Beam  
+- Focus Punch  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 248 HP / 240 SpD / 20 Spe  
+Careful Nature  
+- Spikes  
+- Drill Peck  
+- Toxic  
+- Roar  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 252 SpA / 4 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Thunder Wave  
+- Ice Beam  
+- Seismic Toss  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 252 Atk / 88 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Explosion  
+- Agility  
+
+CB Tar Double Bird
+Inspired by the homie Udm and very specifcally teched for my opp River(Imposter) this week
+Week 8 Vs River 
+
+Tyranitar @ Choice Band  
+Ability: Sand Stream  
+EVs: 248 Atk / 8 SpD / 252 Spe  
+Adamant Nature  
+- Rock Slide  
+- Earthquake  
+- Double-Edge  
+- Hidden Power [Flying]  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 108 HP / 252 SpA / 148 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Toxic  
+- Hidden Power [Ice]  
+- Protect  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+- Spikes  
+- Roar  
+- Drill Peck  
+- Toxic  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 252 SpA / 4 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Seismic Toss  
+- Toxic  
+- Ice Beam  
+- Soft-Boiled  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 216 Def / 44 SpD  
+Bold Nature  
+- Hydro Pump  
+- Ice Beam  
+- Earthquake  
+- Protect  
+
+Moltres @ Leftovers  
+Ability: Pressure  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Flamethrower  
+- Overheat  
+- Hidden Power [Grass]  
+- Will-O-Wisp  
+
+Zommer Zard Fight Aero
+Not used in mushi but one of my recent favs was used in Adv Rev
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 252 HP / 248 Atk / 8 SpD  
+Adamant Nature  
+IVs: 30 SpD / 30 Spe  
+- Rock Slide  
+- Earthquake  
+- Focus Punch  
+- Hidden Power [Bug]  
+
+Charizard @ Leftovers  
+Ability: Blaze  
+EVs: 16 Atk / 240 SpA / 252 Spe  
+Naive Nature  
+- Fire Blast  
+- Hidden Power [Ice]  
+- Focus Punch  
+- Toxic  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 248 HP / 248 SpD / 12 Spe  
+Careful Nature  
+- Spikes  
+- Toxic  
+- Drill Peck  
+- Roar  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 220 HP / 252 SpA / 36 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Leech Seed  
+- Psychic  
+- Giga Drain  
+- Hidden Power [Fire]  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 244 HP / 176 Atk / 88 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Explosion  
+- Agility  
+
+Aerodactyl @ Choice Band  
+Ability: Rock Head  
+EVs: 252 Atk / 76 SpD / 180 Spe  
+Jolly Nature  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Fighting]  
+- Double-Edge  
+
+DD Brick Mence
+Not used in Mushi
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 100 HP / 248 SpA / 160 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Surf  
+- Ice Beam  
+- Roar  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 248 HP / 124 Def / 104 SpA / 32 Spe  
+Bold Nature  
+IVs: 2 Atk / 30 SpA  
+- Leech Seed  
+- Hidden Power [Grass]  
+- Psychic  
+- Calm Mind  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 120 HP / 252 Atk / 136 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Hidden Power [Flying]  
+- Brick Break  
+- Rock Slide  
+
+Magneton @ Magnet  
+Ability: Magnet Pull  
+EVs: 68 HP / 252 SpA / 188 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Thunderbolt  
+- Hidden Power [Fire]  
+- Thunder Wave  
+- Toxic  
+
+Snorlax @ Leftovers  
+Ability: Immunity  
+EVs: 44 HP / 96 Atk / 116 Def / 252 SpD  
+Careful Nature  
+- Body Slam  
+- Curse  
+- Earthquake  
+- Rest  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 216 HP / 248 SpA / 44 Spe  
+Quiet Nature  
+- Hydro Pump  
+- Earthquake  
+- Focus Punch  
+- Ice Beam  
+
+Zoomer Mix Zap 
+Not used in Mushi
+
+Tyranitar @ Lum Berry  
+Ability: Sand Stream  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Naive Nature  
+- Ice Beam  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Brick Break  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 104 Atk / 252 SpA / 152 Spe  
+Mild Nature  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Thunder Wave  
+- Drill Peck  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 252 HP / 4 Atk / 252 SpD  
+Careful Nature  
+- Spikes  
+- Roar  
+- Drill Peck  
+- Toxic  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 220 HP / 252 SpA / 36 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Giga Drain  
+- Hidden Power [Fire]  
+- Leech Seed  
+- Psychic  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 252 HP / 216 Def / 40 Spe  
+Relaxed Nature  
+- Earthquake  
+- Focus Punch  
+- Ice Beam  
+- Hydro Pump  
+
+Aerodactyl @ Choice Band  
+Ability: Rock Head  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Bug]  
+- Double-Edge  
+
+Cloy DD Tar Spikes
+One of the many cloy teams i made for my team this season
+
+Tyranitar @ Lum Berry  
+Ability: Sand Stream  
+EVs: 248 HP / 88 Atk / 172 Spe  
+Adamant Nature  
+- Rock Slide  
+- Hidden Power [Bug]  
+- Earthquake  
+- Dragon Dance  
+
+Cloyster @ Leftovers  
+Ability: Shell Armor  
+EVs: 72 HP / 8 SpA / 244 SpD / 184 Spe  
+Calm Nature  
+- Spikes  
+- Surf  
+- Rapid Spin  
+- Explosion  
+
+Jolteon @ Leftovers  
+Ability: Volt Absorb  
+EVs: 180 SpA / 76 SpD / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Roar  
+- Baton Pass  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 252 Atk / 88 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Rock Slide  
+- Agility  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 248 HP / 40 Def / 32 SpD / 188 Spe  
+Timid Nature  
+- Will-O-Wisp  
+- Ice Punch  
+- Thunderbolt  
+- Explosion  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 124 Def / 252 SpA / 132 Spe  
+Rash Nature  
+- Hydro Pump  
+- Ice Beam  
+- Earthquake  
+- Focus Punch  
+
+Cloy CB Tar Spikes
+another Cb Tar team (Yes Ik I have a Problem)
+
+Tyranitar @ Choice Band  
+Ability: Sand Stream  
+EVs: 248 Atk / 8 SpD / 252 Spe  
+Adamant Nature  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Bug]  
+- Focus Punch  
+
+Cloyster @ Leftovers  
+Ability: Shell Armor  
+EVs: 72 HP / 8 SpA / 244 SpD / 184 Spe  
+Timid Nature  
+- Spikes  
+- Ice Beam  
+- Surf  
+- Explosion  
+
+Jolteon @ Leftovers  
+Ability: Volt Absorb  
+EVs: 172 SpA / 84 SpD / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Baton Pass  
+- Roar  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Mild Nature  
+- Dragon Claw  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Brick Break  
+
+Aerodactyl @ Choice Band  
+Ability: Rock Head  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Rock Slide  
+- Earthquake  
+- Double-Edge  
+- Hidden Power [Bug]  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 252 Atk / 88 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Explosion  
+- Agility  
+
+Cloy Molt DD Tar
+Yet another cloy team i made last season
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 88 Atk / 172 Spe  
+Adamant Nature  
+- Rock Slide  
+- Hidden Power [Bug]  
+- Earthquake  
+- Dragon Dance  
+
+Cloyster @ Leftovers  
+Ability: Shell Armor  
+EVs: 72 HP / 8 SpA / 240 SpD / 188 Spe  
+Calm Nature  
+- Spikes  
+- Rapid Spin  
+- Ice Beam  
+- Explosion  
+
+Jolteon @ Leftovers  
+Ability: Volt Absorb  
+EVs: 180 SpA / 76 SpD / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Roar  
+- Baton Pass  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 168 HP / 252 Atk / 88 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Explosion  
+- Agility  
+
+Moltres @ Leftovers  
+Ability: Pressure  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Will-O-Wisp  
+- Flamethrower  
+- Hidden Power [Grass]  
+- Overheat  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 124 Def / 252 SpA / 132 Spe  
+Rash Nature  
+- Hydro Pump  
+- Ice Beam  
+- Earthquake  
+- Focus Punch  
+
+Zap Dug Golduck
+Golduck has a pretty unique niche on Zap Dug since it can somewhat help with aero and dug because it is immune to sand and can run salc berry
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 216 SpA / 108 SpD / 184 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Substitute  
+- Baton Pass  
+
+Dugtrio @ Choice Band  
+Ability: Arena Trap  
+EVs: 80 HP / 160 Atk / 172 SpD / 96 Spe  
+Jolly Nature  
+- Earthquake  
+- Beat Up  
+- Aerial Ace  
+- Hidden Power [Bug]  
+
+Suicune @ Leftovers  
+Ability: Pressure  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Calm Mind  
+- Hydro Pump  
+- Ice Beam  
+- Hidden Power [Grass]  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 248 HP / 76 SpA / 184 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Calm Mind  
+- Baton Pass  
+- Psychic  
+- Hidden Power [Fire]  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 240 HP / 252 SpA / 16 Spe  
+Rash Nature  
+- Meteor Mash  
+- Psychic  
+- Hidden Power [Fire]  
+- Explosion  
+
+Golduck @ Salac Berry  
+Ability: Cloud Nine  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Calm Mind  
+- Hydro Pump  
+- Ice Beam  
+- Endure  
+
+The real "Big 5" Aero 
+Another Aero spikes 
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 80 Atk / 8 Def / 172 Spe  
+Adamant Nature  
+- Dragon Dance  
+- Rock Slide  
+- Earthquake  
+- Double-Edge  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 248 HP / 240 SpD / 20 Spe  
+Careful Nature  
+- Spikes  
+- Drill Peck  
+- Toxic  
+- Roar  
+
+Blissey (F) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 Def / 236 SpA / 20 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Soft-Boiled  
+- Toxic  
+- Ice Beam  
+- Seismic Toss  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 216 Def / 44 SpD  
+Relaxed Nature  
+- Hydro Pump  
+- Earthquake  
+- Ice Beam  
+- Protect  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 108 HP / 252 SpA / 148 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Toxic  
+- Protect  
+
+Aerodactyl @ Choice Band  
+Ability: Rock Head  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Bug]  
+- Double-Edge  

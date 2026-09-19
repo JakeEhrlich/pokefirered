@@ -1,0 +1,115 @@
+map1 (Swampert) @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 204 Def / 44 SpD / 12 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Rest  
+- Sleep Talk  
+- Icy Wind  
+
+map2 (Swampert) @ Leftovers  
+Ability: Torrent  
+EVs: 248 HP / 204 Def / 44 SpD / 12 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Surf  
+- Rest  
+- Sleep Talk  
+- Roar  
+
+mast1 (Tyranitar) @ Leftovers  
+Ability: Sand Stream  
+EVs: 184 HP / 204 Atk / 120 Spe  
+Adamant Nature  
+- Focus Punch  
+- Taunt  
+- Hidden Power [Ghost]  
+- Earthquake  
+
+percussion1 (Salamence) @ Leftovers  
+Ability: Intimidate  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Rash Nature  
+IVs: 30 Atk  
+- Sunny Day  
+- Brick Break  
+- Hidden Power [Grass]  
+- Fire Blast  
+
+percussion2 (Salamence) @ Choice Band  
+Ability: Intimidate  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Hidden Power [Flying]  
+- Earthquake  
+- Sunny Day  
+- Brick Break  
+
+cabin1 (Jolteon) @ Leftovers  
+Ability: Volt Absorb  
+EVs: 188 HP / 144 SpA / 176 Spe  
+Timid Nature  
+- Toxic  
+- Wish  
+- Protect  
+- Thunderbolt  
+
+cabin2 (Jolteon) @ Leftovers  
+Ability: Volt Absorb  
+EVs: 144 HP / 188 SpA / 176 Spe  
+Timid Nature  
+IVs: 30 HP / 30 Def  
+- Toxic  
+- Wish  
+- Protect  
+- Hidden Power [Ice]  
+
+cabin3 (Jolteon) @ Leftovers  
+Ability: Volt Absorb  
+EVs: 144 HP / 188 SpA / 176 Spe  
+Timid Nature  
+IVs: 30 HP / 30 SpA  
+- Toxic  
+- Wish  
+- Protect  
+- Hidden Power [Grass]  
+
+cabin4 (Jolteon) @ Leftovers  
+Ability: Volt Absorb  
+EVs: 128 HP / 238 SpA / 142 Spe  
+Timid Nature  
+- Toxic  
+- Wish  
+- Protect  
+- Hidden Power [Fire]  
+
+cabin5 (Jolteon) @ Leftovers  
+Ability: Volt Absorb  
+EVs: 252 HP / 120 SpD / 136 Spe  
+Timid Nature  
+- Toxic  
+- Wish  
+- Protect  
+- Roar  
+
+cabin6 (Jolteon) @ Leftovers  
+Ability: Volt Absorb  
+EVs: 144 HP / 188 SpA / 176 Spe  
+Timid Nature  
+IVs: 30 HP / 30 Def  
+- Roar  
+- Rest  
+- Sleep Talk  
+- Hidden Power [Ice]  
+
+algae1 (Celebi) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 124 Def / 100 SpD / 32 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Leech Seed  
+- Recover  
+- Perish Song  
+- Protect  
+

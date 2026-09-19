@@ -1,0 +1,654 @@
+### post 10466543 author=Rabia url=https://www.smogon.com/forums/threads/adv-nu-discussion.3761091/#post-10466543
+All yap goes here that pertains to Generation 3 NU! This can include team dumps, general metagame development observations, or viability rankings changes.
+
+### post 10566986 author=Shengineer url=https://www.smogon.com/forums/threads/adv-nu-discussion.3761091/#post-10566986
+I'm no expert at ADV NU, but I do think the VR could really use an update. A couple of thoughts I want to throw out:
+
+Rises
+
+Hitmonchan -> S
+
+Chan is one of the strongest leads and physical attackers in general, not to mention the utility it can bring as the sole rapid spinner of the tier. Everyone I talk to seems to agree that it's one of the tier's best mons.
+
+Octillery -> A+/A
+
+Another one of the most powerful leads in the tier with few to no bad matchups - it can trade into pretty much anything, and Twave is usually a very safe click no matter what.
+
+Pupitar -> A
+
+One of the absolute scariest win conditions - outspeeds everything after one DD and has an amazing STAB combo. Shed Skin is also a great at shutting down status-reliant counterplay.
+
+Pidgeot, Arbok, Kecleon -> Rise
+
+I think these could all be bumped up a rank from where they currently are - Pidgeot has seen success thanks to its great speed and Spikes Immunity and is at least as good as Murkrow. Arbok pretty much exists solely because of Hitmonchan, but its omnipresence gives Arbok a solid place in the meta as well. Kecleon is just a nice blanket check to special attackers like Haunter and can actually trade back quite well or spread easy Twaves.
+
+Drops
+
+Flareon, Chimecho, and Wailord-> A+ (?)
+
+These mons are very good, but not S tier good like the top four mons (Glalie, Haunter, Hitmonchan, and Metang), and should be in a separate tier. May want to bump down some of the A+ ranks if it gets too crowded.
+
+Mawile -> B-
+
+Why is Mawile A-
+
+Roselia -> A-
+
+I'm sure Roselia is fine but Glalie is such a dominant Spiker, and I'm not sure its any better than Cacturne.
+
+Crawdaunt -> B-
+
+Do people actually use Crawdaunt? There are so many better choices for a Water.
+
+Pikachu -> A-
+
+I like Pikachu but I think that Plusle's versatility, improved bulk, and access to Baton Pass give it the edge over Pikachu right now.
+
+### post 10572867 author=Togkey url=https://www.smogon.com/forums/threads/adv-nu-discussion.3761091/#post-10572867
+ADVPL won, went 7-1, here is teamdump
+
+MeEsSm vs Stories
+So Sitrus Berry functions differently (worse) in ADV, only healing 30 HP, but that's enough to survive Choice Band Sky Uppercut from Hitmonchan, survive two non-Choice Band thanks to Sitrus, and survive two HP Electrics from opposing Octillery. Basically the logic here was if Octillery is only going to be around for 2-3 turns, Sitrus Berry heals more than Leftovers will in that span. Skill Swap Haunter is a tech used to beat Flareon, which the scout said MeEsSm spammed a lot. You can even get a Flash Fire boost to let you 2HKO incoming Metang and offensive Glalie. Skill Swap can also let you check Bellosom in a pinch but the utility doesn't go too far after that. This was also when I discovered how amazing Kecleon was in this metagame. 152 atk Shadow Ball always OHKO's Haunter and Counter lets you nuke physical attackers and Hidden Power users (yes Counter works on any Hidden Power). Cute little Para Spam team to support Bulk Up Hitmonchan and CM Chimecho.
+
+shiloh vs Stories
+As ADV NU takes a turn to become more offensive, I really wanted a boom spam team to minimize the variables of not being able to see team preview. Lead Swalot's only job turn one is to explode. Playing vs only 4 unrevealed Pokemon by turn 2 is a lot easier for offense to handle, and Swalot beats pretty much everything 1v1 anyway if I need it in the back for later. Torkoal and Wailord are your standard run-of-the-mill bulky offense mons, making favorable trades with their high BP moves and good bulk, and just exploding when they can't get the job done. Glalie of course helps with this too, but it's job first is to set up Spikes and Light Screen for Pupitar. 128 Atk always OHKO's Haunter with Shadow Ball, and Light Screen goes a long way with helping Pupitar. Modest Haunter is uh.. idk it's just a good attacker, I didn't really have a specific purpose for it here other than it's a top 3 Pokemon. Focus Band Pupitar is funny and I didn't think it needed an item, but throughout the tournament I've come to find that Sub + Liechi Berry is probably the best set.
+
+Bughouse vs Stories
+I'm typically not fond of lead Glalie but it definitely has its matchups, notably vs Octillery and Wailord, but Light Screen gives it ~2 Spikes vs Torkoal and I was honestly fine just exploding turn one vs Hitmonchan for the same reason I used Swalot last week. I know Bughouse as someone comfortable using a bulky team because he can outplay most opponents in a long-term game, so I went with a team style that dunks on bulky stuff. Lead Spikes, Sub Whiscash, Toxic Hitmonchan for Sableye, and Metang and Flareon who serve as cleaners and sweepers in the right situations. Nothing really fancy here but I opted for physically oriented Whiscash with HP Ghost instead of the standard Surf, because Surf doesn't really hit much compared to HP Ghost hitting Haunter and Chimecho.
+
+Real FV13 vs Stories
+This Haunter is similar to the lead boom Pokemon I've been bringing but with Taunt to stop early Spikes and also letting me keep Glalie in the back. Lum Berry is for the stray lead Venomoth but also if Octillery opts to go for Thunder Wave instead of Surf, but Modest Thunderbolt does a great chunk to lead Waters anyway. The speed is for Jolly Glalie, with the rest being into Special Attack, although a spread that lives HP Ghost from Hitmonchan is probably better. Dewgong, Golbat, and Chimecho work really well with Spikes up, with Dewgong bringing in bulky Waters to trade or Hitmonchan, which the other two take care of easily. Endure + Flail Flareon is an old but gold set that thrives on teams like this, but Golbat is the main star of this team and has proven to be incredibly overrated this far in the tournament.
+
+Django vs Stories
+This team was made for Rabia's scout but he subbed Django in because the week was already over at the time we scheduled for. Rabia is a boomer so I wanted to hit him with all the newgen technology all at once; Choice Band HP Flying Hitmonchan lead (for opposing Hitmonchan), Soft Sand Glalie, and SDef Bellossom. Sableye and Bellossom are great together and I hadn't used it yet. Flareon breaks massive holes alongside Hitmonchan for Salac Haunter to clean up. Light Screen Glalie also helps Sableye get going. Sadly it got crit twice in a row this game but I think the team still showed that a combination of amazing defense and amazing offense with little in-between can be good.
+
+I didn't play week 6 because Triangles and I did not schedule
+week 7 I didn't prep because we were locked for playoffs, I brought a team I have since deleted because Stox quite easily smoked me
+
+Stories vs Real FV13
+Lead Glalie again with a slightly more refined spread, surviving two Fire Blasts from Octillery after Light Screen and still outpacing Hitmonchan. This team is centered around CB Relicanth, who I found to be incredibly underrated from my tests for the week. With high BP moves and great stats, Relicanth can often find itself spamming Rock Slide even against resisted targets like Whiscash and Metang, as they can't immediately threaten it back and still take decent damage from Rock Slide. I struggled a lot making this team secure against Pupitar because I had two Water-types that couldn't check it, so Lum Berry Hitmonchan was my revenge killer for that and any other speed boosters like Salac Flareon or Liechi Raticate. Kecleon again walls every single special attacker, this time I actually brought STAB and Focus Punch to help break for my Haunter and Pelipper to clean up shop. This Pelipper was something Violet River put me onto, and it's REALLY good if you don't run into Grasses, but Haunter can lure them out and explode on them or Relicanth can bait them out and just kill them straight up.
+
+Stories vs Bughouse
+Again I'm expecting a bulky structure from Bughouse so I'm going all-out on offense here; lead Hitmonchan with Toxic to apply early pressure on Wailord, Chimecho, and Sabeleye (he brought all three of these lol) and a Water spam core featuring max Speed Substitute Wailord, which I've convinced is the best set you can run on it right now. In testing I ran into two issues: CM Sableye and Hitmonchan in general. For Hitmonchan I gave Haunter 196 Defense, which allows it to survive a Hidden Power Ghost and either Rain Dance, Psychic, or explode on it. Sableye was a bit trickier if it got going with Calm Mind safely (albeit this is very hard for it to do). Firstly I gave my Metang a bit of speed, so I could always pressure it with Meteor Mash spam + Toxic to force it to Rest. I also put Taunt on Glalie which was an idea Kaboom gave me. The matchup played itself, Wailord broke holes and Huntail cleaned up shop as god intended, and it secured a tie for finals.
+
+I want to thank so many people for their help here, I'm worried I may forget a few but
+ima Amity Django Shengineer Kaboom Charmriah Shing Plague violet river
+
+### post 10582576 author=Rabia url=https://www.smogon.com/forums/threads/adv-nu-discussion.3761091/#post-10582576
+did I just read "soft sand glalie" and "spdef bell" as new technology
+
+### post 10582592 author=Togkey url=https://www.smogon.com/forums/threads/adv-nu-discussion.3761091/#post-10582592
+Rabia said:
+
+did I just read "soft sand glalie" and "spdef bell" as new technology
+
+Click to expand...
+
+okay it's probably better to call Soft Sand Glalie "a relic that I'm bringing back" than something new but it's definitely uncommon currently, same with non-Sunny Day Bellossom
+
+### post 10583006 author=Rabia url=https://www.smogon.com/forums/threads/adv-nu-discussion.3761091/#post-10583006
+have no fear poggy woggy I just wanted to meme a lil
+
+to avoid being a one-liner owen, spdef bell is certainly a god rn and is better than sunnybeam i'd wager. main reason is you don't really wanna run the defensive sets on water-types like wail/gong anymore because they're too exploitable, whereas bell has a lot of utility ie sleep/stun to avoid giving free turns too easily. pretty natural glalie partner too because you don't really want it as your only check to the water-types, and it makes haunter's life a lot harder
+
+### post 10627080 author=plznostep url=https://www.smogon.com/forums/threads/adv-nu-discussion.3761091/#post-10627080
+plznostep's
+NUFL ADV ADVenture.
+
+Hello! I wanted to share my experience playing ADV for NUFL. I went 4-3 and I'm pretty happy with how I did, but more importantly, I enjoyed playing this tier a lot and I am looking forward to playing it again.
+
+Thank you to ExguardiaN and MemphisDepay for drafting me and being lovely managers to work with and test with. I would also like to thank THE_CHUNGLER, Sirwings, and SEROO for helping me test. Without further ado, let's get started.
+
+Week 1: Magcargo's Embargo (Loss vs hammer798)
+
+Going into ADV for this tour, I wanted to add some spice to my teams. For almost every week, I wanted to try a different Pokemon that I haven't been able to use, or Pokemon that I think have untapped potential. The Pokemon for this week was Magcargo. I knew Magcargo wasn't going to be great, but it has some niche uses that I thought it would be fun to use for. Notably, it's typing is perfect for answering Flareon due to resisting both Fire- and Normal-type moves. Additionally, its ability Flame Body means on a correct predict, a bird like Pidgeot can be burned and be crippled pretty badly. I went offensive to give my Magcargo threat potential, as it already struggles to get on the field, so I need to make its turns count. This set allows it to OHKO Metang after Spikes and has enough Speed to get the jump on Pokemon such as Octillery. I paired it with Golbat, as it adds a crucial Ground-type immunity to aid Magcargo while also acting as a great answer to Hitmonchan. Wailord also seemed like an obvious choice, as I do not need the extra speed from Dewgong and appreciated the extra bulk as opposed to Octillery to check opposing Water-types for Magcargo. Sadly, Magcargo did not get the right matchup here and I lost the week.
+
+Week 2: Piloswine's Pilgrimage (Loss vs Shengineer)
+
+Piloswine was my second pick. I have used it before but I thought it would be fun to use once again. Piloswine isn't great but has some nice traits, like being a good Plusle and Haunter answer. It's good physical bulk allows it to take a hit from Choice Band Pokemon like Pidgeot and check Golbat. It also hits like a truck with that base 100 Attack. Unfortunately, that's where the positives end for Piloswine as it's typing isn't favourable into the meta. A lot of top Pokemon hit it really hard super effectively due to the added weaknesses the Ice-type gives it. Still, it has a place so I used it here with a pretty bog standard team. Unfortunately, Piloswine's holy journey to prove itself didn't work the way it thought it would, and I lost the week once again.
+
+Week 3: Swalot Supremacy (Won vs bydy)
+
+Before this week, I had never used Swalot before in this tier. I wanted to change that. Swalot lead seemed pretty appealing as a decent lead into Hitmonchan while it's good special bulk helps stave off Water-types and Explosion so Glalie never feels too safe to try and get 3 layers up. A bulky attacker set made the most sense. Through my experience in this tier, it's all about making use of your turns here, and Swalot can certainly do this well with great trading power due to it's combined bulk and Explosion. Pelipper seemed to be the perfect partner. It is a Ground-immune to cover Swalot and one more check to Hitmonchan if needed. If Hitmonchan has Earthquake, Pelipper can deal with it and if it has Rock Slide, then Swalot can. Huntail was last as I thought the trading power on this team would make it a good fit for the last slot, as Huntail is an expert at picking off weakened teams. In hindsight, I was very weak to Pikachu but I managed to beat bydy anyway, netting me my first win.
+
+Week 4: Magby Moment (Won vs Zcarlett)
+
+Magby has always been someone in the back of my mind that I've wanted to use but never knew how to fit onto a team. However, I finally managed to make something I was proud of with this team. Magby looks like it would be unviable trash, but it has some rather cool traits. For example, it is a Fire-type who outspeeds Glalie. That is pretty rare, but not enough reason to use it. The real reason is access to one coverage move in particular that opens it's options; Thunder Punch. This allows Magby to OHKO the increasing popular Pelipper while also allowing it to run coverage for opposing Fire-types in Hidden Power Water. Combine this with passable offenses that can be boosted using a Petaya Berry, and you certainly can do worse in this tier. Dewgong seemed like a pretty good partner; being able to outspeed Flareon and thus checking it better than Pokemon like Wailord seemed important. Magby proved itself this game as it got a really good matchup into the opposing team, and I was very glad I used it.
+
+Week 5: Dunsparce's Destruction (Won vs vaporends)
+
+Dunsparce. I love them. I haven't used them. You get it by now. Dunsparce has good stats I would say. They aren't superb but they are passable, and the bulk is pretty good. The main draw of Dunsparce is Serene Grace and it's great coverage. Dunsparce's Body Slam has a 60% chance to para on a STAB move. Normal-types are already really good in ADV lower tiers, and that extra para chance for Dunsparce makes matchups such as Glalie lead way more dicey for Glalie considering Paralysis ruins it. Dunsparce also gets Earthquake, so Metang isn't a great check into it as it takes a big chunk from it. It even gets Shadow Ball so Haunter gets OHKO'd. There isn't much that takes hits from Dunsparce and it's good bulk makes it really nasty if you don't have specific answers like Sableye. For the set, it hits a Leftovers number for Protect recovery and then hits Octillery Speed so on lead you can usually beat it, with the rest in Attack and SpD. Golbat was a very good pair adding some much needed Speed and answers Hitmonchan, which can be a problem for Dunsparce lead wise. Dunsparce did really good here. It carried the game, I love Dunsparce, and I think more people should consider it.
+
+Week 6: Vigilante Vigoroth (Won vs hammer798)
+
+Despite Vigoroth being really good, I've never actually used it. This seemed to be the perfect time to try it out. I started with a really bad Substitute + Bulk Up set and then I changed it to a way better fast offensive Bulk Up set. It's textbook Vigoroth; really good coverage, good bulk, hit's really hard, and has Vital Spirit as the cherry on top to stop Pokemon like Bellossom. It's overall really good. Pelipper seemed like an obvious pairing, I needed something that limited Hitmonchan, and Pelipper happened to be perfect for the job. Bellossom also pairs amazingly with Pelipper so it was an obvious choice to use it alongside. Vigoroth did excellently, it cleaned the endgame well and I was very happy I used it.
+
+Week 7: Furret's Final Gambit (Loss vs bydy)
+
+Originally, I was not planning on using Furret this week and had two entirely different teams I could have loaded. However, I woke up and saw my team won the tour. So, I decided to switch last minute to a funny furret team. This team is similar to the team I loaded the week before. That's because Furret is a weaker version of Vigoroth, so naturally to support it, the team is going to be really similar. There are only two reasons I can see anyone using Furret; Trick and Quick Attack. Vigoroth does not get both of these moves. I chose Trick and I already had a Hitmonchan, mainly for Pupitar. Unfortunately, Furret couldn't get the win although it tried valiantly; I misplayed and expected my Hitmonchan to outspeed Wailord and I should have kept my Pelipper over Glalie.
+
+General Thoughts
+
+I think ADV NU is in a pretty good place. Sometimes team structures can get a bit repetitive but I feel as if they are changing more lately to be more bulky in nature. I like the rise of Pokemon like Arbok and Pelipper in the tier as a great Hitmonchan check. I also think that Pokemon like Haunter, while they are still really good, are not as needed anymore on teams as Pelipper defensively does do a lot of what Haunter does and bulky special walls seem to be on the rise, which can give Haunter some trouble.
+
+I think the best two Pokemon in tier are Glalie and Hitmonchan. I can't put any one higher than the other, they both offer so much to a team and while Glalie may be more splashable, Hitmonchans traits are truly unique as a wallbreaker and I think it keeps them competitive for top spot in the tier.
+
+Lastly, here is a little Viability Ranking to get my general consensus on what I think is good in the tier. Nothing is set in stone on the list, my opinion on Pokemon in this tier can change a lot overtime and it's more a general ranking on how I feel Pokemon are in the tier.
+
+### post 10628612 author=bydy url=https://www.smogon.com/forums/threads/adv-nu-discussion.3761091/#post-10628612
+BYDY IN NUFL 1
+
+Hello, I am bydy. I played ADV NU for the Nefarious Ball in NUFL this season and went a surprising 5-2 as a 5000 point draft, putting me top of the ADV pool and helping my team reach finals. This is my first ever really good result in a team tour, so I thought I'd add my thoughts on how my games went.
+
+Big thanks to Teh and az for the draft and the chance to start every week, and big thanks to BP for teambuilding support.
+
+WEEK 1
+BYDY VS ZCARLETT (L)
+
+To start off I wanted to use an aggressive Huntail sweeper set. Since Hydro Pump is a terrible move that always misses, I went with a sub petaya berry set that banks on getting hit into range while setting up and firing off sweet +1 Surfs that can't miss! The rest of the team is taken from an old tournament paste: Torkoal is the anti-Glalie lead of choice, alongside a fire-water-grass core, the mandatory Glalie and a Bulk Up Hitmonchan.
+
+The game gets into a classic ADV NU explosion guessing game, out of which I emerge with a 4-3 Pokemon lead with 2 spikes on each side. Unfortunately, a Substitute Liechi Golbat appears and threatens to tear apart my Metang-less team. I get my Huntail in position and even get the Petaya boost off, but the opposing full spdef Metang tanks a rain-boosted +1 Surf, takes out the Huntail and their Golbat gets the reverse sweep on me. I swore to never leave home without a full spdef Metang again, as this game proved it can handle any attempted sweep thrown at it.
+
+WEEK 2
+BYDY VS HAMMER798 (W)
+
+With Metang in tow as my new protector, I enter preparations for week 2. Hammer's scout showed a high reliance on water leads, so this was the time to pull out an evergreen Pikachu lead which I heavily abuse in ADV RU anyway, so it should do the same job a tier lower. With Hammer using plenty of Metang + Plusle previously, I decided on a more defensive team to outlast these threats. Roselia is a great electric check with access to spikes and more longevity than Glalie. T-wave + three attacks Kecleon acts as a special wall that can return the damage on Wailord and Haunter as well as checking all weather threats, Rest Talk Pelipper is a perfect answer to opposing Metang and my own Metang can stand in the way of any pure physical attackers. With two paralysis spreaders and a passive team, Chimecho was an obvious 6th choice which I armed with Yawn + Calm Mind to break through any defensive stalemates.
+
+Their Glalie and my Roselia share a spike each as Pelipper and Kecleon enter walling duties, allowing the opposing offensive Seadra and sub Pelipper no way through. I rather haphazardly switch in my Pikachu into a Pelipper Ice Beam, thankfully living the hit and threatening to throw out a big attack. I successfully HP Ice on the incoming Bellossom and it drops to a critical hit, making my life a lot easier. However, I don't think their Bellossom was long for this world anyway in face of my great walls. Rest Talk Pelipper absolutely shines and takes out the last 4 mons by itself. The match-up was perfect.
+
+WEEK 3
+BYDY VS PLZNOSTEP (L)
+
+A concept I heavily used in my run to the ADV NU Open 1 finals was using a fake spiker lead. CB Glalie threatens to take out any counters with Explosion, after which Roselia, the real spiker, comes in and gets to business. I decided this week was the time to use it. Step's heavy Golbat usage required my trusty full spdef Metang, while CB Rock Slide Hitmonchan threatened to take out the many rock weakness present in the scout. I wanted to keep using the Pikachu from last weak, and opted for Swalot as an all-purpose wall. I use it a bunch in ADV RU and pretty much never see it in NU, so I thought why not? With Yawn and Explosion it forces switches and can eventually trade itself down.
+
+CB Glalie immediately makes a great impact. A crit EQ on Swalot blows it to smitherines, and I immediately pivot it back in to blow up a Metang. My Swalot yawns their Glalie, and I pivot in my Pikachu expecting them to switch out and preserve their spiker, however step blows up immediately and takes out the Pikachu. In hindsight, and absolutely terrible move to be risking my Pikachu like that because it was threatening to win the game on the spot. My CB Hitmonchan agonisingly misses a Rock Slide on their Pelipper, as I believe they were offensive and that it was possibly going to be a one hit KO. Instead, my Hitmonchan takes a big hit, misses another Rock Slide on their Huntail as it sets up, and it proceeds to take out my entire team. A rough 1-2 start to the season, but I remained confident as I thought I didn't actually do that bad overall, and that if I kept up my form I was going to start winning more.
+
+WEEK 4
+BYDY VS VAPOREONDS (W)
+
+Depite what happened, I liked the sheer carnage choice banded Hitmonchan could bring and decided to bring it again alongside a classic Glalie/Metang core. BP's magic ADV NU tome contained a team just like that supported by Wailord, Flareon and Chimecho, which would become the base of my teambuilding. I decided to debut as custom Flareon set with 252 spatk, a modest nature, charcoal and both Flamethrower and Overheat as I wanted a strong fire breaker akin to the ADV RU legend that is Rapidash. Hp Electric and an uninvested Return round out the set. The main benefit of this powerful Overheat is that it absolutely fries full spdef Metang, which can usually eat a hit and throw an Earthquake right back.
+
+CB Hitmonchan and full spdef Metang instantly open up the team. Rock Slide is a great mid-ground against incoming ghosts, and Metang catches their Flareon on an overpredict (I'm fairly sure Metang lived the Fire Blast and I was actually just trying to trade it down). My Chimecho and Metang keep their Glalie to minimum spikes and they bring out their Metang afterwards. Perfect food for my Flareon, which summons a theoretical maximum power Overheat and burns the Metang alive. It killed without the crit, but the crit allowed me to disguise the true nature of what my Flareon was capable of. A solid win to restore equity to my record.
+
+WEEK 5
+BYDY VS SHENGINEER (W)
+
+Throughout the previous four weeks I have completely left Haunter to the wayside. It is one of the very best Pokemon in the tier, so it was about time I actually utilised its qualities for myself. I decided on a Octillery lead to deal with the myriad of weird leads in Shengineer's scout as I can always use yellow magic in a pinch. A spikeless old tournament build caught my eye which fit exactly into what I wanted, and I rolled with a Golbat Raticate Haunter unrelenting offense.
+
+Shengineer brings huge threats in the form of a choice band Relicanth and Jerry the Trapinch, which takes out my Metang for their Golbat. However, Haunter proves to be too much of a threat, with a clutch Will-o-wisp absolutely crippling their Kecleon, which left no counters for Tbolt. I struggled to get chip on the sleeping Relicanth before it woke back up, but it ended up barely being in range of a Haunter Tbolt at 77% (possibly a roll). My Golbat ended up handling their Golbat well enough to bring it into Haunter kill range.
+
+SEMI-FINALS
+BYDY VS VAPOREONDS (W)
+
+With the Flareon getting the KO with a critical hit Overheat in the last game with Vaporeonds, it's possible they believed my Flareon to be a regular physical set with the Overheat KO being a piece of hax. So I decided to bring the exact same set again, in the hopes that they'll just leave the Metang in on Flareon again should the exact same situation arise. The team is actually very similar to the first one, just with switched up leads, a different choice band user and Haunter over Metang to give the team a bit more offensive sting. Should an opposing Golbat appear, I believe I am now able to handle it after the last 5 weeks of gaming. Haunter carries a Magnet to just to give those Thunderbolts a bit more sting, as last week showed how important even a tiny damage increase can be.
+
+I gamble with a very early Self-Destruct on my Wailord lead and catch an incoming Glalie, resulting in 3 uncontested spikes for myself. Vapo reveals an incredibly threatening Calm Mind Sableye. With no Toxic user on my team, I sac Chimecho to put it to sleep and decide my best option is to bludgeon it with as many attacks as possible, and I land a crit Flamethrower from Flareon almost immediately. I kind of carelessly let my Haunter fall asleep with a Yawn to land a KO as my arch-nemesis sub Golbat comes straight in, but I wake up just in time to open up a winning path for CB Pidgeot.
+
+FINALS: FURRET'S FUNERAL
+BYDY VS PLZNOSTEP (W)
+
+Since finals is a week you want to bring your best, I decided to go with a team with the entirety of the big 4 of Hitmonchan, Glalie, Metang and Haunter. CB Hitmonchan, Metang and offensive Haunter have served me incredibly well this tour, while Glalie is probably busted. After searching through a wide catalogue of teams containing these four, a Rabia team with sub toxic protect Wailord and Raticate seemed like a cool team to try. For Raticate I decided to go with a Choice Band Facade set, with the intention to switch it in aggressively on a predicted Toxic and start destroying stuff.
+
+ONLY FOR THE TOXIC TO MISS! That was infuriating after getting the play right, however I do manage to get Raticate toxiced later on and force Big Stepper to sacrifice mons to it. With the finals already being decided when we played, step decided to go for a Choice Band Furret which actually ended up pretty threatening and he landed big reads on me with it and Hitmonchan to pull well ahead. I end up barely winning the game thanks to getting up 3 spikes quickly and due to my Wailord somehow being faster than their Hitmonchan, allowing it to get a 1v3 finish.
+
+METAGAME THOUGHTS
+
+ADV NU is a very centralised tier. Glalie gets up spikes very easily, and the entire metagame revolves around killing it before it can get up all 3 layers. Hitmonchan and Metang are automatic top tiers for being able to handle Glalie the best, and dealing with Glalie gives you a niche in the metagame.
+Explosion is also very free in the tier. If you have a lead, it often becomes possible to simply trade down. Haunter does not like coming into Glalie, the most prolific Explosion user, and guessing when Glalie will explode on its answers makes dealing with it uncomfortable if you don't have a Metang to throw in its way.
+Haunter itself is probably the best abuser of spikes. Thunderbolt and Psychic are very hard to switch into and dealing with Haunter can require uncomfortable coverage choices.
+I believe Glalieless NU is worth considering. With Roselia you actually have to earn your spikes and Roselia can't just decide to instantly trade 1 for 1 once it decides it's done enough for the day. I also personally don't believe in freezing old metas when they are actively played in many tournaments, and Glalie and Haunter are viable all the way up to UUBL. I'd like to see the Neverused metagame use never used Pokemon.
+I am very positively impressed by Golbat and Pelipper. Golbat has a great defensive profile and can overwhelm teams that lose their Metang (or read it coming in with a banded HP Ground), and Pelipper has great walling capabilites in the face of some of the most threatening Pokemon with Rest Sleep Talk or Sub Toxic. Spike immunities are also an automatic plus in a Glalie-dominated metagame. Both are A+ Pokemon.
+
+Overall, ADV NU is a tier I enjoy playing a lot. I tend to be good in centralised metagames like this, and a centralised ADV metagame makes me a doubly strong player. While I would like to see Glalie go, I would not really complain if the powers that be decide everything should remain untouched as the meta is still fun to play.
+
+### post 10744712 author=Shengineer url=https://www.smogon.com/forums/threads/adv-nu-discussion.3761091/#post-10744712
+Fullpass: The Blight of ADV NU
+
+Baton Pass can be a divisive move - I for one love to use strategies revolving around it, but many perceive it as little more than a matchup-fishing cheese strategy. Since the ban of Glalie, we’ve seen teams dedicated to Baton Passing speed, defensive, and offensive boosts to a dedicated recipient, usually Octillery, with the goal of ending the game once it hits the field.
+
+Counterplay to these strategies do exist, such as Roar Wailord or Flareon to stop the stat passers from setting up, but once Octillery is in, its Suction Cups ability nullifies this form of counterplay. Encore from Plusle, Dewgong, or Cacturne, as well as fast Taunt users like Haunter can gum up the works, but a Speed boost makes these checks unreliable. Other options like Haze or Perish Song exist, but these are near worthless outside of the full pass matchup.
+
+Due to the limited counterplay of these teams, I believe full baton pass teams should be significantly nerfed in some way. I do NOT want to see stat pass as a whole banned, as sets that pass boosts from berries or a singular stat have never been problematic in this tier, and they are fun strategies that I would love to preserve. One or both of these two options would be best for the tier going forward:
+
+1) Restricting teams to one pokemon with Baton Pass + stat boosting
+
+2) Restrict the ability to pass Speed + another stat
+
+We should get moving on this issue as soon as possible - such changes would have little effect on the meta as a whole and simply serve to make the tier more competitive. If we don’t I will continue to claim victims in tournaments. Please, save yourselves.
+
+Here’s a bonus team I used a few times throughout the GAMER tournament (that I won) and on ADV NU ladder while it was active to finish at rank 2 (damn you Bughouse).
+
+### post 10746844 author=Rabia url=https://www.smogon.com/forums/threads/adv-nu-discussion.3761091/#post-10746844
+I don't find Baton Pass to be worth acting on even post-Glalie ban. It requires a lot to go right even now to win games, and you've got to play it quite well too. Pretty routinely in both metagames we've seen subpar chain play mean you get your ass blasted back because it's really hard to regain momentum. However, I'm very benevolent, and if popular opinion is to remove full chains, then I'm content with it. The roadblock would be what action we take; I think Shengineer's proposals are both fair ones, but I'd probably just do no more than one stat passer per team. These strategies don't really exist within NU too much to begin with and have never proven problematic in the slightest, but you get to preserve the few that do exist like Agility and SD passing along with the Berry ones that Shen mentions.
+
+I got the ok to just keep the Glalie voter list ftr so yeah, any extra opinions would be good if anyone has them Heysup Bughouse violet river etc
+
+### post 10746898 author=Bughouse url=https://www.smogon.com/forums/threads/adv-nu-discussion.3761091/#post-10746898
+BP probably should have been claused years ago, and while i wouldn't want to exaggerate the impact, it did get moderately better post glalie ban just because most teams are less boom focused and so some teams have less immediate offensive pressure (certainly plenty of other ways to apply offensive pressure.)
+
+beyond that, my thoughts are relatively unchanged from these prior posts. Cheesy strats stay pretty much equally cheesy regardless of whatever else has happened, so not much has really changed:
+
+Post in thread 'Baton Pass in ADV NU'
+
+Dec 19, 2021
+
+As I stated in my prior post a year and a half ago, I am unconvinced a clause is even necessary here. That said, I have no objection to applying some sort of clause to limit Baton Pass in ADV NU to prevent the matchup fishing. I would oppose a hard ban, but limitations are generally fine.
+
+I think the old OU clause that was more permissive than the new OU clause would have been plenty sufficient for NU's purposes, but I also don't think the new OU clause is overly restrictive. I don't have a single team that would violate it. On the only teams that I have that even have 2 BPers, at least...
+
+Bughouse
+
+Post in thread 'Baton Pass in ADV NU'
+
+May 10, 2020
+
+I don't actually think full baton pass is all that good in ADV NU because imo there are plenty of checks to the team, including some that are not listed in the OP like as Encore Dewgong. Frankly, most Metang can also be a problem since the team lacks physical bulk and Mawile doesn't successfully intimidate it due to Clear Body, and EQ does enough to pressure it. And as the OP noted, heavier boom offenses also pretty naturally check the team despite not having one individual counter. I also think that when the team runs into just about anything that beats it (which imo are not rare or bad...
+
+Bughouse
+
+tl;dr not strictly necessary, but would be an overall positive to the tier to apply some sort of clause. Doing something that is at least somewhat consistent with OU's clause(s) is probably to be preferred. Beyond that, I don't frankly care which particular clausing approach is taken so long as it has the practical effect of neutering fullpass teams and it's not a hard ban on the move. Pivoting in general is useful and imo still healthy when it's used to get in a trapper or a Pikachu or whatever (though I know some people may disagree on that.)
+
+### post 10747115 author=Heysup url=https://www.smogon.com/forums/threads/adv-nu-discussion.3761091/#post-10747115
+I'm not opposed to BP ban out of principle, but I don't think it's particularly hard to prepare for.
+
+### post 10762000 author=Rabia url=https://www.smogon.com/forums/threads/adv-nu-discussion.3761091/#post-10762000
+Ok, with NUCL's draft being in one week, now is as good a time as any to get Baton Pass handled. People seemed pretty content with copying what OU was doing before their ban of Speed passing, so we'll go with that.
+
+To clarify, this means that if Baton Pass is voted for a restriction, teams will be limited to one stat passer per team, with Berry stat boosts counting towards this. Just like the Glalie vote, it will require >60% of people voting to restrict Baton Pass for it to get restricted.
+
+Here's the voting link! The qualifiers are tagged below.
+
+voters
+
+Heysup
+HANTSUKI
+Bughouse
+Oathkeeper
+Triangles
+Parpar
+Real FV13
+gorex
+ima
+zben
+Jisoo
+Kaboom
+SEA
+Shengineer
+Medeia
+Xrn
+Rabia
+Xiri
+Sadlysius
+Stories
+Beraldo
+ArcticBreeze
+Fogbound Lake
+LpZ
+Monai
+OranBerryBlissey10
+PichuFlash
+Plague
+Alder ST
+THE_CHUNGLER
+Shitrock enjoyer
+Amity
+Alecss
+goldmason
+violet river
+Gypsy
+
+I'll be closing voting before NUCL draft next Sunday, so vote before then :]
+
+### post 10762088 author=LessThanThreeMan url=https://www.smogon.com/forums/threads/adv-nu-discussion.3761091/#post-10762088
+While I’m not a qualified voter, I do really enjoy this tier and I’ve been playing a lot of it post glalie ban (I liked it before too but that’s another matter.) I really think limiting baton pass would be the best thing for the tier! Simply put full pass is a matchup fish and often requires sub optimal sets in order just not lose to it. Post glalie ban, while not being truly slow, the meta has slowed down (mostly less boom spam) making it easier to get the chains going. There are still plenty of boom users but teams are less focused on boom spam typically. Other counterplay exist of course but I don’t think having to run these options specifically for the full pass matchup is ideal. Roar whale is an ok set but I don’t think you’d be running roar otherwise. Offensive with boom or sub toxic are both sets you’d rather be running most of the time. Encore is a good option on dewgong in general, but it is less helpful if they have a speed boost in the mix (they can at least pass to something else before you can encore them.) I’ve used taunter as well and it’s… ok. Speed tier is great but adv taunt isn’t. Is full pass unbeatable? No. Does it have an unhealthy impact in the tier? Absolutely imo. I do think strategies like sub pass, and things like salac plusle pass are fine and I would like to see these stay in the tier. While adv tiering is and probably always will be adv tiering, more congruence with ou is also a benefit and makes things less confusing for players wanting to try out the tier as well, so that’s a small bonus. Overall if I were qualified to vote I would definitely vote to limit baton pass!
+
+### post 10762213 author=Monai url=https://www.smogon.com/forums/threads/adv-nu-discussion.3761091/#post-10762213
+Likes aren't a real way to convey support so I just want to state that I totally agree with lessthanthreeman
+
+### post 10767134 author=carry76t url=https://www.smogon.com/forums/threads/adv-nu-discussion.3761091/#post-10767134
+LessThanThreeMan said:
+
+While I’m not a qualified voter, I do really enjoy this tier and I’ve been playing a lot of it post glalie ban (I liked it before too but that’s another matter.) I really think limiting baton pass would be the best thing for the tier! Simply put full pass is a matchup fish and often requires sub optimal sets in order just not lose to it. Post glalie ban, while not being truly slow, the meta has slowed down (mostly less boom spam) making it easier to get the chains going. There are still plenty of boom users but teams are less focused on boom spam typically. Other counterplay exist of course but I don’t think having to run these options specifically for the full pass matchup is ideal. Roar whale is an ok set but I don’t think you’d be running roar otherwise. Offensive with boom or sub toxic are both sets you’d rather be running most of the time. Encore is a good option on dewgong in general, but it is less helpful if they have a speed boost in the mix (they can at least pass to something else before you can encore them.) I’ve used taunter as well and it’s… ok. Speed tier is great but adv taunt isn’t. Is full pass unbeatable? No. Does it have an unhealthy impact in the tier? Absolutely imo. I do think strategies like sub pass, and things like salac plusle pass are fine and I would like to see these stay in the tier. While adv tiering is and probably always will be adv tiering, more congruence with ou is also a benefit and makes things less confusing for players wanting to try out the tier as well, so that’s a small bonus. Overall if I were qualified to vote I would definitely vote to limit baton pass!
+
+Click to expand...
+
+Yes, it definitely has an unhealthy impact.. I’m fine with things like SubPass or Salac Plusle Pass staying, but overall, I’d vote to limit Baton Pass for sure.
+
+### post 10769298 author=Rabia url=https://www.smogon.com/forums/threads/adv-nu-discussion.3761091/#post-10769298
+Rabia said:
+
+Ok, with NUCL's draft being in one week, now is as good a time as any to get Baton Pass handled. People seemed pretty content with copying what OU was doing before their ban of Speed passing, so we'll go with that.
+
+To clarify, this means that if Baton Pass is voted for a restriction, teams will be limited to one stat passer per team, with Berry stat boosts counting towards this. Just like the Glalie vote, it will require >60% of people voting to restrict Baton Pass for it to get restricted.
+
+Here's the voting link! The qualifiers are tagged below.
+
+voters
+
+Heysup
+HANTSUKI
+Bughouse
+Oathkeeper
+Triangles
+Parpar
+Real FV13
+gorex
+ima
+zben
+Jisoo
+Kaboom
+SEA
+Shengineer
+Medeia
+Xrn
+Rabia
+Xiri
+Sadlysius
+Stories
+Beraldo
+ArcticBreeze
+Fogbound Lake
+LpZ
+Monai
+OranBerryBlissey10
+PichuFlash
+Plague
+Alder ST
+THE_CHUNGLER
+Shitrock enjoyer
+Amity
+Alecss
+goldmason
+violet river
+Gypsy
+
+I'll be closing voting before NUCL draft next Sunday, so vote before then :]
+
+Click to expand...
+
+The votes are in, and with 18/22 people voting to restrict Baton Pass, Baton Pass will now be restricted to one stat passer per team in ADV NU! This will mirror OU's handling except passing Speed is still permitted. dhelmise or Marty please implement when you get a chance ^^
+
+---
+
+After NUCL, I will begin organizing VR and sample teams updates. Stay tuned for that
+
+### post 10795567 author=Shengineer url=https://www.smogon.com/forums/threads/adv-nu-discussion.3761091/#post-10795567
+Shengineer said:
+
+I'm no expert at ADV NU, but I do think the VR could really use an update. A couple of thoughts I want to throw out:
+
+Click to expand...
+
+As an expert in ADV NU, I wanted to make a couple noms to the VR before the next slate so they could be voted on:
+
+Pineco UR -> B
+A legitimately solid spiker that finds ins versus common physical attackers like Hitmonchan and Metang, with the added bonus of Rapid Spin to provide some insurance against opposing spikes teams.
+
+Omanyte UR - > B-
+Not the most appealing spiker available, but it compresses Spikes and a Flying/Normal resist into one slot, allowing the use of more high-caliber mons like Bellossom.
+
+Shedinja UR -> C
+Spikes aren't as omnipresent as they once were, and this mon has the potential to blank a lot of random attackers like Wailord, Toxic-less Metang, Plusle/Pikachu, Huntail, and more. It can be annoying with Toxic or provide positioning with Baton Pass.
+
+Yanma UR -> C
+Cheesy but surprisingly effective at cleaning late game with Reversal and Speed Boost. Idk maybe it shouldnt be on the vr but I'd rather use it than a lot of the mons in C rank...
+
+Furret UR -> C
+It gets CB Trick, that's cool.
+
+### post 10795586 author=LessThanThreeMan url=https://www.smogon.com/forums/threads/adv-nu-discussion.3761091/#post-10795586
+Collection of VR Noms
+Existing Mons
+Bell A+ -> S
+Meta defining mon right now and as good as the other S rank options (other than chan)
+
+Flareon A+ -> A
+Honestly I just haven't seen a ton of flareon lately. Water types have gotten better and while flareon is still a great mon A feels more approproate than A+ to me.
+
+Torkoal A -> A-
+Similar reasons to flareon with water types being even more common. It's not bad it just feels too high.
+
+Raticate A -> A-
+With chan on so many teams I'd often rather have a bird in this teamslot so that it is at least neutral to mach punch. Speed tier is undeniable but I don't think its on par with the birds.
+
+Dewgong A -> A+
+Big winner with glalie leaving. I think whale is the best water but dewgong isn't far behind. Stab ice beam and encore are both great to have, but it isn't as splashable as whale since it doesn't actually resist metang's stab.
+
+Arbok B+ -> A
+Poison types are on the rise and I think arbok is the best one after golbat. Both abilities are really useful (intimidate for chan and shed skin for bell/rose) and it's just a strong mon. I really like the sub 3 attacks set in particular.
+
+Cacturne B+ -> A-
+Not the best mon of all time, but in a climate with fewer spikes options this is the best spiker on offense. I do like that it has some funny moves like encore and destiny bond, just be careful about giving chan a free in. HP flying is a really cool option that hits grasses and chan that want to try and come in on this!
+
+Pidgeot B+ -> A-
+Birds are on the rise. Pidgeot is the best offensively but has less of a defensive niche than krow or bat. Banded double edge hits really hard though and can chip down resists with hazards. Solid breaker for sure! I really like pidgeot alongside trapinch to trap/weaken metang for it.
+
+Murkrow B -> A
+Same story of flying types getting better, but this one is the fastest and adds a chime check to your team. Insomnia is great as well in a meta where bell/rose are clicking sleep moves.... just try not to get parad.
+
+Roselia B -> A-
+Honestly I dislike rose. It isn't splashable but for more defensive teams it is the spiker of choice typically. It is just.... so much worse than bell. It would never get used if it didn't have spikes.
+
+Swalot B -> B+
+Poison types are on the rise to combat grasses, I just think this one is slightly worse than arbok mainly because of the speed and abilities. Boom is boom though.
+
+Pikachu B -> A-
+Powerful breaker that feels like it can do much more now. Still very frail and needs help with bell, but a scary mon to see for sure.
+
+Trapinch C -> B
+Birds are getting better, and trapinch is one of the best enablers! Bulkier sets can come in on metang (unlike diglett who cant come in on anything) specifically and get it low which is worthwhile on some teams.
+
+Diglett B- -> B
+I wanted to keep this in the same subrank as trapinch, even though I think it is actually a slightly worse mon. Diglett traps more things (add fire types to the list and weakened neutral targets) with its speed over trapinch.... it just can never come in for free.
+
+Venomoth B -> C
+Mostly out of a job with the full pass ban, but it sleeps stuff still I suppose? Honestly I could see this going to UR at some point.
+
+New Mons
+Pineco UR -> B
+Solid spiker and spinner in one and checks chan. Can also spike on things like metang. Not the best mon of all time but it does have a niche post glalie!
+
+Omanyte UR - > B-
+I love this little guy. Structures here are pretty niche but it is a bird check and spiker in one which is nice sometimes. Offers some unique roll compression. I do think this is the worst spiker still, but he has a niche. Teams usually look something like omanyte + bell + traditional water type + fighting checks.
+
+Shedinja UR -> C
+I think plz has shown that this mon has some form of a niche now. Typically used alongside sub pass flareon, it makes a neat core that is hard to pin down. Less spikes in the tier give this some (not a ton) of room to work and can blank certain matchups (especially rain.)
+
+### post 10795590 author=violet river url=https://www.smogon.com/forums/threads/adv-nu-discussion.3761091/#post-10795590
+may make a longer post later, but for now I just want to comment on Pineco and Omanyte.
+Pineco bullies bulky Metang sets(particularly the ToxTect set that is so strong when spikes are a little less accessible), spikes on Hitmonchan, Bellossom. The list extends beyond this, but I want to show how Pineco has a strong matchup into some of the most centralizing pokemon.
+Omanyte spikes on...pidgeot...
+It's a niche to be able to stomach and spike on birds for sure, I guess most notably sort of Golbat? but this pokemons just so much less good game to game than Pineco is. I'd be thinking somewhere along the lines of Pineco B/B+, and omanyte maybe a C.
+
+### post 10795705 author=Rabia url=https://www.smogon.com/forums/threads/adv-nu-discussion.3761091/#post-10795705
+Yeah the Omanyte usage is pretty cope and personally I cannot see myself ever using it unless I whiffed on 50 roles in my teambuilding by the end that Omanyte helped solve. You’re just too unlikely to ever need or want to use it, which makes putting it any higher than C pretty hard in my view.
+
+Other general takes I agree with are Bell to S, Flareon down, birds and poisons in general up. I’d also pretty easily S rank Chimecho because CM is back to being the defining bulky wincon of the tier, and it blends that with all its great defensive and utility uses amazingly too.
+
+### post 10795851 author=plznostep url=https://www.smogon.com/forums/threads/adv-nu-discussion.3761091/#post-10795851
+Rises
+Bellossom A+ to S
+I think it's no contest. Bellossom is easily the most splashable Pokemon in the tier. It's able to check a large majority of special attackers like Wailord, Plusle, Pikachu, and Haunter while also being really difficult to switch into due to Stun Spore and Sleep Powder creating a 50/50 dynamic of whether you can switch your bird into it and not be completely ruined or switch a slower Pokemon but instead they are out of commission due to sleep. It's contender for the best Pokemon in the tier, and feels like it's only not seen when the team needs a Grass-type spiker.
+
+Dewgong A- to A+
+Dewgong is definitely on par with Wailord in this metagame. Its notably faster so it can check Flareon much better and the Ice-STAB is more important lately when Bellossom is quite popular. It also has more utility options than Wailord does in Encore, which can shut down Substitute Pokemon like Pelipper or setup Pokemon like Calm Mind Sableye and Chimecho. It's not better than Wailord since Wailord resists Steel, making it a better Metang switch-in and also is not weak to Fighting, making it better into Hitmonchan. But, I would say that Dewgong's positives and just as good, if not better, than Wailords.
+
+Pidgeot B+ to A-/A
+I think Pidgeot is the worst bird, but the worst bird is still a very good bird. Notably, out of the two, It feels like Pidgeot's typing leaves worse defensively despite good bulk. Murkrow can always check Chimecho, Golbat is a great Hitmonchan answer. Instead, Pidgeot can pivot into some moves like Earthquake/Hidden Power Ghost on Hitmonchan, or take a hit from Chimecho as well and switch-in. It just doesn't appreciate the damage because it already takes a lot of recoil from Double Edge. Offensively, Pidgeot has a lot more going for it. Normal-type moves are quite spammable and hit hard with high base power. It also has priority Quick Attack which is much stronger than Golbat's Quick Attack due to STAB. This still keeps it relevant and probably goo enough to be in one of these tiers.
+
+Pikachu B+ to A-
+Pikachu's firepower is more important in a metagame where things just got bulkier. Sure, Bellossom isn't a great development for Pikachu, but everything else is pretty good for Pikachu, so its a no brainer it rises.
+
+Roselia B to B+
+Roselia still feels like it sucks a lot of the time but one big improvement in this metagame is that it is by far the best switch-in to Bellossom and gets free Spikes versus it. It can still kind of check Electric-types and Water-types, but this is the main thing. It only fits on fat teams but on those teams, Roselia has its niche, and a pretty decent one at that.
+
+Murkrow B- to A/A+
+Murkrow has had a really great glow up in this metagame. Out of all the birds, Drill Peck on Murkrow is by far the most spammable move it can run. No immunities, is a pretty high base power move, and hits a good few Pokemon in the tier. It hits the hardest with its coverage additionally as it has the highest attack stat, and it's Dark-typing gives it defensive utility against Chimecho despite not having great defenses. Out of all the birds, I also think it is the best one when not using Choice Band due to some utility it has in its movepool in Thunder Wave. Overall, while not the most splashable, it can definitely be one of the more lethal birds.
+
+Mawile B- to B/B+
+Mawile has gotten better for reasons said before. It is a great bird answer and Baton Pass pivotting is more important lately. Some combos I have really liked with Mawile is pivotting into the birds, pivotting into Pikachu, and pivotting into trappers. I think thats all it really needs to do to rise, bird answers are way more in demand.
+
+Diglett B- to B
+I think Diglett's niche has become more in demand. It still does everything it did before but has competition in Trapinch. They do different things though, since Diglett and outrun Pokemon like Flareon and remove them, can outrun Pikachu and remove them, and a lot of the other Pokemon named below can also be removed. Sometimes it can remove Grass-types if you get it in on about a half hp Bellossom or get it in on Cacturne or Roselia as well. Diglett does needs support/great pivotting to get in whereas Trapinch usually can work by itself, but I think Diglett has a higher skill ceiling. I think its enough to rise.
+
+Trapinch C to B
+Trapinch has some notable traits over Diglett. Physically Defensive Trapinch can switch into and trap Metang, and also trap and remove Sableye who do not run Rest. It can also trap Arbok and other Poison-types on switch as well. In a metagame where birds are doing great, I think being able to remove the most common bird answer in the tier and some other Pokemon additionally on top is a great niche to have.
+
+Shuckle C to B-
+Stall feels like it got better. Shuckle is good on stall. That it, not really much else going on with Shuckle.
+
+Pineco UR to B/B+
+Pineco spikes on quite a lot of Pokemon. Notably, Hitmonchan, Metang, and sometimes Bellossom. Sometimes, teams really want a little insurance against these Pokemon, and Pineco offers them this and also offers Spikes. It's move pool is quite nice too, has Earthquake so Pokemon like Pikachu and Flareon do actually have to be careful switching in, and can also trade using Explosion. All round pretty good Pokemon.
+
+Omanyte UR to B-
+I think people underrate it. Every team needs a slot for birds. Omanyte can do this well. You can say that Omanyte spikes on Pidgeot but its not the truth. It spikes on every single bird. The birds are really good, so Omanyte will always have a niche in this metagame. A lot of top mons in this metagame appreciate Spikes, such as the birds and also Haunter, so the demand is also definitely there to have these spikers, and as an option, Omanyte is definitely appreciated as the role compression lets your build go more offensive.
+
+Shedinja UR to B-
+Shedinja is real. This Pokemon can be singlehandly one of the most scary Pokemon to deal with in the tier. Wonder Guard completely blanks a good majority of the metagame, such as Water-types, excluding Octillery, Electric-types, Offensive Metang, Haunter who are not running Will O Wisp/Hidden Power Fire, and etc. It's best matchup will be versus teams who ditch Spikes entirely, usually for trappers like Trapinch or Diglett. It's worst matchups are fat spikes teams with Sableye. However, just seeing spikes isn't an autoloss matchup for Shedinja, since I would advise you run a Rapid Spin Hitmonchan with it always. Shedinja becomes degenerate with a SubPass Pokemon like Flareon. It's really nasty to pass a Substitute on a Water-type to then see Shedinja come in, and Shedinja under a Substitute does wall more things, such as Toxic Metang, and forces the opposing player to go into a Pokemon who can break Shedinja's Substitute, which means it takes a hit from Shedinja's pretty high attack stat. Niche, but very deadly.
+
+Drops
+Metang S to A+
+I don't think Metang is good enough that it should be in S tier. Notably, I think it lost its ability to be a great Haunter check in this metagame since the majority run Will O Wisp which ruins Metang. While it can act as your answer to birds, I think this slot is contested more in this recent meta. Mawile is better lately since it takes less damage from the birds and Baton Pass pivotting is more important in this metagame when games are typically slower. Relicanth has proven itself lately as a great bird answer while being pretty offensively threatening. Omanyte has already been discussed. So when we look at what is unique to Metang, it's the MU's against certain special attackers, like Chimecho and Plusle, In my definition of S tier, I don't think thats good enough since Metang's role is not so unique anymore to be a standout Pokemon that an S tier Pokemon should be.
+
+Compare it to people like Bellossom, being by far the best SpDef Grass-type who is able to blanket check a large majority of the tier and has great utility options, Hitmonchan being the only real Fighting-type with great breaking potential and priority Mach Punch, and Haunter, a fast Ghost-type which performs many defensive roles such as checking Hitmonchan as well as offensive roles and has a good amount of set diversity and utility in its movepool. Metang is a good bird answer who also checks some special attackers like Chimecho and Plusle. It doesn't feel the same or unique enough.
+
+Kecleon A to A-
+I feel like Kecleon hasn't been as good in this meta. Notably, its got stiff competition from Bellossom as a blanket special wall lately, and while it does have Rest, it doesn't like Haunter running more Will O Wisp, as it forces it to Rest much earlier. Still, it can do a lot of what it did before, such as beating Chimecho, and Dewgong being more popular is good for Kecleon, as it does a lot better into Dewgong than it does into Pokemon like Wailord. Still, I do think it has not been as good lately.
+
+Huntail A to A-
+I think Huntail has more problems lately. Notably, Bellossom is quite common and usually sticks around in a game to when Huntail starts popping up. Spikes are also not as easy to set up as they were in Glalie meta, so it does take a bit more effort to get Huntail to clean. It's still pretty good but I think its not as easy to use anymore.
+
+Pelipper A to A-
+Despite Hitmonchan getting better, I do feel like Pelipper is worse. Pelipper really liked having Spikes everywhere as not only did it not care about them, but it chipped into all of its checks pretty heavily and when combined with a SubTox set, made everything get chipped down pretty consistently. That isn't nearly as common anymore, so while Pelipper is still good for dealing with Hitmonchan and pretty uniquely shutting down Flareon, it's not as effective as it once was.
+
+Torkoal A to A-
+I can't pinpoint exactly why Torkoal feels worse. I guess Water-types are more common, but i just don't think it stacks up to everyone who is in A tier at the moment. Still good though.
+
+Seadra B to B-
+Without Spikes, this doesn't feel nearly as effective. On top of that, Bellossom shuts this down quite heavily. It's no where near as good as it was in its prime, but keeps a niche of being a fast Water-type with good power, which is more than a lot of what C tier can say.
+
+Venomoth B to C
+I don't have to really explain this. Venomoth sucks, it is only good now as a Sleep lead who can SubPass in exchange for a dead slot after that. If somehow people can use that one trait and make it actual worth something on a team, then I can see it getting a little better, but no way now.
+
+### post 10796648 author=Bughouse url=https://www.smogon.com/forums/threads/adv-nu-discussion.3761091/#post-10796648
+My current VR probably looks something like this:
+
+S Rank
+
+S Rank
+
+Bellossom (up from A+)
+Haunter
+Hitmonchan
+Metang (borderline to me to drop this to top of A+, but decided to leave S)
+
+A Rank
+
+A+ Rank
+
+Chimecho
+Dewgong (up from A-)
+Flareon
+Golbat
+Wailord
+
+A Rank
+
+Octillery
+Plusle (down from A+)
+Pupitar
+Sableye
+Torkoal
+Whiscash (up from A-)
+
+A- Rank
+
+Huntail (down from A)
+Kecleon (down from A)
+Murkrow (up from B)
+Pelipper (down from A)
+Pidgeot (up from B+)
+Raticate (down from A)
+Relicanth
+Vigoroth
+
+B Rank
+
+B+ Rank
+
+Arbok
+Cacturne (leaving in B+, still the most generally splashable spiker. don't think it's "better" but probably fits on the most teams)
+Mawile (up from B-)
+Pikachu
+Sudowoodo
+Swalot (up from B)
+
+B Rank
+
+Diglett (up from B-, I think trapping has a lot of uses in still un-settled metagames in general and birds are good rn)
+Pineco (added from UR)
+Roselia
+Trapinch (up from C, I think trapping has a lot of uses in still un-settled metagames in general and birds are good rn)
+
+B- Rank
+
+Crawdaunt
+Kingler
+Omanyte (added from UR)
+Seadra (down from B)
+Shedinja (added from UR)
+
+C Rank
+
+Actual C ranks, no question in my mind these have a niche:
+Dunsparce
+Grovyle
+Piloswine
+Shuckle
+Tangela
+Tropius
+Wigglytuff
+
+Debtable Cs/URs:
+Lickitung (drop from clear C to debatable UR, licky stall structures are generally pretty bad, see shiloh's win this week)
+Mightyena (drop from clear C to debatable UR, niche is really small)
+Venomoth (drop from B to debatable UR, hanging on by a thread to still be C and not UR tbh without full pass)
+Yanma (added from UR to being debatable C/UR, it has a niche in any meta where priority usage is lower, and I think temporarily at least with decline in heavier offense meta post glalie, priority is also taking a small dip, though it's definitely still around esp on pidge and rat, though chan seems to be dropping it more or at least not revealing it as much.)
+
+Drops from C to Unranked, no chance I think these should stay in C:
+Abra (niche is really small, meant for psyspam team along w chime, but 91 speed birds rising in usage is extremely bad for it)
+Delcatty (bp is dead)
+Magby (niche is really, really small with Glalie gone)
+Minun (bp is dead, technically still has the smallest of niches over plusle, but I don't even know the last time I saw one)
+Shelgon (has theoretically had its same niches for years, but never actually gets used. should UR until someone actually uses it and shows it works. i think i've seen everything else in C at least once or twice in the last few big tours w adv nu in it.)
+Togetic (main thing Togetic had over many other bulky normals was its spike immunity, which is dramatically less relevant now. Dunsparce will do the serene grace para spamming better and is only marginally less specially bulky but without the ice and electric weaknesses which are super relevant for a special tank. Togetic has recovery, but it's really not enough to compensate and if you really want a fat normal with recovery, there's several of those. Haven't seen a single one used in post-Glalie.)
+
+The furret nom from Shengineer is fine too, and I have tried it out, but I don't think it's proven itself enough for a rank. Machoke could get a rank too for fight spam teams (same idea as Abra in C for psyspam) but meh I was leaning towards unranking Abra anyway. A few other random mons are also borderline C viable, but never see them (Dragonair, Wartortle, Houndour, Poliwhirl) so leave UR for now like Shelgon until they actually show somewhat recent success.
+
+### post 10799046 author=Pokeslice url=https://www.smogon.com/forums/threads/adv-nu-discussion.3761091/#post-10799046
+Bughouse said:
+
+Machoke could get a rank too for fight spam teams
+
+Click to expand...
+
+Not an ADV main in the slightest, but I do find Machoke to be pretty good in the tier. We used it last NUCL (on a no glalie team!) and it was great since iirc it has a better bird mu and it’s lowkey bulky while being a threatening Fighting-type.  I’d give it a C ranking and encourage people to try it.
+
+### post 10886988 author=Django url=https://www.smogon.com/forums/threads/adv-nu-discussion.3761091/#post-10886988
+ALTPL was a lot of fun, going 5-2 and winning the tour. built a few new teams with Stox which I wanna share:
+
+W2 vs Larry
+-  -  -  -  -
+We didn't think Larry was very familiar with this tier, and so wouldn't bring anything too crazy. We wanted to do the same and bring a pretty standard double water + para team. Octillery is an awesome double water lead, and starts para off. Sub Wail is something gaining popularity which can claim multiple kills once the opps grass is weakened / para'd (which Octillery should ensure). Bellossom + Metang as a defensive core covers most major stuff, and CM Chime + BU Chan are both insane wincons especially with some para around. Game plays out p much as expected with Octillery breaking Rose + Wail, then cleaning up later.
+
+Semis vs Mint Yerb
+-  -  -  -  -
+The scout for this game was lacking grounds and made Plusle look insanely good. I wanted to tun Plusle + Magnet Haunter as these two would be able to break through the spdef walls used to check electrics rather than ground types. The scout was more Roselia heavy than Bellossom, but in game ended up facing Bello which was harder to break. SubToxic Haunter with Leftovers would have been a good option to break this mon and I would probably run that > Magnet. Torkoal also looked really nice into their scout with several key targets like Flareon, and Toxic paired well with Protect Chimecho. Metang was feeling almost mandatory at this point and ended up being really important this game vs CB Pidge and Golbat. Wanted Dewgong as a faster water with no para on this team and no priority either, and fast Encore (along with Plusle Encore) slowing down opposing Chimecho
+
+Finals vs Oathkeeper
+-  -  -  -  -
+Having stalled Oath W1 I knew I couldn't bring it again (as tempting as it was) since DDJoe would be prepping well enough against it. Looking at my own scout we hadn't touched a single bird all tournament, so it felt like this was a good time to go for it. I went through a few versions of this, and CB Murk + Lickitung is another option here over Pidge and Kecleon. The basic approach was to start with CB Pidge + Curse Golbat + Spikes Cac, as the pressure from these three should overwhelm Metang / Sableye. From there we needed to handle Electrics and Haunter, as well as checking waters and opposing birds / rat. Metang + Kecleon covers most of this while also giving a good Sleep absorber. Waters are still a little scary, especially Octillery, so I wanted to lead bulky Plusle to not give up any room to them. SubPass into Cacturne or Golbat is also powerful early game to either get Spikes or just start breaking. Team plays pretty simply - get spikes, break with golbat, win with Pidgeot. The game played out pretty much as expected as well.
+
+Other stuff were just small edits to existing teams so not gonna post and claim as our own.
+
+I enjoyed ADV NU a lot this tour, and definitely found building more interesting now post-Glalie. The spikers are all kind of bad, so you have to make an actual tradeoff to use Spikes which is good since they are crazy broken. Using Cacturne or Roselia means you can't run Bellossom which just checks so much by itself, and Pineco / Omanyte are really really underwhelming. This makes building a lot more interesting and also makes Spikes weaks mons much more reliable. SpDef walls can switch into Haunter much more easily and Metang / Sab can more consistently handle the normals / birds. It's nice to see the tier developing further and looking forward to ADVPL!

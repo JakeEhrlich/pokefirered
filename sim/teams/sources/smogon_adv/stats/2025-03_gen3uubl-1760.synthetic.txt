@@ -1,0 +1,1232 @@
+=== [gen3uubl] Dragonite + top teammates ===
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+EVs: 96 HP / 252 Atk / 4 SpD / 156 Spe
+Adamant Nature
+- Hidden Power Flying
+- Earthquake
+- Heal Bell
+- Brick Break
+
+Raikou @ Leftovers
+Ability: Pressure
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Calm Mind
+- Hidden Power Ice
+- Roar
+
+Omastar @ Leftovers
+Ability: Shell Armor
+EVs: 252 HP / 204 Def / 44 SpA / 8 Spe
+Bold Nature
+- Spikes
+- Ice Beam
+- Surf
+- Protect
+
+Weezing @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 248 Def / 8 Spe
+Bold Nature
+- Will-O-Wisp
+- Haze
+- Pain Split
+- Hidden Power Ice
+
+Umbreon @ Leftovers
+Ability: Synchronize
+EVs: 252 HP / 144 Atk / 112 SpD
+Careful Nature
+- Wish
+- Toxic
+- Protect
+- Return
+
+Tentacruel @ Leftovers
+Ability: Clear Body
+EVs: 248 Atk / 44 SpA / 216 Spe
+Hasty Nature
+- Rapid Spin
+- Surf
+- Sludge Bomb
+- Swords Dance
+
+=== [gen3uubl] Registeel + top teammates ===
+
+Registeel @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 140 Atk / 116 SpD
+Careful Nature
+- Earthquake
+- Rest
+- Curse
+- Explosion
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+EVs: 96 HP / 252 Atk / 4 SpD / 156 Spe
+Adamant Nature
+- Hidden Power Flying
+- Earthquake
+- Heal Bell
+- Brick Break
+
+Raikou @ Leftovers
+Ability: Pressure
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Calm Mind
+- Hidden Power Ice
+- Roar
+
+Weezing @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 248 Def / 8 Spe
+Bold Nature
+- Will-O-Wisp
+- Haze
+- Pain Split
+- Hidden Power Ice
+
+Vaporeon @ Leftovers
+Ability: Water Absorb
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Surf
+- Wish
+- Ice Beam
+- Protect
+
+Donphan @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 80 Atk / 156 Def / 4 SpD / 16 Spe
+Impish Nature
+- Earthquake
+- Rapid Spin
+- Rock Slide
+- Roar
+
+=== [gen3uubl] Donphan + top teammates ===
+
+Donphan @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 80 Atk / 156 Def / 4 SpD / 16 Spe
+Impish Nature
+- Earthquake
+- Rapid Spin
+- Rock Slide
+- Roar
+
+Omastar @ Leftovers
+Ability: Shell Armor
+EVs: 252 HP / 204 Def / 44 SpA / 8 Spe
+Bold Nature
+- Spikes
+- Ice Beam
+- Surf
+- Protect
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+EVs: 96 HP / 252 Atk / 4 SpD / 156 Spe
+Adamant Nature
+- Hidden Power Flying
+- Earthquake
+- Heal Bell
+- Brick Break
+
+Raikou @ Leftovers
+Ability: Pressure
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Calm Mind
+- Hidden Power Ice
+- Roar
+
+Weezing @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 248 Def / 8 Spe
+Bold Nature
+- Will-O-Wisp
+- Haze
+- Pain Split
+- Hidden Power Ice
+
+Venusaur @ Leftovers
+Ability: Overgrow
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Sleep Powder
+- Sludge Bomb
+- Earthquake
+- Swords Dance
+
+=== [gen3uubl] Chansey + top teammates ===
+
+Chansey @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Seismic Toss
+- Soft-Boiled
+- Toxic
+- Thunder Wave
+
+Weezing @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 248 Def / 8 Spe
+Bold Nature
+- Will-O-Wisp
+- Haze
+- Pain Split
+- Hidden Power Ice
+
+Omastar @ Leftovers
+Ability: Shell Armor
+EVs: 252 HP / 204 Def / 44 SpA / 8 Spe
+Bold Nature
+- Spikes
+- Ice Beam
+- Surf
+- Protect
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+EVs: 96 HP / 252 Atk / 4 SpD / 156 Spe
+Adamant Nature
+- Hidden Power Flying
+- Earthquake
+- Heal Bell
+- Brick Break
+
+Donphan @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 80 Atk / 156 Def / 4 SpD / 16 Spe
+Impish Nature
+- Earthquake
+- Rapid Spin
+- Rock Slide
+- Roar
+
+Registeel @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 140 Atk / 116 SpD
+Careful Nature
+- Earthquake
+- Rest
+- Curse
+- Explosion
+
+=== [gen3uubl] Regice + top teammates ===
+
+Regice @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 200 SpA / 56 Spe
+Modest Nature
+- Ice Beam
+- Thunderbolt
+- Thunder Wave
+- Explosion
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+EVs: 96 HP / 252 Atk / 4 SpD / 156 Spe
+Adamant Nature
+- Hidden Power Flying
+- Earthquake
+- Heal Bell
+- Brick Break
+
+Weezing @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 248 Def / 8 Spe
+Bold Nature
+- Will-O-Wisp
+- Haze
+- Pain Split
+- Hidden Power Ice
+
+Raikou @ Leftovers
+Ability: Pressure
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Calm Mind
+- Hidden Power Ice
+- Roar
+
+Omastar @ Leftovers
+Ability: Shell Armor
+EVs: 252 HP / 204 Def / 44 SpA / 8 Spe
+Bold Nature
+- Spikes
+- Ice Beam
+- Surf
+- Protect
+
+Miltank @ Leftovers
+Ability: Thick Fat
+EVs: 120 HP / 252 Atk / 136 Spe
+Jolly Nature
+- Body Slam
+- Heal Bell
+- Milk Drink
+- Curse
+
+=== [gen3uubl] Medicham + top teammates ===
+
+Medicham @ Choice Band
+Ability: Pure Power
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Brick Break
+- Shadow Ball
+- Rock Slide
+- Fake Out
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+EVs: 96 HP / 252 Atk / 4 SpD / 156 Spe
+Adamant Nature
+- Hidden Power Flying
+- Earthquake
+- Heal Bell
+- Brick Break
+
+Raikou @ Leftovers
+Ability: Pressure
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Calm Mind
+- Hidden Power Ice
+- Roar
+
+Registeel @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 140 Atk / 116 SpD
+Careful Nature
+- Earthquake
+- Rest
+- Curse
+- Explosion
+
+Vaporeon @ Leftovers
+Ability: Water Absorb
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Surf
+- Wish
+- Ice Beam
+- Protect
+
+Weezing @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 248 Def / 8 Spe
+Bold Nature
+- Will-O-Wisp
+- Haze
+- Pain Split
+- Hidden Power Ice
+
+=== [gen3uubl] Venusaur + top teammates ===
+
+Venusaur @ Leftovers
+Ability: Overgrow
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Sleep Powder
+- Sludge Bomb
+- Earthquake
+- Swords Dance
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+EVs: 96 HP / 252 Atk / 4 SpD / 156 Spe
+Adamant Nature
+- Hidden Power Flying
+- Earthquake
+- Heal Bell
+- Brick Break
+
+Raikou @ Leftovers
+Ability: Pressure
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Calm Mind
+- Hidden Power Ice
+- Roar
+
+Omastar @ Leftovers
+Ability: Shell Armor
+EVs: 252 HP / 204 Def / 44 SpA / 8 Spe
+Bold Nature
+- Spikes
+- Ice Beam
+- Surf
+- Protect
+
+Donphan @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 80 Atk / 156 Def / 4 SpD / 16 Spe
+Impish Nature
+- Earthquake
+- Rapid Spin
+- Rock Slide
+- Roar
+
+Umbreon @ Leftovers
+Ability: Synchronize
+EVs: 252 HP / 144 Atk / 112 SpD
+Careful Nature
+- Wish
+- Toxic
+- Protect
+- Return
+
+=== [gen3uubl] Qwilfish + top teammates ===
+
+Qwilfish @ Leftovers
+Ability: Poison Point
+EVs: 252 HP / 40 Def / 216 Spe
+Jolly Nature
+- Spikes
+- Self-Destruct
+- Sludge Bomb
+- Hydro Pump
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+EVs: 96 HP / 252 Atk / 4 SpD / 156 Spe
+Adamant Nature
+- Hidden Power Flying
+- Earthquake
+- Heal Bell
+- Brick Break
+
+Raikou @ Leftovers
+Ability: Pressure
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Calm Mind
+- Hidden Power Ice
+- Roar
+
+Registeel @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 140 Atk / 116 SpD
+Careful Nature
+- Earthquake
+- Rest
+- Curse
+- Explosion
+
+Vaporeon @ Leftovers
+Ability: Water Absorb
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Surf
+- Wish
+- Ice Beam
+- Protect
+
+Chansey @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Seismic Toss
+- Soft-Boiled
+- Toxic
+- Thunder Wave
+
+=== [gen3uubl] Houndoom + top teammates ===
+
+Houndoom @ Leftovers
+Ability: Early Bird
+EVs: 252 SpA / 20 SpD / 236 Spe
+Modest Nature
+- Crunch
+- Pursuit
+- Flamethrower
+- Fire Blast
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+EVs: 96 HP / 252 Atk / 4 SpD / 156 Spe
+Adamant Nature
+- Hidden Power Flying
+- Earthquake
+- Heal Bell
+- Brick Break
+
+Donphan @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 80 Atk / 156 Def / 4 SpD / 16 Spe
+Impish Nature
+- Earthquake
+- Rapid Spin
+- Rock Slide
+- Roar
+
+Raikou @ Leftovers
+Ability: Pressure
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Calm Mind
+- Hidden Power Ice
+- Roar
+
+Registeel @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 140 Atk / 116 SpD
+Careful Nature
+- Earthquake
+- Rest
+- Curse
+- Explosion
+
+Vaporeon @ Leftovers
+Ability: Water Absorb
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Surf
+- Wish
+- Ice Beam
+- Protect
+
+=== [gen3uubl] Steelix + top teammates ===
+
+Steelix @ Leftovers
+Ability: Rock Head
+EVs: 252 HP / 116 Atk / 140 SpD
+Impish Nature
+- Earthquake
+- Roar
+- Explosion
+- Hidden Power Rock
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+EVs: 96 HP / 252 Atk / 4 SpD / 156 Spe
+Adamant Nature
+- Hidden Power Flying
+- Earthquake
+- Heal Bell
+- Brick Break
+
+Raikou @ Leftovers
+Ability: Pressure
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Calm Mind
+- Hidden Power Ice
+- Roar
+
+Tentacruel @ Leftovers
+Ability: Clear Body
+EVs: 248 Atk / 44 SpA / 216 Spe
+Hasty Nature
+- Rapid Spin
+- Surf
+- Sludge Bomb
+- Swords Dance
+
+Houndoom @ Leftovers
+Ability: Early Bird
+EVs: 252 SpA / 20 SpD / 236 Spe
+Modest Nature
+- Crunch
+- Pursuit
+- Flamethrower
+- Fire Blast
+
+Venusaur @ Leftovers
+Ability: Overgrow
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Sleep Powder
+- Sludge Bomb
+- Earthquake
+- Swords Dance
+
+=== [gen3uubl] Alakazam + top teammates ===
+
+Alakazam @ Lum Berry
+Ability: Synchronize
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Psychic
+- Calm Mind
+- Fire Punch
+- Hidden Power Water
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+EVs: 96 HP / 252 Atk / 4 SpD / 156 Spe
+Adamant Nature
+- Hidden Power Flying
+- Earthquake
+- Heal Bell
+- Brick Break
+
+Medicham @ Choice Band
+Ability: Pure Power
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Brick Break
+- Shadow Ball
+- Rock Slide
+- Fake Out
+
+Registeel @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 140 Atk / 116 SpD
+Careful Nature
+- Earthquake
+- Rest
+- Curse
+- Explosion
+
+Lanturn @ Leftovers
+Ability: Volt Absorb
+EVs: 40 HP / 252 SpA / 56 SpD / 160 Spe
+Modest Nature
+- Thunderbolt
+- Thunder Wave
+- Surf
+- Ice Beam
+
+Smeargle @ Salac Berry
+Ability: Own Tempo
+EVs: 96 HP / 88 Def / 72 SpD / 252 Spe
+Jolly Nature
+- Spore
+- Spikes
+- Explosion
+- Endure
+
+=== [gen3uubl] Dusclops + top teammates ===
+
+Dusclops @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 32 Atk / 4 Def / 220 SpD
+Careful Nature
+- Will-O-Wisp
+- Shadow Ball
+- Rest
+- Rock Slide
+
+Chansey @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Seismic Toss
+- Soft-Boiled
+- Toxic
+- Thunder Wave
+
+Omastar @ Leftovers
+Ability: Shell Armor
+EVs: 252 HP / 204 Def / 44 SpA / 8 Spe
+Bold Nature
+- Spikes
+- Ice Beam
+- Surf
+- Protect
+
+Vaporeon @ Leftovers
+Ability: Water Absorb
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Surf
+- Wish
+- Ice Beam
+- Protect
+
+Donphan @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 80 Atk / 156 Def / 4 SpD / 16 Spe
+Impish Nature
+- Earthquake
+- Rapid Spin
+- Rock Slide
+- Roar
+
+Weezing @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 248 Def / 8 Spe
+Bold Nature
+- Will-O-Wisp
+- Haze
+- Pain Split
+- Hidden Power Ice
+
+=== [gen3uubl] Tauros + top teammates ===
+
+Tauros @ Choice Band
+Ability: Intimidate
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Double-Edge
+- Hidden Power Ghost
+- Frustration
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+EVs: 96 HP / 252 Atk / 4 SpD / 156 Spe
+Adamant Nature
+- Hidden Power Flying
+- Earthquake
+- Heal Bell
+- Brick Break
+
+Raikou @ Leftovers
+Ability: Pressure
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Calm Mind
+- Hidden Power Ice
+- Roar
+
+Regice @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 200 SpA / 56 Spe
+Modest Nature
+- Ice Beam
+- Thunderbolt
+- Thunder Wave
+- Explosion
+
+Weezing @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 248 Def / 8 Spe
+Bold Nature
+- Will-O-Wisp
+- Haze
+- Pain Split
+- Hidden Power Ice
+
+Omastar @ Leftovers
+Ability: Shell Armor
+EVs: 252 HP / 204 Def / 44 SpA / 8 Spe
+Bold Nature
+- Spikes
+- Ice Beam
+- Surf
+- Protect
+
+=== [gen3uubl] Scizor + top teammates ===
+
+Scizor @ Leftovers
+Ability: Swarm
+EVs: 80 HP / 252 Atk / 176 Spe
+Adamant Nature
+- Swords Dance
+- Silver Wind
+- Hidden Power Rock
+- Agility
+
+Venusaur @ Leftovers
+Ability: Overgrow
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Sleep Powder
+- Sludge Bomb
+- Earthquake
+- Swords Dance
+
+Raikou @ Leftovers
+Ability: Pressure
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Calm Mind
+- Hidden Power Ice
+- Roar
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+EVs: 96 HP / 252 Atk / 4 SpD / 156 Spe
+Adamant Nature
+- Hidden Power Flying
+- Earthquake
+- Heal Bell
+- Brick Break
+
+Houndoom @ Leftovers
+Ability: Early Bird
+EVs: 252 SpA / 20 SpD / 236 Spe
+Modest Nature
+- Crunch
+- Pursuit
+- Flamethrower
+- Fire Blast
+
+Tentacruel @ Leftovers
+Ability: Clear Body
+EVs: 248 Atk / 44 SpA / 216 Spe
+Hasty Nature
+- Rapid Spin
+- Surf
+- Sludge Bomb
+- Swords Dance
+
+=== [gen3uubl] Miltank + top teammates ===
+
+Miltank @ Leftovers
+Ability: Thick Fat
+EVs: 120 HP / 252 Atk / 136 Spe
+Jolly Nature
+- Body Slam
+- Heal Bell
+- Milk Drink
+- Curse
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+EVs: 96 HP / 252 Atk / 4 SpD / 156 Spe
+Adamant Nature
+- Hidden Power Flying
+- Earthquake
+- Heal Bell
+- Brick Break
+
+Regice @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 200 SpA / 56 Spe
+Modest Nature
+- Ice Beam
+- Thunderbolt
+- Thunder Wave
+- Explosion
+
+Donphan @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 80 Atk / 156 Def / 4 SpD / 16 Spe
+Impish Nature
+- Earthquake
+- Rapid Spin
+- Rock Slide
+- Roar
+
+Weezing @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 248 Def / 8 Spe
+Bold Nature
+- Will-O-Wisp
+- Haze
+- Pain Split
+- Hidden Power Ice
+
+Slowbro @ Leftovers
+Ability: Own Tempo
+EVs: 252 HP / 176 Def / 28 SpA / 52 SpD
+Bold Nature
+- Surf
+- Calm Mind
+- Psychic
+- Rest
+
+=== [gen3uubl] Hariyama + top teammates ===
+
+Hariyama @ Leftovers
+Ability: Guts
+EVs: 228 Atk / 160 Def / 60 SpD / 60 Spe
+Adamant Nature
+- Knock Off
+- Rock Slide
+- Brick Break
+- Hidden Power Ghost
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+EVs: 96 HP / 252 Atk / 4 SpD / 156 Spe
+Adamant Nature
+- Hidden Power Flying
+- Earthquake
+- Heal Bell
+- Brick Break
+
+Registeel @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 140 Atk / 116 SpD
+Careful Nature
+- Earthquake
+- Rest
+- Curse
+- Explosion
+
+Weezing @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 248 Def / 8 Spe
+Bold Nature
+- Will-O-Wisp
+- Haze
+- Pain Split
+- Hidden Power Ice
+
+Chansey @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Seismic Toss
+- Soft-Boiled
+- Toxic
+- Thunder Wave
+
+Omastar @ Leftovers
+Ability: Shell Armor
+EVs: 252 HP / 204 Def / 44 SpA / 8 Spe
+Bold Nature
+- Spikes
+- Ice Beam
+- Surf
+- Protect
+
+=== [gen3uubl] Slowbro + top teammates ===
+
+Slowbro @ Leftovers
+Ability: Own Tempo
+EVs: 252 HP / 176 Def / 28 SpA / 52 SpD
+Bold Nature
+- Surf
+- Calm Mind
+- Psychic
+- Rest
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+EVs: 96 HP / 252 Atk / 4 SpD / 156 Spe
+Adamant Nature
+- Hidden Power Flying
+- Earthquake
+- Heal Bell
+- Brick Break
+
+Chansey @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Seismic Toss
+- Soft-Boiled
+- Toxic
+- Thunder Wave
+
+Omastar @ Leftovers
+Ability: Shell Armor
+EVs: 252 HP / 204 Def / 44 SpA / 8 Spe
+Bold Nature
+- Spikes
+- Ice Beam
+- Surf
+- Protect
+
+Miltank @ Leftovers
+Ability: Thick Fat
+EVs: 120 HP / 252 Atk / 136 Spe
+Jolly Nature
+- Body Slam
+- Heal Bell
+- Milk Drink
+- Curse
+
+Hariyama @ Leftovers
+Ability: Guts
+EVs: 228 Atk / 160 Def / 60 SpD / 60 Spe
+Adamant Nature
+- Knock Off
+- Rock Slide
+- Brick Break
+- Hidden Power Ghost
+
+=== [gen3uubl] Armaldo + top teammates ===
+
+Armaldo @ Leftovers
+Ability: Battle Armor
+EVs: 252 HP / 56 Atk / 160 Def / 40 Spe
+Adamant Nature
+- Rapid Spin
+- Earthquake
+- Rock Slide
+- Swords Dance
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+EVs: 96 HP / 252 Atk / 4 SpD / 156 Spe
+Adamant Nature
+- Hidden Power Flying
+- Earthquake
+- Heal Bell
+- Brick Break
+
+Registeel @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 140 Atk / 116 SpD
+Careful Nature
+- Earthquake
+- Rest
+- Curse
+- Explosion
+
+Raikou @ Leftovers
+Ability: Pressure
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Calm Mind
+- Hidden Power Ice
+- Roar
+
+Vaporeon @ Leftovers
+Ability: Water Absorb
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Surf
+- Wish
+- Ice Beam
+- Protect
+
+Qwilfish @ Leftovers
+Ability: Poison Point
+EVs: 252 HP / 40 Def / 216 Spe
+Jolly Nature
+- Spikes
+- Self-Destruct
+- Sludge Bomb
+- Hydro Pump
+
+=== [gen3uubl] Ursaring + top teammates ===
+
+Ursaring @ Leftovers
+Ability: Guts
+EVs: 160 HP / 252 Atk / 96 Spe
+Adamant Nature
+- Earthquake
+- Return
+- Swords Dance
+- Hidden Power Ghost
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+EVs: 96 HP / 252 Atk / 4 SpD / 156 Spe
+Adamant Nature
+- Hidden Power Flying
+- Earthquake
+- Heal Bell
+- Brick Break
+
+Weezing @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 248 Def / 8 Spe
+Bold Nature
+- Will-O-Wisp
+- Haze
+- Pain Split
+- Hidden Power Ice
+
+Registeel @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 140 Atk / 116 SpD
+Careful Nature
+- Earthquake
+- Rest
+- Curse
+- Explosion
+
+Chansey @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Seismic Toss
+- Soft-Boiled
+- Toxic
+- Thunder Wave
+
+Qwilfish @ Leftovers
+Ability: Poison Point
+EVs: 252 HP / 40 Def / 216 Spe
+Jolly Nature
+- Spikes
+- Self-Destruct
+- Sludge Bomb
+- Hydro Pump
+
+=== [gen3uubl] Blastoise + top teammates ===
+
+Blastoise @ Leftovers
+Ability: Torrent
+EVs: 212 HP / 252 Def / 44 SpD
+Bold Nature
+- Surf
+- Rapid Spin
+- Ice Beam
+- Toxic
+
+Raikou @ Leftovers
+Ability: Pressure
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Calm Mind
+- Hidden Power Ice
+- Roar
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+EVs: 96 HP / 252 Atk / 4 SpD / 156 Spe
+Adamant Nature
+- Hidden Power Flying
+- Earthquake
+- Heal Bell
+- Brick Break
+
+Chansey @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Seismic Toss
+- Soft-Boiled
+- Toxic
+- Thunder Wave
+
+Omastar @ Leftovers
+Ability: Shell Armor
+EVs: 252 HP / 204 Def / 44 SpA / 8 Spe
+Bold Nature
+- Spikes
+- Ice Beam
+- Surf
+- Protect
+
+Dusclops @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 32 Atk / 4 Def / 220 SpD
+Careful Nature
+- Will-O-Wisp
+- Shadow Ball
+- Rest
+- Rock Slide
+
+=== [gen3uubl] Crobat + top teammates ===
+
+Crobat @ Choice Band
+Ability: Inner Focus
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Sludge Bomb
+- Shadow Ball
+- Hidden Power Ground
+- Aerial Ace
+
+Registeel @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 140 Atk / 116 SpD
+Careful Nature
+- Earthquake
+- Rest
+- Curse
+- Explosion
+
+Raikou @ Leftovers
+Ability: Pressure
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Calm Mind
+- Hidden Power Ice
+- Roar
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+EVs: 96 HP / 252 Atk / 4 SpD / 156 Spe
+Adamant Nature
+- Hidden Power Flying
+- Earthquake
+- Heal Bell
+- Brick Break
+
+Chansey @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Seismic Toss
+- Soft-Boiled
+- Toxic
+- Thunder Wave
+
+Hariyama @ Leftovers
+Ability: Guts
+EVs: 228 Atk / 160 Def / 60 SpD / 60 Spe
+Adamant Nature
+- Knock Off
+- Rock Slide
+- Brick Break
+- Hidden Power Ghost
+
+=== [gen3uubl] Blaziken + top teammates ===
+
+Blaziken @ Salac Berry
+Ability: Blaze
+EVs: 252 Atk / 4 SpA / 252 Spe
+Hasty Nature
+- Fire Blast
+- Hidden Power Ice
+- Sky Uppercut
+- Brick Break
+
+Tauros @ Choice Band
+Ability: Intimidate
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Double-Edge
+- Hidden Power Ghost
+- Frustration
+
+Regice @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 200 SpA / 56 Spe
+Modest Nature
+- Ice Beam
+- Thunderbolt
+- Thunder Wave
+- Explosion
+
+Raikou @ Leftovers
+Ability: Pressure
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Calm Mind
+- Hidden Power Ice
+- Roar
+
+Dragonite @ Choice Band
+Ability: Inner Focus
+EVs: 96 HP / 252 Atk / 4 SpD / 156 Spe
+Adamant Nature
+- Hidden Power Flying
+- Earthquake
+- Heal Bell
+- Brick Break
+
+Vaporeon @ Leftovers
+Ability: Water Absorb
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Surf
+- Wish
+- Ice Beam
+- Protect
+

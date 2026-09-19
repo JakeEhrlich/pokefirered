@@ -1,0 +1,1286 @@
+=== [gen3ou-box] Speed Tiers 80-130 ===
+
+266,296,359,394 (Jolteon)  
+Ability: Volt Absorb  
+
+266,296,359,394 (Aerodactyl)  
+Ability: Rock Head  
+IVs: 0 Atk  
+
+248,276,339,372 (Dugtrio)  
+Ability: Arena Trap  
+Quirky Nature  
+IVs: 0 Atk  
+
+239,266,329,361 (Raikou)  
+Ability: Pressure  
+
+239,266,329,361 (Starmie)  
+Ability: Natural Cure  
+Quirky Nature  
+IVs: 0 Atk  
+
+230,256,319,350 (Gengar)  
+Ability: Levitate  
+
+212,236,299,328 (Charizard)  
+Ability: Blaze  
+
+212,236,299,328 (Salamence)  
+Ability: Intimidate  
+
+212,236,299,328 (Flygon)  
+Ability: Levitate  
+
+212,236,299,328 (Zapdos)  
+Ability: Pressure  
+
+212,236,299,328 (Jirachi)  
+Ability: Serene Grace  
+
+212,236,299,328 (Celebi)  
+Ability: Natural Cure  
+
+203,226,289,317 (Jynx) (F)  
+Ability: Oblivious  
+
+194,216,279,306 (Moltres)  
+Ability: Pressure  
+
+185,206,269,295 (Heracross)  
+Ability: Guts  
+IVs: 0 Atk  
+
+185,206,269,295 (Suicune)  
+Ability: Pressure  
+
+185,206,269,295 (Kingdra)  
+Ability: Swift Swim  
+
+178,198,261,287 (Gyarados)  
+Ability: Intimidate  
+Docile Nature  
+
+178,198,261,287 (Milotic)  
+Ability: Marvel Scale  
+
+176,196,259,284 (Glalie)  
+Ability: Inner Focus  
+
+176,196,259,284 (Medicham)  
+Ability: Pure Power  
+
+176,196,259,284 (Blaziken)  
+Ability: Blaze  
+
+176,196,259,284 (Venusaur)  
+Ability: Overgrow  
+
+
+=== [gen3ou-box] Speed Tiers 30-75 ===
+
+167,186,249,273 (Smeargle)  
+Ability: Own Tempo  
+
+167,186,249,273 (Claydol)  
+Ability: Levitate  
+
+158,176,239,262 (Breloom)  
+Ability: Effect Spore  
+
+158,176,239,262 (Magneton)  
+Ability: Magnet Pull  
+
+158,176,239,262 (Cloyster)  
+Ability: Shell Armor  
+
+158,176,239,262 (Metagross)  
+Ability: Clear Body  
+
+158,176,239,262 (Skarmory)  
+Ability: Keen Eye  
+
+158,176,239,262 (Ludicolo)  
+Ability: Swift Swim  
+
+149,166,229,251 (Vaporeon)  
+Ability: Water Absorb  
+
+142,158,221,243 (Tyranitar)  
+Ability: Sand Stream  
+Quirky Nature  
+
+140,156,219,240 (Swampert)  
+Ability: Torrent  
+
+140,156,219,240 (Porygon2)  
+Ability: Trace  
+
+140,156,219,240 (Weezing)  
+Ability: Levitate  
+
+131,146,209,229 (Machamp)  
+Ability: Guts  
+
+131,146,209,229 (Blissey) (F)  
+Ability: Natural Cure  
+
+122,136,199,218 (Regice)  
+Ability: Clear Body  
+
+122,136,199,218 (Hariyama)  
+Ability: Guts  
+IVs: 0 Atk  
+
+113,126,189,207 (Marowak) @ Thick Club  
+Ability: Rock Head  
+Quirky Nature  
+
+104,116,179,196 (Camerupt)  
+Ability: Magma Armor  
+
+104,116,179,196 (Forretress)  
+Ability: Sturdy  
+
+86,96,159,174 (Steelix)  
+Ability: Rock Head  
+
+86,96,159,174 (Snorlax)  
+Ability: Immunity  
+Hardy Nature  
+
+
+=== [gen3ou-box] VR 1 ===
+
+Tyranitar  
+Ability: Sand Stream  
+
+Skarmory  
+Ability: Keen Eye  
+
+Metagross  
+Ability: Clear Body  
+
+Zapdos  
+Ability: Pressure  
+
+Gengar  
+Ability: Levitate  
+
+Swampert  
+Ability: Torrent  
+
+Jirachi  
+Ability: Serene Grace  
+
+Blissey (F)  
+Ability: Natural Cure  
+
+Salamence  
+Ability: Intimidate  
+
+Celebi  
+Ability: Natural Cure  
+
+Suicune  
+Ability: Pressure  
+
+Claydol  
+Ability: Levitate  
+
+Aerodactyl  
+Ability: Rock Head  
+
+Dugtrio  
+Ability: Arena Trap  
+IVs: 0 Atk  
+
+Starmie  
+Ability: Natural Cure  
+IVs: 0 Atk  
+
+Snorlax  
+Ability: Immunity  
+
+
+=== [gen3ou-box] VR 2 ===
+
+Flygon  
+Ability: Levitate  
+
+Magneton  
+Ability: Magnet Pull  
+
+Moltres  
+Ability: Pressure  
+
+Charizard  
+Ability: Blaze  
+
+Heracross  
+Ability: Guts  
+IVs: 0 Atk  
+
+Milotic  
+Ability: Marvel Scale  
+
+Forretress  
+Ability: Sturdy  
+
+Breloom  
+Ability: Effect Spore  
+
+Gyarados  
+Ability: Intimidate  
+
+Jolteon  
+Ability: Volt Absorb  
+
+Cloyster  
+Ability: Shell Armor  
+
+
+=== [gen3ou-box] VR 3 ===
+
+Smeargle  
+Ability: Own Tempo  
+
+Hariyama  
+Ability: Guts  
+IVs: 0 Atk  
+
+Jynx (F)  
+Ability: Oblivious  
+
+Porygon2  
+Ability: Trace  
+
+Regice  
+Ability: Clear Body  
+
+Medicham  
+Ability: Pure Power  
+
+Venusaur  
+Ability: Overgrow  
+
+Raikou  
+Ability: Pressure  
+
+Vaporeon  
+Ability: Water Absorb  
+
+Kingdra  
+Ability: Swift Swim  
+
+Machamp  
+Ability: Guts  
+
+Blaziken  
+Ability: Blaze  
+
+Ludicolo  
+Ability: Swift Swim  
+
+Weezing  
+Ability: Levitate  
+
+Glalie  
+Ability: Inner Focus  
+
+Steelix  
+Ability: Rock Head  
+
+Camerupt  
+Ability: Magma Armor  
+
+Marowak @ Thick Club  
+Ability: Rock Head  
+
+Houndoom  
+Ability: Flash Fire  
+IVs: 0 Atk  
+
+Misdreavus  
+Ability: Levitate  
+
+Roselia  
+Ability: Natural Cure  
+
+Regirock  
+Ability: Clear Body  
+
+Armaldo  
+Ability: Battle Armor  
+
+Donphan  
+Ability: Sturdy  
+
+
+=== [gen3ou-box] VR 4 ===
+
+Registeel  
+Ability: Clear Body  
+
+Dusclops  
+Ability: Pressure  
+
+Umbreon  
+Ability: Synchronize  
+
+Dragonite  
+Ability: Inner Focus  
+
+Jumpluff  
+Ability: Chlorophyll  
+
+Arcanine  
+Ability: Intimidate  
+
+Sceptile  
+Ability: Overgrow  
+
+Slaking  
+Ability: Truant  
+
+Scizor  
+Ability: Swarm  
+
+Lunatone  
+Ability: Levitate  
+
+Articuno  
+Ability: Pressure  
+
+Miltank (F)  
+Ability: Thick Fat  
+
+Lanturn  
+Ability: Volt Absorb  
+
+Alakazam  
+Ability: Synchronize  
+
+Wailord  
+Ability: Water Veil  
+
+Exeggutor  
+Ability: Chlorophyll  
+
+Golduck  
+Ability: Cloud Nine  
+IVs: 0 Atk  
+
+Rhydon  
+Ability: Rock Head  
+IVs: 0 Atk  
+
+Ninjask  
+Ability: Speed Boost  
+
+Solrock  
+Ability: Levitate  
+
+Mantine  
+Ability: Water Absorb  
+IVs: 0 Atk  
+
+Politoed  
+Ability: Damp  
+IVs: 0 Atk  
+
+Tauros (M)  
+Ability: Intimidate  
+
+Lapras  
+Ability: Water Absorb  
+
+
+=== [gen3ou] Storm and Slumber [Regice Rain] ===
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunder  
+- Hidden Power [Grass]  
+- Substitute  
+- Baton Pass  
+
+Regice @ Leftovers  
+Ability: Clear Body  
+EVs: 208 HP / 236 SpA / 64 Spe  
+Modest Nature  
+- Ice Beam  
+- Thunder  
+- Rain Dance  
+- Explosion  
+
+Dugtrio @ Choice Band  
+Ability: Arena Trap  
+EVs: 44 HP / 104 Atk / 128 SpD / 232 Spe  
+Adamant Nature  
+IVs: 30 SpD / 30 Spe  
+- Earthquake  
+- Aerial Ace  
+- Hidden Power [Bug]  
+- Beat Up  
+
+Kingdra @ Leftovers  
+Ability: Swift Swim  
+EVs: 248 HP / 244 SpA / 16 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Surf  
+- Ice Beam  
+- Rain Dance  
+- Substitute  
+
+Breloom @ Leftovers  
+Ability: Effect Spore  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Brick Break  
+- Hidden Power [Ghost]  
+- Focus Punch  
+- Spore  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 248 HP / 136 Atk / 12 Def / 88 SpD / 24 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Rock Slide  
+- Explosion  
+
+
+=== [gen3ou] King and Kahuna [Forre Rain] ===
+
+Forretress @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 248 SpD / 8 Spe  
+Careful Nature  
+IVs: 30 SpD / 30 Spe  
+- Hidden Power [Bug]  
+- Spikes  
+- Rapid Spin  
+- Explosion  
+
+Hariyama @ Leftovers  
+Ability: Guts  
+EVs: 216 Atk / 176 Def / 104 SpD / 12 Spe  
+Adamant Nature  
+IVs: 30 SpD / 30 Spe  
+- Cross Chop  
+- Rock Slide  
+- Hidden Power [Bug]  
+- Knock Off  
+
+Snorlax @ Leftovers  
+Ability: Immunity  
+EVs: 80 HP / 176 Atk / 124 Def / 108 SpD / 20 Spe  
+Adamant Nature  
+- Body Slam  
+- Shadow Ball  
+- Focus Punch  
+- Self-Destruct  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 100 SpA / 120 SpD / 36 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Thunder Wave  
+- Baton Pass  
+
+Dugtrio @ Choice Band  
+Ability: Arena Trap  
+EVs: 44 HP / 104 Atk / 128 SpD / 232 Spe  
+Adamant Nature  
+IVs: 30 SpD / 30 Spe  
+- Earthquake  
+- Aerial Ace  
+- Hidden Power [Bug]  
+- Beat Up  
+
+Kingdra @ Leftovers  
+Ability: Swift Swim  
+EVs: 248 HP / 244 SpA / 16 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Surf  
+- Ice Beam  
+- Rain Dance  
+- Substitute  
+
+
+=== [gen3ou] Fairy-Catching [Zapdos SubPass] ===
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Substitute  
+- Baton Pass  
+
+Dugtrio @ Choice Band  
+Ability: Arena Trap  
+EVs: 80 HP / 200 Atk / 228 Spe  
+Adamant Nature  
+IVs: 30 SpD / 30 Spe  
+- Earthquake  
+- Aerial Ace  
+- Hidden Power [Bug]  
+- Beat Up  
+
+Houndoom @ Leftovers  
+Ability: Flash Fire  
+EVs: 8 HP / 248 SpA / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Crunch  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Pursuit  
+
+Breloom @ Leftovers  
+Ability: Effect Spore  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Brick Break  
+- Hidden Power [Rock]  
+- Focus Punch  
+- Spore  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 176 HP / 136 Atk / 156 SpA / 4 SpD / 36 Spe  
+Brave Nature  
+- Hydro Pump  
+- Earthquake  
+- Ice Beam  
+- Focus Punch  
+
+Snorlax @ Leftovers  
+Ability: Immunity  
+EVs: 80 HP / 176 Atk / 124 Def / 108 SpD / 20 Spe  
+Adamant Nature  
+- Body Slam  
+- Earthquake  
+- Focus Punch  
+- Self-Destruct  
+
+
+=== [gen3ou] Traitor [Celebi SubPass] ===
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Psychic  
+- Leech Seed  
+- Substitute  
+- Baton Pass  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 176 HP / 136 Atk / 156 SpA / 4 SpD / 36 Spe  
+Brave Nature  
+- Hydro Pump  
+- Earthquake  
+- Ice Beam  
+- Focus Punch  
+
+Forretress @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 248 SpD / 8 Spe  
+Careful Nature  
+IVs: 30 SpD / 30 Spe  
+- Hidden Power [Bug]  
+- Spikes  
+- Rapid Spin  
+- Explosion  
+
+Houndoom @ Leftovers  
+Ability: Flash Fire  
+EVs: 8 HP / 248 SpA / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Crunch  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Pursuit  
+
+Dugtrio @ Choice Band  
+Ability: Arena Trap  
+EVs: 44 HP / 84 Atk / 128 SpD / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Aerial Ace  
+- Hidden Power [Bug]  
+- Beat Up  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 104 Def / 44 SpA / 72 SpD / 36 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Thunder Wave  
+- Roar  
+
+
+=== [gen3ou] Badger the Dog [VenuPert ForreGarDoom] ===
+
+Forretress @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+- Earthquake  
+- Spikes  
+- Rapid Spin  
+- Explosion  
+
+Venusaur @ Leftovers  
+Ability: Overgrow  
+EVs: 208 HP / 248 Atk / 28 SpA / 24 Spe  
+Brave Nature  
+- Giga Drain  
+- Sludge Bomb  
+- Earthquake  
+- Leech Seed  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 176 HP / 136 Atk / 156 SpA / 4 SpD / 36 Spe  
+Brave Nature  
+- Hydro Pump  
+- Earthquake  
+- Ice Beam  
+- Focus Punch  
+
+Snorlax @ Leftovers  
+Ability: Immunity  
+EVs: 80 HP / 176 Atk / 124 Def / 108 SpD / 20 Spe  
+Adamant Nature  
+- Body Slam  
+- Earthquake  
+- Focus Punch  
+- Self-Destruct  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 112 HP / 212 SpA / 184 Spe  
+Timid Nature  
+- Thunderbolt  
+- Ice Punch  
+- Will-O-Wisp  
+- Explosion  
+
+Houndoom @ Leftovers  
+Ability: Flash Fire  
+EVs: 8 HP / 248 SpA / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Crunch  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Pursuit  
+
+
+=== [gen3ou] Nebula [Modest Starmie ForreGarTar] ===
+
+Forretress @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+- Earthquake  
+- Spikes  
+- Rapid Spin  
+- Explosion  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 12 Atk / 216 SpA / 32 Spe  
+Quiet Nature  
+- Rock Slide  
+- Crunch  
+- Pursuit  
+- Focus Punch  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 104 HP / 220 SpA / 184 Spe  
+Timid Nature  
+- Fire Punch  
+- Giga Drain  
+- Will-O-Wisp  
+- Explosion  
+
+Starmie @ Leftovers  
+Ability: Natural Cure  
+EVs: 8 HP / 248 SpA / 252 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Hydro Pump  
+- Ice Beam  
+- Thunderbolt  
+- Recover  
+
+Snorlax @ Leftovers  
+Ability: Immunity  
+EVs: 136 HP / 176 Atk / 100 Def / 80 SpD / 16 Spe  
+Adamant Nature  
+- Body Slam  
+- Earthquake  
+- Focus Punch  
+- Self-Destruct  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 248 HP / 136 Atk / 12 Def / 88 SpD / 24 Spe  
+Adamant Nature  
+- Meteor Mash  
+- Earthquake  
+- Rock Slide  
+- Explosion  
+
+
+=== [gen3ou] Chester's Team [Retro] ===
+
+Heracross @ Choice Band  
+Ability: Guts  
+EVs: 8 HP / 248 Atk / 252 Spe  
+Jolly Nature  
+- Megahorn  
+- Brick Break  
+- Rock Slide  
+- Facade  
+
+Magneton @ Leftovers  
+Ability: Magnet Pull  
+EVs: 252 HP / 236 SpA / 20 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Thunderbolt  
+- Hidden Power [Fire]  
+- Thunder Wave  
+- Toxic  
+
+Houndoom @ Leftovers  
+Ability: Flash Fire  
+EVs: 56 HP / 252 SpA / 200 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Crunch  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Pursuit  
+
+Donphan @ Leftovers  
+Ability: Sturdy  
+EVs: 252 HP / 196 Atk / 60 Spe  
+Adamant Nature  
+- Earthquake  
+- Rock Slide  
+- Toxic  
+- Rapid Spin  
+
+Snorlax @ Leftovers  
+Ability: Immunity  
+EVs: 80 HP / 124 Atk / 184 Def / 108 SpD / 12 Spe  
+Adamant Nature  
+- Body Slam  
+- Earthquake  
+- Focus Punch  
+- Self-Destruct  
+
+Gyarados @ Leftovers  
+Ability: Intimidate  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Hidden Power [Flying]  
+- Earthquake  
+- Dragon Dance  
+- Substitute  
+
+
+=== [gen3ou] Jeremy's Team [GyaraLix] ===
+
+Steelix @ Leftovers  
+Ability: Rock Head  
+EVs: 248 HP / 236 Atk / 4 SpD / 20 Spe  
+Adamant Nature  
+- Earthquake  
+- Double-Edge  
+- Roar  
+- Explosion  
+
+Gyarados @ Leftovers  
+Ability: Intimidate  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Hidden Power [Flying]  
+- Earthquake  
+- Dragon Dance  
+- Substitute  
+
+Magneton @ Magnet  
+Ability: Magnet Pull  
+EVs: 240 HP / 248 SpA / 20 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Thunderbolt  
+- Hidden Power [Fire]  
+- Thunder Wave  
+- Toxic  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 12 Atk / 160 SpA / 52 SpD / 36 Spe  
+Quiet Nature  
+- Rock Slide  
+- Crunch  
+- Pursuit  
+- Focus Punch  
+
+Starmie @ Leftovers  
+Ability: Natural Cure  
+EVs: 8 HP / 248 SpA / 252 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Hydro Pump  
+- Ice Beam  
+- Thunderbolt  
+- Recover  
+
+Heracross @ Leftovers  
+Ability: Guts  
+EVs: 248 HP / 124 Atk / 116 SpD / 20 Spe  
+Adamant Nature  
+- Megahorn  
+- Rock Slide  
+- Focus Punch  
+- Substitute  
+
+
+=== [gen3ou] Eyes to the Sky [DDMence CelePert] ===
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 184 Atk / 56 Def / 20 Spe  
+Adamant Nature  
+IVs: 30 SpD / 30 Spe  
+- Rock Slide  
+- Earthquake  
+- Hidden Power [Bug]  
+- Focus Punch  
+
+Magneton @ Leftovers  
+Ability: Magnet Pull  
+EVs: 252 HP / 236 SpA / 20 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Thunderbolt  
+- Hidden Power [Fire]  
+- Thunder Wave  
+- Toxic  
+
+Claydol @ Leftovers  
+Ability: Levitate  
+EVs: 240 HP / 220 Atk / 32 SpD / 16 Spe  
+Sassy Nature  
+- Earthquake  
+- Psychic  
+- Rapid Spin  
+- Explosion  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 176 HP / 136 Atk / 156 SpA / 4 SpD / 36 Spe  
+Brave Nature  
+- Hydro Pump  
+- Earthquake  
+- Ice Beam  
+- Focus Punch  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 8 HP / 248 SpA / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Psychic  
+- Hidden Power [Grass]  
+- Leech Seed  
+- Recover  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Hidden Power [Flying]  
+- Earthquake  
+- Rock Slide  
+- Dragon Dance  
+
+
+=== [gen3ou] Gazebo [Mixed Attackers CMPass] ===
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 160 SpA / 52 SpD / 48 Spe  
+Quiet Nature  
+- Crunch  
+- Thunder  
+- Focus Punch  
+- Substitute  
+
+Salamence @ Leftovers  
+Ability: Intimidate  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Naive Nature  
+- Dragon Claw  
+- Fire Blast  
+- Hidden Power [Grass]  
+- Brick Break  
+
+Metagross @ Leftovers  
+Ability: Clear Body  
+EVs: 16 HP / 4 Atk / 236 SpA / 252 Spe  
+Naive Nature  
+- Meteor Mash  
+- Psychic  
+- Hidden Power [Fire]  
+- Explosion  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 216 Def / 40 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Psychic  
+- Calm Mind  
+- Recover  
+- Baton Pass  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 176 HP / 136 Atk / 156 SpA / 4 SpD / 36 Spe  
+Brave Nature  
+- Hydro Pump  
+- Earthquake  
+- Ice Beam  
+- Focus Punch  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 104 HP / 216 SpA / 188 Spe  
+Timid Nature  
+- Thunderbolt  
+- Ice Punch  
+- Will-O-Wisp  
+- Explosion  
+
+
+=== [gen3ou] Double-Clutching [ArcaLoom] ===
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 176 HP / 136 Atk / 156 SpA / 4 SpD / 36 Spe  
+Brave Nature  
+- Hydro Pump  
+- Earthquake  
+- Ice Beam  
+- Focus Punch  
+
+Breloom @ Leftovers  
+Ability: Effect Spore  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Brick Break  
+- Hidden Power [Ghost]  
+- Mach Punch  
+- Spore  
+
+Arcanine @ Leftovers  
+Ability: Intimidate  
+EVs: 252 HP / 180 SpA / 36 SpD / 40 Spe  
+Quiet Nature  
+- Flamethrower  
+- Hidden Power [Grass]  
+- Extreme Speed  
+- Toxic  
+
+Snorlax @ Leftovers  
+Ability: Immunity  
+EVs: 80 HP / 124 Atk / 184 Def / 108 SpD / 12 Spe  
+Adamant Nature  
+- Body Slam  
+- Shadow Ball  
+- Focus Punch  
+- Self-Destruct  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 112 HP / 208 SpA / 188 Spe  
+Timid Nature  
+- Thunderbolt  
+- Ice Punch  
+- Will-O-Wisp  
+- Explosion  
+
+Claydol @ Leftovers  
+Ability: Levitate  
+EVs: 240 HP / 220 Atk / 32 SpD / 16 Spe  
+Sassy Nature  
+- Earthquake  
+- Psychic  
+- Rapid Spin  
+- Explosion  
+
+
+=== [gen3ou] Natural Lure [Anti-Breloom] ===
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 8 HP / 248 Atk / 252 Spe  
+Jolly Nature  
+- Drill Peck  
+- Hidden Power [Ground]  
+- Taunt  
+- Spikes  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 12 Atk / 160 SpA / 52 SpD / 36 Spe  
+Quiet Nature  
+- Rock Slide  
+- Crunch  
+- Pursuit  
+- Focus Punch  
+
+Starmie @ Leftovers  
+Ability: Natural Cure  
+EVs: 8 HP / 248 SpA / 252 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Hydro Pump  
+- Psychic  
+- Ice Beam  
+- Recover  
+
+Celebi @ Leftovers  
+Ability: Natural Cure  
+EVs: 8 HP / 248 SpA / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Psychic  
+- Hidden Power [Grass]  
+- Leech Seed  
+- Recover  
+
+Snorlax @ Leftovers  
+Ability: Immunity  
+EVs: 136 HP / 220 Atk / 56 Def / 80 SpD / 16 Spe  
+Adamant Nature  
+- Body Slam  
+- Earthquake  
+- Focus Punch  
+- Self-Destruct  
+
+Armaldo @ Leftovers  
+Ability: Battle Armor  
+EVs: 248 HP / 232 Atk / 28 Def  
+Adamant Nature  
+IVs: 30 SpD / 30 Spe  
+- Rock Slide  
+- Hidden Power [Bug]  
+- Earthquake  
+- Rapid Spin  
+
+
+=== [gen3ou] Serpent's Path [SwampGon PhysOff] ===
+
+Heracross @ Leftovers  
+Ability: Guts  
+EVs: 248 HP / 124 Atk / 116 SpD / 20 Spe  
+Adamant Nature  
+- Megahorn  
+- Rock Slide  
+- Focus Punch  
+- Toxic  
+
+Magneton @ Magnet  
+Ability: Magnet Pull  
+EVs: 240 HP / 248 SpA / 20 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA / 30 Spe  
+- Thunderbolt  
+- Hidden Power [Fire]  
+- Thunder Wave  
+- Toxic  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 12 Atk / 160 SpA / 52 SpD / 36 Spe  
+Quiet Nature  
+- Rock Slide  
+- Crunch  
+- Pursuit  
+- Focus Punch  
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 176 HP / 136 Atk / 156 SpA / 4 SpD / 36 Spe  
+Brave Nature  
+- Hydro Pump  
+- Earthquake  
+- Ice Beam  
+- Focus Punch  
+
+Flygon @ Leftovers  
+Ability: Levitate  
+EVs: 16 HP / 240 Atk / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Rock Slide  
+- Hidden Power [Bug]  
+- Substitute  
+
+Gyarados @ Leftovers  
+Ability: Intimidate  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Hidden Power [Flying]  
+- Earthquake  
+- Dragon Dance  
+- Substitute  
+
+
+=== [gen3ou] Spectrifice [SwampGon Superman] ===
+
+Swampert @ Leftovers  
+Ability: Torrent  
+EVs: 176 HP / 136 Atk / 156 SpA / 4 SpD / 36 Spe  
+Brave Nature  
+- Hydro Pump  
+- Earthquake  
+- Ice Beam  
+- Focus Punch  
+
+Flygon @ Leftovers  
+Ability: Levitate  
+EVs: 16 HP / 240 Atk / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Rock Slide  
+- Hidden Power [Bug]  
+- Fire Blast  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 248 HP / 100 SpA / 120 SpD / 40 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Rest  
+- Sleep Talk  
+
+Gengar @ Leftovers  
+Ability: Levitate  
+EVs: 104 HP / 220 SpA / 184 Spe  
+Timid Nature  
+- Thunderbolt  
+- Ice Punch  
+- Hypnosis  
+- Explosion  
+
+Skarmory @ Leftovers  
+Ability: Keen Eye  
+EVs: 248 HP / 248 SpD / 12 Spe  
+Careful Nature  
+- Drill Peck  
+- Toxic  
+- Spikes  
+- Roar  
+
+Tyranitar @ Leftovers  
+Ability: Sand Stream  
+EVs: 248 HP / 12 Atk / 160 SpA / 52 SpD / 36 Spe  
+Quiet Nature  
+- Rock Slide  
+- Crunch  
+- Pursuit  
+- Focus Punch  
+
+
+=== [gen3ou] Quirky Shocks [ZapKou] ===
+
+Raikou @ Leftovers  
+Ability: Pressure  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 Def  
+- Thunderbolt  
+- Hidden Power [Ice]  
+- Roar  
+- Substitute  
+
+Dugtrio @ Choice Band  
+Ability: Arena Trap  
+EVs: 44 HP / 104 Atk / 128 SpD / 232 Spe  
+Adamant Nature  
+IVs: 30 SpD / 30 Spe  
+- Earthquake  
+- Aerial Ace  
+- Hidden Power [Bug]  
+- Beat Up  
+
+Zapdos @ Leftovers  
+Ability: Pressure  
+EVs: 252 HP / 104 Def / 44 SpA / 72 SpD / 36 Spe  
+Modest Nature  
+IVs: 2 Atk / 30 SpA  
+- Thunderbolt  
+- Hidden Power [Grass]  
+- Thunder Wave  
+- Baton Pass  
+
+Cloyster @ Leftovers  
+Ability: Shell Armor  
+EVs: 252 HP / 236 SpA / 20 Spe  
+Modest Nature  
+- Surf  
+- Spikes  
+- Rapid Spin  
+- Explosion  
+
+Machamp @ Leftovers  
+Ability: Guts  
+EVs: 252 HP / 136 Atk / 112 Def / 8 Spe  
+Adamant Nature  
+- Low Kick  
+- Earthquake  
+- Rock Slide  
+- Hidden Power [Ghost]  
+
+Snorlax @ Leftovers  
+Ability: Immunity  
+EVs: 80 HP / 176 Atk / 124 Def / 108 SpD / 20 Spe  
+Adamant Nature  
+- Body Slam  
+- Shadow Ball  
+- Focus Punch  
+- Self-Destruct  
+
+

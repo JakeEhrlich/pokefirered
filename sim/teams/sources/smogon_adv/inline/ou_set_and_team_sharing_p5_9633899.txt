@@ -1,0 +1,105 @@
+I've preparing for the upcoming PPL, and I felt like posting a few creative sets I enjoy using in the current meta.
+Creative Sets
+1. Hydro Pump Salamence by BKC/Fruhdazi
+Salamence @ Leftovers
+Ability: Intimidate
+Hidden Power: Grass
+EVs: 4 Atk / 252 SpA / 252 Spe
+Rash Nature
+- Dragon Claw
+- Brick Break
+- Hydro Pump
+- Fire Blast
+Used on spikes teams to lure Aerodactyl and Claydol. Fantastic alongside Leech 3 Atks Celebi. It also appreciates being paired with Aerodactyl and DD Tar to help wear down Swampert and Milotic.
+
+2. Destiny Bond Hypnogar by McMeghan
+Nightmare (Gengar) @ Leftovers
+Ability: Levitate
+EVs: 8 HP / 192 Def / 112 SpA / 196 Spe
+Timid Nature
+IVs: 0 Atk
+- Taunt
+- Ice Punch
+- Hypnosis
+- Destiny Bond
+I'v been using this alongside DD Grass Tyranitar on spikes. It can create setup opportunities for it via Hypnosis and lure Claydol via Destiny Bond. In general, it pairs very well with Claydol weak pokemon like Jolteon and the aforementioned DD Tar variant. The bulk lets you live a +1 DD Mence. As cool as this set is, it's usage is very specific.
+
+3. Lead MixRachi by Fruhdazi
+Jirachi @ Lum Berry
+Ability: Serene Grace
+EVs: 120 Atk / 188 SpA / 200 Spe
+Naughty Nature
+- Psychic
+- Thunder
+- Hidden Power [Fighting]
+- Body Slam
+A more consistent take on MixRachi. Lead HP Fighting hits Tyranitar hard. Body Slam's para chance scares faster pokemon like Zapdos and Salamence. Thunder pressures Skarmory and Milotic. Psychic hits Gengar and is STAB. Very good on spikes offense, especially with Leech 3 Atks Celebi.
+
+4. Leech 3 Atks Celebi by Vapicuno
+Celebi @ Leftovers
+Ability: Natural Cure
+EVs: 100 HP / 252 SpA / 120 SpD / 36 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA / 30 Spe
+- Psychic
+- Giga Drain
+- Leech Seed
+- Hidden Power [Fire]
+Popularized recently by Fruhdazi. This is meant to be used on spikes teams. It's very good at forcing switches with Leech Seed and causing more spikes damage. TSS teams don't enjoy switching into this set at all. It's also a decent Skarmory lure. It's very good alongside Aero and DD Focus Tyranitar. The EV spread is very customizable too.
+
+5. Glalie
+Glalie @ Leftovers
+Ability: Inner Focus
+EVs: 40 HP / 252 SpD / 216 Spe
+Timid Nature
+- Ice Beam
+- Explosion
+- Taunt
+- Spikes
+Meant to be used as a lead on spikes offense. This was popularized by Jim Cool recently. It has access to Spikes + Explosion similar to Cloyster, meaning it can start off the game favourably for offense if played well. The speed lets you outrun Smeargle. The bulk allows you to survive 2 Timid Zapdos Thunderbolts. It is commonly used alongside Jolteon and Gengar.
+
+6. Regirock by DarthTyros
+Regirock @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Rock Slide
+- Earthquake
+- Thunder Wave
+- Explosion
+Very good on rain teams.   OU - A deep look at Rain Offense | Smogon Forums  See the post by the Darth Tyros on the linked thread to understand what it does. A good structure with it is Zapdos+ Regirock + Regice + OffCune + Kingdra + Dug, by DarthTyros.
+
+7. Articuno by PkLeech
+Articuno @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 136 SpA / 56 SpD / 64 Spe
+Calm Nature
+IVs: 0 Atk
+- Ice Beam
+- Rest
+- Roar
+- Sleep Talk
+Great for dealing with Offensive Swampert and BoldCune on defensive teams otherwise weak to them. Fits well on Skarm Dug teams, especially with CM Bliss. As cool as it is, its usage is again very specific.
+
+8. Offensive Pursuit Tar
+Tyranitar @ Salac Berry
+Ability: Sand Stream
+EVs: 252 SpA / 4 SpD / 252 Spe
+Hasty Nature
+- Pursuit
+- Crunch
+- Fire Blast
+- Brick Break / Endure
+Good to pair with Celebi as it helps you to trap Moltres. The extra speed lets you maintain an good offensive presence and also serve as a wallbreaker, while still providing the utility of normal Pursuit Tar. Good on spikes/spin balance teams.
+
+9. Curse OffPert
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 252 HP / 4 Atk / 252 SpA
+Quiet Nature
+- Hydro Pump
+- Ice Beam
+- Earthquake
+- Curse
+Good tech for dealing with Defensive Starmie on spikes teams. I reccomend pairing this with Leech 3 Atks Celebi to help with Skarmory.
+

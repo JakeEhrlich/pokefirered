@@ -1,0 +1,48 @@
+Puella In somnio (Milotic) (F) @ Leftovers  
+Ability: Marvel Scale  
+Shiny: Yes  
+- Surf  
+- Recover  
+- Toxic  
+- Refresh  
+
+Magia (Tyranitar) @ Leftovers  
+Ability: Sand Stream  
+Shiny: Yes  
+- Pursuit  
+- Crunch  
+- Rain Dance  
+- Counter  
+
+Connect (Dugtrio) @ Choice Band  
+Ability: Arena Trap  
+Shiny: Yes  
+- Earthquake  
+- Aerial Ace  
+- Hidden Power [Bug]  
+- Rock Slide  
+
+Ki o tsukete ne (Snorlax) @ Leftovers  
+Ability: Immunity  
+Shiny: Yes  
+- Curse  
+- Body Slam  
+- Rest  
+- Earthquake  
+
+Roxy (Magneton) @ Magnet  
+Ability: Magnet Pull  
+Shiny: Yes  
+- Thunderbolt  
+- Hidden Power [Fire]  
+- Toxic  
+- Protect  
+
+Eve Finch Ewin (Claydol) @ Leftovers  
+Ability: Levitate  
+Shiny: Yes  
+- Rapid Spin  
+- Earthquake  
+- Rock Slide  
+- Explosion  
+

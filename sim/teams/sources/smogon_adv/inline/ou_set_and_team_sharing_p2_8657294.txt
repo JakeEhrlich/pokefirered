@@ -1,0 +1,141 @@
+I will share my quad phazer team because one day I sat down and said "Hmmm, I really hate baton pass!"
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 16 HP /  / 244 Atk / 120 Def / 52 SpA / 76 SpD
+Brave Nature
+- Roar
+- Rock Slide
+- Hidden Power [Grass]
+- Earthquake
+
+Here is the #1 Pokemon in ADV, the ace of all aces, Tyranitar. It is the 1st of my 4 phazers. Basically just a standard Roar + 3 attacks variant, but with HP Grass over HP Bug. Shoutout to Everything Is Something (SuperEpicAmpharos on Pokemon Showdown) for modifying my spread. Before, there was 188 HP with a Naughty nature. This defeats the purpose of the large investment in HP due to Naughty making it weaker to Starmie's Hydro Pump. Instead, I went for a really slow spread because Tyranitar doesn't really need speed except for a mirror match-up.
+
+Skarmory @ Leftovers
+Ability: Keen Eye
+EVs: 252 HP / 252 SpD / 4 Spe
+Careful Nature
+IVs: 0 Atk
+- Spikes
+- Whirlwind
+- Protect
+- Toxic
+
+Here is our spiker. It really helps spread passive damage due to the combination of Spikes, Whirlwind, Toxic, and Protect. You could tweak this set to have stuff like Roar over Whirlwind, so you can bluff/fit Drill Peck onto the set.
+
+Swampert @ Salac Berry
+Ability: Torrent
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Substitute
+- Endeavor
+- Hydro Pump
+- Roar
+
+Here's our 3rd phazer. It is a really good endgame cleaner which this team really needs. It still switches into some stuff despite the lack of defensive investment, due to its amount of resistances to common attacks, such as Tyranitar's Rock Slide.
+
+Hariyama @ Leftovers
+Ability: Guts
+EVs: 252 Atk / 196 Def / 60 SpD
+Adamant Nature
+- Knock Off
+- Whirlwind
+- Cross Chop
+- Hidden Power [Bug]
+
+Hariyama is a Pokemon in the meta that has picked up usage lately. It's our 4th phazer and Knock Off really helps against things like Suicune, which rely on Leftovers to not get chipped forever by Tyranitar's Sand. It also has a crucial role as a status absorber due to its ability Guts. Hidden Power Ghost is an option over Hidden Power Bug if you want to hit Gengar very hard, especially since it clicks Will-o-Wisp a lot.
+
+Magneton @ Leftovers / Magnet
+Ability: Magnet Pull
+EVs: 68 HP / 252 SpA / 188 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA / 30 Spe
+- Thunderbolt
+- Hidden Power [Fire]
+- Substitute
+- Toxic
+
+Magneton is unfortunately, really underwhelming. Sometimes, it can't even trap Skarmory and Forretress as needed due to them liking to run Hidden Power Ground, and Earthquake respectively. I recommend Starmie in this slot, as it provides a water resist, and is a good way to keep spikes off of the field. Hidden Power Grass is also an option to hit Swampert.
+
+Dugtrio @ Choice Band
+Ability: Arena Trap
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Aerial Ace
+- Hidden Power [Bug]
+
+Dugtrio is a very important piece of this team, unlike Magneton. It appreciates its checks being weakened by the combination of Toxic, Spikes, Sandstorm, and Knock Off. It traps and removes Pokemon such as Tyranitar, weakened Celebi, weakened Jirachi, Metagross, weakened Swampert, and non-Mach Punch Breloom. It's a beast, and it supports our main endgame sweeper, Swampert.
+
+What does this team struggle against?
+Waters:    Waters in general trouble this team as we have no resist to their STAB. CroCune is possibly the biggest threat of these three. It just clicks Calm Mind + Surf, and everything dies.
+
+Opposing Spikes:    Skarmory, despite being the most prominent spiker, is arguably the least problematic for this team as it takes at least 90% from Magneton Thunderbolt and can really only set up 2 spikes maximum. Forretress is a huge pain for this team. We don't have anything like Fire Blast Tyranitar to lure it in, or Moltres to scare it out. We really only have Magneton. The thing about Forretress, however, is that it commonly uses Earthquake, which OHKOes Magneton. Cloyster actually really troubles this team, I would imagine as it isn't even trapped by Magneton, and since we have no water resist, it can chip my team heavily with Spikes + Toxic + Surf.
+
+Importable!
+
+https://pokepast.es/b708025002737bdc
+
+For the people that don't like pokepastes!
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 188 HP / 244 Atk / 76 Spe
+Naughty Nature
+- Roar
+- Rock Slide
+- Hidden Power [Grass]
+- Earthquake
+
+Skarmory @ Leftovers
+Ability: Keen Eye
+EVs: 252 HP / 252 SpD / 4 Spe
+Careful Nature
+IVs: 0 Atk
+- Spikes
+- Whirlwind
+- Protect
+- Toxic
+
+Swampert @ Salac Berry
+Ability: Torrent
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Substitute
+- Endeavor
+- Hydro Pump
+- Roar
+
+Hariyama @ Leftovers
+Ability: Guts
+EVs: 252 Atk / 196 Def / 60 SpD
+Adamant Nature
+- Knock Off
+- Whirlwind
+- Cross Chop
+- Hidden Power [Bug]
+
+Magneton @ Leftovers
+Ability: Magnet Pull
+EVs: 68 HP / 252 SpA / 188 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA / 30 Spe
+- Thunderbolt
+- Hidden Power [Fire]
+- Substitute
+- Toxic
+
+Dugtrio @ Choice Band
+Ability: Arena Trap
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Aerial Ace
+- Hidden Power [Bug]
+
+Enjoy!
+

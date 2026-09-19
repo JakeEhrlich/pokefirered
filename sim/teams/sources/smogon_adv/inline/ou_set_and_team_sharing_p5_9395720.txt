@@ -1,0 +1,957 @@
+Hey y'all, dumping my teambuilder here. I've participated in these forums under a couple of other names, and I've played on ladder under about a million. I've tried to "retire" multiple times, and I'm hoping that making this post will finalize things by marking the end of my laddering addiction.
+
+https://pokepast.es/a284a3cd20490a94
+
+I've sorted all of the SABCD-ranked mons by their Speed stat, nicknaming them with a list of numbers corresponding to the following:
+
+Minus-Speed, 0 EVs
+
+Speed-Neutral, 0 EVs
+
+Speed-Neutral, 252 EVs
+
+Plus-Speed, 252 EVs
+
+I've also created Boxes that replicate the Viability Rankings, and updated them before I made this post. This has made teambuilding easier for me in a few different ways.
+
+I prioritized having fun, so some of the teams are a bit copy-pasty and/or of questionable quality, but I still have some pride in them. Their level of originality also varies, as to be expected.
+
+I made a chart that vaguely sorts the mons that I used by their roles, and mentions their usage frequency. As you can see, although I ended up with a total of 15 share-worthy teams, they don't adequately represent the metagame's diversity, omitting several OU mons and team archetypes (especially the more defensive ones).
+
+The Teams
+
+Storm and Slumber
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 2 Atk / 30 SpA
+- Thunder
+- Hidden Power [Grass]
+- Substitute
+- Baton Pass
+
+Regice @ Leftovers
+Ability: Clear Body
+EVs: 208 HP / 236 SpA / 64 Spe
+Modest Nature
+- Ice Beam
+- Thunder
+- Rain Dance
+- Explosion
+
+Dugtrio @ Choice Band
+Ability: Arena Trap
+EVs: 44 HP / 104 Atk / 128 SpD / 232 Spe
+Adamant Nature
+IVs: 30 SpD / 30 Spe
+- Earthquake
+- Aerial Ace
+- Hidden Power [Bug]
+- Beat Up
+
+Kingdra @ Leftovers
+Ability: Swift Swim
+EVs: 248 HP / 244 SpA / 16 Spe
+Modest Nature
+IVs: 0 Atk
+- Surf
+- Ice Beam
+- Rain Dance
+- Substitute
+
+Breloom @ Leftovers
+Ability: Effect Spore
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Brick Break
+- Hidden Power [Ghost]
+- Focus Punch
+- Spore
+
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 248 HP / 136 Atk / 12 Def / 88 SpD / 24 Spe
+Adamant Nature
+- Meteor Mash
+- Earthquake
+- Rock Slide
+- Explosion
+
+Analysis
+
+Thunder + Rain Dance on Regice over the conventional Thunderbolt + Thunder Wave allows it to still play to its strengths, while obviously supporting the Rain aspect of the team. Regice's Fire weakness, access to Thunder and the momentum-creating Explosion, and solid 2-move coverage (but a shallow Status movepool) make it a great Rain Dance user. Regice offensively checks almost all of the Breloom post-Spore switch-ins, and can put Blissey into Dugtrio range by using Explosion the turn after Blissey switches into Ice Beam or Thunder. Substitute on Kingdra is to make Milotic users suffer, among other applications. Metagross is EVed for Timid Starmie and Dugtrio, and barely outspeeds the Magneton set that I use. Normally I prefer to invest EVs primarily into HP in order to meet calc benchmarks, as opposed to what I did with this Dugtrio set, but I really wanted that little bit of extra power, which costs it some Physical bulk. This is one of the 3 non-Superman teams that has no spinner or Magneton. Obviously this isn't very ideal, but all three of these teams are able to exert a decent amount of pressure on the Spikers.
+
+King and Kahuna
+
+Forretress @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 248 SpD / 8 Spe
+Careful Nature
+IVs: 30 SpD / 30 Spe
+- Hidden Power [Bug]
+- Spikes
+- Rapid Spin
+- Explosion
+
+Hariyama @ Leftovers
+Ability: Guts
+EVs: 216 Atk / 176 Def / 104 SpD / 12 Spe
+Adamant Nature
+IVs: 30 SpD / 30 Spe
+- Cross Chop
+- Rock Slide
+- Hidden Power [Bug]
+- Knock Off
+
+Snorlax @ Leftovers
+Ability: Immunity
+EVs: 80 HP / 176 Atk / 124 Def / 108 SpD / 20 Spe
+Adamant Nature
+- Body Slam
+- Shadow Ball
+- Focus Punch
+- Self-Destruct
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 100 SpA / 120 SpD / 36 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Thunderbolt
+- Hidden Power [Grass]
+- Thunder Wave
+- Baton Pass
+
+Dugtrio @ Choice Band
+Ability: Arena Trap
+EVs: 44 HP / 104 Atk / 128 SpD / 232 Spe
+Adamant Nature
+IVs: 30 SpD / 30 Spe
+- Earthquake
+- Aerial Ace
+- Hidden Power [Bug]
+- Beat Up
+
+Kingdra @ Leftovers
+Ability: Swift Swim
+EVs: 248 HP / 244 SpA / 16 Spe
+Modest Nature
+IVs: 0 Atk
+- Surf
+- Ice Beam
+- Rain Dance
+- Substitute
+
+Analysis
+
+A slower-paced Rain team. This is the only Forretress team that has no Pursuiter, but all of the other non-Dugtrio team members are able to check Gengar. I'm not sure how optimal the Snorlax EV spread is; I created it based on using an n×16+1 HP stat (for optimizing Leftovers recovery) and meeting 2 benchmarks (Kingdra's Hydro Pump in Rain and Hariyama's Cross Chop). For n×16-1 on Sand teams (for minimizing residual damage), the spread is slightly different. Zapdos's EVs are for Timid Starmie's Hydro Pump + Ice Beam in Sand. Triple HP Bug is nice for Celebi, and sometimes for Starmie and Ludicolo too, depending on the attacker.
+
+Fairy-Catching
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 2 Atk / 30 SpA
+- Thunderbolt
+- Hidden Power [Grass]
+- Substitute
+- Baton Pass
+
+Dugtrio @ Choice Band
+Ability: Arena Trap
+EVs: 80 HP / 200 Atk / 228 Spe
+Adamant Nature
+IVs: 30 SpD / 30 Spe
+- Earthquake
+- Aerial Ace
+- Hidden Power [Bug]
+- Beat Up
+
+Houndoom @ Leftovers
+Ability: Flash Fire
+EVs: 8 HP / 248 SpA / 252 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Crunch
+- Fire Blast
+- Hidden Power [Grass]
+- Pursuit
+
+Breloom @ Leftovers
+Ability: Effect Spore
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Brick Break
+- Hidden Power [Rock]
+- Focus Punch
+- Spore
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 176 HP / 136 Atk / 156 SpA / 4 SpD / 36 Spe
+Brave Nature
+- Hydro Pump
+- Earthquake
+- Ice Beam
+- Focus Punch
+
+Snorlax @ Leftovers
+Ability: Immunity
+EVs: 80 HP / 176 Atk / 124 Def / 108 SpD / 20 Spe
+Adamant Nature
+- Body Slam
+- Earthquake
+- Focus Punch
+- Self-Destruct
+
+Analysis
+
+The debut of my two "signature" mons, Swampert and Houndoom. Swampert's set works out beautifully; It has an n×16+1 HP stat, enough Special bulk to live HP Grass from Salamence/Charizard/Houndoom/Jolteon and Timid Zapdos/Moltres/Magneton/Raikou, enough SpAtk to put 144 HP EV 30 SpDef IV Salamence into Sand range or OHKO it, an Attack stat that hits a boost number, and a tiny bit of Speed creep on Blissey. HP Rock on Breloom can be clutch, and interestingly makes it speed-tie HP Flying Adamant 252 EV Gyarados.
+
+Traitor
+
+Celebi @ Leftovers
+Ability: Natural Cure
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+IVs: 0 Atk
+- Psychic
+- Leech Seed
+- Substitute
+- Baton Pass
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 176 HP / 136 Atk / 156 SpA / 4 SpD / 36 Spe
+Brave Nature
+- Hydro Pump
+- Earthquake
+- Ice Beam
+- Focus Punch
+
+Forretress @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 248 SpD / 8 Spe
+Careful Nature
+IVs: 30 SpD / 30 Spe
+- Hidden Power [Bug]
+- Spikes
+- Rapid Spin
+- Explosion
+
+Houndoom @ Leftovers
+Ability: Flash Fire
+EVs: 8 HP / 248 SpA / 252 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Crunch
+- Fire Blast
+- Hidden Power [Grass]
+- Pursuit
+
+Dugtrio @ Choice Band
+Ability: Arena Trap
+EVs: 44 HP / 84 Atk / 128 SpD / 252 Spe
+Jolly Nature
+- Earthquake
+- Aerial Ace
+- Hidden Power [Bug]
+- Beat Up
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 104 Def / 44 SpA / 72 SpD / 36 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Thunderbolt
+- Hidden Power [Grass]
+- Thunder Wave
+- Roar
+
+Analysis
+
+One of the trickier teams that I'm sharing. Getting a Flash Fire boost behind a Substitute is an awesome feeling, and can be very rewarding if your opponent doesn't have a good check. Zapdos's Defense is for Aerodactyl, just in case. This is one of the only 4 teams that has a phazer, so be careful when using these teams, especially on the ladder.
+
+Badger the Dog
+
+Forretress @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 252 SpD / 4 Spe
+Careful Nature
+- Earthquake
+- Spikes
+- Rapid Spin
+- Explosion
+
+Venusaur @ Leftovers
+Ability: Overgrow
+EVs: 208 HP / 248 Atk / 28 SpA / 24 Spe
+Brave Nature
+- Giga Drain
+- Sludge Bomb
+- Earthquake
+- Leech Seed
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 176 HP / 136 Atk / 156 SpA / 4 SpD / 36 Spe
+Brave Nature
+- Hydro Pump
+- Earthquake
+- Ice Beam
+- Focus Punch
+
+Snorlax @ Leftovers
+Ability: Immunity
+EVs: 80 HP / 176 Atk / 124 Def / 108 SpD / 20 Spe
+Adamant Nature
+- Body Slam
+- Earthquake
+- Focus Punch
+- Self-Destruct
+
+Gengar @ Leftovers
+Ability: Levitate
+EVs: 112 HP / 212 SpA / 184 Spe
+Timid Nature
+- Thunderbolt
+- Ice Punch
+- Will-O-Wisp
+- Explosion
+
+Houndoom @ Leftovers
+Ability: Flash Fire
+EVs: 8 HP / 248 SpA / 252 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Crunch
+- Fire Blast
+- Hidden Power [Grass]
+- Pursuit
+
+Analysis
+
+The most dedicated of the Houndoom teams. Venusaur provides half of the Leech Seed + Spikes combo like Celebi, but also checks some Fighting-Types and uses cool coverage. Gengar lives Modest Starmie Hydro Pump.
+
+Nebula
+
+Forretress @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 252 SpD / 4 Spe
+Careful Nature
+- Earthquake
+- Spikes
+- Rapid Spin
+- Explosion
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 12 Atk / 216 SpA / 32 Spe
+Quiet Nature
+- Rock Slide
+- Crunch
+- Pursuit
+- Focus Punch
+
+Gengar @ Leftovers
+Ability: Levitate
+EVs: 104 HP / 220 SpA / 184 Spe
+Timid Nature
+- Fire Punch
+- Giga Drain
+- Will-O-Wisp
+- Explosion
+
+Starmie @ Leftovers
+Ability: Natural Cure
+EVs: 8 HP / 248 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Hydro Pump
+- Ice Beam
+- Thunderbolt
+- Recover
+
+Snorlax @ Leftovers
+Ability: Immunity
+EVs: 136 HP / 176 Atk / 100 Def / 80 SpD / 16 Spe
+Adamant Nature
+- Body Slam
+- Earthquake
+- Focus Punch
+- Self-Destruct
+
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 248 HP / 136 Atk / 12 Def / 88 SpD / 24 Spe
+Adamant Nature
+- Meteor Mash
+- Earthquake
+- Rock Slide
+- Explosion
+
+Analysis
+
+Built around Modest Starmie, which is one of my favorite mons. I normally use enough SpDef on Tyranitar to survive Modest Starmie, but this team's reliance on spinning and Explosion persuaded me to run more SpAtk on it. Rock Slide tends to be pretty useful, on this team and the other Pursuit Tyranitar ones too. Using it unrevealed on Zapdos after already using other moves is pretty effective, along with Pursuiting Zapdos if you revealed Rock Slide and/or Focus Punch already (the latter is less effective against calc-savvy players though).
+
+Chester's Team
+
+Heracross @ Choice Band
+Ability: Guts
+EVs: 8 HP / 248 Atk / 252 Spe
+Jolly Nature
+- Megahorn
+- Brick Break
+- Rock Slide
+- Facade
+
+Magneton @ Leftovers
+Ability: Magnet Pull
+EVs: 252 HP / 236 SpA / 20 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA / 30 Spe
+- Thunderbolt
+- Hidden Power [Fire]
+- Thunder Wave
+- Toxic
+
+Houndoom @ Leftovers
+Ability: Flash Fire
+EVs: 56 HP / 252 SpA / 200 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Crunch
+- Fire Blast
+- Hidden Power [Grass]
+- Pursuit
+
+Donphan @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 196 Atk / 60 Spe
+Adamant Nature
+- Earthquake
+- Rock Slide
+- Toxic
+- Rapid Spin
+
+Snorlax @ Leftovers
+Ability: Immunity
+EVs: 80 HP / 124 Atk / 184 Def / 108 SpD / 12 Spe
+Adamant Nature
+- Body Slam
+- Earthquake
+- Focus Punch
+- Self-Destruct
+
+Gyarados @ Leftovers
+Ability: Intimidate
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Hidden Power [Flying]
+- Earthquake
+- Dragon Dance
+- Substitute
+
+Analysis
+
+A team beyond my time, built around CB Facade Heracross and featuring Donphan, who I wanted to find a home for. Snorlax is bulkier due to the lack of strong defensive synergy between the team members. Houndoom is slightly bulkier since Gyarados checks many of the mons whose speed is in-between this Houndoom's speed and the 252 variant that I used on the other teams.
+
+Jeremy's Team
+
+Steelix @ Leftovers
+Ability: Rock Head
+EVs: 248 HP / 236 Atk / 4 SpD / 20 Spe
+Adamant Nature
+- Earthquake
+- Double-Edge
+- Roar
+- Explosion
+
+Gyarados @ Leftovers
+Ability: Intimidate
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Hidden Power [Flying]
+- Earthquake
+- Dragon Dance
+- Substitute
+
+Magneton @ Magnet
+Ability: Magnet Pull
+EVs: 240 HP / 248 SpA / 20 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA / 30 Spe
+- Thunderbolt
+- Hidden Power [Fire]
+- Thunder Wave
+- Toxic
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 12 Atk / 160 SpA / 52 SpD / 36 Spe
+Quiet Nature
+- Rock Slide
+- Crunch
+- Pursuit
+- Focus Punch
+
+Starmie @ Leftovers
+Ability: Natural Cure
+EVs: 8 HP / 248 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Hydro Pump
+- Ice Beam
+- Thunderbolt
+- Recover
+
+Heracross @ Leftovers
+Ability: Guts
+EVs: 248 HP / 124 Atk / 116 SpD / 20 Spe
+Adamant Nature
+- Megahorn
+- Rock Slide
+- Focus Punch
+- Substitute
+
+Analysis
+
+Pursuit + Modest Starmie again, this time featuring GyaraLix and a Heracross that lures Zapdos and checks other Special attackers more efficiently. Magneton's spread is designed to counteract 248HP/248+SpDef/12Spe Skarmory, which has the same chance of living 252+ Magnet Magneton's Thunderbolt that 252HP/252SpDef does. 301 HP is useful if you don't feel like switching out against Blissey, for some reason.
+
+Eyes to the Sky
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 184 Atk / 56 Def / 20 Spe
+Adamant Nature
+IVs: 30 SpD / 30 Spe
+- Rock Slide
+- Earthquake
+- Hidden Power [Bug]
+- Focus Punch
+
+Magneton @ Leftovers
+Ability: Magnet Pull
+EVs: 252 HP / 236 SpA / 20 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA / 30 Spe
+- Thunderbolt
+- Hidden Power [Fire]
+- Thunder Wave
+- Toxic
+
+Claydol @ Leftovers
+Ability: Levitate
+EVs: 240 HP / 220 Atk / 32 SpD / 16 Spe
+Sassy Nature
+- Earthquake
+- Psychic
+- Rapid Spin
+- Explosion
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 176 HP / 136 Atk / 156 SpA / 4 SpD / 36 Spe
+Brave Nature
+- Hydro Pump
+- Earthquake
+- Ice Beam
+- Focus Punch
+
+Celebi @ Leftovers
+Ability: Natural Cure
+EVs: 8 HP / 248 SpA / 252 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Psychic
+- Hidden Power [Grass]
+- Leech Seed
+- Recover
+
+Salamence @ Leftovers
+Ability: Intimidate
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant Nature
+- Hidden Power [Flying]
+- Earthquake
+- Rock Slide
+- Dragon Dance
+
+Analysis
+
+Probably my most basic team, at least sets-wise. Claydol survives Modest Starmie, and Tyranitar survives Dugtrio.
+
+Gazebo
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 160 SpA / 52 SpD / 48 Spe
+Quiet Nature
+- Crunch
+- Thunder
+- Focus Punch
+- Substitute
+
+Salamence @ Leftovers
+Ability: Intimidate
+EVs: 4 Atk / 252 SpA / 252 Spe
+Naive Nature
+- Dragon Claw
+- Fire Blast
+- Hidden Power [Grass]
+- Brick Break
+
+Metagross @ Leftovers
+Ability: Clear Body
+EVs: 16 HP / 4 Atk / 236 SpA / 252 Spe
+Naive Nature
+- Meteor Mash
+- Psychic
+- Hidden Power [Fire]
+- Explosion
+
+Celebi @ Leftovers
+Ability: Natural Cure
+EVs: 252 HP / 216 Def / 40 Spe
+Bold Nature
+IVs: 0 Atk
+- Psychic
+- Calm Mind
+- Recover
+- Baton Pass
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 176 HP / 136 Atk / 156 SpA / 4 SpD / 36 Spe
+Brave Nature
+- Hydro Pump
+- Earthquake
+- Ice Beam
+- Focus Punch
+
+Gengar @ Leftovers
+Ability: Levitate
+EVs: 104 HP / 216 SpA / 188 Spe
+Timid Nature
+- Thunderbolt
+- Ice Punch
+- Will-O-Wisp
+- Explosion
+
+Analysis
+
+One of the more fun-oriented teams. Calm Mind pass to mixed attackers and Explosion Gengar, and check Physical attackers with Will-O-Wisp and Intimidate and typings. Has a decent amount of defensive synergy, despite being gimmicky and lacking strong anti-Spikes measures.
+
+Double-Clutching
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 176 HP / 136 Atk / 156 SpA / 4 SpD / 36 Spe
+Brave Nature
+- Hydro Pump
+- Earthquake
+- Ice Beam
+- Focus Punch
+
+Breloom @ Leftovers
+Ability: Effect Spore
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Brick Break
+- Hidden Power [Ghost]
+- Mach Punch
+- Spore
+
+Arcanine @ Leftovers
+Ability: Intimidate
+EVs: 252 HP / 180 SpA / 36 SpD / 40 Spe
+Quiet Nature
+- Flamethrower
+- Hidden Power [Grass]
+- Extreme Speed
+- Toxic
+
+Snorlax @ Leftovers
+Ability: Immunity
+EVs: 80 HP / 124 Atk / 184 Def / 108 SpD / 12 Spe
+Adamant Nature
+- Body Slam
+- Shadow Ball
+- Focus Punch
+- Self-Destruct
+
+Gengar @ Leftovers
+Ability: Levitate
+EVs: 112 HP / 208 SpA / 188 Spe
+Timid Nature
+- Thunderbolt
+- Ice Punch
+- Will-O-Wisp
+- Explosion
+
+Claydol @ Leftovers
+Ability: Levitate
+EVs: 240 HP / 220 Atk / 32 SpD / 16 Spe
+Sassy Nature
+- Earthquake
+- Psychic
+- Rapid Spin
+- Explosion
+
+Analysis
+
+Another gimmicky team, this one revolves around being able to stop pinch Berry users without relying on Sand. The double Priority is able to take out almost all Dugtrio, which is pretty cool. This might be the most improvable team in this roster; Maybe Arcanine should have Thief instead of the team's 3rd status move, and maybe some of the non-ArcaLoom mons should be swapped out.
+
+Natural Lure
+
+Skarmory @ Leftovers
+Ability: Keen Eye
+EVs: 8 HP / 248 Atk / 252 Spe
+Jolly Nature
+- Drill Peck
+- Hidden Power [Ground]
+- Taunt
+- Spikes
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 12 Atk / 160 SpA / 52 SpD / 36 Spe
+Quiet Nature
+- Rock Slide
+- Crunch
+- Pursuit
+- Focus Punch
+
+Starmie @ Leftovers
+Ability: Natural Cure
+EVs: 8 HP / 248 SpA / 252 Spe
+Modest Nature
+IVs: 0 Atk
+- Hydro Pump
+- Psychic
+- Ice Beam
+- Recover
+
+Celebi @ Leftovers
+Ability: Natural Cure
+EVs: 8 HP / 248 SpA / 252 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Psychic
+- Hidden Power [Grass]
+- Leech Seed
+- Recover
+
+Snorlax @ Leftovers
+Ability: Immunity
+EVs: 136 HP / 220 Atk / 56 Def / 80 SpD / 16 Spe
+Adamant Nature
+- Body Slam
+- Earthquake
+- Focus Punch
+- Self-Destruct
+
+Armaldo @ Leftovers
+Ability: Battle Armor
+EVs: 248 HP / 232 Atk / 28 Def
+Adamant Nature
+IVs: 30 SpD / 30 Spe
+- Rock Slide
+- Hidden Power [Bug]
+- Earthquake
+- Rapid Spin
+
+Analysis
+
+My pride and joy. Switch around between Starmie + Celebi + Jolly Drill Peck Skarmory when facing Breloom, OHKO Fighting-Types with Spikes and Modest Psychic, spin and stop offensive Celebi and Jirachi and other mons with my favorite mon Armaldo, and try not to get swept by Metagross. Lol, as if Metagross is the only thing that this team struggles against.
+
+Serpent's Path
+
+Heracross @ Leftovers
+Ability: Guts
+EVs: 248 HP / 124 Atk / 116 SpD / 20 Spe
+Adamant Nature
+- Megahorn
+- Rock Slide
+- Focus Punch
+- Toxic
+
+Magneton @ Magnet
+Ability: Magnet Pull
+EVs: 240 HP / 248 SpA / 20 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA / 30 Spe
+- Thunderbolt
+- Hidden Power [Fire]
+- Thunder Wave
+- Toxic
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 12 Atk / 160 SpA / 52 SpD / 36 Spe
+Quiet Nature
+- Rock Slide
+- Crunch
+- Pursuit
+- Focus Punch
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 176 HP / 136 Atk / 156 SpA / 4 SpD / 36 Spe
+Brave Nature
+- Hydro Pump
+- Earthquake
+- Ice Beam
+- Focus Punch
+
+Flygon @ Leftovers
+Ability: Levitate
+EVs: 16 HP / 240 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Hidden Power [Bug]
+- Substitute
+
+Gyarados @ Leftovers
+Ability: Intimidate
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Hidden Power [Flying]
+- Earthquake
+- Dragon Dance
+- Substitute
+
+Analysis
+
+Ol' reliable for me. Toxic on Heracross is for MixMence and works as a middle-ground once Skarmory and Gengar are gone, Substitute synergizes well with Thunder Wave + Toxic + Sand + Dugtrio and dodges Explosion in the absence of Gengar. Drill Peck Zapdos and a well-played Offensive Skarmory wreck this team tbh.
+
+Spectrifice
+
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 176 HP / 136 Atk / 156 SpA / 4 SpD / 36 Spe
+Brave Nature
+- Hydro Pump
+- Earthquake
+- Ice Beam
+- Focus Punch
+
+Flygon @ Leftovers
+Ability: Levitate
+EVs: 16 HP / 240 Atk / 252 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Hidden Power [Bug]
+- Fire Blast
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 248 HP / 100 SpA / 120 SpD / 40 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Thunderbolt
+- Hidden Power [Grass]
+- Rest
+- Sleep Talk
+
+Gengar @ Leftovers
+Ability: Levitate
+EVs: 104 HP / 220 SpA / 184 Spe
+Timid Nature
+- Thunderbolt
+- Ice Punch
+- Hypnosis
+- Explosion
+
+Skarmory @ Leftovers
+Ability: Keen Eye
+EVs: 248 HP / 248 SpD / 12 Spe
+Careful Nature
+- Drill Peck
+- Toxic
+- Spikes
+- Roar
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+EVs: 248 HP / 12 Atk / 160 SpA / 52 SpD / 36 Spe
+Quiet Nature
+- Rock Slide
+- Crunch
+- Pursuit
+- Focus Punch
+
+Analysis
+
+Relies on Hypnosis + Explosion Gengar to get things moving.
+
+Quirky Shocks
+
+Raikou @ Leftovers
+Ability: Pressure
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+IVs: 2 Atk / 30 Def
+- Thunderbolt
+- Hidden Power [Ice]
+- Roar
+- Substitute
+
+Dugtrio @ Choice Band
+Ability: Arena Trap
+EVs: 44 HP / 104 Atk / 128 SpD / 232 Spe
+Adamant Nature
+IVs: 30 SpD / 30 Spe
+- Earthquake
+- Aerial Ace
+- Hidden Power [Bug]
+- Beat Up
+
+Zapdos @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 104 Def / 44 SpA / 72 SpD / 36 Spe
+Modest Nature
+IVs: 2 Atk / 30 SpA
+- Thunderbolt
+- Hidden Power [Grass]
+- Thunder Wave
+- Baton Pass
+
+Cloyster @ Leftovers
+Ability: Shell Armor
+EVs: 252 HP / 236 SpA / 20 Spe
+Modest Nature
+- Surf
+- Spikes
+- Rapid Spin
+- Explosion
+
+Machamp @ Leftovers
+Ability: Guts
+EVs: 252 HP / 136 Atk / 112 Def / 8 Spe
+Adamant Nature
+- Low Kick
+- Earthquake
+- Rock Slide
+- Hidden Power [Ghost]
+
+Snorlax @ Leftovers
+Ability: Immunity
+EVs: 80 HP / 176 Atk / 124 Def / 108 SpD / 20 Spe
+Adamant Nature
+- Body Slam
+- Shadow Ball
+- Focus Punch
+- Self-Destruct
+
+Analysis
+
+Coincidentally, looks kind of like a GSC team. Built around using an HP Grass Electric and an HP Ice Electric on the same team. Earthquake on Machamp is mainly for Jirachi and Jolteon, who don't mind Low Kick very much. Low Kick's 120 BP hits can be clutch, and the move's 32 PP is a relief. This is another team with Rapid Spin but not Pursuit, but again, Gengar isn't too much of a threat.
+
+I hope that some people get something positive out of this post. Have a nice life everyone, and remember; Ladder in moderation :)
+
