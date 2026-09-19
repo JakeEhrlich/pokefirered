@@ -2990,7 +2990,13 @@ static void HandleAction_TryFinish(void)
 static void HandleAction_NothingIsFainted(void)
 {
     ++gCurrentTurnActionNumber;
-    gCurrentActionFuncId = gActionsByTurnOrder[gCurrentTurnActionNumber];
+    // simulator: after the last action the game reads gActionsByTurnOrder[4], which is gBattlerByTurnOrder[0]
+    // in EWRAM (the arrays are adjacent); the value matters (it is compared with B_ACTION_FINISHED later),
+    // so read that variable explicitly instead of relying on the struct layout.
+    if (gCurrentTurnActionNumber < MAX_BATTLERS_COUNT)
+        gCurrentActionFuncId = gActionsByTurnOrder[gCurrentTurnActionNumber];
+    else
+        gCurrentActionFuncId = gBattlerByTurnOrder[gCurrentTurnActionNumber - MAX_BATTLERS_COUNT];
     gHitMarker &= ~(HITMARKER_DESTINYBOND | HITMARKER_IGNORE_SUBSTITUTE | HITMARKER_ATTACKSTRING_PRINTED
                     | HITMARKER_NO_PPDEDUCT | HITMARKER_STATUS_ABILITY_EFFECT | HITMARKER_IGNORE_ON_AIR
                     | HITMARKER_IGNORE_UNDERGROUND | HITMARKER_IGNORE_UNDERWATER | HITMARKER_PASSIVE_DAMAGE
@@ -3001,7 +3007,10 @@ static void HandleAction_NothingIsFainted(void)
 static void HandleAction_ActionFinished(void)
 {
     ++gCurrentTurnActionNumber;
-    gCurrentActionFuncId = gActionsByTurnOrder[gCurrentTurnActionNumber];
+    if (gCurrentTurnActionNumber < MAX_BATTLERS_COUNT) // simulator: see HandleAction_NothingIsFainted
+        gCurrentActionFuncId = gActionsByTurnOrder[gCurrentTurnActionNumber];
+    else
+        gCurrentActionFuncId = gBattlerByTurnOrder[gCurrentTurnActionNumber - MAX_BATTLERS_COUNT];
     SpecialStatusesClear();
     gHitMarker &= ~(HITMARKER_DESTINYBOND | HITMARKER_IGNORE_SUBSTITUTE | HITMARKER_ATTACKSTRING_PRINTED
                     | HITMARKER_NO_PPDEDUCT | HITMARKER_STATUS_ABILITY_EFFECT | HITMARKER_IGNORE_ON_AIR

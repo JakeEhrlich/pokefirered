@@ -11,9 +11,18 @@ with open(sys.argv[1], 'w') as f:
     for name, body in entries:
         h = re.search(r'\.height\s*=\s*(\d+)', body).group(1)
         f.write('    [%s] = %s,\n' % (name, h))
+    # The game has no entries for the 25 unused OLD_UNOWN_* species (dex 387..411): Low Kick against one reads
+    # past gPokedexEntries into the data that follows it in ROM. These are the halfwords the retail ROM
+    # (gPokedexEntries at 0x0844E850, 36-byte entries, height at +12, weight at +14) returns for dex 387..411.
+    heights_oob = [11, 49096, 65534, 0, 50772, 52425, 52419, 65535, 51197, 13, 51406, 65534, 0, 51486, 255, 50112, 65532, 51935, 3, 48571, 65534, 0, 52245, 0, 48060]
+    weights_oob = [326, 52685, 0, 466, 2116, 255, 51401, 374, 2116, 315, 51395, 0, 256, 2116, 0, 49100, 256, 2116, 20, 65474, 0, 256, 2116, 0, 50886]
+    for i, h in enumerate(heights_oob):
+        f.write('    [NATIONAL_DEX_DEOXYS + %d] = %d, // past the game\'s table (retail ROM bytes)\n' % (i + 1, h))
     f.write('};\nconst u16 gSimPokedexWeights[] = {\n')
     for name, body in entries:
         w = re.search(r'\.weight\s*=\s*(\d+)', body).group(1)
         f.write('    [%s] = %s,\n' % (name, w))
+    for i, w in enumerate(weights_oob):
+        f.write('    [NATIONAL_DEX_DEOXYS + %d] = %d,\n' % (i + 1, w))
     f.write('};\n')
 print(len(entries), 'dex entries')

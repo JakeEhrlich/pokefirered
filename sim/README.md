@@ -15,16 +15,37 @@ replaced.
 ```
 cd sim
 make                # builds build/libsim.a and the test programs (needs clang, python3, tools/preproc)
-make test           # mechanics scenarios, 2000 fuzz battles, every in-game trainer vs. the vanilla AI
+make test           # mechanics checks, ~2200 scenarios, 2000 fuzz battles, every trainer vs. the vanilla AI,
+                    # 3000 robustness battles
+make backtest       # replays the recorded ROM transcripts in corpus/ (3581 battles, ~5 s, no mGBA needed)
+make robust         # robustness fuzz under ASan + UBSan: 20000 garbage battles in build_asan/ (~7 s once built)
 build/fuzz 20000 1  # random full-pool battles (doubles included); ~5000 battles/s on an M-series Mac
 ```
 
-`make OPT="-O1 -g -fsanitize=address"` builds with ASan (the fuzz suite is clean under it).
-
 The simulator has also been checked against the real game running in mGBA: with a harness build of the ROM
 (`make firered_harness` at the repo root) both sides play the same battles with the same RNG and every
-decision point compares the full battle state; see `harness/README.md`. Dozens of random trainer battles
-match turn for turn.
+decision point compares the full battle state; see `harness/README.md`. Every scenario group and 1400 random
+trainer battles match state for state; the transcripts are kept in `corpus/` so the check reruns offline.
+
+### Robustness contract
+
+Nothing a caller passes can crash or hang the simulator (`tests/robust.c` throws random encodable and
+deliberately invalid parties, junk flags, garbage answers and garbage policies at it under the sanitizers):
+
+- `Sim_MakeMonEx` returns -1 and zeroes the mon for ids the engine cannot index (species, move, item, level,
+  nature). `Sim_Start` returns -1 (no usable mon, or a double battle with one), -2 (unencodable data, a
+  corrupted mon, or a gap in the party: parties are contiguous from slot 0 like in the game), -3 (unsupported
+  battle type bits).
+- `Sim_Answer` returns -1 when no request is pending for that battler, or, with `sim->strictAnswers`, when the
+  action is not one of `Sim_LegalActions` / `Sim_LegalSwitches` (or a usable item); the request stays pending.
+  Without `strictAnswers` an illegal choice reaches the engine, which re-prompts exactly like the game
+  (no PP, Taunt, Disable, ...); garbage fields are masked or fall back to the first legal action.
+- Policy callbacks that answer illegally get the first legal action instead (`sim->rejectedAnswers` counts).
+- Engine invariant traps and the step budget end the battle with `SIM_RUN_ERROR` / `SIM_RUN_STUCK` and set
+  `sim->error`; there is no `abort()` left in the library.
+- Real out-of-bounds reads of the game (Protect's 5th consecutive use, Low Kick on the unused species slots,
+  `gActionsByTurnOrder[4]`, `gStatuses3[4]`) are reproduced explicitly from the ROM's neighbouring data
+  rather than through struct layout, so the sanitizer build is clean and the results still match the ROM.
 
 Regenerating the assembled scripts with ROM verification:
 

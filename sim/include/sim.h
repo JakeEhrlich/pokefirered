@@ -44,6 +44,7 @@ enum
     SIM_RUN_REQUEST,  // a decision is pending; see sim->requestKind / requestBattler
     SIM_RUN_FINISHED, // battle over; see gBattleOutcome
     SIM_RUN_STUCK,    // engine made no progress (bug / unsupported path)
+    SIM_RUN_ERROR,    // the engine hit an invariant trap or a policy kept answering illegally; see sim->error
 };
 
 struct SimAction
@@ -53,6 +54,14 @@ struct SimAction
     u8 target;     // battler id (B_ACTION_USE_MOVE)
     u8 partySlot;  // 0..5 (B_ACTION_SWITCH / SIM_REQ_SWITCH answers)
     u16 item;      // item id (B_ACTION_USE_ITEM)
+};
+
+enum SimError
+{
+    SIM_ERR_NONE,
+    SIM_ERR_TRAP,          // engine invariant violated (controller exec flags corrupted)
+    SIM_ERR_BAD_POLICY,    // a policy callback returned illegal actions too many times in a row
+    SIM_ERR_STUCK,         // step budget exhausted
 };
 
 struct BattleSim;
@@ -101,6 +110,9 @@ struct BattleSim
     u32 rngCalls;                    // Random() calls made so far
     u16 turnCount;                   // full turns elapsed (not saturating like gBattleResults)
     u16 maxTurns;                    // battle is declared a draw after this many turns (0 = no cap)
+    u8 strictAnswers;                // 1: Sim_Answer rejects illegal actions (the game's re-prompt paths are never entered)
+    u8 error;                        // enum SimError, set when Sim_Run returns SIM_RUN_ERROR
+    u16 rejectedAnswers;             // illegal answers seen (Sim_Answer rejections + policy fallbacks)
 };
 
 extern _Thread_local struct BattleSim *gSim;
@@ -108,9 +120,21 @@ extern _Thread_local struct BattleSim *gSim;
 // --- lifecycle ---
 void Sim_Bind(struct BattleSim *sim);                 // make `sim` the current state (sets gSim)
 void Sim_Init(struct BattleSim *sim, u32 battleTypeFlags, u16 seed); // zero state, bind, set flags/seed
+// Starts the battle. Returns 0, or -1 if a side has no usable mon (or a double battle would start with one),
+// -2 if a party holds data the engine cannot encode (species/move/item ids out of range, level 0 or > 100,
+//    a corrupted mon, or an empty slot before a filled one: parties are contiguous from slot 0),
+// -3 if battleTypeFlags carry bits the simulator does not support (only TRAINER and DOUBLE are).
 int Sim_Start(struct BattleSim *sim);                 // prepare the battle; returns -1 for an invalid setup
 int Sim_Run(struct BattleSim *sim);                   // run until a request or the end of the battle
-void Sim_Answer(struct BattleSim *sim, u8 battler, const struct SimAction *action);
+// Answers the pending request. Returns 0 if accepted, -1 if no such request is pending or (with
+// sim->strictAnswers) the action is not legal in the current state; a rejected answer leaves the request
+// pending so the caller can choose again. Legality is what Sim_LegalActions / Sim_LegalSwitches enumerate,
+// plus B_ACTION_USE_ITEM with an item the game lets you use in battle (B_ACTION_RUN is never legal: only
+// trainer battles are simulated). Without strictAnswers
+// an illegal choice is handed to the engine, which re-prompts the way the game does (no PP, Taunt, ...);
+// either way nothing a caller passes can crash the simulator (see tests/robust.c).
+int Sim_Answer(struct BattleSim *sim, u8 battler, const struct SimAction *action);
+int Sim_ValidateAction(struct BattleSim *sim, u8 battler, u8 requestKind, const struct SimAction *action); // 1 legal, 0 not
 void Sim_SetPolicy(struct BattleSim *sim, u8 side, SimPolicyFunc policy);
 
 // --- helpers for building parties ---
@@ -119,8 +143,8 @@ void Sim_MakeMon(struct Pokemon *mon, u16 species, u8 level, u8 nature, const u8
                  const u16 *moves, u16 item, u8 abilityNum);
 // Same, with an explicit original-trainer id (0 = the player's own id; anything else is an "outsider"
 // mon subject to the obedience rules) and the fateful-encounter bit (needed for Mew/Deoxys to obey).
-void Sim_MakeMonEx(struct Pokemon *mon, u16 species, u8 level, u8 nature, const u8 *ivs, const u8 *evs,
-                   const u16 *moves, u16 item, u8 abilityNum, u32 otId, u8 fatefulEncounter);
+int Sim_MakeMonEx(struct Pokemon *mon, u16 species, u8 level, u8 nature, const u8 *ivs, const u8 *evs,
+                  const u16 *moves, u16 item, u8 abilityNum, u32 otId, u8 fatefulEncounter); // 0, or -1 (mon zeroed) for ids the engine cannot index
 void Sim_MakeTrainerMon(struct Pokemon *mon, u16 species, u8 level, u8 fixedIV, const u16 *moves, u16 item, u16 trainerNum);
 u8 Sim_LoadTrainerParty(struct BattleSim *sim, u16 trainerNum); // loads gTrainers[trainerNum] into the enemy party
 void Sim_PrintLog(struct BattleSim *sim);                        // dump the message log (needs logEnabled)

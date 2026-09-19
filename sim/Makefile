@@ -42,6 +42,9 @@ $(BUILD)/%.o: %.c include/battle_scripts.h gen/sim_state_fields.h gen/sim_global
 $(BUILD)/libsim.a: $(OBJS)
 	ar rcs $@ $^
 
+gen/pokedex_hw.c: tools/gen_pokedex.py $(ROOT)/src/data/pokemon/pokedex_entries.h
+	python3 tools/gen_pokedex.py gen/pokedex_hw.c
+
 gen/scenario_list.c: tools/gen_scenarios.py $(SCENARIO_SRCS)
 	python3 tools/gen_scenarios.py $@
 
@@ -67,12 +70,19 @@ test: all
 	./$(BUILD)/scenarios
 	./$(BUILD)/fuzz 2000 1
 	./$(BUILD)/alltrainers 1
+	./$(BUILD)/robust 3000 1
 
 # Replays the recorded ROM transcripts in corpus/ against the simulator (seconds, no mGBA needed).
 backtest: $(BUILD)/crosscheck
 	./tools/backtest.sh
 
-clean:
-	rm -rf build
+# Robustness fuzz under AddressSanitizer + UBSan (separate build dir; the first build takes a while).
+ROBUST_N ?= 20000
+robust:
+	$(MAKE) BUILD=build_asan OPT="-O1 -g -fsanitize=address,undefined -fno-sanitize=shift,alignment -fno-omit-frame-pointer" build_asan/robust
+	ASAN_OPTIONS=detect_leaks=0 ./build_asan/robust $(ROBUST_N) 1
 
-.PHONY: all clean test scenarios backtest
+clean:
+	rm -rf build build_asan
+
+.PHONY: all clean test scenarios backtest robust

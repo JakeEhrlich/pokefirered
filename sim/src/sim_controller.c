@@ -124,6 +124,8 @@ static void SimHandleSwitchInAnim(void)
 
 // ---- decisions ----
 
+static bool8 UsesVanillaAI(void);
+
 static bool8 ObtainAnswer(u8 kind)
 {
     u8 side = GetBattlerSide(gActiveBattler);
@@ -135,7 +137,31 @@ static bool8 ObtainAnswer(u8 kind)
     gSim->answerValid[gActiveBattler] = FALSE;
     if (gSim->policy[side] != NULL)
     {
-        gSim->policy[side](gSim, gActiveBattler, kind, &gSim->answer[gActiveBattler]);
+        struct SimAction *a = &gSim->answer[gActiveBattler];
+        memset(a, 0, sizeof(*a));
+        gSim->policy[side](gSim, gActiveBattler, kind, a);
+        if (!UsesVanillaAI() && !Sim_ValidateAction(gSim, gActiveBattler, kind, a))
+        {
+            // An illegal answer from a policy falls back to the first legal action so the battle stays
+            // well-defined; a policy that keeps doing it ends the battle with SIM_ERR_BAD_POLICY.
+            struct SimAction acts[64];
+            u8 slots[PARTY_SIZE];
+            int n;
+            gSim->rejectedAnswers++;
+            memset(a, 0, sizeof(*a));
+            if (kind == SIM_REQ_SWITCH)
+            {
+                n = Sim_LegalSwitches(gSim, gActiveBattler, slots, PARTY_SIZE);
+                a->type = B_ACTION_SWITCH;
+                a->partySlot = n ? slots[0] : 0;
+            }
+            else
+            {
+                n = Sim_LegalActions(gSim, gActiveBattler, acts, 64);
+                if (n) *a = acts[0];
+                else { a->type = B_ACTION_USE_MOVE; a->moveSlot = 0; a->target = 0xFF; }
+            }
+        }
         gSim->answerValid[gActiveBattler] = TRUE;
         gSim->answerKind[gActiveBattler] = kind;
         return TRUE;
@@ -165,9 +191,15 @@ static void SimHandleChooseAction(void)
     }
     if (!ObtainAnswer(SIM_REQ_ACTION))
         return;
-    if (a->type == B_ACTION_USE_ITEM && a->item == ITEM_NONE)
+    if (a->type == B_ACTION_USE_ITEM && (a->item == ITEM_NONE || a->item >= ITEMS_COUNT))
+        a->type = B_ACTION_USE_MOVE;
+    if (a->type != B_ACTION_USE_MOVE && a->type != B_ACTION_SWITCH && a->type != B_ACTION_USE_ITEM && a->type != B_ACTION_RUN)
         a->type = B_ACTION_USE_MOVE;
     BtlController_EmitTwoReturnValues(BUFFER_B, a->type, 0);
+    // Run (never succeeds against a trainer) and a refused item send the game back to the action menu, where
+    // a player would choose anew: never reuse that answer, or the battle spins without a new request.
+    if (a->type == B_ACTION_RUN || a->type == B_ACTION_USE_ITEM)
+        gSim->answerValid[gActiveBattler] = FALSE;
     SimBufferExecCompleted();
 }
 
@@ -301,7 +333,7 @@ static void SimHandleChooseItem(void)
     if (!ObtainAnswer(SIM_REQ_ACTION))
         return;
     gSim->answerValid[gActiveBattler] = FALSE;
-    item = (a->type == B_ACTION_USE_ITEM) ? a->item : ITEM_NONE;
+    item = (a->type == B_ACTION_USE_ITEM && a->item < ITEMS_COUNT) ? a->item : ITEM_NONE;
     if (item != ITEM_NONE && GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER)
     {
         // The bag menu applies medicine immediately at selection time; mirror that.
@@ -355,16 +387,28 @@ static void SimHandleChoosePokemon(void)
     if (chosen != PARTY_SIZE)
     {
         struct Pokemon *party = PartyOf(gActiveBattler);
-        if (chosen > PARTY_SIZE || GetMonData(&party[chosen], MON_DATA_HP) == 0 || GetMonData(&party[chosen], MON_DATA_SPECIES) == SPECIES_NONE)
+        if (chosen >= PARTY_SIZE || GetMonData(&party[chosen], MON_DATA_HP) == 0 || GetMonData(&party[chosen], MON_DATA_SPECIES) == SPECIES_NONE)
         {
-            fprintf(stderr, "SIM: policy chose invalid party slot %d for battler %d (caseId %d, answerValid %d type %d)\n",
-                    chosen, gActiveBattler, caseId, gSim->answerValid[gActiveBattler], a->type);
-            for (i = 0; i < PARTY_SIZE; i++)
-                fprintf(stderr, "  party[%d]: species %d hp %d/%d\n", (int)i, GetMonData(&party[i], MON_DATA_SPECIES), GetMonData(&party[i], MON_DATA_HP), GetMonData(&party[i], MON_DATA_MAX_HP));
-            fprintf(stderr, "  absent %x outcome %d partyIndexes %d %d %d %d double %d turn %d\n", gAbsentBattlerFlags, gBattleOutcome,
-                    gBattlerPartyIndexes[0], gBattlerPartyIndexes[1], gBattlerPartyIndexes[2], gBattlerPartyIndexes[3], (gBattleTypeFlags & BATTLE_TYPE_DOUBLE) != 0, gSim->turnCount);
-            Sim_PrintLog(gSim);
-            abort();
+            // An illegal choice (only possible without strictAnswers, or from a garbage policy): fall back to
+            // the first legal switch-in; with none, cancel out of the party screen like a player would when
+            // the screen was opened by choice, otherwise the engine asked for a replacement that does not exist.
+            u8 slots[PARTY_SIZE];
+            int n = Sim_LegalSwitches(gSim, gActiveBattler, slots, PARTY_SIZE);
+            gSim->rejectedAnswers++;
+            if (n == 0)
+            {
+                if (caseId == PARTY_ACTION_CHOOSE_MON)
+                    chosen = PARTY_SIZE;
+                else
+                {
+                    gSim->error = SIM_ERR_BAD_POLICY;
+                    gSim->finished = TRUE;
+                    gBattleOutcome = B_OUTCOME_DREW;
+                    return;
+                }
+            }
+            else
+                chosen = slots[0];
         }
         *(gBattleStruct->monToSwitchIntoId + gActiveBattler) = chosen;
     }

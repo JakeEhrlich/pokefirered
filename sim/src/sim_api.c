@@ -19,17 +19,24 @@
 #include "constants/moves.h"
 #include "constants/species.h"
 #include "sim_names.h"
+#include "sim_items.h"
 #include "battle_scripts.h"
 #include "sim_globals.h"
 
 static void SimDebugTrap(const char *where)
 {
-    Dl_info info;
-    dladdr((void *)gBattleMainFunc, &info);
-    fprintf(stderr, "TRAP %s: mainfunc=%s script=%ld active=%d flags=%x typeflags=%x attacker=%d target=%d\n", where,
-            info.dli_sname ? info.dli_sname : "?", (long)(gBattlescriptCurrInstr - gBattleScriptBlob), gActiveBattler,
-            gBattleControllerExecFlags, gBattleTypeFlags, gBattlerAttacker, gBattlerTarget);
-    abort();
+    if (getenv("SIM_TRAP_VERBOSE"))
+    {
+        Dl_info info;
+        dladdr((void *)gBattleMainFunc, &info);
+        fprintf(stderr, "TRAP %s: mainfunc=%s script=%ld active=%d flags=%x typeflags=%x attacker=%d target=%d\n", where,
+                info.dli_sname ? info.dli_sname : "?", (long)(gBattlescriptCurrInstr - gBattleScriptBlob), gActiveBattler,
+                gBattleControllerExecFlags, gBattleTypeFlags, gBattlerAttacker, gBattlerTarget);
+    }
+    // Not fatal: the battle is abandoned and Sim_Run reports SIM_RUN_ERROR.
+    gSim->error = SIM_ERR_TRAP;
+    gSim->finished = TRUE;
+    gBattleOutcome = B_OUTCOME_DREW;
 }
 
 void HandleTurnActionSelectionState(void);
@@ -81,7 +88,7 @@ void SimLog(u16 stringId, u8 battler)
     gSim->log[gSim->logCount].battler = battler;
     gSim->log[gSim->logCount].multistring = gBattleCommunication[MULTISTRING_CHOOSER];
     gSim->log[gSim->logCount].move = gCurrentMove;
-    gSim->log[gSim->logCount].hpTarget = gBattleMons[gBattlerTarget].hp;
+    gSim->log[gSim->logCount].hpTarget = gBattlerTarget < MAX_BATTLERS_COUNT ? gBattleMons[gBattlerTarget].hp : 0;
     gSim->log[gSim->logCount].dmg = gBattleMoveDamage;
     gSim->log[gSim->logCount].turn = gSim->turnCount;
     gSim->logCount++;
@@ -112,11 +119,51 @@ static int CountUsableMons(struct Pokemon *party)
     return n;
 }
 
+// Every mon must hold ids the engine's tables can index; anything else would read out of bounds.
+static bool8 PartyEncodable(struct Pokemon *party)
+{
+    s32 i, m;
+    bool8 gap = FALSE;
+    for (i = 0; i < PARTY_SIZE; i++)
+    {
+        u16 species = GetMonData(&party[i], MON_DATA_SPECIES);
+        u8 level;
+        if (species == SPECIES_NONE)
+        {
+            gap = TRUE;
+            continue;
+        }
+        if (gap)
+            return FALSE; // parties are contiguous from slot 0 in the game; the engine indexes by position
+        if (GetMonData(&party[i], MON_DATA_SANITY_IS_BAD_EGG))
+            return FALSE; // a corrupted mon (checksum mismatch) reads as species 412 and the game itself misbehaves
+        if (GetMonData(&party[i], MON_DATA_IS_EGG))
+            continue; // eggs never battle; the engine skips them
+        if (species >= SPECIES_EGG) // 1..411 are species; the UNOWN_B.. aliases are never stored
+            return FALSE;
+        level = GetMonData(&party[i], MON_DATA_LEVEL);
+        if (level < 1 || level > MAX_LEVEL)
+            return FALSE;
+        if (GetMonData(&party[i], MON_DATA_HELD_ITEM) >= ITEMS_COUNT)
+            return FALSE;
+        for (m = 0; m < MAX_MON_MOVES; m++)
+            if (GetMonData(&party[i], MON_DATA_MOVE1 + m) >= MOVES_COUNT)
+                return FALSE;
+        if (GetMonData(&party[i], MON_DATA_HP) > GetMonData(&party[i], MON_DATA_MAX_HP))
+            return FALSE;
+    }
+    return TRUE;
+}
+
 int Sim_Start(struct BattleSim *sim)
 {
     s32 i;
 
     Sim_Bind(sim);
+    if (gBattleTypeFlags & ~(BATTLE_TYPE_TRAINER | BATTLE_TYPE_DOUBLE | BATTLE_TYPE_IS_MASTER))
+        return -3;
+    if (!PartyEncodable(gPlayerParty) || !PartyEncodable(gEnemyParty))
+        return -2;
     CountParties();
     if (CountUsableMons(gPlayerParty) == 0 || CountUsableMons(gEnemyParty) == 0)
         return -1;
@@ -149,15 +196,19 @@ int Sim_Run(struct BattleSim *sim)
 
     Sim_Bind(sim);
     sim->requestKind = SIM_REQ_NONE;
+    if (sim->error)
+        return SIM_RUN_ERROR;
     while (!sim->finished)
     {
         gBattleMainFunc();
-        if (gBattleControllerExecFlags & 0xF0000000) SimDebugTrap("main");
+        if (gBattleControllerExecFlags & 0xF0000000) { SimDebugTrap("main"); return SIM_RUN_ERROR; }
         for (gActiveBattler = 0; gActiveBattler < gBattlersCount; gActiveBattler++)
         {
             gBattlerControllerFuncs[gActiveBattler]();
-            if (gBattleControllerExecFlags & 0xF0000000) SimDebugTrap("controller");
+            if (gBattleControllerExecFlags & 0xF0000000) { SimDebugTrap("controller"); return SIM_RUN_ERROR; }
+            if (sim->error) return SIM_RUN_ERROR;
         }
+        if (sim->error) return SIM_RUN_ERROR;
         sim->frames++;
         if (sim->requestKind != SIM_REQ_NONE)
         {
@@ -185,18 +236,75 @@ int Sim_Run(struct BattleSim *sim)
             sim->finished = TRUE;
         }
         if (--budget == 0)
+        {
+            sim->error = SIM_ERR_STUCK;
+            sim->finished = TRUE;
+            gBattleOutcome = B_OUTCOME_DREW;
             return SIM_RUN_STUCK;
+        }
     }
-    return SIM_RUN_FINISHED;
+    return sim->error ? SIM_RUN_ERROR : SIM_RUN_FINISHED;
 }
 
-void Sim_Answer(struct BattleSim *sim, u8 battler, const struct SimAction *action)
+int Sim_ValidateAction(struct BattleSim *sim, u8 battler, u8 requestKind, const struct SimAction *a)
 {
+    struct SimAction acts[64];
+    u8 slots[PARTY_SIZE];
+    int n, i;
+
+    Sim_Bind(sim);
+    if (battler >= gBattlersCount)
+        return 0;
+    if (requestKind == SIM_REQ_SWITCH)
+    {
+        if (a->type != B_ACTION_SWITCH)
+            return 0;
+        n = Sim_LegalSwitches(sim, battler, slots, PARTY_SIZE);
+        for (i = 0; i < n; i++)
+            if (slots[i] == a->partySlot)
+                return 1;
+        return 0;
+    }
+    if (requestKind != SIM_REQ_ACTION)
+        return 0;
+    if (a->type == B_ACTION_RUN)
+        return 0; // only trainer battles are simulated and running from a trainer always fails
+    if (a->type == B_ACTION_USE_ITEM)
+        return a->item != ITEM_NONE && a->item < ITEMS_COUNT && gSimItems[a->item].name != NULL && gSimItems[a->item].battleUsage != 0
+            && (a->partySlot < PARTY_SIZE || a->partySlot == 0xFF);
+    n = Sim_LegalActions(sim, battler, acts, 64);
+    for (i = 0; i < n; i++)
+    {
+        if (acts[i].type != a->type)
+            continue;
+        if (a->type == B_ACTION_USE_MOVE)
+        {
+            if (acts[i].moveSlot != (a->moveSlot & 3) && !(gBattleMons[battler].status2 & (STATUS2_MULTIPLETURNS | STATUS2_RECHARGE)))
+                continue;
+            if (acts[i].target != 0xFF && acts[i].target != a->target && a->target != 0xFF)
+                continue;
+            return 1;
+        }
+        if (a->type == B_ACTION_SWITCH && acts[i].partySlot == a->partySlot)
+            return 1;
+    }
+    return 0;
+}
+
+int Sim_Answer(struct BattleSim *sim, u8 battler, const struct SimAction *action)
+{
+    if (sim->requestKind == SIM_REQ_NONE || sim->requestBattler != battler)
+        return -1;
+    if (sim->strictAnswers && !Sim_ValidateAction(sim, battler, sim->requestKind, action))
+    {
+        sim->rejectedAnswers++;
+        return -1;
+    }
     sim->answer[battler] = *action;
     sim->answerValid[battler] = TRUE;
     sim->answerKind[battler] = sim->requestKind;
-    if (sim->requestBattler == battler)
-        sim->requestKind = SIM_REQ_NONE;
+    sim->requestKind = SIM_REQ_NONE;
+    return 0;
 }
 
 // ---- legality ----
@@ -341,9 +449,21 @@ void Sim_RandomPolicy(struct BattleSim *sim, u8 battler, u8 requestKind, struct 
 
 // ---- party helpers ----
 
-void Sim_MakeMonEx(struct Pokemon *mon, u16 species, u8 level, u8 nature, const u8 *ivs, const u8 *evs,
-                   const u16 *moves, u16 item, u8 abilityNum, u32 otId, u8 fatefulEncounter)
+int Sim_MakeMonEx(struct Pokemon *mon, u16 species, u8 level, u8 nature, const u8 *ivs, const u8 *evs,
+                  const u16 *moves, u16 item, u8 abilityNum, u32 otId, u8 fatefulEncounter)
 {
+    // Reject anything the engine's tables cannot index: a mon is never half-built from bad ids.
+    memset(mon, 0, sizeof(*mon));
+    if (species == SPECIES_NONE || species >= SPECIES_EGG || level < 1 || level > MAX_LEVEL || nature >= NUM_NATURES
+     || item >= ITEMS_COUNT || abilityNum > 1)
+        return -1;
+    if (moves)
+    {
+        int k;
+        for (k = 0; k < MAX_MON_MOVES; k++)
+            if (moves[k] >= MOVES_COUNT)
+                return -1;
+    }
     s32 i;
     u32 personality;
     u8 iv31 = 31;
@@ -380,6 +500,7 @@ void Sim_MakeMonEx(struct Pokemon *mon, u16 species, u8 level, u8 nature, const 
         SetMonData(mon, MON_DATA_MODERN_FATEFUL_ENCOUNTER, &one);
     }
     CalculateMonStats(mon);
+    return 0;
 }
 
 void Sim_MakeMon(struct Pokemon *mon, u16 species, u8 level, u8 nature, const u8 *ivs, const u8 *evs,

@@ -16,3 +16,7 @@
 #define T2_READ_PTR(ptr) ((void *)SimDecodePtr(T2_READ_32(ptr)))
 
 #endif // GUARD_SIM_GLOBALS_H
+
+// Same values as the game's macro, without the signed-int shift (undefined behaviour on the host).
+#undef Random32
+#define Random32() ((u32)Random() | ((u32)Random() << 16))

@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 #define IS_POKEMON_C
 
 #include "global.h"
