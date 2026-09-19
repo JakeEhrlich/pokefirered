@@ -17,6 +17,8 @@
 #include "pokemon.h"
 #include "sim.h"
 #include "sim_names.h"
+#include "sim_items.h"
+#include "constants/global.h"
 #include "harness_addrs.h"
 #include "constants/species.h"
 #include "constants/moves.h"
@@ -245,23 +247,69 @@ static int ReadEvent(struct Snapshot *s)
     }
 }
 
+// CROSSCHECK_FULLPOOL=1: draw species from all 386 real species, prefer moves listed in corpus/rare_moves.txt
+// (one MOVE_ name per line, e.g. the least-covered moves printed by tools/coverage.py) when the species can learn
+// them, and hold a random holdable item more often. Used to widen the recorded corpus.
+static u16 sRareMoves[MOVES_COUNT];
+static int sRareMoveCount = -1;
+static void LoadRareMoves(void)
+{
+    FILE *f;
+    char name[64];
+    sRareMoveCount = 0;
+    f = fopen("corpus/rare_moves.txt", "r");
+    if (!f) return;
+    while (fscanf(f, "%63s", name) == 1)
+    {
+        int i;
+        for (i = 1; i < gSimMoveNames_Count; i++)
+            if (!strcmp(gSimMoveNames[i], name)) { sRareMoves[sRareMoveCount++] = i; break; }
+    }
+    fclose(f);
+}
+
 static void MakePlayerParty(struct BattleSim *sim, int n)
 {
     int k;
+    int fullPool = getenv("CROSSCHECK_FULLPOOL") != NULL;
+    if (fullPool && sRareMoveCount < 0) LoadRareMoves();
     for (k = 0; k < n; k++)
     {
         u16 species, moves[4], pool[MOVES_COUNT];
         u8 level, ivs[6], evs[6];
         int np, m;
         do
-            species = 1 + R() % 151;
-        while (species == SPECIES_NONE);
+            species = fullPool ? 1 + R() % 411 : 1 + R() % 151;
+        while (species == SPECIES_NONE || (species >= 252 && species <= 276));
         level = 20 + R() % 50;
         np = Sim_LearnableMoves(species, level, pool, MOVES_COUNT);
         for (m = 0; m < 4; m++)
+        {
             moves[m] = np ? pool[R() % np] : MOVE_TACKLE;
+            if (fullPool && sRareMoveCount && (R() % 2) == 0)
+            {
+                int tries;
+                for (tries = 0; tries < 8; tries++)
+                {
+                    u16 cand = sRareMoves[R() % sRareMoveCount];
+                    if (Sim_CanLearnMove(species, cand, level)) { moves[m] = cand; break; }
+                }
+            }
+        }
         for (m = 0; m < 6; m++) { ivs[m] = R() % 32; evs[m] = R() % 64; }
-        Sim_MakeMon(&sim->playerParty[k], species, level, R() % NUM_NATURES, ivs, evs, moves, (R() % 3 == 0) ? ITEM_LEFTOVERS : ITEM_NONE, R() % 2);
+        {
+            u16 item = (R() % 3 == 0) ? ITEM_LEFTOVERS : ITEM_NONE;
+            if (fullPool && (R() % 2) == 0)
+            {
+                int tries;
+                for (tries = 0; tries < 16; tries++)
+                {
+                    u16 cand = 1 + R() % (ITEMS_COUNT - 1);
+                    if (gSimItems[cand].name && gSimItems[cand].pocket != POCKET_KEY_ITEMS && gSimItems[cand].name[0] != '?') { item = cand; break; }
+                }
+            }
+            Sim_MakeMon(&sim->playerParty[k], species, level, R() % NUM_NATURES, ivs, evs, moves, item, R() % 2);
+        }
     }
 }
 

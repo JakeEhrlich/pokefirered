@@ -81,17 +81,22 @@ u16 Sim_PreEvolution(u16 species)
 // True if `species` at `level` can legitimately know `move` (own learnsets or any pre-evolution's).
 bool8 Sim_CanLearnMove(u16 species, u16 move, u8 level)
 {
-    // Smeargle sketches any move it sees (Sketch itself comes by level-up, Struggle cannot be sketched).
-    if (species == SPECIES_SMEARGLE && move != MOVE_NONE && move != MOVE_STRUGGLE && move < MOVES_COUNT)
-        return TRUE;
     int depth;
     u16 s = species;
 
     if (move == MOVE_NONE || move >= MOVES_COUNT || species == SPECIES_NONE || species >= NUM_SPECIES)
         return FALSE;
+    // Smeargle sketches any move it sees (Sketch itself comes by level-up, Struggle cannot be sketched).
+    if (species == SPECIES_SMEARGLE && move != MOVE_STRUGGLE)
+        return TRUE;
     for (depth = 0; depth < 4 && s != SPECIES_NONE; depth++)
     {
         if (Sim_LearnsByLevelUp(s, move, level) || Sim_LearnsByTMHM(s, move) || Sim_LearnsByTutor(s, move) || Sim_IsEggMove(s, move))
+            return TRUE;
+        // FireRed-only: the Cape Brink tutors teach the starters' ultimate moves; Pichu hatches with Volt
+        // Tackle when a parent holds a Light Ball (so Pikachu/Raichu inherit it through this walk).
+        if ((s == SPECIES_VENUSAUR && move == MOVE_FRENZY_PLANT) || (s == SPECIES_CHARIZARD && move == MOVE_BLAST_BURN)
+         || (s == SPECIES_BLASTOISE && move == MOVE_HYDRO_CANNON) || (s == SPECIES_PICHU && move == MOVE_VOLT_TACKLE))
             return TRUE;
         s = Sim_PreEvolution(s);
     }
