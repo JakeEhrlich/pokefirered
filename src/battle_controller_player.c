@@ -1,4 +1,7 @@
 #include "global.h"
+#if SIM_HARNESS
+#include "sim_harness.h"
+#endif
 #include "gflib.h"
 #include "data.h"
 #include "item.h"
@@ -183,6 +186,9 @@ void SetControllerToPlayer(void)
     gDoingBattleAnim = FALSE;
 }
 
+#if SIM_HARNESS
+void PlayerBufferExecCompleted_Harness(void);
+#endif
 static void PlayerBufferExecCompleted(void)
 {
     gBattlerControllerFuncs[gActiveBattler] = PlayerBufferRunCommand;
@@ -2393,6 +2399,12 @@ static void PlayerHandlePrintString(void)
 
 static void PlayerHandlePrintSelectionString(void)
 {
+#if SIM_HARNESS
+    // sim harness: selection-time messages ("no moves left", "can't escape", ...) complete
+    // immediately, like the simulator's stub, so decision order in doubles matches frame for frame.
+    PlayerBufferExecCompleted();
+    return;
+#endif
     if (GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER)
         PlayerHandlePrintString();
     else
@@ -2411,6 +2423,10 @@ static void HandleChooseActionAfterDma3(void)
 
 static void PlayerHandleChooseAction(void)
 {
+#if SIM_HARNESS
+    SimHarness_HandleChooseAction();
+    return;
+#endif
     s32 i;
 
     gBattlerControllerFuncs[gActiveBattler] = HandleChooseActionAfterDma3;
@@ -2439,6 +2455,10 @@ static void HandleChooseMoveAfterDma3(void)
 
 static void PlayerHandleChooseMove(void)
 {
+#if SIM_HARNESS
+    SimHarness_HandleChooseMove();
+    return;
+#endif
     InitMoveSelectionsVarsAndStrings();
     gBattlerControllerFuncs[gActiveBattler] = HandleChooseMoveAfterDma3;
 }
@@ -2455,6 +2475,10 @@ void InitMoveSelectionsVarsAndStrings(void)
 
 static void PlayerHandleChooseItem(void)
 {
+#if SIM_HARNESS
+    SimHarness_HandleChooseItem();
+    return;
+#endif
     s32 i;
 
     BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 0x10, RGB_BLACK);
@@ -2466,6 +2490,10 @@ static void PlayerHandleChooseItem(void)
 
 static void PlayerHandleChoosePokemon(void)
 {
+#if SIM_HARNESS
+    SimHarness_HandleChoosePokemon();
+    return;
+#endif
     s32 i;
 
     gBattleControllerData[gActiveBattler] = CreateTask(TaskDummy, 0xFF);
@@ -2512,6 +2540,10 @@ static void PlayerHandleHealthBarUpdate(void)
 
 static void PlayerHandleExpUpdate(void)
 {
+#if SIM_HARNESS
+    SimHarness_HandleExpUpdate();
+    return;
+#endif
     u8 monId = gBattleBufferA[gActiveBattler][1];
 
     if (GetMonData(&gPlayerParty[monId], MON_DATA_LEVEL) >= MAX_LEVEL)
@@ -2964,3 +2996,10 @@ static void PreviewDeterminativeMoveTargets(void)
         BeginNormalPaletteFade(bitMask, 8, startY, 0, RGB_WHITE);
     }
 }
+
+#if SIM_HARNESS
+void PlayerBufferExecCompleted_Harness(void)
+{
+    PlayerBufferExecCompleted();
+}
+#endif

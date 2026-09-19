@@ -52,6 +52,12 @@ ifeq ($(MODERN),1)
   BUILD_NAME := $(BUILD_NAME)_modern
 endif
 
+# Battle simulator cross-check harness (see sim/harness/README.md)
+SIM_HARNESS   ?= 0
+ifeq ($(SIM_HARNESS),1)
+  BUILD_NAME := $(BUILD_NAME)_harness
+endif
+
 # Language
 ifeq ($(GAME_LANGUAGE),ENGLISH)
   GAME_CODE  := $(GAME_CODE)E

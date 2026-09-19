@@ -1,4 +1,7 @@
 #include "global.h"
+#if SIM_HARNESS
+#include "sim_harness.h"
+#endif
 #include "gflib.h"
 #include "data.h"
 #include "m4a.h"
@@ -1338,6 +1341,13 @@ static void OpponentHandlePrintSelectionString(void)
 
 static void OpponentHandleChooseAction(void)
 {
+#if SIM_HARNESS
+    if (gSimHarness.scriptOpponent)
+    {
+        SimHarness_HandleChooseAction();
+        return;
+    }
+#endif
     AI_TrySwitchOrUseItem();
     OpponentBufferExecCompleted();
 }
@@ -1349,6 +1359,13 @@ static void OpponentHandleUnknownYesNoBox(void)
 
 static void OpponentHandleChooseMove(void)
 {
+#if SIM_HARNESS
+    if (gSimHarness.scriptOpponent)
+    {
+        SimHarness_HandleChooseMove();
+        return;
+    }
+#endif
     u8 chosenMoveId;
     struct ChooseMoveStruct *moveInfo = (struct ChooseMoveStruct *)(&gBattleBufferA[gActiveBattler][4]);
 
@@ -1403,12 +1420,26 @@ static void OpponentHandleChooseMove(void)
 
 static void OpponentHandleChooseItem(void)
 {
+#if SIM_HARNESS
+    if (gSimHarness.scriptOpponent)
+    {
+        SimHarness_HandleChooseItem();
+        return;
+    }
+#endif
     BtlController_EmitOneReturnValue(1, *(gBattleStruct->chosenItem + (gActiveBattler / 2) * 2));
     OpponentBufferExecCompleted();
 }
 
 static void OpponentHandleChoosePokemon(void)
 {
+#if SIM_HARNESS
+    if (gSimHarness.scriptOpponent)
+    {
+        SimHarness_HandleChoosePokemon();
+        return;
+    }
+#endif
     s32 chosenMonId;
 
     if (*(gBattleStruct->AI_monToSwitchIntoId + (GetBattlerPosition(gActiveBattler) >> 1)) == PARTY_SIZE)

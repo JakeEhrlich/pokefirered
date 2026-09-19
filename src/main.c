@@ -1,4 +1,7 @@
 #include "global.h"
+#if SIM_HARNESS
+#include "sim_harness.h"
+#endif
 #include "gflib.h"
 #include "link.h"
 #include "link_rfu.h"
@@ -228,7 +231,11 @@ static void InitMainCallbacks(void)
     gMain.vblankCounter1 = 0;
     gMain.vblankCounter2 = 0;
     gMain.callback1 = NULL;
+#if SIM_HARNESS
+    SetMainCallback2(SimHarness_CB2_Boot);
+#else
     SetMainCallback2(CB2_InitCopyrightScreenAfterBootup);
+#endif
     gSaveBlock2Ptr = &gSaveBlock2;
     gSaveBlock1Ptr = &gSaveBlock1;
     gSaveBlock2.encryptionKey = 0;
