@@ -258,6 +258,8 @@ static struct Hit AttackHit(fs_state *s, int side, u16 move, u16 power, u8 type,
     if (dmg > t->hp) dmg = t->hp;
     h.dmg = dmg;
     t->lastLandedMove = move; t->lastHitByType = type;
+    // datahpupdate classifies by gBattleMoves[move].type when the dynamic type carries F_DYNAMIC_TYPE_1 (Hidden Power)
+    t->lastHitPhysical = (bm->effect == EFFECT_HIDDEN_POWER) ? (bm->type < TYPE_MYSTERY) : (type < TYPE_MYSTERY);
     h.dbond = (t->vol & FS_V_DESTINY_BOND) != 0;   // read before the faint clears it (tryfaintmon order)
     Damage(s, opp, dmg);
     return h;
@@ -651,7 +653,7 @@ void fs_use_move(fs_state *s, int side, int slot)
         }
         if (t->vol & FS_V_SUBSTITUTE) { if (dmg >= t->substituteHP) { t->substituteHP = 0; t->vol &= ~FS_V_SUBSTITUTE; } else t->substituteHP -= dmg; break; }
         if (dmg > t->hp) dmg = t->hp;
-        t->lastLandedMove = move; t->lastHitByType = type;
+        t->lastLandedMove = move; t->lastHitByType = type; t->lastHitPhysical = type < TYPE_MYSTERY;
         Damage(s, opp, dmg);
         h.hit = 1; h.dmg = dmg;
         AfterHit(s, side, move, &h, contact);
@@ -661,7 +663,7 @@ void fs_use_move(fs_state *s, int side, int slot)
     {
         int phys = bm->effect == EFFECT_COUNTER;
         if (!t->present || !a->bideDmg) break;
-        if (!(phys ? (a->lastHitByType < TYPE_MYSTERY) : (a->lastHitByType > TYPE_MYSTERY))) break;
+        if (phys != (a->lastHitPhysical != 0)) break;
         if (!fs_accuracy_check(s, side, opp, move, type)) break;
         {
             s32 dmg = a->bideDmg * 2;

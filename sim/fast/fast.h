@@ -100,6 +100,7 @@ typedef struct
     u16 lockedMove, lastMove, lastLandedMove, lastHitByType, chosenMove, bideDmg, wrapMove;
     u16 choicedMove;      // Choice Band lock (0 = none)
     u8 lastMoveTarget;
+    u8 lastHitPhysical;   // Counter / Mirror Coat category of the last hit taken this turn: Hidden Power counts as its listed Normal type (physical) in datahpupdate
     u8 hpTypeCache;
 } fs_battler;
 

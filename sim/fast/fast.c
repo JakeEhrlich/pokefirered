@@ -114,7 +114,9 @@ int fs_import(fs_state *out, const struct BattleSim *simc)
     Sim_Bind(sim);
     if (gBattleTypeFlags & BATTLE_TYPE_DOUBLE) { out->unsupported |= FS_UNSUP_DOUBLES; return -1; }
     if (sim->requestKind == SIM_REQ_NONE && !sim->finished) { out->unsupported |= FS_UNSUP_STATE; return -1; }
-    if (sim->requestKind == SIM_REQ_ACTION && sim->requestBattler != 0) { out->unsupported |= FS_UNSUP_STATE; return -1; }
+    // battler 0 is not asked while it recharges (the game picks USE_MOVE itself), so the turn's first request
+    // can be battler 1's; that is still a turn start
+    if (sim->requestKind == SIM_REQ_ACTION && sim->requestBattler != 0 && !(gBattleMons[0].status2 & STATUS2_RECHARGE)) { out->unsupported |= FS_UNSUP_STATE; return -1; }
     out->maxTurns = sim->maxTurns;
     out->turn = sim->turnCount;
     {
@@ -289,6 +291,8 @@ int fs_legal_actions(const fs_state *s, int side, fs_action *out)
     if (s->request == FS_REQ_DONE) return 0;
     if (s->request == FS_REQ_TURN)
     {
+        // recharging: the game does not ask at all (USE_MOVE, then "must recharge"); one placeholder move action
+        if (sd->act.vol & FS_V_RECHARGE) { out[0].type = FS_ACT_MOVE; out[0].slot = 0; return 1; }
         for (i = 0; i < 4; i++) if (MoveUsable(s, side, i)) { out[n].type = FS_ACT_MOVE; out[n].slot = i; n++; any = 1; }
         if (!any) { out[n].type = FS_ACT_MOVE; out[n].slot = 4; n++; }   // Struggle
         if (!fs_can_switch(s, side)) return n;
