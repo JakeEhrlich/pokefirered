@@ -1,0 +1,100 @@
+[
+ {
+  "name": "rm:iters=10",
+  "rating": 1170.0,
+  "se": 7.4,
+  "wins": 1919.0,
+  "games": 2852
+ },
+ {
+  "name": "rmplus:iters=1000",
+  "rating": 1166.4,
+  "se": 7.5,
+  "wins": 1900.5,
+  "games": 2832
+ },
+ {
+  "name": "rmplus:iters=10",
+  "rating": 1157.9,
+  "se": 7.4,
+  "wins": 1814.5,
+  "games": 2790
+ },
+ {
+  "name": "rmplus:iters=30",
+  "rating": 1157.4,
+  "se": 7.3,
+  "wins": 1837.0,
+  "games": 2845
+ },
+ {
+  "name": "rmplus:iters=100",
+  "rating": 1156.6,
+  "se": 7.3,
+  "wins": 1798.0,
+  "games": 2810
+ },
+ {
+  "name": "rmplus:iters=10,floor=0.011",
+  "rating": 1131.2,
+  "se": 7.2,
+  "wins": 1807.0,
+  "games": 2928
+ },
+ {
+  "name": "rm:iters=10,floor=0.011",
+  "rating": 1112.2,
+  "se": 7.2,
+  "wins": 1672.0,
+  "games": 2854
+ },
+ {
+  "name": "expect",
+  "rating": 1087.9,
+  "se": 7.2,
+  "wins": 1593.5,
+  "games": 2824
+ },
+ {
+  "name": "epsexpect:eps=0.1",
+  "rating": 1064.6,
+  "se": 7.3,
+  "wins": 1486.5,
+  "games": 2795
+ },
+ {
+  "name": "greedy",
+  "rating": 1029.3,
+  "se": 7.4,
+  "wins": 1496.5,
+  "games": 2891
+ },
+ {
+  "name": "epsgreedy:eps=0.1",
+  "rating": 990.6,
+  "se": 7.4,
+  "wins": 1297.5,
+  "games": 2894
+ },
+ {
+  "name": "game:flags=smart",
+  "rating": 825.2,
+  "se": 9.0,
+  "wins": 855.0,
+  "games": 2891
+ },
+ {
+  "name": "movebias",
+  "rating": 598.3,
+  "se": 12.2,
+  "wins": 414.0,
+  "games": 2865
+ },
+ {
+  "name": "random",
+  "rating": 352.4,
+  "se": 17.7,
+  "wins": 109.0,
+  "games": 2929
+ }
+]

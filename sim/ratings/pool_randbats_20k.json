@@ -1,0 +1,16 @@
+[
+  {"name":"rm:iters=10","rating":1208.5,"games":2852,"wins":1911,"losses":925,"draws":16},
+  {"name":"rmplus:iters=1000","rating":1166.7,"games":2832,"wins":1897,"losses":928,"draws":7},
+  {"name":"expect","rating":1157.5,"games":2824,"wins":1585,"losses":1222,"draws":17},
+  {"name":"rmplus:iters=10,floor=0.011","rating":1146.0,"games":2928,"wins":1801,"losses":1115,"draws":12},
+  {"name":"rmplus:iters=30","rating":1122.4,"games":2845,"wins":1830,"losses":1001,"draws":14},
+  {"name":"epsexpect:eps=0.1","rating":1116.3,"games":2795,"wins":1477,"losses":1299,"draws":19},
+  {"name":"rmplus:iters=10","rating":1092.7,"games":2790,"wins":1809,"losses":970,"draws":11},
+  {"name":"rmplus:iters=100","rating":1078.1,"games":2810,"wins":1796,"losses":1010,"draws":4},
+  {"name":"greedy","rating":1069.3,"games":2891,"wins":1483,"losses":1381,"draws":27},
+  {"name":"rm:iters=10,floor=0.011","rating":1062.5,"games":2854,"wins":1668,"losses":1178,"draws":8},
+  {"name":"epsgreedy:eps=0.1","rating":936.7,"games":2894,"wins":1279,"losses":1578,"draws":37},
+  {"name":"game:flags=smart","rating":833.2,"games":2891,"wins":847,"losses":2028,"draws":16},
+  {"name":"movebias","rating":651.4,"games":2865,"wins":411,"losses":2448,"draws":6},
+  {"name":"random","rating":358.7,"games":2929,"wins":107,"losses":2818,"draws":4}
+]

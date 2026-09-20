@@ -115,7 +115,14 @@ build/arena --teams /tmp/randbats.tsv --pool --games 4000 --threads 8 --ratings 
 build/arena --teams /tmp/randbats.tsv --rate-teams --agent rmplus:iters=30 --games 20000 --ratings team_elo.json
 ```
 The second form rates the teams themselves: one fixed agent plays both sides. ELO is the primary evaluation;
-`--out` keeps every game (agents, teams, sides, result, seed) for later analysis.
+`--out` keeps every game (agents, teams, sides, result, seed). The arena prints sequential ELO; for the real
+numbers fit order-independent Bradley-Terry ratings with standard errors from the log:
+```
+python3 tools/elo_fit.py games.jsonl --h2h --json ratings.json          # agents
+python3 tools/elo_fit.py team_games.jsonl --players teams --min-games 20  # teams
+```
+Results so far live in `ratings/` (randbats pool: unfloored regret matching 1157-1170 +-7, expectimax 1088,
+greedy 1029, the game's own AI 825, random 352).
 
 ## What is and isn't simulated
 
