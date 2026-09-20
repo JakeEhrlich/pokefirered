@@ -1050,6 +1050,13 @@ static void DecideMcts(struct SimAgent *ag, struct BattleSim *sim, const struct 
 #define MF_MAX_ACTIONS 10          // singles: 4 moves (or Struggle) + 5 switches
 #define MF_MAX_NODES 4096
 
+#define MF_MAX_KIDS 16
+// A stored outcome of a joint cell. mcts scheme: one seed, `visits` descents. Bucket scheme (ag->mctsBuckets > 0):
+// one representative seed per outcome bucket `key`, `count` of the cell's samples that fell into it (its probability
+// mass is count / samples) and the sum of their leaf values.
+struct MfKid { u32 seed; u32 key; float leaf; int visits, node, count; };
+struct MfCell { struct MfKid kid[MF_MAX_KIDS]; int nKids, samples; };
+
 struct MfNode
 {
     fs_state state;
@@ -1060,7 +1067,7 @@ struct MfNode
     int visits;
     float value, prior;
     u8 terminal;
-    struct McCell cells[MF_MAX_ACTIONS * MF_MAX_ACTIONS];
+    struct MfCell cells[MF_MAX_ACTIONS * MF_MAX_ACTIONS];
     float R1[MF_MAX_ACTIONS], R2[MF_MAX_ACTIONS], S1[MF_MAX_ACTIONS], S2[MF_MAX_ACTIONS], s1[MF_MAX_ACTIONS], s2[MF_MAX_ACTIONS];
     int rmT;
     float sRow[MF_MAX_ACTIONS], sCol[MF_MAX_ACTIONS];
@@ -1076,6 +1083,49 @@ struct MfTree
     double tSim, tSolve;
 };
 static _Thread_local struct MfTree sMfTree;
+
+// Random-move playout policy: a random usable move (a random switch when only switches are legal).
+static fs_action MfPlayoutAction(fs_state *s, int side)
+{
+    fs_action acts[MF_MAX_ACTIONS + 8], out = {FS_ACT_MOVE, 0};
+    int n = fs_legal_actions(s, side, acts), moves = 0, i;
+    if (n <= 0) return out;
+    for (i = 0; i < n; i++) if (acts[i].type == FS_ACT_MOVE) moves++;
+    if (moves > 0)
+    {
+        int pick = (int)fs_roll(s, (u32)moves);
+        for (i = 0; i < n; i++) if (acts[i].type == FS_ACT_MOVE && pick-- == 0) return acts[i];
+    }
+    return acts[fs_roll(s, (u32)n)];
+}
+
+// Leaf = mean of ag->rollouts playouts of up to ag->rolloutDepth turns from `s`; a finished game scores +-1 (side 0),
+// a truncated one the heuristic on the outcome scale (tanh(3.5 atanh V), the AIVAT calibration).
+static float MfPlayout(struct SimAgent *ag, const fs_state *s)
+{
+    double sum = 0.0;
+    int r, t;
+    for (r = 0; r < ag->rollouts; r++)
+    {
+        fs_state w = *s;
+        fs_seed(&w, fs_rand(&w) ^ (u32)(r * 0x9E3779B9u) ^ 1u);
+        for (t = 0; t < ag->rolloutDepth && w.request != FS_REQ_DONE; t++)
+        {
+            fs_action a0 = MfPlayoutAction(&w, 0), a1 = MfPlayoutAction(&w, 1);
+            fs_step(&w, a0, a1);
+            ag->simulatedTurns++;
+            sMfTree.nSims++;
+        }
+        if (w.request == FS_REQ_DONE) sum += fs_value_basic(&w, 0);
+        else
+        {
+            float v = fs_value_basic(&w, 0);
+            if (v > 0.999f) v = 0.999f; else if (v < -0.999f) v = -0.999f;
+            sum += tanhf(3.5f * atanhf(v));
+        }
+    }
+    return (float)(sum / ag->rollouts);
+}
 
 static float MfStep(struct SimAgent *ag, const struct MfNode *node, int a, int b, u32 seed, fs_state *out)
 {
@@ -1094,9 +1144,26 @@ static float MfStep(struct SimAgent *ag, const struct MfNode *node, int a, int b
     else
         fs_step(out, node->mine[a], node->theirs[b]);
     if (out->unsupported) sMfTree.nUnsupported++;
-    v = fs_value_basic(out, 0);
+    v = ag->rollouts > 0 ? MfPlayout(ag, out) : fs_value_basic(out, 0);
     if (sMcTiming) sMfTree.tSim += McNow() - t0;
     return v;
+}
+
+// Outcome bucket of a state after a step: request kind, who must switch, and per side the active mon's HP quartile,
+// whether it is down, its status and the number of mons left.
+static u32 MfBucketKey(const fs_state *s)
+{
+    u32 key = s->request | (s->switchMask << 2) | ((u32)(s->outcome & 3) << 4);
+    int side;
+    for (side = 0; side < 2; side++)
+    {
+        const fs_battler *a = &s->side[side].act;
+        u32 q = (!a->present || a->hp == 0) ? 0 : 1 + (a->hp * 4 - 1) / (a->maxHP ? a->maxHP : 1);   // 0 down, 1..4 quartile
+        u32 st = a->present && (a->status1 & FS_S1_ANY) ? 1 : 0;
+        u32 alive = fs_alive_count(s, side) & 7;
+        key |= (q | (st << 3) | (alive << 4)) << (8 + side * 8);
+    }
+    return key;
 }
 
 static int MfNewNode(struct SimAgent *ag, const fs_state *state)
@@ -1134,20 +1201,51 @@ static int MfNewNode(struct SimAgent *ag, const fs_state *state)
     memset(nd->R1, 0, sizeof(nd->R1)); memset(nd->R2, 0, sizeof(nd->R2)); memset(nd->S1, 0, sizeof(nd->S1)); memset(nd->S2, 0, sizeof(nd->S2));
     for (a = 0; a < nd->n; a++) nd->s1[a] = 1.0f / nd->n;
     for (b = 0; b < nd->m; b++) nd->s2[b] = 1.0f / nd->m;
-    if (ag->mctsExpand != MCTS_EXPAND_LAZY)
+    if (ag->mctsBuckets > 0)
+    {
+        // every cell: mctsBuckets samples grouped by outcome bucket; each bucket keeps one seed and its mass
+        for (a = 0; a < nd->n; a++)
+            for (b = 0; b < nd->m; b++)
+            {
+                struct MfCell *c = &nd->cells[a * nd->m + b];
+                for (s = 0; s < ag->mctsBuckets; s++)
+                {
+                    u32 seed = Sim_AgentRandom(ag), key;
+                    float leaf = MfStep(ag, nd, a, b, seed, &child);
+                    int k, best = -1;
+                    key = MfBucketKey(&child);
+                    for (k = 0; k < c->nKids; k++) if (c->kid[k].key == key) { best = k; break; }
+                    if (best < 0 && c->nKids < MF_MAX_KIDS)
+                    {
+                        best = c->nKids++;
+                        c->kid[best].seed = seed; c->kid[best].key = key; c->kid[best].leaf = 0; c->kid[best].count = 0; c->kid[best].visits = 0; c->kid[best].node = -1;
+                    }
+                    if (best < 0)
+                    {
+                        // out of bucket slots: join the bucket whose mean leaf is closest
+                        float bd = 1e9f;
+                        for (k = 0; k < c->nKids; k++) { float d = fabsf(c->kid[k].leaf / c->kid[k].count - leaf); if (d < bd) { bd = d; best = k; } }
+                    }
+                    c->kid[best].leaf += leaf; c->kid[best].count++;
+                    c->samples++;
+                    ag->matrixCells++;
+                }
+            }
+    }
+    else if (ag->mctsExpand != MCTS_EXPAND_LAZY)
     {
         int per = ag->mctsExpand == MCTS_EXPAND_EAGER ? ag->samples : 1;
         if (per > ag->mctsKids) per = ag->mctsKids;
         for (a = 0; a < nd->n; a++)
             for (b = 0; b < nd->m; b++)
             {
-                struct McCell *c = &nd->cells[a * nd->m + b];
+                struct MfCell *c = &nd->cells[a * nd->m + b];
                 for (s = 0; s < per; s++)
                 {
-                    struct McKid *kd = &c->kid[c->nKids++];
+                    struct MfKid *kd = &c->kid[c->nKids++];
                     kd->seed = Sim_AgentRandom(ag);
                     kd->leaf = MfStep(ag, nd, a, b, kd->seed, &child);
-                    kd->visits = 1; kd->node = -1;
+                    kd->visits = 1; kd->node = -1; kd->count = 1;
                     ag->matrixCells++;
                 }
             }
@@ -1155,13 +1253,25 @@ static int MfNewNode(struct SimAgent *ag, const fs_state *state)
     return idx;
 }
 
-static float MfCellValue(const struct MfTree *t, const struct MfNode *nd, const struct McCell *c, int *visits)
+static float MfCellValue(const struct MfTree *t, const struct MfNode *nd, const struct MfCell *c, int *visits)
 {
     float sum = 0.0f;
     int n = 0, k;
+    if (c->samples > 0)
+    {
+        // bucket scheme: probability-weighted over the buckets (expanded buckets use their node's value)
+        for (k = 0; k < c->nKids; k++)
+        {
+            const struct MfKid *kd = &c->kid[k];
+            sum += (kd->node >= 0 ? t->nodes[kd->node].value : kd->leaf / kd->count) * kd->count;
+            n += kd->visits;
+        }
+        *visits = n;
+        return sum / c->samples;
+    }
     for (k = 0; k < c->nKids; k++)
     {
-        const struct McKid *kd = &c->kid[k];
+        const struct MfKid *kd = &c->kid[k];
         sum += (kd->node >= 0 ? t->nodes[kd->node].value : kd->leaf) * kd->visits;
         n += kd->visits;
     }
@@ -1232,8 +1342,8 @@ static void MfIterate(struct SimAgent *ag)
     for (;;)
     {
         struct MfNode *nd = &t->nodes[idx];
-        struct McCell *c;
-        struct McKid *kd;
+        struct MfCell *c;
+        struct MfKid *kd;
         int a, b, ni;
         if (nd->terminal || depth >= MCTS_MAX_DEPTH - 1) break;
         if (nd->visits == 0) MfSolve(ag, nd);
@@ -1241,7 +1351,17 @@ static void MfIterate(struct SimAgent *ag)
         b = McSample(ag, nd->sCol, nd->m, ag->epsilon);
         path[depth++] = idx;
         c = &nd->cells[a * nd->m + b];
-        if (c->nKids < ag->mctsKids)
+        if (c->samples > 0)
+        {
+            // bucket scheme: a bucket in proportion to its mass; descend if expanded, else expand its representative
+            int r = (int)(Sim_AgentRandom(ag) % (u32)c->samples), k;
+            for (k = 0; k < c->nKids - 1; k++) { r -= c->kid[k].count; if (r < 0) break; }
+            kd = &c->kid[k];
+            kd->visits++;
+            if (kd->node >= 0) { idx = kd->node; t->itDescended++; continue; }
+            MfStep(ag, nd, a, b, kd->seed, &child);
+        }
+        else if (c->nKids < ag->mctsKids)
         {
             kd = &c->kid[c->nKids++];
             kd->seed = Sim_AgentRandom(ag);
@@ -1409,6 +1529,11 @@ int Sim_AgentFromSpec(struct SimAgent *ag, const char *spec)
         if (OptValue(spec, "kids", val, sizeof(val))) { ag->mctsKids = atoi(val); if (ag->mctsKids < 1) ag->mctsKids = 1; if (ag->mctsKids > MCTS_MAX_KIDS) ag->mctsKids = MCTS_MAX_KIDS; }
         ag->mctsBonus = 0.0f;
         if (OptValue(spec, "bonus", val, sizeof(val))) ag->mctsBonus = (float)atof(val);
+        ag->mctsBuckets = 0;
+        if (OptValue(spec, "buckets", val, sizeof(val))) ag->mctsBuckets = atoi(val) > 0 ? atoi(val) : 0;
+        ag->rollouts = 0; ag->rolloutDepth = 20;
+        if (OptValue(spec, "rollout", val, sizeof(val))) ag->rollouts = atoi(val) > 0 ? atoi(val) : 0;
+        if (OptValue(spec, "rdepth", val, sizeof(val))) ag->rolloutDepth = atoi(val) > 0 ? atoi(val) : 20;
         ag->plus = 1; ag->alternating = 1; ag->linearAvg = 1;
         return 0;
     }
