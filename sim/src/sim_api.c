@@ -1,3 +1,4 @@
+#include <stddef.h>
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -57,6 +58,7 @@ void Sim_Init(struct BattleSim *sim, u32 battleTypeFlags, u16 seed)
     SeedRng(seed);
     sim->badgeFlags = 0xFF;
     sim->maxTurns = 500;
+    sim->exactFrames = 1;   // the game's frame timing by default (cross-check, harness, scenarios); symmetric setups turn it off
 }
 
 u8 Sim_LoadTrainerParty(struct BattleSim *sim, u16 trainerNum)
@@ -187,6 +189,13 @@ int Sim_Start(struct BattleSim *sim)
     }
     gActiveBattler = 0;
     gBattleCommunication[MULTIUSE_STATE] = 0;
+    {
+        int sd, sl;
+        for (sd = 0; sd < 2; sd++)
+            for (sl = 0; sl < PARTY_SIZE; sl++)
+                sim->partySpeciesOrEgg[sd][sl] = GetMonData(&Sim_Party(sim, sd)[sl], MON_DATA_SPECIES_OR_EGG);
+        sim->trustParty = 1;
+    }
     return 0;
 }
 
@@ -216,15 +225,16 @@ int Sim_Run(struct BattleSim *sim)
             // finish their decisions meanwhile. Step frames until nothing changes any more.
             static _Thread_local struct BattleSim before;
             u32 extra;
-            for (extra = 0; extra < 100000; extra++)
+            for (extra = 0; sim->exactFrames && extra < 100000; extra++)
             {
                 u32 f = sim->frames;
-                memcpy(&before, sim, sizeof(before));
+                // only the engine's own fields can change in these frames (the simulator's tail, incl. the log, cannot)
+                memcpy(&before, sim, offsetof(struct BattleSim, requestKind));
                 gBattleMainFunc();
                 for (gActiveBattler = 0; gActiveBattler < gBattlersCount; gActiveBattler++)
                     gBattlerControllerFuncs[gActiveBattler]();
                 sim->frames = f;
-                if (memcmp(&before, sim, sizeof(before)) == 0)
+                if (memcmp(&before, sim, offsetof(struct BattleSim, requestKind)) == 0)
                     break;
                 sim->frames = f + 1;
             }

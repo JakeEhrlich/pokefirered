@@ -32,9 +32,14 @@ struct SimAgent
     u8 plus;                   // RM+ (regrets clipped at 0)
     u8 alternating;            // alternate updates between the two players
     u8 linearAvg;              // weight iteration t by t when averaging strategies
+    u8 mctsExpand;             // mcts: expansion mode (0 current, 1 eager, 2 lazy)
+    int mctsIters, mctsNodes;  // mcts: budget in iterations, or in nodes when mctsNodes > 0
+    int mctsKids;              // mcts: outcomes stored per cell
+    float mctsBonus;           // mcts: optimism bonus coefficient on under-visited cells (0 = none)
     u32 rng;                   // the agent's own xorshift state (not the engine's RNG)
     // statistics
     u32 decisions, matrixCells, simulatedTurns;
+    double decideSeconds;      // thread CPU time spent inside decide() (arena: sims per second = simulatedTurns / decideSeconds)
 };
 
 // Builds an agent from "name[:key=value,...]". Names: game (flags=basic|smart|all), random, movebias

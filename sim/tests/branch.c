@@ -157,6 +157,7 @@ static void *Worker(void *arg)
         if (sim->trainerBattleOpponent_A == 0) sim->trainerBattleOpponent_A = 1;
         sim->rngXorshift = 1; sim->rngValue = seed | 1; sim->strictAnswers = 1; sim->maxTurns = sMaxTurns;
         sim->badgeFlags = 0;   // no player-side badge stat boosts: both sides equal
+        sim->exactFrames = 0;   // no extra menu frames: identical trajectories, less work
         if (Sim_Start(sim) != 0) { pthread_mutex_lock(&sLock); sErrors++; pthread_mutex_unlock(&sLock); continue; }
         if (PlayOut(sim, agents, snaps, &nSnaps, &decisions) < 0 || nSnaps == 0) { pthread_mutex_lock(&sLock); sErrors++; pthread_mutex_unlock(&sLock); continue; }
         // the split

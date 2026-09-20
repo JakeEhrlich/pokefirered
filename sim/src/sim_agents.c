@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stddef.h>
 #include <math.h>
 #include "global.h"
 #include "battle.h"
@@ -29,6 +30,14 @@ u32 Sim_AgentRandom(struct SimAgent *ag)
     return x;
 }
 
+// Copies a battle state for a rollout, skipping the message log (unused when logging is off).
+static void SimCloneState(struct BattleSim *dst, const struct BattleSim *src)
+{
+    memcpy(dst, src, offsetof(struct BattleSim, log));
+    memcpy(&dst->frames, &src->frames, sizeof(*src) - offsetof(struct BattleSim, frames));
+    dst->logEnabled = 0;
+    dst->logCount = 0;
+}
 static float Frand(struct SimAgent *ag) { return (Sim_AgentRandom(ag) >> 8) * (1.0f / 16777216.0f); }
 
 // ---------------------------------------------------------------------------------------------------------
@@ -53,7 +62,7 @@ static float SideScore(struct BattleSim *sim, u8 side, int material)
 
     for (i = 0; i < PARTY_SIZE; i++)
     {
-        u16 species = GetMonData(&party[i], MON_DATA_SPECIES_OR_EGG);
+        u16 species = sim->trustParty ? sim->partySpeciesOrEgg[side][i] : GetMonData(&party[i], MON_DATA_SPECIES_OR_EGG);
         u16 hp, maxHp;
         float f;
         if (species == SPECIES_NONE || species == SPECIES_EGG)
@@ -286,7 +295,7 @@ float Sim_SimulateJoint(struct SimAgent *ag, const struct BattleSim *turnStart, 
     const struct SimAction *aFirst, *aSecond;
     int r;
 
-    memcpy(&clone, turnStart, sizeof(clone));
+    SimCloneState(&clone, turnStart);
     clone.policy[0] = clone.policy[1] = NULL;
     clone.strictAnswers = 0;
     clone.logEnabled = 0;
@@ -316,7 +325,7 @@ float Sim_SimulateJoint(struct SimAgent *ag, const struct BattleSim *turnStart, 
 float Sim_SimulateAfter(struct SimAgent *ag, const struct BattleSim *sim, u8 me, const struct SimAction *act, u32 seed)
 {
     static _Thread_local struct BattleSim clone;
-    memcpy(&clone, sim, sizeof(clone));
+    SimCloneState(&clone, sim);
     clone.policy[0] = clone.policy[1] = NULL;
     clone.strictAnswers = 0;
     clone.logEnabled = 0;
@@ -668,25 +677,31 @@ static const char *OptValue(const char *spec, const char *key, char *buf, int le
 
 
 // ---------------------------------------------------------------------------------------------------------
-// MCTS for the simultaneous-move, stochastic game: nodes are turn-start states, every node keeps an empirical
-// payoff matrix Q[a][b] over both players' legal actions and is solved with RM+ at each visit; both players'
-// actions are sampled from the equilibrium strategies (epsilon-uniform exploration); the sampled cell is
-// simulated one turn with a fresh engine seed and the resulting child (keyed by a state hash, since the
-// engine is stochastic) is descended into or created. A new node evaluates every cell once with the leaf
-// value (the agent's value function). A cell's value is the visit-weighted mean of its children's values; an
-// expanded child's value is its own equilibrium value. The root decision samples the root's strategy.
+// MCTS for the simultaneous-move, stochastic game.
+//   Nodes are decision states: a turn start (both players choose; n x m matrix) or a forced replacement (one
+//   side chooses among its switches, the other has a single no-op; n x 1 or 1 x m). Every node keeps an
+//   empirical payoff matrix Q[a][b] and RM+ regrets that persist across visits (warm-started solves).
+//   Selection samples both players' RM+ strategies (epsilon-uniform), optionally on an optimistic matrix
+//   (bonus=c adds c*sqrt(ln(N+1)/(n_ab+1)) for the row player and subtracts it for the column player).
+//   Chance: each cell stores up to `kids` outcomes (the engine seed that produced it, its leaf value, visits,
+//   and its node once built). Below the cap a visit rolls a new seed, builds the outcome's node and stops
+//   (expansion); at the cap it picks a stored outcome uniformly and descends. No hashing.
+//   Expansion modes: current (one outcome per cell at creation), eager (`samples` per cell), lazy (none;
+//   unvisited cells carry the node's own heuristic value).
+//   A cell's value is the visit-weighted mean of its outcomes' values (a built outcome contributes its node's
+//   equilibrium value, otherwise its leaf value). Node value = sigma0' Q sigma1. The root decision samples the
+//   root strategy (a forced replacement of the agent's own is searched the same way).
 
 #define MCTS_MAX_NODES 4096
-#define MCTS_MAX_KIDS 6            // distinct children kept per cell (beyond that a sample only refreshes the cell's leaf mean)
-#define MCTS_MAX_DEPTH 40
+#define MCTS_MAX_KIDS 8
+#define MCTS_MAX_DEPTH 48
+enum { MCTS_EXPAND_CURRENT, MCTS_EXPAND_EAGER, MCTS_EXPAND_LAZY };
+
+struct McKid { u32 seed; float leaf; int visits, node; };
 
 struct McCell
 {
-    float leafSum;    // sum of leaf values of samples not attached to a stored child
-    int leafN;
-    int kid[MCTS_MAX_KIDS];
-    u32 kidHash[MCTS_MAX_KIDS];
-    int kidN[MCTS_MAX_KIDS];
+    struct McKid kid[MCTS_MAX_KIDS];
     int nKids;
 };
 
@@ -695,137 +710,212 @@ struct McNode
     struct BattleSim state;
     struct SimAction mine[MAX_ACTIONS], theirs[MAX_ACTIONS];
     int n, m;
+    u8 kind;                      // SIM_REQ_ACTION or SIM_REQ_SWITCH
+    u8 requester;                 // switch nodes: the battler choosing
     int visits;
-    float value;                  // equilibrium value for side 0 of the current Q
+    float value, prior;
     u8 terminal;
     struct McCell cells[MAX_ACTIONS * MAX_ACTIONS];
-    float sRow[MAX_ACTIONS], sCol[MAX_ACTIONS];
+    // persistent RM+ state
+    float R1[MAX_ACTIONS], R2[MAX_ACTIONS], S1[MAX_ACTIONS], S2[MAX_ACTIONS], s1[MAX_ACTIONS], s2[MAX_ACTIONS];
+    int rmT;
+    float sRow[MAX_ACTIONS], sCol[MAX_ACTIONS];   // average strategies
 };
 
 struct McTree
 {
     struct McNode *nodes;
     int count;
+    int itExpanded, itDescended, depthSum, depthMax, nodesByDepth[MCTS_MAX_DEPTH];
+    double tExpandSim, tDescentSim, tSolve, tCopy;
+    long nExpandSim, nDescentSim, nSolve;
 };
 
+#include <time.h>
+static double McNow(void) { struct timespec ts; clock_gettime(CLOCK_MONOTONIC, &ts); return ts.tv_sec + ts.tv_nsec * 1e-9; }
+static _Thread_local int sMcTiming;
 static _Thread_local struct McTree sMcTree;
 
-static u32 McHash(const struct BattleSim *s)
-{
-    // the fields the encoder reads: battle mons, parties, statuses, side/field state, turn
-    u32 h = 2166136261u;
-    const u8 *p;
-    size_t i;
-#define H(ptr, len) for (p = (const u8 *)(ptr), i = 0; i < (len); i++) h = (h ^ p[i]) * 16777619u
-    H(s->battleMons, sizeof(s->battleMons));
-    H(s->playerParty, sizeof(s->playerParty));
-    H(s->enemyParty, sizeof(s->enemyParty));
-    H(s->statuses3, sizeof(s->statuses3));
-    H(s->sideStatuses, sizeof(s->sideStatuses));
-    H(s->sideTimers, sizeof(s->sideTimers));
-    H(s->disableStructs, sizeof(s->disableStructs));
-    H(&s->battleWeather, sizeof(s->battleWeather));
-    H(&s->wishFutureKnock, sizeof(s->wishFutureKnock));
-    H(s->battlerPartyIndexes, sizeof(s->battlerPartyIndexes));
-    H(&s->turnCount, sizeof(s->turnCount));
-    H(&s->finished, sizeof(s->finished));
-#undef H
-    return h;
-}
-
-// Simulates joint cell (a, b) from node's state into `out` (fresh seed), running forced replacements randomly
-// until the next turn start or the end. Returns the leaf value for side 0.
+// Applies the joint cell (a, b) of `node` with `seed` into `out` and runs to the next decision of any kind or
+// the end. Returns the leaf value for side 0.
 static float McStep(struct SimAgent *ag, const struct McNode *node, int a, int b, u32 seed, struct BattleSim *out)
 {
-    u8 first, second;
     int r;
-    memcpy(out, &node->state, sizeof(*out));
+    SimCloneState(out, &node->state);
     out->policy[0] = out->policy[1] = NULL;
     out->strictAnswers = 0;
-    out->logEnabled = 0;
     out->rngXorshift = 1;
     out->rngValue = seed | 1;
-    first = out->requestBattler;
-    second = first ^ BIT_SIDE;
     ag->simulatedTurns++;
-    if (Sim_Answer(out, first, first == 0 ? &node->mine[a] : &node->theirs[b]) != 0) { out->finished = 1; out->battleOutcome = B_OUTCOME_DREW; }
+    if (node->kind == SIM_REQ_SWITCH)
+    {
+        const struct SimAction *act = (node->requester & BIT_SIDE) == 0 ? &node->mine[a] : &node->theirs[b];
+        if (Sim_Answer(out, node->requester, act) != 0) { out->finished = 1; out->battleOutcome = B_OUTCOME_DREW; }
+        else { r = Sim_Run(out); if (r == SIM_RUN_STUCK || r == SIM_RUN_ERROR) { out->finished = 1; out->battleOutcome = B_OUTCOME_DREW; } }
+    }
     else
     {
-        r = Sim_Run(out);
-        if (r == SIM_RUN_REQUEST && out->requestBattler == second && out->requestKind == SIM_REQ_ACTION)
+        u8 first = out->requestBattler, second = first ^ BIT_SIDE;
+        if (Sim_Answer(out, first, first == 0 ? &node->mine[a] : &node->theirs[b]) != 0) { out->finished = 1; out->battleOutcome = B_OUTCOME_DREW; }
+        else
         {
-            if (Sim_Answer(out, second, second == 0 ? &node->mine[a] : &node->theirs[b]) != 0) { out->finished = 1; out->battleOutcome = B_OUTCOME_DREW; }
-            else RunToNextTurn(ag, out);
+            r = Sim_Run(out);
+            if (r == SIM_RUN_REQUEST && out->requestBattler == second && out->requestKind == SIM_REQ_ACTION)
+            {
+                if (Sim_Answer(out, second, second == 0 ? &node->mine[a] : &node->theirs[b]) != 0) { out->finished = 1; out->battleOutcome = B_OUTCOME_DREW; }
+                else { r = Sim_Run(out); if (r == SIM_RUN_STUCK || r == SIM_RUN_ERROR) { out->finished = 1; out->battleOutcome = B_OUTCOME_DREW; } }
+            }
+            else if (r == SIM_RUN_STUCK || r == SIM_RUN_ERROR) { out->finished = 1; out->battleOutcome = B_OUTCOME_DREW; }
         }
-        else if (r == SIM_RUN_REQUEST)
-            RunToNextTurn(ag, out);
-        else if (r != SIM_RUN_FINISHED) { out->finished = 1; out->battleOutcome = B_OUTCOME_DREW; }
     }
     return ag->value(out, B_SIDE_PLAYER, ag->valueCtx);
+}
+
+static float McSimTimed(struct SimAgent *ag, const struct McNode *node, int a, int b, u32 seed, struct BattleSim *out, double *acc, long *cnt)
+{
+    double t0 = sMcTiming ? McNow() : 0;
+    float v = McStep(ag, node, a, b, seed, out);
+    if (sMcTiming) { *acc += McNow() - t0; (*cnt)++; }
+    return v;
 }
 
 static int McNewNode(struct SimAgent *ag, const struct BattleSim *state)
 {
     struct McTree *t = &sMcTree;
     struct McNode *nd;
-    int a, b, idx;
+    int a, b, s, idx;
     static _Thread_local struct BattleSim child;
     if (t->count >= MCTS_MAX_NODES) return -1;
     idx = t->count++;
     nd = &t->nodes[idx];
-    memcpy(&nd->state, state, sizeof(nd->state));
-    nd->visits = 0;
-    nd->terminal = state->finished || state->requestKind != SIM_REQ_ACTION;
-    if (nd->terminal)
     {
-        nd->n = nd->m = 0;
-        nd->value = ag->value(&nd->state, B_SIDE_PLAYER, ag->valueCtx);
-        return idx;
+        double t0 = sMcTiming ? McNow() : 0;
+        SimCloneState(&nd->state, state);
+        if (sMcTiming) t->tCopy += McNow() - t0;
     }
-    nd->n = Sim_LegalActions(&nd->state, 0, nd->mine, MAX_ACTIONS);
-    nd->m = Sim_LegalActions(&nd->state, 1, nd->theirs, MAX_ACTIONS);
-    if (nd->n == 0 || nd->m == 0) { nd->terminal = 1; nd->value = ag->value(&nd->state, B_SIDE_PLAYER, ag->valueCtx); return idx; }
+    nd->visits = 0;
+    nd->rmT = 0;
+    nd->prior = nd->value = ag->value(&nd->state, B_SIDE_PLAYER, ag->valueCtx);
+    nd->terminal = state->finished || state->requestKind == SIM_REQ_NONE;
+    nd->n = nd->m = 0;
+    if (nd->terminal) return idx;
+    nd->kind = state->requestKind;
+    nd->requester = state->requestBattler;
+    if (nd->kind == SIM_REQ_SWITCH)
+    {
+        u8 slots[PARTY_SIZE];
+        int ns = Sim_LegalSwitches(&nd->state, nd->requester, slots, PARTY_SIZE), k;
+        struct SimAction *acts = (nd->requester & BIT_SIDE) == 0 ? nd->mine : nd->theirs;
+        for (k = 0; k < ns; k++) { memset(&acts[k], 0, sizeof(acts[k])); acts[k].type = B_ACTION_SWITCH; acts[k].partySlot = slots[k]; }
+        if ((nd->requester & BIT_SIDE) == 0) { nd->n = ns; nd->m = 1; } else { nd->n = 1; nd->m = ns; }
+    }
+    else
+    {
+        nd->n = Sim_LegalActions(&nd->state, 0, nd->mine, MAX_ACTIONS);
+        nd->m = Sim_LegalActions(&nd->state, 1, nd->theirs, MAX_ACTIONS);
+    }
+    if (nd->n == 0 || nd->m == 0) { nd->terminal = 1; return idx; }
     memset(nd->cells, 0, sizeof(nd->cells[0]) * nd->n * nd->m);
-    // expansion: one leaf sample per cell
-    for (a = 0; a < nd->n; a++)
-        for (b = 0; b < nd->m; b++)
-        {
-            struct McCell *c = &nd->cells[a * nd->m + b];
-            c->leafSum = McStep(ag, nd, a, b, Sim_AgentRandom(ag), &child);
-            c->leafN = 1;
-            ag->matrixCells++;
-        }
+    memset(nd->R1, 0, sizeof(nd->R1)); memset(nd->R2, 0, sizeof(nd->R2)); memset(nd->S1, 0, sizeof(nd->S1)); memset(nd->S2, 0, sizeof(nd->S2));
+    for (a = 0; a < nd->n; a++) nd->s1[a] = 1.0f / nd->n;
+    for (b = 0; b < nd->m; b++) nd->s2[b] = 1.0f / nd->m;
+    if (ag->mctsExpand != MCTS_EXPAND_LAZY)
+    {
+        int per = ag->mctsExpand == MCTS_EXPAND_EAGER ? ag->samples : 1;
+        if (per > ag->mctsKids) per = ag->mctsKids;
+        for (a = 0; a < nd->n; a++)
+            for (b = 0; b < nd->m; b++)
+            {
+                struct McCell *c = &nd->cells[a * nd->m + b];
+                for (s = 0; s < per; s++)
+                {
+                    struct McKid *kd = &c->kid[c->nKids++];
+                    kd->seed = Sim_AgentRandom(ag);
+                    kd->leaf = McSimTimed(ag, nd, a, b, kd->seed, &child, &t->tExpandSim, &t->nExpandSim);
+                    kd->visits = 1; kd->node = -1;
+                    ag->matrixCells++;
+                }
+            }
+    }
     return idx;
 }
 
-static float McCellValue(const struct McTree *t, const struct McCell *c)
+static float McCellValue(const struct McTree *t, const struct McNode *nd, const struct McCell *c, int *visits)
 {
-    float sum = c->leafSum;
-    int n = c->leafN, k;
-    for (k = 0; k < c->nKids; k++) { sum += t->nodes[c->kid[k]].value * c->kidN[k]; n += c->kidN[k]; }
-    return n ? sum / n : 0.0f;
+    float sum = 0.0f;
+    int n = 0, k;
+    for (k = 0; k < c->nKids; k++)
+    {
+        const struct McKid *kd = &c->kid[k];
+        sum += (kd->node >= 0 ? t->nodes[kd->node].value : kd->leaf) * kd->visits;
+        n += kd->visits;
+    }
+    *visits = n;
+    return n ? sum / n : nd->prior;
 }
 
-// Solves the node's empirical matrix with RM+ and refreshes its value and strategies.
+// Runs `iters` more RM+ iterations (alternating, linear averaging) on the node's persistent regrets, using the
+// optimistic matrix Mrow for the row player and Mcol for the column player, and refreshes the average strategies.
+static void McRegretIterate(struct McNode *nd, const float *Mrow, const float *Mcol, int iters)
+{
+    int n = nd->n, m = nd->m, t, i, j;
+    float u1[MAX_ACTIONS], u2[MAX_ACTIONS];
+    for (t = 0; t < iters; t++)
+    {
+        float w = (float)(++nd->rmT), U1 = 0, U2 = 0;
+        for (i = 0; i < n; i++)
+        {
+            u1[i] = 0;
+            for (j = 0; j < m; j++) u1[i] += nd->s2[j] * Mrow[i * m + j];
+            U1 += nd->s1[i] * u1[i];
+        }
+        for (i = 0; i < n; i++) { nd->R1[i] += u1[i] - U1; if (nd->R1[i] < 0) nd->R1[i] = 0; }
+        Normalize(nd->R1, n, nd->s1);
+        for (j = 0; j < m; j++)
+        {
+            u2[j] = 0;
+            for (i = 0; i < n; i++) u2[j] += nd->s1[i] * -Mcol[i * m + j];
+            U2 += nd->s2[j] * u2[j];
+        }
+        for (j = 0; j < m; j++) { nd->R2[j] += u2[j] - U2; if (nd->R2[j] < 0) nd->R2[j] = 0; }
+        Normalize(nd->R2, m, nd->s2);
+        for (i = 0; i < n; i++) nd->S1[i] += w * nd->s1[i];
+        for (j = 0; j < m; j++) nd->S2[j] += w * nd->s2[j];
+    }
+    Normalize(nd->S1, n, nd->sRow);
+    Normalize(nd->S2, m, nd->sCol);
+}
+
 static void McSolve(struct SimAgent *ag, struct McNode *nd)
 {
-    static _Thread_local float M[MAX_ACTIONS * MAX_ACTIONS];
+    static _Thread_local float M[MAX_ACTIONS * MAX_ACTIONS], Mr[MAX_ACTIONS * MAX_ACTIONS], Mc[MAX_ACTIONS * MAX_ACTIONS];
     int a, b;
-    float v = 0.0f;
+    float v = 0.0f, logN = logf((float)nd->visits + 1.0f);
+    double t0 = sMcTiming ? McNow() : 0;
+    sMcTree.nSolve++;
     for (a = 0; a < nd->n; a++)
         for (b = 0; b < nd->m; b++)
-            M[a * nd->m + b] = McCellValue(&sMcTree, &nd->cells[a * nd->m + b]);
-    Sim_RegretMatching(M, nd->n, nd->m, ag->iterations, 1, 1, 1, nd->sRow, nd->sCol);
+        {
+            int vis;
+            float q = McCellValue(&sMcTree, nd, &nd->cells[a * nd->m + b], &vis), bonus = 0.0f;
+            if (ag->mctsBonus > 0) bonus = ag->mctsBonus * sqrtf(logN / (vis + 1.0f));
+            M[a * nd->m + b] = q;
+            Mr[a * nd->m + b] = q + bonus;
+            Mc[a * nd->m + b] = q - bonus;
+        }
+    McRegretIterate(nd, Mr, Mc, ag->iterations);
     for (a = 0; a < nd->n; a++)
         for (b = 0; b < nd->m; b++)
             v += nd->sRow[a] * M[a * nd->m + b] * nd->sCol[b];
     nd->value = v;
+    if (sMcTiming) sMcTree.tSolve += McNow() - t0;
 }
 
 static int McSample(struct SimAgent *ag, const float *sigma, int n, float eps)
 {
     float r = Frand(ag), acc = 0.0f;
     int i;
+    if (n == 1) return 0;
     if (eps > 0 && Frand(ag) < eps) return (int)(Sim_AgentRandom(ag) % n);
     for (i = 0; i < n; i++) { acc += sigma[i]; if (r < acc) return i; }
     return n - 1;
@@ -835,39 +925,44 @@ static int McSample(struct SimAgent *ag, const float *sigma, int n, float eps)
 static void McIterate(struct SimAgent *ag)
 {
     struct McTree *t = &sMcTree;
-    int path[MCTS_MAX_DEPTH], pa[MCTS_MAX_DEPTH], pb[MCTS_MAX_DEPTH], depth = 0, idx = 0, k;
+    int path[MCTS_MAX_DEPTH], depth = 0, idx = 0, k;
     static _Thread_local struct BattleSim child;
     for (;;)
     {
         struct McNode *nd = &t->nodes[idx];
         struct McCell *c;
-        int a, b, kid = -1;
-        u32 h;
-        float leaf;
+        struct McKid *kd;
+        int a, b, ni;
         if (nd->terminal || depth >= MCTS_MAX_DEPTH - 1) break;
         if (nd->visits == 0) McSolve(ag, nd);
         a = McSample(ag, nd->sRow, nd->n, ag->epsilon);
         b = McSample(ag, nd->sCol, nd->m, ag->epsilon);
-        path[depth] = idx; pa[depth] = a; pb[depth] = b; depth++;
+        path[depth++] = idx;
         c = &nd->cells[a * nd->m + b];
-        leaf = McStep(ag, nd, a, b, Sim_AgentRandom(ag), &child);
-        h = McHash(&child);
-        for (k = 0; k < c->nKids; k++) if (c->kidHash[k] == h) { kid = k; break; }
-        if (kid >= 0) { c->kidN[kid]++; idx = c->kid[kid]; continue; }
-        if (c->nKids < MCTS_MAX_KIDS)
+        if (c->nKids < ag->mctsKids)
         {
-            int ni = McNewNode(ag, &child);
-            if (ni >= 0)
-            {
-                c->kid[c->nKids] = ni; c->kidHash[c->nKids] = h; c->kidN[c->nKids] = 1; c->nKids++;
-                if (!t->nodes[ni].terminal) McSolve(ag, &t->nodes[ni]);
-                break;   // expanded: stop here
-            }
+            kd = &c->kid[c->nKids++];                                   // a new outcome: roll the dice, build its node, stop
+            kd->seed = Sim_AgentRandom(ag);
+            kd->leaf = McSimTimed(ag, nd, a, b, kd->seed, &child, &t->tExpandSim, &t->nExpandSim);
+            kd->visits = 1; kd->node = -1;
         }
-        c->leafSum += leaf; c->leafN++;   // no room: the sample only refines the cell's leaf mean
+        else
+        {
+            kd = &c->kid[Sim_AgentRandom(ag) % (u32)c->nKids];         // at the cap: one of the stored outcomes, uniformly
+            kd->visits++;
+            if (kd->node >= 0) { idx = kd->node; t->itDescended++; continue; }
+            McSimTimed(ag, nd, a, b, kd->seed, &child, &t->tDescentSim, &t->nDescentSim);   // rebuild its state
+        }
+        ni = McNewNode(ag, &child);
+        if (ni < 0) break;
+        kd->node = ni;
+        if (!t->nodes[ni].terminal) McSolve(ag, &t->nodes[ni]);
+        t->itExpanded++;
+        if (depth < MCTS_MAX_DEPTH) t->nodesByDepth[depth]++;
         break;
     }
-    // backup: re-solve every node on the path (cell values read the children's current values)
+    t->depthSum += depth;
+    if (depth > t->depthMax) t->depthMax = depth;
     for (k = depth - 1; k >= 0; k--)
     {
         struct McNode *nd = &t->nodes[path[k]];
@@ -880,21 +975,46 @@ static void DecideMcts(struct SimAgent *ag, struct BattleSim *sim, const struct 
 {
     struct McTree *t = &sMcTree;
     struct McNode *root;
-    int it, side = battler & BIT_SIDE;
+    const struct BattleSim *rootState;
+    int it, side = battler & BIT_SIDE, maxIt = ag->mctsNodes > 0 ? ag->mctsNodes * 20 : ag->mctsIters;
     ag->decisions++;
-    if (ts == NULL || kind != SIM_REQ_ACTION || (ts->battleTypeFlags & BATTLE_TYPE_DOUBLE) || ts->turnCount != sim->turnCount)
+    if (kind == SIM_REQ_ACTION && (ts == NULL || (ts->battleTypeFlags & BATTLE_TYPE_DOUBLE) || ts->turnCount != sim->turnCount))
     { DecideBySingleEval(ag, sim, battler, kind, out); return; }
+    rootState = kind == SIM_REQ_ACTION ? ts : sim;    // a forced replacement is searched from the current state
     if (t->nodes == NULL) t->nodes = malloc(sizeof(struct McNode) * MCTS_MAX_NODES);
     t->count = 0;
-    if (McNewNode(ag, ts) < 0 || t->nodes[0].terminal) { RandomLegal(ag, sim, battler, kind, out); return; }
+    t->itExpanded = t->itDescended = t->depthSum = t->depthMax = 0;
+    memset(t->nodesByDepth, 0, sizeof(t->nodesByDepth));
+    sMcTiming = getenv("SIM_MCTS_TRACE") != NULL;
+    t->tExpandSim = t->tDescentSim = t->tSolve = t->tCopy = 0; t->nExpandSim = t->nDescentSim = t->nSolve = 0;
+    if (McNewNode(ag, rootState) < 0 || t->nodes[0].terminal) { RandomLegal(ag, sim, battler, kind, out); return; }
     root = &t->nodes[0];
     McSolve(ag, root);
-    for (it = 0; it < ag->samples; it++)
+    for (it = 0; it < maxIt; it++)
     {
+        if (ag->mctsNodes > 0 && t->count >= ag->mctsNodes) break;
         McIterate(ag);
         if (t->count >= MCTS_MAX_NODES) break;
     }
     McSolve(ag, root);
+    if (sMcTiming)
+    {
+        int d;
+        double tot = t->tExpandSim + t->tDescentSim + t->tSolve + t->tCopy;
+        fprintf(stderr, "mcts turn %u (%s): %d iters, nodes %d, descended %d, mean path depth %.2f, max %d, nodes by depth:",
+                sim->turnCount, kind == SIM_REQ_ACTION ? "turn" : "switch", it, t->count, t->itDescended, it ? (double)t->depthSum / it : 0.0, t->depthMax);
+        for (d = 0; d < 8; d++) fprintf(stderr, " %d", t->nodesByDepth[d]);
+        fprintf(stderr, "  root %dx%d value %.3f\n", root->n, root->m, root->value);
+        fprintf(stderr, "  time %.1f ms: expansion sims %.0f%% (%ld, %.1f us each), descent sims %.0f%% (%ld), RM+ solves %.0f%% (%ld, %.1f us each), node copies %.0f%%\n",
+                tot * 1e3, 100 * t->tExpandSim / tot, t->nExpandSim, t->nExpandSim ? 1e6 * t->tExpandSim / t->nExpandSim : 0,
+                100 * t->tDescentSim / tot, t->nDescentSim, 100 * t->tSolve / tot, t->nSolve, t->nSolve ? 1e6 * t->tSolve / t->nSolve : 0, 100 * t->tCopy / tot);
+    }
+    if (root->kind == SIM_REQ_SWITCH)
+    {
+        if ((root->requester & BIT_SIDE) == 0) *out = root->mine[SampleWithFloor(ag, root->sRow, root->n, ag->floor)];
+        else *out = root->theirs[SampleWithFloor(ag, root->sCol, root->m, ag->floor)];
+        return;
+    }
     if (side == 0) *out = root->mine[SampleWithFloor(ag, root->sRow, root->n, ag->floor)];
     else *out = root->theirs[SampleWithFloor(ag, root->sCol, root->m, ag->floor)];
 }
@@ -961,12 +1081,23 @@ int Sim_AgentFromSpec(struct SimAgent *ag, const char *spec)
     }
     if (!strcmp(name, "mcts"))
     {
-        // mcts:iters=<budget of tree iterations>,rm=<RM+ iterations per node solve>,eps=<exploration>
+        // mcts:nodes=<budget in tree nodes> (or iters=<tree iterations>), expand=current|eager|lazy, samples=<eager: outcomes per cell>,
+        //      kids=<outcomes stored per cell (4)>, rm=<RM+ iterations per solve (30)>, eps=<uniform exploration (0.1)>, bonus=<optimism c (0)>
         ag->decide = DecideMcts;
-        ag->samples = ag->iterations > 0 ? ag->iterations : 400;   // tree iterations (samples doubles as the budget)
+        ag->mctsIters = ag->iterations > 0 ? ag->iterations : 400;
+        ag->mctsNodes = 0;
+        if (OptValue(spec, "nodes", val, sizeof(val))) ag->mctsNodes = atoi(val);
         ag->iterations = 30;
         if (OptValue(spec, "rm", val, sizeof(val))) ag->iterations = atoi(val) > 0 ? atoi(val) : 30;
-        if (ag->epsilon == 0) ag->epsilon = 0.1f;
+        if (ag->epsilon == 0 && !OptValue(spec, "eps", val, sizeof(val))) ag->epsilon = 0.1f;
+        ag->mctsExpand = MCTS_EXPAND_CURRENT;
+        if (OptValue(spec, "expand", val, sizeof(val)))
+            ag->mctsExpand = !strcmp(val, "eager") ? MCTS_EXPAND_EAGER : !strcmp(val, "lazy") ? MCTS_EXPAND_LAZY : MCTS_EXPAND_CURRENT;
+        if (ag->mctsExpand == MCTS_EXPAND_EAGER && ag->samples < 1) ag->samples = 4;
+        ag->mctsKids = 4;
+        if (OptValue(spec, "kids", val, sizeof(val))) { ag->mctsKids = atoi(val); if (ag->mctsKids < 1) ag->mctsKids = 1; if (ag->mctsKids > MCTS_MAX_KIDS) ag->mctsKids = MCTS_MAX_KIDS; }
+        ag->mctsBonus = 0.0f;
+        if (OptValue(spec, "bonus", val, sizeof(val))) ag->mctsBonus = (float)atof(val);
         ag->plus = 1; ag->alternating = 1; ag->linearAvg = 1;
         return 0;
     }

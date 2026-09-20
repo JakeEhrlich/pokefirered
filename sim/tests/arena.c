@@ -3,11 +3,17 @@
 //   arena --teams pool.tsv --agents random,greedy,rmplus:iters=100 --games 2000 [--threads 8] [--seed 1]
 //         [--out games.jsonl] [--ratings ratings.json] [--maxturns 300] [--k 24] [--doubles]
 //         [--record games.tsv]   (every game's seed, sides, result, team ids and accepted actions: replayable, see py/frlgsim)
+//         [--paired]             (games 2k and 2k+1 share agents, teams and engine seed with the sides swapped)
 //   arena --teams pool.tsv --rate-teams --agent rmplus:iters=100 --games 20000 ...   (teams are the players)
 //   --pool  = the built-in agent pool (random ... rmplus:iters=1000)
 //
 // pool.tsv is the flat form from tools/teams.py tsv (one mon per line). Doubles teams are skipped unless
 // --doubles (the joint-action agents evaluate single actions there).
+//
+// --paired: a paired design that cancels team imbalance. The pair index k = game / 2 drives every random draw
+// (agents, teams, engine seed), so both games of a pair are the same matchup; game 2k puts A (and teamA) on
+// side 0, game 2k+1 puts them on side 1. The two games only differ through the agents' decisions. The
+// --out lines carry "pair":k. The game's own AI can only play side 1, so a pair involving it is not swapped.
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -33,7 +39,7 @@ static struct SimAgent sAgents[MAX_AGENTS];
 static int sAgentCount;
 static struct Rated sRated[MAX_TEAMS];
 static int sRatedCount;
-static int sGames = 1000, sThreads = 4, sMaxTurns = 300, sAllowDoubles = 0, sRateTeams = 0;
+static int sGames = 1000, sThreads = 4, sMaxTurns = 300, sAllowDoubles = 0, sRateTeams = 0, sPaired = 0;
 static u32 sSeed = 1;
 static double sK = 24.0;
 static FILE *sOut, *sRecord;
@@ -97,8 +103,8 @@ static int PlayGame(struct SimAgent *tplA, struct SimAgent *tplB, struct Team *t
     u32 flags = BATTLE_TYPE_TRAINER | ((teamA->doubles || teamB->doubles) ? BATTLE_TYPE_DOUBLE : 0);
 
     agents[sideA] = *tplA; agents[sideA ^ 1] = *tplB;
-    agents[0].decisions = agents[0].matrixCells = agents[0].simulatedTurns = 0;
-    agents[1].decisions = agents[1].matrixCells = agents[1].simulatedTurns = 0;
+    agents[0].decisions = agents[0].matrixCells = agents[0].simulatedTurns = 0; agents[0].decideSeconds = 0;
+    agents[1].decisions = agents[1].matrixCells = agents[1].simulatedTurns = 0; agents[1].decideSeconds = 0;
     teams[sideA] = teamA; teams[sideA ^ 1] = teamB;
     agents[0].rng = seed * 2654435761u + 17; agents[1].rng = seed * 2246822519u + 29;
     *turns = 0; *decisions = 0;
@@ -115,6 +121,7 @@ static int PlayGame(struct SimAgent *tplA, struct SimAgent *tplB, struct Team *t
     sim->strictAnswers = 1;
     sim->maxTurns = sMaxTurns;
     sim->badgeFlags = 0;   // no player-side badge stat boosts: both sides equal
+    sim->exactFrames = 0;   // no extra menu frames: identical trajectories, less work
     if (agents[1].isGameAI)
         Sim_SetPolicy(sim, B_SIDE_OPPONENT, Sim_VanillaAIPolicy);
     if (agents[0].isGameAI) { free(sim); free(turnStart); return -1; } // the game's AI only plays the opponent side
@@ -140,7 +147,13 @@ static int PlayGame(struct SimAgent *tplA, struct SimAgent *tplB, struct Team *t
             if (getenv("ARENA_TRACE"))
                 fprintf(stderr, "T %d %d %d %u %u hp %d %d\n", sim->turnCount, b, kind, sim->rngValue, sim->rngCalls, sim->battleMons[0].hp, sim->battleMons[1].hp);
             (*decisions)++;
-            ag->decide(ag, sim, (kind == SIM_REQ_ACTION && turnStart->turnCount == sim->turnCount) ? turnStart : NULL, b, kind, &act);
+            {
+                struct timespec t0, t1;
+                clock_gettime(CLOCK_THREAD_CPUTIME_ID, &t0);
+                ag->decide(ag, sim, (kind == SIM_REQ_ACTION && turnStart->turnCount == sim->turnCount) ? turnStart : NULL, b, kind, &act);
+                clock_gettime(CLOCK_THREAD_CPUTIME_ID, &t1);
+                ag->decideSeconds += (t1.tv_sec - t0.tv_sec) + (t1.tv_nsec - t0.tv_nsec) * 1e-9;
+            }
             if (Sim_Answer(sim, b, &act) != 0)
             {
                 struct SimAction acts[32];
@@ -169,14 +182,15 @@ static void *Worker(void *arg)
 {
     for (;;)
     {
-        int g, ia, ib, ta, tb, sideA, r, turns;
+        int g, k, ia, ib, ta, tb, sideA, r, turns;
         long decisions;
         u32 x, seed;
         pthread_mutex_lock(&sLock);
         g = sNextGame++;
         pthread_mutex_unlock(&sLock);
         if (g >= sGames) break;
-        x = sSeed * 0x9E3779B9u + (u32)g * 0x85EBCA6Bu; x ^= x >> 15; x *= 0x2C1B3C6Du; x ^= x >> 12; x *= 0x297A2D39u; x ^= x >> 15;
+        k = sPaired ? g >> 1 : g;   // --paired: the pair index drives the draws, so games 2k and 2k+1 match
+        x = sSeed * 0x9E3779B9u + (u32)k * 0x85EBCA6Bu; x ^= x >> 15; x *= 0x2C1B3C6Du; x ^= x >> 12; x *= 0x297A2D39u; x ^= x >> 15;
         seed = x;
         if (sRateTeams)
         {
@@ -190,22 +204,26 @@ static void *Worker(void *arg)
             if (ib == ia) ib = (ia + 1) % sAgentCount;
             ta = (x >> 16) % sTeamCount; tb = ((x >> 24) ^ (x << 3)) % sTeamCount;
         }
-        sideA = g & 1;
+        sideA = g & 1;   // --paired: 0 for game 2k, 1 for game 2k+1 (A and teamA swap sides within the pair)
         if (sAgents[ia].isGameAI) sideA = 1;
         if (sAgents[ib].isGameAI) sideA = 0;
         if (sAgents[ia].isGameAI && sAgents[ib].isGameAI) continue;
         r = PlayGame(&sAgents[ia], &sAgents[ib], &sTeams[ta], &sTeams[tb], seed, sideA, &turns, &decisions);
         if (r < 0) continue;
         pthread_mutex_lock(&sLock);
-        sAgents[ia].decisions += sStatsA.decisions; sAgents[ia].matrixCells += sStatsA.matrixCells; sAgents[ia].simulatedTurns += sStatsA.simulatedTurns;
-        sAgents[ib].decisions += sStatsB.decisions; sAgents[ib].matrixCells += sStatsB.matrixCells; sAgents[ib].simulatedTurns += sStatsB.simulatedTurns;
+        sAgents[ia].decisions += sStatsA.decisions; sAgents[ia].matrixCells += sStatsA.matrixCells; sAgents[ia].simulatedTurns += sStatsA.simulatedTurns; sAgents[ia].decideSeconds += sStatsA.decideSeconds;
+        sAgents[ib].decisions += sStatsB.decisions; sAgents[ib].matrixCells += sStatsB.matrixCells; sAgents[ib].simulatedTurns += sStatsB.simulatedTurns; sAgents[ib].decideSeconds += sStatsB.decideSeconds;
         if (sRateTeams) Update(ta, tb, r == 1 ? 1.0 : r == 0 ? 0.0 : 0.5);
         else Update(ia, ib, r == 1 ? 1.0 : r == 0 ? 0.0 : 0.5);
         sTotalTurns += turns; sTotalDecisions += decisions;
         if (sOut)
-            fprintf(sOut, "{\"game\":%d,\"a\":\"%s\",\"b\":\"%s\",\"teamA\":\"%s\",\"teamB\":\"%s\",\"sideA\":%d,\"result\":\"%s\",\"turns\":%d,\"seed\":%u}\n",
-                    g, sRateTeams ? sTeams[ta].id : sAgents[ia].name, sRateTeams ? sTeams[tb].id : sAgents[ib].name,
+        {
+            fprintf(sOut, "{\"game\":%d,", g);
+            if (sPaired) fprintf(sOut, "\"pair\":%d,", k);
+            fprintf(sOut, "\"a\":\"%s\",\"b\":\"%s\",\"teamA\":\"%s\",\"teamB\":\"%s\",\"sideA\":%d,\"result\":\"%s\",\"turns\":%d,\"seed\":%u}\n",
+                    sRateTeams ? sTeams[ta].id : sAgents[ia].name, sRateTeams ? sTeams[tb].id : sAgents[ib].name,
                     sTeams[ta].id, sTeams[tb].id, sideA, r == 1 ? "A" : r == 0 ? "B" : "draw", turns, seed);
+        }
         if (sRecord)
         {
             int k;
@@ -252,6 +270,7 @@ int main(int argc, char **argv)
         else if (!strcmp(argv[i], "--k") && i + 1 < argc) sK = atof(argv[++i]);
         else if (!strcmp(argv[i], "--doubles")) sAllowDoubles = 1;
         else if (!strcmp(argv[i], "--rate-teams")) sRateTeams = 1;
+        else if (!strcmp(argv[i], "--paired")) sPaired = 1;
         else { fprintf(stderr, "unknown option %s\n", argv[i]); return 2; }
     }
     if (!teamsPath) { fprintf(stderr, "--teams <pool.tsv> is required\n"); return 2; }
@@ -293,7 +312,8 @@ int main(int argc, char **argv)
     }
     if (outPath) sOut = fopen(outPath, "w");
     if (recordPath) sRecord = fopen(recordPath, "w");
-    fprintf(stderr, "arena: %d teams, %d agents, %d games, %d threads, seed %u\n", sTeamCount, sAgentCount, sGames, sThreads, sSeed);
+    if (sPaired && (sGames & 1)) { sGames++; fprintf(stderr, "--paired: rounding --games up to %d\n", sGames); }
+    fprintf(stderr, "arena: %d teams, %d agents, %d games%s, %d threads, seed %u\n", sTeamCount, sAgentCount, sGames, sPaired ? " (paired)" : "", sThreads, sSeed);
     t0 = clock();
     for (i = 0; i < sThreads; i++) pthread_create(&threads[i], NULL, Worker, NULL);
     for (i = 0; i < sThreads; i++) pthread_join(threads[i], NULL);
@@ -322,6 +342,7 @@ int main(int argc, char **argv)
     if (!sRateTeams)
         for (i = 0; i < sAgentCount; i++)
             if (!sAgents[i].isGameAI)
-                printf("  %-40s decisions %u, matrix cells %u, simulated turns %u\n", sAgents[i].name, sAgents[i].decisions, sAgents[i].matrixCells, sAgents[i].simulatedTurns);
+                printf("  %-40s decisions %u, matrix cells %u, simulated turns %u, %.1f ms/decision, %.0fk sims/s\n", sAgents[i].name, sAgents[i].decisions, sAgents[i].matrixCells, sAgents[i].simulatedTurns,
+                       sAgents[i].decisions ? 1e3 * sAgents[i].decideSeconds / sAgents[i].decisions : 0.0, sAgents[i].decideSeconds > 0 ? sAgents[i].simulatedTurns / sAgents[i].decideSeconds / 1e3 : 0.0);
     return 0;
 }

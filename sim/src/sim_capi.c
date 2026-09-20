@@ -122,6 +122,7 @@ int sim_setup_game(void *sim, const void *partyA600, const void *partyB600, uint
     b->strictAnswers = 1;
     b->maxTurns = maxTurns;
     b->badgeFlags = 0;   // no player-side badge stat boosts: both sides equal
+    b->exactFrames = 0;   // no extra menu frames: identical trajectories, less work
     return Sim_Start(b);
 }
 

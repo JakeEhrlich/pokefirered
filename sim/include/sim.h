@@ -118,6 +118,10 @@ struct BattleSim
     u8 sleepElapsed[2][PARTY_SIZE];  // per party slot (sleep persists across switches)
     u8 sleepKnown[2][PARTY_SIZE];    // 1: fixed-length sleep (Rest)
     u8 confusionElapsed[MAX_BATTLERS_COUNT];
+    u8 trustParty;                   // set by Sim_Start after validation: party checksums are not re-verified on every read
+    u8 exactFrames;                  // 1: after a request, keep stepping frames until the state is stable (the game's timing; needed by the
+                                     //    ROM cross-check). 0: return at the request (search/arena clones; identical trajectories, less work)
+    u16 partySpeciesOrEgg[2][PARTY_SIZE]; // species (or SPECIES_EGG / NONE) per party slot, fixed for the battle (cached at Sim_Start)
 };
 
 extern _Thread_local struct BattleSim *gSim;
