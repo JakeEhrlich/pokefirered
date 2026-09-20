@@ -84,6 +84,39 @@ The full engine state is visible in the struct (`sim.battleMons[]`, `statuses3`,
 Other helpers: `Sim_CanLearnMove` / `Sim_LearnableMoves` (level-up, TM/HM, tutor, egg moves, pre-evolutions),
 `Sim_PrintBattlers`, `Sim_PrintLog` (message log by battle string id), name tables in `sim_names.h`.
 
+## Agents and the arena
+
+`include/sim_agent.h` defines an agent (`decide(agent, sim, turnStart, battler, kind, out)`) and
+`src/sim_agents.c` provides the built-in pool, each configurable from a spec string:
+
+| spec | what it does |
+|---|---|
+| `game[:flags=smart|basic]` | the game's own trainer AI (opponent side only) |
+| `random` | uniform over legal actions |
+| `movebias[:moves=0.85]` | a legal move with p=0.85, else a legal switch |
+| `greedy` | the move with the highest expected damage (`Sim_EstimateDamage`); switches only when forced, to the best type matchup |
+| `epsgreedy[:eps=0.1]` | greedy, but a random legal action with probability eps |
+| `expect` / `epsexpect` | one-turn lookahead: simulates every (my action, their action) pair from the turn-start state, values the result, maximises the mean over a uniform opponent |
+| `rm[:iters=10,floor=P]` | vanilla regret matching on that payoff matrix, samples the average strategy |
+| `rmplus[:iters=N,floor=P,alt=1,linavg=1]` | RM+ with alternating updates and linear averaging |
+
+Common keys: `vf=basic|material` (value function; any agent that uses one takes it as configuration),
+`samples=N` (RNG samples per simulated pair), `eps`, `floor` (minimum sampling probability), `seed`.
+Value agents receive the state at the first decision of the turn, before either side committed, so the second
+mover never sees the first mover's choice. `Sim_ValueBasic` scores HP fractions, status, stat stages, screens
+and spikes as a zero-sum number in [-1, 1].
+
+`build/arena` plays tournaments (threads, per-game seeds, alternating sides) on a team pool and rates the
+players with ELO:
+
+```
+python3 tools/teams.py tsv teams/showdown_randbats.jsonl > /tmp/randbats.tsv
+build/arena --teams /tmp/randbats.tsv --pool --games 4000 --threads 8 --ratings ratings.json --out games.jsonl
+build/arena --teams /tmp/randbats.tsv --rate-teams --agent rmplus:iters=30 --games 20000 --ratings team_elo.json
+```
+The second form rates the teams themselves: one fixed agent plays both sides. ELO is the primary evaluation;
+`--out` keeps every game (agents, teams, sides, result, seed) for later analysis.
+
 ## What is and isn't simulated
 
 Simulated exactly as in the game: damage, accuracy, criticals, all 354 moves and move effects, abilities,

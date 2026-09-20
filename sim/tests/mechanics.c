@@ -5,6 +5,7 @@
 #include "battle.h"
 #include "pokemon.h"
 #include "sim.h"
+#include "sim_agent.h"
 #include "sim_names.h"
 #include "constants/species.h"
 #include "constants/moves.h"
@@ -331,6 +332,21 @@ static void TestTrainerAIUsesItem(void)
     CHECK(sim.sBattleResourcesStorage.battleHistory.trainerItems[0] == ITEM_NONE, "item consumed from the trainer's list");
 }
 
+// Regret matching on known matrices: RPS converges to uniform, a dominated row is abandoned.
+static void TestRegretMatching(void)
+{
+    static const float rps[9] = { 0, -1, 1,  1, 0, -1,  -1, 1, 0 };
+    static const float dom[6] = { 1, 1,  -1, -1,  0, 0 }; // row 0 dominates
+    float r[3], c[3];
+    Sim_RegretMatching(rps, 3, 3, 1000, 1, 1, 1, r, c);
+    CHECK(r[0] > 0.3f && r[0] < 0.37f && r[1] > 0.3f && r[1] < 0.37f, "RM+ on RPS is near uniform (%.3f %.3f %.3f)", r[0], r[1], r[2]);
+    Sim_RegretMatching(rps, 3, 3, 1000, 0, 0, 0, r, c);
+    CHECK(r[0] > 0.28f && r[0] < 0.39f, "vanilla RM on RPS is near uniform (%.3f)", r[0]);
+    Sim_RegretMatching(dom, 3, 2, 100, 1, 1, 1, r, c);
+    CHECK(r[0] > 0.95f, "dominant row gets the mass (%.3f)", r[0]);
+    CHECK(c[0] + c[1] > 0.99f && c[0] + c[1] < 1.01f, "column strategy normalized");
+}
+
 static void TestLegality(void)
 {
     CHECK(Sim_CanLearnMove(SPECIES_VENUSAUR, MOVE_LEECH_SEED, 100), "venusaur leech seed via pre-evo level-up");
@@ -359,6 +375,7 @@ int main(void)
     printf("  %s\n", "TestChoiceBandLock"); fflush(stdout); TestChoiceBandLock();
     printf("  %s\n", "TestLowKickWeight"); fflush(stdout); TestLowKickWeight();
     printf("  %s\n", "TestTrainerAIUsesItem"); fflush(stdout); TestTrainerAIUsesItem();
+    printf("  %s\n", "TestRegretMatching"); fflush(stdout); TestRegretMatching();
     printf("  %s\n", "TestLegality"); fflush(stdout); TestLegality();
     printf("mechanics: %d checks, %d failures\n", sChecks, sFailures);
     return sFailures != 0;
