@@ -1,4 +1,8 @@
 #include "global.h"
+#if SIM_HARNESS
+#include "sim_harness.h"
+#include "party_menu.h"
+#endif
 #include "battle.h"
 #include "battle_ai_script_commands.h"
 #include "battle_anim.h"
@@ -1007,6 +1011,14 @@ static void BtlController_EmitCmd32(u8 bufferId, u16 size, void *data)
 
 void BtlController_EmitTwoReturnValues(u8 bufferId, u8 ret8, u16 ret16)
 {
+#if SIM_HARNESS
+    if (gSimHarness.humanPlayer && GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER && bufferId == BUFFER_B)
+    {
+        // only the real menus: the controller also has dummy handlers that emit zeros
+        if (ret8 == 10 && gBattleBufferA[gActiveBattler][0] == CONTROLLER_CHOOSEMOVE) SimHarness_ReportPlayer(2, 0, ret16 & 0xFF, ret16 >> 8, 0, 0);
+        else if (ret8 != 10 && gBattleBufferA[gActiveBattler][0] == CONTROLLER_CHOOSEACTION) SimHarness_ReportPlayer(1, ret8, 0, 0, 0, 0);
+    }
+#endif
     sBattleBuffersTransferData[0] = CONTROLLER_TWORETURNVALUES;
     sBattleBuffersTransferData[1] = ret8;
     sBattleBuffersTransferData[2] = ret16;
@@ -1017,6 +1029,11 @@ void BtlController_EmitTwoReturnValues(u8 bufferId, u8 ret8, u16 ret16)
 void BtlController_EmitChosenMonReturnValue(u8 bufferId, u8 partyId, u8 *battlePartyOrder)
 {
     s32 i;
+#if SIM_HARNESS
+    if (gSimHarness.humanPlayer && GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER && bufferId == BUFFER_B
+     && gBattleBufferA[gActiveBattler][0] == CONTROLLER_CHOOSEPOKEMON)
+        SimHarness_ReportPlayer(3, 0, partyId, 0, 0, 0);
+#endif
 
     sBattleBuffersTransferData[0] = CONTROLLER_CHOSENMONRETURNVALUE;
     sBattleBuffersTransferData[1] = partyId;
@@ -1027,6 +1044,11 @@ void BtlController_EmitChosenMonReturnValue(u8 bufferId, u8 partyId, u8 *battleP
 
 void BtlController_EmitOneReturnValue(u8 bufferId, u16 ret)
 {
+#if SIM_HARNESS
+    if (gSimHarness.humanPlayer && GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER && bufferId == BUFFER_B
+     && gBattleBufferA[gActiveBattler][0] == CONTROLLER_OPENBAG)
+        SimHarness_ReportPlayer(4, 0, 0, 0, ret, gPartyMenu.slotId);
+#endif
     sBattleBuffersTransferData[0] = CONTROLLER_ONERETURNVALUE;
     sBattleBuffersTransferData[1] = ret;
     sBattleBuffersTransferData[2] = (ret & 0xFF00) >> 8;

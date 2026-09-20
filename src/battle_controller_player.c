@@ -2402,8 +2402,11 @@ static void PlayerHandlePrintSelectionString(void)
 #if SIM_HARNESS
     // sim harness: selection-time messages ("no moves left", "can't escape", ...) complete
     // immediately, like the simulator's stub, so decision order in doubles matches frame for frame.
-    PlayerBufferExecCompleted();
-    return;
+    if (!gSimHarness.humanPlayer)
+    {
+        PlayerBufferExecCompleted();
+        return;
+    }
 #endif
     if (GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER)
         PlayerHandlePrintString();
@@ -2424,8 +2427,11 @@ static void HandleChooseActionAfterDma3(void)
 static void PlayerHandleChooseAction(void)
 {
 #if SIM_HARNESS
-    SimHarness_HandleChooseAction();
-    return;
+    if (!gSimHarness.humanPlayer)
+    {
+        SimHarness_HandleChooseAction();
+        return;
+    }
 #endif
     s32 i;
 
@@ -2456,8 +2462,11 @@ static void HandleChooseMoveAfterDma3(void)
 static void PlayerHandleChooseMove(void)
 {
 #if SIM_HARNESS
-    SimHarness_HandleChooseMove();
-    return;
+    if (!gSimHarness.humanPlayer)
+    {
+        SimHarness_HandleChooseMove();
+        return;
+    }
 #endif
     InitMoveSelectionsVarsAndStrings();
     gBattlerControllerFuncs[gActiveBattler] = HandleChooseMoveAfterDma3;
@@ -2476,8 +2485,11 @@ void InitMoveSelectionsVarsAndStrings(void)
 static void PlayerHandleChooseItem(void)
 {
 #if SIM_HARNESS
-    SimHarness_HandleChooseItem();
-    return;
+    if (!gSimHarness.humanPlayer)
+    {
+        SimHarness_HandleChooseItem();
+        return;
+    }
 #endif
     s32 i;
 
@@ -2491,8 +2503,11 @@ static void PlayerHandleChooseItem(void)
 static void PlayerHandleChoosePokemon(void)
 {
 #if SIM_HARNESS
-    SimHarness_HandleChoosePokemon();
-    return;
+    if (!gSimHarness.humanPlayer)
+    {
+        SimHarness_HandleChoosePokemon();
+        return;
+    }
 #endif
     s32 i;
 

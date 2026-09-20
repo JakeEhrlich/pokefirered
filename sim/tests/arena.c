@@ -2,6 +2,7 @@
 //
 //   arena --teams pool.tsv --agents random,greedy,rmplus:iters=100 --games 2000 [--threads 8] [--seed 1]
 //         [--out games.jsonl] [--ratings ratings.json] [--maxturns 300] [--k 24] [--doubles]
+//         [--record games.tsv]   (every game's seed, sides, result, team ids and accepted actions: replayable, see py/frlgsim)
 //   arena --teams pool.tsv --rate-teams --agent rmplus:iters=100 --games 20000 ...   (teams are the players)
 //   --pool  = the built-in agent pool (random ... rmplus:iters=1000)
 //
@@ -35,7 +36,10 @@ static int sRatedCount;
 static int sGames = 1000, sThreads = 4, sMaxTurns = 300, sAllowDoubles = 0, sRateTeams = 0;
 static u32 sSeed = 1;
 static double sK = 24.0;
-static FILE *sOut;
+static FILE *sOut, *sRecord;
+#define REC_MAX 40000
+static _Thread_local u8 sRecActs[REC_MAX][8];   // battler, kind, type, moveSlot, target, partySlot, item lo, item hi
+static _Thread_local int sRecCount;
 static pthread_mutex_t sLock = PTHREAD_MUTEX_INITIALIZER;
 static int sNextGame;
 static long sTotalTurns, sTotalDecisions;
@@ -115,6 +119,7 @@ static int PlayGame(struct SimAgent *tplA, struct SimAgent *tplB, struct Team *t
     if (agents[0].isGameAI) { free(sim); free(turnStart); return -1; } // the game's AI only plays the opponent side
     if (Sim_Start(sim) != 0) { free(sim); free(turnStart); return -1; }
     turnStart->turnCount = 0xFFFF;
+    sRecCount = 0;
     for (;;)
     {
         res = Sim_Run(sim);
@@ -131,6 +136,8 @@ static int PlayGame(struct SimAgent *tplA, struct SimAgent *tplB, struct Team *t
             struct SimAction act;
             if (kind == SIM_REQ_ACTION && b == 0)
                 memcpy(turnStart, sim, sizeof(*sim));
+            if (getenv("ARENA_TRACE"))
+                fprintf(stderr, "T %d %d %d %u %u hp %d %d\n", sim->turnCount, b, kind, sim->rngValue, sim->rngCalls, sim->battleMons[0].hp, sim->battleMons[1].hp);
             (*decisions)++;
             ag->decide(ag, sim, (kind == SIM_REQ_ACTION && turnStart->turnCount == sim->turnCount) ? turnStart : NULL, b, kind, &act);
             if (Sim_Answer(sim, b, &act) != 0)
@@ -142,6 +149,12 @@ static int PlayGame(struct SimAgent *tplA, struct SimAgent *tplB, struct Team *t
                 if (kind == SIM_REQ_SWITCH) { n = Sim_LegalSwitches(sim, b, slots, PARTY_SIZE); act.type = B_ACTION_SWITCH; act.partySlot = n ? slots[0] : 0; }
                 else { n = Sim_LegalActions(sim, b, acts, 32); if (n) act = acts[0]; else { act.type = B_ACTION_USE_MOVE; act.target = 0xFF; } }
                 if (Sim_Answer(sim, b, &act) != 0) { result = 2; break; }
+            }
+            if (sRecord && sRecCount < REC_MAX)
+            {
+                u8 *r = sRecActs[sRecCount++];
+                r[0] = b; r[1] = kind; r[2] = act.type; r[3] = act.moveSlot; r[4] = act.target; r[5] = act.partySlot;
+                r[6] = act.item & 0xFF; r[7] = act.item >> 8;
             }
         }
     }
@@ -192,6 +205,17 @@ static void *Worker(void *arg)
             fprintf(sOut, "{\"game\":%d,\"a\":\"%s\",\"b\":\"%s\",\"teamA\":\"%s\",\"teamB\":\"%s\",\"sideA\":%d,\"result\":\"%s\",\"turns\":%d,\"seed\":%u}\n",
                     g, sRateTeams ? sTeams[ta].id : sAgents[ia].name, sRateTeams ? sTeams[tb].id : sAgents[ib].name,
                     sTeams[ta].id, sTeams[tb].id, sideA, r == 1 ? "A" : r == 0 ? "B" : "draw", turns, seed);
+        if (sRecord)
+        {
+            int k;
+            fprintf(sRecord, "%u\t%d\t%d\t%d\t%s\t%s\t", seed, sideA, r, turns, sTeams[ta].id, sTeams[tb].id);
+            for (k = 0; k < sRecCount; k++)
+            {
+                const u8 *a = sRecActs[k];
+                fprintf(sRecord, "%s%d,%d,%d,%d,%d,%d,%d", k ? " " : "", a[0], a[1], a[2], a[3], a[4], a[5], a[6] | (a[7] << 8));
+            }
+            fputc('\n', sRecord);
+        }
         if ((g + 1) % 200 == 0) { fprintf(stderr, "\r%d/%d games", g + 1, sGames); fflush(stderr); }
         pthread_mutex_unlock(&sLock);
     }
@@ -206,7 +230,7 @@ static int CompareRated(const void *a, const void *b)
 
 int main(int argc, char **argv)
 {
-    const char *teamsPath = NULL, *agentSpecs = NULL, *outPath = NULL, *ratingsPath = NULL, *singleAgent = "rmplus:iters=100";
+    const char *teamsPath = NULL, *agentSpecs = NULL, *outPath = NULL, *ratingsPath = NULL, *recordPath = NULL, *singleAgent = "rmplus:iters=100";
     int i, usePool = 0;
     pthread_t threads[64];
     clock_t t0;
@@ -221,6 +245,7 @@ int main(int argc, char **argv)
         else if (!strcmp(argv[i], "--threads") && i + 1 < argc) sThreads = atoi(argv[++i]);
         else if (!strcmp(argv[i], "--seed") && i + 1 < argc) sSeed = (u32)strtoul(argv[++i], NULL, 0);
         else if (!strcmp(argv[i], "--out") && i + 1 < argc) outPath = argv[++i];
+        else if (!strcmp(argv[i], "--record") && i + 1 < argc) recordPath = argv[++i];
         else if (!strcmp(argv[i], "--ratings") && i + 1 < argc) ratingsPath = argv[++i];
         else if (!strcmp(argv[i], "--maxturns") && i + 1 < argc) sMaxTurns = atoi(argv[++i]);
         else if (!strcmp(argv[i], "--k") && i + 1 < argc) sK = atof(argv[++i]);
@@ -266,12 +291,14 @@ int main(int argc, char **argv)
         sRated[i].rating = 1000.0;
     }
     if (outPath) sOut = fopen(outPath, "w");
+    if (recordPath) sRecord = fopen(recordPath, "w");
     fprintf(stderr, "arena: %d teams, %d agents, %d games, %d threads, seed %u\n", sTeamCount, sAgentCount, sGames, sThreads, sSeed);
     t0 = clock();
     for (i = 0; i < sThreads; i++) pthread_create(&threads[i], NULL, Worker, NULL);
     for (i = 0; i < sThreads; i++) pthread_join(threads[i], NULL);
     fprintf(stderr, "\n");
     if (sOut) fclose(sOut);
+    if (sRecord) fclose(sRecord);
 
     {
         struct Rated *sorted = malloc(sizeof(struct Rated) * sRatedCount);

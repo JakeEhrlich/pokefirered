@@ -141,8 +141,23 @@ void Sim_BuildTeamMon(struct Pokemon *mon, const struct SimTeamMon *m)
     int i;
     for (i = 0; i < 6; i++) { ivs[i] = m->ivs[i]; evs[i] = m->evs[i]; }
     for (i = 0; i < 4; i++) moves[i] = m->moves[i];
-    Sim_MakeMonEx(mon, m->species, m->level, m->nature, ivs, evs, moves, m->item, AbilitySlot(m),
-                  m->outsider ? 0x12345 : 0, m->fateful);
+    {
+        // The personality (gender, Unown letter, Spinda spots) is drawn from the bound sim's RNG; seed it from the
+        // row so the same team always builds the same mons, whatever was loaded before (replayable game records).
+        u32 savedRng = gSim->rngValue;
+        u8 savedXs = gSim->rngXorshift;
+        u32 h = 2166136261u;
+        h = (h ^ m->species) * 16777619u; h = (h ^ m->slot) * 16777619u; h = (h ^ m->level) * 16777619u;
+        h = (h ^ m->nature) * 16777619u; h = (h ^ m->item) * 16777619u;
+        for (i = 0; i < 4; i++) h = (h ^ moves[i]) * 16777619u;
+        for (i = 0; i < 6; i++) h = (h ^ ivs[i]) * 16777619u;
+        gSim->rngXorshift = 1;
+        gSim->rngValue = h | 1;
+        Sim_MakeMonEx(mon, m->species, m->level, m->nature, ivs, evs, moves, m->item, AbilitySlot(m),
+                      m->outsider ? 0x12345 : 0, m->fateful);
+        gSim->rngValue = savedRng;
+        gSim->rngXorshift = savedXs;
+    }
     SetMonData(mon, MON_DATA_FRIENDSHIP, &hap);
 }
 

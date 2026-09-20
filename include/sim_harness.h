@@ -53,9 +53,19 @@ struct SimHarness
     /*0xC8*/ u32 callerRing[64];  // caller addresses of the most recent engine calls (index = engineRngCalls % 64)
     /*0x1C8*/ u8 scriptOpponent;  // 1 = the opponent's decisions also come from the mailbox (scenario tests)
     /*0x1C9*/ u8 useEnemyParty;   // 1 = gEnemyParty was written by Lua; do not create the trainer's party
-    /*0x1CA*/ u8 mainLoopBusy;  // 1 while the main loop iteration runs; 0 while waiting for VBlank (Lua snapshots only then)
-    /*0x1CB*/ u8 pad;
+    /*0x1CA*/ u8 mainLoopBusy;  // (unused since the shadow snapshot; kept for layout)
+    /*0x1CB*/ u8 humanPlayer;   // 1 = the player side uses the game's real menus; decisions are reported below
+    // Player decision reports (human mode): the controller's return values as the human commits them.
+    /*0x1CC*/ u32 playerSeq;
+    /*0x1D0*/ u8 playerKind;    // 1 action (playerType), 2 move (slot/target), 3 mon (slot), 4 item (item/partyIdx)
+    /*0x1D1*/ u8 playerType;
+    /*0x1D2*/ u8 playerSlot;
+    /*0x1D3*/ u8 playerTarget;
+    /*0x1D4*/ u16 playerItem;
+    /*0x1D6*/ u8 playerPartyIdx;
+    /*0x1D7*/ u8 pad;
 };
+void SimHarness_ReportPlayer(u8 kind, u8 type, u8 slot, u8 target, u16 item, u8 partyIdx);
 
 extern struct SimHarness gSimHarness;
 

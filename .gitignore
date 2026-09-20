@@ -67,3 +67,9 @@ build-cmake-*/
 .cache/
 CMakeLists.txt
 compile_commands.json
+sim/.venv/
+sim/build_asan/
+sim/ai/data/
+sim/ai/runs/
+sim/tools/__pycache__/
+sim/py/**/__pycache__/

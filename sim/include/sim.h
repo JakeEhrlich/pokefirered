@@ -113,6 +113,11 @@ struct BattleSim
     u8 strictAnswers;                // 1: Sim_Answer rejects illegal actions (the game's re-prompt paths are never entered)
     u8 error;                        // enum SimError, set when Sim_Run returns SIM_RUN_ERROR
     u16 rejectedAnswers;             // illegal answers seen (Sim_Answer rejections + policy fallbacks)
+    // Elapsed-turn counters for random-duration effects (what a player can observe; the engine stores the
+    // remaining count). Reset when the effect is applied, incremented at each move attempt while it lasts.
+    u8 sleepElapsed[2][PARTY_SIZE];  // per party slot (sleep persists across switches)
+    u8 sleepKnown[2][PARTY_SIZE];    // 1: fixed-length sleep (Rest)
+    u8 confusionElapsed[MAX_BATTLERS_COUNT];
 };
 
 extern _Thread_local struct BattleSim *gSim;

@@ -317,6 +317,15 @@ float Sim_SimulateAfter(struct SimAgent *ag, const struct BattleSim *sim, u8 me,
     clone.rngXorshift = 1;
     clone.rngValue = seed | 1;
     ag->simulatedTurns++;
+    if (clone.requestKind != SIM_REQ_NONE && clone.requestBattler != me)
+    {
+        // someone else is being asked first (e.g. both sides need a replacement): let them answer randomly
+        struct SimAction other;
+        RandomLegal(ag, &clone, clone.requestBattler, clone.requestKind, &other);
+        Sim_Answer(&clone, clone.requestBattler, &other);
+        if (Sim_Run(&clone) != SIM_RUN_REQUEST || clone.requestBattler != me)
+            return ag->value(&clone, GetBattlerSide(me), ag->valueCtx);
+    }
     if (Sim_Answer(&clone, me, act) != 0)
         return -1.0f;
     RunToNextTurn(ag, &clone);

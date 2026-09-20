@@ -25,6 +25,11 @@ SCENARIO_OBJS := $(patsubst %.c,$(BUILD)/%.o,$(SCENARIO_SRCS)) $(BUILD)/tests/sc
 
 all: $(BUILD)/libsim.a $(TESTS)
 
+# Shared library for Python (py/frlgsim loads build/libfrlgsim.dylib).
+lib: $(BUILD)/libfrlgsim.dylib
+$(BUILD)/libfrlgsim.dylib: $(OBJS)
+	@$(CC) -shared -o $@ $^
+
 scenarios: $(BUILD)/scenarios
 
 gen/battle_scripts.c include/battle_scripts.h: tools/bsasm.py $(ROOT)/data/battle_scripts_1.s $(ROOT)/data/battle_scripts_2.s $(ROOT)/asm/macros/battle_script.inc
@@ -85,4 +90,4 @@ robust:
 clean:
 	rm -rf build build_asan
 
-.PHONY: all clean test scenarios backtest robust
+.PHONY: all clean test scenarios backtest robust lib

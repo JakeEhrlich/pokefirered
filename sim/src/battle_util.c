@@ -1042,6 +1042,8 @@ u8 DoBattlerEndTurnEffects(void)
                     {
                         CancelMultiTurnMoves(gActiveBattler);
                         gBattleMons[gActiveBattler].status1 |= STATUS1_SLEEP_TURN((Random() & 3) + 2); // 2-5 turns of sleep
+                        gSim->sleepElapsed[GetBattlerSide(gActiveBattler)][gBattlerPartyIndexes[gActiveBattler]] = 0;
+                        gSim->sleepKnown[GetBattlerSide(gActiveBattler)][gBattlerPartyIndexes[gActiveBattler]] = 0;
                         BtlController_EmitSetMonData(BUFFER_A, REQUEST_STATUS_BATTLE, 0, 4, &gBattleMons[gActiveBattler].status1);
                         MarkBattlerForControllerExec(gActiveBattler);
                         gEffectBattler = gActiveBattler;
@@ -1285,6 +1287,7 @@ u8 AtkCanceller_UnableToUseMove(void)
                         toSub = 2;
                     else
                         toSub = 1;
+                    gSim->sleepElapsed[GetBattlerSide(gBattlerAttacker)][gBattlerPartyIndexes[gBattlerAttacker]]++;
                     if ((gBattleMons[gBattlerAttacker].status1 & STATUS1_SLEEP) < toSub)
                         gBattleMons[gBattlerAttacker].status1 &= ~STATUS1_SLEEP;
                     else
@@ -1410,6 +1413,7 @@ u8 AtkCanceller_UnableToUseMove(void)
         case CANCELLER_CONFUSED: // confusion
             if (gBattleMons[gBattlerAttacker].status2 & STATUS2_CONFUSION)
             {
+                gSim->confusionElapsed[gBattlerAttacker]++;
                 gBattleMons[gBattlerAttacker].status2 -= STATUS2_CONFUSION_TURN(1);
                 if (gBattleMons[gBattlerAttacker].status2 & STATUS2_CONFUSION)
                 {

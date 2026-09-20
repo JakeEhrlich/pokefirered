@@ -104,6 +104,17 @@ bool8 SimHarness_EngineRandom(u32 caller, u16 *value)
     return TRUE;
 }
 
+void SimHarness_ReportPlayer(u8 kind, u8 type, u8 slot, u8 target, u16 item, u8 partyIdx)
+{
+    gSimHarness.playerKind = kind;
+    gSimHarness.playerType = type;
+    gSimHarness.playerSlot = slot;
+    gSimHarness.playerTarget = target;
+    gSimHarness.playerItem = item;
+    gSimHarness.playerPartyIdx = partyIdx;
+    gSimHarness.playerSeq++;
+}
+
 static void StartBattle(void)
 {
     s32 i;
@@ -232,7 +243,7 @@ static void WaitChooseMove(void)
     if (a->type != B_ACTION_USE_MOVE)
     {
         BtlController_EmitTwoReturnValues(BUFFER_B, 10, 0xFFFF);
-        PlayerBufferExecCompleted_Harness();
+        Complete(); // for either side: completing through the player controller here hijacked the opponent's controller
         return;
     }
     target = a->target;

@@ -18,7 +18,7 @@ A = {
   gEnemyParty = 0x0203a6d0,
   gPlayerParty = 0x0203a928,
   gSimHarness = 0x0203ce84,
-  gSimHarnessShadow = 0x0203d050,
+  gSimHarnessShadow = 0x0203d05c,
   gBattleResults = 0x0300553c,
   gRngValue = 0x030071ec,
 }
@@ -26,14 +26,14 @@ ENGINE_RANGES = {
   {0x08004ac0, 0x08006fbc},
   {0x08006fbc, 0x0800826c},
   {0x0803b878, 0x0803eccc},
-  {0x0803eccc, 0x08043d48},
-  {0x0804920c, 0x0804a800},
-  {0x0804fb20, 0x08050fec},
-  {0x080510b0, 0x080558e4},
-  {0x08057868, 0x08065b30},
-  {0x0806c450, 0x08072210},
-  {0x081206d0, 0x081279a0},
-  {0x0813b428, 0x0813bb38},
+  {0x0803eccc, 0x08043f04},
+  {0x080493c8, 0x0804aae0},
+  {0x0804fe00, 0x080512cc},
+  {0x08051390, 0x08055bc4},
+  {0x08057b48, 0x08065e10},
+  {0x0806c730, 0x080724f0},
+  {0x081209b0, 0x08127c80},
+  {0x0813b708, 0x0813be4c},
 }
 
 -- mGBA Lua bridge for the battle-simulator cross-check (loaded from harness_gen.lua, which prepends
@@ -41,7 +41,9 @@ ENGINE_RANGES = {
 --
 -- Protocol (newline-terminated ASCII lines):
 --   Lua -> host : READY
---   host -> Lua : START <flags> <trainer> <seed> <terrain> <badges> <style> <sceneOff> <engineRngSeed> <hex player party> [<scriptOpponent> <hex enemy party>]
+--   host -> Lua : START <flags> <trainer> <seed> <terrain> <badges> <style> <sceneOff> <engineRngSeed> <hex player party> [<scriptOpponent> <hex enemy party> [<human>]]
+--                 (human = 1: the player side uses the real menus and every committed choice is reported as
+--                  PLAYER <kind> <type> <slot> <target> <item> <partyIdx>; no auto-A)
 --   Lua -> host : STARTED
 --   Lua -> host : REQ <kind> <battler> <seq> / RNGCALLS <engine> <other> / MONS <hex> / ST3 <hex> / SIDE <hex>
 --                 / DIS <hex> / WEATHER <hex> / WISH <hex> / PPARTY <hex> / EPARTY <hex> / MISC <hex> / END
@@ -62,7 +64,8 @@ local OFF = { go = 4, flags = 8, trainer = 0xC, seed = 0xE, terrain = 0x10, badg
               state = 0x14, outcome = 0x18, request = 0x20, reqBattler = 0x24, reqSeq = 0x28, ansSeq = 0x2C,
               ansType = 0x30, ansMove = 0x31, ansTarget = 0x32, ansParty = 0x33, ansItem = 0x34,
               engineRngState = 0x38, engineRngCalls = 0x3C, otherRngCalls = 0x40, rangeCount = 0x44, ranges = 0x48, callerRing = 0xC8,
-              scriptOpponent = 0x1C8, useEnemyParty = 0x1C9, mainLoopBusy = 0x1CA }
+              scriptOpponent = 0x1C8, useEnemyParty = 0x1C9, mainLoopBusy = 0x1CA, humanPlayer = 0x1CB,
+              playerSeq = 0x1CC, playerKind = 0x1D0, playerType = 0x1D1, playerSlot = 0x1D2, playerTarget = 0x1D3, playerItem = 0x1D4, playerPartyIdx = 0x1D6 }
 
 local client = nil
 local rxbuf = ""
@@ -70,6 +73,8 @@ local idleStatePath = "/tmp/simharness_idle_8899.ss"
 local haveIdleState = false
 local pendingStart = nil
 local pendingSince = nil
+local humanMode = false
+local lastPlayerSeq = 0
 local stableKey = nil
 local stableFrames = 0
 local lastSeqSent = 0
@@ -117,6 +122,9 @@ local function applyStart(p)
   end
   emu:write32(H + OFF.engineRngState, p.rngSeed)
   emu:write8(H + OFF.scriptOpponent, p.scriptOpponent)
+  emu:write8(H + OFF.humanPlayer, p.human or 0)
+  humanMode = (p.human or 0) ~= 0
+  lastPlayerSeq = emu:read32(H + OFF.playerSeq)
   if p.enemyParty and #p.enemyParty >= 1200 then
     for i = 0, #p.enemyParty / 2 - 1 do
       emu:write8(A.gEnemyParty + i, tonumber(p.enemyParty:sub(i * 2 + 1, i * 2 + 2), 16))
@@ -151,8 +159,17 @@ local function onFrame()
     return
   end
   if not inBattle then return end
-  -- tap A every other frame so battle text never waits for the player
-  if (emu:currentFrame() % 2) == 0 then emu:addKey(0) else emu:clearKeys(1) end
+  -- tap A every other frame so battle text never waits for the player (not when a human is playing)
+  if not humanMode then
+    if (emu:currentFrame() % 2) == 0 then emu:addKey(0) else emu:clearKeys(1) end
+  else
+    local ps = emu:read32(H + OFF.playerSeq)
+    if ps ~= lastPlayerSeq then
+      lastPlayerSeq = ps
+      send(string.format("PLAYER %d %d %d %d %d %d", emu:read8(H + OFF.playerKind), emu:read8(H + OFF.playerType), emu:read8(H + OFF.playerSlot),
+                         emu:read8(H + OFF.playerTarget), emu:read16(H + OFF.playerItem), emu:read8(H + OFF.playerPartyIdx)))
+    end
+  end
   if emu:read32(SH + SHO.busy) ~= 0 then return end   -- the ROM is mid-copy; try next frame
   local state = emu:read32(SH + SHO.state)
   if state == 2 and not doneSent then
@@ -198,7 +215,7 @@ local function handleLine(line)
   if args[1] == "START" then
     local p = { flags = tonumber(args[2]), trainer = tonumber(args[3]), seed = tonumber(args[4]), terrain = tonumber(args[5]),
                 badges = tonumber(args[6]), style = tonumber(args[7]), sceneOff = tonumber(args[8]), rngSeed = tonumber(args[9]),
-                party = args[10], scriptOpponent = tonumber(args[11] or "0"), enemyParty = args[12] }
+                party = args[10], scriptOpponent = tonumber(args[11] or "0"), enemyParty = args[12], human = tonumber(args[13] or "0") }
     inBattle = false
     if haveIdleState then
       emu:loadStateFile(idleStatePath)   -- back to the idle loop even if a previous battle was abandoned

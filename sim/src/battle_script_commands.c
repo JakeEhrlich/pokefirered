@@ -2391,7 +2391,11 @@ void SetMoveEffect(bool8 primary, u8 certain)
             BattleScriptPush(gBattlescriptCurrInstr + 1);
 
             if (sStatusFlagsForMoveEffects[gBattleCommunication[MOVE_EFFECT_BYTE]] == STATUS1_SLEEP)
+            {
                 gBattleMons[gEffectBattler].status1 |= STATUS1_SLEEP_TURN((Random() & 3) + 2); // 2-5 turns
+                gSim->sleepElapsed[GetBattlerSide(gEffectBattler)][gBattlerPartyIndexes[gEffectBattler]] = 0;
+                gSim->sleepKnown[GetBattlerSide(gEffectBattler)][gBattlerPartyIndexes[gEffectBattler]] = 0;
+            }
             else
                 gBattleMons[gEffectBattler].status1 |= sStatusFlagsForMoveEffects[gBattleCommunication[MOVE_EFFECT_BYTE]];
 
@@ -2449,6 +2453,7 @@ void SetMoveEffect(bool8 primary, u8 certain)
                 else
                 {
                     gBattleMons[gEffectBattler].status2 |= STATUS2_CONFUSION_TURN(((Random()) % 4) + 2); // 2-5 turns
+                    gSim->confusionElapsed[gEffectBattler] = 0;
 
                     BattleScriptPush(gBattlescriptCurrInstr + 1);
                     gBattlescriptCurrInstr = sMoveEffectBS_Ptrs[gBattleCommunication[MOVE_EFFECT_BYTE]];
@@ -6536,6 +6541,8 @@ static void Cmd_trysetrest(void)
             gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_REST;
 
         gBattleMons[gBattlerTarget].status1 = STATUS1_SLEEP_TURN(3);
+        gSim->sleepElapsed[GetBattlerSide(gBattlerTarget)][gBattlerPartyIndexes[gBattlerTarget]] = 0;
+        gSim->sleepKnown[GetBattlerSide(gBattlerTarget)][gBattlerPartyIndexes[gBattlerTarget]] = 1;
         BtlController_EmitSetMonData(BUFFER_A, REQUEST_STATUS_BATTLE, 0, sizeof(gBattleMons[gActiveBattler].status1), &gBattleMons[gActiveBattler].status1);
         MarkBattlerForControllerExec(gActiveBattler);
         gBattlescriptCurrInstr += 5;
