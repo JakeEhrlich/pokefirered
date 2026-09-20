@@ -889,6 +889,8 @@ void fs_end_turn(fs_state *s)
     {
         fs_battler *a = &s->side[side].act;
         if (a->isFirstTurn) a->isFirstTurn--;
+        // TurnValuesCleanUp: the recharge flag also expires by timer (a loafing Truant turn never reaches the canceller)
+        if (a->rechargeTimer && --a->rechargeTimer == 0) a->vol &= ~FS_V_RECHARGE;
     }
 }
 

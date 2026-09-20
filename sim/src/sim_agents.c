@@ -1266,7 +1266,7 @@ static void DecideMctsFast(struct SimAgent *ag, struct BattleSim *sim, const str
     if (kind == SIM_REQ_ACTION && (ts == NULL || (ts->battleTypeFlags & BATTLE_TYPE_DOUBLE) || ts->turnCount != sim->turnCount))
     { DecideMcts(ag, sim, ts, battler, kind, out); return; }
     rootState = kind == SIM_REQ_ACTION ? ts : sim;
-    if (fs_import(&fs, rootState) != 0) { t->fallbacks++; DecideMcts(ag, sim, ts, battler, kind, out); return; }
+    if (fs_import(&fs, rootState) != 0) { t->fallbacks++; if (getenv("SIM_MCTS_TRACE")) fprintf(stderr, "mctsf fallback: import unsupported mask %x\n", fs.unsupported); DecideMcts(ag, sim, ts, battler, kind, out); return; }
     // the verbatim legal list of the deciding battler, for the action mapping
     if (kind == SIM_REQ_SWITCH)
     {
@@ -1280,7 +1280,7 @@ static void DecideMctsFast(struct SimAgent *ag, struct BattleSim *sim, const str
     {
         fs_action fl[MF_MAX_ACTIONS + 8];
         int nf = fs_legal_actions(&fs, side, fl);
-        if (nf != nLegal || nf > MF_MAX_ACTIONS || nLegal == 0) { t->fallbacks++; DecideMcts(ag, sim, ts, battler, kind, out); return; }
+        if (nf != nLegal || nf > MF_MAX_ACTIONS || nLegal == 0) { t->fallbacks++; if (getenv("SIM_MCTS_TRACE")) fprintf(stderr, "mctsf fallback: legal actions fast %d verbatim %d\n", nf, nLegal); DecideMcts(ag, sim, ts, battler, kind, out); return; }
     }
     ag->decisions++;
     if (t->nodes == NULL) t->nodes = malloc(sizeof(struct MfNode) * MF_MAX_NODES);

@@ -269,6 +269,8 @@ static struct Hit AttackHit(fs_state *s, int side, u16 move, u16 power, u8 type,
 }
 
 // after a hit: contact abilities, King's Rock, Destiny Bond, Shell Bell, Rough Skin
+static _Thread_local struct Hit sLastHit;   // the last hit dealt by the move in progress (for the moveend Color Change check)
+
 static void AfterHit(fs_state *s, int side, u16 move, struct Hit *h, int contact)
 {
     int opp = OPP(side);
@@ -298,7 +300,7 @@ static void AfterHit(fs_state *s, int side, u16 move, struct Hit *h, int contact
             break;
         }
     }
-    fs_ext_on_damage(s, side, move, (const struct fs_hit *)h);   // ABILITYEFFECT_ON_DAMAGE: Color Change
+    sLastHit = *h;   // ABILITYEFFECT_ON_DAMAGE (Color Change) runs at moveend, after the secondary effects: see the end of fs_use_move
     // Shell Bell: nothing when the hit fainted the target (FaintClearSetData clears its damage record before moveend)
     if (a->present && t->present && fs_hold_effect(a->item) == HOLD_EFFECT_SHELL_BELL && h->dmg > 0) Heal(s, side, h->dmg / 8 ? h->dmg / 8 : 1);
     if (t->present && !h->hadSub && fs_hold_effect(a->item) == HOLD_EFFECT_FLINCH && (fs_move(move)->flags & FLAG_KINGS_ROCK_AFFECTED) && fs_chance(s, fs_hold_param(a->item), 100))
@@ -468,7 +470,7 @@ static int StatusMove(fs_state *s, int side, u16 move, u16 status)
 
 static void SecondaryStatus(fs_state *s, int side, u16 move, u16 status, struct Hit *h)
 {
-    if (!h->hit || !ACT(s, OPP(side))->present) return;
+    if (!h->hit || !h->dmg || !ACT(s, OPP(side))->present) return;   // no damage (absorbed by an ability): no secondary effect either
     if (h->hadSub) return;
     if (SecondaryRoll(s, side, move)) TryStatus(s, OPP(side), status, 1, side, 1);
 }
@@ -491,6 +493,7 @@ void fs_use_move(fs_state *s, int side, int slot)
     contact = (bm->flags & FLAG_MAKES_CONTACT) != 0;
     if (move == MOVE_NONE) return;
     // a cancelled move leaves no "last move" (moveend records 0xFFFF without HITMARKER_OBEYS)
+    sLastHit.hit = 0;
     if (!Cancellers(s, side, move)) { a->vol |= FS_V_MOVED_THIS_TURN; a->chosenMove = 0; a->lastMove = 0; return; }
     a->vol |= FS_V_MOVED_THIS_TURN;
     a->lastMove = move;
@@ -596,15 +599,15 @@ void fs_use_move(fs_state *s, int side, int slot)
     }
     case EFFECT_RECHARGE:
         h = AttackHit(s, side, move, power, type, 0, 0, 0); AfterHit(s, side, move, &h, contact);
-        if (h.hit) { a->vol |= FS_V_RECHARGE; a->rechargeTimer = 1; }
+        if (h.hit) { a->vol |= FS_V_RECHARGE; a->rechargeTimer = 2; }   // MOVE_EFFECT_RECHARGE: timer 2, decremented by TurnValuesCleanUp at each end of turn
         break;
     case EFFECT_SUPERPOWER:
         h = AttackHit(s, side, move, power, type, 0, 0, 0); AfterHit(s, side, move, &h, contact);
-        if (h.hit) { ChangeStage(s, side, STAT_ATK_, -1, 0, 1); ChangeStage(s, side, STAT_DEF_, -1, 0, 1); }
+        if (h.hit && h.dmg) { ChangeStage(s, side, STAT_ATK_, -1, 0, 1); ChangeStage(s, side, STAT_DEF_, -1, 0, 1); }   // an absorbing ability replaces the whole script
         break;
     case EFFECT_OVERHEAT:
         h = AttackHit(s, side, move, power, type, 0, 0, 0); AfterHit(s, side, move, &h, contact);
-        if (h.hit) ChangeStage(s, side, STAT_SPATK_, -2, 0, 1);
+        if (h.hit && h.dmg) ChangeStage(s, side, STAT_SPATK_, -2, 0, 1);   // Flash Fire etc. replace the whole script
         break;
     case EFFECT_BRICK_BREAK:
         if (t->present) { s->side[opp].reflect = 0; s->side[opp].lightscreen = 0; }
@@ -862,9 +865,10 @@ void fs_use_move(fs_state *s, int side, int slot)
     case EFFECT_MIST: if (!s->side[side].mist) s->side[side].mist = 5; break;
     case EFFECT_SAFEGUARD: if (!s->side[side].safeguard) s->side[side].safeguard = 5; break;
     case EFFECT_SPIKES: if (s->side[opp].spikes < 3) s->side[opp].spikes++; break;
-    case EFFECT_RAIN_DANCE: if (s->weather != FS_WEATHER_RAIN || s->weatherTurns != 0xFF) Weather(s, FS_WEATHER_RAIN, 5); break;
-    case EFFECT_SUNNY_DAY: if (s->weather != FS_WEATHER_SUN || s->weatherTurns != 0xFF) Weather(s, FS_WEATHER_SUN, 5); break;
-    case EFFECT_SANDSTORM: if (s->weather != FS_WEATHER_SAND || s->weatherTurns != 0xFF) Weather(s, FS_WEATHER_SAND, 5); break;
+    // the weather moves fail when that weather is already up, permanent or not (Cmd_setrain etc.)
+    case EFFECT_RAIN_DANCE: if (s->weather != FS_WEATHER_RAIN) Weather(s, FS_WEATHER_RAIN, 5); break;
+    case EFFECT_SUNNY_DAY: if (s->weather != FS_WEATHER_SUN) Weather(s, FS_WEATHER_SUN, 5); break;
+    case EFFECT_SANDSTORM: if (s->weather != FS_WEATHER_SAND) Weather(s, FS_WEATHER_SAND, 5); break;
     case EFFECT_HAIL: if (s->weather != FS_WEATHER_HAIL) Weather(s, FS_WEATHER_HAIL, 5); break;
     case EFFECT_MUD_SPORT: a->vol |= FS_V_MUD_SPORT; break;
     case EFFECT_WATER_SPORT: a->vol |= FS_V_WATER_SPORT; break;
@@ -920,6 +924,8 @@ void fs_use_move(fs_state *s, int side, int slot)
     if (h.hit && h.dmg && !t->present && (tvol & FS_V_GRUDGE) && a->present && move != MOVE_STRUGGLE && slot < 4) a->pp[slot] = 0;
     // Destiny Bond
     if (h.hit && h.dmg && !t->present && h.dbond && a->present) { a->hp = 0; fs_faint(s, side); }
+    // moveend: Color Change (ABILITYEFFECT_ON_DAMAGE) after the secondary effects, once per move
+    if (sLastHit.hit) { struct Hit lh = sLastHit; sLastHit.hit = 0; fs_ext_on_damage(s, side, move, (const struct fs_hit *)&lh); }
     // berries that react to HP
     fs_move_end_items(s, side); fs_move_end_items(s, opp);
 }
@@ -960,7 +966,7 @@ void fs_fire_pending_intimidate(fs_state *s)
         if (!a->present || !(a->vol & FS_V_INTIMIDATE_PENDING) || !t->present) continue;
         a->vol &= ~FS_V_INTIMIDATE_PENDING;
         if (t->ability != ABILITY_CLEAR_BODY && t->ability != ABILITY_WHITE_SMOKE && t->ability != ABILITY_HYPER_CUTTER)
-            ChangeStage(s, OPP(side), STAT_ATK_, -1, 0, 1);
+            ChangeStage(s, OPP(side), STAT_ATK_, -1, 1, 0);   // by the opponent: a Substitute blocks it (jumpifsubstituteblocks), so does Mist
     }
 }
 
