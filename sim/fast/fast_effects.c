@@ -280,9 +280,10 @@ static void AfterHit(fs_state *s, int side, u16 move, struct Hit *h, int contact
     {
         switch (t->ability)
         {
-        case ABILITY_STATIC: if (fs_chance(s, 3, 10)) TryStatus(s, side, FS_S1_PAR, 0, opp, 0); break;
-        case ABILITY_POISON_POINT: if (fs_chance(s, 3, 10)) TryStatus(s, side, FS_S1_PSN, 0, opp, 0); break;
-        case ABILITY_FLAME_BODY: if (fs_chance(s, 3, 10)) TryStatus(s, side, FS_S1_BRN, 0, opp, 0); break;
+        // the contact abilities roll Random() % 3 == 0, i.e. one in three (not 30%)
+        case ABILITY_STATIC: if (fs_chance(s, 1, 3)) TryStatus(s, side, FS_S1_PAR, 0, opp, 0); break;
+        case ABILITY_POISON_POINT: if (fs_chance(s, 1, 3)) TryStatus(s, side, FS_S1_PSN, 0, opp, 0); break;
+        case ABILITY_FLAME_BODY: if (fs_chance(s, 1, 3)) TryStatus(s, side, FS_S1_BRN, 0, opp, 0); break;
         case ABILITY_EFFECT_SPORE:
             if (fs_chance(s, 1, 10))
             {
@@ -291,8 +292,8 @@ static void AfterHit(fs_state *s, int side, u16 move, struct Hit *h, int contact
             }
             break;
         case ABILITY_ROUGH_SKIN: Damage(s, side, a->maxHP / 16 ? a->maxHP / 16 : 1); break;
-        case ABILITY_CUTE_CHARM:
-            if (fs_chance(s, 3, 10) && !(a->vol & FS_V_INFATUATED) && a->gender != t->gender && a->gender != 0xFF && t->gender != 0xFF && a->ability != ABILITY_OBLIVIOUS)
+        case ABILITY_CUTE_CHARM:   // needs the holder still standing (gBattleMons[target].hp != 0)
+            if (t->present && fs_chance(s, 1, 3) && !(a->vol & FS_V_INFATUATED) && a->gender != t->gender && a->gender != 0xFF && t->gender != 0xFF && a->ability != ABILITY_OBLIVIOUS)
                 a->vol |= FS_V_INFATUATED;
             break;
         }
