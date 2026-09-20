@@ -37,6 +37,13 @@ struct SimAgent
     int mctsKids;              // mcts: outcomes stored per cell
     float mctsBonus;           // mcts: optimism bonus coefficient on under-visited cells (0 = none)
     u32 rng;                   // the agent's own xorshift state (not the engine's RNG)
+    // the distribution the last decide() sampled its action from, over the canonical legal-action list of the
+    // deciding battler (Sim_LegalActions / Sim_LegalSwitches order). policyValid = 0 when the agent cannot say
+    // (deterministic or opaque agents). Used by the AIVAT referee (src/sim_aivat.c).
+#define SIM_AGENT_MAX_ACTIONS 32
+    float policy[SIM_AGENT_MAX_ACTIONS];
+    int policyN;
+    u8 policyValid;
     // statistics
     u32 decisions, matrixCells, simulatedTurns;
     double decideSeconds;      // thread CPU time spent inside decide() (arena: sims per second = simulatedTurns / decideSeconds)

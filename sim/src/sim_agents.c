@@ -415,13 +415,31 @@ static int SampleWithFloor(struct SimAgent *ag, const float *sigma, int n, float
     return n - 1;
 }
 
+// Records the exact distribution a final SampleWithFloor(sigma, n, floor) draws from (ag->policy).
+static void RecordPolicy(struct SimAgent *ag, const float *sigma, int n, float floor)
+{
+    float s = 0.0f;
+    int i;
+    if (n > SIM_AGENT_MAX_ACTIONS) { ag->policyValid = 0; return; }
+    for (i = 0; i < n; i++) { ag->policy[i] = sigma[i] < floor ? floor : sigma[i]; s += ag->policy[i]; }
+    if (s <= 0) { ag->policyValid = 0; return; }
+    for (i = 0; i < n; i++) ag->policy[i] /= s;
+    ag->policyN = n;
+    ag->policyValid = 1;
+}
+
 // ---------------------------------------------------------------------------------------------------------
 // Agents
 
 static void DecideRandom(struct SimAgent *ag, struct BattleSim *sim, const struct BattleSim *ts, u8 battler, u8 kind, struct SimAction *out)
 {
+    struct SimAction acts[MAX_ACTIONS];
+    u8 slots[PARTY_SIZE];
+    int n, i;
     ag->decisions++;
     RandomLegal(ag, sim, battler, kind, out);
+    n = kind == SIM_REQ_SWITCH ? Sim_LegalSwitches(sim, battler, slots, PARTY_SIZE) : Sim_LegalActions(sim, battler, acts, MAX_ACTIONS);
+    if (n > 0 && n <= SIM_AGENT_MAX_ACTIONS) { for (i = 0; i < n; i++) ag->policy[i] = 1.0f / n; ag->policyN = n; ag->policyValid = 1; }
 }
 
 static void DecideMoveBias(struct SimAgent *ag, struct BattleSim *sim, const struct BattleSim *ts, u8 battler, u8 kind, struct SimAction *out)
@@ -592,6 +610,7 @@ static void DecideRegret(struct SimAgent *ag, struct BattleSim *sim, const struc
     if (ag->epsilon > 0 && Frand(ag) < ag->epsilon) { RandomLegal(ag, sim, battler, kind, out); return; }
     if (!BuildMatrix(ag, sim, ts, battler, kind, mine, &n, theirs, &m, M)) { DecideBySingleEval(ag, sim, battler, kind, out); return; }
     Sim_RegretMatching(M, n, m, ag->iterations, ag->plus, ag->alternating, ag->linearAvg, sRow, sCol);
+    if (ag->epsilon <= 0) RecordPolicy(ag, sRow, n, ag->floor);
     *out = mine[SampleWithFloor(ag, sRow, n, ag->floor)];
 }
 
@@ -646,6 +665,7 @@ static void DecideRegretSampled(struct SimAgent *ag, struct BattleSim *sim, cons
         ag->matrixCells += n + m;
     }
     Normalize(S1, n, avg);
+    if (ag->epsilon <= 0) RecordPolicy(ag, avg, n, ag->floor);
     *out = mine[SampleWithFloor(ag, avg, n, ag->floor)];
 }
 
@@ -1011,12 +1031,12 @@ static void DecideMcts(struct SimAgent *ag, struct BattleSim *sim, const struct 
     }
     if (root->kind == SIM_REQ_SWITCH)
     {
-        if ((root->requester & BIT_SIDE) == 0) *out = root->mine[SampleWithFloor(ag, root->sRow, root->n, ag->floor)];
-        else *out = root->theirs[SampleWithFloor(ag, root->sCol, root->m, ag->floor)];
+        if ((root->requester & BIT_SIDE) == 0) { RecordPolicy(ag, root->sRow, root->n, ag->floor); *out = root->mine[SampleWithFloor(ag, root->sRow, root->n, ag->floor)]; }
+        else { RecordPolicy(ag, root->sCol, root->m, ag->floor); *out = root->theirs[SampleWithFloor(ag, root->sCol, root->m, ag->floor)]; }
         return;
     }
-    if (side == 0) *out = root->mine[SampleWithFloor(ag, root->sRow, root->n, ag->floor)];
-    else *out = root->theirs[SampleWithFloor(ag, root->sCol, root->m, ag->floor)];
+    if (side == 0) { RecordPolicy(ag, root->sRow, root->n, ag->floor); *out = root->mine[SampleWithFloor(ag, root->sRow, root->n, ag->floor)]; }
+    else { RecordPolicy(ag, root->sCol, root->m, ag->floor); *out = root->theirs[SampleWithFloor(ag, root->sCol, root->m, ag->floor)]; }
 }
 
 
@@ -1304,6 +1324,7 @@ static void DecideMctsFast(struct SimAgent *ag, struct BattleSim *sim, const str
                 t->nSims, t->nUnsupported, root->n, root->m, root->value, t->tSim * 1e3, t->nSims ? 1e6 * t->tSim / t->nSims : 0, t->tSolve * 1e3, t->nSolve, t->nSolve ? 1e6 * t->tSolve / t->nSolve : 0, t->fallbacks);
     if (root->kind == FS_REQ_SWITCH) sigma = root->requester == 0 ? root->sRow : root->sCol;
     else sigma = side == 0 ? root->sRow : root->sCol;
+    RecordPolicy(ag, sigma, nLegal, ag->floor);
     pick = SampleWithFloor(ag, sigma, nLegal, ag->floor);
     *out = legal[pick];
 }
