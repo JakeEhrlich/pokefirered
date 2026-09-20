@@ -101,6 +101,7 @@ static void Damage(fs_state *s, int side, s32 dmg)
 {
     fs_battler *a = ACT(s, side);
     if (!a->present) return;
+    a->takenDmg = (a->takenDmg + dmg > 0xFFFF) ? 0xFFFF : a->takenDmg + dmg;   // gTakenDmg (Bide)
     if (dmg >= a->hp) { a->hp = 0; fs_faint(s, side); }
     else a->hp -= dmg;
 }
@@ -168,10 +169,12 @@ static int TryStatus(fs_state *s, int side, u16 status, int byOpp, int attackerS
         break;
     case FS_S1_SLEEP:
         if (a->ability == ABILITY_INSOMNIA || a->ability == ABILITY_VITAL_SPIRIT) return 0;
+        if (fs_ext_uproar_active(s, side)) return 0;   // UproarWakeUpCheck
         break;
     }
     if (status == FS_S1_SLEEP) a->status1 = 2 + fs_roll(s, 4);
     else a->status1 = status;
+    if (status == FS_S1_SLEEP || status == FS_S1_FRZ) fs_ext_cancel_multi_turn(a);   // SetMoveEffect: CancelMultiTurnMoves
     if (status == FS_S1_TOX) a->status1 = FS_S1_TOX;
     // Synchronize: poison / burn / paralysis bounce to the attacker
     if (byOpp && a->ability == ABILITY_SYNCHRONIZE && (status == FS_S1_PSN || status == FS_S1_TOX || status == FS_S1_BRN || status == FS_S1_PAR))
@@ -211,6 +214,23 @@ struct Hit { s32 dmg; int hit; int crit; int mult; int dbond; int hadSub; };   /
 // set by fs_attack_ex around AttackHit: an extra damage multiplier (applied with the crit multiplier, like dmgMultiplier) and no random roll
 static int sExtDmgMult = 1, sExtNoRoll = 0;
 
+// sDMG_MULTIPLIER: Cmd_damagecalc multiplies the base damage (after the +2, with the crit multiplier) by 2 for these
+static int DmgMultiplier(const fs_state *s, int side, u16 move)
+{
+    const fs_battler *a = ACT(s, side), *t = ACT(s, OPP(side));
+    switch (fs_move(move)->effect)
+    {
+    case EFFECT_FACADE: return (a->status1 & (FS_S1_PSN | FS_S1_TOX | FS_S1_BRN | FS_S1_PAR)) ? 2 : 1;
+    case EFFECT_FLINCH_MINIMIZE_HIT: return (t->vol & FS_V_MINIMIZED) ? 2 : 1;
+    case EFFECT_SMELLINGSALT: return (!(t->vol & FS_V_SUBSTITUTE) && (t->status1 & FS_S1_PAR)) ? 2 : 1;
+    case EFFECT_EARTHQUAKE: case EFFECT_MAGNITUDE: return (t->vol & FS_V_UNDERGROUND) ? 2 : 1;
+    case EFFECT_GUST: case EFFECT_TWISTER: return (t->vol & FS_V_ON_AIR) ? 2 : 1;
+    case EFFECT_HIT: return (move == MOVE_SURF && (t->vol & FS_V_UNDERWATER)) ? 2 : 1;
+    case EFFECT_TRAP: return (move == MOVE_WHIRLPOOL && (t->vol & FS_V_UNDERWATER)) ? 2 : 1;
+    }
+    return 1;
+}
+
 // Deals the damage of one hit of `move` with `power` and `type`. Handles accuracy (unless noAcc), immunities,
 // crit, STAB, type, roll, Substitute / Endure / Focus Band / False Swipe, and applies it. Returns the hit record.
 static struct Hit AttackHit(fs_state *s, int side, u16 move, u16 power, u8 type, int noAcc, int falseSwipe, int noCrit)
@@ -234,7 +254,7 @@ static struct Hit AttackHit(fs_state *s, int side, u16 move, u16 power, u8 type,
     h.crit = noCrit ? 0 : fs_crit_check(s, side, opp, move);
     dmg = fs_base_damage(s, side, opp, move, power, type, h.crit);
     dmg *= h.crit ? 2 : 1;
-    dmg *= sExtDmgMult;
+    dmg *= sExtDmgMult * DmgMultiplier(s, side, move);
     if ((a->vol & FS_V_CHARGED) && type == TYPE_ELECTRIC) dmg *= 2;
     if (move != MOVE_STRUGGLE)
     {
@@ -315,7 +335,7 @@ static int SecondaryRoll(fs_state *s, int side, u16 move)
     if (ACT(s, side)->ability == ABILITY_SERENE_GRACE) chance *= 2;
     if (chance == 0) return 0;
     if (chance >= 100) return 1;
-    return fs_roll(s, 100) < chance;
+    return fs_roll(s, 100) <= chance;   // Cmd_seteffectwithchance: Random() % 100 <= percentChance (a 10% effect is 11%)
 }
 
 static void RecoilFromDamage(fs_state *s, int side, s32 dealt, int frac, u16 move)
@@ -348,21 +368,34 @@ static int Cancellers(fs_state *s, int side, u16 move)
     a->vol &= ~(FS_V_DESTINY_BOND | FS_V_GRUDGE);   // CANCELLER_FLAGS
     if (a->status1 & FS_S1_SLEEP)
     {
-        u8 toSub = a->ability == ABILITY_EARLY_BIRD ? 2 : 1, cnt = a->status1 & FS_S1_SLEEP;
-        if (cnt < toSub) a->status1 &= ~FS_S1_SLEEP; else a->status1 -= toSub;
-        if (a->status1 & FS_S1_SLEEP) return 0;   // Snore / Sleep Talk are unsupported
-        a->vol &= ~FS_V_NIGHTMARE;
+        if (fs_ext_uproar_active(s, side))
+        {
+            a->status1 &= ~FS_S1_SLEEP;   // woke up in the Uproar (UproarWakeUpCheck); the move goes ahead
+            a->vol &= ~FS_V_NIGHTMARE;
+        }
+        else
+        {
+            u8 toSub = a->ability == ABILITY_EARLY_BIRD ? 2 : 1, cnt = a->status1 & FS_S1_SLEEP;
+            if (cnt < toSub) a->status1 &= ~FS_S1_SLEEP; else a->status1 -= toSub;
+            if (a->status1 & FS_S1_SLEEP)
+            {
+                if (move != MOVE_SNORE && move != MOVE_SLEEP_TALK) return 0;   // fast asleep (a multi-turn lock is cancelled at the end of the turn)
+            }
+            else a->vol &= ~FS_V_NIGHTMARE;
+        }
     }
     if (a->status1 & FS_S1_FRZ)
     {
         if (fs_chance(s, 1, 5)) a->status1 &= ~FS_S1_FRZ;
         else if (bm->effect != EFFECT_THAW_HIT) return 0;
     }
-    if (a->ability == ABILITY_TRUANT && a->truantCounter) return 0;
-    if (a->vol & FS_V_RECHARGE) { a->vol &= ~FS_V_RECHARGE; a->rechargeTimer = 0; return 0; }
-    if (a->vol & FS_V_FLINCH) { a->vol &= ~FS_V_FLINCH; return 0; }
-    if (a->disableTimer && move == a->moves[a->disabledPos]) return 0;
-    if (a->tauntTimer && bm->power == 0) return 0;
+    // the cancellers below call CancelMultiTurnMoves in the game (paralysis and confusion do not: the lock stays,
+    // only the semi-invulnerable state ends: MOVEEND_ATTACKER_VISIBLE); `unable` is WasUnableToUseMove()
+    if (a->ability == ABILITY_TRUANT && a->truantCounter) { fs_ext_cancel_multi_turn(a); return 0; }
+    if (a->vol & FS_V_RECHARGE) { a->vol &= ~FS_V_RECHARGE; a->rechargeTimer = 0; fs_ext_cancel_multi_turn(a); return 0; }
+    if (a->vol & FS_V_FLINCH) { a->vol &= ~FS_V_FLINCH; a->unable = 1; fs_ext_cancel_multi_turn(a); return 0; }
+    if (a->disableTimer && move == a->moves[a->disabledPos]) { a->unable = 1; fs_ext_cancel_multi_turn(a); return 0; }
+    if (a->tauntTimer && bm->power == 0) { a->unable = 1; fs_ext_cancel_multi_turn(a); return 0; }
     if (a->vol & FS_V_CONFUSED)
     {
         a->confusionTurns--;
@@ -375,13 +408,16 @@ static int Cancellers(fs_state *s, int side, u16 move)
                 dmg = fs_random_roll(s, dmg);
                 if (a->vol & FS_V_SUBSTITUTE) { if (dmg >= a->substituteHP) { a->substituteHP = 0; a->vol &= ~FS_V_SUBSTITUTE; } else a->substituteHP -= dmg; }
                 else Damage(s, side, dmg);
+                a->unable = 1;
+                a->vol &= ~(FS_V_ON_AIR | FS_V_UNDERGROUND | FS_V_UNDERWATER);
                 return 0;
             }
         }
         else a->vol &= ~FS_V_CONFUSED;
     }
-    if ((a->status1 & FS_S1_PAR) && fs_chance(s, 1, 4)) return 0;
-    if ((a->vol & FS_V_INFATUATED) && fs_chance(s, 1, 2)) return 0;
+    if ((a->status1 & FS_S1_PAR) && fs_chance(s, 1, 4)) { a->unable = 1; a->vol &= ~(FS_V_ON_AIR | FS_V_UNDERGROUND | FS_V_UNDERWATER); return 0; }
+    if ((a->vol & FS_V_INFATUATED) && fs_chance(s, 1, 2)) { a->unable = 1; fs_ext_cancel_multi_turn(a); return 0; }
+    if (fs_ext_bide_turn(s, side)) return 0;   // CANCELLER_BIDE: storing energy
     if ((a->status1 & FS_S1_FRZ) && bm->effect == EFFECT_THAW_HIT) a->status1 &= ~FS_S1_FRZ;
     return 1;
 }
@@ -400,7 +436,6 @@ static u16 MovePower(fs_state *s, int side, u16 move, u8 *type)
     case EFFECT_HIDDEN_POWER: *type = a->hpTypeCache; power = a->hpPowerCache; break;
     case EFFECT_RETURN: power = 10 * a->level / 25; { u8 f = s->side[side].party[a->monIdx].friendship; power = 10 * f / 25; } if (power == 0) power = 1; break;
     case EFFECT_FRUSTRATION: { u8 f = s->side[side].party[a->monIdx].friendship; power = 10 * (255 - f) / 25; if (power == 0) power = 1; } break;
-    case EFFECT_FACADE: if (a->status1 & (FS_S1_PSN | FS_S1_TOX | FS_S1_BRN | FS_S1_PAR)) power *= 2; break;
     case EFFECT_FLAIL:
     {
         u32 r = a->hp * 48 / a->maxHP;
@@ -431,10 +466,6 @@ static u16 MovePower(fs_state *s, int side, u16 move, u8 *type)
         }
         break;
     case EFFECT_REVENGE: if (a->lastLandedMove && (t->vol & FS_V_MOVED_THIS_TURN) && a->bideDmg) power *= 2; break;
-    case EFFECT_SMELLINGSALT: if (t->status1 & FS_S1_PAR) power *= 2; break;
-    case EFFECT_EARTHQUAKE: if (t->vol & FS_V_UNDERGROUND) power *= 2; break;
-    case EFFECT_GUST: case EFFECT_TWISTER: if (t->vol & FS_V_ON_AIR) power *= 2; break;
-    case EFFECT_FLINCH_MINIMIZE_HIT: if (t->vol & FS_V_MINIMIZED) power *= 2; break;
     }
     return power;
 }
@@ -479,32 +510,47 @@ void fs_use_move(fs_state *s, int side, int slot)
 {
     int opp = OPP(side);
     fs_battler *a = ACT(s, side), *t = ACT(s, opp);
-    u16 move, prevLast = a->lastMove;
+    u16 move;
     const struct BattleMove *bm;
-    u8 type;
-    u16 power;
-    struct Hit h = {0, 0, 0, 10, 0, 0};
-    int contact;
-    u32 tvol;   // the target's volatile flags before the move (fs_faint clears them; Grudge is read afterwards)
+    int locked = a->lockedMove != 0;   // a continuation turn of a multi-turn move: no PP is deducted (HITMARKER_NO_PPDEDUCT)
     // Encore replaces the chosen move as soon as it applies, even for a choice made earlier this turn (HandleAction_UseMove)
     if (slot < 4 && a->encoreTimer && a->pp[a->encoredPos]) slot = a->encoredPos;
     move = slot == 4 ? MOVE_STRUGGLE : a->moves[slot];
     bm = fs_move(move);
-    contact = (bm->flags & FLAG_MAKES_CONTACT) != 0;
     if (move == MOVE_NONE) return;
+    a->chosenMove = move;   // gChosenMove; an effect that sets it to 0 (MOVE_UNAVAILABLE: Transform, Mimic) leaves no last move
     // a cancelled move leaves no "last move" (moveend records 0xFFFF without HITMARKER_OBEYS)
     sLastHit.hit = 0;
     if (!Cancellers(s, side, move)) { a->vol |= FS_V_MOVED_THIS_TURN; a->chosenMove = 0; a->lastMove = 0; return; }
     a->vol |= FS_V_MOVED_THIS_TURN;
-    a->lastMove = move;
-    if (fs_hold_effect(a->item) == HOLD_EFFECT_CHOICE_BAND && move != MOVE_STRUGGLE && !a->choicedMove && bm->effect != EFFECT_BATON_PASS) a->choicedMove = move;
-    if (slot < 4 && a->pp[slot])
+    if (slot < 4 && a->pp[slot] && !locked)
     {
         u8 dec = 1;
         // Cmd_ppreduce: Pressure costs an extra PP unless the move targets the user itself (Imprison and Perish Song pay it separately)
         if (t->present && t->ability == ABILITY_PRESSURE && (!(bm->target & MOVE_TARGET_USER) || bm->effect == EFFECT_IMPRISON || bm->effect == EFFECT_PERISH_SONG)) dec++;
         a->pp[slot] = a->pp[slot] > dec ? a->pp[slot] - dec : 0;
     }
+    fs_execute_move(s, side, slot, move);
+    // MOVEEND_UPDATE_LAST_MOVES / MOVEEND_CHOICE_MOVE: gChosenMove (the move as chosen, not one called by Sleep Talk);
+    // a Baton Pass that switched is already gone, a failed one records nothing (the block is skipped for its effect)
+    if (!a->present) return;
+    if (bm->effect == EFFECT_BATON_PASS) return;
+    a->lastMove = a->chosenMove;
+    if (a->chosenMove && fs_hold_effect(a->item) == HOLD_EFFECT_CHOICE_BAND && a->chosenMove != MOVE_STRUGGLE && !a->choicedMove) a->choicedMove = a->chosenMove;
+}
+
+// The effect of `move` and the move tail, without the cancellers, PP and last-move bookkeeping (the called move of
+// Sleep Talk goes through here directly: jumptocalledmove).
+void fs_execute_move(fs_state *s, int side, int slot, u16 move)
+{
+    int opp = OPP(side);
+    fs_battler *a = ACT(s, side), *t = ACT(s, opp);
+    const struct BattleMove *bm = fs_move(move);
+    u8 type;
+    u16 power;
+    struct Hit h = {0, 0, 0, 10, 0, 0};
+    int contact = (bm->flags & FLAG_MAKES_CONTACT) != 0;
+    u32 tvol;   // the target's volatile flags before the move (fs_faint clears them; Grudge is read afterwards)
     power = MovePower(s, side, move, &type);
     if (!fs_effect_supported(bm->effect)) { s->unsupported |= FS_UNSUP_MOVE_EFFECT; return; }
     tvol = t->vol;
@@ -642,6 +688,7 @@ void fs_use_move(fs_state *s, int side, int slot)
         if (bm->effect == EFFECT_OHKO)
         {
             u32 acc;
+            if ((t->vol & (FS_V_ON_AIR | FS_V_UNDERGROUND | FS_V_UNDERWATER)) && !t->lockOn) break;
             if (t->ability == ABILITY_STURDY || a->level < t->level) break;
             if (fs_type_mult(type, t->type1, t->type2, 0) == 0) break;
             acc = bm->accuracy + a->level - t->level;
@@ -824,6 +871,7 @@ void fs_use_move(fs_state *s, int side, int slot)
         break;
     }
     case EFFECT_REST:
+        if ((a->status1 & FS_S1_SLEEP) || fs_ext_uproar_active(s, side)) break;   // already asleep (called by Sleep Talk) / jumpifcantmakeasleep
         if (a->hp == a->maxHP || a->ability == ABILITY_INSOMNIA || a->ability == ABILITY_VITAL_SPIRIT) break;
         a->status1 = 3; a->hp = a->maxHP; a->vol &= ~FS_V_NIGHTMARE;
         break;
@@ -841,7 +889,7 @@ void fs_use_move(fs_state *s, int side, int slot)
         static const u16 odds[] = {0xFFFF, 0x7FFF, 0x3FFF, 0x1FFF, 0x0FFF, 0x07FF, 0x03FF, 0x01FF, 0x00FF, 0x007F, 0x003F, 0x001F, 0x000F, 0x0007, 0x0003, 0x0001, 0x0000};
         int idx;
         // the counter resets unless the previous move was Protect / Detect / Endure (setprotectlike)
-        if (prevLast != MOVE_PROTECT && prevLast != MOVE_DETECT && prevLast != MOVE_ENDURE) a->protectUses = 0;
+        if (a->lastMove != MOVE_PROTECT && a->lastMove != MOVE_DETECT && a->lastMove != MOVE_ENDURE) a->protectUses = 0;   // gLastResultingMoves
         idx = a->protectUses > 16 ? 16 : a->protectUses;
         // fails when this is the last action of the turn (the opponent already moved or switched)
         if (s->orderPos >= s->orderN) { a->protectUses = 0; break; }
@@ -924,6 +972,7 @@ void fs_use_move(fs_state *s, int side, int slot)
     if (h.hit && h.dmg && !t->present && (tvol & FS_V_GRUDGE) && a->present && move != MOVE_STRUGGLE && slot < 4) a->pp[slot] = 0;
     // Destiny Bond
     if (h.hit && h.dmg && !t->present && h.dbond && a->present) { a->hp = 0; fs_faint(s, side); }
+    fs_ext_move_end(s, side, move, (const struct fs_hit *)&h);   // MOVEEND_RAGE
     // moveend: Color Change (ABILITYEFFECT_ON_DAMAGE) after the secondary effects, once per move
     if (sLastHit.hit) { struct Hit lh = sLastHit; sLastHit.hit = 0; fs_ext_on_damage(s, side, move, (const struct fs_hit *)&lh); }
     // berries that react to HP
@@ -941,6 +990,11 @@ void fs_heal(fs_state *s, int side, s32 amount) { Heal(s, side, amount); }
 s32 fs_attack(fs_state *s, int side, u16 move, u16 power, u8 type, int noAcc, int falseSwipe, int noCrit)
 {
     return fs_attack_ex(s, side, move, power, type, noAcc, falseSwipe, noCrit, 1, 0);
+}
+void fs_after_hit(fs_state *s, int side, u16 move, s32 dmg, int hadSub)
+{
+    struct Hit h = {dmg, 1, 0, 10, 0, hadSub};
+    AfterHit(s, side, move, &h, (fs_move(move)->flags & FLAG_MAKES_CONTACT) != 0);
 }
 s32 fs_attack_ex(fs_state *s, int side, u16 move, u16 power, u8 type, int noAcc, int falseSwipe, int noCrit, int dmgMult, int noRoll)
 {

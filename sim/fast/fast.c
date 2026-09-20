@@ -117,7 +117,7 @@ int fs_import(fs_state *out, const struct BattleSim *simc)
     if (sim->requestKind == SIM_REQ_NONE && !sim->finished) { out->unsupported |= FS_UNSUP_STATE; return -1; }
     // battler 0 is not asked while it recharges (the game picks USE_MOVE itself), so the turn's first request
     // can be battler 1's; that is still a turn start
-    if (sim->requestKind == SIM_REQ_ACTION && sim->requestBattler != 0 && !(gBattleMons[0].status2 & STATUS2_RECHARGE)) { out->unsupported |= FS_UNSUP_STATE; return -1; }
+    if (sim->requestKind == SIM_REQ_ACTION && sim->requestBattler != 0 && !(gBattleMons[0].status2 & (STATUS2_RECHARGE | STATUS2_MULTIPLETURNS))) { out->unsupported |= FS_UNSUP_STATE; return -1; }
     out->maxTurns = sim->maxTurns;
     out->turn = sim->turnCount;
     {
@@ -171,8 +171,22 @@ int fs_import(fs_state *out, const struct BattleSim *simc)
                 a->wrapMove = gBattleStruct->wrappedMove[s * 2] | (gBattleStruct->wrappedMove[s * 2 + 1] << 8);
             }
             if (s2 & STATUS2_TRANSFORMED) a->vol |= FS_V_TRANSFORMED;   // gBattleMons already holds the copied data
-            if (s2 & (STATUS2_UPROAR | STATUS2_BIDE | STATUS2_LOCK_CONFUSE | STATUS2_MULTIPLETURNS | STATUS2_RAGE))
-                out->unsupported |= FS_UNSUP_VOLATILE;
+            // multi-turn moves (fast_ext.c): STATUS2_MULTIPLETURNS + gLockedMoves is the lock; the counters ride along
+            if (s2 & STATUS2_MULTIPLETURNS)
+            {
+                int k;
+                a->lockedMove = gLockedMoves[s];
+                for (k = 0; k < 4; k++) if (a->moves[k] == a->lockedMove) break;
+                if (a->lockedMove == 0 || k == 4) out->unsupported |= FS_UNSUP_VOLATILE;   // locked into a move it does not know
+            }
+            if (s2 & STATUS2_UPROAR) a->uproarTurns = (s2 & STATUS2_UPROAR) >> 4;
+            if (s2 & STATUS2_LOCK_CONFUSE) a->lockTurns = (s2 & STATUS2_LOCK_CONFUSE) >> 10;
+            if (s2 & STATUS2_BIDE) a->bideTurns = (s2 & STATUS2_BIDE) >> 8;
+            a->takenDmg = gTakenDmg[s] > 0xFFFF ? 0xFFFF : gTakenDmg[s];
+            a->rage = (s2 & STATUS2_RAGE) != 0;
+            a->unable = gProtectStructs[s].prlzImmobility || gProtectStructs[s].targetNotAffected || gProtectStructs[s].usedImprisonedMove
+                     || gProtectStructs[s].loveImmobility || gProtectStructs[s].usedDisabledMove || gProtectStructs[s].usedTauntedMove
+                     || gProtectStructs[s].flag2Unknown || gProtectStructs[s].flinchImmobility || gProtectStructs[s].confusionSelfDmg;   // WasUnableToUseMove
             if (s3 & STATUS3_LEECHSEED) a->vol |= FS_V_LEECH_SEED;
             if (s3 & STATUS3_INTIMIDATE_POKES) a->vol |= FS_V_INTIMIDATE_PENDING;
             if (s3 & STATUS3_ROOTED) a->vol |= FS_V_ROOTED;
@@ -186,8 +200,9 @@ int fs_import(fs_state *out, const struct BattleSim *simc)
             if (s3 & STATUS3_IMPRISONED_OTHERS) a->vol |= FS_V_IMPRISON;
             if (s3 & STATUS3_GRUDGE) a->vol |= FS_V_GRUDGE;
             if ((s3 & STATUS3_ALWAYS_HITS) && d->battlerWithSureHit == (s ^ 1)) a->lockOn = (s3 & STATUS3_ALWAYS_HITS) >> 3;
-            if (s3 & (STATUS3_ON_AIR | STATUS3_UNDERGROUND | STATUS3_UNDERWATER))
-                out->unsupported |= FS_UNSUP_VOLATILE;
+            if (s3 & STATUS3_ON_AIR) a->vol |= FS_V_ON_AIR;
+            if (s3 & STATUS3_UNDERGROUND) a->vol |= FS_V_UNDERGROUND;
+            if (s3 & STATUS3_UNDERWATER) a->vol |= FS_V_UNDERWATER;
             if (gBattleResources->flags.flags[s] & RESOURCE_FLAG_FLASH_FIRE) a->vol |= FS_V_FLASH_FIRE;
         }
         a->disableTimer = d->disableTimer; a->encoreTimer = d->encoreTimer; a->tauntTimer = d->tauntTimer;
@@ -195,7 +210,6 @@ int fs_import(fs_state *out, const struct BattleSim *simc)
         a->furyCutter = d->furyCutterCounter; a->rolloutTimer = d->rolloutTimer; a->chargeTimer = d->chargeTimer;
         a->encoredPos = d->encoredMovePos;
         for (i = 0; i < 4; i++) if (d->disabledMove && a->moves[i] == d->disabledMove) a->disabledPos = i;
-        if (d->rolloutTimer || d->furyCutterCounter) out->unsupported |= FS_UNSUP_VOLATILE;
         a->mimicked = d->mimickedMoves;
         a->hpTypeCache = sd->party[a->monIdx].hpType;
         a->hpPowerCache = sd->party[a->monIdx].hpPower;
@@ -317,6 +331,8 @@ int fs_legal_actions(const fs_state *s, int side, fs_action *out)
     {
         // recharging: the game does not ask at all (USE_MOVE, then "must recharge"); one placeholder move action
         if (sd->act.vol & FS_V_RECHARGE) { out[0].type = FS_ACT_MOVE; out[0].slot = 0; return 1; }
+        // locked into a multi-turn move (Thrash, Rollout, Fly, ...): the engine ignores the choice and uses the locked move
+        if (sd->act.present && sd->act.lockedMove) { out[0].type = FS_ACT_MOVE; out[0].slot = fs_ext_locked_slot(&sd->act); return 1; }
         for (i = 0; i < 4; i++) if (MoveUsable(s, side, i)) { out[n].type = FS_ACT_MOVE; out[n].slot = i; n++; any = 1; }
         if (!any) { out[n].type = FS_ACT_MOVE; out[n].slot = 4; n++; }   // Struggle
         if (!fs_can_switch(s, side)) return n;
@@ -448,8 +464,14 @@ int fs_accuracy_check(fs_state *s, int atkSide, int defSide, u16 move, u8 type)
     u32 calc;
     u8 moveAcc = bm->accuracy;
     u8 dhe = fs_hold_effect(df->item);
-    if (moveAcc == 0) return 1;
     if (df->lockOn) return 1;   // Lock-On / Mind Reader (STATUS3_ALWAYS_HITS by this attacker)
+    // a target in the air / underground / underwater is missed unless the move is one of the exceptions
+    // (HITMARKER_IGNORE_ON_AIR: Gust, Twister, Thunder, Sky Uppercut; IGNORE_UNDERGROUND: Earthquake, Magnitude;
+    // IGNORE_UNDERWATER: Surf, Whirlpool); AccuracyCalcHelper checks this before the always-hit rules, so Swift and Aerial Ace miss too
+    if ((df->vol & FS_V_ON_AIR) && !(bm->effect == EFFECT_GUST || bm->effect == EFFECT_TWISTER || bm->effect == EFFECT_THUNDER || bm->effect == EFFECT_SKY_UPPERCUT)) return 0;
+    if ((df->vol & FS_V_UNDERGROUND) && !(bm->effect == EFFECT_EARTHQUAKE || bm->effect == EFFECT_MAGNITUDE)) return 0;
+    if ((df->vol & FS_V_UNDERWATER) && !(move == MOVE_SURF || move == MOVE_WHIRLPOOL)) return 0;
+    if (moveAcc == 0) return 1;
     if (fs_weather_active(s) && s->weather == FS_WEATHER_RAIN && bm->effect == EFFECT_THUNDER) return 1;   // Thunder never misses in rain
     if (df->vol & FS_V_FORESIGHT) buff = at->stages[STAT_ACC];
     else buff = at->stages[STAT_ACC] + 6 - df->stages[STAT_EVASION];
@@ -514,6 +536,7 @@ static void ResetVolatile(fs_battler *a)
     a->lockedMove = a->lastMove = a->lastLandedMove = a->lastHitByType = a->chosenMove = a->bideDmg = a->wrapMove = 0;
     a->choicedMove = 0;
     a->mimicked = 0; a->lockOn = 0;
+    a->takenDmg = 0; a->unable = 0; a->rage = 0;
 }
 
 // Brings party slot `idx` in on `side` (the previous active, if any, is synced out). Switch-in effects follow.
@@ -620,7 +643,8 @@ static void ClearTurnFlags(fs_state *s)
         fs_battler *a = &s->side[side].act;
         a->vol &= ~(FS_V_PROTECTED | FS_V_ENDURED | FS_V_MOVED_THIS_TURN | FS_V_FLINCH);
         a->chosenMove = 0;
-        if (!a->bideTurns) a->bideDmg = 0;   // damage taken this turn (Counter / Mirror Coat / Focus Punch / Revenge) starts fresh
+        a->bideDmg = 0;   // damage taken this turn (Counter / Mirror Coat / Focus Punch / Revenge) starts fresh (Bide keeps its own takenDmg)
+        a->unable = 0;    // gProtectStructs are cleared by TurnValuesCleanUp
     }
 }
 
@@ -715,9 +739,13 @@ int fs_step(fs_state *s, fs_action a0, fs_action a1)
     for (side = 0; side < 2; side++)
     {
         fs_battler *a = &s->side[side].act;
+        // locked into a multi-turn move: the choice is ignored, the locked move is used (HandleAction_UseMove: gLockedMoves)
+        if (a->present && a->lockedMove) { acts[side].type = FS_ACT_MOVE; acts[side].slot = fs_ext_locked_slot(a); }
         s->pending[side] = acts[side];
         if (acts[side].type == FS_ACT_MOVE) a->chosenMove = acts[side].slot == 4 ? MOVE_STRUGGLE : a->moves[acts[side].slot];
+        if (a->present && (a->vol & FS_V_RECHARGE) && a->lastMove) a->chosenMove = a->lastMove;   // recharging: gChosenMove = gLockedMoves (the recharge move; its priority counts)
     }
+    fs_ext_turn_start(s);   // TryClearRageStatuses
     // switches first, player side first; then moves by priority and speed
     for (side = 0; side < 2; side++) if (acts[side].type == FS_ACT_SWITCH) s->order[n++] = side;
     if (n < 2)
@@ -773,6 +801,7 @@ static int BattleOver(const fs_state *s) { return fs_alive_count(s, 0) == 0 || f
 void fs_end_turn(fs_state *s)
 {
     int side, first = fs_who_strikes_first_ignoring_moves(s), b;
+    fs_ext_end_turn_begin(s);   // HandleEndTurn_ContinueBattle: a sleeping mon loses its multi-turn move
     // field
     for (side = 0; side < 2; side++)
     {
@@ -859,6 +888,7 @@ void fs_end_turn(fs_state *s)
             if (--a->wrapTurns) EndTurnDamage(s, side, a->maxHP / 16);
         }
         ET_NEXT();
+        fs_ext_end_turn_battler(s, side);   // ENDTURN_UPROAR, ENDTURN_THRASH
         if (a->disableTimer && --a->disableTimer == 0) {}
         if (a->encoreTimer && --a->encoreTimer == 0) {}
         if (a->encoreTimer && a->pp[a->encoredPos] == 0) a->encoreTimer = 0;
@@ -867,8 +897,11 @@ void fs_end_turn(fs_state *s)
         if (a->lockOn) a->lockOn--;   // ENDTURN_LOCK_ON
         if (a->yawnTimer && --a->yawnTimer == 0)
         {
-            if (!a->status1 && a->ability != ABILITY_VITAL_SPIRIT && a->ability != ABILITY_INSOMNIA && !s->side[side].safeguard)
+            if (!a->status1 && a->ability != ABILITY_VITAL_SPIRIT && a->ability != ABILITY_INSOMNIA && !s->side[side].safeguard && !fs_ext_uproar_active(s, side))
+            {
+                fs_ext_cancel_multi_turn(a);
                 a->status1 |= 2 + fs_roll(s, 4);   // 2-5 turns
+            }
         }
         if (a->perishTimer)
         {

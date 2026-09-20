@@ -35,7 +35,8 @@ struct Summary
     u64 h;
     u8 req, mask, outcome, weather, weatherTurns, phase;
     struct { u8 present, mon; u16 hp, st; s8 stg[8]; u32 vol; u8 sub, taunt, encore, disable, perish, yawn, wrap, conf;
-             u8 reflect, ls, safeguard, mist, spikes, wish, fsight; u16 php[6], pst[6]; } sd[2];
+             u8 reflect, ls, safeguard, mist, spikes, wish, fsight; u16 php[6], pst[6];
+             u16 locked, taken; u8 rollout, fury, bide, rage; } sd[2];   // multi-turn moves (the uproar / rampage turn counts are hidden)
 };
 static u64 Mix(u64 h, u64 v) { h ^= v; h *= 0x9E3779B97F4A7C15ull; return h ^ (h >> 29); }
 static void Summarize(const fs_state *s, struct Summary *o)
@@ -55,6 +56,8 @@ static void Summarize(const fs_state *s, struct Summary *o)
         o->sd[sd].wrap = a->present ? (a->wrapTurns != 0) : 0; o->sd[sd].conf = a->present ? ((a->vol & FS_V_CONFUSED) != 0) : 0;
         o->sd[sd].reflect = side->reflect; o->sd[sd].ls = side->lightscreen; o->sd[sd].safeguard = side->safeguard; o->sd[sd].mist = side->mist; o->sd[sd].spikes = side->spikes;
         o->sd[sd].wish = side->wishTurns; o->sd[sd].fsight = side->futureSightTurns;
+        o->sd[sd].locked = a->present ? a->lockedMove : 0; o->sd[sd].rollout = a->present ? a->rolloutTimer : 0; o->sd[sd].fury = a->present ? a->furyCutter : 0;
+        o->sd[sd].bide = a->present ? a->bideTurns : 0; o->sd[sd].taken = (a->present && a->bideTurns) ? a->takenDmg : 0; o->sd[sd].rage = a->present ? a->rage : 0;
         for (i = 0; i < 6; i++) { o->sd[sd].php[i] = side->party[i].hp; o->sd[sd].pst[i] = (side->party[i].status1 & ~FS_S1_SLEEP) | ((side->party[i].status1 & FS_S1_SLEEP) ? 1 : 0); }
     }
     {
@@ -75,7 +78,7 @@ static void PrintDiff(const struct Summary *a, const struct Summary *b)
         char nm[32];
 #define DS(name, x) if ((a->sd[sd].x) != (b->sd[sd].x)) printf(" P%d.%s %d/%d", sd, name, (int)(a->sd[sd].x), (int)(b->sd[sd].x))
         DS("present", present); DS("mon", mon); DS("hp", hp); DS("st", st); DS("vol", vol); DS("sub", sub); DS("taunt", taunt); DS("encore", encore); DS("disable", disable);
-        DS("perish", perish); DS("yawn", yawn); DS("wrap", wrap); DS("conf", conf); DS("reflect", reflect); DS("ls", ls); DS("safeguard", safeguard); DS("mist", mist); DS("spikes", spikes); DS("wish", wish); DS("fsight", fsight);
+        DS("perish", perish); DS("yawn", yawn); DS("wrap", wrap); DS("conf", conf); DS("reflect", reflect); DS("ls", ls); DS("safeguard", safeguard); DS("mist", mist); DS("spikes", spikes); DS("wish", wish); DS("fsight", fsight); DS("locked", locked); DS("rollout", rollout); DS("fury", fury); DS("bide", bide); DS("taken", taken); DS("rage", rage);
         for (i = 0; i < 8; i++) { snprintf(nm, sizeof(nm), "stg%d", i); if (a->sd[sd].stg[i] != b->sd[sd].stg[i]) printf(" P%d.%s %d/%d", sd, nm, a->sd[sd].stg[i] - 6, b->sd[sd].stg[i] - 6); }
         for (i = 0; i < 6; i++) { if (a->sd[sd].php[i] != b->sd[sd].php[i]) printf(" P%d.party%dhp %d/%d", sd, i, a->sd[sd].php[i], b->sd[sd].php[i]); if (a->sd[sd].pst[i] != b->sd[sd].pst[i]) printf(" P%d.party%dst %x/%x", sd, i, a->sd[sd].pst[i], b->sd[sd].pst[i]); }
     }

@@ -107,6 +107,11 @@ typedef struct
     u8 hpPowerCache;      // Hidden Power power (from the battle copy's IVs: Transform copies them)
     u8 mimicked;          // bitmask of move slots replaced by Mimic (their PP is not written back to the party)
     u8 lockOn;            // Lock-On / Mind Reader turns left on this mon (the opponent's moves cannot miss it)
+    // multi-turn moves (fast_ext.c): lockedMove != 0 is the game's STATUS2_MULTIPLETURNS + gLockedMoves (no choice
+    // next turn); takenDmg is gTakenDmg (Bide); unable is WasUnableToUseMove() for this turn (Uproar / Thrash end);
+    // rage is STATUS2_RAGE
+    u16 takenDmg;
+    u8 unable, rage;
 } fs_battler;
 
 typedef struct
