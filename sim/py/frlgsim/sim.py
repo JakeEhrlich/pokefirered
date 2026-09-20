@@ -72,11 +72,12 @@ class Enc:
             return cls
         out = np.zeros(16, np.int32)
         lib().sim_enc_sizes(out.ctypes.data_as(C.POINTER(C.c_int32)))
-        (cls.FLOATS, cls.INTS, cls.MONS, cls.MOVES, cls.TOKENS, cls.MON_F, cls.MOVE_F, cls.SIDE_F, cls.FIELD_F, cls.CATS) = [int(x) for x in out[:10]]
+        (cls.FLOATS, cls.INTS, cls.MONS, cls.MOVES, cls.TOKENS, cls.MON_F, cls.MOVE_F, cls.SIDE_F, cls.FIELD_F, cls.CATS, cls.EXTRA_F) = [int(x) for x in out[:11]]
         cls.I_ITEM, cls.I_ABILITY, cls.I_MOVEID, cls.I_TOKCAT, cls.I_PRESENT, cls.I_TERMINAL = 0, 12, 24, 72, 135, 198
         cls.OFF_MOVE = cls.MONS * cls.MON_F
         cls.OFF_SIDE = cls.OFF_MOVE + cls.MOVES * cls.MOVE_F
         cls.OFF_FIELD = cls.OFF_SIDE + 2 * cls.SIDE_F
+        cls.OFF_EXTRA = cls.OFF_FIELD + cls.FIELD_F
         cls._loaded = True
         return cls
 

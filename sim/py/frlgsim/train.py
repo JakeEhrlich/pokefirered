@@ -4,8 +4,8 @@
 
 Phase 1 (warm start): fit the network to outcome-labelled states from heuristic games.
 Phase 2 (self-play): a pool of lockstep games between the EWMA network and itself / league checkpoints; every
-decision point enters a replay buffer with its outcome y and residual sum S; training minimises
-BCE(p, y - lambda S) with lambda = Cov(y, S) / Var(S) re-estimated on the buffer; the EWMA weights act,
+decision point enters a replay buffer with its outcome y and backup b (the solved matrix's value under the
+played strategies, from the EWMA network); training minimises BCE(p, y) + BCE(p, b); the EWMA weights act,
 bootstrap and get saved; every 1/saves of the time budget a checkpoint is saved, evaluated against a C
 heuristic (RM+ 100 x 4 samples) and on held-out warm states, and added to the league.
 """
@@ -63,16 +63,6 @@ class Buffer:
         idx = rng.integers(self.n, size=batch)
         return self.F[idx], self.I[idx], self.Y[idx], self.S[idx]
 
-    def lam(self):
-        n = self.n
-        if n < 1000:
-            return 0.0
-        y, s = self.Y[:n].astype(np.float64), np.clip(self.S[:n].astype(np.float64), -3.0, 3.0)
-        v = s.var()
-        if v < 1e-12:
-            return 0.0
-        return float(np.clip(((y - y.mean()) * (s - s.mean())).mean() / v, 0.0, 1.0))
-
 
 def make_batch(F, I, device):
     rec = FT.split_records(F.astype(np.float32), I.astype(np.int32))
@@ -80,13 +70,16 @@ def make_batch(F, I, device):
     return FT.to_torch(rec, device)
 
 
-def train_step(net, opt, ema, ema_decay, F, I, T, device, clip=1.0):
+def train_step(net, opt, ema, ema_decay, F, I, Y, Bk, device, clip=1.0):
+    """Loss = BCE(p, outcome) + BCE(p, backup). Bk may be None (outcome only)."""
     net.train()
     b = make_batch(F, I, device)
-    t = torch.from_numpy(T.astype(np.float32)).to(device)
+    y = torch.from_numpy(Y.astype(np.float32)).to(device)
     z = net(b)
-    loss = bce_logits(z, t)
-    stats = {"z_abs": float(z.detach().abs().mean()), "t_abs": float(t.abs().mean()), "t_max": float(t.abs().max())}
+    loss = bce_logits(z, y)
+    if Bk is not None:
+        loss = loss + bce_logits(z, torch.from_numpy(Bk.astype(np.float32)).to(device))
+    stats = {"z_abs": float(z.detach().abs().mean())}
     opt.zero_grad(set_to_none=True)
     loss.backward()
     torch.nn.utils.clip_grad_norm_(net.parameters(), clip)
@@ -112,24 +105,27 @@ def heldout_loss(net, F, I, Y, device, batch=2048):
 
 
 def eval_vs_c(ev, spec, teams, rng, games=32, samples=4, threads=8, max_turns=300, log=None):
-    """Win rate of the network (samples per cell) against a C agent, sides alternating. Returns (score, wins, draws, losses)."""
+    """Score of the network (samples per cell) against a C agent. Every team pair is played twice with the sides
+    swapped (same engine seed), so team imbalance cancels. Returns (score, wins, draws, losses)."""
     gs = []
-    cagents = [S.CAgent(spec, int(rng.integers(1 << 30))) for _ in range(games)]
-    for i in range(games):
+    for i in range(games // 2):
         a, b = teams.sample_pair(rng)
         seed = int(rng.integers(1 << 30))
-        if i % 2 == 0:
-            players = [SP.Player(ev, samples=samples), SP.Player(cagent=cagents[i])]
-        else:
-            players = [SP.Player(cagent=cagents[i]), SP.Player(ev, samples=samples)]
-        gs.append(SP.Game(i, teams.party(a), teams.party(b), seed, players, learner=None, max_turns=max_turns))
+        for net_side in (0, 1):
+            cag = S.CAgent(spec, int(rng.integers(1 << 30)))
+            players = [SP.Player(ev, samples=samples), SP.Player(cagent=cag)]
+            if net_side == 1:
+                players = players[::-1]
+            g = SP.Game(len(gs), teams.party(a), teams.party(b), seed, players, learner=None, max_turns=max_turns)
+            g.net_side = net_side
+            gs.append(g)
     runner = SP.Runner(threads)
     SP.play_games(gs, runner)
     w = d = l = 0
-    for i, g in enumerate(gs):
+    for g in gs:
         if g.result is None:
             continue
-        r = g.result if i % 2 == 0 else 1.0 - g.result
+        r = g.result if g.net_side == 0 else 1.0 - g.result
         if r == 1.0: w += 1
         elif r == 0.0: l += 1
         else: d += 1
@@ -155,7 +151,6 @@ def main():
     ap.add_argument("--league-frac", type=float, default=0.3)
     ap.add_argument("--league-size", type=int, default=4)
     ap.add_argument("--train-per-step", type=int, default=1)
-    ap.add_argument("--clip-s", type=float, default=3.0, help="clip of the residual sum S in the target")
     ap.add_argument("--saves", type=int, default=30)
     ap.add_argument("--eval-games", type=int, default=32)
     ap.add_argument("--eval-spec", default="rmplus:iters=100,samples=4")
@@ -214,7 +209,7 @@ def main():
         t0 = time.time()
         for k in range(total):
             idx = np.sort(rng.integers(nw, size=args.batch))
-            loss, _ = train_step(net, opt, ema, args.ema if k > 200 else 0.0, Fw[idx], Iw[idx], Yw[idx], dev)
+            loss, _ = train_step(net, opt, ema, args.ema if k > 200 else 0.0, Fw[idx], Iw[idx], Yw[idx], None, dev)
             sched.step()
             step += 1
             if k % 200 == 0 or k == total - 1:
@@ -228,7 +223,7 @@ def main():
     buf = Buffer(args.buffer)
     if args.warm and args.warm_buffer > 0:
         idx = np.sort(rng.choice(len(Yw), size=min(args.warm_buffer, len(Yw)), replace=False))
-        buf.add(np.array(Fw[idx]), np.array(Iw[idx]), Yw[idx], np.zeros(len(idx), np.float32))
+        buf.add(np.array(Fw[idx]), np.array(Iw[idx]), Yw[idx], Yw[idx])   # no backup for warm states: b = y
         log(event="buffer_seeded", n=buf.n)
 
     ev = SP.NetEvaluator(ema, dev, compile=True, name="ema")
@@ -239,10 +234,11 @@ def main():
     save_every = budget / args.saves
     next_save = t_start + save_every
     best = (-1.0, None)
-    lam = buf.lam()
+    warm_heldout = heldout_loss(ema, Fh, Ih, Yh, dev) if args.warm else None
+    log(event="heldout_start", heldout_ema=warm_heldout)
     games = []
     gid = 0
-    stats = {"games": 0, "states": 0, "draws": 0, "errors": 0, "league_games": 0, "loss": 0.0, "loss_n": 0, "z_abs": 0.0, "t_abs": 0.0, "t_max": 0.0}
+    stats = {"games": 0, "states": 0, "draws": 0, "errors": 0, "league_games": 0, "loss": 0.0, "loss_n": 0, "z_abs": 0.0}
 
     def new_game():
         nonlocal gid
@@ -278,22 +274,23 @@ def main():
                 games[k] = new_game()
         for _ in range(args.train_per_step):
             if buf.n >= args.batch:
-                F, I, Y, Ss = buf.sample(rng, args.batch)
-                loss, ts_ = train_step(net, opt, ema, args.ema, F, I, Y - lam * np.clip(Ss, -args.clip_s, args.clip_s), dev)
+                F, I, Y, Bk = buf.sample(rng, args.batch)
+                loss, ts_ = train_step(net, opt, ema, args.ema, F, I, Y, Bk, dev)
                 stats["loss"] += loss; stats["loss_n"] += 1
-                stats["z_abs"] += ts_["z_abs"]; stats["t_abs"] += ts_["t_abs"]; stats["t_max"] = max(stats["t_max"], ts_["t_max"])
+                stats["z_abs"] += ts_["z_abs"]
                 step += 1
-        if runner.steps % 200 == 0:
-            lam = buf.lam()
         if time.time() - last_log > 120:
             ln = max(stats["loss_n"], 1)
             nb = buf.n
-            log(event="progress", elapsed=time.time() - t_start, step=step, runner_steps=runner.steps, lam=lam, buffer=nb,
-                loss=stats["loss"] / ln, z_abs=stats["z_abs"] / ln, t_abs=stats["t_abs"] / ln, t_max=stats["t_max"],
-                s_abs=float(np.abs(buf.S[:nb]).mean()) if nb else 0.0, s_max=float(np.abs(buf.S[:nb]).max()) if nb else 0.0,
+            z_abs = stats["z_abs"] / ln
+            log(event="progress", elapsed=time.time() - t_start, step=step, runner_steps=runner.steps, buffer=nb,
+                loss=stats["loss"] / ln, z_abs=z_abs, b_mean=float(buf.S[:nb].mean()) if nb else 0.0,
                 net_states=ev.states, net_time=ev.time, sim_time=runner.sim_time,
-                **{k: v for k, v in stats.items() if k not in ("loss", "loss_n", "z_abs", "t_abs", "t_max")})
-            stats["loss"] = 0.0; stats["loss_n"] = 0; stats["z_abs"] = 0.0; stats["t_abs"] = 0.0; stats["t_max"] = 0.0
+                **{k: v for k, v in stats.items() if k not in ("loss", "loss_n", "z_abs")})
+            stats["loss"] = 0.0; stats["loss_n"] = 0; stats["z_abs"] = 0.0
+            if z_abs > 20:
+                log(event="diverged", z_abs=z_abs)
+                break
             last_log = time.time()
         if time.time() >= next_save or time.time() - t_start >= budget:
             next_save += save_every
@@ -302,7 +299,10 @@ def main():
             torch.save({"net": net.state_dict(), "ema": ema.state_dict(), "step": step, "args": vars(args)}, path)
             hl = heldout_loss(ema, Fh, Ih, Yh, dev) if args.warm else None
             score, w, d, l = eval_vs_c(ev, args.eval_spec, teams, rng, games=args.eval_games, samples=4, threads=args.threads)
-            log(event="checkpoint", path=path, step=step, heldout_ema=hl, eval_score=score, eval_wdl=[w, d, l], lam=lam, games=stats["games"], elapsed=time.time() - t_start)
+            log(event="checkpoint", path=path, step=step, heldout_ema=hl, eval_score=score, eval_wdl=[w, d, l], games=stats["games"], elapsed=time.time() - t_start)
+            if hl is not None and warm_heldout is not None and hl > 2 * warm_heldout:
+                log(event="diverged", heldout_ema=hl, warm_heldout=warm_heldout)
+                break
             if score > best[0]:
                 best = (score, path)
                 torch.save({"net": net.state_dict(), "ema": ema.state_dict(), "step": step, "args": vars(args), "eval_score": score}, os.path.join(args.out, "best.pt"))

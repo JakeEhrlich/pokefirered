@@ -51,6 +51,8 @@ float Sim_ValueMaterial(struct BattleSim *sim, u8 side, void *ctx);   // HP frac
 
 // Helpers usable by other agents.
 int Sim_EstimateDamage(struct BattleSim *sim, u8 attacker, u8 defender, u8 moveSlot); // expected damage, no crit
+int Sim_EstimateDamageMons(struct BattlePokemon *atk, struct BattlePokemon *def, u16 move, u8 atkBattler, u8 defBattler, int *rawOut);
+int Sim_TypeMultiplier(u8 moveType, u8 defType1, u8 defType2);                       // x100
 int Sim_TypeMatchupScore(struct BattleSim *sim, u16 species, u8 oppBattler);        // offensive - defensive, x10
 u16 Sim_TrainerForAIFlags(u32 aiFlags);  // a trainer id with exactly these AI flags and no items (game AI)
 // Simulates `mine` for `me` and `theirs` for the opponent from the turn-start state, resolving mid-turn

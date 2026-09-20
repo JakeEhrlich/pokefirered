@@ -7,8 +7,7 @@ payoff matrix, which RM+ solves. Actions are sampled from the average strategy.
 
 Every decision point of a training game (both players networks) records, from side 0's view: the state, the
 learner's value p of it, and the backup b = sum_ij sigma_i sigma_j p_ij under the strategies actually played.
-At the end the residual sums S_t = sum_{u>=t} (p(s_{u+1}) - b(s_u)) are formed (p(terminal) = result), so the
-training target is y - lambda * S_t for any lambda (train.py).
+The training loss is BCE(p, y) + BCE(p, b): outcome plus one-turn backup, both in [0, 1] (train.py).
 """
 import time
 import numpy as np
@@ -24,10 +23,10 @@ RM_ITERS = 100
 class NetEvaluator:
     """Batched win-probability evaluation of encoder records, padded to size buckets (for torch.compile)."""
 
-    def __init__(self, net, device, compile=True, buckets=(256, 512, 1024, 2048, 4096, 8192, 16384), name="net"):
+    def __init__(self, net, device, compile=True, buckets=(256, 512, 1024, 2048, 4096), name="net"):
         self.net = net
         self.device = device
-        self.buckets = buckets
+        self.buckets = buckets          # batches larger than the last bucket are evaluated in chunks of that size
         self.fwd = torch.compile(net) if compile else net
         self.name = name
         self.calls = 0
@@ -42,10 +41,20 @@ class NetEvaluator:
             return np.zeros(0, np.float32)
         t0 = time.time()
         E = Enc.load()
+        chunk = self.buckets[-1]
+        out = np.zeros(n, np.float32)
+        for k in range(0, n, chunk):
+            out[k:k + chunk] = self._probs(F[k:k + chunk], I[k:k + chunk])
         term = I[:, E.I_TERMINAL]
-        size = next((b for b in self.buckets if b >= n), None)
-        if size is None:
-            size = ((n + 4095) // 4096) * 4096
+        out = np.where(term == 1, 1.0, np.where(term == 2, 0.0, np.where(term == 3, 0.5, out))).astype(np.float32)
+        self.calls += 1
+        self.states += n
+        self.time += time.time() - t0
+        return out
+
+    def _probs(self, F, I):
+        n = F.shape[0]
+        size = next(b for b in self.buckets if b >= n)
         if size > n:
             F = np.concatenate([F, np.repeat(F[:1], size - n, 0)], 0)
             I = np.concatenate([I, np.repeat(I[:1], size - n, 0)], 0)
@@ -53,12 +62,7 @@ class NetEvaluator:
         rec.pop("terminal")
         b = FT.to_torch(rec, self.device)
         z = self.fwd(b)
-        p = torch.sigmoid(z).float().cpu().numpy()[:n]
-        p = np.where(term == 1, 1.0, np.where(term == 2, 0.0, np.where(term == 3, 0.5, p))).astype(np.float32)
-        self.calls += 1
-        self.states += n
-        self.time += time.time() - t0
-        return p
+        return torch.sigmoid(z).float().cpu().numpy()[:n]
 
 
 def solve(M, iters=RM_ITERS):
@@ -279,18 +283,16 @@ class Runner:
 
 
 def finish_records(g):
-    """A finished game's records -> training rows (F float16, I int16, y, S) with S_t = sum_{u>=t} c_u, c_u = p(s_{u+1}) - b(s_u)."""
+    """A finished game's records -> training rows (F float16, I int16, y, b): the side-0 result and the backup
+    b = sum_ij sigma_i sigma_j p_ij at each decision point (both in [0, 1])."""
     if g.result is None or not g.records:
         return None
     y = g.result
     n = len(g.records)
-    p_next = np.array([g.records[t + 1]["p"] if t + 1 < n else y for t in range(n)], np.float64)
-    b = np.array([r["b"] for r in g.records], np.float64)
-    c = p_next - b
-    Ssum = np.cumsum(c[::-1])[::-1].astype(np.float32)
+    b = np.array([r["b"] for r in g.records], np.float32)
     F = np.stack([r["F"] for r in g.records]).astype(np.float16)
     I = np.stack([r["I"] for r in g.records]).astype(np.int16)
-    return F, I, np.full(n, y, np.float32), Ssum
+    return F, I, np.full(n, y, np.float32), b
 
 
 def play_games(games, runner, max_steps=100000, on_progress=None):

@@ -31,6 +31,7 @@ def split_records(F: np.ndarray, I: np.ndarray):
         "move": F[:, E.OFF_MOVE:E.OFF_SIDE].reshape(B, E.MOVES, E.MOVE_F),
         "side": F[:, E.OFF_SIDE:E.OFF_FIELD].reshape(B, 2, E.SIDE_F),
         "field": F[:, E.OFF_FIELD:E.OFF_FIELD + E.FIELD_F],
+        "extra": F[:, E.OFF_EXTRA:E.OFF_EXTRA + 2 * E.EXTRA_F].reshape(B, 2, E.EXTRA_F),
         "item": I[:, E.I_ITEM:E.I_ITEM + 12],
         "ability": I[:, E.I_ABILITY:E.I_ABILITY + 12],
         "move_id": I[:, E.I_MOVEID:E.I_MOVEID + 48],

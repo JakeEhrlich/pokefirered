@@ -121,6 +121,7 @@ int sim_setup_game(void *sim, const void *partyA600, const void *partyB600, uint
     b->rngCalls = 0;
     b->strictAnswers = 1;
     b->maxTurns = maxTurns;
+    b->badgeFlags = 0;   // no player-side badge stat boosts: both sides equal
     return Sim_Start(b);
 }
 
@@ -139,7 +140,7 @@ void sim_enc_sizes(int32_t out[16])
 {
     memset(out, 0, sizeof(int32_t) * 16);
     out[0] = SIMENC_FLOATS; out[1] = SIMENC_INTS; out[2] = SIMENC_MONS; out[3] = SIMENC_MOVES; out[4] = SIMENC_TOKENS;
-    out[5] = SIMENC_MON_F; out[6] = SIMENC_MOVE_F; out[7] = SIMENC_SIDE_F; out[8] = SIMENC_FIELD_F; out[9] = SIMENC_CAT_COUNT;
+    out[5] = SIMENC_MON_F; out[6] = SIMENC_MOVE_F; out[7] = SIMENC_SIDE_F; out[8] = SIMENC_FIELD_F; out[9] = SIMENC_CAT_COUNT; out[10] = SIMENC_EXTRA_F;
 }
 
 int sim_encode(void *sim, int side, float *outF, int32_t *outI) { return Sim_EncodeState(S(sim), side, outF, outI); }

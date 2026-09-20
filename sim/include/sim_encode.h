@@ -6,7 +6,7 @@
 //   6..11   opponent party slots 0..5
 //   12..59  move tokens: 12 + mon*4 + slot
 //   60      my side, 61 opponent side, 62 field
-// Float layout: mon[12][SIMENC_MON_F], move[48][SIMENC_MOVE_F], side[2][SIMENC_SIDE_F], field[SIMENC_FIELD_F].
+// Float layout: mon[12][SIMENC_MON_F], move[48][SIMENC_MOVE_F], side[2][SIMENC_SIDE_F], field[SIMENC_FIELD_F], extra[2][SIMENC_EXTRA_F].
 // Int layout (SIMENC_INTS): monItem[12], monAbility[12], moveId[48], tokCat[63], present[63], terminal, pad.
 #ifndef SIM_ENCODE_H
 #define SIM_ENCODE_H
@@ -20,7 +20,8 @@
 #define SIMENC_MOVE_F  64
 #define SIMENC_SIDE_F  16
 #define SIMENC_FIELD_F 16
-#define SIMENC_FLOATS  (SIMENC_MONS * SIMENC_MON_F + SIMENC_MOVES * SIMENC_MOVE_F + 2 * SIMENC_SIDE_F + SIMENC_FIELD_F)
+#define SIMENC_EXTRA_F 32       // per side: engine-computed matchup features vs the opponent's active (see sim_encode.c)
+#define SIMENC_FLOATS  (SIMENC_MONS * SIMENC_MON_F + SIMENC_MOVES * SIMENC_MOVE_F + 2 * SIMENC_SIDE_F + SIMENC_FIELD_F + 2 * SIMENC_EXTRA_F)
 #define SIMENC_INTS    200
 
 // int offsets

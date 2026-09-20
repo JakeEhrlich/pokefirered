@@ -155,17 +155,14 @@ static int TypeMultiplier(u8 moveType, u8 defType1, u8 defType2)
     return mult;
 }
 
-int Sim_EstimateDamage(struct BattleSim *sim, u8 attacker, u8 defender, u8 moveSlot)
+// Expected damage of `move` from atk to def (accuracy-weighted, average roll, no crit, capped at def->hp);
+// *rawOut gets the uncapped average-roll damage. The battler ids only feed the engine's per-battler lookups
+// (badge boosts, Flash Fire, enigma berries) and may be approximate for benched mons.
+int Sim_EstimateDamageMons(struct BattlePokemon *atk, struct BattlePokemon *def, u16 move, u8 atkBattler, u8 defBattler, int *rawOut)
 {
-    u16 move;
     s32 dmg;
     int mult, acc;
-    struct BattlePokemon *atk, *def;
-
-    Sim_Bind(sim);
-    atk = &gBattleMons[attacker];
-    def = &gBattleMons[defender];
-    move = atk->moves[moveSlot & 3];
+    if (rawOut) *rawOut = 0;
     if (move == MOVE_NONE || move >= MOVES_COUNT)
         return 0;
     switch (gBattleMoves[move].effect)
@@ -180,7 +177,7 @@ int Sim_EstimateDamage(struct BattleSim *sim, u8 attacker, u8 defender, u8 moveS
     default:
         if (gBattleMoves[move].power == 0)
             return 0;
-        dmg = CalculateBaseDamage(atk, def, move, gSideStatuses[GetBattlerSide(defender)], 0, 0, attacker, defender);
+        dmg = CalculateBaseDamage(atk, def, move, gSideStatuses[GetBattlerSide(defBattler)], 0, 0, atkBattler, defBattler);
         if (atk->type1 == gBattleMoves[move].type || atk->type2 == gBattleMoves[move].type)
             dmg = dmg * 15 / 10;
         mult = TypeMultiplier(gBattleMoves[move].type, def->type1, def->type2);
@@ -194,8 +191,17 @@ int Sim_EstimateDamage(struct BattleSim *sim, u8 attacker, u8 defender, u8 moveS
     acc = gBattleMoves[move].accuracy;
     if (acc == 0) acc = 100;
     if (gBattleMoves[move].effect == EFFECT_OHKO) acc = 30;
+    if (rawOut) *rawOut = dmg;
     if (dmg > def->hp) dmg = def->hp;
     return dmg * acc / 100;
+}
+
+int Sim_TypeMultiplier(u8 moveType, u8 defType1, u8 defType2) { return TypeMultiplier(moveType, defType1, defType2); }
+
+int Sim_EstimateDamage(struct BattleSim *sim, u8 attacker, u8 defender, u8 moveSlot)
+{
+    Sim_Bind(sim);
+    return Sim_EstimateDamageMons(&gBattleMons[attacker], &gBattleMons[defender], gBattleMons[attacker].moves[moveSlot & 3], attacker, defender, NULL);
 }
 
 int Sim_TypeMatchupScore(struct BattleSim *sim, u16 species, u8 oppBattler)

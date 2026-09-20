@@ -114,6 +114,7 @@ static int PlayGame(struct SimAgent *tplA, struct SimAgent *tplB, struct Team *t
     sim->rngCalls = 0;
     sim->strictAnswers = 1;
     sim->maxTurns = sMaxTurns;
+    sim->badgeFlags = 0;   // no player-side badge stat boosts: both sides equal
     if (agents[1].isGameAI)
         Sim_SetPolicy(sim, B_SIDE_OPPONENT, Sim_VanillaAIPolicy);
     if (agents[0].isGameAI) { free(sim); free(turnStart); return -1; } // the game's AI only plays the opponent side

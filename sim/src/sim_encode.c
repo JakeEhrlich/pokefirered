@@ -9,6 +9,7 @@
 #include "data.h"
 #include "sim.h"
 #include "sim_encode.h"
+#include "sim_agent.h"
 #include "sim_globals.h"
 #include "constants/species.h"
 #include "constants/moves.h"
@@ -75,6 +76,175 @@ _Static_assert(MF_COUNT <= SIMENC_MON_F, "mon features");
 _Static_assert(VF_COUNT <= SIMENC_MOVE_F, "move features");
 _Static_assert(SF_COUNT <= SIMENC_SIDE_F, "side features");
 _Static_assert(FF_COUNT <= SIMENC_FIELD_F, "field features");
+// ---- extra (engine-computed) per-side features, all relative to the opponent's current active battler
+enum
+{
+    XF_ACT_EXPDMG = 0,      // best expected damage of the active, uncapped, /100
+    XF_ACT_KOFRAC = 1,      // best expected damage capped, as a fraction of their current HP
+    XF_ACT_CANKO = 2,       // best raw damage >= their HP
+    XF_ACT_CAN2HKO = 3,
+    XF_ACT_BESTMULT = 4,    // best type multiplier among damaging moves, /4
+    XF_ACT_HAS_SE = 5,
+    XF_ACT_HAS_DMG_PP = 6,  // a damaging move with PP left
+    XF_ACT_DMG_PP = 7,      // PP on damaging moves /40
+    XF_ACT_PRIORITY = 8,    // has a damaging move with priority > 0
+    XF_ACT_STATUS_MOVES = 9,// status moves /4
+    XF_ACT_FASTER = 10,     // effective speed > theirs
+    XF_SPEED_LOGRATIO = 11, // log(mine/theirs) clipped to [-1, 1]
+    XF_ACT_HP = 12,         // absolute HP /200
+    XF_ACT_LEVEL = 13,
+    XF_ACT_WEATHER_BOOST = 14,
+    XF_ACT_WEATHER_NERF = 15,
+    XF_ACT_FAINTED = 16,    // the active slot holds a fainted mon (replacement pending)
+    XF_TEAM_EXPDMG = 17,    // sum over alive mons of best expected damage, uncapped, /400
+    XF_TEAM_KOFRAC = 18,    // best over alive mons of the capped fraction
+    XF_TEAM_HP = 19,        // sum of HP /600
+    XF_TEAM_MAXHP = 20,     // sum of max HP /600
+    XF_TEAM_FASTER = 21,    // mons faster than their active /6
+    XF_TEAM_SE = 22,        // mons with a super-effective damaging move /6
+    XF_TEAM_CANKO = 23,     // mons that can KO their active /6
+    XF_TEAM_LEVEL = 24,     // mean level /100
+    XF_BENCH_SAFE = 25,     // bench mons taking < 1/3 of max HP from their best move /6
+    XF_BENCH_RESIST = 26,   // 1 - min over bench of (their best raw damage / max HP)
+    XF_COUNT = 27
+};
+_Static_assert(XF_COUNT <= SIMENC_EXTRA_F, "extra features");
+
+static void FillBattleMon(struct BattlePokemon *out, struct Pokemon *mon)
+{
+    int i;
+    memset(out, 0, sizeof(*out));
+    out->species = GetMonData(mon, MON_DATA_SPECIES);
+    out->attack = GetMonData(mon, MON_DATA_ATK); out->defense = GetMonData(mon, MON_DATA_DEF); out->speed = GetMonData(mon, MON_DATA_SPEED);
+    out->spAttack = GetMonData(mon, MON_DATA_SPATK); out->spDefense = GetMonData(mon, MON_DATA_SPDEF);
+    for (i = 0; i < 4; i++) { out->moves[i] = GetMonData(mon, MON_DATA_MOVE1 + i); out->pp[i] = GetMonData(mon, MON_DATA_PP1 + i); }
+    for (i = 0; i < NUM_BATTLE_STATS; i++) out->statStages[i] = 6;
+    out->abilityNum = GetMonData(mon, MON_DATA_ABILITY_NUM);
+    out->ability = out->species < NUM_SPECIES ? (gSpeciesInfo[out->species].abilities[out->abilityNum] ? gSpeciesInfo[out->species].abilities[out->abilityNum] : gSpeciesInfo[out->species].abilities[0]) : 0;
+    out->type1 = out->species < NUM_SPECIES ? gSpeciesInfo[out->species].types[0] : 0;
+    out->type2 = out->species < NUM_SPECIES ? gSpeciesInfo[out->species].types[1] : 0;
+    out->hp = GetMonData(mon, MON_DATA_HP); out->maxHP = GetMonData(mon, MON_DATA_MAX_HP);
+    out->level = GetMonData(mon, MON_DATA_LEVEL); out->item = GetMonData(mon, MON_DATA_HELD_ITEM);
+    out->status1 = GetMonData(mon, MON_DATA_STATUS);
+    out->personality = GetMonData(mon, MON_DATA_PERSONALITY);
+}
+
+static float EffectiveSpeed(struct BattlePokemon *m)
+{
+    float sp = (float)m->speed * gStatStageRatios[m->statStages[STAT_SPEED]][0] / gStatStageRatios[m->statStages[STAT_SPEED]][1];
+    if (m->status1 & STATUS1_PARALYSIS) sp /= 4;
+    return sp;
+}
+
+// Best damaging move of atk against def: expected (capped) and raw damage, multiplier, flags.
+static void BestAttack(struct BattlePokemon *atk, struct BattlePokemon *def, u8 atkB, u8 defB, int usePP,
+                       int *bestExp, int *bestRaw, int *bestMult, int *hasSE, int *hasDmgPP, int *dmgPP, int *prio, int *statusMoves)
+{
+    int j;
+    *bestExp = *bestRaw = *bestMult = *hasSE = *hasDmgPP = *dmgPP = *prio = *statusMoves = 0;
+    for (j = 0; j < 4; j++)
+    {
+        u16 mv = atk->moves[j];
+        int raw, e, mult;
+        if (mv == MOVE_NONE || mv >= MOVES_COUNT) continue;
+        if (gBattleMoves[mv].power == 0) { (*statusMoves)++; continue; }
+        if (usePP && atk->pp[j] == 0) continue;
+        *dmgPP += atk->pp[j];
+        *hasDmgPP = 1;
+        if (gBattleMoves[mv].priority > 0) *prio = 1;
+        e = Sim_EstimateDamageMons(atk, def, mv, atkB, defB, &raw);
+        mult = Sim_TypeMultiplier(gBattleMoves[mv].type, def->type1, def->type2);
+        if (mult >= 200) *hasSE = 1;
+        if (mult > *bestMult) *bestMult = mult;
+        if (e > *bestExp) *bestExp = e;
+        if (raw > *bestRaw) *bestRaw = raw;
+    }
+}
+
+static void EncodeExtra(struct BattleSim *sim, int side, int gameSide, float *x)
+{
+    u8 me = gameSide, opp = gameSide ^ 1;
+    struct BattlePokemon *act = &gBattleMons[me], *def = &gBattleMons[opp];
+    struct Pokemon *party = Sim_Party(sim, gameSide);
+    struct BattlePokemon tmp, oppTmp;
+    int bestExp, bestRaw, bestMult, hasSE, hasDmgPP, dmgPP, prio, statusMoves;
+    int i, alive = 0, levelSum = 0, hpSum = 0, maxHpSum = 0, teamExp = 0, teamFaster = 0, teamSE = 0, teamKO = 0, benchSafe = 0, bench = 0;
+    float teamKoFrac = 0.0f, benchResist = 1.0f, oppSpeed;
+    int oppBestExp, oppBestRaw, d1, d2, d3, d4, d5, d6;
+    memset(x, 0, sizeof(float) * SIMENC_EXTRA_F);
+    if (def->hp == 0 || def->species == SPECIES_NONE) { oppTmp = *def; oppTmp.hp = oppTmp.maxHP ? oppTmp.maxHP : 1; def = &oppTmp; }
+    oppSpeed = EffectiveSpeed(def);
+    if (act->hp > 0 && act->species != SPECIES_NONE)
+    {
+        BestAttack(act, def, me, opp, 1, &bestExp, &bestRaw, &bestMult, &hasSE, &hasDmgPP, &dmgPP, &prio, &statusMoves);
+        x[XF_ACT_EXPDMG] = bestRaw * (bestExp > 0 ? 1.0f : 0.0f) / 100.0f;
+        x[XF_ACT_KOFRAC] = def->hp ? (float)bestExp / def->hp : 0.0f;
+        x[XF_ACT_CANKO] = bestRaw >= def->hp;
+        x[XF_ACT_CAN2HKO] = 2 * bestRaw >= def->hp;
+        x[XF_ACT_BESTMULT] = bestMult / 400.0f;
+        x[XF_ACT_HAS_SE] = hasSE; x[XF_ACT_HAS_DMG_PP] = hasDmgPP; x[XF_ACT_DMG_PP] = dmgPP / 40.0f;
+        x[XF_ACT_PRIORITY] = prio; x[XF_ACT_STATUS_MOVES] = statusMoves / 4.0f;
+        {
+            float sp = EffectiveSpeed(act);
+            x[XF_ACT_FASTER] = sp > oppSpeed;
+            x[XF_SPEED_LOGRATIO] = (sp > 0 && oppSpeed > 0) ? logf(sp / oppSpeed) : 0.0f;
+            if (x[XF_SPEED_LOGRATIO] > 1) x[XF_SPEED_LOGRATIO] = 1; if (x[XF_SPEED_LOGRATIO] < -1) x[XF_SPEED_LOGRATIO] = -1;
+        }
+        x[XF_ACT_HP] = act->hp / 200.0f;
+        x[XF_ACT_LEVEL] = act->level / 100.0f;
+        {
+            u16 w = gBattleWeather;
+            int j;
+            for (j = 0; j < 4; j++)
+            {
+                u16 mv = act->moves[j];
+                u8 t;
+                if (mv == MOVE_NONE || mv >= MOVES_COUNT || gBattleMoves[mv].power == 0) continue;
+                t = gBattleMoves[mv].type;
+                if (((w & B_WEATHER_RAIN) && t == TYPE_WATER) || ((w & B_WEATHER_SUN) && t == TYPE_FIRE)) x[XF_ACT_WEATHER_BOOST] = 1;
+                if (((w & B_WEATHER_RAIN) && t == TYPE_FIRE) || ((w & B_WEATHER_SUN) && t == TYPE_WATER)) x[XF_ACT_WEATHER_NERF] = 1;
+            }
+        }
+    }
+    else
+        x[XF_ACT_FAINTED] = 1;
+    // their best raw damage against my bench (for safe switch-ins)
+    for (i = 0; i < PARTY_SIZE; i++)
+    {
+        struct Pokemon *mon = &party[i];
+        struct BattlePokemon *m;
+        u16 species = GetMonData(mon, MON_DATA_SPECIES_OR_EGG);
+        int isActive = (i == gBattlerPartyIndexes[me]);
+        if (species == SPECIES_NONE || species == SPECIES_EGG || species >= NUM_SPECIES) continue;
+        if (GetMonData(mon, MON_DATA_HP) == 0) continue;
+        if (isActive) m = act; else { FillBattleMon(&tmp, mon); m = &tmp; }
+        alive++;
+        levelSum += m->level; hpSum += m->hp; maxHpSum += m->maxHP;
+        BestAttack(m, def, me, opp, 1, &bestExp, &bestRaw, &bestMult, &hasSE, &hasDmgPP, &dmgPP, &prio, &statusMoves);
+        teamExp += bestRaw * (bestExp > 0);
+        if (def->hp && (float)bestExp / def->hp > teamKoFrac) teamKoFrac = (float)bestExp / def->hp;
+        if (EffectiveSpeed(m) > oppSpeed) teamFaster++;
+        if (hasSE) teamSE++;
+        if (bestRaw >= def->hp) teamKO++;
+        if (!isActive)
+        {
+            float frac;
+            bench++;
+            BestAttack(def, m, opp, me, 0, &oppBestExp, &oppBestRaw, &d1, &d2, &d3, &d4, &d5, &d6);
+            frac = m->maxHP ? (float)oppBestRaw / m->maxHP : 1.0f;
+            if (frac < 1.0f / 3.0f) benchSafe++;
+            if (frac < benchResist) benchResist = frac;
+        }
+    }
+    x[XF_TEAM_EXPDMG] = teamExp / 400.0f;
+    x[XF_TEAM_KOFRAC] = teamKoFrac > 1 ? 1 : teamKoFrac;
+    x[XF_TEAM_HP] = hpSum / 600.0f; x[XF_TEAM_MAXHP] = maxHpSum / 600.0f;
+    x[XF_TEAM_FASTER] = teamFaster / 6.0f; x[XF_TEAM_SE] = teamSE / 6.0f; x[XF_TEAM_CANKO] = teamKO / 6.0f;
+    x[XF_TEAM_LEVEL] = alive ? levelSum / (100.0f * alive) : 0.0f;
+    x[XF_BENCH_SAFE] = benchSafe / 6.0f;
+    x[XF_BENCH_RESIST] = bench ? 1.0f - (benchResist > 1 ? 1 : benchResist) : 0.0f;
+}
+
 
 static float Log8(u32 v) { return v ? logf((float)v) / 8.0f : 0.0f; }
 
@@ -119,6 +289,7 @@ int Sim_EncodeState(struct BattleSim *sim, int side, float *outF, int32_t *outI)
     float *moveF = outF + SIMENC_MONS * SIMENC_MON_F;
     float *sideF = moveF + SIMENC_MOVES * SIMENC_MOVE_F;
     float *fieldF = sideF + 2 * SIMENC_SIDE_F;
+    float *extraF = fieldF + SIMENC_FIELD_F;
     Sim_Bind(sim);
     memset(outF, 0, sizeof(float) * SIMENC_FLOATS);
     memset(outI, 0, sizeof(int32_t) * SIMENC_INTS);
@@ -276,6 +447,8 @@ int Sim_EncodeState(struct BattleSim *sim, int side, float *outF, int32_t *outI)
         sf[SF_ALIVE] = alive / 6.0f; sf[SF_FAINTED] = fainted / 6.0f;
         outI[SIMENC_I_TOKCAT + 60 + s] = s ? SIMENC_CAT_OPP_SIDE : SIMENC_CAT_MY_SIDE;
         outI[SIMENC_I_PRESENT + 60 + s] = 1;
+        if (!sim->finished)
+            EncodeExtra(sim, side, gameSide, extraF + s * SIMENC_EXTRA_F);
     }
     {
         u16 w = gBattleWeather;

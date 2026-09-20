@@ -1,6 +1,6 @@
 """Warm-start data: replays arena-recorded games (arena --record) and encodes a sample of their decision states.
 
-Output (ai/data/warm_*.npy): F [n, FLOATS] float16 (side-0 view), I [n, INTS] int16, y [n] float32 (side-0 result).
+Output (ai/data/warm_*.npy): F [n, FLOATS] float16 (side-0 view), I [n, INTS] int16, y [n] float32 (side-0 result), g [n] game index.
 
     python -m frlgsim.warm ai/data/warm_games.tsv ai/data/warm --max-states 600000 --keep 0.3
 """
@@ -69,6 +69,7 @@ def main():
     F = np.zeros((args.max_states, E.FLOATS), np.float16)
     I = np.zeros((args.max_states, E.INTS), np.int16)
     Y = np.zeros(args.max_states, np.float32)
+    G = np.zeros(args.max_states, np.int32)
     n = 0
     t0 = time.time()
     games_used = 0
@@ -78,7 +79,7 @@ def main():
                 continue
             f, i, y = res
             m = min(len(f), args.max_states - n)
-            F[n:n + m] = f[:m]; I[n:n + m] = i[:m]; Y[n:n + m] = y[:m]
+            F[n:n + m] = f[:m]; I[n:n + m] = i[:m]; Y[n:n + m] = y[:m]; G[n:n + m] = games_used
             n += m
             games_used += 1
             if gi % 5000 == 0:
@@ -89,6 +90,7 @@ def main():
     np.save(args.out_prefix + "_F.npy", F[:n])
     np.save(args.out_prefix + "_I.npy", I[:n])
     np.save(args.out_prefix + "_y.npy", Y[:n])
+    np.save(args.out_prefix + "_g.npy", G[:n])
 
 
 if __name__ == "__main__":
