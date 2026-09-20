@@ -66,6 +66,8 @@ const char *sim_agent_name(const void *agent);
 // Decides for `battler`'s pending request; turnStart may be NULL (the arena passes the turn-start state for
 // action requests). Writes a 6-byte action. Returns 0, or -1 when the agent cannot play this side (the game AI on the player side).
 int  sim_agent_decide(void *agent, void *sim, const void *turnStart, int battler, int kind, uint8_t out[6]);
+// Side-0 equilibrium value of the agent's one-turn matrix from a turn-start state (RM+ over its value function). -1 if not a turn start.
+int  sim_agent_search_value(void *agent, const void *turnStart, float *value);
 
 float sim_value_basic(const void *sim, int side);                    // the hand-tuned heuristic, for comparisons
 float sim_value_material(const void *sim, int side);

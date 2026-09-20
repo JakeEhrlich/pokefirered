@@ -245,6 +245,12 @@ void *sim_agent_new(const char *spec, uint32_t seed)
 void sim_agent_free(void *agent) { free(agent); }
 const char *sim_agent_name(const void *agent) { return ((const struct SimAgent *)agent)->name; }
 
+int sim_agent_search_value(void *agent, const void *turnStart, float *value)
+{
+    int cells;
+    return Sim_SearchValue((struct SimAgent *)agent, (const struct BattleSim *)turnStart, value, &cells);
+}
+
 int sim_agent_decide(void *agent, void *sim, const void *turnStart, int battler, int kind, uint8_t out[6])
 {
     struct SimAgent *ag = agent;

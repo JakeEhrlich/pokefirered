@@ -31,7 +31,9 @@ EXTRA_NAMES = ["act_expdmg", "act_kofrac", "act_canko", "act_can2hko", "act_best
                "act_fainted", "team_expdmg", "team_kofrac", "team_hp", "team_maxhp", "team_faster", "team_se", "team_canko", "team_level",
                "bench_safe", "bench_resist"]
 EXTRA_MASK = np.array([0.0 if n in ("weather_boost", "weather_nerf") else 1.0 for n in EXTRA_NAMES], np.float32)
-NAMES = BASE_NAMES + EXTRA_NAMES
+# derived exchange features (from the extra block of both sides): turns-to-KO each way and who wins the exchange
+XCHG_NAMES = ["ttk_me", "ttk_them", "xchg_win", "xchg_lose", "xchg_win_faster", "xchg_lose_faster"]
+NAMES = BASE_NAMES + EXTRA_NAMES + XCHG_NAMES
 BASE_FEATURES = len(BASE_NAMES)
 FEATURES = len(NAMES)
 
@@ -70,9 +72,26 @@ def delta_phi(F, I):
     rec = FT.split_records(np.asarray(F, np.float32), np.asarray(I, np.int32))
     mon, side, present = rec["mon"], rec["side"], rec["present"][:, :12].astype(np.float32)
     base = side_phi(mon[:, :6], side[:, 0], present[:, :6]) - side_phi(mon[:, 6:], side[:, 1], present[:, 6:])
-    ex = rec["extra"][:, 0, :len(EXTRA_NAMES)] - rec["extra"][:, 1, :len(EXTRA_NAMES)]
-    ex = ex * EXTRA_MASK
-    return np.concatenate([base, ex], 1).astype(np.float32)
+    exA, exB = rec["extra"][:, 0, :len(EXTRA_NAMES)], rec["extra"][:, 1, :len(EXTRA_NAMES)]
+    ex = (exA - exB) * EXTRA_MASK
+    return np.concatenate([base, ex, exchange_features(exA, exB)], 1).astype(np.float32)
+
+
+def exchange_features(exA, exB):
+    """Turns-to-KO between the actives from raw best damage (act_expdmg is raw/100) and HP (act_hp is hp/200); the
+    exchange winner is whoever KOs first, speed breaking ties. Antisymmetric by construction (side A's view)."""
+    iD, iH, iF = EXTRA_NAMES.index("act_expdmg"), EXTRA_NAMES.index("act_hp"), EXTRA_NAMES.index("act_faster")
+    dmgA, dmgB = exA[:, iD] * 100.0, exB[:, iD] * 100.0
+    hpA, hpB = exA[:, iH] * 200.0, exB[:, iH] * 200.0
+    with np.errstate(divide="ignore", invalid="ignore"):
+        ttkA = np.where(dmgA > 0, np.ceil(hpB / np.maximum(dmgA, 1e-6)), 9.0)   # turns for A to KO B
+        ttkB = np.where(dmgB > 0, np.ceil(hpA / np.maximum(dmgB, 1e-6)), 9.0)
+    ttkA, ttkB = np.minimum(ttkA, 9.0), np.minimum(ttkB, 9.0)
+    fasterA = exA[:, iF] > 0
+    winA = (ttkA < ttkB) | ((ttkA == ttkB) & fasterA & (ttkA < 9))
+    winB = (ttkB < ttkA) | ((ttkB == ttkA) & ~fasterA & (ttkB < 9))
+    return np.stack([ttkA / 6.0, ttkB / 6.0, winA.astype(np.float32), winB.astype(np.float32),
+                     (winA & fasterA).astype(np.float32), (winB & ~fasterA).astype(np.float32)], 1).astype(np.float32)
 
 
 class LinearEvaluator:
@@ -225,8 +244,145 @@ def pair_metrics(w, std, P, ids=None):
     return loss, acc, int(disc.sum())
 
 
+# ---------------------------------------------------------------------------------------------------------
+# Amplified targets (frlgsim.amplify): regress the linear model onto the search value V1
+
+def fit_amplified(F, I, V, epochs=300, lr=0.05, l2=1e-3, min_frac=0.005, log=print, heldout_frac=0.1, G=None, seed=0):
+    """z = (dphi / std) . w fitted so that sigmoid(z) matches the search value p = (V + 1) / 2 (soft-target BCE).
+    Held out by game when G is given. Returns (w, std, heldout_loss, heldout_corr)."""
+    D = delta_phi(F, I)
+    nz = (D != 0).mean(0)
+    std = D.std(0).astype(np.float32)
+    keep = (nz >= min_frac) & (std > 0)
+    std = np.where(keep, std, np.inf).astype(np.float32)
+    X = torch.from_numpy(D / std)
+    p = torch.from_numpy(((np.asarray(V, np.float32) + 1) / 2).astype(np.float32))
+    n = len(p)
+    rng = np.random.default_rng(seed)
+    if G is not None:
+        games = np.unique(G); rng.shuffle(games)
+        hold = np.isin(G, games[:int(len(games) * heldout_frac)])
+    else:
+        hold = rng.random(n) < heldout_frac
+    tr, ho = torch.from_numpy(np.where(~hold)[0]), torch.from_numpy(np.where(hold)[0])
+    w = torch.zeros(FEATURES, requires_grad=True)
+    opt = torch.optim.Adam([w], lr=lr)
+    bce = torch.nn.functional.binary_cross_entropy_with_logits
+    for ep in range(epochs):
+        loss = bce(X[tr] @ w, p[tr]) + l2 * (w * w).sum()
+        opt.zero_grad(); loss.backward(); opt.step()
+        if log and (ep % 100 == 0 or ep == epochs - 1):
+            with torch.no_grad():
+                log(f"epoch {ep} train {float(loss):.4f} heldout {float(bce(X[ho] @ w, p[ho])):.4f}")
+    with torch.no_grad():
+        z = X[ho] @ w
+        hl = float(bce(z, p[ho]))
+        corr = float(np.corrcoef(torch.sigmoid(z).numpy(), p[ho].numpy())[0, 1])
+    return w.detach().numpy(), std, hl, corr
+
+
+# ---------------------------------------------------------------------------------------------------------
+# Stage 3: a small MLP on the same per-side feature differences (still antisymmetric: f(dphi) - f(-dphi))
+
+class MLPValue(torch.nn.Module):
+    def __init__(self, n_in, hidden=64):
+        super().__init__()
+        self.net = torch.nn.Sequential(torch.nn.Linear(n_in, hidden), torch.nn.GELU(), torch.nn.Linear(hidden, hidden), torch.nn.GELU(), torch.nn.Linear(hidden, 1))
+
+    def forward(self, x):
+        return (self.net(x) - self.net(-x)).squeeze(-1) * 0.5
+
+
+def fit_amplified_mlp(F, I, V, hidden=64, epochs=60, lr=2e-3, wd=1e-4, min_frac=0.005, batch=2048, log=print, heldout_frac=0.1, G=None, seed=0):
+    D = delta_phi(F, I)
+    nz = (D != 0).mean(0)
+    std = D.std(0).astype(np.float32)
+    keep = (nz >= min_frac) & (std > 0)
+    std = np.where(keep, std, np.inf).astype(np.float32)
+    X = torch.from_numpy(D / std)
+    p = torch.from_numpy(((np.asarray(V, np.float32) + 1) / 2).astype(np.float32))
+    n = len(p)
+    rng = np.random.default_rng(seed)
+    if G is not None:
+        games = np.unique(G); rng.shuffle(games)
+        hold = np.isin(G, games[:int(len(games) * heldout_frac)])
+    else:
+        hold = rng.random(n) < heldout_frac
+    tr, ho = np.where(~hold)[0], torch.from_numpy(np.where(hold)[0])
+    torch.manual_seed(seed)
+    net = MLPValue(FEATURES, hidden)
+    opt = torch.optim.AdamW(net.parameters(), lr=lr, weight_decay=wd)
+    sched = torch.optim.lr_scheduler.CosineAnnealingLR(opt, epochs)
+    bce = torch.nn.functional.binary_cross_entropy_with_logits
+    for ep in range(epochs):
+        perm = rng.permutation(tr)
+        for k in range(0, len(perm), batch):
+            idx = torch.from_numpy(perm[k:k + batch])
+            loss = bce(net(X[idx]), p[idx])
+            opt.zero_grad(); loss.backward(); opt.step()
+        sched.step()
+        if log and (ep % 20 == 0 or ep == epochs - 1):
+            with torch.no_grad():
+                log(f"epoch {ep} heldout {float(bce(net(X[ho]), p[ho])):.4f}")
+    with torch.no_grad():
+        z = net(X[ho])
+        hl = float(bce(z, p[ho]))
+        corr = float(np.corrcoef(torch.sigmoid(z).numpy(), p[ho].numpy())[0, 1])
+    return net, std, hl, corr
+
+
+class MLPEvaluator:
+    """selfplay.NetEvaluator interface for MLPValue on delta-phi features (CPU)."""
+
+    def __init__(self, net, std, name="mlp"):
+        self.net = net.eval()
+        self.std = np.asarray(std, np.float32)
+        self.name = name
+        self.calls = self.states = 0
+        self.time = 0.0
+
+    @torch.no_grad()
+    def probs(self, F, I):
+        E = Enc.load()
+        x = torch.from_numpy(delta_phi(F, I) / self.std)
+        p = torch.sigmoid(self.net(x)).numpy()
+        term = np.asarray(I)[:, E.I_TERMINAL]
+        p = np.where(term == 1, 1.0, np.where(term == 2, 0.0, np.where(term == 3, 0.5, p))).astype(np.float32)
+        self.calls += 1; self.states += len(p)
+        return p
+
+
 if __name__ == "__main__":
     cmd = sys.argv[1]
+    if cmd == "fitampmlp":
+        # python -m frlgsim.linear fitampmlp ../ai/data/amp1 out.pt [--hidden 64]
+        prefix, out = sys.argv[2], sys.argv[3]
+        hidden = int(sys.argv[sys.argv.index("--hidden") + 1]) if "--hidden" in sys.argv else 64
+        F = np.array(np.load(prefix + "_F.npy", mmap_mode="r")); I = np.array(np.load(prefix + "_I.npy", mmap_mode="r")); V = np.load(prefix + "_v.npy"); G = np.load(prefix + "_g.npy")
+        net, std, hl, corr = fit_amplified_mlp(F, I, V, hidden=hidden, G=G)
+        print(f"mlp hidden {hidden}: held-out soft-BCE {hl:.4f} corr(p, target) {corr:.3f}")
+        torch.save({"state": net.state_dict(), "std": std, "hidden": hidden, "n_in": FEATURES}, out)
+        sys.exit(0)
+    if cmd == "fitamp":
+        # python -m frlgsim.linear fitamp ../ai/data/amp1 out.npz
+        prefix, out = sys.argv[2], sys.argv[3]
+        F = np.load(prefix + "_F.npy", mmap_mode="r"); I = np.load(prefix + "_I.npy", mmap_mode="r"); V = np.load(prefix + "_v.npy"); G = np.load(prefix + "_g.npy")
+        F, I = np.array(F), np.array(I)
+        # the hand heuristic vs the same targets (its own raw value, for reference): correlation of clip(w.dphi/7) with V
+        d = delta_phi(F, I) @ hand_weights()
+        print(f"{len(V)} states; hand heuristic value vs V1: corr {np.corrcoef(np.clip(d / 7, -1, 1), V)[0, 1]:.3f}")
+        best = None
+        for l2 in (1e-4, 1e-3, 1e-2):
+            w, std, hl, corr = fit_amplified(F, I, V, l2=l2, log=None, G=G)
+            print(f"l2 {l2:g}: held-out soft-BCE {hl:.4f} corr(p, target) {corr:.3f}")
+            if best is None or hl < best[0]:
+                best = (hl, l2, w, std, corr)
+        hl, l2, w, std, corr = best
+        print(f"chosen l2 {l2:g}: held-out {hl:.4f} corr {corr:.3f}")
+        for nme, b, sd in zip(NAMES, w, std):
+            if b != 0: print(f"  {nme:16s} w {b:+.3f}  (per raw unit {b / sd:+.3f})")
+        np.savez(out, w=w, std=std)
+        sys.exit(0)
     if cmd == "fitpairs":
         # python -m frlgsim.linear fitpairs pairs.bin out.npz [--outcome 0.1]
         path, out = sys.argv[2], sys.argv[3]
@@ -272,5 +428,9 @@ if __name__ == "__main__":
         for nme, b, sd in zip(NAMES, w, std):
             print(f"  {nme:14s} w {b:+.3f}  (per raw unit {b / sd if np.isfinite(sd) else 0:+.3f})")
         np.savez(out, w=w, std=std, hand_scale=best[1])
+
+
+
+
 
 

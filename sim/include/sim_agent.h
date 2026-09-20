@@ -40,7 +40,8 @@ struct SimAgent
 // Builds an agent from "name[:key=value,...]". Names: game (flags=basic|smart|all), random, movebias
 // (moves=0.85), greedy, epsgreedy (eps=0.1), expect, epsexpect (eps=0.1), rm (iters=10), rmplus
 // (iters=10, alt=1, linavg=1), rmsample (iters=100: RM+ with fresh engine samples every iteration instead of
-// a precomputed matrix). Common keys: vf=basic|material, samples=N, floor=P, eps=P, seed=N.
+// a precomputed matrix), mcts (iters=400 tree iterations, rm=30 RM+ iterations per node, eps=0.1: simultaneous-move
+// MCTS with regret matching at every node and the value function at the leaves). Common keys: vf=basic|material, samples=N, floor=P, eps=P, seed=N.
 // Returns 0 on success, -1 on a bad spec (with a message in ag->name).
 int Sim_AgentFromSpec(struct SimAgent *ag, const char *spec);
 u32 Sim_AgentRandom(struct SimAgent *ag);
@@ -61,6 +62,8 @@ float Sim_SimulateJoint(struct SimAgent *ag, const struct BattleSim *turnStart, 
                         const struct SimAction *theirs, u32 seed);
 // Simulates a single answer from the current state (the other side plays randomly meanwhile).
 float Sim_SimulateAfter(struct SimAgent *ag, const struct BattleSim *sim, u8 me, const struct SimAction *act, u32 seed);
+// Equilibrium value (side 0) of the one-turn matrix from a turn-start state with the agent's value function.
+int Sim_SearchValue(struct SimAgent *ag, const struct BattleSim *turnStart, float *value, int *nCells);
 // Regret matching on an n x m zero-sum matrix (row player's payoff). Writes the average strategies.
 void Sim_RegretMatching(const float *M, int n, int m, int iters, int plus, int alternating, int linearAvg,
                         float *sigmaRow, float *sigmaCol);

@@ -47,6 +47,7 @@ def lib():
             "sim_agent_free": (None, [vp]),
             "sim_agent_name": (C.c_char_p, [vp]),
             "sim_agent_decide": (C.c_int, [vp, vp, vp, C.c_int, C.c_int, u8p]),
+            "sim_agent_search_value": (C.c_int, [vp, vp, C.POINTER(C.c_float)]),
             "sim_value_basic": (C.c_float, [vp, C.c_int]),
             "sim_species_name": (C.c_char_p, [C.c_int]),
             "sim_move_name": (C.c_char_p, [C.c_int]),
@@ -254,6 +255,13 @@ class CAgent:
         if r != 0:
             raise RuntimeError("agent cannot play this side")
         return out
+
+    def search_value(self, turn_start: Sim):
+        """Side-0 equilibrium value in [-1, 1] of this agent's one-turn matrix from a turn-start state, or None."""
+        v = C.c_float(0)
+        if lib().sim_agent_search_value(self.h, turn_start.ptr, C.byref(v)) != 0:
+            return None
+        return v.value
 
     def __del__(self):
         try:

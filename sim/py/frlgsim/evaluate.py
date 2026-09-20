@@ -51,6 +51,7 @@ def main():
     ap.add_argument("--samples", type=int, default=4)
     ap.add_argument("--opponents", default="rmplus:iters=100,samples=4;rm:iters=10;greedy")
     ap.add_argument("--min-rating", type=float, default=800.0)
+    ap.add_argument("--teams", default=None, help="team TSV (default: the whole corpus filtered by --min-rating)")
     ap.add_argument("--threads", type=int, default=8)
     ap.add_argument("--device", default="mps")
     ap.add_argument("--seed", type=int, default=7)
@@ -59,6 +60,11 @@ def main():
     if args.ckpt == "hand":
         from .linear import LinearEvaluator, hand_weights
         ev, ck = LinearEvaluator(hand_weights(), heuristic_clip=True, name="hand"), {}
+    elif args.ckpt.endswith(".mlp.pt"):
+        from .linear import MLPEvaluator, MLPValue
+        z = torch.load(args.ckpt, weights_only=False)
+        net = MLPValue(z["n_in"], z["hidden"]); net.load_state_dict(z["state"])
+        ev, ck = MLPEvaluator(net, z["std"], name=os.path.basename(args.ckpt)), {}
     elif args.ckpt.endswith(".npz"):
         from .linear import LinearEvaluator
         z = np.load(args.ckpt)
@@ -66,7 +72,7 @@ def main():
     else:
         net, ck = load_net(args.ckpt, args.device)
         ev = SP.NetEvaluator(net, args.device, compile=True, name=os.path.basename(args.ckpt))
-    teams = Teams(min_rating=args.min_rating)
+    teams = Teams(tsv_path=args.teams) if args.teams else Teams(min_rating=args.min_rating)
     rng = np.random.default_rng(args.seed)
     results = {}
     for spec in [s for s in args.opponents.split(";") if s]:
