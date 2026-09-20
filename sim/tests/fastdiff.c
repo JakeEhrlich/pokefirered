@@ -114,7 +114,7 @@ static void RunVerbatim(const struct BattleSim *ts, const struct SimAction *a0, 
     }
 }
 
-static void PrintMon(const fs_battler *a) { printf("%s L%d hp %d/%d st %x stg", sim_species_name(a->species), a->level, a->hp, a->maxHP, a->status1); for (int i = 1; i < 6; i++) printf(" %d", a->stages[i] - 6); }
+static void PrintMon(const fs_battler *a) { printf("%s L%d hp %d/%d st %x stg", sim_species_name(a->species), a->level, a->hp, a->maxHP, a->status1); for (int i = 1; i < 6; i++) printf(" %d", a->stages[i] - 6); printf(" item %d abil %d types %d/%d stats %d/%d/%d/%d/%d vol %x", a->item, a->ability, a->type1, a->type2, a->atk, a->def, a->spe, a->spa, a->spd, a->vol); }
 
 int main(int argc, char **argv)
 {
@@ -285,10 +285,11 @@ int main(int argc, char **argv)
                                     for (k2 = 599; k2 >= 0; k2--) if (hist[0][k2] || hist[1][k2]) printf(" %d:%d|%d", k2, hist[0][k2], hist[1][k2]);
                                     printf("\n");
                                 }
-                                for (int k = 0; k < sNB && k < 0; k++)
+                                for (int k = 0; k < sNB && getenv("FASTDIFF_BUCKETS"); k++)   // FASTDIFF_BUCKETS=1: every outcome bucket
                                 {
                                     const struct Summary *e = &sB[k].ex;
-                                    printf("   %5d vs %5d  hp %d/%d mon %d/%d st %x/%x req %d mask %d out %d pty %d/%d\n", sB[k].n[0], sB[k].n[1], e->sd[0].hp, e->sd[1].hp, e->sd[0].mon, e->sd[1].mon, e->sd[0].st, e->sd[1].st, e->req, e->mask, e->outcome,
+                                    printf("   %5d vs %5d  hp %d/%d mon %d/%d st %x/%x sub %d/%d vol %x/%x stg %d%d%d%d%d/%d%d%d%d%d req %d mask %d out %d pty %d/%d\n", sB[k].n[0], sB[k].n[1], e->sd[0].hp, e->sd[1].hp, e->sd[0].mon, e->sd[1].mon, e->sd[0].st, e->sd[1].st, e->sd[0].sub, e->sd[1].sub, e->sd[0].vol, e->sd[1].vol,
+                                           e->sd[0].stg[1], e->sd[0].stg[2], e->sd[0].stg[3], e->sd[0].stg[4], e->sd[0].stg[5], e->sd[1].stg[1], e->sd[1].stg[2], e->sd[1].stg[3], e->sd[1].stg[4], e->sd[1].stg[5], e->req, e->mask, e->outcome,
                                            e->sd[0].php[0] + e->sd[0].php[1] + e->sd[0].php[2] + e->sd[0].php[3] + e->sd[0].php[4] + e->sd[0].php[5], e->sd[1].php[0] + e->sd[1].php[1] + e->sd[1].php[2] + e->sd[1].php[3] + e->sd[1].php[4] + e->sd[1].php[5]);
                                 }
                             }

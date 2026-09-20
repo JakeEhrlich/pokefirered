@@ -94,6 +94,7 @@ static void ImportMon(fs_mon *m, struct Pokemon *mon)
     m->gender = GetMonGender(mon);
     m->status1 = GetMonData(mon, MON_DATA_STATUS) & 0xFFF;
     m->friendship = GetMonData(mon, MON_DATA_FRIENDSHIP);
+    m->nature = GetMonData(mon, MON_DATA_PERSONALITY) % 25;   // GetNatureFromPersonality
     {
         // Hidden Power (the game: type from the IV low bits, power from bit 1)
         u8 iv[6] = { GetMonData(mon, MON_DATA_HP_IV), GetMonData(mon, MON_DATA_ATK_IV), GetMonData(mon, MON_DATA_DEF_IV),
@@ -167,7 +168,8 @@ int fs_import(fs_state *out, const struct BattleSim *simc)
                 a->wrapTurns = (s2 & STATUS2_WRAPPED) >> 13;
                 a->wrapMove = gBattleStruct->wrappedMove[s * 2] | (gBattleStruct->wrappedMove[s * 2 + 1] << 8);
             }
-            if (s2 & (STATUS2_UPROAR | STATUS2_BIDE | STATUS2_LOCK_CONFUSE | STATUS2_MULTIPLETURNS | STATUS2_TRANSFORMED | STATUS2_RAGE))
+            if (s2 & STATUS2_TRANSFORMED) a->vol |= FS_V_TRANSFORMED;   // gBattleMons already holds the copied data
+            if (s2 & (STATUS2_UPROAR | STATUS2_BIDE | STATUS2_LOCK_CONFUSE | STATUS2_MULTIPLETURNS | STATUS2_RAGE))
                 out->unsupported |= FS_UNSUP_VOLATILE;
             if (s3 & STATUS3_LEECHSEED) a->vol |= FS_V_LEECH_SEED;
             if (s3 & STATUS3_INTIMIDATE_POKES) a->vol |= FS_V_INTIMIDATE_PENDING;
@@ -178,7 +180,11 @@ int fs_import(fs_state *out, const struct BattleSim *simc)
             if (s3 & STATUS3_WATERSPORT) a->vol |= FS_V_WATER_SPORT;
             if (s3 & STATUS3_PERISH_SONG) a->perishTimer = d->perishSongTimer + 1;   // stored as remaining+1 so 0 = inactive
             if (s3 & STATUS3_YAWN) a->yawnTimer = (s3 & STATUS3_YAWN) >> 11;
-            if (s3 & (STATUS3_ALWAYS_HITS | STATUS3_ON_AIR | STATUS3_UNDERGROUND | STATUS3_UNDERWATER | STATUS3_IMPRISONED_OTHERS | STATUS3_GRUDGE | STATUS3_TRACE))
+            if (s3 & STATUS3_TRACE) a->vol |= FS_V_TRACE_ARMED;
+            if (s3 & STATUS3_IMPRISONED_OTHERS) a->vol |= FS_V_IMPRISON;
+            if (s3 & STATUS3_GRUDGE) a->vol |= FS_V_GRUDGE;
+            if ((s3 & STATUS3_ALWAYS_HITS) && d->battlerWithSureHit == (s ^ 1)) a->lockOn = (s3 & STATUS3_ALWAYS_HITS) >> 3;
+            if (s3 & (STATUS3_ON_AIR | STATUS3_UNDERGROUND | STATUS3_UNDERWATER))
                 out->unsupported |= FS_UNSUP_VOLATILE;
             if (gBattleResources->flags.flags[s] & RESOURCE_FLAG_FLASH_FIRE) a->vol |= FS_V_FLASH_FIRE;
         }
@@ -187,8 +193,20 @@ int fs_import(fs_state *out, const struct BattleSim *simc)
         a->furyCutter = d->furyCutterCounter; a->rolloutTimer = d->rolloutTimer; a->chargeTimer = d->chargeTimer;
         a->encoredPos = d->encoredMovePos;
         for (i = 0; i < 4; i++) if (d->disabledMove && a->moves[i] == d->disabledMove) a->disabledPos = i;
-        if (d->rolloutTimer || d->furyCutterCounter || d->stockpileCounter || d->mimickedMoves) out->unsupported |= FS_UNSUP_VOLATILE;
+        if (d->rolloutTimer || d->furyCutterCounter) out->unsupported |= FS_UNSUP_VOLATILE;
+        a->mimicked = d->mimickedMoves;
         a->hpTypeCache = sd->party[a->monIdx].hpType;
+        a->hpPowerCache = sd->party[a->monIdx].hpPower;
+        if (a->vol & FS_V_TRANSFORMED)
+        {
+            // Hidden Power reads the battle copy's IVs, which Transform copied from the target
+            u8 typeBits = (bm->hpIV & 1) | ((bm->attackIV & 1) << 1) | ((bm->defenseIV & 1) << 2) | ((bm->speedIV & 1) << 3) | ((bm->spAttackIV & 1) << 4) | ((bm->spDefenseIV & 1) << 5);
+            u8 powerBits = ((bm->hpIV & 2) >> 1) | (bm->attackIV & 2) | ((bm->defenseIV & 2) << 1) | ((bm->speedIV & 2) << 2) | ((bm->spAttackIV & 2) << 3) | ((bm->spDefenseIV & 2) << 4);
+            a->hpTypeCache = (15 * typeBits) / 63 + 1;
+            if (a->hpTypeCache >= TYPE_MYSTERY) a->hpTypeCache++;
+            a->hpPowerCache = (40 * powerBits) / 63 + 30;
+        }
+        sd->usedItem = gBattleStruct->usedHeldItems[s];
         a->lastMove = (gLastMoves[s] == 0xFFFF) ? 0 : gLastMoves[s];
         a->choicedMove = (gBattleStruct->choicedMove[s] == 0xFFFF) ? 0 : gBattleStruct->choicedMove[s];
         a->lastLandedMove = gLastLandedMoves[s] == 0xFFFF ? 0 : gLastLandedMoves[s];
@@ -267,6 +285,12 @@ static int MoveUsable(const fs_state *s, int side, int slot)
     if ((a->vol & FS_V_TORMENT) && move == a->lastMove) return 0;
     if (a->encoreTimer && slot != a->encoredPos) return 0;
     if (a->choicedMove && fs_hold_effect(a->item) == HOLD_EFFECT_CHOICE_BAND && move != a->choicedMove) return 0;
+    {
+        // Imprison: moves known by an opponent that used Imprison cannot be selected (GetImprisonedMovesCount)
+        const fs_battler *o = &s->side[side ^ 1].act;
+        int k;
+        if (o->vol & FS_V_IMPRISON) for (k = 0; k < 4; k++) if (o->moves[k] == move) return 0;
+    }
     return 1;
 }
 
@@ -310,8 +334,8 @@ u32 fs_effective_speed(fs_state *s, int side)
     const fs_battler *a = &s->side[side].act;
     u32 sp = a->spe;
     u8 he = fs_hold_effect(a->item);
-    if (s->weather == FS_WEATHER_RAIN && a->ability == ABILITY_SWIFT_SWIM) sp *= 2;
-    if (s->weather == FS_WEATHER_SUN && a->ability == ABILITY_CHLOROPHYLL) sp *= 2;
+    if (fs_weather_active(s) && s->weather == FS_WEATHER_RAIN && a->ability == ABILITY_SWIFT_SWIM) sp *= 2;
+    if (fs_weather_active(s) && s->weather == FS_WEATHER_SUN && a->ability == ABILITY_CHLOROPHYLL) sp *= 2;
     sp = sp * fs_stat_ratio[a->stages[STAT_SPEED]][0] / fs_stat_ratio[a->stages[STAT_SPEED]][1];
     if (he == HOLD_EFFECT_MACHO_BRACE) sp /= 2;
     if (a->status1 & FS_S1_PAR) sp /= 4;
@@ -400,8 +424,15 @@ s32 fs_base_damage(fs_state *s, int atkSide, int defSide, u16 move, u16 power, u
 
 int fs_weather_active(const fs_state *s)
 {
-    // Cloud Nine / Air Lock negate weather; both are unsupported abilities for now, so weather is always active
-    return s->weather != 0;
+    // WEATHER_HAS_EFFECT: no weather effects while a battler with Cloud Nine or Air Lock is on the field (hp != 0)
+    int i;
+    if (s->weather == 0) return 0;
+    for (i = 0; i < 2; i++)
+    {
+        const fs_battler *a = &s->side[i].act;
+        if (a->present && a->hp && (a->ability == ABILITY_CLOUD_NINE || a->ability == ABILITY_AIR_LOCK)) return 0;
+    }
+    return 1;
 }
 
 // accuracy check: 1 = hit
@@ -414,6 +445,7 @@ int fs_accuracy_check(fs_state *s, int atkSide, int defSide, u16 move, u8 type)
     u8 moveAcc = bm->accuracy;
     u8 dhe = fs_hold_effect(df->item);
     if (moveAcc == 0) return 1;
+    if (df->lockOn) return 1;   // Lock-On / Mind Reader (STATUS3_ALWAYS_HITS by this attacker)
     if (fs_weather_active(s) && s->weather == FS_WEATHER_RAIN && bm->effect == EFFECT_THUNDER) return 1;   // Thunder never misses in rain
     if (df->vol & FS_V_FORESIGHT) buff = at->stages[STAT_ACC];
     else buff = at->stages[STAT_ACC] + 6 - df->stages[STAT_EVASION];
@@ -462,7 +494,7 @@ void fs_sync_to_party(fs_state *s, int side)
     int i;
     if (!m->species || !a->present) return;
     m->hp = a->hp; m->status1 = a->status1 & ~FS_S1_TOXCTR;   // the party keeps the toxic flag only; the counter restarts on switch-in
-    for (i = 0; i < 4; i++) if (!(a->vol & FS_V_TRANSFORMED)) m->pp[i] = a->pp[i];
+    for (i = 0; i < 4; i++) if (!(a->vol & FS_V_TRANSFORMED) && !(a->mimicked & (1 << i))) m->pp[i] = a->pp[i];
     m->item = a->item;
 }
 
@@ -477,6 +509,7 @@ static void ResetVolatile(fs_battler *a)
     a->disabledPos = a->encoredPos = 0;
     a->lockedMove = a->lastMove = a->lastLandedMove = a->lastHitByType = a->chosenMove = a->bideDmg = a->wrapMove = 0;
     a->choicedMove = 0;
+    a->mimicked = 0; a->lockOn = 0;
 }
 
 // Brings party slot `idx` in on `side` (the previous active, if any, is synced out). Switch-in effects follow.
@@ -492,6 +525,7 @@ void fs_switch_in(fs_state *s, int side, int idx)
         fs_sync_to_party(s, side);
         s->side[side ^ 1].act.wrapTurns = 0;   // the wrapper leaving frees its target
         s->side[side ^ 1].act.vol &= ~(FS_V_ESCAPE_PREV | FS_V_INFATUATED);   // Mean Look / Attract by the one leaving end too
+        s->side[side ^ 1].act.lockOn = 0;   // and so does its Lock-On (fs_baton_pass restarts it)
     }
     m = &sd->party[idx];
     ResetVolatile(a);
@@ -502,7 +536,7 @@ void fs_switch_in(fs_state *s, int side, int idx)
     a->item = (sd->knockedOff & (1 << idx)) ? 0 : m->item; a->ability = m->ability; a->level = m->level; a->type1 = m->type1; a->type2 = m->type2; a->gender = m->gender;
     a->status1 = m->status1;
     a->isFirstTurn = 2;
-    a->hpTypeCache = m->hpType;
+    a->hpTypeCache = m->hpType; a->hpPowerCache = m->hpPower;
     // spikes
     if (sd->spikes && !(a->type1 == TYPE_FLYING || a->type2 == TYPE_FLYING) && a->ability != ABILITY_LEVITATE)
     {
@@ -519,11 +553,14 @@ void fs_switch_in(fs_state *s, int side, int idx)
 void fs_baton_pass(fs_state *s, int side, int idx)
 {
     fs_battler *a = &s->side[side].act;
-    s8 stages[FS_STAGES]; u32 vol; u8 subHP, confusionTurns, perish;
+    s8 stages[FS_STAGES]; u32 vol; u8 subHP, confusionTurns, perish, lockOn, oppLockOn;
     memcpy(stages, a->stages, sizeof(stages)); vol = a->vol; subHP = a->substituteHP; confusionTurns = a->confusionTurns; perish = a->perishTimer;
+    lockOn = a->lockOn; oppLockOn = s->side[side ^ 1].act.lockOn;
     fs_switch_in(s, side, idx);
     if (!a->present) return;
     memcpy(a->stages, stages, sizeof(stages));
+    a->lockOn = lockOn;                                    // STATUS3_ALWAYS_HITS is passed on
+    if (oppLockOn) s->side[side ^ 1].act.lockOn = 2;       // and the passer's Lock-On on the foe restarts at 2 turns (SwitchInClearSetData)
     a->vol |= vol & (FS_V_CONFUSED | FS_V_FOCUS_ENERGY | FS_V_SUBSTITUTE | FS_V_LEECH_SEED | FS_V_ROOTED | FS_V_CURSED | FS_V_ESCAPE_PREV | FS_V_MUD_SPORT | FS_V_WATER_SPORT);
     a->substituteHP = subHP; a->confusionTurns = confusionTurns; a->perishTimer = perish;
 }
@@ -564,6 +601,7 @@ static int CheckOutcome(fs_state *s)
 static void FinishTurn(fs_state *s)
 {
     fs_end_turn(s);
+    fs_ext_field_update(s);   // HandleFaintedMonActions case 6 after the end-turn effects: Trace, Forecast
     fs_sync_to_party(s, 0); fs_sync_to_party(s, 1);
     s->turn++;
     s->phase = 2;
@@ -595,12 +633,16 @@ static void Resume(fs_state *s)
             if (s->pending[side].type == FS_ACT_NONE)
                 continue;   // cancelled: the mon that chose it was replaced
             if (s->pending[side].type == FS_ACT_SWITCH)
+            {
+                fs_ext_before_switch(s, side);   // Pursuit hits the leaving mon first
                 fs_switch_in(s, side, s->pending[side].slot);   // chosen legally at the turn start; a trapper arriving first does not stop it
+            }
             else
             {
                 fs_battler *a = &s->side[side].act;
                 if (a->present && a->hp) fs_use_move(s, side, s->pending[side].slot);
             }
+            fs_ext_field_update(s);   // HandleFaintedMonActions after every action: Trace, Forecast
             fs_sync_to_party(s, 0); fs_sync_to_party(s, 1);
             if (CheckOutcome(s)) return;
             {
@@ -748,7 +790,7 @@ void fs_end_turn(fs_state *s)
     {
         if (--s->weatherTurns == 0) s->weather = 0;
     }
-    if (s->weather == FS_WEATHER_SAND || s->weather == FS_WEATHER_HAIL)
+    if ((s->weather == FS_WEATHER_SAND || s->weather == FS_WEATHER_HAIL) && fs_weather_active(s))
     {
         for (b = 0; b < 2; b++)
         {
@@ -772,13 +814,14 @@ void fs_end_turn(fs_state *s)
         if (!a->present) continue;
         if (a->vol & FS_V_ROOTED) Heal(s, side, a->maxHP / 16);
         // abilities
-        if (a->ability == ABILITY_RAIN_DISH && s->weather == FS_WEATHER_RAIN) Heal(s, side, a->maxHP / 16);
+        if (a->ability == ABILITY_RAIN_DISH && s->weather == FS_WEATHER_RAIN && fs_weather_active(s)) Heal(s, side, a->maxHP / 16);
         if (a->ability == ABILITY_SHED_SKIN && a->status1 && fs_chance(s, 1, 3)) a->status1 = 0;
         if (a->ability == ABILITY_SPEED_BOOST && a->stages[STAT_SPEED] < 12 && a->isFirstTurn != 2) a->stages[STAT_SPEED]++;
         if (a->ability == ABILITY_TRUANT) a->truantCounter ^= 1;
         // items
         if (fs_hold_effect(a->item) == HOLD_EFFECT_LEFTOVERS) Heal(s, side, a->maxHP / 16);
         fs_end_turn_items(s, side);
+        fs_ext_end_turn_item(s, side);
         ET_NEXT();
         if ((a->vol & FS_V_LEECH_SEED) && s->side[other].act.present && a->hp)
         {
@@ -817,6 +860,7 @@ void fs_end_turn(fs_state *s)
         if (a->encoreTimer && a->pp[a->encoredPos] == 0) a->encoreTimer = 0;
         if (a->chargeTimer && --a->chargeTimer == 0) a->vol &= ~FS_V_CHARGED;
         if (a->tauntTimer) a->tauntTimer--;
+        if (a->lockOn) a->lockOn--;   // ENDTURN_LOCK_ON
         if (a->yawnTimer && --a->yawnTimer == 0)
         {
             if (!a->status1 && a->ability != ABILITY_VITAL_SPIRIT && a->ability != ABILITY_INSOMNIA && !s->side[side].safeguard)

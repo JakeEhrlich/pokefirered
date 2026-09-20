@@ -75,7 +75,7 @@ int fs_item_supported(u16 item)
     switch (he)
     {
     case HOLD_EFFECT_CONFUSE_SPICY: case HOLD_EFFECT_CONFUSE_DRY: case HOLD_EFFECT_CONFUSE_SWEET: case HOLD_EFFECT_CONFUSE_BITTER: case HOLD_EFFECT_CONFUSE_SOUR:
-        return 0;
+        return 1;   // fast_ext.c: fs_ext_end_turn_item
     default:
         return item != ITEM_ENIGMA_BERRY;
     }
@@ -207,7 +207,9 @@ static void ForceSwitchRandom(fs_state *s, int side)
 // ---------------------------------------------------------------------------------------------------------
 // the attack
 
-struct Hit { s32 dmg; int hit; int crit; int mult; int dbond; int hadSub; };   // hadSub: the target had a Substitute when hit (secondary effects are blocked even if it broke)
+struct Hit { s32 dmg; int hit; int crit; int mult; int dbond; int hadSub; };   // hadSub: the target had a Substitute when hit (secondary effects are blocked even if it broke); must match struct fs_hit
+// set by fs_attack_ex around AttackHit: an extra damage multiplier (applied with the crit multiplier, like dmgMultiplier) and no random roll
+static int sExtDmgMult = 1, sExtNoRoll = 0;
 
 // Deals the damage of one hit of `move` with `power` and `type`. Handles accuracy (unless noAcc), immunities,
 // crit, STAB, type, roll, Substitute / Endure / Focus Band / False Swipe, and applies it. Returns the hit record.
@@ -232,13 +234,14 @@ static struct Hit AttackHit(fs_state *s, int side, u16 move, u16 power, u8 type,
     h.crit = noCrit ? 0 : fs_crit_check(s, side, opp, move);
     dmg = fs_base_damage(s, side, opp, move, power, type, h.crit);
     dmg *= h.crit ? 2 : 1;
+    dmg *= sExtDmgMult;
     if ((a->vol & FS_V_CHARGED) && type == TYPE_ELECTRIC) dmg *= 2;
     if (move != MOVE_STRUGGLE)
     {
         if (IsType(a, type)) dmg = dmg * 15 / 10;
         dmg = fs_apply_type(dmg, type, t->type1, t->type2, (t->vol & FS_V_FORESIGHT) != 0, NULL);
     }
-    dmg = fs_random_roll(s, dmg);
+    if (!sExtNoRoll) dmg = fs_random_roll(s, dmg);
     if (dmg == 0) dmg = 1;
     // Focus Band / Endure / False Swipe
     {
@@ -269,7 +272,9 @@ static void AfterHit(fs_state *s, int side, u16 move, struct Hit *h, int contact
     int opp = OPP(side);
     fs_battler *a = ACT(s, side), *t = ACT(s, opp);
     if (!h->hit || h->dmg == 0) return;
-    if (contact && a->present)
+    // a hit taken by a Substitute (even one that breaks it) triggers no contact ability (TARGET_TURN_DAMAGED) and no King's Rock:
+    // STATUS2_SUBSTITUTE is only cleared at MOVEEND_SUBSTITUTE, after those checks
+    if (contact && a->present && !h->hadSub)
     {
         switch (t->ability)
         {
@@ -290,9 +295,10 @@ static void AfterHit(fs_state *s, int side, u16 move, struct Hit *h, int contact
             break;
         }
     }
+    fs_ext_on_damage(s, side, move, (const struct fs_hit *)h);   // ABILITYEFFECT_ON_DAMAGE: Color Change
     // Shell Bell: nothing when the hit fainted the target (FaintClearSetData clears its damage record before moveend)
     if (a->present && t->present && fs_hold_effect(a->item) == HOLD_EFFECT_SHELL_BELL && h->dmg > 0) Heal(s, side, h->dmg / 8 ? h->dmg / 8 : 1);
-    if (t->present && !(t->vol & FS_V_SUBSTITUTE) && fs_hold_effect(a->item) == HOLD_EFFECT_FLINCH && (fs_move(move)->flags & FLAG_KINGS_ROCK_AFFECTED) && fs_chance(s, fs_hold_param(a->item), 100))
+    if (t->present && !h->hadSub && fs_hold_effect(a->item) == HOLD_EFFECT_FLINCH && (fs_move(move)->flags & FLAG_KINGS_ROCK_AFFECTED) && fs_chance(s, fs_hold_param(a->item), 100))
         t->vol |= FS_V_FLINCH;
     if (!t->present && (t->vol & FS_V_DESTINY_BOND) == 0) {}
 }
@@ -334,7 +340,7 @@ static int Cancellers(fs_state *s, int side, u16 move)
 {
     fs_battler *a = ACT(s, side);
     const struct BattleMove *bm = fs_move(move);
-    a->vol &= ~FS_V_DESTINY_BOND;
+    a->vol &= ~(FS_V_DESTINY_BOND | FS_V_GRUDGE);   // CANCELLER_FLAGS
     if (a->status1 & FS_S1_SLEEP)
     {
         u8 toSub = a->ability == ABILITY_EARLY_BIRD ? 2 : 1, cnt = a->status1 & FS_S1_SLEEP;
@@ -386,7 +392,7 @@ static u16 MovePower(fs_state *s, int side, u16 move, u8 *type)
     *type = bm->type;
     switch (bm->effect)
     {
-    case EFFECT_HIDDEN_POWER: *type = a->hpTypeCache; power = s->side[side].party[a->monIdx].hpPower; break;
+    case EFFECT_HIDDEN_POWER: *type = a->hpTypeCache; power = a->hpPowerCache; break;
     case EFFECT_RETURN: power = 10 * a->level / 25; { u8 f = s->side[side].party[a->monIdx].friendship; power = 10 * f / 25; } if (power == 0) power = 1; break;
     case EFFECT_FRUSTRATION: { u8 f = s->side[side].party[a->monIdx].friendship; power = 10 * (255 - f) / 25; if (power == 0) power = 1; } break;
     case EFFECT_FACADE: if (a->status1 & (FS_S1_PSN | FS_S1_TOX | FS_S1_BRN | FS_S1_PAR)) power *= 2; break;
@@ -474,6 +480,7 @@ void fs_use_move(fs_state *s, int side, int slot)
     u16 power;
     struct Hit h = {0, 0, 0, 10, 0, 0};
     int contact;
+    u32 tvol;   // the target's volatile flags before the move (fs_faint clears them; Grudge is read afterwards)
     // Encore replaces the chosen move as soon as it applies, even for a choice made earlier this turn (HandleAction_UseMove)
     if (slot < 4 && a->encoreTimer && a->pp[a->encoredPos]) slot = a->encoredPos;
     move = slot == 4 ? MOVE_STRUGGLE : a->moves[slot];
@@ -488,11 +495,13 @@ void fs_use_move(fs_state *s, int side, int slot)
     if (slot < 4 && a->pp[slot])
     {
         u8 dec = 1;
-        if (t->present && t->ability == ABILITY_PRESSURE) dec++;
+        // Cmd_ppreduce: Pressure costs an extra PP unless the move targets the user itself (Imprison and Perish Song pay it separately)
+        if (t->present && t->ability == ABILITY_PRESSURE && (!(bm->target & MOVE_TARGET_USER) || bm->effect == EFFECT_IMPRISON || bm->effect == EFFECT_PERISH_SONG)) dec++;
         a->pp[slot] = a->pp[slot] > dec ? a->pp[slot] - dec : 0;
     }
     power = MovePower(s, side, move, &type);
     if (!fs_effect_supported(bm->effect)) { s->unsupported |= FS_UNSUP_MOVE_EFFECT; return; }
+    tvol = t->vol;
     switch (bm->effect)
     {
     // ---- plain and secondary-effect hits
@@ -904,6 +913,8 @@ void fs_use_move(fs_state *s, int side, int slot)
     }
     // damage taken this turn (for Counter / Mirror Coat / Focus Punch / Revenge): recorded on the target
     if (h.hit && h.dmg && !h.hadSub && ACT(s, opp)->present) { ACT(s, opp)->bideDmg = h.dmg; }
+    // Grudge: the move that KOs the user loses all its PP (tvol: fs_faint cleared the target's flags)
+    if (h.hit && h.dmg && !t->present && (tvol & FS_V_GRUDGE) && a->present && move != MOVE_STRUGGLE && slot < 4) a->pp[slot] = 0;
     // Destiny Bond
     if (h.hit && h.dmg && !t->present && h.dbond && a->present) { a->hp = 0; fs_faint(s, side); }
     // berries that react to HP
@@ -920,7 +931,14 @@ void fs_damage(fs_state *s, int side, s32 dmg) { Damage(s, side, dmg); }
 void fs_heal(fs_state *s, int side, s32 amount) { Heal(s, side, amount); }
 s32 fs_attack(fs_state *s, int side, u16 move, u16 power, u8 type, int noAcc, int falseSwipe, int noCrit)
 {
-    struct Hit h = AttackHit(s, side, move, power, type, noAcc, falseSwipe, noCrit);
+    return fs_attack_ex(s, side, move, power, type, noAcc, falseSwipe, noCrit, 1, 0);
+}
+s32 fs_attack_ex(fs_state *s, int side, u16 move, u16 power, u8 type, int noAcc, int falseSwipe, int noCrit, int dmgMult, int noRoll)
+{
+    struct Hit h;
+    sExtDmgMult = dmgMult; sExtNoRoll = noRoll;
+    h = AttackHit(s, side, move, power, type, noAcc, falseSwipe, noCrit);
+    sExtDmgMult = 1; sExtNoRoll = 0;
     AfterHit(s, side, move, &h, (fs_move(move)->flags & FLAG_MAKES_CONTACT) != 0);
     if (h.hit && h.dmg && !h.hadSub && ACT(s, OPP(side))->present) ACT(s, OPP(side))->bideDmg = h.dmg;
     if (h.hit && h.dmg && !ACT(s, OPP(side))->present && h.dbond && ACT(s, side)->present) { ACT(s, side)->hp = 0; fs_faint(s, side); }
@@ -957,8 +975,8 @@ void fs_switch_in_abilities(fs_state *s, int side)
     case ABILITY_DRIZZLE: if (!(s->weather == FS_WEATHER_RAIN && s->weatherTurns == 0xFF)) Weather(s, FS_WEATHER_RAIN, 0xFF); break;
     case ABILITY_DROUGHT: if (!(s->weather == FS_WEATHER_SUN && s->weatherTurns == 0xFF)) Weather(s, FS_WEATHER_SUN, 0xFF); break;
     case ABILITY_SAND_STREAM: if (!(s->weather == FS_WEATHER_SAND && s->weatherTurns == 0xFF)) Weather(s, FS_WEATHER_SAND, 0xFF); break;
-    default: fs_ext_switch_in_ability(s, side); break;
     }
+    fs_ext_switch_in_ability(s, side);   // Trace / Forecast / Cloud Nine, and the field update (Trace retries, Castform) for both sides
 }
 
 // ---------------------------------------------------------------------------------------------------------
@@ -986,8 +1004,10 @@ void fs_end_turn_items(fs_state *s, int side)
 {
     fs_battler *a = ACT(s, side);
     u8 he, param;
+    u16 itemBefore;
     if (!a->present || a->hp == 0) return;
     he = fs_hold_effect(a->item); param = fs_hold_param(a->item);
+    itemBefore = a->item;
     switch (he)
     {
     case HOLD_EFFECT_RESTORE_HP: if (a->hp <= a->maxHP / 2) { Heal(s, side, param); a->item = 0; } break;
@@ -1025,5 +1045,5 @@ void fs_end_turn_items(fs_state *s, int side)
         break;
     }
     }
-    if (a->item == 0) s->side[side].party[a->monIdx].item = 0;
+    if (a->item == 0 && itemBefore) { s->side[side].party[a->monIdx].item = 0; s->side[side].usedItem = itemBefore; }   // Cmd_removeitem records it for Recycle
 }
