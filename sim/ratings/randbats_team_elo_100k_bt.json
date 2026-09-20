@@ -1,0 +1,10502 @@
+[
+ {
+  "name": "randbats_879",
+  "rating": 1174.3,
+  "se": 34.4,
+  "wins": 93.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_215",
+  "rating": 1160.6,
+  "se": 32.9,
+  "wins": 99.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_416",
+  "rating": 1158.2,
+  "se": 34.7,
+  "wins": 89.0,
+  "games": 125
+ },
+ {
+  "name": "randbats_420",
+  "rating": 1154.8,
+  "se": 31.1,
+  "wins": 110.0,
+  "games": 155
+ },
+ {
+  "name": "randbats_649",
+  "rating": 1154.2,
+  "se": 31.6,
+  "wins": 105.0,
+  "games": 149
+ },
+ {
+  "name": "randbats_574",
+  "rating": 1153.4,
+  "se": 33.0,
+  "wins": 95.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_1211",
+  "rating": 1153.3,
+  "se": 31.2,
+  "wins": 104.5,
+  "games": 150
+ },
+ {
+  "name": "randbats_904",
+  "rating": 1147.7,
+  "se": 33.1,
+  "wins": 92.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_1346",
+  "rating": 1143.8,
+  "se": 33.9,
+  "wins": 90.5,
+  "games": 129
+ },
+ {
+  "name": "randbats_1410",
+  "rating": 1143.3,
+  "se": 33.8,
+  "wins": 89.5,
+  "games": 128
+ },
+ {
+  "name": "randbats_609",
+  "rating": 1138.4,
+  "se": 32.6,
+  "wins": 94.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_766",
+  "rating": 1131.3,
+  "se": 30.9,
+  "wins": 99.0,
+  "games": 147
+ },
+ {
+  "name": "randbats_1002",
+  "rating": 1130.1,
+  "se": 31.2,
+  "wins": 94.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_106",
+  "rating": 1129.6,
+  "se": 33.0,
+  "wins": 83.5,
+  "games": 126
+ },
+ {
+  "name": "randbats_913",
+  "rating": 1128.9,
+  "se": 35.1,
+  "wins": 75.0,
+  "games": 113
+ },
+ {
+  "name": "randbats_325",
+  "rating": 1127.5,
+  "se": 30.2,
+  "wins": 103.5,
+  "games": 154
+ },
+ {
+  "name": "randbats_571",
+  "rating": 1125.7,
+  "se": 31.5,
+  "wins": 96.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_1393",
+  "rating": 1124.8,
+  "se": 31.9,
+  "wins": 89.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_694",
+  "rating": 1122.9,
+  "se": 31.2,
+  "wins": 96.5,
+  "games": 144
+ },
+ {
+  "name": "randbats_744",
+  "rating": 1122.1,
+  "se": 35.8,
+  "wins": 70.5,
+  "games": 107
+ },
+ {
+  "name": "randbats_882",
+  "rating": 1121.6,
+  "se": 33.1,
+  "wins": 85.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_708",
+  "rating": 1120.4,
+  "se": 32.7,
+  "wins": 84.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_639",
+  "rating": 1120.1,
+  "se": 31.9,
+  "wins": 86.5,
+  "games": 133
+ },
+ {
+  "name": "randbats_646",
+  "rating": 1119.6,
+  "se": 37.4,
+  "wins": 67.0,
+  "games": 100
+ },
+ {
+  "name": "randbats_1300",
+  "rating": 1118.4,
+  "se": 30.7,
+  "wins": 98.0,
+  "games": 147
+ },
+ {
+  "name": "randbats_1409",
+  "rating": 1117.3,
+  "se": 32.1,
+  "wins": 87.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_77",
+  "rating": 1116.7,
+  "se": 32.1,
+  "wins": 90.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_111",
+  "rating": 1116.0,
+  "se": 30.8,
+  "wins": 94.0,
+  "games": 144
+ },
+ {
+  "name": "randbats_764",
+  "rating": 1115.9,
+  "se": 32.1,
+  "wins": 88.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_1082",
+  "rating": 1115.2,
+  "se": 31.2,
+  "wins": 91.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_1033",
+  "rating": 1115.0,
+  "se": 31.1,
+  "wins": 91.5,
+  "games": 141
+ },
+ {
+  "name": "randbats_1389",
+  "rating": 1114.0,
+  "se": 31.7,
+  "wins": 89.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_795",
+  "rating": 1113.9,
+  "se": 33.4,
+  "wins": 79.5,
+  "games": 122
+ },
+ {
+  "name": "randbats_171",
+  "rating": 1113.8,
+  "se": 33.1,
+  "wins": 81.0,
+  "games": 124
+ },
+ {
+  "name": "randbats_11",
+  "rating": 1113.8,
+  "se": 30.8,
+  "wins": 95.0,
+  "games": 145
+ },
+ {
+  "name": "randbats_997",
+  "rating": 1113.3,
+  "se": 30.7,
+  "wins": 96.0,
+  "games": 146
+ },
+ {
+  "name": "randbats_785",
+  "rating": 1112.1,
+  "se": 32.2,
+  "wins": 85.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_671",
+  "rating": 1111.8,
+  "se": 29.6,
+  "wins": 103.0,
+  "games": 157
+ },
+ {
+  "name": "randbats_187",
+  "rating": 1111.8,
+  "se": 31.5,
+  "wins": 89.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_1114",
+  "rating": 1111.4,
+  "se": 31.0,
+  "wins": 94.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_944",
+  "rating": 1111.3,
+  "se": 31.9,
+  "wins": 88.5,
+  "games": 135
+ },
+ {
+  "name": "randbats_373",
+  "rating": 1110.1,
+  "se": 31.1,
+  "wins": 89.5,
+  "games": 139
+ },
+ {
+  "name": "randbats_33",
+  "rating": 1109.7,
+  "se": 31.2,
+  "wins": 90.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_618",
+  "rating": 1109.2,
+  "se": 32.7,
+  "wins": 84.5,
+  "games": 129
+ },
+ {
+  "name": "randbats_1258",
+  "rating": 1109.0,
+  "se": 33.4,
+  "wins": 79.0,
+  "games": 122
+ },
+ {
+  "name": "randbats_382",
+  "rating": 1108.9,
+  "se": 32.3,
+  "wins": 86.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_353",
+  "rating": 1107.5,
+  "se": 32.9,
+  "wins": 85.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_1201",
+  "rating": 1107.3,
+  "se": 30.8,
+  "wins": 90.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_1017",
+  "rating": 1106.5,
+  "se": 31.7,
+  "wins": 90.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_163",
+  "rating": 1106.2,
+  "se": 31.0,
+  "wins": 88.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_1402",
+  "rating": 1105.8,
+  "se": 31.3,
+  "wins": 89.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_340",
+  "rating": 1105.5,
+  "se": 30.2,
+  "wins": 95.0,
+  "games": 148
+ },
+ {
+  "name": "randbats_1444",
+  "rating": 1105.5,
+  "se": 31.0,
+  "wins": 89.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_306",
+  "rating": 1104.4,
+  "se": 32.0,
+  "wins": 85.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_1098",
+  "rating": 1103.6,
+  "se": 32.8,
+  "wins": 80.0,
+  "games": 125
+ },
+ {
+  "name": "randbats_911",
+  "rating": 1103.2,
+  "se": 30.3,
+  "wins": 94.5,
+  "games": 147
+ },
+ {
+  "name": "randbats_962",
+  "rating": 1102.5,
+  "se": 31.6,
+  "wins": 88.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_1484",
+  "rating": 1102.2,
+  "se": 29.5,
+  "wins": 99.5,
+  "games": 155
+ },
+ {
+  "name": "randbats_1383",
+  "rating": 1101.2,
+  "se": 32.8,
+  "wins": 77.5,
+  "games": 123
+ },
+ {
+  "name": "randbats_510",
+  "rating": 1101.2,
+  "se": 31.4,
+  "wins": 85.5,
+  "games": 135
+ },
+ {
+  "name": "randbats_1129",
+  "rating": 1100.3,
+  "se": 33.2,
+  "wins": 79.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_1012",
+  "rating": 1100.2,
+  "se": 32.0,
+  "wins": 83.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_1463",
+  "rating": 1099.3,
+  "se": 33.7,
+  "wins": 75.0,
+  "games": 118
+ },
+ {
+  "name": "randbats_1051",
+  "rating": 1098.8,
+  "se": 30.7,
+  "wins": 89.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_1329",
+  "rating": 1098.8,
+  "se": 29.3,
+  "wins": 98.0,
+  "games": 155
+ },
+ {
+  "name": "randbats_167",
+  "rating": 1098.0,
+  "se": 30.4,
+  "wins": 92.0,
+  "games": 145
+ },
+ {
+  "name": "randbats_920",
+  "rating": 1097.8,
+  "se": 31.0,
+  "wins": 90.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_850",
+  "rating": 1096.9,
+  "se": 30.2,
+  "wins": 95.0,
+  "games": 148
+ },
+ {
+  "name": "randbats_465",
+  "rating": 1095.5,
+  "se": 35.0,
+  "wins": 68.0,
+  "games": 108
+ },
+ {
+  "name": "randbats_388",
+  "rating": 1094.6,
+  "se": 32.3,
+  "wins": 79.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_437",
+  "rating": 1093.6,
+  "se": 34.4,
+  "wins": 73.0,
+  "games": 114
+ },
+ {
+  "name": "randbats_502",
+  "rating": 1093.5,
+  "se": 30.7,
+  "wins": 90.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_593",
+  "rating": 1093.5,
+  "se": 30.7,
+  "wins": 89.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_1184",
+  "rating": 1092.9,
+  "se": 31.5,
+  "wins": 80.5,
+  "games": 131
+ },
+ {
+  "name": "randbats_749",
+  "rating": 1092.1,
+  "se": 32.7,
+  "wins": 77.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_20",
+  "rating": 1091.4,
+  "se": 30.5,
+  "wins": 90.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_1430",
+  "rating": 1090.7,
+  "se": 33.9,
+  "wins": 70.5,
+  "games": 114
+ },
+ {
+  "name": "randbats_1200",
+  "rating": 1090.6,
+  "se": 31.0,
+  "wins": 87.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_1215",
+  "rating": 1090.3,
+  "se": 31.1,
+  "wins": 86.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_1435",
+  "rating": 1090.1,
+  "se": 31.3,
+  "wins": 86.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_1479",
+  "rating": 1090.0,
+  "se": 30.2,
+  "wins": 92.0,
+  "games": 146
+ },
+ {
+  "name": "randbats_1299",
+  "rating": 1089.4,
+  "se": 33.9,
+  "wins": 71.5,
+  "games": 115
+ },
+ {
+  "name": "randbats_46",
+  "rating": 1088.3,
+  "se": 31.8,
+  "wins": 78.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_958",
+  "rating": 1088.1,
+  "se": 31.1,
+  "wins": 83.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_487",
+  "rating": 1088.1,
+  "se": 31.9,
+  "wins": 78.5,
+  "games": 128
+ },
+ {
+  "name": "randbats_490",
+  "rating": 1088.1,
+  "se": 30.2,
+  "wins": 92.0,
+  "games": 146
+ },
+ {
+  "name": "randbats_1109",
+  "rating": 1088.0,
+  "se": 30.8,
+  "wins": 87.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_946",
+  "rating": 1087.9,
+  "se": 28.6,
+  "wins": 100.0,
+  "games": 161
+ },
+ {
+  "name": "randbats_789",
+  "rating": 1087.7,
+  "se": 31.5,
+  "wins": 85.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_1307",
+  "rating": 1087.1,
+  "se": 29.6,
+  "wins": 91.5,
+  "games": 149
+ },
+ {
+  "name": "randbats_180",
+  "rating": 1086.0,
+  "se": 32.2,
+  "wins": 79.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_48",
+  "rating": 1085.4,
+  "se": 31.6,
+  "wins": 80.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_935",
+  "rating": 1085.1,
+  "se": 31.6,
+  "wins": 82.5,
+  "games": 133
+ },
+ {
+  "name": "randbats_623",
+  "rating": 1085.0,
+  "se": 31.0,
+  "wins": 85.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_1162",
+  "rating": 1084.8,
+  "se": 31.2,
+  "wins": 83.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_59",
+  "rating": 1084.7,
+  "se": 31.8,
+  "wins": 76.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_1175",
+  "rating": 1084.5,
+  "se": 30.5,
+  "wins": 88.5,
+  "games": 142
+ },
+ {
+  "name": "randbats_223",
+  "rating": 1084.0,
+  "se": 31.0,
+  "wins": 83.5,
+  "games": 136
+ },
+ {
+  "name": "randbats_1282",
+  "rating": 1083.7,
+  "se": 29.8,
+  "wins": 90.0,
+  "games": 147
+ },
+ {
+  "name": "randbats_1342",
+  "rating": 1083.7,
+  "se": 29.7,
+  "wins": 89.0,
+  "games": 147
+ },
+ {
+  "name": "randbats_94",
+  "rating": 1083.6,
+  "se": 29.2,
+  "wins": 94.0,
+  "games": 153
+ },
+ {
+  "name": "randbats_123",
+  "rating": 1083.5,
+  "se": 31.4,
+  "wins": 81.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_587",
+  "rating": 1083.1,
+  "se": 32.0,
+  "wins": 79.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_527",
+  "rating": 1082.7,
+  "se": 33.5,
+  "wins": 71.0,
+  "games": 116
+ },
+ {
+  "name": "randbats_129",
+  "rating": 1082.5,
+  "se": 31.2,
+  "wins": 83.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_50",
+  "rating": 1082.3,
+  "se": 34.3,
+  "wins": 66.0,
+  "games": 110
+ },
+ {
+  "name": "randbats_665",
+  "rating": 1081.7,
+  "se": 31.3,
+  "wins": 80.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_657",
+  "rating": 1081.6,
+  "se": 29.9,
+  "wins": 88.5,
+  "games": 145
+ },
+ {
+  "name": "randbats_1026",
+  "rating": 1081.5,
+  "se": 34.5,
+  "wins": 68.0,
+  "games": 110
+ },
+ {
+  "name": "randbats_436",
+  "rating": 1081.3,
+  "se": 30.1,
+  "wins": 88.0,
+  "games": 144
+ },
+ {
+  "name": "randbats_1245",
+  "rating": 1081.3,
+  "se": 32.8,
+  "wins": 74.0,
+  "games": 121
+ },
+ {
+  "name": "randbats_426",
+  "rating": 1081.3,
+  "se": 29.9,
+  "wins": 86.5,
+  "games": 144
+ },
+ {
+  "name": "randbats_247",
+  "rating": 1081.3,
+  "se": 31.4,
+  "wins": 81.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_1497",
+  "rating": 1081.1,
+  "se": 32.6,
+  "wins": 75.5,
+  "games": 123
+ },
+ {
+  "name": "randbats_119",
+  "rating": 1081.0,
+  "se": 33.4,
+  "wins": 69.0,
+  "games": 115
+ },
+ {
+  "name": "randbats_1209",
+  "rating": 1080.9,
+  "se": 31.1,
+  "wins": 84.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_1356",
+  "rating": 1080.7,
+  "se": 29.9,
+  "wins": 86.5,
+  "games": 145
+ },
+ {
+  "name": "randbats_1367",
+  "rating": 1080.6,
+  "se": 31.6,
+  "wins": 78.5,
+  "games": 130
+ },
+ {
+  "name": "randbats_253",
+  "rating": 1080.6,
+  "se": 31.9,
+  "wins": 78.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_287",
+  "rating": 1080.3,
+  "se": 34.2,
+  "wins": 68.0,
+  "games": 111
+ },
+ {
+  "name": "randbats_1154",
+  "rating": 1080.3,
+  "se": 28.9,
+  "wins": 92.0,
+  "games": 154
+ },
+ {
+  "name": "randbats_1333",
+  "rating": 1080.3,
+  "se": 31.0,
+  "wins": 82.5,
+  "games": 136
+ },
+ {
+  "name": "randbats_153",
+  "rating": 1080.2,
+  "se": 31.0,
+  "wins": 83.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_676",
+  "rating": 1080.2,
+  "se": 32.7,
+  "wins": 74.0,
+  "games": 122
+ },
+ {
+  "name": "randbats_133",
+  "rating": 1080.0,
+  "se": 32.0,
+  "wins": 79.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_355",
+  "rating": 1079.9,
+  "se": 30.0,
+  "wins": 90.5,
+  "games": 146
+ },
+ {
+  "name": "randbats_1426",
+  "rating": 1079.2,
+  "se": 30.2,
+  "wins": 88.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_779",
+  "rating": 1078.8,
+  "se": 31.0,
+  "wins": 81.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_974",
+  "rating": 1077.5,
+  "se": 30.9,
+  "wins": 81.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_1374",
+  "rating": 1077.5,
+  "se": 32.2,
+  "wins": 77.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_1024",
+  "rating": 1077.3,
+  "se": 33.0,
+  "wins": 76.0,
+  "games": 122
+ },
+ {
+  "name": "randbats_359",
+  "rating": 1077.2,
+  "se": 31.2,
+  "wins": 82.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_1458",
+  "rating": 1077.2,
+  "se": 31.9,
+  "wins": 78.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_947",
+  "rating": 1077.0,
+  "se": 31.1,
+  "wins": 83.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_9",
+  "rating": 1076.6,
+  "se": 32.1,
+  "wins": 75.0,
+  "games": 125
+ },
+ {
+  "name": "randbats_1344",
+  "rating": 1076.3,
+  "se": 28.9,
+  "wins": 93.0,
+  "games": 155
+ },
+ {
+  "name": "randbats_509",
+  "rating": 1076.3,
+  "se": 33.6,
+  "wins": 71.0,
+  "games": 116
+ },
+ {
+  "name": "randbats_360",
+  "rating": 1076.1,
+  "se": 30.3,
+  "wins": 86.5,
+  "games": 142
+ },
+ {
+  "name": "randbats_1146",
+  "rating": 1075.9,
+  "se": 31.8,
+  "wins": 83.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_319",
+  "rating": 1075.2,
+  "se": 29.5,
+  "wins": 88.0,
+  "games": 147
+ },
+ {
+  "name": "randbats_1386",
+  "rating": 1075.0,
+  "se": 30.2,
+  "wins": 87.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_903",
+  "rating": 1074.5,
+  "se": 29.2,
+  "wins": 89.0,
+  "games": 150
+ },
+ {
+  "name": "randbats_1408",
+  "rating": 1074.0,
+  "se": 33.6,
+  "wins": 68.0,
+  "games": 114
+ },
+ {
+  "name": "randbats_1085",
+  "rating": 1073.6,
+  "se": 33.4,
+  "wins": 70.0,
+  "games": 116
+ },
+ {
+  "name": "randbats_1331",
+  "rating": 1073.5,
+  "se": 29.8,
+  "wins": 85.5,
+  "games": 144
+ },
+ {
+  "name": "randbats_249",
+  "rating": 1073.5,
+  "se": 32.4,
+  "wins": 74.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_586",
+  "rating": 1073.4,
+  "se": 30.8,
+  "wins": 80.5,
+  "games": 135
+ },
+ {
+  "name": "randbats_371",
+  "rating": 1073.4,
+  "se": 31.4,
+  "wins": 80.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_55",
+  "rating": 1073.1,
+  "se": 31.9,
+  "wins": 76.5,
+  "games": 127
+ },
+ {
+  "name": "randbats_570",
+  "rating": 1073.1,
+  "se": 30.9,
+  "wins": 83.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_1339",
+  "rating": 1072.8,
+  "se": 30.3,
+  "wins": 86.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_1499",
+  "rating": 1072.7,
+  "se": 31.2,
+  "wins": 78.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_1398",
+  "rating": 1072.2,
+  "se": 32.2,
+  "wins": 76.5,
+  "games": 126
+ },
+ {
+  "name": "randbats_1115",
+  "rating": 1072.0,
+  "se": 30.3,
+  "wins": 84.5,
+  "games": 141
+ },
+ {
+  "name": "randbats_169",
+  "rating": 1072.0,
+  "se": 29.6,
+  "wins": 86.0,
+  "games": 146
+ },
+ {
+  "name": "randbats_950",
+  "rating": 1071.4,
+  "se": 30.1,
+  "wins": 84.5,
+  "games": 142
+ },
+ {
+  "name": "randbats_1293",
+  "rating": 1071.3,
+  "se": 31.2,
+  "wins": 77.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_1164",
+  "rating": 1070.9,
+  "se": 33.0,
+  "wins": 71.5,
+  "games": 119
+ },
+ {
+  "name": "randbats_1255",
+  "rating": 1070.8,
+  "se": 31.5,
+  "wins": 77.5,
+  "games": 130
+ },
+ {
+  "name": "randbats_228",
+  "rating": 1070.6,
+  "se": 34.9,
+  "wins": 64.0,
+  "games": 106
+ },
+ {
+  "name": "randbats_912",
+  "rating": 1070.3,
+  "se": 29.2,
+  "wins": 90.0,
+  "games": 151
+ },
+ {
+  "name": "randbats_1073",
+  "rating": 1070.3,
+  "se": 32.6,
+  "wins": 72.0,
+  "games": 121
+ },
+ {
+  "name": "randbats_1155",
+  "rating": 1070.1,
+  "se": 30.9,
+  "wins": 77.5,
+  "games": 133
+ },
+ {
+  "name": "randbats_236",
+  "rating": 1070.0,
+  "se": 31.6,
+  "wins": 75.5,
+  "games": 128
+ },
+ {
+  "name": "randbats_1182",
+  "rating": 1069.9,
+  "se": 31.3,
+  "wins": 78.5,
+  "games": 131
+ },
+ {
+  "name": "randbats_16",
+  "rating": 1069.8,
+  "se": 29.4,
+  "wins": 87.0,
+  "games": 148
+ },
+ {
+  "name": "randbats_1253",
+  "rating": 1069.5,
+  "se": 30.9,
+  "wins": 79.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_1053",
+  "rating": 1069.3,
+  "se": 30.9,
+  "wins": 81.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_256",
+  "rating": 1068.7,
+  "se": 30.9,
+  "wins": 82.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_553",
+  "rating": 1068.6,
+  "se": 30.0,
+  "wins": 84.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_917",
+  "rating": 1068.3,
+  "se": 31.8,
+  "wins": 77.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_1312",
+  "rating": 1068.3,
+  "se": 31.7,
+  "wins": 75.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_896",
+  "rating": 1068.2,
+  "se": 31.2,
+  "wins": 78.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_1030",
+  "rating": 1068.1,
+  "se": 32.6,
+  "wins": 72.0,
+  "games": 121
+ },
+ {
+  "name": "randbats_683",
+  "rating": 1068.0,
+  "se": 33.9,
+  "wins": 70.0,
+  "games": 114
+ },
+ {
+  "name": "randbats_367",
+  "rating": 1067.9,
+  "se": 33.2,
+  "wins": 69.0,
+  "games": 117
+ },
+ {
+  "name": "randbats_1249",
+  "rating": 1067.5,
+  "se": 31.6,
+  "wins": 77.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_336",
+  "rating": 1067.5,
+  "se": 31.9,
+  "wins": 75.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_1373",
+  "rating": 1067.3,
+  "se": 30.1,
+  "wins": 82.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_750",
+  "rating": 1067.2,
+  "se": 32.6,
+  "wins": 71.0,
+  "games": 120
+ },
+ {
+  "name": "randbats_1183",
+  "rating": 1067.1,
+  "se": 30.9,
+  "wins": 77.5,
+  "games": 133
+ },
+ {
+  "name": "randbats_294",
+  "rating": 1066.9,
+  "se": 31.8,
+  "wins": 78.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_620",
+  "rating": 1066.8,
+  "se": 31.1,
+  "wins": 77.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_519",
+  "rating": 1066.8,
+  "se": 32.8,
+  "wins": 70.0,
+  "games": 119
+ },
+ {
+  "name": "randbats_1454",
+  "rating": 1066.6,
+  "se": 30.3,
+  "wins": 82.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_346",
+  "rating": 1066.4,
+  "se": 30.0,
+  "wins": 83.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_1214",
+  "rating": 1066.3,
+  "se": 32.4,
+  "wins": 72.5,
+  "games": 122
+ },
+ {
+  "name": "randbats_697",
+  "rating": 1065.9,
+  "se": 30.1,
+  "wins": 82.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_135",
+  "rating": 1065.8,
+  "se": 30.0,
+  "wins": 84.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_877",
+  "rating": 1065.7,
+  "se": 32.4,
+  "wins": 72.0,
+  "games": 122
+ },
+ {
+  "name": "randbats_547",
+  "rating": 1065.6,
+  "se": 30.3,
+  "wins": 81.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_842",
+  "rating": 1065.6,
+  "se": 32.0,
+  "wins": 75.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_1058",
+  "rating": 1065.4,
+  "se": 31.8,
+  "wins": 77.5,
+  "games": 128
+ },
+ {
+  "name": "randbats_493",
+  "rating": 1065.2,
+  "se": 32.4,
+  "wins": 72.5,
+  "games": 122
+ },
+ {
+  "name": "randbats_300",
+  "rating": 1065.1,
+  "se": 29.1,
+  "wins": 91.0,
+  "games": 153
+ },
+ {
+  "name": "randbats_432",
+  "rating": 1064.9,
+  "se": 31.1,
+  "wins": 78.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_692",
+  "rating": 1064.7,
+  "se": 30.0,
+  "wins": 84.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_1360",
+  "rating": 1064.1,
+  "se": 32.5,
+  "wins": 70.0,
+  "games": 120
+ },
+ {
+  "name": "randbats_138",
+  "rating": 1064.1,
+  "se": 32.1,
+  "wins": 72.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_1317",
+  "rating": 1063.7,
+  "se": 31.8,
+  "wins": 76.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_318",
+  "rating": 1063.6,
+  "se": 31.4,
+  "wins": 77.5,
+  "games": 130
+ },
+ {
+  "name": "randbats_1248",
+  "rating": 1063.1,
+  "se": 30.5,
+  "wins": 79.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_1188",
+  "rating": 1063.1,
+  "se": 30.5,
+  "wins": 81.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_1244",
+  "rating": 1063.1,
+  "se": 31.9,
+  "wins": 75.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_64",
+  "rating": 1062.9,
+  "se": 31.4,
+  "wins": 73.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_1289",
+  "rating": 1062.6,
+  "se": 31.0,
+  "wins": 78.5,
+  "games": 133
+ },
+ {
+  "name": "randbats_886",
+  "rating": 1062.5,
+  "se": 29.3,
+  "wins": 88.0,
+  "games": 149
+ },
+ {
+  "name": "randbats_933",
+  "rating": 1062.4,
+  "se": 33.4,
+  "wins": 66.0,
+  "games": 114
+ },
+ {
+  "name": "randbats_1424",
+  "rating": 1062.3,
+  "se": 31.3,
+  "wins": 73.5,
+  "games": 129
+ },
+ {
+  "name": "randbats_783",
+  "rating": 1062.2,
+  "se": 30.4,
+  "wins": 81.5,
+  "games": 139
+ },
+ {
+  "name": "randbats_551",
+  "rating": 1062.2,
+  "se": 31.2,
+  "wins": 76.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_590",
+  "rating": 1062.0,
+  "se": 29.3,
+  "wins": 86.0,
+  "games": 148
+ },
+ {
+  "name": "randbats_539",
+  "rating": 1061.7,
+  "se": 30.2,
+  "wins": 81.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_986",
+  "rating": 1061.4,
+  "se": 32.4,
+  "wins": 72.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_1235",
+  "rating": 1061.3,
+  "se": 29.4,
+  "wins": 87.0,
+  "games": 148
+ },
+ {
+  "name": "randbats_890",
+  "rating": 1061.2,
+  "se": 31.1,
+  "wins": 76.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_58",
+  "rating": 1060.9,
+  "se": 30.1,
+  "wins": 79.5,
+  "games": 139
+ },
+ {
+  "name": "randbats_1232",
+  "rating": 1060.9,
+  "se": 30.8,
+  "wins": 78.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_62",
+  "rating": 1060.8,
+  "se": 32.7,
+  "wins": 68.0,
+  "games": 118
+ },
+ {
+  "name": "randbats_1320",
+  "rating": 1060.6,
+  "se": 30.4,
+  "wins": 81.5,
+  "games": 139
+ },
+ {
+  "name": "randbats_324",
+  "rating": 1060.5,
+  "se": 29.6,
+  "wins": 86.0,
+  "games": 146
+ },
+ {
+  "name": "randbats_463",
+  "rating": 1060.3,
+  "se": 30.2,
+  "wins": 82.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_786",
+  "rating": 1060.0,
+  "se": 31.7,
+  "wins": 76.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_293",
+  "rating": 1060.0,
+  "se": 30.8,
+  "wins": 79.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_581",
+  "rating": 1060.0,
+  "se": 30.5,
+  "wins": 80.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_368",
+  "rating": 1060.0,
+  "se": 33.1,
+  "wins": 68.0,
+  "games": 116
+ },
+ {
+  "name": "randbats_1091",
+  "rating": 1060.0,
+  "se": 30.5,
+  "wins": 81.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_1015",
+  "rating": 1059.7,
+  "se": 30.6,
+  "wins": 80.5,
+  "games": 137
+ },
+ {
+  "name": "randbats_124",
+  "rating": 1059.5,
+  "se": 29.6,
+  "wins": 83.5,
+  "games": 145
+ },
+ {
+  "name": "randbats_1301",
+  "rating": 1059.4,
+  "se": 29.6,
+  "wins": 84.0,
+  "games": 145
+ },
+ {
+  "name": "randbats_1399",
+  "rating": 1059.3,
+  "se": 29.3,
+  "wins": 86.0,
+  "games": 148
+ },
+ {
+  "name": "randbats_1488",
+  "rating": 1059.1,
+  "se": 30.2,
+  "wins": 79.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_648",
+  "rating": 1059.0,
+  "se": 31.1,
+  "wins": 77.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_69",
+  "rating": 1058.5,
+  "se": 30.2,
+  "wins": 82.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_909",
+  "rating": 1058.2,
+  "se": 30.2,
+  "wins": 82.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_1290",
+  "rating": 1058.1,
+  "se": 31.4,
+  "wins": 76.5,
+  "games": 130
+ },
+ {
+  "name": "randbats_635",
+  "rating": 1058.0,
+  "se": 30.2,
+  "wins": 81.5,
+  "games": 140
+ },
+ {
+  "name": "randbats_1106",
+  "rating": 1057.9,
+  "se": 32.2,
+  "wins": 71.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_1044",
+  "rating": 1057.8,
+  "se": 31.2,
+  "wins": 75.5,
+  "games": 130
+ },
+ {
+  "name": "randbats_915",
+  "rating": 1057.7,
+  "se": 35.2,
+  "wins": 59.5,
+  "games": 103
+ },
+ {
+  "name": "randbats_369",
+  "rating": 1057.7,
+  "se": 28.8,
+  "wins": 87.0,
+  "games": 152
+ },
+ {
+  "name": "randbats_1034",
+  "rating": 1057.6,
+  "se": 32.0,
+  "wins": 70.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_1185",
+  "rating": 1057.5,
+  "se": 30.4,
+  "wins": 81.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_691",
+  "rating": 1057.4,
+  "se": 29.7,
+  "wins": 83.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_1087",
+  "rating": 1057.0,
+  "se": 33.1,
+  "wins": 67.0,
+  "games": 116
+ },
+ {
+  "name": "randbats_1397",
+  "rating": 1056.9,
+  "se": 28.8,
+  "wins": 88.0,
+  "games": 153
+ },
+ {
+  "name": "randbats_384",
+  "rating": 1056.8,
+  "se": 31.7,
+  "wins": 76.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_68",
+  "rating": 1056.7,
+  "se": 33.7,
+  "wins": 64.0,
+  "games": 112
+ },
+ {
+  "name": "randbats_1404",
+  "rating": 1056.6,
+  "se": 31.4,
+  "wins": 73.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_921",
+  "rating": 1056.4,
+  "se": 31.1,
+  "wins": 77.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_1487",
+  "rating": 1056.3,
+  "se": 33.0,
+  "wins": 66.0,
+  "games": 116
+ },
+ {
+  "name": "randbats_818",
+  "rating": 1056.2,
+  "se": 32.9,
+  "wins": 69.0,
+  "games": 118
+ },
+ {
+  "name": "randbats_110",
+  "rating": 1056.0,
+  "se": 29.9,
+  "wins": 81.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_220",
+  "rating": 1055.9,
+  "se": 30.7,
+  "wins": 78.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_1005",
+  "rating": 1055.8,
+  "se": 30.0,
+  "wins": 80.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_422",
+  "rating": 1055.6,
+  "se": 29.8,
+  "wins": 82.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_945",
+  "rating": 1055.5,
+  "se": 31.0,
+  "wins": 77.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_243",
+  "rating": 1055.4,
+  "se": 29.6,
+  "wins": 84.5,
+  "games": 145
+ },
+ {
+  "name": "randbats_1014",
+  "rating": 1055.4,
+  "se": 29.7,
+  "wins": 82.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_967",
+  "rating": 1055.1,
+  "se": 30.6,
+  "wins": 81.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_267",
+  "rating": 1054.9,
+  "se": 30.1,
+  "wins": 83.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_73",
+  "rating": 1054.8,
+  "se": 34.3,
+  "wins": 62.0,
+  "games": 108
+ },
+ {
+  "name": "randbats_1220",
+  "rating": 1054.7,
+  "se": 28.6,
+  "wins": 92.0,
+  "games": 156
+ },
+ {
+  "name": "randbats_844",
+  "rating": 1054.4,
+  "se": 31.8,
+  "wins": 73.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_860",
+  "rating": 1054.2,
+  "se": 30.5,
+  "wins": 76.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_234",
+  "rating": 1054.2,
+  "se": 32.4,
+  "wins": 69.0,
+  "games": 120
+ },
+ {
+  "name": "randbats_185",
+  "rating": 1054.0,
+  "se": 29.9,
+  "wins": 82.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_189",
+  "rating": 1053.9,
+  "se": 29.5,
+  "wins": 84.0,
+  "games": 146
+ },
+ {
+  "name": "randbats_483",
+  "rating": 1053.9,
+  "se": 31.5,
+  "wins": 75.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_977",
+  "rating": 1053.9,
+  "se": 31.8,
+  "wins": 74.5,
+  "games": 127
+ },
+ {
+  "name": "randbats_672",
+  "rating": 1053.8,
+  "se": 31.5,
+  "wins": 76.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_1089",
+  "rating": 1053.7,
+  "se": 29.8,
+  "wins": 82.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_1148",
+  "rating": 1053.6,
+  "se": 29.7,
+  "wins": 81.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_1035",
+  "rating": 1053.6,
+  "se": 29.7,
+  "wins": 86.0,
+  "games": 146
+ },
+ {
+  "name": "randbats_562",
+  "rating": 1053.5,
+  "se": 31.2,
+  "wins": 72.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_699",
+  "rating": 1053.2,
+  "se": 27.7,
+  "wins": 94.5,
+  "games": 165
+ },
+ {
+  "name": "randbats_398",
+  "rating": 1053.2,
+  "se": 30.3,
+  "wins": 78.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_1467",
+  "rating": 1053.1,
+  "se": 31.5,
+  "wins": 75.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_1456",
+  "rating": 1053.1,
+  "se": 31.4,
+  "wins": 74.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_442",
+  "rating": 1053.1,
+  "se": 35.0,
+  "wins": 59.0,
+  "games": 103
+ },
+ {
+  "name": "randbats_279",
+  "rating": 1052.9,
+  "se": 32.2,
+  "wins": 68.5,
+  "games": 122
+ },
+ {
+  "name": "randbats_453",
+  "rating": 1052.8,
+  "se": 29.5,
+  "wins": 84.0,
+  "games": 147
+ },
+ {
+  "name": "randbats_456",
+  "rating": 1052.7,
+  "se": 29.8,
+  "wins": 83.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_1238",
+  "rating": 1052.7,
+  "se": 29.7,
+  "wins": 85.0,
+  "games": 145
+ },
+ {
+  "name": "randbats_240",
+  "rating": 1052.1,
+  "se": 29.6,
+  "wins": 82.5,
+  "games": 145
+ },
+ {
+  "name": "randbats_840",
+  "rating": 1052.1,
+  "se": 31.2,
+  "wins": 73.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_1210",
+  "rating": 1051.9,
+  "se": 30.3,
+  "wins": 80.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_415",
+  "rating": 1051.9,
+  "se": 33.0,
+  "wins": 67.0,
+  "games": 117
+ },
+ {
+  "name": "randbats_1486",
+  "rating": 1051.9,
+  "se": 31.7,
+  "wins": 74.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_1308",
+  "rating": 1051.8,
+  "se": 30.6,
+  "wins": 77.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_70",
+  "rating": 1051.8,
+  "se": 32.7,
+  "wins": 69.0,
+  "games": 119
+ },
+ {
+  "name": "randbats_67",
+  "rating": 1051.5,
+  "se": 31.9,
+  "wins": 70.0,
+  "games": 124
+ },
+ {
+  "name": "randbats_955",
+  "rating": 1051.5,
+  "se": 31.0,
+  "wins": 74.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_405",
+  "rating": 1051.4,
+  "se": 29.3,
+  "wins": 84.0,
+  "games": 147
+ },
+ {
+  "name": "randbats_195",
+  "rating": 1051.2,
+  "se": 30.0,
+  "wins": 81.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_417",
+  "rating": 1051.0,
+  "se": 33.5,
+  "wins": 64.5,
+  "games": 113
+ },
+ {
+  "name": "randbats_1230",
+  "rating": 1050.9,
+  "se": 30.2,
+  "wins": 79.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_257",
+  "rating": 1050.8,
+  "se": 29.5,
+  "wins": 80.5,
+  "games": 144
+ },
+ {
+  "name": "randbats_24",
+  "rating": 1050.7,
+  "se": 29.7,
+  "wins": 79.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_1122",
+  "rating": 1050.3,
+  "se": 29.1,
+  "wins": 87.0,
+  "games": 151
+ },
+ {
+  "name": "randbats_1286",
+  "rating": 1050.3,
+  "se": 30.5,
+  "wins": 78.5,
+  "games": 137
+ },
+ {
+  "name": "randbats_964",
+  "rating": 1050.3,
+  "se": 29.5,
+  "wins": 86.0,
+  "games": 147
+ },
+ {
+  "name": "randbats_971",
+  "rating": 1050.2,
+  "se": 32.6,
+  "wins": 69.0,
+  "games": 120
+ },
+ {
+  "name": "randbats_580",
+  "rating": 1049.9,
+  "se": 27.5,
+  "wins": 93.0,
+  "games": 166
+ },
+ {
+  "name": "randbats_74",
+  "rating": 1049.9,
+  "se": 31.4,
+  "wins": 74.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_705",
+  "rating": 1049.8,
+  "se": 29.2,
+  "wins": 82.5,
+  "games": 147
+ },
+ {
+  "name": "randbats_995",
+  "rating": 1049.7,
+  "se": 32.7,
+  "wins": 67.0,
+  "games": 118
+ },
+ {
+  "name": "randbats_940",
+  "rating": 1049.7,
+  "se": 32.7,
+  "wins": 67.0,
+  "games": 118
+ },
+ {
+  "name": "randbats_748",
+  "rating": 1049.6,
+  "se": 29.8,
+  "wins": 80.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_696",
+  "rating": 1049.6,
+  "se": 32.0,
+  "wins": 68.5,
+  "games": 122
+ },
+ {
+  "name": "randbats_12",
+  "rating": 1049.5,
+  "se": 30.8,
+  "wins": 72.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_968",
+  "rating": 1049.5,
+  "se": 30.9,
+  "wins": 75.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_403",
+  "rating": 1049.1,
+  "se": 31.4,
+  "wins": 71.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_825",
+  "rating": 1049.1,
+  "se": 27.9,
+  "wins": 93.0,
+  "games": 163
+ },
+ {
+  "name": "randbats_101",
+  "rating": 1048.9,
+  "se": 29.5,
+  "wins": 82.0,
+  "games": 145
+ },
+ {
+  "name": "randbats_1368",
+  "rating": 1048.8,
+  "se": 30.4,
+  "wins": 75.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_1464",
+  "rating": 1048.8,
+  "se": 30.6,
+  "wins": 76.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_10",
+  "rating": 1048.0,
+  "se": 32.6,
+  "wins": 65.0,
+  "games": 118
+ },
+ {
+  "name": "randbats_165",
+  "rating": 1047.8,
+  "se": 29.8,
+  "wins": 80.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_1422",
+  "rating": 1047.8,
+  "se": 31.8,
+  "wins": 72.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_606",
+  "rating": 1047.7,
+  "se": 29.7,
+  "wins": 79.5,
+  "games": 142
+ },
+ {
+  "name": "randbats_213",
+  "rating": 1047.6,
+  "se": 27.9,
+  "wins": 91.5,
+  "games": 162
+ },
+ {
+  "name": "randbats_508",
+  "rating": 1047.5,
+  "se": 30.6,
+  "wins": 76.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_394",
+  "rating": 1047.5,
+  "se": 29.9,
+  "wins": 80.5,
+  "games": 142
+ },
+ {
+  "name": "randbats_605",
+  "rating": 1047.5,
+  "se": 30.4,
+  "wins": 78.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_1103",
+  "rating": 1047.4,
+  "se": 29.3,
+  "wins": 82.0,
+  "games": 146
+ },
+ {
+  "name": "randbats_296",
+  "rating": 1047.4,
+  "se": 29.0,
+  "wins": 84.0,
+  "games": 150
+ },
+ {
+  "name": "randbats_229",
+  "rating": 1047.2,
+  "se": 32.0,
+  "wins": 69.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_873",
+  "rating": 1047.2,
+  "se": 33.4,
+  "wins": 65.0,
+  "games": 114
+ },
+ {
+  "name": "randbats_1016",
+  "rating": 1047.1,
+  "se": 32.5,
+  "wins": 66.5,
+  "games": 119
+ },
+ {
+  "name": "randbats_1153",
+  "rating": 1047.0,
+  "se": 31.0,
+  "wins": 74.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_1274",
+  "rating": 1046.9,
+  "se": 32.4,
+  "wins": 69.0,
+  "games": 121
+ },
+ {
+  "name": "randbats_1276",
+  "rating": 1046.8,
+  "se": 30.9,
+  "wins": 74.5,
+  "games": 132
+ },
+ {
+  "name": "randbats_934",
+  "rating": 1046.6,
+  "se": 30.6,
+  "wins": 75.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_563",
+  "rating": 1046.6,
+  "se": 29.5,
+  "wins": 82.0,
+  "games": 145
+ },
+ {
+  "name": "randbats_78",
+  "rating": 1046.6,
+  "se": 29.6,
+  "wins": 82.0,
+  "games": 144
+ },
+ {
+  "name": "randbats_201",
+  "rating": 1046.5,
+  "se": 34.5,
+  "wins": 58.0,
+  "games": 105
+ },
+ {
+  "name": "randbats_994",
+  "rating": 1046.5,
+  "se": 29.7,
+  "wins": 80.0,
+  "games": 144
+ },
+ {
+  "name": "randbats_1391",
+  "rating": 1046.4,
+  "se": 28.4,
+  "wins": 88.5,
+  "games": 156
+ },
+ {
+  "name": "randbats_833",
+  "rating": 1046.4,
+  "se": 30.5,
+  "wins": 76.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_608",
+  "rating": 1046.2,
+  "se": 29.8,
+  "wins": 81.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_372",
+  "rating": 1046.2,
+  "se": 30.1,
+  "wins": 79.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_1256",
+  "rating": 1046.0,
+  "se": 31.4,
+  "wins": 72.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_512",
+  "rating": 1046.0,
+  "se": 30.6,
+  "wins": 76.5,
+  "games": 135
+ },
+ {
+  "name": "randbats_1100",
+  "rating": 1045.5,
+  "se": 33.9,
+  "wins": 62.5,
+  "games": 110
+ },
+ {
+  "name": "randbats_948",
+  "rating": 1045.5,
+  "se": 31.0,
+  "wins": 74.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_511",
+  "rating": 1045.1,
+  "se": 31.2,
+  "wins": 74.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_1304",
+  "rating": 1044.7,
+  "se": 29.8,
+  "wins": 79.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_198",
+  "rating": 1044.5,
+  "se": 30.0,
+  "wins": 78.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_589",
+  "rating": 1044.3,
+  "se": 32.1,
+  "wins": 70.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_1157",
+  "rating": 1044.3,
+  "se": 31.2,
+  "wins": 74.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_778",
+  "rating": 1044.2,
+  "se": 29.3,
+  "wins": 83.0,
+  "games": 147
+ },
+ {
+  "name": "randbats_347",
+  "rating": 1043.8,
+  "se": 32.3,
+  "wins": 66.0,
+  "games": 120
+ },
+ {
+  "name": "randbats_686",
+  "rating": 1043.5,
+  "se": 29.8,
+  "wins": 79.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_700",
+  "rating": 1043.4,
+  "se": 29.5,
+  "wins": 84.0,
+  "games": 146
+ },
+ {
+  "name": "randbats_698",
+  "rating": 1043.4,
+  "se": 28.2,
+  "wins": 86.5,
+  "games": 157
+ },
+ {
+  "name": "randbats_885",
+  "rating": 1043.3,
+  "se": 29.8,
+  "wins": 80.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_727",
+  "rating": 1043.3,
+  "se": 31.3,
+  "wins": 69.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_616",
+  "rating": 1043.2,
+  "se": 30.4,
+  "wins": 77.5,
+  "games": 137
+ },
+ {
+  "name": "randbats_149",
+  "rating": 1042.8,
+  "se": 29.9,
+  "wins": 78.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_270",
+  "rating": 1042.8,
+  "se": 32.6,
+  "wins": 65.0,
+  "games": 118
+ },
+ {
+  "name": "randbats_528",
+  "rating": 1042.7,
+  "se": 29.3,
+  "wins": 81.0,
+  "games": 146
+ },
+ {
+  "name": "randbats_651",
+  "rating": 1042.6,
+  "se": 29.5,
+  "wins": 80.0,
+  "games": 144
+ },
+ {
+  "name": "randbats_695",
+  "rating": 1042.5,
+  "se": 32.1,
+  "wins": 69.5,
+  "games": 123
+ },
+ {
+  "name": "randbats_273",
+  "rating": 1042.5,
+  "se": 31.1,
+  "wins": 75.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_670",
+  "rating": 1042.3,
+  "se": 30.5,
+  "wins": 75.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_1275",
+  "rating": 1042.2,
+  "se": 29.8,
+  "wins": 81.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_1259",
+  "rating": 1042.2,
+  "se": 30.4,
+  "wins": 75.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_1284",
+  "rating": 1042.1,
+  "se": 30.2,
+  "wins": 76.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_577",
+  "rating": 1042.1,
+  "se": 30.1,
+  "wins": 75.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_761",
+  "rating": 1042.1,
+  "se": 33.0,
+  "wins": 63.0,
+  "games": 115
+ },
+ {
+  "name": "randbats_1483",
+  "rating": 1041.9,
+  "se": 31.0,
+  "wins": 73.5,
+  "games": 131
+ },
+ {
+  "name": "randbats_1243",
+  "rating": 1041.6,
+  "se": 30.7,
+  "wins": 74.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_316",
+  "rating": 1041.5,
+  "se": 31.5,
+  "wins": 70.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_1265",
+  "rating": 1041.3,
+  "se": 31.5,
+  "wins": 72.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_1358",
+  "rating": 1041.3,
+  "se": 31.3,
+  "wins": 71.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_792",
+  "rating": 1041.2,
+  "se": 32.7,
+  "wins": 66.0,
+  "games": 118
+ },
+ {
+  "name": "randbats_767",
+  "rating": 1041.1,
+  "se": 30.7,
+  "wins": 74.5,
+  "games": 133
+ },
+ {
+  "name": "randbats_874",
+  "rating": 1041.1,
+  "se": 32.5,
+  "wins": 68.0,
+  "games": 120
+ },
+ {
+  "name": "randbats_969",
+  "rating": 1041.0,
+  "se": 29.8,
+  "wins": 81.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_140",
+  "rating": 1040.5,
+  "se": 30.6,
+  "wins": 74.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_1296",
+  "rating": 1040.2,
+  "se": 31.3,
+  "wins": 72.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_861",
+  "rating": 1039.9,
+  "se": 28.4,
+  "wins": 86.0,
+  "games": 156
+ },
+ {
+  "name": "randbats_864",
+  "rating": 1039.8,
+  "se": 28.7,
+  "wins": 85.0,
+  "games": 154
+ },
+ {
+  "name": "randbats_503",
+  "rating": 1039.6,
+  "se": 28.6,
+  "wins": 84.0,
+  "games": 152
+ },
+ {
+  "name": "randbats_1362",
+  "rating": 1039.5,
+  "se": 31.9,
+  "wins": 69.0,
+  "games": 124
+ },
+ {
+  "name": "randbats_43",
+  "rating": 1039.4,
+  "se": 31.5,
+  "wins": 70.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_278",
+  "rating": 1039.2,
+  "se": 29.8,
+  "wins": 77.5,
+  "games": 141
+ },
+ {
+  "name": "randbats_1485",
+  "rating": 1039.1,
+  "se": 28.6,
+  "wins": 82.5,
+  "games": 152
+ },
+ {
+  "name": "randbats_1195",
+  "rating": 1038.8,
+  "se": 29.7,
+  "wins": 77.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_88",
+  "rating": 1038.8,
+  "se": 30.9,
+  "wins": 72.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_1472",
+  "rating": 1038.7,
+  "se": 29.5,
+  "wins": 80.0,
+  "games": 144
+ },
+ {
+  "name": "randbats_196",
+  "rating": 1038.7,
+  "se": 33.1,
+  "wins": 64.0,
+  "games": 115
+ },
+ {
+  "name": "randbats_313",
+  "rating": 1038.7,
+  "se": 30.0,
+  "wins": 79.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_277",
+  "rating": 1038.6,
+  "se": 32.6,
+  "wins": 68.0,
+  "games": 119
+ },
+ {
+  "name": "randbats_747",
+  "rating": 1038.6,
+  "se": 31.7,
+  "wins": 68.5,
+  "games": 125
+ },
+ {
+  "name": "randbats_991",
+  "rating": 1038.3,
+  "se": 29.5,
+  "wins": 81.0,
+  "games": 145
+ },
+ {
+  "name": "randbats_1142",
+  "rating": 1037.7,
+  "se": 28.9,
+  "wins": 82.0,
+  "games": 150
+ },
+ {
+  "name": "randbats_1125",
+  "rating": 1037.3,
+  "se": 30.1,
+  "wins": 77.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_1141",
+  "rating": 1037.1,
+  "se": 29.1,
+  "wins": 81.0,
+  "games": 148
+ },
+ {
+  "name": "randbats_660",
+  "rating": 1037.0,
+  "se": 31.9,
+  "wins": 68.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_1056",
+  "rating": 1036.9,
+  "se": 32.6,
+  "wins": 64.0,
+  "games": 117
+ },
+ {
+  "name": "randbats_1330",
+  "rating": 1036.9,
+  "se": 30.9,
+  "wins": 72.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_906",
+  "rating": 1036.9,
+  "se": 32.2,
+  "wins": 69.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_159",
+  "rating": 1036.5,
+  "se": 30.0,
+  "wins": 75.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_1152",
+  "rating": 1036.3,
+  "se": 31.2,
+  "wins": 71.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_500",
+  "rating": 1036.1,
+  "se": 30.3,
+  "wins": 78.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_866",
+  "rating": 1036.0,
+  "se": 34.1,
+  "wins": 62.0,
+  "games": 109
+ },
+ {
+  "name": "randbats_612",
+  "rating": 1035.9,
+  "se": 30.4,
+  "wins": 76.5,
+  "games": 136
+ },
+ {
+  "name": "randbats_339",
+  "rating": 1035.8,
+  "se": 29.6,
+  "wins": 79.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_326",
+  "rating": 1035.8,
+  "se": 30.5,
+  "wins": 75.5,
+  "games": 135
+ },
+ {
+  "name": "randbats_335",
+  "rating": 1035.7,
+  "se": 30.6,
+  "wins": 73.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_998",
+  "rating": 1035.6,
+  "se": 30.2,
+  "wins": 75.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_614",
+  "rating": 1035.5,
+  "se": 32.0,
+  "wins": 68.5,
+  "games": 123
+ },
+ {
+  "name": "randbats_397",
+  "rating": 1035.5,
+  "se": 32.3,
+  "wins": 66.0,
+  "games": 120
+ },
+ {
+  "name": "randbats_100",
+  "rating": 1035.5,
+  "se": 29.4,
+  "wins": 78.0,
+  "games": 144
+ },
+ {
+  "name": "randbats_939",
+  "rating": 1035.3,
+  "se": 29.2,
+  "wins": 82.5,
+  "games": 148
+ },
+ {
+  "name": "randbats_737",
+  "rating": 1035.2,
+  "se": 28.7,
+  "wins": 83.0,
+  "games": 151
+ },
+ {
+  "name": "randbats_1376",
+  "rating": 1034.7,
+  "se": 31.0,
+  "wins": 70.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_1179",
+  "rating": 1034.6,
+  "se": 31.1,
+  "wins": 71.5,
+  "games": 130
+ },
+ {
+  "name": "randbats_1335",
+  "rating": 1034.6,
+  "se": 30.6,
+  "wins": 72.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_1388",
+  "rating": 1034.5,
+  "se": 29.8,
+  "wins": 76.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_146",
+  "rating": 1034.5,
+  "se": 30.5,
+  "wins": 72.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_1474",
+  "rating": 1034.3,
+  "se": 33.0,
+  "wins": 63.0,
+  "games": 115
+ },
+ {
+  "name": "randbats_407",
+  "rating": 1034.2,
+  "se": 27.9,
+  "wins": 89.0,
+  "games": 161
+ },
+ {
+  "name": "randbats_1023",
+  "rating": 1034.1,
+  "se": 30.6,
+  "wins": 75.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_435",
+  "rating": 1034.0,
+  "se": 31.5,
+  "wins": 70.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_827",
+  "rating": 1034.0,
+  "se": 31.3,
+  "wins": 70.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_564",
+  "rating": 1033.7,
+  "se": 28.8,
+  "wins": 82.0,
+  "games": 150
+ },
+ {
+  "name": "randbats_244",
+  "rating": 1033.7,
+  "se": 29.2,
+  "wins": 79.5,
+  "games": 146
+ },
+ {
+  "name": "randbats_739",
+  "rating": 1033.6,
+  "se": 30.4,
+  "wins": 75.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_1423",
+  "rating": 1033.5,
+  "se": 29.5,
+  "wins": 76.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_895",
+  "rating": 1033.0,
+  "se": 31.4,
+  "wins": 68.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_1009",
+  "rating": 1032.9,
+  "se": 30.5,
+  "wins": 72.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_736",
+  "rating": 1032.7,
+  "se": 29.1,
+  "wins": 81.0,
+  "games": 147
+ },
+ {
+  "name": "randbats_86",
+  "rating": 1032.6,
+  "se": 29.7,
+  "wins": 77.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_905",
+  "rating": 1032.6,
+  "se": 31.2,
+  "wins": 69.5,
+  "games": 128
+ },
+ {
+  "name": "randbats_349",
+  "rating": 1032.4,
+  "se": 32.4,
+  "wins": 65.0,
+  "games": 119
+ },
+ {
+  "name": "randbats_17",
+  "rating": 1032.2,
+  "se": 32.5,
+  "wins": 64.5,
+  "games": 118
+ },
+ {
+  "name": "randbats_214",
+  "rating": 1032.0,
+  "se": 31.3,
+  "wins": 71.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_894",
+  "rating": 1031.8,
+  "se": 33.6,
+  "wins": 62.5,
+  "games": 113
+ },
+ {
+  "name": "randbats_173",
+  "rating": 1031.7,
+  "se": 30.3,
+  "wins": 74.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_557",
+  "rating": 1031.6,
+  "se": 30.2,
+  "wins": 73.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_532",
+  "rating": 1031.5,
+  "se": 31.7,
+  "wins": 70.0,
+  "games": 125
+ },
+ {
+  "name": "randbats_338",
+  "rating": 1031.4,
+  "se": 32.6,
+  "wins": 63.0,
+  "games": 117
+ },
+ {
+  "name": "randbats_797",
+  "rating": 1031.3,
+  "se": 30.7,
+  "wins": 71.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_452",
+  "rating": 1031.1,
+  "se": 29.9,
+  "wins": 75.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_1417",
+  "rating": 1031.1,
+  "se": 30.4,
+  "wins": 74.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_992",
+  "rating": 1031.1,
+  "se": 30.3,
+  "wins": 74.5,
+  "games": 137
+ },
+ {
+  "name": "randbats_569",
+  "rating": 1030.9,
+  "se": 30.3,
+  "wins": 73.5,
+  "games": 136
+ },
+ {
+  "name": "randbats_820",
+  "rating": 1030.9,
+  "se": 31.7,
+  "wins": 65.0,
+  "games": 124
+ },
+ {
+  "name": "randbats_102",
+  "rating": 1030.5,
+  "se": 30.4,
+  "wins": 74.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_1083",
+  "rating": 1030.5,
+  "se": 30.6,
+  "wins": 72.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_808",
+  "rating": 1030.4,
+  "se": 31.4,
+  "wins": 70.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_130",
+  "rating": 1030.4,
+  "se": 33.0,
+  "wins": 63.0,
+  "games": 115
+ },
+ {
+  "name": "randbats_738",
+  "rating": 1030.3,
+  "se": 30.0,
+  "wins": 74.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_784",
+  "rating": 1030.3,
+  "se": 29.4,
+  "wins": 80.0,
+  "games": 145
+ },
+ {
+  "name": "randbats_332",
+  "rating": 1030.2,
+  "se": 30.4,
+  "wins": 74.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_823",
+  "rating": 1030.2,
+  "se": 30.3,
+  "wins": 75.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_796",
+  "rating": 1030.2,
+  "se": 29.1,
+  "wins": 82.5,
+  "games": 149
+ },
+ {
+  "name": "randbats_703",
+  "rating": 1030.2,
+  "se": 29.7,
+  "wins": 76.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_283",
+  "rating": 1030.2,
+  "se": 29.8,
+  "wins": 75.5,
+  "games": 140
+ },
+ {
+  "name": "randbats_970",
+  "rating": 1030.0,
+  "se": 30.4,
+  "wins": 71.5,
+  "games": 135
+ },
+ {
+  "name": "randbats_342",
+  "rating": 1030.0,
+  "se": 30.8,
+  "wins": 70.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_298",
+  "rating": 1029.9,
+  "se": 30.1,
+  "wins": 74.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_1447",
+  "rating": 1029.8,
+  "se": 30.6,
+  "wins": 71.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_1427",
+  "rating": 1029.7,
+  "se": 31.8,
+  "wins": 66.0,
+  "games": 124
+ },
+ {
+  "name": "randbats_543",
+  "rating": 1029.7,
+  "se": 31.6,
+  "wins": 66.0,
+  "games": 125
+ },
+ {
+  "name": "randbats_457",
+  "rating": 1029.6,
+  "se": 29.1,
+  "wins": 80.0,
+  "games": 148
+ },
+ {
+  "name": "randbats_268",
+  "rating": 1029.4,
+  "se": 32.2,
+  "wins": 64.0,
+  "games": 120
+ },
+ {
+  "name": "randbats_1131",
+  "rating": 1029.4,
+  "se": 29.0,
+  "wins": 77.0,
+  "games": 147
+ },
+ {
+  "name": "randbats_116",
+  "rating": 1029.3,
+  "se": 29.8,
+  "wins": 74.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_451",
+  "rating": 1029.2,
+  "se": 30.3,
+  "wins": 72.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_1406",
+  "rating": 1029.2,
+  "se": 31.2,
+  "wins": 70.5,
+  "games": 129
+ },
+ {
+  "name": "randbats_849",
+  "rating": 1029.2,
+  "se": 31.2,
+  "wins": 68.5,
+  "games": 128
+ },
+ {
+  "name": "randbats_524",
+  "rating": 1029.1,
+  "se": 29.2,
+  "wins": 80.0,
+  "games": 147
+ },
+ {
+  "name": "randbats_871",
+  "rating": 1029.0,
+  "se": 30.7,
+  "wins": 70.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_139",
+  "rating": 1028.7,
+  "se": 30.0,
+  "wins": 72.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_1118",
+  "rating": 1028.6,
+  "se": 29.4,
+  "wins": 78.0,
+  "games": 144
+ },
+ {
+  "name": "randbats_966",
+  "rating": 1028.6,
+  "se": 30.1,
+  "wins": 74.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_1313",
+  "rating": 1028.3,
+  "se": 31.6,
+  "wins": 69.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_128",
+  "rating": 1028.2,
+  "se": 33.0,
+  "wins": 60.0,
+  "games": 114
+ },
+ {
+  "name": "randbats_830",
+  "rating": 1028.2,
+  "se": 28.9,
+  "wins": 82.0,
+  "games": 151
+ },
+ {
+  "name": "randbats_6",
+  "rating": 1027.7,
+  "se": 29.8,
+  "wins": 74.5,
+  "games": 140
+ },
+ {
+  "name": "randbats_565",
+  "rating": 1027.6,
+  "se": 33.2,
+  "wins": 60.0,
+  "games": 112
+ },
+ {
+  "name": "randbats_144",
+  "rating": 1027.6,
+  "se": 30.9,
+  "wins": 68.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_1314",
+  "rating": 1027.6,
+  "se": 31.4,
+  "wins": 66.5,
+  "games": 126
+ },
+ {
+  "name": "randbats_506",
+  "rating": 1027.4,
+  "se": 29.8,
+  "wins": 75.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_734",
+  "rating": 1027.4,
+  "se": 31.1,
+  "wins": 70.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_1120",
+  "rating": 1027.3,
+  "se": 30.8,
+  "wins": 70.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_907",
+  "rating": 1027.1,
+  "se": 30.5,
+  "wins": 72.5,
+  "games": 135
+ },
+ {
+  "name": "randbats_286",
+  "rating": 1027.0,
+  "se": 30.3,
+  "wins": 72.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_710",
+  "rating": 1026.8,
+  "se": 33.1,
+  "wins": 62.0,
+  "games": 114
+ },
+ {
+  "name": "randbats_513",
+  "rating": 1026.8,
+  "se": 30.5,
+  "wins": 71.5,
+  "games": 134
+ },
+ {
+  "name": "randbats_769",
+  "rating": 1026.6,
+  "se": 31.0,
+  "wins": 68.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_980",
+  "rating": 1026.5,
+  "se": 30.7,
+  "wins": 73.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_1147",
+  "rating": 1026.5,
+  "se": 30.0,
+  "wins": 74.5,
+  "games": 138
+ },
+ {
+  "name": "randbats_1226",
+  "rating": 1026.4,
+  "se": 29.7,
+  "wins": 73.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_30",
+  "rating": 1026.4,
+  "se": 30.0,
+  "wins": 73.5,
+  "games": 138
+ },
+ {
+  "name": "randbats_908",
+  "rating": 1026.3,
+  "se": 32.1,
+  "wins": 65.0,
+  "games": 122
+ },
+ {
+  "name": "randbats_1236",
+  "rating": 1026.1,
+  "se": 32.4,
+  "wins": 61.5,
+  "games": 118
+ },
+ {
+  "name": "randbats_544",
+  "rating": 1026.0,
+  "se": 31.3,
+  "wins": 69.5,
+  "games": 127
+ },
+ {
+  "name": "randbats_1438",
+  "rating": 1025.9,
+  "se": 29.0,
+  "wins": 80.0,
+  "games": 148
+ },
+ {
+  "name": "randbats_1412",
+  "rating": 1025.7,
+  "se": 32.1,
+  "wins": 63.5,
+  "games": 121
+ },
+ {
+  "name": "randbats_1452",
+  "rating": 1025.6,
+  "se": 29.8,
+  "wins": 76.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_521",
+  "rating": 1025.5,
+  "se": 30.3,
+  "wins": 72.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_1332",
+  "rating": 1025.3,
+  "se": 31.0,
+  "wins": 70.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_1413",
+  "rating": 1025.0,
+  "se": 30.1,
+  "wins": 73.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_358",
+  "rating": 1024.9,
+  "se": 31.4,
+  "wins": 67.5,
+  "games": 126
+ },
+ {
+  "name": "randbats_566",
+  "rating": 1024.8,
+  "se": 31.5,
+  "wins": 66.0,
+  "games": 125
+ },
+ {
+  "name": "randbats_366",
+  "rating": 1024.4,
+  "se": 29.9,
+  "wins": 75.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_1216",
+  "rating": 1023.8,
+  "se": 29.8,
+  "wins": 75.5,
+  "games": 140
+ },
+ {
+  "name": "randbats_385",
+  "rating": 1023.7,
+  "se": 32.7,
+  "wins": 62.0,
+  "games": 116
+ },
+ {
+  "name": "randbats_556",
+  "rating": 1023.6,
+  "se": 29.3,
+  "wins": 78.0,
+  "games": 146
+ },
+ {
+  "name": "randbats_1172",
+  "rating": 1023.6,
+  "se": 30.3,
+  "wins": 72.5,
+  "games": 136
+ },
+ {
+  "name": "randbats_5",
+  "rating": 1023.6,
+  "se": 30.6,
+  "wins": 71.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_717",
+  "rating": 1023.6,
+  "se": 31.0,
+  "wins": 70.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_628",
+  "rating": 1023.6,
+  "se": 29.5,
+  "wins": 78.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_145",
+  "rating": 1023.5,
+  "se": 31.9,
+  "wins": 65.0,
+  "games": 122
+ },
+ {
+  "name": "randbats_322",
+  "rating": 1023.5,
+  "se": 30.7,
+  "wins": 71.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_972",
+  "rating": 1023.4,
+  "se": 29.2,
+  "wins": 76.0,
+  "games": 146
+ },
+ {
+  "name": "randbats_1096",
+  "rating": 1023.3,
+  "se": 30.3,
+  "wins": 71.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_439",
+  "rating": 1023.3,
+  "se": 29.0,
+  "wins": 78.0,
+  "games": 148
+ },
+ {
+  "name": "randbats_846",
+  "rating": 1023.2,
+  "se": 30.0,
+  "wins": 73.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_1285",
+  "rating": 1023.2,
+  "se": 32.9,
+  "wins": 61.0,
+  "games": 115
+ },
+ {
+  "name": "randbats_1292",
+  "rating": 1022.9,
+  "se": 29.5,
+  "wins": 79.0,
+  "games": 144
+ },
+ {
+  "name": "randbats_529",
+  "rating": 1022.8,
+  "se": 31.3,
+  "wins": 67.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_113",
+  "rating": 1022.6,
+  "se": 30.4,
+  "wins": 73.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_330",
+  "rating": 1022.6,
+  "se": 29.5,
+  "wins": 77.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_584",
+  "rating": 1022.6,
+  "se": 32.0,
+  "wins": 65.0,
+  "games": 122
+ },
+ {
+  "name": "randbats_226",
+  "rating": 1022.5,
+  "se": 29.3,
+  "wins": 81.0,
+  "games": 147
+ },
+ {
+  "name": "randbats_1088",
+  "rating": 1022.5,
+  "se": 30.6,
+  "wins": 69.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_409",
+  "rating": 1022.2,
+  "se": 31.0,
+  "wins": 68.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_13",
+  "rating": 1022.2,
+  "se": 29.2,
+  "wins": 79.0,
+  "games": 147
+ },
+ {
+  "name": "randbats_753",
+  "rating": 1022.1,
+  "se": 29.6,
+  "wins": 75.5,
+  "games": 142
+ },
+ {
+  "name": "randbats_1124",
+  "rating": 1022.1,
+  "se": 30.2,
+  "wins": 73.5,
+  "games": 137
+ },
+ {
+  "name": "randbats_679",
+  "rating": 1022.0,
+  "se": 31.0,
+  "wins": 67.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_28",
+  "rating": 1022.0,
+  "se": 31.0,
+  "wins": 65.5,
+  "games": 129
+ },
+ {
+  "name": "randbats_1418",
+  "rating": 1021.8,
+  "se": 30.8,
+  "wins": 70.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_60",
+  "rating": 1021.7,
+  "se": 29.9,
+  "wins": 73.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_1348",
+  "rating": 1021.6,
+  "se": 29.3,
+  "wins": 76.0,
+  "games": 146
+ },
+ {
+  "name": "randbats_852",
+  "rating": 1021.5,
+  "se": 31.1,
+  "wins": 69.5,
+  "games": 129
+ },
+ {
+  "name": "randbats_1378",
+  "rating": 1021.5,
+  "se": 30.0,
+  "wins": 75.5,
+  "games": 139
+ },
+ {
+  "name": "randbats_1048",
+  "rating": 1021.5,
+  "se": 32.4,
+  "wins": 61.5,
+  "games": 118
+ },
+ {
+  "name": "randbats_515",
+  "rating": 1021.4,
+  "se": 30.1,
+  "wins": 73.5,
+  "games": 137
+ },
+ {
+  "name": "randbats_931",
+  "rating": 1021.4,
+  "se": 30.2,
+  "wins": 71.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_725",
+  "rating": 1021.3,
+  "se": 31.0,
+  "wins": 69.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_1372",
+  "rating": 1021.3,
+  "se": 31.8,
+  "wins": 65.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_494",
+  "rating": 1021.3,
+  "se": 30.5,
+  "wins": 71.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_867",
+  "rating": 1021.0,
+  "se": 33.7,
+  "wins": 61.0,
+  "games": 111
+ },
+ {
+  "name": "randbats_828",
+  "rating": 1021.0,
+  "se": 30.1,
+  "wins": 74.5,
+  "games": 138
+ },
+ {
+  "name": "randbats_412",
+  "rating": 1021.0,
+  "se": 32.4,
+  "wins": 61.0,
+  "games": 118
+ },
+ {
+  "name": "randbats_709",
+  "rating": 1020.9,
+  "se": 31.5,
+  "wins": 66.5,
+  "games": 125
+ },
+ {
+  "name": "randbats_1322",
+  "rating": 1020.9,
+  "se": 34.5,
+  "wins": 56.0,
+  "games": 105
+ },
+ {
+  "name": "randbats_550",
+  "rating": 1020.9,
+  "se": 31.4,
+  "wins": 65.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_742",
+  "rating": 1020.9,
+  "se": 30.5,
+  "wins": 74.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_1375",
+  "rating": 1020.9,
+  "se": 30.5,
+  "wins": 71.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_1494",
+  "rating": 1020.9,
+  "se": 30.1,
+  "wins": 71.5,
+  "games": 137
+ },
+ {
+  "name": "randbats_1130",
+  "rating": 1020.0,
+  "se": 31.6,
+  "wins": 66.0,
+  "games": 125
+ },
+ {
+  "name": "randbats_1086",
+  "rating": 1020.0,
+  "se": 30.7,
+  "wins": 71.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_481",
+  "rating": 1019.9,
+  "se": 29.8,
+  "wins": 73.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_682",
+  "rating": 1019.8,
+  "se": 33.3,
+  "wins": 58.5,
+  "games": 112
+ },
+ {
+  "name": "randbats_637",
+  "rating": 1019.8,
+  "se": 27.7,
+  "wins": 85.5,
+  "games": 162
+ },
+ {
+  "name": "randbats_1266",
+  "rating": 1019.4,
+  "se": 30.7,
+  "wins": 69.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_965",
+  "rating": 1019.3,
+  "se": 31.9,
+  "wins": 65.5,
+  "games": 124
+ },
+ {
+  "name": "randbats_363",
+  "rating": 1019.3,
+  "se": 30.2,
+  "wins": 71.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_1384",
+  "rating": 1019.1,
+  "se": 30.3,
+  "wins": 73.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_538",
+  "rating": 1019.0,
+  "se": 30.4,
+  "wins": 73.5,
+  "games": 135
+ },
+ {
+  "name": "randbats_951",
+  "rating": 1018.9,
+  "se": 30.2,
+  "wins": 73.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_393",
+  "rating": 1018.8,
+  "se": 32.3,
+  "wins": 61.0,
+  "games": 118
+ },
+ {
+  "name": "randbats_76",
+  "rating": 1018.7,
+  "se": 29.4,
+  "wins": 75.5,
+  "games": 144
+ },
+ {
+  "name": "randbats_1385",
+  "rating": 1018.6,
+  "se": 30.0,
+  "wins": 73.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_514",
+  "rating": 1018.5,
+  "se": 30.9,
+  "wins": 68.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_1133",
+  "rating": 1018.4,
+  "se": 28.7,
+  "wins": 81.0,
+  "games": 152
+ },
+ {
+  "name": "randbats_932",
+  "rating": 1018.3,
+  "se": 31.6,
+  "wins": 66.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_897",
+  "rating": 1018.1,
+  "se": 30.3,
+  "wins": 69.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_303",
+  "rating": 1017.7,
+  "se": 31.4,
+  "wins": 69.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_1186",
+  "rating": 1017.6,
+  "se": 31.7,
+  "wins": 64.0,
+  "games": 124
+ },
+ {
+  "name": "randbats_804",
+  "rating": 1017.6,
+  "se": 29.7,
+  "wins": 73.5,
+  "games": 140
+ },
+ {
+  "name": "randbats_1219",
+  "rating": 1017.6,
+  "se": 33.1,
+  "wins": 59.0,
+  "games": 113
+ },
+ {
+  "name": "randbats_411",
+  "rating": 1017.6,
+  "se": 32.4,
+  "wins": 64.0,
+  "games": 119
+ },
+ {
+  "name": "randbats_471",
+  "rating": 1017.4,
+  "se": 30.3,
+  "wins": 71.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_497",
+  "rating": 1017.1,
+  "se": 30.8,
+  "wins": 68.5,
+  "games": 131
+ },
+ {
+  "name": "randbats_378",
+  "rating": 1017.0,
+  "se": 32.7,
+  "wins": 61.5,
+  "games": 117
+ },
+ {
+  "name": "randbats_1110",
+  "rating": 1017.0,
+  "se": 30.5,
+  "wins": 69.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_1491",
+  "rating": 1016.9,
+  "se": 29.1,
+  "wins": 77.0,
+  "games": 147
+ },
+ {
+  "name": "randbats_1283",
+  "rating": 1016.7,
+  "se": 30.8,
+  "wins": 69.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_841",
+  "rating": 1016.7,
+  "se": 30.7,
+  "wins": 69.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_79",
+  "rating": 1016.6,
+  "se": 31.7,
+  "wins": 65.0,
+  "games": 124
+ },
+ {
+  "name": "randbats_1208",
+  "rating": 1016.5,
+  "se": 32.7,
+  "wins": 61.0,
+  "games": 116
+ },
+ {
+  "name": "randbats_832",
+  "rating": 1016.5,
+  "se": 30.7,
+  "wins": 69.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_899",
+  "rating": 1016.3,
+  "se": 30.2,
+  "wins": 70.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_168",
+  "rating": 1016.3,
+  "se": 30.9,
+  "wins": 68.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_714",
+  "rating": 1016.2,
+  "se": 31.3,
+  "wins": 67.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_985",
+  "rating": 1016.1,
+  "se": 31.5,
+  "wins": 63.5,
+  "games": 125
+ },
+ {
+  "name": "randbats_1305",
+  "rating": 1016.0,
+  "se": 31.2,
+  "wins": 67.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_763",
+  "rating": 1015.8,
+  "se": 30.7,
+  "wins": 69.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_315",
+  "rating": 1015.7,
+  "se": 30.9,
+  "wins": 69.5,
+  "games": 131
+ },
+ {
+  "name": "randbats_973",
+  "rating": 1015.6,
+  "se": 31.9,
+  "wins": 64.0,
+  "games": 122
+ },
+ {
+  "name": "randbats_1127",
+  "rating": 1015.6,
+  "se": 28.7,
+  "wins": 78.0,
+  "games": 151
+ },
+ {
+  "name": "randbats_343",
+  "rating": 1015.6,
+  "se": 32.5,
+  "wins": 62.0,
+  "games": 118
+ },
+ {
+  "name": "randbats_282",
+  "rating": 1015.6,
+  "se": 28.0,
+  "wins": 83.0,
+  "games": 158
+ },
+ {
+  "name": "randbats_151",
+  "rating": 1015.5,
+  "se": 30.4,
+  "wins": 70.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_308",
+  "rating": 1015.4,
+  "se": 28.8,
+  "wins": 79.0,
+  "games": 150
+ },
+ {
+  "name": "randbats_288",
+  "rating": 1015.4,
+  "se": 28.4,
+  "wins": 82.0,
+  "games": 154
+ },
+ {
+  "name": "randbats_121",
+  "rating": 1015.4,
+  "se": 28.8,
+  "wins": 77.5,
+  "games": 150
+ },
+ {
+  "name": "randbats_875",
+  "rating": 1015.1,
+  "se": 31.6,
+  "wins": 66.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_444",
+  "rating": 1015.1,
+  "se": 30.3,
+  "wins": 71.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_1199",
+  "rating": 1015.1,
+  "se": 30.4,
+  "wins": 70.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_806",
+  "rating": 1015.0,
+  "se": 32.2,
+  "wins": 63.0,
+  "games": 120
+ },
+ {
+  "name": "randbats_1323",
+  "rating": 1014.9,
+  "se": 30.9,
+  "wins": 68.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_1004",
+  "rating": 1014.8,
+  "se": 29.4,
+  "wins": 74.0,
+  "games": 144
+ },
+ {
+  "name": "randbats_1448",
+  "rating": 1014.5,
+  "se": 30.4,
+  "wins": 69.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_1252",
+  "rating": 1014.3,
+  "se": 29.8,
+  "wins": 74.5,
+  "games": 141
+ },
+ {
+  "name": "randbats_305",
+  "rating": 1014.2,
+  "se": 31.9,
+  "wins": 65.0,
+  "games": 122
+ },
+ {
+  "name": "randbats_21",
+  "rating": 1014.1,
+  "se": 33.5,
+  "wins": 58.0,
+  "games": 111
+ },
+ {
+  "name": "randbats_1193",
+  "rating": 1014.0,
+  "se": 30.1,
+  "wins": 72.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_1347",
+  "rating": 1013.9,
+  "se": 28.4,
+  "wins": 79.0,
+  "games": 154
+ },
+ {
+  "name": "randbats_218",
+  "rating": 1013.6,
+  "se": 29.2,
+  "wins": 76.0,
+  "games": 146
+ },
+ {
+  "name": "randbats_1101",
+  "rating": 1013.6,
+  "se": 28.1,
+  "wins": 79.0,
+  "games": 158
+ },
+ {
+  "name": "randbats_1462",
+  "rating": 1013.5,
+  "se": 31.5,
+  "wins": 66.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_1242",
+  "rating": 1013.4,
+  "se": 32.3,
+  "wins": 62.0,
+  "games": 119
+ },
+ {
+  "name": "randbats_467",
+  "rating": 1013.4,
+  "se": 28.6,
+  "wins": 79.5,
+  "games": 152
+ },
+ {
+  "name": "randbats_1407",
+  "rating": 1013.4,
+  "se": 32.5,
+  "wins": 60.0,
+  "games": 117
+ },
+ {
+  "name": "randbats_643",
+  "rating": 1013.3,
+  "se": 30.8,
+  "wins": 67.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_801",
+  "rating": 1013.2,
+  "se": 29.7,
+  "wins": 73.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_1325",
+  "rating": 1013.2,
+  "se": 31.1,
+  "wins": 65.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_61",
+  "rating": 1013.1,
+  "se": 28.7,
+  "wins": 77.0,
+  "games": 150
+ },
+ {
+  "name": "randbats_245",
+  "rating": 1013.1,
+  "se": 29.6,
+  "wins": 72.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_495",
+  "rating": 1013.0,
+  "se": 30.9,
+  "wins": 67.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_281",
+  "rating": 1013.0,
+  "se": 29.1,
+  "wins": 76.0,
+  "games": 147
+ },
+ {
+  "name": "randbats_1077",
+  "rating": 1012.9,
+  "se": 31.5,
+  "wins": 66.5,
+  "games": 126
+ },
+ {
+  "name": "randbats_486",
+  "rating": 1012.9,
+  "se": 28.6,
+  "wins": 78.0,
+  "games": 152
+ },
+ {
+  "name": "randbats_834",
+  "rating": 1012.8,
+  "se": 32.1,
+  "wins": 61.0,
+  "games": 121
+ },
+ {
+  "name": "randbats_194",
+  "rating": 1012.7,
+  "se": 28.9,
+  "wins": 75.0,
+  "games": 148
+ },
+ {
+  "name": "randbats_445",
+  "rating": 1012.7,
+  "se": 29.5,
+  "wins": 74.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_1116",
+  "rating": 1012.6,
+  "se": 33.3,
+  "wins": 57.5,
+  "games": 112
+ },
+ {
+  "name": "randbats_1119",
+  "rating": 1012.6,
+  "se": 32.7,
+  "wins": 60.0,
+  "games": 116
+ },
+ {
+  "name": "randbats_1003",
+  "rating": 1012.3,
+  "se": 33.6,
+  "wins": 58.5,
+  "games": 111
+ },
+ {
+  "name": "randbats_323",
+  "rating": 1012.3,
+  "se": 31.7,
+  "wins": 63.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_1218",
+  "rating": 1012.3,
+  "se": 30.3,
+  "wins": 71.5,
+  "games": 136
+ },
+ {
+  "name": "randbats_462",
+  "rating": 1012.2,
+  "se": 30.0,
+  "wins": 71.5,
+  "games": 138
+ },
+ {
+  "name": "randbats_729",
+  "rating": 1012.1,
+  "se": 31.4,
+  "wins": 65.5,
+  "games": 126
+ },
+ {
+  "name": "randbats_38",
+  "rating": 1012.0,
+  "se": 33.5,
+  "wins": 56.0,
+  "games": 111
+ },
+ {
+  "name": "randbats_19",
+  "rating": 1011.9,
+  "se": 29.2,
+  "wins": 75.0,
+  "games": 146
+ },
+ {
+  "name": "randbats_170",
+  "rating": 1011.9,
+  "se": 31.6,
+  "wins": 63.0,
+  "games": 124
+ },
+ {
+  "name": "randbats_1229",
+  "rating": 1011.9,
+  "se": 28.3,
+  "wins": 79.0,
+  "games": 155
+ },
+ {
+  "name": "randbats_1239",
+  "rating": 1011.9,
+  "se": 34.3,
+  "wins": 55.0,
+  "games": 106
+ },
+ {
+  "name": "randbats_476",
+  "rating": 1011.8,
+  "se": 29.7,
+  "wins": 73.5,
+  "games": 141
+ },
+ {
+  "name": "randbats_276",
+  "rating": 1011.8,
+  "se": 29.9,
+  "wins": 70.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_1069",
+  "rating": 1011.5,
+  "se": 31.7,
+  "wins": 64.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_3",
+  "rating": 1011.4,
+  "se": 29.9,
+  "wins": 73.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_1415",
+  "rating": 1011.3,
+  "se": 32.7,
+  "wins": 61.0,
+  "games": 117
+ },
+ {
+  "name": "randbats_1326",
+  "rating": 1011.3,
+  "se": 30.7,
+  "wins": 68.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_787",
+  "rating": 1011.2,
+  "se": 33.2,
+  "wins": 59.0,
+  "games": 113
+ },
+ {
+  "name": "randbats_1336",
+  "rating": 1011.2,
+  "se": 30.1,
+  "wins": 70.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_1180",
+  "rating": 1011.2,
+  "se": 30.5,
+  "wins": 71.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_311",
+  "rating": 1011.1,
+  "se": 30.2,
+  "wins": 69.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_1111",
+  "rating": 1011.1,
+  "se": 29.6,
+  "wins": 76.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_331",
+  "rating": 1011.1,
+  "se": 31.4,
+  "wins": 66.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_1071",
+  "rating": 1010.8,
+  "se": 30.2,
+  "wins": 72.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_428",
+  "rating": 1010.8,
+  "se": 32.0,
+  "wins": 62.0,
+  "games": 121
+ },
+ {
+  "name": "randbats_328",
+  "rating": 1010.6,
+  "se": 32.0,
+  "wins": 62.0,
+  "games": 121
+ },
+ {
+  "name": "randbats_690",
+  "rating": 1010.6,
+  "se": 31.7,
+  "wins": 63.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_617",
+  "rating": 1010.6,
+  "se": 33.5,
+  "wins": 56.5,
+  "games": 110
+ },
+ {
+  "name": "randbats_1480",
+  "rating": 1010.5,
+  "se": 29.1,
+  "wins": 77.5,
+  "games": 147
+ },
+ {
+  "name": "randbats_1206",
+  "rating": 1010.4,
+  "se": 31.2,
+  "wins": 65.5,
+  "games": 127
+ },
+ {
+  "name": "randbats_141",
+  "rating": 1010.3,
+  "se": 30.5,
+  "wins": 68.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_491",
+  "rating": 1010.2,
+  "se": 30.3,
+  "wins": 70.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_636",
+  "rating": 1010.1,
+  "se": 30.3,
+  "wins": 70.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_1273",
+  "rating": 1010.0,
+  "se": 29.8,
+  "wins": 72.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_1165",
+  "rating": 1010.0,
+  "se": 29.6,
+  "wins": 72.5,
+  "games": 141
+ },
+ {
+  "name": "randbats_418",
+  "rating": 1009.7,
+  "se": 31.3,
+  "wins": 65.5,
+  "games": 127
+ },
+ {
+  "name": "randbats_1094",
+  "rating": 1009.4,
+  "se": 31.2,
+  "wins": 66.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_585",
+  "rating": 1009.2,
+  "se": 30.9,
+  "wins": 67.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_464",
+  "rating": 1009.1,
+  "se": 30.3,
+  "wins": 71.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_203",
+  "rating": 1008.8,
+  "se": 29.7,
+  "wins": 72.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_790",
+  "rating": 1008.8,
+  "se": 30.5,
+  "wins": 70.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_745",
+  "rating": 1008.7,
+  "se": 29.8,
+  "wins": 72.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_688",
+  "rating": 1008.5,
+  "se": 34.0,
+  "wins": 55.0,
+  "games": 108
+ },
+ {
+  "name": "randbats_1060",
+  "rating": 1008.5,
+  "se": 29.2,
+  "wins": 73.0,
+  "games": 145
+ },
+ {
+  "name": "randbats_780",
+  "rating": 1008.4,
+  "se": 30.5,
+  "wins": 67.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_588",
+  "rating": 1008.3,
+  "se": 31.2,
+  "wins": 66.5,
+  "games": 128
+ },
+ {
+  "name": "randbats_1047",
+  "rating": 1008.2,
+  "se": 30.9,
+  "wins": 65.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_1250",
+  "rating": 1008.1,
+  "se": 31.1,
+  "wins": 65.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_156",
+  "rating": 1008.1,
+  "se": 31.4,
+  "wins": 66.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_386",
+  "rating": 1007.9,
+  "se": 34.5,
+  "wins": 52.5,
+  "games": 104
+ },
+ {
+  "name": "randbats_1237",
+  "rating": 1007.9,
+  "se": 30.8,
+  "wins": 66.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_184",
+  "rating": 1007.9,
+  "se": 30.3,
+  "wins": 69.5,
+  "games": 135
+ },
+ {
+  "name": "randbats_1364",
+  "rating": 1007.8,
+  "se": 31.3,
+  "wins": 65.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_1288",
+  "rating": 1007.7,
+  "se": 30.6,
+  "wins": 67.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_568",
+  "rating": 1007.7,
+  "se": 29.9,
+  "wins": 70.5,
+  "games": 139
+ },
+ {
+  "name": "randbats_901",
+  "rating": 1007.6,
+  "se": 30.5,
+  "wins": 67.5,
+  "games": 133
+ },
+ {
+  "name": "randbats_1187",
+  "rating": 1007.6,
+  "se": 29.8,
+  "wins": 71.5,
+  "games": 140
+ },
+ {
+  "name": "randbats_108",
+  "rating": 1007.3,
+  "se": 30.3,
+  "wins": 69.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_1403",
+  "rating": 1007.3,
+  "se": 30.6,
+  "wins": 67.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_803",
+  "rating": 1007.3,
+  "se": 31.8,
+  "wins": 62.5,
+  "games": 123
+ },
+ {
+  "name": "randbats_759",
+  "rating": 1006.9,
+  "se": 29.4,
+  "wins": 73.0,
+  "games": 144
+ },
+ {
+  "name": "randbats_591",
+  "rating": 1006.9,
+  "se": 31.3,
+  "wins": 65.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_689",
+  "rating": 1006.8,
+  "se": 29.5,
+  "wins": 74.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_1079",
+  "rating": 1006.5,
+  "se": 30.4,
+  "wins": 68.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_1008",
+  "rating": 1006.4,
+  "se": 30.2,
+  "wins": 70.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_706",
+  "rating": 1006.4,
+  "se": 29.5,
+  "wins": 72.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_607",
+  "rating": 1006.4,
+  "se": 30.6,
+  "wins": 68.5,
+  "games": 133
+ },
+ {
+  "name": "randbats_8",
+  "rating": 1006.2,
+  "se": 29.8,
+  "wins": 71.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_1000",
+  "rating": 1006.1,
+  "se": 31.0,
+  "wins": 67.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_1222",
+  "rating": 1006.1,
+  "se": 30.2,
+  "wins": 70.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_900",
+  "rating": 1006.0,
+  "se": 34.1,
+  "wins": 55.5,
+  "games": 108
+ },
+ {
+  "name": "randbats_4",
+  "rating": 1005.9,
+  "se": 32.2,
+  "wins": 60.0,
+  "games": 120
+ },
+ {
+  "name": "randbats_377",
+  "rating": 1005.7,
+  "se": 31.6,
+  "wins": 64.0,
+  "games": 125
+ },
+ {
+  "name": "randbats_186",
+  "rating": 1005.7,
+  "se": 31.5,
+  "wins": 63.0,
+  "games": 125
+ },
+ {
+  "name": "randbats_1080",
+  "rating": 1005.7,
+  "se": 30.8,
+  "wins": 66.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_777",
+  "rating": 1005.7,
+  "se": 29.7,
+  "wins": 72.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_669",
+  "rating": 1005.6,
+  "se": 30.8,
+  "wins": 65.5,
+  "games": 130
+ },
+ {
+  "name": "randbats_1140",
+  "rating": 1005.6,
+  "se": 30.8,
+  "wins": 67.5,
+  "games": 132
+ },
+ {
+  "name": "randbats_851",
+  "rating": 1005.5,
+  "se": 28.8,
+  "wins": 75.0,
+  "games": 150
+ },
+ {
+  "name": "randbats_812",
+  "rating": 1005.4,
+  "se": 28.1,
+  "wins": 83.5,
+  "games": 159
+ },
+ {
+  "name": "randbats_715",
+  "rating": 1005.2,
+  "se": 29.3,
+  "wins": 72.0,
+  "games": 144
+ },
+ {
+  "name": "randbats_1074",
+  "rating": 1005.1,
+  "se": 30.1,
+  "wins": 72.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_365",
+  "rating": 1005.1,
+  "se": 31.1,
+  "wins": 63.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_821",
+  "rating": 1005.0,
+  "se": 28.7,
+  "wins": 76.5,
+  "games": 151
+ },
+ {
+  "name": "randbats_143",
+  "rating": 1004.7,
+  "se": 31.7,
+  "wins": 61.5,
+  "games": 123
+ },
+ {
+  "name": "randbats_625",
+  "rating": 1004.7,
+  "se": 30.3,
+  "wins": 69.5,
+  "games": 135
+ },
+ {
+  "name": "randbats_592",
+  "rating": 1004.6,
+  "se": 29.7,
+  "wins": 72.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_320",
+  "rating": 1004.5,
+  "se": 29.3,
+  "wins": 72.0,
+  "games": 144
+ },
+ {
+  "name": "randbats_95",
+  "rating": 1004.4,
+  "se": 29.5,
+  "wins": 71.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_242",
+  "rating": 1004.4,
+  "se": 29.8,
+  "wins": 71.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_466",
+  "rating": 1004.3,
+  "se": 32.4,
+  "wins": 60.0,
+  "games": 118
+ },
+ {
+  "name": "randbats_275",
+  "rating": 1004.2,
+  "se": 29.7,
+  "wins": 70.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_376",
+  "rating": 1004.2,
+  "se": 30.5,
+  "wins": 68.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_541",
+  "rating": 1004.2,
+  "se": 30.8,
+  "wins": 64.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_811",
+  "rating": 1004.2,
+  "se": 29.9,
+  "wins": 72.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_583",
+  "rating": 1004.0,
+  "se": 28.1,
+  "wins": 79.0,
+  "games": 157
+ },
+ {
+  "name": "randbats_781",
+  "rating": 1003.9,
+  "se": 28.9,
+  "wins": 76.5,
+  "games": 149
+ },
+ {
+  "name": "randbats_239",
+  "rating": 1003.8,
+  "se": 30.6,
+  "wins": 68.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_179",
+  "rating": 1003.7,
+  "se": 32.9,
+  "wins": 57.0,
+  "games": 115
+ },
+ {
+  "name": "randbats_960",
+  "rating": 1003.7,
+  "se": 30.4,
+  "wins": 68.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_1076",
+  "rating": 1003.7,
+  "se": 34.8,
+  "wins": 51.0,
+  "games": 103
+ },
+ {
+  "name": "randbats_627",
+  "rating": 1003.5,
+  "se": 35.2,
+  "wins": 50.0,
+  "games": 100
+ },
+ {
+  "name": "randbats_1370",
+  "rating": 1003.5,
+  "se": 31.3,
+  "wins": 64.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_45",
+  "rating": 1003.4,
+  "se": 30.6,
+  "wins": 66.5,
+  "games": 133
+ },
+ {
+  "name": "randbats_1203",
+  "rating": 1003.4,
+  "se": 31.1,
+  "wins": 67.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_1294",
+  "rating": 1003.3,
+  "se": 30.8,
+  "wins": 67.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_97",
+  "rating": 1003.1,
+  "se": 31.4,
+  "wins": 63.5,
+  "games": 126
+ },
+ {
+  "name": "randbats_375",
+  "rating": 1003.0,
+  "se": 29.4,
+  "wins": 71.0,
+  "games": 144
+ },
+ {
+  "name": "randbats_56",
+  "rating": 1002.9,
+  "se": 30.9,
+  "wins": 65.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_280",
+  "rating": 1002.6,
+  "se": 28.3,
+  "wins": 78.0,
+  "games": 155
+ },
+ {
+  "name": "randbats_1059",
+  "rating": 1002.6,
+  "se": 30.6,
+  "wins": 67.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_949",
+  "rating": 1002.5,
+  "se": 31.2,
+  "wins": 65.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_431",
+  "rating": 1002.5,
+  "se": 30.7,
+  "wins": 68.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_1104",
+  "rating": 1002.4,
+  "se": 31.5,
+  "wins": 65.0,
+  "games": 125
+ },
+ {
+  "name": "randbats_1414",
+  "rating": 1002.3,
+  "se": 31.9,
+  "wins": 62.5,
+  "games": 123
+ },
+ {
+  "name": "randbats_831",
+  "rating": 1002.3,
+  "se": 33.0,
+  "wins": 58.0,
+  "games": 115
+ },
+ {
+  "name": "randbats_299",
+  "rating": 1002.3,
+  "se": 29.9,
+  "wins": 70.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_1170",
+  "rating": 1002.2,
+  "se": 30.4,
+  "wins": 67.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_498",
+  "rating": 1002.0,
+  "se": 31.9,
+  "wins": 62.0,
+  "games": 122
+ },
+ {
+  "name": "randbats_408",
+  "rating": 1002.0,
+  "se": 32.3,
+  "wins": 60.0,
+  "games": 119
+ },
+ {
+  "name": "randbats_47",
+  "rating": 1002.0,
+  "se": 28.9,
+  "wins": 72.5,
+  "games": 148
+ },
+ {
+  "name": "randbats_1261",
+  "rating": 1001.9,
+  "se": 29.2,
+  "wins": 73.0,
+  "games": 145
+ },
+ {
+  "name": "randbats_22",
+  "rating": 1001.4,
+  "se": 29.4,
+  "wins": 68.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_137",
+  "rating": 1001.4,
+  "se": 30.3,
+  "wins": 69.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_610",
+  "rating": 1001.4,
+  "se": 30.7,
+  "wins": 66.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_644",
+  "rating": 1001.2,
+  "se": 29.5,
+  "wins": 72.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_301",
+  "rating": 1000.9,
+  "se": 30.7,
+  "wins": 66.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_1057",
+  "rating": 1000.8,
+  "se": 30.2,
+  "wins": 70.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_531",
+  "rating": 1000.8,
+  "se": 31.6,
+  "wins": 60.0,
+  "games": 124
+ },
+ {
+  "name": "randbats_516",
+  "rating": 1000.2,
+  "se": 30.0,
+  "wins": 68.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_1117",
+  "rating": 1000.1,
+  "se": 29.5,
+  "wins": 71.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_525",
+  "rating": 1000.1,
+  "se": 30.7,
+  "wins": 67.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_1468",
+  "rating": 1000.0,
+  "se": 28.9,
+  "wins": 75.5,
+  "games": 150
+ },
+ {
+  "name": "randbats_31",
+  "rating": 1000.0,
+  "se": 32.9,
+  "wins": 57.5,
+  "games": 115
+ },
+ {
+  "name": "randbats_1247",
+  "rating": 1000.0,
+  "se": 30.7,
+  "wins": 67.5,
+  "games": 132
+ },
+ {
+  "name": "randbats_150",
+  "rating": 999.8,
+  "se": 29.3,
+  "wins": 73.0,
+  "games": 145
+ },
+ {
+  "name": "randbats_963",
+  "rating": 999.6,
+  "se": 27.9,
+  "wins": 81.0,
+  "games": 161
+ },
+ {
+  "name": "randbats_32",
+  "rating": 999.5,
+  "se": 30.0,
+  "wins": 66.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_816",
+  "rating": 999.4,
+  "se": 31.6,
+  "wins": 60.5,
+  "games": 124
+ },
+ {
+  "name": "randbats_1455",
+  "rating": 999.3,
+  "se": 31.0,
+  "wins": 64.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_829",
+  "rating": 999.3,
+  "se": 30.6,
+  "wins": 66.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_1",
+  "rating": 999.1,
+  "se": 31.9,
+  "wins": 59.0,
+  "games": 122
+ },
+ {
+  "name": "randbats_1050",
+  "rating": 998.8,
+  "se": 34.0,
+  "wins": 54.0,
+  "games": 107
+ },
+ {
+  "name": "randbats_429",
+  "rating": 998.5,
+  "se": 29.3,
+  "wins": 71.5,
+  "games": 144
+ },
+ {
+  "name": "randbats_658",
+  "rating": 998.5,
+  "se": 30.3,
+  "wins": 68.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_1395",
+  "rating": 998.4,
+  "se": 29.6,
+  "wins": 70.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_1489",
+  "rating": 998.4,
+  "se": 29.3,
+  "wins": 71.0,
+  "games": 144
+ },
+ {
+  "name": "randbats_560",
+  "rating": 998.4,
+  "se": 32.0,
+  "wins": 61.0,
+  "games": 121
+ },
+ {
+  "name": "randbats_485",
+  "rating": 998.2,
+  "se": 30.6,
+  "wins": 65.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_1025",
+  "rating": 998.1,
+  "se": 32.3,
+  "wins": 58.0,
+  "games": 119
+ },
+ {
+  "name": "randbats_1473",
+  "rating": 998.1,
+  "se": 30.2,
+  "wins": 65.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_687",
+  "rating": 998.1,
+  "se": 31.4,
+  "wins": 62.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_872",
+  "rating": 997.9,
+  "se": 28.6,
+  "wins": 75.5,
+  "games": 152
+ },
+ {
+  "name": "randbats_1380",
+  "rating": 997.9,
+  "se": 30.5,
+  "wins": 64.5,
+  "games": 134
+ },
+ {
+  "name": "randbats_206",
+  "rating": 997.8,
+  "se": 29.8,
+  "wins": 71.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_15",
+  "rating": 997.8,
+  "se": 29.4,
+  "wins": 71.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_263",
+  "rating": 997.7,
+  "se": 31.7,
+  "wins": 62.0,
+  "games": 124
+ },
+ {
+  "name": "randbats_898",
+  "rating": 997.7,
+  "se": 32.6,
+  "wins": 59.5,
+  "games": 117
+ },
+ {
+  "name": "randbats_334",
+  "rating": 997.7,
+  "se": 33.8,
+  "wins": 53.0,
+  "games": 108
+ },
+ {
+  "name": "randbats_757",
+  "rating": 997.6,
+  "se": 30.6,
+  "wins": 67.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_1500",
+  "rating": 997.5,
+  "se": 30.5,
+  "wins": 65.5,
+  "games": 133
+ },
+ {
+  "name": "randbats_1357",
+  "rating": 997.5,
+  "se": 30.4,
+  "wins": 68.5,
+  "games": 135
+ },
+ {
+  "name": "randbats_1204",
+  "rating": 997.3,
+  "se": 28.9,
+  "wins": 75.0,
+  "games": 149
+ },
+ {
+  "name": "randbats_952",
+  "rating": 997.3,
+  "se": 29.8,
+  "wins": 71.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_594",
+  "rating": 997.2,
+  "se": 30.5,
+  "wins": 64.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_1481",
+  "rating": 997.1,
+  "se": 31.3,
+  "wins": 62.5,
+  "games": 127
+ },
+ {
+  "name": "randbats_450",
+  "rating": 997.0,
+  "se": 30.7,
+  "wins": 67.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_1169",
+  "rating": 996.8,
+  "se": 31.0,
+  "wins": 64.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_440",
+  "rating": 996.7,
+  "se": 30.3,
+  "wins": 67.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_732",
+  "rating": 996.7,
+  "se": 30.4,
+  "wins": 66.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_536",
+  "rating": 996.7,
+  "se": 30.3,
+  "wins": 66.5,
+  "games": 136
+ },
+ {
+  "name": "randbats_37",
+  "rating": 996.6,
+  "se": 29.5,
+  "wins": 70.5,
+  "games": 142
+ },
+ {
+  "name": "randbats_1432",
+  "rating": 996.6,
+  "se": 29.6,
+  "wins": 72.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_809",
+  "rating": 996.5,
+  "se": 30.9,
+  "wins": 64.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_953",
+  "rating": 996.4,
+  "se": 31.8,
+  "wins": 63.0,
+  "games": 125
+ },
+ {
+  "name": "randbats_540",
+  "rating": 995.8,
+  "se": 30.1,
+  "wins": 67.5,
+  "games": 137
+ },
+ {
+  "name": "randbats_1466",
+  "rating": 995.6,
+  "se": 30.6,
+  "wins": 66.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_1134",
+  "rating": 995.5,
+  "se": 29.9,
+  "wins": 69.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_523",
+  "rating": 995.4,
+  "se": 30.0,
+  "wins": 67.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_1457",
+  "rating": 995.4,
+  "se": 29.5,
+  "wins": 70.5,
+  "games": 143
+ },
+ {
+  "name": "randbats_337",
+  "rating": 995.4,
+  "se": 28.7,
+  "wins": 76.5,
+  "games": 151
+ },
+ {
+  "name": "randbats_1006",
+  "rating": 995.3,
+  "se": 31.1,
+  "wins": 62.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_461",
+  "rating": 995.3,
+  "se": 30.1,
+  "wins": 67.5,
+  "games": 136
+ },
+ {
+  "name": "randbats_1213",
+  "rating": 995.2,
+  "se": 31.2,
+  "wins": 62.5,
+  "games": 127
+ },
+ {
+  "name": "randbats_157",
+  "rating": 995.1,
+  "se": 29.4,
+  "wins": 71.0,
+  "games": 144
+ },
+ {
+  "name": "randbats_1316",
+  "rating": 995.1,
+  "se": 28.1,
+  "wins": 78.0,
+  "games": 158
+ },
+ {
+  "name": "randbats_1419",
+  "rating": 995.0,
+  "se": 28.8,
+  "wins": 74.0,
+  "games": 149
+ },
+ {
+  "name": "randbats_1453",
+  "rating": 995.0,
+  "se": 29.7,
+  "wins": 68.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_1298",
+  "rating": 994.9,
+  "se": 28.6,
+  "wins": 74.5,
+  "games": 152
+ },
+ {
+  "name": "randbats_448",
+  "rating": 994.9,
+  "se": 31.4,
+  "wins": 61.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_117",
+  "rating": 994.9,
+  "se": 29.8,
+  "wins": 69.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_1421",
+  "rating": 994.8,
+  "se": 30.4,
+  "wins": 67.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_204",
+  "rating": 994.8,
+  "se": 31.3,
+  "wins": 64.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_1315",
+  "rating": 994.7,
+  "se": 30.9,
+  "wins": 63.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_1381",
+  "rating": 994.6,
+  "se": 31.8,
+  "wins": 62.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_673",
+  "rating": 994.6,
+  "se": 31.0,
+  "wins": 64.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_760",
+  "rating": 994.6,
+  "se": 29.1,
+  "wins": 71.5,
+  "games": 146
+ },
+ {
+  "name": "randbats_572",
+  "rating": 994.6,
+  "se": 30.0,
+  "wins": 68.5,
+  "games": 138
+ },
+ {
+  "name": "randbats_661",
+  "rating": 994.5,
+  "se": 32.7,
+  "wins": 58.5,
+  "games": 116
+ },
+ {
+  "name": "randbats_478",
+  "rating": 994.3,
+  "se": 30.8,
+  "wins": 66.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_122",
+  "rating": 994.2,
+  "se": 30.6,
+  "wins": 64.5,
+  "games": 132
+ },
+ {
+  "name": "randbats_271",
+  "rating": 994.2,
+  "se": 28.9,
+  "wins": 73.0,
+  "games": 149
+ },
+ {
+  "name": "randbats_1011",
+  "rating": 994.2,
+  "se": 28.2,
+  "wins": 75.0,
+  "games": 157
+ },
+ {
+  "name": "randbats_865",
+  "rating": 994.2,
+  "se": 33.1,
+  "wins": 56.0,
+  "games": 114
+ },
+ {
+  "name": "randbats_1490",
+  "rating": 994.1,
+  "se": 29.8,
+  "wins": 67.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_302",
+  "rating": 993.9,
+  "se": 30.7,
+  "wins": 65.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_1271",
+  "rating": 993.6,
+  "se": 30.2,
+  "wins": 65.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_224",
+  "rating": 993.5,
+  "se": 29.7,
+  "wins": 69.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_1107",
+  "rating": 993.4,
+  "se": 29.9,
+  "wins": 67.5,
+  "games": 139
+ },
+ {
+  "name": "randbats_80",
+  "rating": 993.4,
+  "se": 29.4,
+  "wins": 69.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_863",
+  "rating": 993.4,
+  "se": 30.8,
+  "wins": 65.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_1135",
+  "rating": 993.3,
+  "se": 30.5,
+  "wins": 67.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_217",
+  "rating": 993.2,
+  "se": 29.6,
+  "wins": 67.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_348",
+  "rating": 993.0,
+  "se": 30.1,
+  "wins": 67.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_344",
+  "rating": 993.0,
+  "se": 30.8,
+  "wins": 63.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_883",
+  "rating": 993.0,
+  "se": 30.6,
+  "wins": 64.5,
+  "games": 133
+ },
+ {
+  "name": "randbats_881",
+  "rating": 992.8,
+  "se": 29.3,
+  "wins": 71.5,
+  "games": 145
+ },
+ {
+  "name": "randbats_975",
+  "rating": 992.7,
+  "se": 30.1,
+  "wins": 68.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_545",
+  "rating": 992.6,
+  "se": 30.0,
+  "wins": 67.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_131",
+  "rating": 992.6,
+  "se": 35.2,
+  "wins": 48.0,
+  "games": 100
+ },
+ {
+  "name": "randbats_1246",
+  "rating": 992.5,
+  "se": 28.9,
+  "wins": 72.0,
+  "games": 149
+ },
+ {
+  "name": "randbats_227",
+  "rating": 992.4,
+  "se": 31.7,
+  "wins": 62.0,
+  "games": 124
+ },
+ {
+  "name": "randbats_979",
+  "rating": 992.4,
+  "se": 28.2,
+  "wins": 75.0,
+  "games": 156
+ },
+ {
+  "name": "randbats_923",
+  "rating": 992.3,
+  "se": 31.6,
+  "wins": 61.0,
+  "games": 125
+ },
+ {
+  "name": "randbats_1121",
+  "rating": 992.3,
+  "se": 31.1,
+  "wins": 63.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_1225",
+  "rating": 992.2,
+  "se": 34.2,
+  "wins": 52.5,
+  "games": 106
+ },
+ {
+  "name": "randbats_477",
+  "rating": 992.2,
+  "se": 31.3,
+  "wins": 62.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_548",
+  "rating": 992.1,
+  "se": 30.4,
+  "wins": 66.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_650",
+  "rating": 992.0,
+  "se": 29.9,
+  "wins": 69.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_826",
+  "rating": 991.9,
+  "se": 31.6,
+  "wins": 59.0,
+  "games": 125
+ },
+ {
+  "name": "randbats_622",
+  "rating": 991.7,
+  "se": 32.4,
+  "wins": 57.0,
+  "games": 118
+ },
+ {
+  "name": "randbats_41",
+  "rating": 991.6,
+  "se": 32.2,
+  "wins": 57.0,
+  "games": 120
+ },
+ {
+  "name": "randbats_677",
+  "rating": 991.4,
+  "se": 30.7,
+  "wins": 63.5,
+  "games": 132
+ },
+ {
+  "name": "randbats_835",
+  "rating": 991.4,
+  "se": 31.4,
+  "wins": 63.5,
+  "games": 126
+ },
+ {
+  "name": "randbats_259",
+  "rating": 991.3,
+  "se": 31.5,
+  "wins": 60.5,
+  "games": 125
+ },
+ {
+  "name": "randbats_1340",
+  "rating": 991.3,
+  "se": 32.0,
+  "wins": 60.0,
+  "games": 122
+ },
+ {
+  "name": "randbats_248",
+  "rating": 991.2,
+  "se": 29.5,
+  "wins": 69.5,
+  "games": 143
+ },
+ {
+  "name": "randbats_87",
+  "rating": 991.1,
+  "se": 31.1,
+  "wins": 63.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_1177",
+  "rating": 991.1,
+  "se": 30.5,
+  "wins": 64.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_54",
+  "rating": 991.0,
+  "se": 30.8,
+  "wins": 64.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_1197",
+  "rating": 990.9,
+  "se": 31.6,
+  "wins": 60.0,
+  "games": 124
+ },
+ {
+  "name": "randbats_634",
+  "rating": 990.9,
+  "se": 31.1,
+  "wins": 61.5,
+  "games": 128
+ },
+ {
+  "name": "randbats_425",
+  "rating": 990.7,
+  "se": 30.7,
+  "wins": 66.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_148",
+  "rating": 990.3,
+  "se": 32.7,
+  "wins": 57.0,
+  "games": 116
+ },
+ {
+  "name": "randbats_1038",
+  "rating": 990.2,
+  "se": 32.4,
+  "wins": 58.0,
+  "games": 118
+ },
+ {
+  "name": "randbats_172",
+  "rating": 990.0,
+  "se": 31.2,
+  "wins": 62.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_855",
+  "rating": 989.8,
+  "se": 28.5,
+  "wins": 74.0,
+  "games": 153
+ },
+ {
+  "name": "randbats_199",
+  "rating": 989.7,
+  "se": 30.5,
+  "wins": 65.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_743",
+  "rating": 989.6,
+  "se": 31.5,
+  "wins": 61.5,
+  "games": 125
+ },
+ {
+  "name": "randbats_599",
+  "rating": 989.5,
+  "se": 31.7,
+  "wins": 59.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_621",
+  "rating": 989.5,
+  "se": 29.4,
+  "wins": 68.0,
+  "games": 144
+ },
+ {
+  "name": "randbats_626",
+  "rating": 989.4,
+  "se": 28.9,
+  "wins": 70.5,
+  "games": 148
+ },
+ {
+  "name": "randbats_470",
+  "rating": 989.4,
+  "se": 30.5,
+  "wins": 64.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_237",
+  "rating": 989.2,
+  "se": 30.2,
+  "wins": 67.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_93",
+  "rating": 989.1,
+  "se": 30.5,
+  "wins": 65.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_304",
+  "rating": 989.0,
+  "se": 30.5,
+  "wins": 63.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_162",
+  "rating": 988.8,
+  "se": 29.9,
+  "wins": 67.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_1158",
+  "rating": 988.8,
+  "se": 32.5,
+  "wins": 58.0,
+  "games": 117
+ },
+ {
+  "name": "randbats_1493",
+  "rating": 988.5,
+  "se": 30.7,
+  "wins": 63.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_1041",
+  "rating": 988.3,
+  "se": 28.8,
+  "wins": 72.0,
+  "games": 150
+ },
+ {
+  "name": "randbats_178",
+  "rating": 988.3,
+  "se": 29.1,
+  "wins": 72.0,
+  "games": 148
+ },
+ {
+  "name": "randbats_1401",
+  "rating": 988.2,
+  "se": 29.5,
+  "wins": 70.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_868",
+  "rating": 988.1,
+  "se": 29.1,
+  "wins": 70.0,
+  "games": 146
+ },
+ {
+  "name": "randbats_575",
+  "rating": 988.0,
+  "se": 30.6,
+  "wins": 65.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_520",
+  "rating": 987.8,
+  "se": 29.5,
+  "wins": 68.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_755",
+  "rating": 987.7,
+  "se": 30.7,
+  "wins": 65.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_936",
+  "rating": 987.7,
+  "se": 32.8,
+  "wins": 57.0,
+  "games": 116
+ },
+ {
+  "name": "randbats_776",
+  "rating": 987.7,
+  "se": 30.3,
+  "wins": 65.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_1072",
+  "rating": 987.6,
+  "se": 30.6,
+  "wins": 65.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_402",
+  "rating": 987.6,
+  "se": 31.3,
+  "wins": 62.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_1411",
+  "rating": 987.2,
+  "se": 30.2,
+  "wins": 65.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_23",
+  "rating": 987.0,
+  "se": 31.2,
+  "wins": 61.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_1281",
+  "rating": 986.9,
+  "se": 31.0,
+  "wins": 63.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_208",
+  "rating": 986.8,
+  "se": 31.2,
+  "wins": 61.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_1450",
+  "rating": 986.6,
+  "se": 30.6,
+  "wins": 63.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_2",
+  "rating": 986.5,
+  "se": 31.4,
+  "wins": 61.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_401",
+  "rating": 986.5,
+  "se": 31.9,
+  "wins": 58.0,
+  "games": 122
+ },
+ {
+  "name": "randbats_1161",
+  "rating": 986.5,
+  "se": 30.2,
+  "wins": 65.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_870",
+  "rating": 986.4,
+  "se": 31.2,
+  "wins": 61.5,
+  "games": 128
+ },
+ {
+  "name": "randbats_1018",
+  "rating": 986.2,
+  "se": 33.1,
+  "wins": 55.0,
+  "games": 113
+ },
+ {
+  "name": "randbats_438",
+  "rating": 986.2,
+  "se": 30.8,
+  "wins": 62.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_1309",
+  "rating": 986.1,
+  "se": 30.2,
+  "wins": 66.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_604",
+  "rating": 986.1,
+  "se": 29.9,
+  "wins": 66.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_51",
+  "rating": 986.0,
+  "se": 30.0,
+  "wins": 65.5,
+  "games": 138
+ },
+ {
+  "name": "randbats_474",
+  "rating": 985.5,
+  "se": 31.6,
+  "wins": 60.0,
+  "games": 124
+ },
+ {
+  "name": "randbats_152",
+  "rating": 985.5,
+  "se": 31.2,
+  "wins": 60.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_361",
+  "rating": 985.5,
+  "se": 31.3,
+  "wins": 61.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_427",
+  "rating": 985.5,
+  "se": 31.5,
+  "wins": 59.0,
+  "games": 125
+ },
+ {
+  "name": "randbats_174",
+  "rating": 985.4,
+  "se": 29.4,
+  "wins": 68.5,
+  "games": 144
+ },
+ {
+  "name": "randbats_1303",
+  "rating": 985.4,
+  "se": 29.4,
+  "wins": 70.0,
+  "games": 144
+ },
+ {
+  "name": "randbats_724",
+  "rating": 985.4,
+  "se": 32.2,
+  "wins": 58.0,
+  "games": 120
+ },
+ {
+  "name": "randbats_505",
+  "rating": 985.2,
+  "se": 31.8,
+  "wins": 60.5,
+  "games": 124
+ },
+ {
+  "name": "randbats_573",
+  "rating": 985.1,
+  "se": 29.9,
+  "wins": 65.5,
+  "games": 140
+ },
+ {
+  "name": "randbats_918",
+  "rating": 984.7,
+  "se": 31.5,
+  "wins": 60.5,
+  "games": 126
+ },
+ {
+  "name": "randbats_919",
+  "rating": 984.6,
+  "se": 29.6,
+  "wins": 71.5,
+  "games": 142
+ },
+ {
+  "name": "randbats_1217",
+  "rating": 984.4,
+  "se": 29.2,
+  "wins": 69.0,
+  "games": 145
+ },
+ {
+  "name": "randbats_655",
+  "rating": 984.3,
+  "se": 33.0,
+  "wins": 55.0,
+  "games": 114
+ },
+ {
+  "name": "randbats_1139",
+  "rating": 984.2,
+  "se": 28.7,
+  "wins": 70.0,
+  "games": 151
+ },
+ {
+  "name": "randbats_1365",
+  "rating": 984.2,
+  "se": 31.8,
+  "wins": 58.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_329",
+  "rating": 984.2,
+  "se": 29.7,
+  "wins": 67.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_888",
+  "rating": 984.1,
+  "se": 28.4,
+  "wins": 75.0,
+  "games": 154
+ },
+ {
+  "name": "randbats_1027",
+  "rating": 984.1,
+  "se": 30.0,
+  "wins": 68.5,
+  "games": 139
+ },
+ {
+  "name": "randbats_71",
+  "rating": 983.9,
+  "se": 31.2,
+  "wins": 62.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_624",
+  "rating": 983.9,
+  "se": 30.4,
+  "wins": 63.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_1045",
+  "rating": 983.6,
+  "se": 32.0,
+  "wins": 58.0,
+  "games": 121
+ },
+ {
+  "name": "randbats_1280",
+  "rating": 983.5,
+  "se": 30.3,
+  "wins": 66.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_976",
+  "rating": 983.4,
+  "se": 31.3,
+  "wins": 60.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_1055",
+  "rating": 983.3,
+  "se": 30.7,
+  "wins": 63.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_889",
+  "rating": 983.3,
+  "se": 30.1,
+  "wins": 65.5,
+  "games": 138
+ },
+ {
+  "name": "randbats_1040",
+  "rating": 983.1,
+  "se": 32.0,
+  "wins": 57.5,
+  "games": 122
+ },
+ {
+  "name": "randbats_595",
+  "rating": 982.9,
+  "se": 31.4,
+  "wins": 61.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_1291",
+  "rating": 982.9,
+  "se": 29.8,
+  "wins": 67.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_81",
+  "rating": 982.9,
+  "se": 29.7,
+  "wins": 66.5,
+  "games": 141
+ },
+ {
+  "name": "randbats_112",
+  "rating": 982.9,
+  "se": 31.3,
+  "wins": 60.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_27",
+  "rating": 982.7,
+  "se": 31.9,
+  "wins": 58.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_91",
+  "rating": 982.6,
+  "se": 30.8,
+  "wins": 63.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_83",
+  "rating": 982.2,
+  "se": 31.3,
+  "wins": 60.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_552",
+  "rating": 982.0,
+  "se": 30.2,
+  "wins": 64.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_1382",
+  "rating": 981.9,
+  "se": 28.4,
+  "wins": 73.5,
+  "games": 154
+ },
+ {
+  "name": "randbats_653",
+  "rating": 981.8,
+  "se": 31.2,
+  "wins": 59.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_1113",
+  "rating": 981.8,
+  "se": 28.8,
+  "wins": 69.0,
+  "games": 150
+ },
+ {
+  "name": "randbats_1036",
+  "rating": 981.7,
+  "se": 30.3,
+  "wins": 66.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_352",
+  "rating": 981.6,
+  "se": 30.5,
+  "wins": 64.5,
+  "games": 134
+ },
+ {
+  "name": "randbats_1394",
+  "rating": 981.4,
+  "se": 28.4,
+  "wins": 72.0,
+  "games": 154
+ },
+ {
+  "name": "randbats_667",
+  "rating": 981.3,
+  "se": 31.3,
+  "wins": 61.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_1302",
+  "rating": 981.2,
+  "se": 30.0,
+  "wins": 67.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_1032",
+  "rating": 981.0,
+  "se": 31.2,
+  "wins": 59.5,
+  "games": 127
+ },
+ {
+  "name": "randbats_383",
+  "rating": 980.9,
+  "se": 31.0,
+  "wins": 60.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_1470",
+  "rating": 980.9,
+  "se": 37.2,
+  "wins": 40.0,
+  "games": 90
+ },
+ {
+  "name": "randbats_25",
+  "rating": 980.8,
+  "se": 28.7,
+  "wins": 71.0,
+  "games": 150
+ },
+ {
+  "name": "randbats_799",
+  "rating": 980.7,
+  "se": 29.0,
+  "wins": 71.0,
+  "games": 149
+ },
+ {
+  "name": "randbats_118",
+  "rating": 980.7,
+  "se": 31.1,
+  "wins": 61.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_1264",
+  "rating": 980.6,
+  "se": 30.3,
+  "wins": 65.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_597",
+  "rating": 980.6,
+  "se": 28.6,
+  "wins": 72.0,
+  "games": 152
+ },
+ {
+  "name": "randbats_1278",
+  "rating": 980.5,
+  "se": 34.0,
+  "wins": 50.0,
+  "games": 108
+ },
+ {
+  "name": "randbats_1443",
+  "rating": 980.5,
+  "se": 32.0,
+  "wins": 57.0,
+  "games": 121
+ },
+ {
+  "name": "randbats_611",
+  "rating": 980.4,
+  "se": 30.1,
+  "wins": 66.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_814",
+  "rating": 980.1,
+  "se": 31.5,
+  "wins": 59.0,
+  "games": 125
+ },
+ {
+  "name": "randbats_419",
+  "rating": 979.9,
+  "se": 30.2,
+  "wins": 65.5,
+  "games": 137
+ },
+ {
+  "name": "randbats_499",
+  "rating": 979.9,
+  "se": 29.0,
+  "wins": 68.5,
+  "games": 148
+ },
+ {
+  "name": "randbats_1194",
+  "rating": 979.8,
+  "se": 31.8,
+  "wins": 59.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_221",
+  "rating": 979.8,
+  "se": 29.4,
+  "wins": 68.5,
+  "games": 145
+ },
+ {
+  "name": "randbats_265",
+  "rating": 979.6,
+  "se": 31.9,
+  "wins": 61.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_82",
+  "rating": 979.4,
+  "se": 29.8,
+  "wins": 65.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_1279",
+  "rating": 979.4,
+  "se": 30.1,
+  "wins": 66.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_454",
+  "rating": 979.4,
+  "se": 29.3,
+  "wins": 68.0,
+  "games": 145
+ },
+ {
+  "name": "randbats_640",
+  "rating": 979.4,
+  "se": 31.1,
+  "wins": 61.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_941",
+  "rating": 979.2,
+  "se": 29.2,
+  "wins": 69.0,
+  "games": 147
+ },
+ {
+  "name": "randbats_719",
+  "rating": 978.9,
+  "se": 30.4,
+  "wins": 65.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_238",
+  "rating": 978.9,
+  "se": 32.3,
+  "wins": 57.0,
+  "games": 119
+ },
+ {
+  "name": "randbats_1471",
+  "rating": 978.9,
+  "se": 30.2,
+  "wins": 64.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_1449",
+  "rating": 978.9,
+  "se": 32.3,
+  "wins": 57.0,
+  "games": 120
+ },
+ {
+  "name": "randbats_1067",
+  "rating": 978.8,
+  "se": 31.2,
+  "wins": 59.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_1445",
+  "rating": 978.8,
+  "se": 28.3,
+  "wins": 72.0,
+  "games": 155
+ },
+ {
+  "name": "randbats_284",
+  "rating": 978.7,
+  "se": 28.8,
+  "wins": 70.5,
+  "games": 151
+ },
+ {
+  "name": "randbats_546",
+  "rating": 978.6,
+  "se": 29.2,
+  "wins": 69.0,
+  "games": 146
+ },
+ {
+  "name": "randbats_1068",
+  "rating": 978.4,
+  "se": 29.6,
+  "wins": 68.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_1287",
+  "rating": 978.2,
+  "se": 32.3,
+  "wins": 57.0,
+  "games": 120
+ },
+ {
+  "name": "randbats_765",
+  "rating": 978.1,
+  "se": 28.5,
+  "wins": 74.5,
+  "games": 154
+ },
+ {
+  "name": "randbats_793",
+  "rating": 978.1,
+  "se": 30.5,
+  "wins": 64.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_1459",
+  "rating": 978.0,
+  "se": 30.7,
+  "wins": 60.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_1369",
+  "rating": 977.9,
+  "se": 30.6,
+  "wins": 64.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_246",
+  "rating": 977.9,
+  "se": 32.6,
+  "wins": 54.0,
+  "games": 117
+ },
+ {
+  "name": "randbats_1469",
+  "rating": 977.9,
+  "se": 30.5,
+  "wins": 62.5,
+  "games": 135
+ },
+ {
+  "name": "randbats_1361",
+  "rating": 977.7,
+  "se": 28.7,
+  "wins": 71.0,
+  "games": 152
+ },
+ {
+  "name": "randbats_210",
+  "rating": 977.6,
+  "se": 30.2,
+  "wins": 64.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_981",
+  "rating": 977.5,
+  "se": 29.4,
+  "wins": 69.0,
+  "games": 145
+ },
+ {
+  "name": "randbats_1269",
+  "rating": 977.4,
+  "se": 30.0,
+  "wins": 65.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_1476",
+  "rating": 977.3,
+  "se": 30.6,
+  "wins": 62.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_154",
+  "rating": 976.9,
+  "se": 30.8,
+  "wins": 61.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_983",
+  "rating": 976.8,
+  "se": 32.2,
+  "wins": 56.0,
+  "games": 121
+ },
+ {
+  "name": "randbats_813",
+  "rating": 976.6,
+  "se": 32.4,
+  "wins": 56.5,
+  "games": 119
+ },
+ {
+  "name": "randbats_533",
+  "rating": 976.6,
+  "se": 28.8,
+  "wins": 70.5,
+  "games": 150
+ },
+ {
+  "name": "randbats_1434",
+  "rating": 976.5,
+  "se": 29.8,
+  "wins": 64.5,
+  "games": 141
+ },
+ {
+  "name": "randbats_389",
+  "rating": 976.1,
+  "se": 30.9,
+  "wins": 61.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_1442",
+  "rating": 976.0,
+  "se": 32.1,
+  "wins": 56.5,
+  "games": 121
+ },
+ {
+  "name": "randbats_613",
+  "rating": 975.7,
+  "se": 30.3,
+  "wins": 63.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_713",
+  "rating": 975.6,
+  "se": 31.9,
+  "wins": 57.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_381",
+  "rating": 975.6,
+  "se": 31.4,
+  "wins": 59.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_18",
+  "rating": 975.6,
+  "se": 30.1,
+  "wins": 62.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_720",
+  "rating": 975.5,
+  "se": 30.0,
+  "wins": 64.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_718",
+  "rating": 975.4,
+  "se": 30.4,
+  "wins": 61.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_63",
+  "rating": 975.4,
+  "se": 29.4,
+  "wins": 67.0,
+  "games": 145
+ },
+ {
+  "name": "randbats_1377",
+  "rating": 975.3,
+  "se": 31.6,
+  "wins": 57.0,
+  "games": 125
+ },
+ {
+  "name": "randbats_794",
+  "rating": 975.3,
+  "se": 29.1,
+  "wins": 70.0,
+  "games": 146
+ },
+ {
+  "name": "randbats_1160",
+  "rating": 975.2,
+  "se": 30.7,
+  "wins": 60.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_987",
+  "rating": 975.2,
+  "se": 30.4,
+  "wins": 62.5,
+  "games": 136
+ },
+ {
+  "name": "randbats_84",
+  "rating": 975.1,
+  "se": 31.9,
+  "wins": 57.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_1234",
+  "rating": 975.0,
+  "se": 32.4,
+  "wins": 55.5,
+  "games": 120
+ },
+ {
+  "name": "randbats_404",
+  "rating": 974.9,
+  "se": 29.9,
+  "wins": 63.5,
+  "games": 140
+ },
+ {
+  "name": "randbats_254",
+  "rating": 974.9,
+  "se": 32.0,
+  "wins": 56.0,
+  "games": 122
+ },
+ {
+  "name": "randbats_1431",
+  "rating": 974.8,
+  "se": 30.7,
+  "wins": 60.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_559",
+  "rating": 974.8,
+  "se": 29.3,
+  "wins": 68.5,
+  "games": 145
+ },
+ {
+  "name": "randbats_103",
+  "rating": 974.7,
+  "se": 30.9,
+  "wins": 58.5,
+  "games": 131
+ },
+ {
+  "name": "randbats_1191",
+  "rating": 974.7,
+  "se": 32.4,
+  "wins": 56.0,
+  "games": 118
+ },
+ {
+  "name": "randbats_472",
+  "rating": 974.6,
+  "se": 29.0,
+  "wins": 69.0,
+  "games": 148
+ },
+ {
+  "name": "randbats_126",
+  "rating": 974.6,
+  "se": 30.7,
+  "wins": 63.5,
+  "games": 134
+ },
+ {
+  "name": "randbats_1054",
+  "rating": 974.3,
+  "se": 30.5,
+  "wins": 62.5,
+  "games": 135
+ },
+ {
+  "name": "randbats_910",
+  "rating": 974.1,
+  "se": 31.7,
+  "wins": 58.0,
+  "games": 125
+ },
+ {
+  "name": "randbats_489",
+  "rating": 974.0,
+  "se": 29.3,
+  "wins": 68.5,
+  "games": 145
+ },
+ {
+  "name": "randbats_85",
+  "rating": 973.9,
+  "se": 32.0,
+  "wins": 56.0,
+  "games": 122
+ },
+ {
+  "name": "randbats_7",
+  "rating": 973.7,
+  "se": 29.4,
+  "wins": 68.0,
+  "games": 145
+ },
+ {
+  "name": "randbats_954",
+  "rating": 973.7,
+  "se": 29.9,
+  "wins": 66.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_645",
+  "rating": 973.6,
+  "se": 31.1,
+  "wins": 59.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_517",
+  "rating": 973.6,
+  "se": 28.5,
+  "wins": 72.5,
+  "games": 153
+ },
+ {
+  "name": "randbats_1149",
+  "rating": 973.6,
+  "se": 30.4,
+  "wins": 61.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_1272",
+  "rating": 973.4,
+  "se": 30.3,
+  "wins": 64.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_726",
+  "rating": 973.3,
+  "se": 30.9,
+  "wins": 59.5,
+  "games": 130
+ },
+ {
+  "name": "randbats_1451",
+  "rating": 973.3,
+  "se": 30.8,
+  "wins": 62.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_1046",
+  "rating": 973.1,
+  "se": 31.4,
+  "wins": 57.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_567",
+  "rating": 973.0,
+  "se": 30.2,
+  "wins": 64.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_1363",
+  "rating": 972.9,
+  "se": 31.1,
+  "wins": 60.5,
+  "games": 129
+ },
+ {
+  "name": "randbats_175",
+  "rating": 972.8,
+  "se": 32.3,
+  "wins": 55.0,
+  "games": 120
+ },
+ {
+  "name": "randbats_455",
+  "rating": 972.7,
+  "se": 31.7,
+  "wins": 56.0,
+  "games": 124
+ },
+ {
+  "name": "randbats_723",
+  "rating": 972.6,
+  "se": 31.3,
+  "wins": 58.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_999",
+  "rating": 972.5,
+  "se": 33.0,
+  "wins": 53.0,
+  "games": 115
+ },
+ {
+  "name": "randbats_1075",
+  "rating": 972.4,
+  "se": 29.1,
+  "wins": 68.0,
+  "games": 148
+ },
+ {
+  "name": "randbats_197",
+  "rating": 972.3,
+  "se": 32.4,
+  "wins": 54.0,
+  "games": 119
+ },
+ {
+  "name": "randbats_1021",
+  "rating": 972.2,
+  "se": 31.0,
+  "wins": 62.5,
+  "games": 130
+ },
+ {
+  "name": "randbats_1338",
+  "rating": 972.2,
+  "se": 29.8,
+  "wins": 64.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_1260",
+  "rating": 972.0,
+  "se": 29.4,
+  "wins": 66.5,
+  "games": 144
+ },
+ {
+  "name": "randbats_996",
+  "rating": 971.8,
+  "se": 30.0,
+  "wins": 64.5,
+  "games": 139
+ },
+ {
+  "name": "randbats_929",
+  "rating": 971.6,
+  "se": 30.1,
+  "wins": 63.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_423",
+  "rating": 971.3,
+  "se": 31.3,
+  "wins": 58.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_507",
+  "rating": 971.3,
+  "se": 30.9,
+  "wins": 61.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_1231",
+  "rating": 971.2,
+  "se": 30.4,
+  "wins": 61.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_1439",
+  "rating": 971.0,
+  "se": 30.4,
+  "wins": 63.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_518",
+  "rating": 970.9,
+  "se": 30.8,
+  "wins": 61.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_115",
+  "rating": 970.8,
+  "se": 29.5,
+  "wins": 67.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_341",
+  "rating": 970.7,
+  "se": 29.0,
+  "wins": 70.0,
+  "games": 149
+ },
+ {
+  "name": "randbats_232",
+  "rating": 970.7,
+  "se": 30.7,
+  "wins": 61.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_762",
+  "rating": 970.4,
+  "se": 29.0,
+  "wins": 67.5,
+  "games": 148
+ },
+ {
+  "name": "randbats_413",
+  "rating": 970.4,
+  "se": 30.5,
+  "wins": 61.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_731",
+  "rating": 970.2,
+  "se": 30.5,
+  "wins": 61.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_104",
+  "rating": 970.2,
+  "se": 30.2,
+  "wins": 63.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_434",
+  "rating": 970.1,
+  "se": 30.6,
+  "wins": 60.5,
+  "games": 134
+ },
+ {
+  "name": "randbats_1123",
+  "rating": 969.9,
+  "se": 31.1,
+  "wins": 60.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_1343",
+  "rating": 969.6,
+  "se": 29.3,
+  "wins": 68.0,
+  "games": 146
+ },
+ {
+  "name": "randbats_501",
+  "rating": 969.6,
+  "se": 31.5,
+  "wins": 59.5,
+  "games": 125
+ },
+ {
+  "name": "randbats_1297",
+  "rating": 969.6,
+  "se": 31.9,
+  "wins": 56.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_857",
+  "rating": 969.5,
+  "se": 32.8,
+  "wins": 54.0,
+  "games": 116
+ },
+ {
+  "name": "randbats_258",
+  "rating": 969.4,
+  "se": 32.4,
+  "wins": 54.0,
+  "games": 120
+ },
+ {
+  "name": "randbats_136",
+  "rating": 969.3,
+  "se": 32.8,
+  "wins": 51.0,
+  "games": 116
+ },
+ {
+  "name": "randbats_1254",
+  "rating": 969.1,
+  "se": 31.6,
+  "wins": 57.0,
+  "games": 125
+ },
+ {
+  "name": "randbats_1334",
+  "rating": 969.1,
+  "se": 31.7,
+  "wins": 59.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_1019",
+  "rating": 968.7,
+  "se": 29.9,
+  "wins": 64.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_838",
+  "rating": 968.5,
+  "se": 30.5,
+  "wins": 60.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_480",
+  "rating": 968.2,
+  "se": 31.1,
+  "wins": 58.5,
+  "games": 130
+ },
+ {
+  "name": "randbats_772",
+  "rating": 968.2,
+  "se": 29.9,
+  "wins": 64.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_207",
+  "rating": 968.1,
+  "se": 31.6,
+  "wins": 57.5,
+  "games": 125
+ },
+ {
+  "name": "randbats_988",
+  "rating": 967.9,
+  "se": 30.0,
+  "wins": 66.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_914",
+  "rating": 967.9,
+  "se": 30.9,
+  "wins": 60.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_1202",
+  "rating": 967.7,
+  "se": 30.8,
+  "wins": 60.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_1064",
+  "rating": 967.7,
+  "se": 31.1,
+  "wins": 59.5,
+  "games": 129
+ },
+ {
+  "name": "randbats_261",
+  "rating": 967.4,
+  "se": 31.2,
+  "wins": 57.5,
+  "games": 129
+ },
+ {
+  "name": "randbats_193",
+  "rating": 967.4,
+  "se": 31.1,
+  "wins": 58.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_392",
+  "rating": 967.4,
+  "se": 32.1,
+  "wins": 55.0,
+  "games": 121
+ },
+ {
+  "name": "randbats_1352",
+  "rating": 967.3,
+  "se": 31.9,
+  "wins": 55.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_98",
+  "rating": 967.2,
+  "se": 31.3,
+  "wins": 58.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_869",
+  "rating": 967.1,
+  "se": 29.9,
+  "wins": 64.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_1350",
+  "rating": 966.9,
+  "se": 29.2,
+  "wins": 67.5,
+  "games": 147
+ },
+ {
+  "name": "randbats_1359",
+  "rating": 966.8,
+  "se": 30.9,
+  "wins": 59.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_484",
+  "rating": 966.2,
+  "se": 29.0,
+  "wins": 68.0,
+  "games": 149
+ },
+ {
+  "name": "randbats_53",
+  "rating": 966.2,
+  "se": 29.8,
+  "wins": 63.5,
+  "games": 142
+ },
+ {
+  "name": "randbats_52",
+  "rating": 966.1,
+  "se": 30.2,
+  "wins": 61.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_916",
+  "rating": 966.1,
+  "se": 31.0,
+  "wins": 59.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_774",
+  "rating": 966.0,
+  "se": 29.7,
+  "wins": 63.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_1460",
+  "rating": 965.6,
+  "se": 30.0,
+  "wins": 62.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_469",
+  "rating": 965.6,
+  "se": 30.9,
+  "wins": 58.5,
+  "games": 131
+ },
+ {
+  "name": "randbats_266",
+  "rating": 965.3,
+  "se": 29.7,
+  "wins": 63.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_603",
+  "rating": 965.3,
+  "se": 31.9,
+  "wins": 56.0,
+  "games": 124
+ },
+ {
+  "name": "randbats_1321",
+  "rating": 965.2,
+  "se": 29.5,
+  "wins": 64.0,
+  "games": 144
+ },
+ {
+  "name": "randbats_1007",
+  "rating": 965.0,
+  "se": 30.5,
+  "wins": 60.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_107",
+  "rating": 965.0,
+  "se": 30.0,
+  "wins": 63.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_989",
+  "rating": 964.8,
+  "se": 31.3,
+  "wins": 58.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_1354",
+  "rating": 964.7,
+  "se": 32.1,
+  "wins": 53.5,
+  "games": 122
+ },
+ {
+  "name": "randbats_99",
+  "rating": 964.4,
+  "se": 30.8,
+  "wins": 59.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_712",
+  "rating": 964.3,
+  "se": 31.1,
+  "wins": 58.5,
+  "games": 129
+ },
+ {
+  "name": "randbats_362",
+  "rating": 964.3,
+  "se": 31.4,
+  "wins": 57.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_1482",
+  "rating": 964.3,
+  "se": 29.8,
+  "wins": 65.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_260",
+  "rating": 964.2,
+  "se": 28.8,
+  "wins": 69.5,
+  "games": 151
+ },
+ {
+  "name": "randbats_262",
+  "rating": 964.2,
+  "se": 31.6,
+  "wins": 56.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_374",
+  "rating": 963.9,
+  "se": 31.9,
+  "wins": 57.5,
+  "games": 123
+ },
+ {
+  "name": "randbats_1097",
+  "rating": 963.9,
+  "se": 30.6,
+  "wins": 61.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_49",
+  "rating": 963.9,
+  "se": 32.1,
+  "wins": 55.0,
+  "games": 122
+ },
+ {
+  "name": "randbats_235",
+  "rating": 963.7,
+  "se": 29.7,
+  "wins": 63.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_1029",
+  "rating": 963.6,
+  "se": 32.5,
+  "wins": 53.0,
+  "games": 118
+ },
+ {
+  "name": "randbats_272",
+  "rating": 963.5,
+  "se": 28.3,
+  "wins": 71.0,
+  "games": 157
+ },
+ {
+  "name": "randbats_1311",
+  "rating": 963.3,
+  "se": 31.0,
+  "wins": 59.5,
+  "games": 130
+ },
+ {
+  "name": "randbats_274",
+  "rating": 963.3,
+  "se": 30.7,
+  "wins": 60.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_1198",
+  "rating": 962.9,
+  "se": 29.8,
+  "wins": 64.5,
+  "games": 142
+ },
+ {
+  "name": "randbats_1251",
+  "rating": 962.6,
+  "se": 31.1,
+  "wins": 58.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_1353",
+  "rating": 962.5,
+  "se": 29.0,
+  "wins": 66.0,
+  "games": 149
+ },
+ {
+  "name": "randbats_596",
+  "rating": 962.3,
+  "se": 32.0,
+  "wins": 54.0,
+  "games": 122
+ },
+ {
+  "name": "randbats_632",
+  "rating": 962.2,
+  "se": 32.2,
+  "wins": 54.0,
+  "games": 121
+ },
+ {
+  "name": "randbats_1390",
+  "rating": 962.1,
+  "se": 32.2,
+  "wins": 54.0,
+  "games": 121
+ },
+ {
+  "name": "randbats_638",
+  "rating": 962.0,
+  "se": 31.6,
+  "wins": 56.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_891",
+  "rating": 962.0,
+  "se": 31.2,
+  "wins": 56.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_90",
+  "rating": 961.9,
+  "se": 30.4,
+  "wins": 60.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_1496",
+  "rating": 961.8,
+  "se": 31.0,
+  "wins": 58.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_1396",
+  "rating": 961.5,
+  "se": 30.8,
+  "wins": 59.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_1156",
+  "rating": 961.0,
+  "se": 31.1,
+  "wins": 58.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_424",
+  "rating": 960.8,
+  "se": 32.2,
+  "wins": 54.0,
+  "games": 122
+ },
+ {
+  "name": "randbats_1420",
+  "rating": 960.7,
+  "se": 31.2,
+  "wins": 57.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_1223",
+  "rating": 960.4,
+  "se": 33.3,
+  "wins": 49.0,
+  "games": 115
+ },
+ {
+  "name": "randbats_598",
+  "rating": 960.3,
+  "se": 31.8,
+  "wins": 55.5,
+  "games": 124
+ },
+ {
+  "name": "randbats_1492",
+  "rating": 960.1,
+  "se": 29.1,
+  "wins": 67.0,
+  "games": 149
+ },
+ {
+  "name": "randbats_132",
+  "rating": 959.8,
+  "se": 31.4,
+  "wins": 57.5,
+  "games": 128
+ },
+ {
+  "name": "randbats_752",
+  "rating": 959.7,
+  "se": 30.8,
+  "wins": 58.5,
+  "games": 132
+ },
+ {
+  "name": "randbats_1337",
+  "rating": 959.6,
+  "se": 29.3,
+  "wins": 66.0,
+  "games": 147
+ },
+ {
+  "name": "randbats_674",
+  "rating": 959.5,
+  "se": 30.0,
+  "wins": 61.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_1043",
+  "rating": 959.5,
+  "se": 30.9,
+  "wins": 58.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_711",
+  "rating": 958.9,
+  "se": 30.7,
+  "wins": 59.5,
+  "games": 132
+ },
+ {
+  "name": "randbats_884",
+  "rating": 958.7,
+  "se": 27.9,
+  "wins": 72.5,
+  "games": 161
+ },
+ {
+  "name": "randbats_631",
+  "rating": 958.7,
+  "se": 29.6,
+  "wins": 63.0,
+  "games": 144
+ },
+ {
+  "name": "randbats_930",
+  "rating": 958.7,
+  "se": 32.4,
+  "wins": 54.0,
+  "games": 120
+ },
+ {
+  "name": "randbats_602",
+  "rating": 958.2,
+  "se": 30.6,
+  "wins": 59.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_1174",
+  "rating": 958.1,
+  "se": 31.1,
+  "wins": 58.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_216",
+  "rating": 957.9,
+  "se": 32.1,
+  "wins": 53.5,
+  "games": 122
+ },
+ {
+  "name": "randbats_370",
+  "rating": 957.4,
+  "se": 32.7,
+  "wins": 54.0,
+  "games": 117
+ },
+ {
+  "name": "randbats_460",
+  "rating": 957.2,
+  "se": 32.6,
+  "wins": 52.0,
+  "games": 119
+ },
+ {
+  "name": "randbats_1327",
+  "rating": 957.1,
+  "se": 30.6,
+  "wins": 60.5,
+  "games": 135
+ },
+ {
+  "name": "randbats_1099",
+  "rating": 956.9,
+  "se": 30.6,
+  "wins": 59.5,
+  "games": 134
+ },
+ {
+  "name": "randbats_482",
+  "rating": 956.8,
+  "se": 31.5,
+  "wins": 56.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_314",
+  "rating": 956.7,
+  "se": 28.9,
+  "wins": 68.0,
+  "games": 151
+ },
+ {
+  "name": "randbats_1267",
+  "rating": 956.6,
+  "se": 31.7,
+  "wins": 53.5,
+  "games": 126
+ },
+ {
+  "name": "randbats_768",
+  "rating": 956.4,
+  "se": 31.4,
+  "wins": 55.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_345",
+  "rating": 956.4,
+  "se": 30.8,
+  "wins": 58.5,
+  "games": 132
+ },
+ {
+  "name": "randbats_1461",
+  "rating": 956.3,
+  "se": 31.0,
+  "wins": 57.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_158",
+  "rating": 956.2,
+  "se": 29.6,
+  "wins": 61.5,
+  "games": 144
+ },
+ {
+  "name": "randbats_555",
+  "rating": 956.0,
+  "se": 31.2,
+  "wins": 57.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_390",
+  "rating": 955.9,
+  "se": 30.5,
+  "wins": 62.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_39",
+  "rating": 955.9,
+  "se": 30.3,
+  "wins": 60.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_309",
+  "rating": 955.7,
+  "se": 29.9,
+  "wins": 64.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_537",
+  "rating": 955.7,
+  "se": 31.8,
+  "wins": 53.5,
+  "games": 125
+ },
+ {
+  "name": "randbats_1429",
+  "rating": 955.6,
+  "se": 31.2,
+  "wins": 56.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_399",
+  "rating": 955.6,
+  "se": 32.5,
+  "wins": 52.0,
+  "games": 119
+ },
+ {
+  "name": "randbats_701",
+  "rating": 955.3,
+  "se": 31.8,
+  "wins": 55.0,
+  "games": 125
+ },
+ {
+  "name": "randbats_1477",
+  "rating": 955.2,
+  "se": 30.2,
+  "wins": 60.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_176",
+  "rating": 955.2,
+  "se": 30.6,
+  "wins": 58.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_1001",
+  "rating": 955.1,
+  "se": 31.3,
+  "wins": 56.5,
+  "games": 129
+ },
+ {
+  "name": "randbats_956",
+  "rating": 955.0,
+  "se": 28.3,
+  "wins": 68.0,
+  "games": 158
+ },
+ {
+  "name": "randbats_1143",
+  "rating": 954.8,
+  "se": 29.8,
+  "wins": 62.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_396",
+  "rating": 954.8,
+  "se": 31.6,
+  "wins": 56.0,
+  "games": 125
+ },
+ {
+  "name": "randbats_788",
+  "rating": 954.5,
+  "se": 31.6,
+  "wins": 57.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_1351",
+  "rating": 954.4,
+  "se": 32.9,
+  "wins": 50.0,
+  "games": 117
+ },
+ {
+  "name": "randbats_1400",
+  "rating": 954.4,
+  "se": 28.5,
+  "wins": 67.5,
+  "games": 156
+ },
+ {
+  "name": "randbats_853",
+  "rating": 954.2,
+  "se": 29.7,
+  "wins": 63.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_230",
+  "rating": 954.2,
+  "se": 30.2,
+  "wins": 60.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_1022",
+  "rating": 953.8,
+  "se": 32.8,
+  "wins": 50.0,
+  "games": 117
+ },
+ {
+  "name": "randbats_1270",
+  "rating": 953.8,
+  "se": 31.5,
+  "wins": 55.5,
+  "games": 127
+ },
+ {
+  "name": "randbats_704",
+  "rating": 953.7,
+  "se": 34.4,
+  "wins": 46.5,
+  "games": 106
+ },
+ {
+  "name": "randbats_1066",
+  "rating": 953.7,
+  "se": 29.5,
+  "wins": 64.0,
+  "games": 145
+ },
+ {
+  "name": "randbats_164",
+  "rating": 953.6,
+  "se": 30.5,
+  "wins": 58.5,
+  "games": 136
+ },
+ {
+  "name": "randbats_1138",
+  "rating": 953.5,
+  "se": 34.4,
+  "wins": 47.0,
+  "games": 106
+ },
+ {
+  "name": "randbats_1212",
+  "rating": 953.5,
+  "se": 33.3,
+  "wins": 49.0,
+  "games": 114
+ },
+ {
+  "name": "randbats_364",
+  "rating": 953.4,
+  "se": 31.0,
+  "wins": 57.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_837",
+  "rating": 953.4,
+  "se": 31.1,
+  "wins": 56.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_758",
+  "rating": 953.4,
+  "se": 30.0,
+  "wins": 61.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_642",
+  "rating": 953.0,
+  "se": 31.9,
+  "wins": 56.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_876",
+  "rating": 952.9,
+  "se": 31.9,
+  "wins": 55.0,
+  "games": 124
+ },
+ {
+  "name": "randbats_1416",
+  "rating": 952.8,
+  "se": 31.1,
+  "wins": 58.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_771",
+  "rating": 952.1,
+  "se": 31.1,
+  "wins": 57.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_446",
+  "rating": 952.0,
+  "se": 28.5,
+  "wins": 68.0,
+  "games": 155
+ },
+ {
+  "name": "randbats_1227",
+  "rating": 952.0,
+  "se": 29.7,
+  "wins": 62.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_147",
+  "rating": 951.9,
+  "se": 32.0,
+  "wins": 52.0,
+  "games": 124
+ },
+ {
+  "name": "randbats_406",
+  "rating": 951.6,
+  "se": 29.9,
+  "wins": 61.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_1349",
+  "rating": 951.2,
+  "se": 32.3,
+  "wins": 54.5,
+  "games": 122
+ },
+ {
+  "name": "randbats_310",
+  "rating": 951.1,
+  "se": 29.2,
+  "wins": 64.0,
+  "games": 147
+ },
+ {
+  "name": "randbats_1341",
+  "rating": 951.0,
+  "se": 31.6,
+  "wins": 55.5,
+  "games": 127
+ },
+ {
+  "name": "randbats_775",
+  "rating": 950.8,
+  "se": 30.1,
+  "wins": 60.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_114",
+  "rating": 950.8,
+  "se": 32.3,
+  "wins": 52.0,
+  "games": 121
+ },
+ {
+  "name": "randbats_1241",
+  "rating": 950.8,
+  "se": 31.2,
+  "wins": 58.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_843",
+  "rating": 950.6,
+  "se": 30.8,
+  "wins": 57.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_1062",
+  "rating": 950.2,
+  "se": 29.9,
+  "wins": 62.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_269",
+  "rating": 950.2,
+  "se": 31.9,
+  "wins": 54.5,
+  "games": 125
+ },
+ {
+  "name": "randbats_1063",
+  "rating": 950.0,
+  "se": 28.7,
+  "wins": 67.0,
+  "games": 154
+ },
+ {
+  "name": "randbats_664",
+  "rating": 949.7,
+  "se": 30.4,
+  "wins": 58.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_488",
+  "rating": 949.7,
+  "se": 29.6,
+  "wins": 63.0,
+  "games": 145
+ },
+ {
+  "name": "randbats_1010",
+  "rating": 949.5,
+  "se": 30.9,
+  "wins": 56.5,
+  "games": 133
+ },
+ {
+  "name": "randbats_1168",
+  "rating": 949.5,
+  "se": 30.0,
+  "wins": 60.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_1176",
+  "rating": 949.4,
+  "se": 32.0,
+  "wins": 53.5,
+  "games": 124
+ },
+ {
+  "name": "randbats_1095",
+  "rating": 949.3,
+  "se": 29.7,
+  "wins": 61.0,
+  "games": 144
+ },
+ {
+  "name": "randbats_1028",
+  "rating": 949.2,
+  "se": 32.8,
+  "wins": 50.0,
+  "games": 118
+ },
+ {
+  "name": "randbats_984",
+  "rating": 949.1,
+  "se": 29.5,
+  "wins": 63.0,
+  "games": 146
+ },
+ {
+  "name": "randbats_1498",
+  "rating": 949.0,
+  "se": 32.1,
+  "wins": 53.5,
+  "games": 123
+ },
+ {
+  "name": "randbats_29",
+  "rating": 948.8,
+  "se": 30.5,
+  "wins": 58.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_1495",
+  "rating": 948.7,
+  "se": 32.2,
+  "wins": 53.0,
+  "games": 122
+ },
+ {
+  "name": "randbats_395",
+  "rating": 948.5,
+  "se": 30.3,
+  "wins": 59.5,
+  "games": 137
+ },
+ {
+  "name": "randbats_292",
+  "rating": 948.5,
+  "se": 30.4,
+  "wins": 60.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_1277",
+  "rating": 948.1,
+  "se": 31.2,
+  "wins": 56.5,
+  "games": 129
+ },
+ {
+  "name": "randbats_36",
+  "rating": 948.1,
+  "se": 31.7,
+  "wins": 55.0,
+  "games": 124
+ },
+ {
+  "name": "randbats_1440",
+  "rating": 947.9,
+  "se": 31.7,
+  "wins": 55.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_380",
+  "rating": 947.9,
+  "se": 31.9,
+  "wins": 54.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_1137",
+  "rating": 947.8,
+  "se": 29.8,
+  "wins": 61.5,
+  "games": 142
+ },
+ {
+  "name": "randbats_807",
+  "rating": 947.6,
+  "se": 31.5,
+  "wins": 54.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_630",
+  "rating": 947.5,
+  "se": 31.2,
+  "wins": 56.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_652",
+  "rating": 947.3,
+  "se": 30.9,
+  "wins": 56.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_289",
+  "rating": 947.2,
+  "se": 29.0,
+  "wins": 64.0,
+  "games": 150
+ },
+ {
+  "name": "randbats_601",
+  "rating": 947.2,
+  "se": 31.2,
+  "wins": 57.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_892",
+  "rating": 947.2,
+  "se": 30.9,
+  "wins": 57.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_1070",
+  "rating": 947.0,
+  "se": 33.7,
+  "wins": 48.0,
+  "games": 112
+ },
+ {
+  "name": "randbats_1196",
+  "rating": 947.0,
+  "se": 31.2,
+  "wins": 55.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_1065",
+  "rating": 946.9,
+  "se": 31.6,
+  "wins": 54.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_1465",
+  "rating": 946.6,
+  "se": 31.3,
+  "wins": 54.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_202",
+  "rating": 946.5,
+  "se": 32.6,
+  "wins": 50.0,
+  "games": 120
+ },
+ {
+  "name": "randbats_44",
+  "rating": 946.4,
+  "se": 31.4,
+  "wins": 54.5,
+  "games": 130
+ },
+ {
+  "name": "randbats_1262",
+  "rating": 946.1,
+  "se": 30.9,
+  "wins": 56.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_211",
+  "rating": 945.8,
+  "se": 30.2,
+  "wins": 58.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_109",
+  "rating": 945.7,
+  "se": 32.4,
+  "wins": 51.5,
+  "games": 121
+ },
+ {
+  "name": "randbats_1366",
+  "rating": 945.7,
+  "se": 32.3,
+  "wins": 51.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_733",
+  "rating": 945.7,
+  "se": 33.2,
+  "wins": 49.0,
+  "games": 115
+ },
+ {
+  "name": "randbats_862",
+  "rating": 945.5,
+  "se": 30.9,
+  "wins": 55.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_155",
+  "rating": 945.5,
+  "se": 30.2,
+  "wins": 60.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_925",
+  "rating": 945.3,
+  "se": 31.9,
+  "wins": 53.0,
+  "games": 124
+ },
+ {
+  "name": "randbats_1151",
+  "rating": 945.2,
+  "se": 32.3,
+  "wins": 51.0,
+  "games": 121
+ },
+ {
+  "name": "randbats_219",
+  "rating": 945.0,
+  "se": 30.8,
+  "wins": 56.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_160",
+  "rating": 944.6,
+  "se": 29.5,
+  "wins": 61.0,
+  "games": 148
+ },
+ {
+  "name": "randbats_1102",
+  "rating": 944.5,
+  "se": 32.1,
+  "wins": 52.0,
+  "games": 122
+ },
+ {
+  "name": "randbats_942",
+  "rating": 944.4,
+  "se": 32.0,
+  "wins": 52.5,
+  "games": 124
+ },
+ {
+  "name": "randbats_1092",
+  "rating": 944.1,
+  "se": 29.1,
+  "wins": 64.5,
+  "games": 150
+ },
+ {
+  "name": "randbats_773",
+  "rating": 944.0,
+  "se": 31.0,
+  "wins": 56.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_721",
+  "rating": 943.6,
+  "se": 29.3,
+  "wins": 61.0,
+  "games": 149
+ },
+ {
+  "name": "randbats_1037",
+  "rating": 943.5,
+  "se": 30.0,
+  "wins": 59.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_1167",
+  "rating": 943.2,
+  "se": 30.1,
+  "wins": 60.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_707",
+  "rating": 943.1,
+  "se": 30.0,
+  "wins": 59.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_327",
+  "rating": 943.1,
+  "se": 30.5,
+  "wins": 57.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_978",
+  "rating": 943.0,
+  "se": 31.1,
+  "wins": 54.5,
+  "games": 131
+ },
+ {
+  "name": "randbats_212",
+  "rating": 943.0,
+  "se": 32.9,
+  "wins": 49.0,
+  "games": 118
+ },
+ {
+  "name": "randbats_927",
+  "rating": 942.9,
+  "se": 29.7,
+  "wins": 60.0,
+  "games": 145
+ },
+ {
+  "name": "randbats_241",
+  "rating": 942.7,
+  "se": 31.3,
+  "wins": 54.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_878",
+  "rating": 942.6,
+  "se": 31.5,
+  "wins": 54.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_441",
+  "rating": 942.4,
+  "se": 32.5,
+  "wins": 51.0,
+  "games": 120
+ },
+ {
+  "name": "randbats_1233",
+  "rating": 942.4,
+  "se": 30.6,
+  "wins": 57.5,
+  "games": 135
+ },
+ {
+  "name": "randbats_902",
+  "rating": 942.3,
+  "se": 31.2,
+  "wins": 55.5,
+  "games": 132
+ },
+ {
+  "name": "randbats_295",
+  "rating": 941.6,
+  "se": 32.8,
+  "wins": 50.0,
+  "games": 119
+ },
+ {
+  "name": "randbats_181",
+  "rating": 941.5,
+  "se": 30.1,
+  "wins": 58.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_496",
+  "rating": 941.4,
+  "se": 30.8,
+  "wins": 56.5,
+  "games": 133
+ },
+ {
+  "name": "randbats_192",
+  "rating": 941.1,
+  "se": 32.2,
+  "wins": 52.0,
+  "games": 122
+ },
+ {
+  "name": "randbats_96",
+  "rating": 940.8,
+  "se": 29.2,
+  "wins": 64.5,
+  "games": 149
+ },
+ {
+  "name": "randbats_92",
+  "rating": 940.7,
+  "se": 28.6,
+  "wins": 65.0,
+  "games": 156
+ },
+ {
+  "name": "randbats_1478",
+  "rating": 940.6,
+  "se": 27.8,
+  "wins": 69.0,
+  "games": 165
+ },
+ {
+  "name": "randbats_1371",
+  "rating": 940.5,
+  "se": 31.2,
+  "wins": 54.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_1387",
+  "rating": 940.5,
+  "se": 29.9,
+  "wins": 60.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_600",
+  "rating": 940.4,
+  "se": 30.7,
+  "wins": 56.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_856",
+  "rating": 939.9,
+  "se": 29.9,
+  "wins": 60.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_647",
+  "rating": 939.7,
+  "se": 30.1,
+  "wins": 58.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_681",
+  "rating": 939.7,
+  "se": 30.7,
+  "wins": 56.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_1437",
+  "rating": 939.6,
+  "se": 31.0,
+  "wins": 54.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_1052",
+  "rating": 939.3,
+  "se": 29.5,
+  "wins": 60.5,
+  "games": 146
+ },
+ {
+  "name": "randbats_1379",
+  "rating": 939.2,
+  "se": 32.6,
+  "wins": 50.0,
+  "games": 120
+ },
+ {
+  "name": "randbats_836",
+  "rating": 939.0,
+  "se": 30.6,
+  "wins": 57.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_291",
+  "rating": 939.0,
+  "se": 31.5,
+  "wins": 53.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_1192",
+  "rating": 938.5,
+  "se": 32.2,
+  "wins": 51.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_492",
+  "rating": 938.4,
+  "se": 32.2,
+  "wins": 51.5,
+  "games": 123
+ },
+ {
+  "name": "randbats_1132",
+  "rating": 938.3,
+  "se": 30.7,
+  "wins": 56.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_430",
+  "rating": 938.3,
+  "se": 31.3,
+  "wins": 55.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_542",
+  "rating": 938.2,
+  "se": 32.3,
+  "wins": 53.0,
+  "games": 122
+ },
+ {
+  "name": "randbats_526",
+  "rating": 937.9,
+  "se": 30.9,
+  "wins": 56.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_447",
+  "rating": 937.7,
+  "se": 31.3,
+  "wins": 55.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_105",
+  "rating": 937.6,
+  "se": 32.2,
+  "wins": 51.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_414",
+  "rating": 937.6,
+  "se": 28.9,
+  "wins": 64.5,
+  "games": 152
+ },
+ {
+  "name": "randbats_822",
+  "rating": 937.5,
+  "se": 29.6,
+  "wins": 61.0,
+  "games": 146
+ },
+ {
+  "name": "randbats_75",
+  "rating": 937.4,
+  "se": 32.0,
+  "wins": 51.5,
+  "games": 124
+ },
+ {
+  "name": "randbats_1190",
+  "rating": 937.4,
+  "se": 32.0,
+  "wins": 50.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_473",
+  "rating": 937.2,
+  "se": 30.7,
+  "wins": 56.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_805",
+  "rating": 936.7,
+  "se": 30.7,
+  "wins": 56.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_475",
+  "rating": 936.5,
+  "se": 31.8,
+  "wins": 52.5,
+  "games": 126
+ },
+ {
+  "name": "randbats_222",
+  "rating": 936.3,
+  "se": 31.3,
+  "wins": 55.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_183",
+  "rating": 936.3,
+  "se": 30.3,
+  "wins": 57.5,
+  "games": 139
+ },
+ {
+  "name": "randbats_1084",
+  "rating": 936.0,
+  "se": 29.6,
+  "wins": 59.0,
+  "games": 146
+ },
+ {
+  "name": "randbats_1392",
+  "rating": 935.6,
+  "se": 32.4,
+  "wins": 51.0,
+  "games": 121
+ },
+ {
+  "name": "randbats_1328",
+  "rating": 935.4,
+  "se": 30.9,
+  "wins": 57.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_662",
+  "rating": 934.9,
+  "se": 29.7,
+  "wins": 58.0,
+  "games": 146
+ },
+ {
+  "name": "randbats_847",
+  "rating": 934.4,
+  "se": 31.9,
+  "wins": 51.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_285",
+  "rating": 934.0,
+  "se": 30.8,
+  "wins": 55.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_1112",
+  "rating": 933.9,
+  "se": 31.4,
+  "wins": 52.5,
+  "games": 131
+ },
+ {
+  "name": "randbats_656",
+  "rating": 933.6,
+  "se": 30.1,
+  "wins": 58.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_14",
+  "rating": 933.5,
+  "se": 33.0,
+  "wins": 47.0,
+  "games": 120
+ },
+ {
+  "name": "randbats_391",
+  "rating": 933.4,
+  "se": 32.8,
+  "wins": 48.0,
+  "games": 120
+ },
+ {
+  "name": "randbats_730",
+  "rating": 933.2,
+  "se": 30.4,
+  "wins": 57.5,
+  "games": 138
+ },
+ {
+  "name": "randbats_1441",
+  "rating": 933.1,
+  "se": 33.2,
+  "wins": 48.0,
+  "games": 118
+ },
+ {
+  "name": "randbats_810",
+  "rating": 932.7,
+  "se": 31.3,
+  "wins": 54.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_1159",
+  "rating": 932.4,
+  "se": 30.5,
+  "wins": 57.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_1240",
+  "rating": 932.3,
+  "se": 29.7,
+  "wins": 59.0,
+  "games": 145
+ },
+ {
+  "name": "randbats_678",
+  "rating": 932.1,
+  "se": 29.3,
+  "wins": 60.0,
+  "games": 150
+ },
+ {
+  "name": "randbats_120",
+  "rating": 931.9,
+  "se": 30.4,
+  "wins": 56.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_1145",
+  "rating": 931.7,
+  "se": 30.9,
+  "wins": 55.5,
+  "games": 135
+ },
+ {
+  "name": "randbats_1078",
+  "rating": 931.6,
+  "se": 31.5,
+  "wins": 52.5,
+  "games": 130
+ },
+ {
+  "name": "randbats_1136",
+  "rating": 931.5,
+  "se": 31.8,
+  "wins": 52.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_859",
+  "rating": 931.1,
+  "se": 31.4,
+  "wins": 53.5,
+  "games": 129
+ },
+ {
+  "name": "randbats_333",
+  "rating": 930.7,
+  "se": 31.7,
+  "wins": 50.5,
+  "games": 129
+ },
+ {
+  "name": "randbats_824",
+  "rating": 930.5,
+  "se": 31.2,
+  "wins": 53.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_641",
+  "rating": 929.9,
+  "se": 29.6,
+  "wins": 58.5,
+  "games": 148
+ },
+ {
+  "name": "randbats_722",
+  "rating": 929.7,
+  "se": 34.8,
+  "wins": 43.0,
+  "games": 106
+ },
+ {
+  "name": "randbats_1405",
+  "rating": 929.7,
+  "se": 29.7,
+  "wins": 59.5,
+  "games": 144
+ },
+ {
+  "name": "randbats_125",
+  "rating": 929.5,
+  "se": 31.2,
+  "wins": 53.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_290",
+  "rating": 929.1,
+  "se": 31.1,
+  "wins": 53.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_990",
+  "rating": 928.4,
+  "se": 30.6,
+  "wins": 55.5,
+  "games": 139
+ },
+ {
+  "name": "randbats_633",
+  "rating": 928.2,
+  "se": 30.3,
+  "wins": 55.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_200",
+  "rating": 927.9,
+  "se": 30.8,
+  "wins": 54.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_993",
+  "rating": 926.9,
+  "se": 31.7,
+  "wins": 52.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_354",
+  "rating": 926.7,
+  "se": 30.9,
+  "wins": 54.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_351",
+  "rating": 926.2,
+  "se": 33.0,
+  "wins": 46.0,
+  "games": 120
+ },
+ {
+  "name": "randbats_1205",
+  "rating": 925.9,
+  "se": 31.7,
+  "wins": 51.5,
+  "games": 129
+ },
+ {
+  "name": "randbats_134",
+  "rating": 925.9,
+  "se": 29.9,
+  "wins": 57.0,
+  "games": 144
+ },
+ {
+  "name": "randbats_937",
+  "rating": 925.9,
+  "se": 29.7,
+  "wins": 59.0,
+  "games": 146
+ },
+ {
+  "name": "randbats_182",
+  "rating": 925.7,
+  "se": 32.6,
+  "wins": 49.0,
+  "games": 120
+ },
+ {
+  "name": "randbats_66",
+  "rating": 925.6,
+  "se": 32.5,
+  "wins": 48.0,
+  "games": 122
+ },
+ {
+  "name": "randbats_1166",
+  "rating": 925.2,
+  "se": 30.9,
+  "wins": 54.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_225",
+  "rating": 924.9,
+  "se": 29.8,
+  "wins": 59.0,
+  "games": 145
+ },
+ {
+  "name": "randbats_357",
+  "rating": 924.8,
+  "se": 30.6,
+  "wins": 54.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_1163",
+  "rating": 924.5,
+  "se": 29.8,
+  "wins": 57.0,
+  "games": 146
+ },
+ {
+  "name": "randbats_858",
+  "rating": 924.4,
+  "se": 29.9,
+  "wins": 58.0,
+  "games": 146
+ },
+ {
+  "name": "randbats_1039",
+  "rating": 924.4,
+  "se": 31.1,
+  "wins": 52.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_535",
+  "rating": 923.8,
+  "se": 30.7,
+  "wins": 55.5,
+  "games": 137
+ },
+ {
+  "name": "randbats_1128",
+  "rating": 923.6,
+  "se": 31.6,
+  "wins": 51.5,
+  "games": 130
+ },
+ {
+  "name": "randbats_1126",
+  "rating": 923.1,
+  "se": 30.3,
+  "wins": 57.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_1061",
+  "rating": 922.9,
+  "se": 33.4,
+  "wins": 44.0,
+  "games": 118
+ },
+ {
+  "name": "randbats_815",
+  "rating": 922.9,
+  "se": 31.0,
+  "wins": 52.5,
+  "games": 135
+ },
+ {
+  "name": "randbats_893",
+  "rating": 922.9,
+  "se": 33.5,
+  "wins": 45.0,
+  "games": 117
+ },
+ {
+  "name": "randbats_1189",
+  "rating": 922.5,
+  "se": 33.2,
+  "wins": 46.0,
+  "games": 118
+ },
+ {
+  "name": "randbats_800",
+  "rating": 922.2,
+  "se": 30.2,
+  "wins": 55.0,
+  "games": 144
+ },
+ {
+  "name": "randbats_1020",
+  "rating": 921.9,
+  "se": 32.0,
+  "wins": 50.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_297",
+  "rating": 921.7,
+  "se": 30.1,
+  "wins": 56.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_619",
+  "rating": 921.7,
+  "se": 32.2,
+  "wins": 48.5,
+  "games": 125
+ },
+ {
+  "name": "randbats_1090",
+  "rating": 921.6,
+  "se": 31.3,
+  "wins": 51.5,
+  "games": 134
+ },
+ {
+  "name": "randbats_188",
+  "rating": 921.2,
+  "se": 31.3,
+  "wins": 51.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_1144",
+  "rating": 920.2,
+  "se": 31.5,
+  "wins": 51.5,
+  "games": 132
+ },
+ {
+  "name": "randbats_177",
+  "rating": 920.1,
+  "se": 36.0,
+  "wins": 39.0,
+  "games": 101
+ },
+ {
+  "name": "randbats_558",
+  "rating": 919.6,
+  "se": 31.7,
+  "wins": 50.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_1105",
+  "rating": 919.4,
+  "se": 31.1,
+  "wins": 53.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_231",
+  "rating": 919.2,
+  "se": 32.3,
+  "wins": 48.0,
+  "games": 125
+ },
+ {
+  "name": "randbats_1345",
+  "rating": 919.1,
+  "se": 34.5,
+  "wins": 42.5,
+  "games": 109
+ },
+ {
+  "name": "randbats_1207",
+  "rating": 918.9,
+  "se": 29.5,
+  "wins": 58.0,
+  "games": 150
+ },
+ {
+  "name": "randbats_233",
+  "rating": 918.7,
+  "se": 29.6,
+  "wins": 57.0,
+  "games": 150
+ },
+ {
+  "name": "randbats_1475",
+  "rating": 918.6,
+  "se": 32.3,
+  "wins": 49.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_576",
+  "rating": 918.5,
+  "se": 28.4,
+  "wins": 63.0,
+  "games": 162
+ },
+ {
+  "name": "randbats_264",
+  "rating": 918.3,
+  "se": 31.7,
+  "wins": 49.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_1319",
+  "rating": 918.0,
+  "se": 31.1,
+  "wins": 52.0,
+  "games": 136
+ },
+ {
+  "name": "randbats_1049",
+  "rating": 917.9,
+  "se": 33.0,
+  "wins": 46.0,
+  "games": 120
+ },
+ {
+  "name": "randbats_791",
+  "rating": 917.6,
+  "se": 30.2,
+  "wins": 54.5,
+  "games": 144
+ },
+ {
+  "name": "randbats_190",
+  "rating": 917.2,
+  "se": 31.9,
+  "wins": 50.5,
+  "games": 127
+ },
+ {
+  "name": "randbats_961",
+  "rating": 917.0,
+  "se": 32.9,
+  "wins": 46.0,
+  "games": 122
+ },
+ {
+  "name": "randbats_943",
+  "rating": 916.9,
+  "se": 32.5,
+  "wins": 47.0,
+  "games": 126
+ },
+ {
+  "name": "randbats_356",
+  "rating": 916.6,
+  "se": 31.7,
+  "wins": 50.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_693",
+  "rating": 916.4,
+  "se": 33.1,
+  "wins": 46.0,
+  "games": 119
+ },
+ {
+  "name": "randbats_307",
+  "rating": 915.7,
+  "se": 31.7,
+  "wins": 51.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_142",
+  "rating": 915.7,
+  "se": 30.8,
+  "wins": 52.5,
+  "games": 138
+ },
+ {
+  "name": "randbats_65",
+  "rating": 915.6,
+  "se": 30.3,
+  "wins": 54.0,
+  "games": 144
+ },
+ {
+  "name": "randbats_740",
+  "rating": 915.5,
+  "se": 29.7,
+  "wins": 57.0,
+  "games": 148
+ },
+ {
+  "name": "randbats_1318",
+  "rating": 915.4,
+  "se": 31.8,
+  "wins": 50.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_751",
+  "rating": 915.3,
+  "se": 31.4,
+  "wins": 50.5,
+  "games": 133
+ },
+ {
+  "name": "randbats_161",
+  "rating": 915.1,
+  "se": 29.8,
+  "wins": 57.0,
+  "games": 147
+ },
+ {
+  "name": "randbats_746",
+  "rating": 914.6,
+  "se": 32.6,
+  "wins": 47.5,
+  "games": 124
+ },
+ {
+  "name": "randbats_924",
+  "rating": 914.2,
+  "se": 30.5,
+  "wins": 53.5,
+  "games": 141
+ },
+ {
+  "name": "randbats_1425",
+  "rating": 913.2,
+  "se": 29.4,
+  "wins": 58.0,
+  "games": 152
+ },
+ {
+  "name": "randbats_582",
+  "rating": 912.7,
+  "se": 31.9,
+  "wins": 49.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_433",
+  "rating": 912.4,
+  "se": 32.0,
+  "wins": 49.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_839",
+  "rating": 912.4,
+  "se": 31.8,
+  "wins": 50.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_534",
+  "rating": 912.2,
+  "se": 30.5,
+  "wins": 51.5,
+  "games": 145
+ },
+ {
+  "name": "randbats_880",
+  "rating": 911.9,
+  "se": 33.7,
+  "wins": 45.0,
+  "games": 115
+ },
+ {
+  "name": "randbats_1310",
+  "rating": 911.6,
+  "se": 31.1,
+  "wins": 51.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_1108",
+  "rating": 911.4,
+  "se": 31.9,
+  "wins": 49.5,
+  "games": 129
+ },
+ {
+  "name": "randbats_680",
+  "rating": 911.1,
+  "se": 30.1,
+  "wins": 53.5,
+  "games": 146
+ },
+ {
+  "name": "randbats_255",
+  "rating": 910.5,
+  "se": 32.1,
+  "wins": 49.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_957",
+  "rating": 910.4,
+  "se": 31.2,
+  "wins": 52.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_754",
+  "rating": 910.3,
+  "se": 30.3,
+  "wins": 53.0,
+  "games": 144
+ },
+ {
+  "name": "randbats_1436",
+  "rating": 910.0,
+  "se": 33.1,
+  "wins": 44.5,
+  "games": 121
+ },
+ {
+  "name": "randbats_728",
+  "rating": 909.8,
+  "se": 28.1,
+  "wins": 62.5,
+  "games": 168
+ },
+ {
+  "name": "randbats_312",
+  "rating": 909.1,
+  "se": 29.7,
+  "wins": 58.0,
+  "games": 149
+ },
+ {
+  "name": "randbats_663",
+  "rating": 907.6,
+  "se": 30.5,
+  "wins": 53.0,
+  "games": 142
+ },
+ {
+  "name": "randbats_522",
+  "rating": 907.3,
+  "se": 31.6,
+  "wins": 50.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_741",
+  "rating": 906.7,
+  "se": 32.1,
+  "wins": 47.5,
+  "games": 128
+ },
+ {
+  "name": "randbats_1295",
+  "rating": 906.7,
+  "se": 30.4,
+  "wins": 53.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_1171",
+  "rating": 906.2,
+  "se": 33.5,
+  "wins": 43.0,
+  "games": 119
+ },
+ {
+  "name": "randbats_561",
+  "rating": 905.6,
+  "se": 33.8,
+  "wins": 43.5,
+  "games": 116
+ },
+ {
+  "name": "randbats_549",
+  "rating": 905.5,
+  "se": 29.9,
+  "wins": 56.0,
+  "games": 148
+ },
+ {
+  "name": "randbats_654",
+  "rating": 905.1,
+  "se": 32.6,
+  "wins": 47.0,
+  "games": 125
+ },
+ {
+  "name": "randbats_504",
+  "rating": 904.0,
+  "se": 31.4,
+  "wins": 49.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_42",
+  "rating": 903.9,
+  "se": 31.6,
+  "wins": 49.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_1428",
+  "rating": 903.2,
+  "se": 34.2,
+  "wins": 42.0,
+  "games": 114
+ },
+ {
+  "name": "randbats_615",
+  "rating": 902.9,
+  "se": 32.1,
+  "wins": 46.5,
+  "games": 130
+ },
+ {
+  "name": "randbats_1224",
+  "rating": 902.8,
+  "se": 32.4,
+  "wins": 47.5,
+  "games": 125
+ },
+ {
+  "name": "randbats_317",
+  "rating": 902.8,
+  "se": 31.6,
+  "wins": 49.5,
+  "games": 134
+ },
+ {
+  "name": "randbats_756",
+  "rating": 902.7,
+  "se": 29.9,
+  "wins": 54.0,
+  "games": 150
+ },
+ {
+  "name": "randbats_922",
+  "rating": 902.0,
+  "se": 32.5,
+  "wins": 46.0,
+  "games": 125
+ },
+ {
+  "name": "randbats_191",
+  "rating": 901.7,
+  "se": 36.1,
+  "wins": 38.0,
+  "games": 102
+ },
+ {
+  "name": "randbats_530",
+  "rating": 901.4,
+  "se": 33.0,
+  "wins": 44.0,
+  "games": 124
+ },
+ {
+  "name": "randbats_959",
+  "rating": 901.0,
+  "se": 30.1,
+  "wins": 53.5,
+  "games": 148
+ },
+ {
+  "name": "randbats_1257",
+  "rating": 900.9,
+  "se": 31.4,
+  "wins": 49.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_57",
+  "rating": 900.6,
+  "se": 32.8,
+  "wins": 45.0,
+  "games": 125
+ },
+ {
+  "name": "randbats_459",
+  "rating": 899.6,
+  "se": 31.8,
+  "wins": 49.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_350",
+  "rating": 898.9,
+  "se": 32.2,
+  "wins": 47.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_166",
+  "rating": 898.7,
+  "se": 31.5,
+  "wins": 48.5,
+  "games": 137
+ },
+ {
+  "name": "randbats_817",
+  "rating": 897.5,
+  "se": 32.3,
+  "wins": 45.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_629",
+  "rating": 897.1,
+  "se": 33.5,
+  "wins": 42.0,
+  "games": 122
+ },
+ {
+  "name": "randbats_938",
+  "rating": 897.1,
+  "se": 32.2,
+  "wins": 45.5,
+  "games": 132
+ },
+ {
+  "name": "randbats_887",
+  "rating": 896.1,
+  "se": 31.3,
+  "wins": 50.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_1263",
+  "rating": 895.6,
+  "se": 31.5,
+  "wins": 49.5,
+  "games": 136
+ },
+ {
+  "name": "randbats_449",
+  "rating": 895.3,
+  "se": 30.6,
+  "wins": 51.5,
+  "games": 145
+ },
+ {
+  "name": "randbats_479",
+  "rating": 895.1,
+  "se": 31.3,
+  "wins": 49.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_1081",
+  "rating": 894.8,
+  "se": 31.4,
+  "wins": 49.0,
+  "games": 137
+ },
+ {
+  "name": "randbats_675",
+  "rating": 893.9,
+  "se": 31.7,
+  "wins": 48.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_685",
+  "rating": 893.7,
+  "se": 32.7,
+  "wins": 44.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_1093",
+  "rating": 892.3,
+  "se": 31.3,
+  "wins": 49.5,
+  "games": 138
+ },
+ {
+  "name": "randbats_1324",
+  "rating": 890.3,
+  "se": 32.7,
+  "wins": 44.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_666",
+  "rating": 889.8,
+  "se": 31.0,
+  "wins": 50.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_410",
+  "rating": 889.5,
+  "se": 32.8,
+  "wins": 44.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_1268",
+  "rating": 889.4,
+  "se": 30.6,
+  "wins": 51.0,
+  "games": 145
+ },
+ {
+  "name": "randbats_1150",
+  "rating": 889.0,
+  "se": 32.8,
+  "wins": 44.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_1031",
+  "rating": 888.6,
+  "se": 31.4,
+  "wins": 48.0,
+  "games": 138
+ },
+ {
+  "name": "randbats_89",
+  "rating": 886.0,
+  "se": 33.0,
+  "wins": 43.0,
+  "games": 127
+ },
+ {
+  "name": "randbats_34",
+  "rating": 884.5,
+  "se": 30.0,
+  "wins": 52.0,
+  "games": 154
+ },
+ {
+  "name": "randbats_668",
+  "rating": 884.3,
+  "se": 32.8,
+  "wins": 43.5,
+  "games": 129
+ },
+ {
+  "name": "randbats_770",
+  "rating": 883.2,
+  "se": 29.7,
+  "wins": 54.0,
+  "games": 156
+ },
+ {
+  "name": "randbats_26",
+  "rating": 882.4,
+  "se": 32.7,
+  "wins": 44.0,
+  "games": 129
+ },
+ {
+  "name": "randbats_205",
+  "rating": 882.1,
+  "se": 31.1,
+  "wins": 48.0,
+  "games": 143
+ },
+ {
+  "name": "randbats_1433",
+  "rating": 879.8,
+  "se": 31.7,
+  "wins": 46.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_72",
+  "rating": 876.9,
+  "se": 33.9,
+  "wins": 40.0,
+  "games": 122
+ },
+ {
+  "name": "randbats_1178",
+  "rating": 876.2,
+  "se": 31.8,
+  "wins": 45.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_579",
+  "rating": 875.0,
+  "se": 31.4,
+  "wins": 47.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_1306",
+  "rating": 873.8,
+  "se": 31.5,
+  "wins": 47.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_127",
+  "rating": 873.8,
+  "se": 32.5,
+  "wins": 44.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_458",
+  "rating": 872.7,
+  "se": 32.9,
+  "wins": 42.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_251",
+  "rating": 870.8,
+  "se": 31.4,
+  "wins": 47.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_40",
+  "rating": 870.3,
+  "se": 36.7,
+  "wins": 34.0,
+  "games": 105
+ },
+ {
+  "name": "randbats_554",
+  "rating": 869.0,
+  "se": 33.4,
+  "wins": 42.0,
+  "games": 125
+ },
+ {
+  "name": "randbats_1228",
+  "rating": 867.6,
+  "se": 34.3,
+  "wins": 39.0,
+  "games": 120
+ },
+ {
+  "name": "randbats_578",
+  "rating": 867.2,
+  "se": 33.1,
+  "wins": 41.0,
+  "games": 132
+ },
+ {
+  "name": "randbats_321",
+  "rating": 866.6,
+  "se": 31.4,
+  "wins": 46.0,
+  "games": 144
+ },
+ {
+  "name": "randbats_1355",
+  "rating": 864.4,
+  "se": 30.9,
+  "wins": 47.0,
+  "games": 150
+ },
+ {
+  "name": "randbats_684",
+  "rating": 863.8,
+  "se": 31.0,
+  "wins": 47.0,
+  "games": 147
+ },
+ {
+  "name": "randbats_716",
+  "rating": 863.0,
+  "se": 30.5,
+  "wins": 49.0,
+  "games": 151
+ },
+ {
+  "name": "randbats_928",
+  "rating": 862.6,
+  "se": 32.5,
+  "wins": 43.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_845",
+  "rating": 861.9,
+  "se": 32.8,
+  "wins": 41.5,
+  "games": 135
+ },
+ {
+  "name": "randbats_926",
+  "rating": 861.1,
+  "se": 32.4,
+  "wins": 42.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_659",
+  "rating": 860.9,
+  "se": 34.6,
+  "wins": 38.0,
+  "games": 119
+ },
+ {
+  "name": "randbats_421",
+  "rating": 858.9,
+  "se": 32.3,
+  "wins": 42.5,
+  "games": 138
+ },
+ {
+  "name": "randbats_443",
+  "rating": 858.4,
+  "se": 32.4,
+  "wins": 42.0,
+  "games": 139
+ },
+ {
+  "name": "randbats_209",
+  "rating": 856.5,
+  "se": 32.3,
+  "wins": 43.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_1446",
+  "rating": 856.4,
+  "se": 31.9,
+  "wins": 44.0,
+  "games": 141
+ },
+ {
+  "name": "randbats_1221",
+  "rating": 855.2,
+  "se": 32.8,
+  "wins": 42.0,
+  "games": 134
+ },
+ {
+  "name": "randbats_798",
+  "rating": 852.6,
+  "se": 36.2,
+  "wins": 34.0,
+  "games": 112
+ },
+ {
+  "name": "randbats_1173",
+  "rating": 851.6,
+  "se": 34.5,
+  "wins": 37.0,
+  "games": 123
+ },
+ {
+  "name": "randbats_35",
+  "rating": 847.4,
+  "se": 35.9,
+  "wins": 33.0,
+  "games": 120
+ },
+ {
+  "name": "randbats_387",
+  "rating": 846.3,
+  "se": 32.1,
+  "wins": 42.0,
+  "games": 147
+ },
+ {
+  "name": "randbats_702",
+  "rating": 842.6,
+  "se": 31.0,
+  "wins": 45.5,
+  "games": 154
+ },
+ {
+  "name": "randbats_468",
+  "rating": 842.0,
+  "se": 34.9,
+  "wins": 36.0,
+  "games": 122
+ },
+ {
+  "name": "randbats_1181",
+  "rating": 841.7,
+  "se": 35.0,
+  "wins": 35.5,
+  "games": 122
+ },
+ {
+  "name": "randbats_782",
+  "rating": 837.7,
+  "se": 34.2,
+  "wins": 37.0,
+  "games": 128
+ },
+ {
+  "name": "randbats_1042",
+  "rating": 831.9,
+  "se": 32.5,
+  "wins": 40.0,
+  "games": 149
+ },
+ {
+  "name": "randbats_854",
+  "rating": 827.2,
+  "se": 35.3,
+  "wins": 33.5,
+  "games": 129
+ },
+ {
+  "name": "randbats_819",
+  "rating": 825.9,
+  "se": 34.4,
+  "wins": 36.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_802",
+  "rating": 823.8,
+  "se": 35.1,
+  "wins": 34.5,
+  "games": 127
+ },
+ {
+  "name": "randbats_379",
+  "rating": 819.7,
+  "se": 32.3,
+  "wins": 40.0,
+  "games": 152
+ },
+ {
+  "name": "randbats_735",
+  "rating": 815.9,
+  "se": 34.6,
+  "wins": 35.0,
+  "games": 133
+ },
+ {
+  "name": "randbats_848",
+  "rating": 805.6,
+  "se": 36.6,
+  "wins": 31.0,
+  "games": 124
+ },
+ {
+  "name": "randbats_1013",
+  "rating": 801.8,
+  "se": 35.5,
+  "wins": 32.0,
+  "games": 135
+ },
+ {
+  "name": "randbats_982",
+  "rating": 800.6,
+  "se": 35.6,
+  "wins": 33.0,
+  "games": 130
+ },
+ {
+  "name": "randbats_250",
+  "rating": 752.7,
+  "se": 37.0,
+  "wins": 28.0,
+  "games": 140
+ },
+ {
+  "name": "randbats_400",
+  "rating": 752.2,
+  "se": 38.4,
+  "wins": 26.0,
+  "games": 131
+ },
+ {
+  "name": "randbats_252",
+  "rating": 707.8,
+  "se": 45.0,
+  "wins": 18.0,
+  "games": 113
+ }
+]

@@ -25,3 +25,10 @@ Re-check everything:
 ```
 for f in teams/*.jsonl; do python3 tools/teams.py check $f --quiet | tail -1; done
 ```
+
+## Team ratings
+
+`sim/ratings/randbats_team_elo_100k_bt.json`: Bradley-Terry ratings of the 1500 randbats teams from 100000
+games with `rmplus:iters=30` on both sides (about 133 games per team, standard error about 31 points, true
+spread about 51 points). Produced with `build/arena --rate-teams` and `tools/elo_fit.py --players teams`.
+Use these to draw evenly matched teams for evaluations.
