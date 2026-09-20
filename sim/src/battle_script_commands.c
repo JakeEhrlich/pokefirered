@@ -2093,6 +2093,12 @@ static void Cmd_waitmessage(void)
                 gBattlescriptCurrInstr += 3;
                 gBattleCommunication[MSG_DISPLAY] = 0;
             }
+            else if (SimSkipWaitFrames(toWait)) // simulator: the remaining frames only count (see SimSkipWaitFrames)
+            {
+                gPauseCounterBattle = 0;
+                gBattlescriptCurrInstr += 3;
+                gBattleCommunication[MSG_DISPLAY] = 0;
+            }
         }
     }
 }
@@ -3810,6 +3816,11 @@ static void Cmd_pause(void)
     {
         u16 value = T2_READ_16(gBattlescriptCurrInstr + 1);
         if (++gPauseCounterBattle >= value)
+        {
+            gPauseCounterBattle = 0;
+            gBattlescriptCurrInstr += 3;
+        }
+        else if (SimSkipWaitFrames(value)) // simulator: the remaining frames only count (see SimSkipWaitFrames)
         {
             gPauseCounterBattle = 0;
             gBattlescriptCurrInstr += 3;

@@ -44,6 +44,8 @@ u16 Sqrt(u32 num)
 }
 
 // --- battle_anim_mons.c ---
+#undef GetBattlerSide     // the out-of-line versions (sim_globals.h inlines them elsewhere)
+#undef GetBattlerPosition
 u8 GetBattlerSide(u8 battlerId)
 {
     return GET_BATTLER_SIDE2(battlerId);

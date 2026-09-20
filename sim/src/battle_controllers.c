@@ -419,6 +419,14 @@ void BtlController_EmitPrintString(u8 bufferId, u16 stringID)
     sBattleBuffersTransferData[2] = stringID;
     sBattleBuffersTransferData[3] = (stringID & 0xFF00) >> 8;
 
+    // Simulator: nothing displays the string; the controller reads only the command and string id (bytes 0-3),
+    // so the message payload is not assembled when the message log is off.
+    if (!gSim->logEnabled)
+    {
+        PrepareBufferDataTransfer(bufferId, sBattleBuffersTransferData, 4);
+        return;
+    }
+
     stringInfo = (struct BattleMsgData *)(&sBattleBuffersTransferData[4]);
     stringInfo->currentMove = gCurrentMove;
     stringInfo->originallyUsedMove = gChosenMove;
@@ -793,6 +801,11 @@ void BtlController_EmitDrawPartyStatusSummary(u8 bufferId, struct HpAndStatus* h
     sBattleBuffersTransferData[1] = flags & ~PARTY_SUMM_SKIP_DRAW_DELAY; // If true, skip player side
     sBattleBuffersTransferData[2] = (flags & PARTY_SUMM_SKIP_DRAW_DELAY) >> 7; // If true, skip delay after drawing. True during intro
     sBattleBuffersTransferData[3] = CONTROLLER_DRAWPARTYSTATUSSUMMARY;
+    if (!gSim->logEnabled) // simulator: the party summary is never drawn; only the command byte is read
+    {
+        PrepareBufferDataTransfer(bufferId, sBattleBuffersTransferData, 4);
+        return;
+    }
     for (i = 0; i < (s32)(sizeof(struct HpAndStatus) * PARTY_SIZE); i++)
         sBattleBuffersTransferData[4 + i] = *(i + (u8 *)(hpAndStatus));
     PrepareBufferDataTransfer(bufferId, sBattleBuffersTransferData, sizeof(struct HpAndStatus) * PARTY_SIZE + 4);

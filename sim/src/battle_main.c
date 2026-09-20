@@ -2331,12 +2331,28 @@ static void CheckFocusPunch_ClearVarsBeforeTurnStarts(void)
     gBattleResources->battleScriptsStack.size = 0;
 }
 
+// Simulator: whether gBattleMainFunc is one of the plain battle-script runners, where a frame spent in a
+// pending wait command does nothing besides advancing its counter (see SimSkipWaitFrames).
+bool8 SimMainFuncRunsScript(void)
+{
+    return gBattleMainFunc == RunBattleScriptCommands
+        || gBattleMainFunc == RunBattleScriptCommands_PopCallbacksStack
+        || gBattleMainFunc == RunTurnActionsFunctions;
+}
+
 static void RunTurnActionsFunctions(void)
 {
     if (gBattleOutcome != 0)
         gCurrentActionFuncId = B_ACTION_FINISHED;
     *(&gBattleStruct->savedTurnActionNumber) = gCurrentTurnActionNumber;
-    sTurnActionsFuncsTable[gCurrentActionFuncId]();
+    if (gCurrentActionFuncId == B_ACTION_EXEC_SCRIPT)
+    {
+        // HandleAction_RunBattleScript, dispatched here (saves a call and a thread-local lookup every frame)
+        if (gBattleControllerExecFlags == 0)
+            gBattleScriptingCommandsTable[*gBattlescriptCurrInstr]();
+    }
+    else
+        sTurnActionsFuncsTable[gCurrentActionFuncId]();
 
     if (gCurrentTurnActionNumber >= gBattlersCount) // everyone did their actions, turn finished
     {

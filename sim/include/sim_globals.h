@@ -9,6 +9,11 @@
 #define gBattleStruct (&gSim->sBattleStructStorage)
 #define gBattleResources (&gSim->sBattleResourcesStorage)
 
+// The one-line battler helpers of src/sim_support.c, inlined: on the host every call costs a thread-local
+// lookup of gSim. Same argument conversion and result as the functions (which stay defined for other callers).
+#define GetBattlerSide(battler) ((u8)GET_BATTLER_SIDE2((u8)(battler)))
+#define GetBattlerPosition(battler) ((u8)GET_BATTLER_POSITION((u8)(battler)))
+
 // Battle script pointers are stored encoded in the bytecode blob (see tools/bsasm.py).
 #undef T1_READ_PTR
 #undef T2_READ_PTR

@@ -1,3 +1,4 @@
+#include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
 #define IS_POKEMON_C
@@ -2924,31 +2925,137 @@ u32 GetMonData2(struct Pokemon *mon, s32 field) { return GetMonData3(mon, field,
  * safety we have a GetBoxMonData macro (in include/pokemon.h) which
  * dispatches to either GetBoxMonData2 or GetBoxMonData3 based on the
  * number of arguments. */
+// Simulator: GetBoxMonData3 split into its three steps (decrypt + checksum check, read, re-encrypt), so that a
+// burst of reads of one mon (the controller's REQUEST_ALL_BATTLE reads ~25 encrypted fields) decrypts once.
+// Reads have no side effect besides the bad-egg flags set by the checksum check (idempotent), so a batch of
+// reads inside one Begin/End is the same as one GetBoxMonData per field. Each step is the game's code.
+void SimBoxMonBeginRead(struct BoxPokemon *boxMon, struct SimBoxMonView *v)
+{
+    v->substruct0 = &(GetSubstruct(boxMon, boxMon->personality, 0)->type0);
+    v->substruct1 = &(GetSubstruct(boxMon, boxMon->personality, 1)->type1);
+    v->substruct2 = &(GetSubstruct(boxMon, boxMon->personality, 2)->type2);
+    v->substruct3 = &(GetSubstruct(boxMon, boxMon->personality, 3)->type3);
+
+    DecryptBoxMon(boxMon);
+
+    if (!gSim->trustParty && CalculateBoxMonChecksum(boxMon) != boxMon->checksum)
+    {
+        boxMon->isBadEgg = TRUE;
+        boxMon->isEgg = TRUE;
+        v->substruct3->isEgg = TRUE;
+    }
+}
+
+void SimBoxMonEndRead(struct BoxPokemon *boxMon)
+{
+    EncryptBoxMon(boxMon);
+}
+
+// Simulator: the substruct order per personality % 24 (GetSubstruct's switch as a table), and, per field, the
+// substruct(s) its case in SimBoxMonRead reads from (bit n = substruct n; 0 = none / unencrypted field).
+static const u8 sSubstructOrder[24][4] =
+{
+    {0,1,2,3}, {0,1,3,2}, {0,2,1,3}, {0,3,1,2}, {0,2,3,1}, {0,3,2,1},
+    {1,0,2,3}, {1,0,3,2}, {2,0,1,3}, {3,0,1,2}, {2,0,3,1}, {3,0,2,1},
+    {1,2,0,3}, {1,3,0,2}, {2,1,0,3}, {3,1,0,2}, {2,3,0,1}, {3,2,0,1},
+    {1,2,3,0}, {1,3,2,0}, {2,1,3,0}, {3,1,2,0}, {2,3,1,0}, {3,2,1,0},
+};
+static const u8 sFieldSubstructs[MON_DATA_RIBBONS + 1] =
+{
+    [MON_DATA_SPECIES] = 1, [MON_DATA_HELD_ITEM] = 1, [MON_DATA_EXP] = 1, [MON_DATA_PP_BONUSES] = 1, [MON_DATA_FRIENDSHIP] = 1,
+    [MON_DATA_MOVE1] = 2, [MON_DATA_MOVE2] = 2, [MON_DATA_MOVE3] = 2, [MON_DATA_MOVE4] = 2,
+    [MON_DATA_PP1] = 2, [MON_DATA_PP2] = 2, [MON_DATA_PP3] = 2, [MON_DATA_PP4] = 2,
+    [MON_DATA_COOL] = 4, [MON_DATA_BEAUTY] = 4, [MON_DATA_CUTE] = 4, [MON_DATA_SMART] = 4, [MON_DATA_TOUGH] = 4, [MON_DATA_SHEEN] = 4,
+    [MON_DATA_HP_EV] = 4, [MON_DATA_ATK_EV] = 4, [MON_DATA_DEF_EV] = 4, [MON_DATA_SPEED_EV] = 4, [MON_DATA_SPATK_EV] = 4, [MON_DATA_SPDEF_EV] = 4,
+    [MON_DATA_POKERUS] = 8, [MON_DATA_MET_LOCATION] = 8, [MON_DATA_MET_LEVEL] = 8, [MON_DATA_MET_GAME] = 8, [MON_DATA_POKEBALL] = 8,
+    [MON_DATA_HP_IV] = 8, [MON_DATA_ATK_IV] = 8, [MON_DATA_DEF_IV] = 8, [MON_DATA_SPEED_IV] = 8, [MON_DATA_SPATK_IV] = 8, [MON_DATA_SPDEF_IV] = 8,
+    [MON_DATA_IS_EGG] = 8, [MON_DATA_ABILITY_NUM] = 8, [MON_DATA_OT_GENDER] = 8,
+    [MON_DATA_COOL_RIBBON] = 8, [MON_DATA_BEAUTY_RIBBON] = 8, [MON_DATA_CUTE_RIBBON] = 8, [MON_DATA_SMART_RIBBON] = 8, [MON_DATA_TOUGH_RIBBON] = 8,
+    [MON_DATA_SPECIES_OR_EGG] = 1 | 8, [MON_DATA_IVS] = 8,
+    [MON_DATA_CHAMPION_RIBBON] = 8, [MON_DATA_WINNING_RIBBON] = 8, [MON_DATA_VICTORY_RIBBON] = 8, [MON_DATA_ARTIST_RIBBON] = 8,
+    [MON_DATA_EFFORT_RIBBON] = 8, [MON_DATA_MARINE_RIBBON] = 8, [MON_DATA_LAND_RIBBON] = 8, [MON_DATA_SKY_RIBBON] = 8,
+    [MON_DATA_COUNTRY_RIBBON] = 8, [MON_DATA_NATIONAL_RIBBON] = 8, [MON_DATA_EARTH_RIBBON] = 8, [MON_DATA_WORLD_RIBBON] = 8,
+    [MON_DATA_UNUSED_RIBBONS] = 8, [MON_DATA_MODERN_FATEFUL_ENCOUNTER] = 8,
+    [MON_DATA_KNOWN_MOVES] = 1 | 2 | 8, [MON_DATA_RIBBON_COUNT] = 1 | 8, [MON_DATA_RIBBONS] = 1 | 8,
+};
+
+static u32 GetBoxMonData3Full(struct BoxPokemon *boxMon, s32 field, u8 *data);
+
 u32 GetBoxMonData3(struct BoxPokemon *boxMon, s32 field, u8 *data)
 {
-    s32 i;
-    u32 retVal = 0;
-    struct PokemonSubstruct0 *substruct0 = NULL;
-    struct PokemonSubstruct1 *substruct1 = NULL;
-    struct PokemonSubstruct2 *substruct2 = NULL;
-    struct PokemonSubstruct3 *substruct3 = NULL;
+    // Simulator: the two reads AbilityBattleEffects makes on every call, without the switches (and without the
+    // stack frame of the general function, hence the split). The species is the low half of the first word of
+    // substruct 0, i.e. the same bytes the fast path in GetBoxMonData3Full would decrypt.
+    if (field == MON_DATA_PERSONALITY)
+        return boxMon->personality;
+    if (field == MON_DATA_SPECIES && gSim->trustParty)
+    {
+        _Static_assert(offsetof(struct PokemonSubstruct0, species) == 0 && sizeof(((struct PokemonSubstruct0 *)0)->species) == 2, "species layout");
+        if (boxMon->isBadEgg)
+            return SPECIES_EGG;
+        return (u16)(boxMon->secure.raw[sSubstructOrder[boxMon->personality % 24][0] * 3] ^ boxMon->otId ^ boxMon->personality);
+    }
+    return GetBoxMonData3Full(boxMon, field, data);
+}
+
+static __attribute__((noinline)) u32 GetBoxMonData3Full(struct BoxPokemon *boxMon, s32 field, u8 *data)
+{
+    u32 retVal;
+    struct SimBoxMonView v = {NULL, NULL, NULL, NULL};
 
     if (field > MON_DATA_ENCRYPT_SEPARATOR)
     {
-        substruct0 = &(GetSubstruct(boxMon, boxMon->personality, 0)->type0);
-        substruct1 = &(GetSubstruct(boxMon, boxMon->personality, 1)->type1);
-        substruct2 = &(GetSubstruct(boxMon, boxMon->personality, 2)->type2);
-        substruct3 = &(GetSubstruct(boxMon, boxMon->personality, 3)->type3);
-
-        DecryptBoxMon(boxMon);
-
-        if (CalculateBoxMonChecksum(boxMon) != boxMon->checksum)
+        if (gSim->trustParty)
         {
-            boxMon->isBadEgg = TRUE;
-            boxMon->isEgg = TRUE;
-            substruct3->isEgg = TRUE;
+            // Simulator fast path. With the checksum trusted (Sim_Start validated the party) the game's
+            // decrypt / check / read / re-encrypt leaves the box exactly as it was and only reads it, so the
+            // field is read from a decrypted local copy of just the substruct(s) it lives in, with the same
+            // read code (SimBoxMonRead). DecryptBoxMon xors each word with otId then personality.
+            union PokemonSubstruct local[4];
+            u32 key = boxMon->otId ^ boxMon->personality;
+            const u8 *order = sSubstructOrder[boxMon->personality % 24];
+            u32 mask = (u32)field < ARRAY_COUNT(sFieldSubstructs) ? sFieldSubstructs[field] : 0;
+            u32 n;
+
+            _Static_assert(sizeof(union PokemonSubstruct) == 12 && sizeof(boxMon->secure.raw) == 48, "substruct layout");
+            for (n = 0; n < 4; n++)
+            {
+                if (mask & (1 << n))
+                {
+                    u32 w[3];
+                    const u32 *src = &boxMon->secure.raw[order[n] * 3];
+                    w[0] = src[0] ^ key;
+                    w[1] = src[1] ^ key;
+                    w[2] = src[2] ^ key;
+                    memcpy(&local[n], w, sizeof(w));
+                }
+            }
+            if (mask & 1) v.substruct0 = &local[0].type0;
+            if (mask & 2) v.substruct1 = &local[1].type1;
+            if (mask & 4) v.substruct2 = &local[2].type2;
+            if (mask & 8) v.substruct3 = &local[3].type3;
+            return SimBoxMonRead(boxMon, &v, field, data);
         }
+        SimBoxMonBeginRead(boxMon, &v);
     }
+
+    retVal = SimBoxMonRead(boxMon, &v, field, data);
+
+    if (field > MON_DATA_ENCRYPT_SEPARATOR)
+        EncryptBoxMon(boxMon);
+
+    return retVal;
+}
+
+// The read step of GetBoxMonData3 (the box must be decrypted when the field is an encrypted one).
+u32 SimBoxMonRead(struct BoxPokemon *boxMon, const struct SimBoxMonView *v, s32 field, u8 *data)
+{
+    s32 i;
+    u32 retVal = 0;
+    struct PokemonSubstruct0 *substruct0 = v->substruct0;
+    struct PokemonSubstruct1 *substruct1 = v->substruct1;
+    struct PokemonSubstruct2 *substruct2 = v->substruct2;
+    struct PokemonSubstruct3 *substruct3 = v->substruct3;
 
     switch (field)
     {
@@ -3274,9 +3381,6 @@ u32 GetBoxMonData3(struct BoxPokemon *boxMon, s32 field, u8 *data)
         break;
     }
 
-    if (field > MON_DATA_ENCRYPT_SEPARATOR)
-        EncryptBoxMon(boxMon);
-
     return retVal;
 }
 
@@ -3372,7 +3476,7 @@ void SetBoxMonData(struct BoxPokemon *boxMon, s32 field, const void *dataArg)
 
         DecryptBoxMon(boxMon);
 
-        if (CalculateBoxMonChecksum(boxMon) != boxMon->checksum)
+        if (!gSim->trustParty && CalculateBoxMonChecksum(boxMon) != boxMon->checksum)
         {
             boxMon->isBadEgg = TRUE;
             boxMon->isEgg = TRUE;
@@ -6046,6 +6150,8 @@ void CreateEnemyEventMon(void)
 
 void HandleSetPokedexFlag(u16 nationalNum, u8 caseId, u32 personality)
 {
+    return; // simulator: the Pokedex is not modelled
+
     u8 getFlagCaseId = (caseId == FLAG_SET_SEEN) ? FLAG_GET_SEEN : FLAG_GET_CAUGHT;
     
     if (!GetSetPokedexFlag(nationalNum, getFlagCaseId))

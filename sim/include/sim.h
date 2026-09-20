@@ -122,6 +122,7 @@ struct BattleSim
     u8 exactFrames;                  // 1: after a request, keep stepping frames until the state is stable (the game's timing; needed by the
                                      //    ROM cross-check). 0: return at the request (search/arena clones; identical trajectories, less work)
     u16 partySpeciesOrEgg[2][PARTY_SIZE]; // species (or SPECIES_EGG / NONE) per party slot, fixed for the battle (cached at Sim_Start)
+    u32 frameBudget;                 // frames left before Sim_Run gives up with SIM_ERR_STUCK (executed or skipped, see SimSkipWaitFrames)
 };
 
 extern _Thread_local struct BattleSim *gSim;
@@ -211,5 +212,22 @@ extern int gSimRngTraceEnabled;
 void *SimDecodePtr(u32 encoded);
 void SimSetControllerToSim(void);
 void SimLog(u16 stringId, u8 battler);
+
+// --- engine-internal shortcuts (src/sim_api.c, src/sim_controller.c, src/pokemon.c, src/battle_main.c) ---
+void SimBufferRunCommand(void);                        // the simulator's battle controller (does nothing unless the battler's exec flag is set)
+bool8 SimMainFuncRunsScript(void);                     // gBattleMainFunc is a plain battle-script runner
+bool8 SimSkipWaitFrames(u16 toWait);                   // waitmessage / pause: account the remaining countdown frames instead of running them
+extern void (* const gBattleScriptingCommandsTable[])(void);
+// A decrypted view of a box mon for a burst of reads (one decrypt / re-encrypt instead of one per field).
+struct SimBoxMonView
+{
+    struct PokemonSubstruct0 *substruct0;
+    struct PokemonSubstruct1 *substruct1;
+    struct PokemonSubstruct2 *substruct2;
+    struct PokemonSubstruct3 *substruct3;
+};
+void SimBoxMonBeginRead(struct BoxPokemon *boxMon, struct SimBoxMonView *v);       // decrypt (+ the game's checksum check)
+u32 SimBoxMonRead(struct BoxPokemon *boxMon, const struct SimBoxMonView *v, s32 field, u8 *data); // GetBoxMonData's read, no crypto
+void SimBoxMonEndRead(struct BoxPokemon *boxMon);                                   // re-encrypt
 
 #endif // GUARD_SIM_H

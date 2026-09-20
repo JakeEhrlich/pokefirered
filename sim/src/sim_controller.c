@@ -20,9 +20,9 @@
 #include "constants/moves.h"
 #include "constants/party_menu.h"
 #include "constants/songs.h"
+#include "constants/species.h"
 #include "sim_globals.h"
 
-static void SimBufferRunCommand(void);
 static void SimBufferExecCompleted(void);
 static u32 GetSimMonData(struct Pokemon *party, u8 monId, u8 *dst);
 static void SetSimMonData(struct Pokemon *party, u8 monId);
@@ -45,7 +45,9 @@ static void SimBufferExecCompleted(void)
 
 static void SimHandleGetMonData(void)
 {
-    u8 monData[sizeof(struct Pokemon) * 2 + 56];
+    // The data is written straight into gBattleBufferB, where BtlController_EmitDataTransfer(BUFFER_B, ...) would
+    // have copied it (via a local buffer and sBattleBuffersTransferData); the header bytes are the emitter's.
+    u8 *buf = gBattleBufferB[gActiveBattler];
     u32 size = 0;
     u8 monToCheck;
     s32 i;
@@ -53,19 +55,22 @@ static void SimHandleGetMonData(void)
 
     if (!gBattleBufferA[gActiveBattler][2])
     {
-        size += GetSimMonData(party, gBattlerPartyIndexes[gActiveBattler], monData);
+        size += GetSimMonData(party, gBattlerPartyIndexes[gActiveBattler], buf + 4);
     }
     else
     {
         monToCheck = gBattleBufferA[gActiveBattler][2];
         for (i = 0; i < PARTY_SIZE; ++i)
         {
-            if (monToCheck & 1)
-                size += GetSimMonData(party, i, monData + size);
+            if ((monToCheck & 1) && 4 + size + sizeof(struct BattlePokemon) <= sizeof(gBattleBufferB[0]))
+                size += GetSimMonData(party, i, buf + 4 + size);
             monToCheck >>= 1;
         }
     }
-    BtlController_EmitDataTransfer(BUFFER_B, size, monData);
+    buf[0] = CONTROLLER_DATATRANSFER;
+    buf[1] = CONTROLLER_DATATRANSFER;
+    buf[2] = size;
+    buf[3] = (size & 0xFF00) >> 8;
     SimBufferExecCompleted();
 }
 
@@ -435,7 +440,7 @@ static void SimHandleNop(void)
     SimBufferExecCompleted();
 }
 
-static void SimBufferRunCommand(void)
+void SimBufferRunCommand(void)
 {
     if (!(gBattleControllerExecFlags & gBitTable[gActiveBattler]))
         return;
@@ -472,42 +477,66 @@ static u32 GetSimMonData(struct Pokemon *party, u8 monId, u8 *dst)
     switch (gBattleBufferA[gActiveBattler][1])
     {
     case REQUEST_ALL_BATTLE:
-        battleMon.species = GetMonData(&party[monId], MON_DATA_SPECIES);
-        battleMon.item = GetMonData(&party[monId], MON_DATA_HELD_ITEM);
+    {
+        // The game's sequence of GetMonData calls, with the encrypted box decrypted once for all of them
+        // (see SimBoxMonBeginRead): reads have no side effects, so the values are the same. The unencrypted
+        // fields are read as GetMonData3 reads them; the stats go through GetDeoxysStat only for Deoxys
+        // (for any other species it returns 0 and GetMonData falls back to the stored stat).
+        struct Pokemon *mon = &party[monId];
+        struct SimBoxMonView v;
+        struct BoxPokemon *box = &mon->box;
+
+        memset(&battleMon, 0, sizeof(battleMon)); // the game leaves the fields it does not fill uninitialized
+        SimBoxMonBeginRead(box, &v);
+        battleMon.species = SimBoxMonRead(box, &v, MON_DATA_SPECIES, NULL);
+        battleMon.item = SimBoxMonRead(box, &v, MON_DATA_HELD_ITEM, NULL);
         for (size = 0; size < MAX_MON_MOVES; ++size)
         {
-            battleMon.moves[size] = GetMonData(&party[monId], MON_DATA_MOVE1 + size);
-            battleMon.pp[size] = GetMonData(&party[monId], MON_DATA_PP1 + size);
+            battleMon.moves[size] = SimBoxMonRead(box, &v, MON_DATA_MOVE1 + size, NULL);
+            battleMon.pp[size] = SimBoxMonRead(box, &v, MON_DATA_PP1 + size, NULL);
         }
-        battleMon.ppBonuses = GetMonData(&party[monId], MON_DATA_PP_BONUSES);
-        battleMon.friendship = GetMonData(&party[monId], MON_DATA_FRIENDSHIP);
-        battleMon.experience = GetMonData(&party[monId], MON_DATA_EXP);
-        battleMon.hpIV = GetMonData(&party[monId], MON_DATA_HP_IV);
-        battleMon.attackIV = GetMonData(&party[monId], MON_DATA_ATK_IV);
-        battleMon.defenseIV = GetMonData(&party[monId], MON_DATA_DEF_IV);
-        battleMon.speedIV = GetMonData(&party[monId], MON_DATA_SPEED_IV);
-        battleMon.spAttackIV = GetMonData(&party[monId], MON_DATA_SPATK_IV);
-        battleMon.spDefenseIV = GetMonData(&party[monId], MON_DATA_SPDEF_IV);
-        battleMon.personality = GetMonData(&party[monId], MON_DATA_PERSONALITY);
-        battleMon.status1 = GetMonData(&party[monId], MON_DATA_STATUS);
-        battleMon.level = GetMonData(&party[monId], MON_DATA_LEVEL);
-        battleMon.hp = GetMonData(&party[monId], MON_DATA_HP);
-        battleMon.maxHP = GetMonData(&party[monId], MON_DATA_MAX_HP);
-        battleMon.attack = GetMonData(&party[monId], MON_DATA_ATK);
-        battleMon.defense = GetMonData(&party[monId], MON_DATA_DEF);
-        battleMon.speed = GetMonData(&party[monId], MON_DATA_SPEED);
-        battleMon.spAttack = GetMonData(&party[monId], MON_DATA_SPATK);
-        battleMon.spDefense = GetMonData(&party[monId], MON_DATA_SPDEF);
-        battleMon.isEgg = GetMonData(&party[monId], MON_DATA_IS_EGG);
-        battleMon.abilityNum = GetMonData(&party[monId], MON_DATA_ABILITY_NUM);
-        battleMon.otId = GetMonData(&party[monId], MON_DATA_OT_ID);
-        GetMonData(&party[monId], MON_DATA_NICKNAME, nickname);
+        battleMon.ppBonuses = SimBoxMonRead(box, &v, MON_DATA_PP_BONUSES, NULL);
+        battleMon.friendship = SimBoxMonRead(box, &v, MON_DATA_FRIENDSHIP, NULL);
+        battleMon.experience = SimBoxMonRead(box, &v, MON_DATA_EXP, NULL);
+        battleMon.hpIV = SimBoxMonRead(box, &v, MON_DATA_HP_IV, NULL);
+        battleMon.attackIV = SimBoxMonRead(box, &v, MON_DATA_ATK_IV, NULL);
+        battleMon.defenseIV = SimBoxMonRead(box, &v, MON_DATA_DEF_IV, NULL);
+        battleMon.speedIV = SimBoxMonRead(box, &v, MON_DATA_SPEED_IV, NULL);
+        battleMon.spAttackIV = SimBoxMonRead(box, &v, MON_DATA_SPATK_IV, NULL);
+        battleMon.spDefenseIV = SimBoxMonRead(box, &v, MON_DATA_SPDEF_IV, NULL);
+        battleMon.personality = SimBoxMonRead(box, &v, MON_DATA_PERSONALITY, NULL);
+        battleMon.isEgg = SimBoxMonRead(box, &v, MON_DATA_IS_EGG, NULL);
+        battleMon.abilityNum = SimBoxMonRead(box, &v, MON_DATA_ABILITY_NUM, NULL);
+        battleMon.otId = SimBoxMonRead(box, &v, MON_DATA_OT_ID, NULL);
+        SimBoxMonRead(box, &v, MON_DATA_NICKNAME, nickname);
+        SimBoxMonRead(box, &v, MON_DATA_OT_NAME, battleMon.otName);
+        SimBoxMonEndRead(box);
         StringCopy_Nickname(battleMon.nickname, nickname);
-        GetMonData(&party[monId], MON_DATA_OT_NAME, battleMon.otName);
+        battleMon.status1 = mon->status;
+        battleMon.level = mon->level;
+        battleMon.hp = mon->hp;
+        battleMon.maxHP = mon->maxHP;
+        if (battleMon.species == SPECIES_DEOXYS)
+        {
+            battleMon.attack = GetMonData(mon, MON_DATA_ATK);
+            battleMon.defense = GetMonData(mon, MON_DATA_DEF);
+            battleMon.speed = GetMonData(mon, MON_DATA_SPEED);
+            battleMon.spAttack = GetMonData(mon, MON_DATA_SPATK);
+            battleMon.spDefense = GetMonData(mon, MON_DATA_SPDEF);
+        }
+        else
+        {
+            battleMon.attack = mon->attack;
+            battleMon.defense = mon->defense;
+            battleMon.speed = mon->speed;
+            battleMon.spAttack = mon->spAttack;
+            battleMon.spDefense = mon->spDefense;
+        }
         src = (u8 *)&battleMon;
         for (size = 0; size < sizeof(battleMon); ++size)
             dst[size] = src[size];
         break;
+    }
     case REQUEST_SPECIES_BATTLE:
         data16 = GetMonData(&party[monId], MON_DATA_SPECIES);
         dst[0] = data16;

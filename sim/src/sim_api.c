@@ -199,20 +199,55 @@ int Sim_Start(struct BattleSim *sim)
     return 0;
 }
 
+// waitmessage / pause fast-forward. When one of those commands runs from a plain script-runner main function
+// (SimMainFuncRunsScript) with no controller executing, every further frame until its counter reaches the
+// target does exactly one thing: ++gPauseCounterBattle. (The controllers are idle -- SimBufferRunCommand returns
+// at once -- and the main function's other work is a function of state that does not change.) So those frames
+// are accounted for instead of executed: sim->frames and the step budget advance as if they had run; if the
+// budget would run out first the counter stops where the budget ends, and Sim_Run reports SIM_RUN_STUCK exactly
+// as it would have. Off with exactFrames (the ROM cross-check steps real frames). Returns TRUE when the wait
+// is complete, i.e. the command should do what it does when the counter reaches the target.
+bool8 SimSkipWaitFrames(u16 toWait)
+{
+    u32 skip;
+
+    if (gSim->exactFrames || gSim->frameBudget == 0 || !SimMainFuncRunsScript())
+        return FALSE;
+    skip = toWait - gPauseCounterBattle;      // frames the game would spend before the counter reaches toWait
+    if (skip >= gSim->frameBudget)
+        skip = gSim->frameBudget - 1;
+    gPauseCounterBattle += skip;
+    gSim->frames += skip;
+    gSim->frameBudget -= skip;
+    return gPauseCounterBattle >= toWait;
+}
+
 int Sim_Run(struct BattleSim *sim)
 {
-    u32 budget = 1000000;
-
     Sim_Bind(sim);
     sim->requestKind = SIM_REQ_NONE;
     if (sim->error)
         return SIM_RUN_ERROR;
+    sim->frameBudget = 1000000;
     while (!sim->finished)
     {
-        gBattleMainFunc();
+        // One game frame: the main function, then every battler's controller function. Two exact shortcuts
+        // save calls (and thread-local lookups) per frame: the plain script runner is dispatched inline, and an
+        // idle simulator controller is not called (SimBufferRunCommand returns at once unless the battler's
+        // exec flag is set).
+        if (gBattleMainFunc == RunBattleScriptCommands)
+        {
+            if (gBattleControllerExecFlags == 0)
+                gBattleScriptingCommandsTable[gBattlescriptCurrInstr[0]]();
+        }
+        else
+            gBattleMainFunc();
         if (gBattleControllerExecFlags & 0xF0000000) { SimDebugTrap("main"); return SIM_RUN_ERROR; }
         for (gActiveBattler = 0; gActiveBattler < gBattlersCount; gActiveBattler++)
         {
+            if (gBattlerControllerFuncs[gActiveBattler] == SimBufferRunCommand
+             && !(gBattleControllerExecFlags & gBitTable[gActiveBattler]))
+                continue;
             gBattlerControllerFuncs[gActiveBattler]();
             if (gBattleControllerExecFlags & 0xF0000000) { SimDebugTrap("controller"); return SIM_RUN_ERROR; }
             if (sim->error) return SIM_RUN_ERROR;
@@ -245,7 +280,7 @@ int Sim_Run(struct BattleSim *sim)
             gBattleOutcome = B_OUTCOME_DREW;
             sim->finished = TRUE;
         }
-        if (--budget == 0)
+        if (--sim->frameBudget == 0)
         {
             sim->error = SIM_ERR_STUCK;
             sim->finished = TRUE;
