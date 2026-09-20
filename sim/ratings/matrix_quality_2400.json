@@ -1,0 +1,10 @@
+[
+  {"name":"rmsample:iters=100","rating":1174.1,"games":643,"wins":367,"losses":273,"draws":3},
+  {"name":"rmsample:iters=1000","rating":1100.3,"games":583,"wins":352,"losses":225,"draws":6},
+  {"name":"rmplus:iters=1000,samples=16","rating":1035.0,"games":610,"wins":370,"losses":238,"draws":2},
+  {"name":"rm:iters=10","rating":1023.7,"games":589,"wins":285,"losses":297,"draws":7},
+  {"name":"rmplus:iters=100,samples=16","rating":1012.5,"games":577,"wins":338,"losses":238,"draws":1},
+  {"name":"rmplus:iters=1000","rating":956.9,"games":611,"wins":293,"losses":317,"draws":1},
+  {"name":"expect","rating":900.9,"games":576,"wins":203,"losses":367,"draws":6},
+  {"name":"greedy","rating":796.6,"games":611,"wins":175,"losses":428,"draws":8}
+]

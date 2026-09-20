@@ -122,7 +122,10 @@ python3 tools/elo_fit.py games.jsonl --h2h --json ratings.json          # agents
 python3 tools/elo_fit.py team_games.jsonl --players teams --min-games 20  # teams
 ```
 Results so far live in `ratings/` (randbats pool: unfloored regret matching 1157-1170 +-7, expectimax 1088,
-greedy 1029, the game's own AI 825, random 352).
+greedy 1029, the game's own AI 825, random 352). Matrix quality is what separates the regret agents: with 16
+samples per cell, or with fresh engine samples every iteration (`rmsample`), RM+ gains about 70 points over
+the single-sample versions and the solver variants become indistinguishable; the value function is the
+remaining lever. `ratings/corpus_team_elo_500k_bt.json` rates the whole team corpus.
 
 ## What is and isn't simulated
 

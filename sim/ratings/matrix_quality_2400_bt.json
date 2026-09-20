@@ -1,0 +1,58 @@
+[
+ {
+  "name": "rmplus:iters=1000,samples=16",
+  "rating": 1077.4,
+  "se": 14.7,
+  "wins": 371.0,
+  "games": 610
+ },
+ {
+  "name": "rmsample:iters=1000",
+  "rating": 1064.5,
+  "se": 15.1,
+  "wins": 355.0,
+  "games": 583
+ },
+ {
+  "name": "rmplus:iters=100,samples=16",
+  "rating": 1062.2,
+  "se": 15.0,
+  "wins": 338.5,
+  "games": 577
+ },
+ {
+  "name": "rmsample:iters=100",
+  "rating": 1056.2,
+  "se": 14.2,
+  "wins": 368.5,
+  "games": 643
+ },
+ {
+  "name": "rmplus:iters=1000",
+  "rating": 993.8,
+  "se": 14.4,
+  "wins": 293.5,
+  "games": 611
+ },
+ {
+  "name": "rm:iters=10",
+  "rating": 992.0,
+  "se": 14.7,
+  "wins": 288.5,
+  "games": 589
+ },
+ {
+  "name": "expect",
+  "rating": 896.2,
+  "se": 15.5,
+  "wins": 206.0,
+  "games": 576
+ },
+ {
+  "name": "greedy",
+  "rating": 857.7,
+  "se": 15.7,
+  "wins": 179.0,
+  "games": 611
+ }
+]
