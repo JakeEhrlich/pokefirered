@@ -547,6 +547,60 @@ static void DecideRegret(struct SimAgent *ag, struct BattleSim *sim, const struc
     *out = mine[SampleWithFloor(ag, sRow, n, ag->floor)];
 }
 
+// RM+ without a precomputed matrix (external-sampling MC-CFR on the one-shot game): every iteration samples
+// the opponent's action from their current strategy and simulates each of my actions against it with a fresh
+// engine RNG seed (and then the same for the opponent against my updated strategy). Utilities are unbiased
+// samples; the regret sums average the noise out over iterations instead of baking it into a matrix.
+static void DecideRegretSampled(struct SimAgent *ag, struct BattleSim *sim, const struct BattleSim *ts, u8 battler, u8 kind, struct SimAction *out)
+{
+    struct SimAction mine[MAX_ACTIONS], theirs[MAX_ACTIONS];
+    float R1[MAX_ACTIONS] = {0}, R2[MAX_ACTIONS] = {0}, S1[MAX_ACTIONS] = {0}, S2[MAX_ACTIONS] = {0};
+    float s1[MAX_ACTIONS], s2[MAX_ACTIONS], u1[MAX_ACTIONS], u2[MAX_ACTIONS], avg[MAX_ACTIONS];
+    int n, m, t, i, j;
+    u8 opp;
+
+    ag->decisions++;
+    if (ag->epsilon > 0 && Frand(ag) < ag->epsilon) { RandomLegal(ag, sim, battler, kind, out); return; }
+    if (ts == NULL || kind != SIM_REQ_ACTION || (ts->battleTypeFlags & BATTLE_TYPE_DOUBLE) || ts->turnCount != sim->turnCount)
+    {
+        DecideBySingleEval(ag, sim, battler, kind, out);
+        return;
+    }
+    opp = battler ^ BIT_SIDE;
+    n = Sim_LegalActions((struct BattleSim *)ts, battler, mine, MAX_ACTIONS);
+    m = Sim_LegalActions((struct BattleSim *)ts, opp, theirs, MAX_ACTIONS);
+    if (n == 0 || m == 0) { DecideBySingleEval(ag, sim, battler, kind, out); return; }
+    Normalize(R1, n, s1);
+    Normalize(R2, m, s2);
+    for (t = 1; t <= ag->iterations; t++)
+    {
+        float w = ag->linearAvg ? (float)t : 1.0f, U1 = 0, U2 = 0;
+        int js = SampleWithFloor(ag, s2, m, 0.0f), is;
+        u32 seed = Sim_AgentRandom(ag);
+        for (i = 0; i < n; i++)
+        {
+            u1[i] = Sim_SimulateJoint(ag, ts, battler, &mine[i], &theirs[js], seed + 7919u * i);
+            U1 += s1[i] * u1[i];
+        }
+        for (i = 0; i < n; i++) { R1[i] += u1[i] - U1; if (ag->plus && R1[i] < 0) R1[i] = 0; }
+        Normalize(R1, n, s1);
+        is = SampleWithFloor(ag, s1, n, 0.0f);
+        seed = Sim_AgentRandom(ag);
+        for (j = 0; j < m; j++)
+        {
+            u2[j] = -Sim_SimulateJoint(ag, ts, battler, &mine[is], &theirs[j], seed + 7919u * j);
+            U2 += s2[j] * u2[j];
+        }
+        for (j = 0; j < m; j++) { R2[j] += u2[j] - U2; if (ag->plus && R2[j] < 0) R2[j] = 0; }
+        Normalize(R2, m, s2);
+        for (i = 0; i < n; i++) S1[i] += w * s1[i];
+        for (j = 0; j < m; j++) S2[j] += w * s2[j];
+        ag->matrixCells += n + m;
+    }
+    Normalize(S1, n, avg);
+    *out = mine[SampleWithFloor(ag, avg, n, ag->floor)];
+}
+
 // ---------------------------------------------------------------------------------------------------------
 // Spec parsing
 
@@ -623,6 +677,14 @@ int Sim_AgentFromSpec(struct SimAgent *ag, const char *spec)
         ag->decide = DecideRegret;
         if (ag->iterations == 0) ag->iterations = 10;
         ag->plus = 0; ag->alternating = 0; ag->linearAvg = 0;
+        return 0;
+    }
+    if (!strcmp(name, "rmsample"))
+    {
+        ag->decide = DecideRegretSampled;
+        if (ag->iterations == 0) ag->iterations = 100;
+        ag->plus = 1; ag->alternating = 1; ag->linearAvg = 1;
+        if (ag->samples == 1) ag->samples = 16; // used by the single-action fallback (mid-turn switches)
         return 0;
     }
     if (!strcmp(name, "rmplus"))

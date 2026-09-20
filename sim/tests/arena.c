@@ -44,6 +44,7 @@ static const char *const sPool[] = {
     "game:flags=smart", "random", "movebias", "greedy", "epsgreedy:eps=0.1",
     "expect", "epsexpect:eps=0.1", "rm:iters=10", "rm:iters=10,floor=0.011",
     "rmplus:iters=10", "rmplus:iters=10,floor=0.011", "rmplus:iters=30", "rmplus:iters=100", "rmplus:iters=1000",
+    "rmplus:iters=100,samples=16", "rmplus:iters=1000,samples=16", "rmsample:iters=100", "rmsample:iters=1000",
 };
 
 static int LoadTeams(const char *path)
