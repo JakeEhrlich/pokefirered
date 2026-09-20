@@ -65,6 +65,7 @@ enum { FS_OUTCOME_NONE = 0, FS_OUTCOME_P0_WON = 1, FS_OUTCOME_P1_WON = 2, FS_OUT
 #define FS_V_FLASH_FIRE  (1u << 28)
 #define FS_V_TRUANT_LOAF (1u << 29)
 #define FS_V_INTIMIDATE_PENDING (1u << 30)   // Intimidate not yet applied (no target when it entered; STATUS3_INTIMIDATE_POKES)
+#define FS_V_TRACE_ARMED (1u << 31)   // Trace has not copied an ability yet (STATUS3_TRACE)
 
 typedef struct
 {
@@ -79,6 +80,7 @@ typedef struct
     u8 hpType, hpPower;   // Hidden Power
     u8 friendship;
     u8 weightIdx;         // unused for now
+    u8 nature;            // personality % 25 (the confusion berries check the nature's disliked flavor)
 } fs_mon;
 
 typedef struct
@@ -102,6 +104,9 @@ typedef struct
     u8 lastMoveTarget;
     u8 lastHitPhysical;   // Counter / Mirror Coat category of the last hit taken this turn: Hidden Power counts as its listed Normal type (physical) in datahpupdate
     u8 hpTypeCache;
+    u8 hpPowerCache;      // Hidden Power power (from the battle copy's IVs: Transform copies them)
+    u8 mimicked;          // bitmask of move slots replaced by Mimic (their PP is not written back to the party)
+    u8 lockOn;            // Lock-On / Mind Reader turns left on this mon (the opponent's moves cannot miss it)
 } fs_battler;
 
 typedef struct
@@ -113,6 +118,7 @@ typedef struct
     u16 futureSightDmg, futureSightMove;
     u8 futureSightFromSide;
     u8 knockedOff;        // party slots whose item was knocked off (gWishFutureKnock.knockedOffMons): the party keeps the item, the battle copy loses it
+    u16 usedItem;         // the last held item consumed in this battler slot (gBattleStruct->usedHeldItems: Recycle)
 } fs_side;
 
 typedef struct { u8 type; u8 slot; } fs_action;   // FS_ACT_MOVE: move slot 0..3 (4 = Struggle); FS_ACT_SWITCH: party slot

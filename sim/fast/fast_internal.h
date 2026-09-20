@@ -49,7 +49,11 @@ struct fs_hit { s32 dmg; int hit; int crit; int mult; int dbond; int hadSub; };
 int fs_ext_effect_supported(u8 effect);
 int fs_ext_ability_supported(u8 ability);
 int fs_ext_use_move(fs_state *s, int side, int slot, u16 move, u16 power, u8 type, void *hit);
-void fs_ext_switch_in_ability(fs_state *s, int side);
+void fs_ext_switch_in_ability(fs_state *s, int side);   // called for every switch-in, after the core's own switch-in abilities
+void fs_ext_field_update(fs_state *s);                   // after every action, replacement and end of turn: Trace retries, Forecast forms
+void fs_ext_before_switch(fs_state *s, int side);        // right before a chosen (not forced) switch action runs: Pursuit
+void fs_ext_on_damage(fs_state *s, int side, u16 move, const struct fs_hit *h);   // after each damaging hit by `side` (Color Change)
+void fs_ext_end_turn_item(fs_state *s, int side);        // end-of-turn-only item effects (the confusion berries)
 // helpers exported by fast_effects.c for extensions
 int fs_change_stage(fs_state *s, int side, int stat, int delta, int byOpp, int ignoreSub);
 int fs_try_status(fs_state *s, int side, u16 status, int byOpp, int attackerSide, int isSecondary);
@@ -59,5 +63,7 @@ void fs_heal(fs_state *s, int side, s32 amount);
 // one hit of a damaging move with all the core's rules (accuracy unless noAcc, immunities, crit, STAB, type, roll,
 // Substitute / Endure / Focus Band, contact abilities, King's Rock). Returns damage dealt (0 = no hit / no damage).
 s32 fs_attack(fs_state *s, int side, u16 move, u16 power, u8 type, int noAcc, int falseSwipe, int noCrit);
+// the same with a damage multiplier applied with the crit multiplier (before STAB / type) and optionally no random roll
+s32 fs_attack_ex(fs_state *s, int side, u16 move, u16 power, u8 type, int noAcc, int falseSwipe, int noCrit, int dmgMult, int noRoll);
 
 #endif
