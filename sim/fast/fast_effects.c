@@ -207,13 +207,13 @@ static void ForceSwitchRandom(fs_state *s, int side)
 // ---------------------------------------------------------------------------------------------------------
 // the attack
 
-struct Hit { s32 dmg; int hit; int crit; int mult; };
+struct Hit { s32 dmg; int hit; int crit; int mult; int dbond; int hadSub; };   // hadSub: the target had a Substitute when hit (secondary effects are blocked even if it broke)
 
 // Deals the damage of one hit of `move` with `power` and `type`. Handles accuracy (unless noAcc), immunities,
 // crit, STAB, type, roll, Substitute / Endure / Focus Band / False Swipe, and applies it. Returns the hit record.
 static struct Hit AttackHit(fs_state *s, int side, u16 move, u16 power, u8 type, int noAcc, int falseSwipe, int noCrit)
 {
-    struct Hit h = {0, 0, 0, 10};
+    struct Hit h = {0, 0, 0, 10, 0, 0};
     int opp = OPP(side);
     fs_battler *a = ACT(s, side), *t = ACT(s, opp);
     const struct BattleMove *bm = fs_move(move);
@@ -249,7 +249,8 @@ static struct Hit AttackHit(fs_state *s, int side, u16 move, u16 power, u8 type,
     h.hit = 1;
     if (t->vol & FS_V_SUBSTITUTE)
     {
-        if (dmg >= t->substituteHP) { t->substituteHP = 0; t->vol &= ~FS_V_SUBSTITUTE; }
+        h.hadSub = 1;
+        if (dmg >= t->substituteHP) { dmg = t->substituteHP; t->substituteHP = 0; t->vol &= ~FS_V_SUBSTITUTE; }   // damage dealt is capped at the sub's HP (datahpupdate)
         else t->substituteHP -= dmg;
         h.dmg = dmg;
         return h;
@@ -257,7 +258,7 @@ static struct Hit AttackHit(fs_state *s, int side, u16 move, u16 power, u8 type,
     if (dmg > t->hp) dmg = t->hp;
     h.dmg = dmg;
     t->lastLandedMove = move; t->lastHitByType = type;
-    if (t->vol & FS_V_DESTINY_BOND) { /* handled by the caller after faint */ }
+    h.dbond = (t->vol & FS_V_DESTINY_BOND) != 0;   // read before the faint clears it (tryfaintmon order)
     Damage(s, opp, dmg);
     return h;
 }
@@ -289,7 +290,8 @@ static void AfterHit(fs_state *s, int side, u16 move, struct Hit *h, int contact
             break;
         }
     }
-    if (a->present && fs_hold_effect(a->item) == HOLD_EFFECT_SHELL_BELL && h->dmg > 0) Heal(s, side, h->dmg / 8 ? h->dmg / 8 : 1);
+    // Shell Bell: nothing when the hit fainted the target (FaintClearSetData clears its damage record before moveend)
+    if (a->present && t->present && fs_hold_effect(a->item) == HOLD_EFFECT_SHELL_BELL && h->dmg > 0) Heal(s, side, h->dmg / 8 ? h->dmg / 8 : 1);
     if (t->present && !(t->vol & FS_V_SUBSTITUTE) && fs_hold_effect(a->item) == HOLD_EFFECT_FLINCH && (fs_move(move)->flags & FLAG_KINGS_ROCK_AFFECTED) && fs_chance(s, fs_hold_param(a->item), 100))
         t->vol |= FS_V_FLINCH;
     if (!t->present && (t->vol & FS_V_DESTINY_BOND) == 0) {}
@@ -305,11 +307,12 @@ static int SecondaryRoll(fs_state *s, int side, u16 move)
     return fs_roll(s, 100) < chance;
 }
 
-static void RecoilFromDamage(fs_state *s, int side, s32 dealt, int frac)
+static void RecoilFromDamage(fs_state *s, int side, s32 dealt, int frac, u16 move)
 {
     fs_battler *a = ACT(s, side);
     s32 r = dealt / frac;
-    if (a->ability == ABILITY_ROCK_HEAD || !a->present) return;
+    if (!a->present) return;
+    if (a->ability == ABILITY_ROCK_HEAD && move != MOVE_STRUGGLE) return;   // Struggle ignores Rock Head
     if (r == 0) r = 1;
     Damage(s, side, r);
 }
@@ -457,7 +460,7 @@ static int StatusMove(fs_state *s, int side, u16 move, u16 status)
 static void SecondaryStatus(fs_state *s, int side, u16 move, u16 status, struct Hit *h)
 {
     if (!h->hit || !ACT(s, OPP(side))->present) return;
-    if (ACT(s, OPP(side))->vol & FS_V_SUBSTITUTE) return;
+    if (h->hadSub) return;
     if (SecondaryRoll(s, side, move)) TryStatus(s, OPP(side), status, 1, side, 1);
 }
 
@@ -465,14 +468,20 @@ void fs_use_move(fs_state *s, int side, int slot)
 {
     int opp = OPP(side);
     fs_battler *a = ACT(s, side), *t = ACT(s, opp);
-    u16 move = slot == 4 ? MOVE_STRUGGLE : a->moves[slot];
-    const struct BattleMove *bm = fs_move(move);
+    u16 move, prevLast = a->lastMove;
+    const struct BattleMove *bm;
     u8 type;
     u16 power;
-    struct Hit h = {0, 0, 0, 10};
-    int contact = (bm->flags & FLAG_MAKES_CONTACT) != 0;
+    struct Hit h = {0, 0, 0, 10, 0, 0};
+    int contact;
+    // Encore replaces the chosen move as soon as it applies, even for a choice made earlier this turn (HandleAction_UseMove)
+    if (slot < 4 && a->encoreTimer && a->pp[a->encoredPos]) slot = a->encoredPos;
+    move = slot == 4 ? MOVE_STRUGGLE : a->moves[slot];
+    bm = fs_move(move);
+    contact = (bm->flags & FLAG_MAKES_CONTACT) != 0;
     if (move == MOVE_NONE) return;
-    if (!Cancellers(s, side, move)) { a->vol |= FS_V_MOVED_THIS_TURN; a->chosenMove = 0; return; }
+    // a cancelled move leaves no "last move" (moveend records 0xFFFF without HITMARKER_OBEYS)
+    if (!Cancellers(s, side, move)) { a->vol |= FS_V_MOVED_THIS_TURN; a->chosenMove = 0; a->lastMove = 0; return; }
     a->vol |= FS_V_MOVED_THIS_TURN;
     a->lastMove = move;
     if (fs_hold_effect(a->item) == HOLD_EFFECT_CHOICE_BAND && move != MOVE_STRUGGLE && !a->choicedMove && bm->effect != EFFECT_BATON_PASS) a->choicedMove = move;
@@ -482,7 +491,6 @@ void fs_use_move(fs_state *s, int side, int slot)
         if (t->present && t->ability == ABILITY_PRESSURE) dec++;
         a->pp[slot] = a->pp[slot] > dec ? a->pp[slot] - dec : 0;
     }
-    if (a->protectUses && bm->effect != EFFECT_PROTECT && bm->effect != EFFECT_ENDURE) a->protectUses = 0;
     power = MovePower(s, side, move, &type);
     if (!fs_effect_supported(bm->effect)) { s->unsupported |= FS_UNSUP_MOVE_EFFECT; return; }
     switch (bm->effect)
@@ -493,7 +501,7 @@ void fs_use_move(fs_state *s, int side, int slot)
     case EFFECT_WEATHER_BALL: case EFFECT_REVENGE: case EFFECT_EARTHQUAKE: case EFFECT_GUST: case EFFECT_TWISTER: case EFFECT_SKY_UPPERCUT:
         h = AttackHit(s, side, move, power, type, 0, 0, 0);
         AfterHit(s, side, move, &h, contact);
-        if (bm->effect == EFFECT_TWISTER && h.hit && h.dmg && SecondaryRoll(s, side, move) && t->present && !(t->vol & FS_V_SUBSTITUTE) && t->ability != ABILITY_INNER_FOCUS) t->vol |= FS_V_FLINCH;
+        if (bm->effect == EFFECT_TWISTER && h.hit && h.dmg && SecondaryRoll(s, side, move) && t->present && !h.hadSub && t->ability != ABILITY_INNER_FOCUS) t->vol |= FS_V_FLINCH;
         break;
     case EFFECT_ALWAYS_HIT: h = AttackHit(s, side, move, power, type, 1, 0, 0); AfterHit(s, side, move, &h, contact); break;
     case EFFECT_FALSE_SWIPE: h = AttackHit(s, side, move, power, type, 0, 1, 0); AfterHit(s, side, move, &h, contact); break;
@@ -505,7 +513,7 @@ void fs_use_move(fs_state *s, int side, int slot)
     case EFFECT_PARALYZE_HIT: case EFFECT_THUNDER: h = AttackHit(s, side, move, power, type, 0, 0, 0); AfterHit(s, side, move, &h, contact); SecondaryStatus(s, side, move, FS_S1_PAR, &h); break;
     case EFFECT_TRI_ATTACK:
         h = AttackHit(s, side, move, power, type, 0, 0, 0); AfterHit(s, side, move, &h, contact);
-        if (h.hit && t->present && !(t->vol & FS_V_SUBSTITUTE) && SecondaryRoll(s, side, move))
+        if (h.hit && t->present && !h.hadSub && SecondaryRoll(s, side, move))
         {
             u32 r = fs_roll(s, 3);
             TryStatus(s, opp, r == 0 ? FS_S1_PAR : r == 1 ? FS_S1_BRN : FS_S1_FRZ, 1, side, 1);
@@ -514,18 +522,18 @@ void fs_use_move(fs_state *s, int side, int slot)
     case EFFECT_FLINCH_HIT: case EFFECT_FLINCH_MINIMIZE_HIT: case EFFECT_FAKE_OUT:
         if (bm->effect == EFFECT_FAKE_OUT && a->isFirstTurn == 0) break;
         h = AttackHit(s, side, move, power, type, 0, 0, 0); AfterHit(s, side, move, &h, contact);
-        if (h.hit && h.dmg && t->present && !(t->vol & FS_V_SUBSTITUTE) && t->ability != ABILITY_INNER_FOCUS && t->ability != ABILITY_SHIELD_DUST && SecondaryRoll(s, side, move)) t->vol |= FS_V_FLINCH;
+        if (h.hit && h.dmg && t->present && !h.hadSub && t->ability != ABILITY_INNER_FOCUS && t->ability != ABILITY_SHIELD_DUST && SecondaryRoll(s, side, move)) t->vol |= FS_V_FLINCH;
         break;
     case EFFECT_CONFUSE_HIT:
         h = AttackHit(s, side, move, power, type, 0, 0, 0); AfterHit(s, side, move, &h, contact);
-        if (h.hit && h.dmg && SecondaryRoll(s, side, move)) TryConfuse(s, opp, 1, 1);
+        if (h.hit && h.dmg && !h.hadSub && SecondaryRoll(s, side, move)) TryConfuse(s, opp, 1, 1);
         break;
     case EFFECT_ATTACK_DOWN_HIT: case EFFECT_DEFENSE_DOWN_HIT: case EFFECT_SPEED_DOWN_HIT: case EFFECT_SPECIAL_ATTACK_DOWN_HIT:
     case EFFECT_SPECIAL_DEFENSE_DOWN_HIT: case EFFECT_ACCURACY_DOWN_HIT: case EFFECT_EVASION_DOWN_HIT:
     {
         int stat = STAT_ATK_ + (bm->effect - EFFECT_ATTACK_DOWN_HIT);
         h = AttackHit(s, side, move, power, type, 0, 0, 0); AfterHit(s, side, move, &h, contact);
-        if (h.hit && h.dmg && t->present && t->ability != ABILITY_SHIELD_DUST && SecondaryRoll(s, side, move)) ChangeStage(s, opp, stat, -1, 1, 0);
+        if (h.hit && h.dmg && t->present && !h.hadSub && t->ability != ABILITY_SHIELD_DUST && SecondaryRoll(s, side, move)) ChangeStage(s, opp, stat, -1, 1, 0);
         break;
     }
     case EFFECT_DEFENSE_UP_HIT: case EFFECT_ATTACK_UP_HIT:
@@ -538,7 +546,7 @@ void fs_use_move(fs_state *s, int side, int slot)
         break;
     case EFFECT_RECOIL: case EFFECT_DOUBLE_EDGE:
         h = AttackHit(s, side, move, power, type, 0, 0, 0); AfterHit(s, side, move, &h, contact);
-        if (h.hit && h.dmg) RecoilFromDamage(s, side, h.dmg, bm->effect == EFFECT_DOUBLE_EDGE ? 3 : 4);
+        if (h.hit && h.dmg) RecoilFromDamage(s, side, h.dmg, bm->effect == EFFECT_DOUBLE_EDGE ? 3 : 4, move);
         break;
     case EFFECT_RECOIL_IF_MISS:
         h = AttackHit(s, side, move, power, type, 0, 0, 0); AfterHit(s, side, move, &h, contact);
@@ -569,7 +577,7 @@ void fs_use_move(fs_state *s, int side, int slot)
             struct Hit hh = AttackHit(s, side, move, p, type, i > 0, 0, 0);
             if (!hh.hit) break;
             AfterHit(s, side, move, &hh, contact);
-            if (bm->effect == EFFECT_TWINEEDLE && hh.dmg && t->present && !(t->vol & FS_V_SUBSTITUTE) && SecondaryRoll(s, side, move)) TryStatus(s, opp, FS_S1_PSN, 1, side, 1);
+            if (bm->effect == EFFECT_TWINEEDLE && hh.dmg && t->present && !hh.hadSub && SecondaryRoll(s, side, move)) TryStatus(s, opp, FS_S1_PSN, 1, side, 1);
             h = hh;
         }
         break;
@@ -592,7 +600,7 @@ void fs_use_move(fs_state *s, int side, int slot)
         break;
     case EFFECT_KNOCK_OFF:
         h = AttackHit(s, side, move, power, type, 0, 0, 0); AfterHit(s, side, move, &h, contact);
-        if (h.hit && h.dmg && t->present && t->item && t->ability != ABILITY_STICKY_HOLD) { t->item = 0; t->choicedMove = 0; s->side[opp].party[t->monIdx].item = 0; }
+        if (h.hit && h.dmg && t->present && t->item && t->ability != ABILITY_STICKY_HOLD) { t->item = 0; t->choicedMove = 0; s->side[opp].knockedOff |= 1 << t->monIdx; }
         break;
     case EFFECT_THIEF:
         h = AttackHit(s, side, move, power, type, 0, 0, 0); AfterHit(s, side, move, &h, contact);
@@ -604,7 +612,7 @@ void fs_use_move(fs_state *s, int side, int slot)
         break;
     case EFFECT_TRAP:
         h = AttackHit(s, side, move, power, type, 0, 0, 0); AfterHit(s, side, move, &h, contact);
-        if (h.hit && h.dmg && t->present && !t->wrapTurns) { t->wrapTurns = 2 + fs_roll(s, 4); t->wrapMove = move; }
+        if (h.hit && h.dmg && t->present && !t->wrapTurns) { t->wrapTurns = 3 + fs_roll(s, 4); t->wrapMove = move; }   // STATUS2_WRAPPED_TURN((Random() & 3) + 3)
         break;
     case EFFECT_FOCUS_PUNCH:
         if (a->bideDmg) break;   // hit this turn before moving (bideDmg doubles as "took damage this turn")
@@ -769,7 +777,7 @@ void fs_use_move(fs_state *s, int side, int slot)
         for (i = 0; i < 4; i++) if (t->moves[i] == t->lastMove && t->pp[i]) break;
         if (i == 4) break;
         if (!fs_accuracy_check(s, side, opp, move, type)) break;
-        t->encoreTimer = 2 + fs_roll(s, 5);
+        t->encoreTimer = 3 + fs_roll(s, 4);   // (Random() & 3) + 3
         t->encoredPos = i;
         break;
     }
@@ -782,6 +790,12 @@ void fs_use_move(fs_state *s, int side, int slot)
         if (fs_alive_count(s, opp) < 2) break;
         if (t->ability == ABILITY_SOUNDPROOF && IsSoundMove(move)) break;
         if (!fs_accuracy_check(s, side, opp, move, type)) break;
+        if (a->level < t->level)
+        {
+            // TryDoForceSwitchOut: fails when ((r * (levels sum)) >> 8) + 1 <= target level / 4, r uniform in 0..255
+            u32 r = fs_roll(s, 256);
+            if (((r * (a->level + t->level)) >> 8) + 1 <= (u32)(t->level / 4)) break;
+        }
         ForceSwitchRandom(s, opp);
         break;
     // ---- self / field
@@ -810,10 +824,12 @@ void fs_use_move(fs_state *s, int side, int slot)
     case EFFECT_PROTECT: case EFFECT_ENDURE:
     {
         static const u16 odds[] = {0xFFFF, 0x7FFF, 0x3FFF, 0x1FFF, 0x0FFF, 0x07FF, 0x03FF, 0x01FF, 0x00FF, 0x007F, 0x003F, 0x001F, 0x000F, 0x0007, 0x0003, 0x0001, 0x0000};
-        int idx = a->protectUses > 16 ? 16 : a->protectUses;
-        if (t->present && (t->vol & FS_V_MOVED_THIS_TURN) == 0 && fs_who_strikes_first_ignoring_moves(s) == side) {}
-        // fails if the user moves last this turn
-        if (t->present && (t->vol & FS_V_MOVED_THIS_TURN)) { a->protectUses = 0; break; }
+        int idx;
+        // the counter resets unless the previous move was Protect / Detect / Endure (setprotectlike)
+        if (prevLast != MOVE_PROTECT && prevLast != MOVE_DETECT && prevLast != MOVE_ENDURE) a->protectUses = 0;
+        idx = a->protectUses > 16 ? 16 : a->protectUses;
+        // fails when this is the last action of the turn (the opponent already moved or switched)
+        if (s->orderPos >= s->orderN) { a->protectUses = 0; break; }
         if ((fs_rand(s) & 0xFFFF) > odds[idx]) { a->protectUses = 0; break; }
         a->vol |= bm->effect == EFFECT_PROTECT ? FS_V_PROTECTED : FS_V_ENDURED;
         a->protectUses++;
@@ -873,32 +889,25 @@ void fs_use_move(fs_state *s, int side, int slot)
         break;
     case EFFECT_BATON_PASS:
     {
-        // switch to a random other alive party member, keeping stages and volatile flags
-        fs_side *sd = &s->side[side];
-        int cand[FS_PARTY], n = 0, i;
-        s8 stages[FS_STAGES]; u32 vol; u8 subHP, confusionTurns, perish;
-        for (i = 0; i < FS_PARTY; i++) if (sd->party[i].species && sd->party[i].hp > 0 && i != a->monIdx) cand[n++] = i;
-        if (n == 0) break;
-        memcpy(stages, a->stages, sizeof(stages)); vol = a->vol; subHP = a->substituteHP; confusionTurns = a->confusionTurns; perish = a->perishTimer;
-        fs_switch_in(s, side, cand[fs_roll(s, n)]);
-        a = ACT(s, side);
-        memcpy(a->stages, stages, sizeof(stages));
-        a->vol |= vol & (FS_V_CONFUSED | FS_V_FOCUS_ENERGY | FS_V_SUBSTITUTE | FS_V_LEECH_SEED | FS_V_ROOTED | FS_V_CURSED | FS_V_ESCAPE_PREV | FS_V_MUD_SPORT | FS_V_WATER_SPORT);
-        a->substituteHP = subHP; a->confusionTurns = confusionTurns; a->perishTimer = perish;
+        // fails without another usable party member (jumpifcantswitch); otherwise the game asks for the
+        // replacement right away (a mid-turn switch request) and the switch keeps stages and the passable
+        // volatile state (fs_baton_pass, applied by fs_step)
+        const fs_side *sd = &s->side[side];
+        int i, n = 0;
+        for (i = 0; i < FS_PARTY; i++) if (sd->party[i].species && sd->party[i].hp > 0 && i != a->monIdx) n++;
+        if (n) { s->request = FS_REQ_SWITCH; s->switchMask |= 1 << side; s->batonMask |= 1 << side; }   // trapping is ignored (jumpifcantswitch with ATK4F_DONT_CHECK_STATUSES)
         break;
     }
     default:
         if (!fs_ext_use_move(s, side, slot, move, power, type, &h)) s->unsupported |= FS_UNSUP_MOVE_EFFECT;
         break;
     }
-    // Struggle recoil
-    if (move == MOVE_STRUGGLE && h.hit && h.dmg && a->present) Damage(s, side, h.dmg / 4 ? h.dmg / 4 : 1);
     // damage taken this turn (for Counter / Mirror Coat / Focus Punch / Revenge): recorded on the target
-    if (h.hit && h.dmg && ACT(s, opp)->present) { ACT(s, opp)->bideDmg = h.dmg; }
+    if (h.hit && h.dmg && !h.hadSub && ACT(s, opp)->present) { ACT(s, opp)->bideDmg = h.dmg; }
     // Destiny Bond
-    if (h.hit && h.dmg && !t->present && (t->vol & FS_V_DESTINY_BOND) && a->present) { a->hp = 0; fs_faint(s, side); }
+    if (h.hit && h.dmg && !t->present && h.dbond && a->present) { a->hp = 0; fs_faint(s, side); }
     // berries that react to HP
-    fs_end_turn_items(s, side); fs_end_turn_items(s, opp);
+    fs_move_end_items(s, side); fs_move_end_items(s, opp);
 }
 
 // ---------------------------------------------------------------------------------------------------------
@@ -913,12 +922,26 @@ s32 fs_attack(fs_state *s, int side, u16 move, u16 power, u8 type, int noAcc, in
 {
     struct Hit h = AttackHit(s, side, move, power, type, noAcc, falseSwipe, noCrit);
     AfterHit(s, side, move, &h, (fs_move(move)->flags & FLAG_MAKES_CONTACT) != 0);
-    if (h.hit && h.dmg && ACT(s, OPP(side))->present) ACT(s, OPP(side))->bideDmg = h.dmg;
+    if (h.hit && h.dmg && !h.hadSub && ACT(s, OPP(side))->present) ACT(s, OPP(side))->bideDmg = h.dmg;
+    if (h.hit && h.dmg && !ACT(s, OPP(side))->present && h.dbond && ACT(s, side)->present) { ACT(s, side)->hp = 0; fs_faint(s, side); }
     return h.hit ? h.dmg : 0;
 }
 
 // ---------------------------------------------------------------------------------------------------------
 // switch-in abilities
+
+void fs_fire_pending_intimidate(fs_state *s)
+{
+    int side;
+    for (side = 0; side < 2; side++)
+    {
+        fs_battler *a = ACT(s, side), *t = ACT(s, OPP(side));
+        if (!a->present || !(a->vol & FS_V_INTIMIDATE_PENDING) || !t->present) continue;
+        a->vol &= ~FS_V_INTIMIDATE_PENDING;
+        if (t->ability != ABILITY_CLEAR_BODY && t->ability != ABILITY_WHITE_SMOKE && t->ability != ABILITY_HYPER_CUTTER)
+            ChangeStage(s, OPP(side), STAT_ATK_, -1, 0, 1);
+    }
+}
 
 void fs_switch_in_abilities(fs_state *s, int side)
 {
@@ -926,8 +949,10 @@ void fs_switch_in_abilities(fs_state *s, int side)
     switch (a->ability)
     {
     case ABILITY_INTIMIDATE:
-        if (t->present && t->ability != ABILITY_CLEAR_BODY && t->ability != ABILITY_WHITE_SMOKE && t->ability != ABILITY_HYPER_CUTTER)
-            ChangeStage(s, OPP(side), STAT_ATK_, -1, 0, 1);
+        // the game only flags it at switch-in (STATUS3_INTIMIDATE_POKES) and applies it at the next check,
+        // so with no target yet (double KO replacements) it waits for the opponent's replacement
+        a->vol |= FS_V_INTIMIDATE_PENDING;
+        if (t->present) fs_fire_pending_intimidate(s);
         break;
     case ABILITY_DRIZZLE: if (!(s->weather == FS_WEATHER_RAIN && s->weatherTurns == 0xFF)) Weather(s, FS_WEATHER_RAIN, 0xFF); break;
     case ABILITY_DROUGHT: if (!(s->weather == FS_WEATHER_SUN && s->weatherTurns == 0xFF)) Weather(s, FS_WEATHER_SUN, 0xFF); break;
@@ -938,6 +963,24 @@ void fs_switch_in_abilities(fs_state *s, int side)
 
 // ---------------------------------------------------------------------------------------------------------
 // items that trigger on HP / status (checked after moves and at end of turn) and Leftovers
+
+// ITEMEFFECT_MOVE_END (after every move, both battlers): only the status cures and White Herb. HP and PP
+// berries, the pinch berries and Leftovers are ITEMEFFECT_NORMAL with moveTurn = FALSE, i.e. end of turn only.
+void fs_move_end_items(fs_state *s, int side)
+{
+    fs_battler *a = ACT(s, side);
+    u8 he;
+    if (!a->present || a->hp == 0) return;
+    he = fs_hold_effect(a->item);
+    switch (he)
+    {
+    case HOLD_EFFECT_CURE_PAR: case HOLD_EFFECT_CURE_SLP: case HOLD_EFFECT_CURE_PSN: case HOLD_EFFECT_CURE_BRN: case HOLD_EFFECT_CURE_FRZ:
+    case HOLD_EFFECT_CURE_CONFUSION: case HOLD_EFFECT_CURE_STATUS: case HOLD_EFFECT_CURE_ATTRACT: case HOLD_EFFECT_RESTORE_STATS:
+        fs_end_turn_items(s, side);
+        break;
+    default: break;
+    }
+}
 
 void fs_end_turn_items(fs_state *s, int side)
 {

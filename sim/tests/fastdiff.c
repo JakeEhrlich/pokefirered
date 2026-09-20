@@ -92,9 +92,11 @@ static void Add(int which, const struct Summary *sm)
     if (sNB < MAX_BUCKETS) { sB[sNB].h = sm->h; sB[sNB].n[0] = sB[sNB].n[1] = 0; sB[sNB].n[which] = 1; sB[sNB].ex = *sm; sNB++; }
 }
 
+static int sFocusLog;
+static u32 resultImportFail;   // FS_UNSUP_* mask of verbatim result states the fast import could not represent
 static void RunVerbatim(const struct BattleSim *ts, const struct SimAction *a0, const struct SimAction *a1, u32 seed, struct BattleSim *out)
 {
-    memcpy(out, ts, sizeof(*out)); out->policy[0] = out->policy[1] = NULL; out->strictAnswers = 0; out->logEnabled = 0; out->rngXorshift = 1; out->rngValue = seed | 1;
+    memcpy(out, ts, sizeof(*out)); out->policy[0] = out->policy[1] = NULL; out->strictAnswers = 0; out->logEnabled = sFocusLog; out->logCount = 0; out->rngXorshift = 1; out->rngValue = seed | 1;
     if (ts->requestKind == SIM_REQ_SWITCH)
     {
         u8 b = ts->requestBattler; int r;
@@ -116,7 +118,7 @@ static void PrintMon(const fs_battler *a) { printf("%s L%d hp %d/%d st %x stg", 
 
 int main(int argc, char **argv)
 {
-    const char *teamsPath = NULL; int nStates = 300, nSamples = 2000, verbose = 0, i; u32 seed = 1;
+    const char *teamsPath = NULL; int nStates = 300, nSamples = 2000, verbose = 0, i, nFocus = 0, focusGame[16], focusTurn[16]; u32 seed = 1;
     for (i = 1; i < argc; i++)
     {
         if (!strcmp(argv[i], "--teams") && i + 1 < argc) teamsPath = argv[++i];
@@ -124,6 +126,7 @@ int main(int argc, char **argv)
         else if (!strcmp(argv[i], "--samples") && i + 1 < argc) nSamples = atoi(argv[++i]);
         else if (!strcmp(argv[i], "--seed") && i + 1 < argc) seed = (u32)strtoul(argv[++i], NULL, 0);
         else if (!strcmp(argv[i], "--verbose")) verbose = 1;
+        else if (!strcmp(argv[i], "--focus") && i + 1 < argc) { if (nFocus < 16 && sscanf(argv[++i], "%d:%d", &focusGame[nFocus], &focusTurn[nFocus]) == 2) nFocus++; }
     }
     if (!teamsPath) { fprintf(stderr, "--teams required\n"); return 2; }
     { static struct BattleSim boot; Sim_Init(&boot, 0, 1); }
@@ -217,12 +220,31 @@ int main(int argc, char **argv)
                         }
                         // distributions
                         sNB = 0;
-                        for (int k = 0; k < nSamples; k++)
+                        resultImportFail = 0;
                         {
-                            struct Summary sm; fs_state r2; x ^= x << 13; x ^= x >> 17; x ^= x << 5;
-                            RunVerbatim(src, &va0, &va1, x, out);
-                            fs_state imp; fs_import(&imp, out); Summarize(&imp, &sm); Add(0, &sm);
-                            r2 = fs; fs_seed(&r2, x ^ 0xABCDEF); fs_step(&r2, fa0, fa1); Summarize(&r2, &sm); Add(1, &sm);
+                            int focus = 0; for (int fi = 0; fi < nFocus; fi++) if (g == focusGame[fi] && sim->turnCount == focusTurn[fi]) focus = 1;
+                            if (focus)
+                            {
+                                printf("FOCUS game %d turn %d kind %d battler %d: actions verbatim P0 %s%d P1 %s%d, fast P0 %d:%d P1 %d:%d, fast phase %d order", g, sim->turnCount, kind, b,
+                                       va0.type == B_ACTION_SWITCH ? "sw" : "mv", va0.type == B_ACTION_SWITCH ? va0.partySlot : va0.moveSlot, va1.type == B_ACTION_SWITCH ? "sw" : "mv", va1.type == B_ACTION_SWITCH ? va1.partySlot : va1.moveSlot,
+                                       fa0.type, fa0.slot, fa1.type, fa1.slot, fs.phase);
+                                for (int k = 0; k < fs.orderN; k++) printf(" %d", fs.order[k]); printf(" pos %d pending %d:%d %d:%d\n", fs.orderPos, fs.pending[0].type, fs.pending[0].slot, fs.pending[1].type, fs.pending[1].slot);
+                                for (int sd = 0; sd < 2; sd++) { printf("   P%d party:", sd); for (int mi = 0; mi < 6; mi++) printf(" %d:%s(%d/%d %s)", mi, fs.side[sd].party[mi].species ? sim_species_name(fs.side[sd].party[mi].species) : "-", fs.side[sd].party[mi].hp, fs.side[sd].party[mi].maxHP, sim_item_name(fs.side[sd].party[mi].item)); printf("  active %d present %d vol %x wrap %d\n", fs.side[sd].act.monIdx, fs.side[sd].act.present, fs.side[sd].act.vol, fs.side[sd].act.wrapTurns); }
+                                Sim_Bind((struct BattleSim *)src);
+                                printf("   verbatim: curAction %d order [%d:%d %d:%d] partyIdx %d/%d absent %x status2 %x/%x\n", gCurrentTurnActionNumber, gBattlerByTurnOrder[0], gActionsByTurnOrder[0], gBattlerByTurnOrder[1], gActionsByTurnOrder[1],
+                                       gBattlerPartyIndexes[0], gBattlerPartyIndexes[1], gAbsentBattlerFlags, gBattleMons[0].status2, gBattleMons[1].status2);
+                            }
+                            for (int k = 0; k < nSamples; k++)
+                            {
+                                struct Summary sm; fs_state r2; x ^= x << 13; x ^= x >> 17; x ^= x << 5;
+                                sFocusLog = focus && k < 3;
+                                RunVerbatim(src, &va0, &va1, x, out);
+                                fs_state imp; if (fs_import(&imp, out) != 0) resultImportFail |= imp.unsupported; Summarize(&imp, &sm); Add(0, &sm);
+                                if (sFocusLog) { printf("   verbatim sample %d: req %d battler %d kind %d partyIdx %d/%d hp %d/%d\n", k, out->finished ? 0 : 1, out->requestBattler, out->requestKind, gBattlerPartyIndexes[0], gBattlerPartyIndexes[1], gBattleMons[0].hp, gBattleMons[1].hp); Sim_PrintLog(out); }
+                                r2 = fs; fs_seed(&r2, x ^ 0xABCDEF); fs_step(&r2, fa0, fa1); Summarize(&r2, &sm); Add(1, &sm);
+                                if (sFocusLog) { struct Summary vs; Summarize(&imp, &vs); printf("   fast sample %d: req %d mask %d phase %d; diff vs verbatim:", k, r2.request, r2.switchMask, r2.phase); PrintDiff(&vs, &sm); printf("\n"); }
+                            }
+                            sFocusLog = 0;
                         }
                         {
                             // two-sample chi-square over the outcome buckets (equal sample sizes): X2 = sum (n1-n2)^2/(n1+n2), df = k-1;
@@ -241,6 +263,7 @@ int main(int argc, char **argv)
                                 printf("MISMATCH game %d turn %d (%s) TV %.3f X2 %.0f/df %d buckets %d: ", g, sim->turnCount, kind == SIM_REQ_ACTION ? "turn" : "switch", tv, x2, df, sNB);
                                 if (kind == SIM_REQ_ACTION) printf("P0 %s %s vs P1 %s %s\n", va0.type == B_ACTION_SWITCH ? "switch" : "move", va0.type == B_ACTION_SWITCH ? sim_species_name(fs.side[0].party[va0.partySlot].species) : fs_move_name(fs.side[0].act.moves[va0.moveSlot]), va1.type == B_ACTION_SWITCH ? "switch" : "move", va1.type == B_ACTION_SWITCH ? sim_species_name(fs.side[1].party[va1.partySlot].species) : fs_move_name(fs.side[1].act.moves[va1.moveSlot]));
                                 else printf("switch to slot %d\n", va0.partySlot);
+                                if (resultImportFail) printf("   (some verbatim result states could not be imported: unsupported mask %x)\n", resultImportFail);
                                 printf("   P0: "); PrintMon(&fs.side[0].act); printf("  moves %s/%s/%s/%s\n", fs_move_name(fs.side[0].act.moves[0]), fs_move_name(fs.side[0].act.moves[1]), fs_move_name(fs.side[0].act.moves[2]), fs_move_name(fs.side[0].act.moves[3]));
                                 printf("   P1: "); PrintMon(&fs.side[1].act); printf("  moves %s/%s/%s/%s\n", fs_move_name(fs.side[1].act.moves[0]), fs_move_name(fs.side[1].act.moves[1]), fs_move_name(fs.side[1].act.moves[2]), fs_move_name(fs.side[1].act.moves[3]));
                                 // the most common verbatim outcome vs the most common fast outcome, and the field differences

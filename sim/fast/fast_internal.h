@@ -25,6 +25,7 @@ int fs_crit_check(fs_state *s, int atkSide, int defSide, u16 move);
 s32 fs_random_roll(fs_state *s, s32 dmg);
 void fs_sync_to_party(fs_state *s, int side);
 void fs_switch_in(fs_state *s, int side, int idx);
+void fs_baton_pass(fs_state *s, int side, int idx);
 void fs_faint(fs_state *s, int side);
 int fs_alive_count(const fs_state *s, int side);
 int fs_can_switch(const fs_state *s, int side);
@@ -35,14 +36,16 @@ void fs_end_turn(fs_state *s);
 // fast_effects.c
 void fs_use_move(fs_state *s, int side, int slot);          // slot 4 = Struggle
 void fs_switch_in_abilities(fs_state *s, int side);
+void fs_fire_pending_intimidate(fs_state *s);
 void fs_end_turn_items(fs_state *s, int side);
+void fs_move_end_items(fs_state *s, int side);   // status cures / White Herb only (ITEMEFFECT_MOVE_END)
 int fs_effect_supported(u8 effect);
 int fs_ability_supported(u8 ability);
 int fs_item_supported(u16 item);
 
 // fast_ext.c: extensions (two-turn moves, Sleep Talk, Trace, ...). The core calls these hooks for anything it
 // does not handle itself; they return 1 when they handled it.
-struct fs_hit { s32 dmg; int hit; int crit; int mult; };
+struct fs_hit { s32 dmg; int hit; int crit; int mult; int dbond; int hadSub; };
 int fs_ext_effect_supported(u8 effect);
 int fs_ext_ability_supported(u8 ability);
 int fs_ext_use_move(fs_state *s, int side, int slot, u16 move, u16 power, u8 type, void *hit);

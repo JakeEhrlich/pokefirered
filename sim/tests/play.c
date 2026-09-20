@@ -1,6 +1,6 @@
 // Play random battles yourself in mGBA against a simulator agent (or the game's own AI).
 //
-//   play --agent rmplus:iters=1000,samples=16 [--teams pool.tsv] [--port 8899] [--seed N] [--games N] [--doubles]
+//   play --agent rmplus:iters=1000,samples=16 [--teams pool.tsv] [--you TEAMID --foe TEAMID] [--port 8899] [--seed N] [--games N] [--doubles]
 //        [--verbose] [--anims]   (move animations are off by default; text speed is always fast)
 //
 // The harness ROM runs in human mode: you use the real menus; every choice you commit is reported to this
@@ -142,6 +142,7 @@ int main(int argc, char **argv)
     static struct BattleSim sim, turnStart;
     struct SimAgent agent;
     const char *spec = "rmplus:iters=1000,samples=16", *teamsPath = "/tmp/randbats.tsv";
+    const char *youId = NULL, *foeId = NULL;   // --you / --foe: pick teams by id instead of at random
     int port = getenv("CROSSCHECK_PORT") ? atoi(getenv("CROSSCHECK_PORT")) : 8899;
     int games = 1000000, g, i, allowDoubles = 0, verbose = 0, anims = 0;
     struct sockaddr_in addr = { .sin_family = AF_INET };
@@ -150,6 +151,8 @@ int main(int argc, char **argv)
     for (i = 1; i < argc; i++)
     {
         if (!strcmp(argv[i], "--agent") && i + 1 < argc) spec = argv[++i];
+        else if (!strcmp(argv[i], "--you") && i + 1 < argc) youId = argv[++i];
+        else if (!strcmp(argv[i], "--foe") && i + 1 < argc) foeId = argv[++i];
         else if (!strcmp(argv[i], "--teams") && i + 1 < argc) teamsPath = argv[++i];
         else if (!strcmp(argv[i], "--port") && i + 1 < argc) port = atoi(argv[++i]);
         else if (!strcmp(argv[i], "--seed") && i + 1 < argc) sRng = (u32)strtoul(argv[++i], NULL, 0) | 1;
@@ -190,6 +193,15 @@ int main(int argc, char **argv)
     for (g = 0; g < games; g++)
     {
         struct Team *you = &sTeams[R() % sTeamCount], *foe = &sTeams[R() % sTeamCount];
+        if (youId || foeId)
+        {
+            int k;
+            for (k = 0; k < sTeamCount; k++)
+            {
+                if (youId && !strcmp(sTeams[k].id, youId)) you = &sTeams[k];
+                if (foeId && !strcmp(sTeams[k].id, foeId)) foe = &sTeams[k];
+            }
+        }
         u32 seed = R() | 1;
         u32 flags = BATTLE_TYPE_TRAINER | ((you->doubles || foe->doubles) ? BATTLE_TYPE_DOUBLE : 0);
         struct SimAction human = {0}, oppPending = {0};
@@ -201,6 +213,7 @@ int main(int argc, char **argv)
         PrintTeam("FOE", foe);
 
         Sim_Init(&sim, flags, 1);
+        sim.badgeFlags = 0;   // no badge boosts for the human side either: same rules as the arena
         memcpy(sim.playerParty, you->party, sizeof(sim.playerParty));
         memcpy(sim.enemyParty, foe->party, sizeof(sim.enemyParty));
         sim.createTrainerParty = FALSE;

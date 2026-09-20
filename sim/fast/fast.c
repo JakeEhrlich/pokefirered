@@ -134,6 +134,7 @@ int fs_import(fs_state *out, const struct BattleSim *simc)
         sd->reflect = gSideTimers[s].reflectTimer; sd->lightscreen = gSideTimers[s].lightscreenTimer;
         sd->mist = gSideTimers[s].mistTimer; sd->safeguard = gSideTimers[s].safeguardTimer; sd->spikes = gSideTimers[s].spikesAmount;
         sd->wishTurns = gWishFutureKnock.wishCounter[s]; sd->wishMon = gWishFutureKnock.wishMonId[s];
+        sd->knockedOff = gWishFutureKnock.knockedOffMons[s];
         sd->futureSightTurns = gWishFutureKnock.futureSightCounter[s]; sd->futureSightDmg = gWishFutureKnock.futureSightDmg[s];
         sd->futureSightMove = gWishFutureKnock.futureSightMove[s]; sd->futureSightFromSide = gWishFutureKnock.futureSightAttacker[s] & 1;
         memset(a, 0, sizeof(*a));
@@ -161,9 +162,15 @@ int fs_import(fs_state *out, const struct BattleSim *simc)
             if (s2 & STATUS2_DEFENSE_CURL) a->vol |= FS_V_DEFENSE_CURL;
             if (s2 & STATUS2_TORMENT) a->vol |= FS_V_TORMENT;
             if (s2 & STATUS2_INFATUATION) a->vol |= FS_V_INFATUATED;
-            if (s2 & (STATUS2_UPROAR | STATUS2_BIDE | STATUS2_LOCK_CONFUSE | STATUS2_MULTIPLETURNS | STATUS2_WRAPPED | STATUS2_TRANSFORMED | STATUS2_RAGE))
+            if (s2 & STATUS2_WRAPPED)
+            {
+                a->wrapTurns = (s2 & STATUS2_WRAPPED) >> 13;
+                a->wrapMove = gBattleStruct->wrappedMove[s * 2] | (gBattleStruct->wrappedMove[s * 2 + 1] << 8);
+            }
+            if (s2 & (STATUS2_UPROAR | STATUS2_BIDE | STATUS2_LOCK_CONFUSE | STATUS2_MULTIPLETURNS | STATUS2_TRANSFORMED | STATUS2_RAGE))
                 out->unsupported |= FS_UNSUP_VOLATILE;
             if (s3 & STATUS3_LEECHSEED) a->vol |= FS_V_LEECH_SEED;
+            if (s3 & STATUS3_INTIMIDATE_POKES) a->vol |= FS_V_INTIMIDATE_PENDING;
             if (s3 & STATUS3_ROOTED) a->vol |= FS_V_ROOTED;
             if (s3 & STATUS3_CHARGED_UP) a->vol |= FS_V_CHARGED;
             if (s3 & STATUS3_MINIMIZED) a->vol |= FS_V_MINIMIZED;
@@ -197,7 +204,12 @@ int fs_import(fs_state *out, const struct BattleSim *simc)
         out->request = FS_REQ_SWITCH;
         out->switchMask = 0;
         for (s = 0; s < 2; s++) if (!out->side[s].act.present) out->switchMask |= 1 << s;
-        if (!(out->switchMask & (1 << (sim->requestBattler & 1)))) out->switchMask |= 1 << (sim->requestBattler & 1);
+        if (!(out->switchMask & (1 << (sim->requestBattler & 1))))
+        {
+            // the requesting battler is still in: a Baton Pass switch
+            out->switchMask |= 1 << (sim->requestBattler & 1);
+            out->batonMask |= 1 << (sim->requestBattler & 1);
+        }
         if (gCurrentTurnActionNumber >= gBattlersCount)
             out->phase = 2;   // the end-of-turn pass: the turn is over
         else
@@ -263,6 +275,7 @@ int fs_can_switch(const fs_state *s, int side)
     const fs_battler *a = &s->side[side].act, *o = &s->side[side ^ 1].act;
     if (!a->present) return 1;
     if (a->vol & (FS_V_ESCAPE_PREV | FS_V_ROOTED)) return 0;
+    if (a->wrapTurns) return 0;
     if (o->present && o->ability == ABILITY_SHADOW_TAG) return 0;
     if (o->present && o->ability == ABILITY_ARENA_TRAP && !(a->type1 == TYPE_FLYING || a->type2 == TYPE_FLYING || a->ability == ABILITY_LEVITATE)) return 0;
     if (o->present && o->ability == ABILITY_MAGNET_PULL && (a->type1 == TYPE_STEEL || a->type2 == TYPE_STEEL)) return 0;
@@ -332,6 +345,8 @@ s32 fs_base_damage(fs_state *s, int atkSide, int defSide, u16 move, u16 power, u
             }
     }
     if (ahe == HOLD_EFFECT_CHOICE_BAND) attack = 150 * attack / 100;
+    if (ahe == HOLD_EFFECT_SOUL_DEW && (at->species == SPECIES_LATIAS || at->species == SPECIES_LATIOS)) spAttack = 150 * spAttack / 100;
+    if (dhe == HOLD_EFFECT_SOUL_DEW && (df->species == SPECIES_LATIAS || df->species == SPECIES_LATIOS)) spDefense = 150 * spDefense / 100;
     if (ahe == HOLD_EFFECT_DEEP_SEA_TOOTH && at->species == SPECIES_CLAMPERL) spAttack *= 2;
     if (dhe == HOLD_EFFECT_DEEP_SEA_SCALE && df->species == SPECIES_CLAMPERL) spDefense *= 2;
     if (ahe == HOLD_EFFECT_LIGHT_BALL && at->species == SPECIES_PIKACHU) spAttack *= 2;
@@ -399,6 +414,7 @@ int fs_accuracy_check(fs_state *s, int atkSide, int defSide, u16 move, u8 type)
     u8 moveAcc = bm->accuracy;
     u8 dhe = fs_hold_effect(df->item);
     if (moveAcc == 0) return 1;
+    if (fs_weather_active(s) && s->weather == FS_WEATHER_RAIN && bm->effect == EFFECT_THUNDER) return 1;   // Thunder never misses in rain
     if (df->vol & FS_V_FORESIGHT) buff = at->stages[STAT_ACC];
     else buff = at->stages[STAT_ACC] + 6 - df->stages[STAT_EVASION];
     if (buff < 0) buff = 0;
@@ -474,6 +490,8 @@ void fs_switch_in(fs_state *s, int side, int idx)
     {
         if (a->ability == ABILITY_NATURAL_CURE) a->status1 = 0;
         fs_sync_to_party(s, side);
+        s->side[side ^ 1].act.wrapTurns = 0;   // the wrapper leaving frees its target
+        s->side[side ^ 1].act.vol &= ~(FS_V_ESCAPE_PREV | FS_V_INFATUATED);   // Mean Look / Attract by the one leaving end too
     }
     m = &sd->party[idx];
     ResetVolatile(a);
@@ -481,7 +499,7 @@ void fs_switch_in(fs_state *s, int side, int idx)
     a->present = 1;
     a->species = m->species; a->hp = m->hp; a->maxHP = m->maxHP; a->atk = m->atk; a->def = m->def; a->spe = m->spe; a->spa = m->spa; a->spd = m->spd;
     for (i = 0; i < 4; i++) { a->moves[i] = m->moves[i]; a->pp[i] = m->pp[i]; }
-    a->item = m->item; a->ability = m->ability; a->level = m->level; a->type1 = m->type1; a->type2 = m->type2; a->gender = m->gender;
+    a->item = (sd->knockedOff & (1 << idx)) ? 0 : m->item; a->ability = m->ability; a->level = m->level; a->type1 = m->type1; a->type2 = m->type2; a->gender = m->gender;
     a->status1 = m->status1;
     a->isFirstTurn = 2;
     a->hpTypeCache = m->hpType;
@@ -497,10 +515,25 @@ void fs_switch_in(fs_state *s, int side, int idx)
     fs_switch_in_abilities(s, side);
 }
 
+// Baton Pass: switch keeping stat stages and the passable volatile state
+void fs_baton_pass(fs_state *s, int side, int idx)
+{
+    fs_battler *a = &s->side[side].act;
+    s8 stages[FS_STAGES]; u32 vol; u8 subHP, confusionTurns, perish;
+    memcpy(stages, a->stages, sizeof(stages)); vol = a->vol; subHP = a->substituteHP; confusionTurns = a->confusionTurns; perish = a->perishTimer;
+    fs_switch_in(s, side, idx);
+    if (!a->present) return;
+    memcpy(a->stages, stages, sizeof(stages));
+    a->vol |= vol & (FS_V_CONFUSED | FS_V_FOCUS_ENERGY | FS_V_SUBSTITUTE | FS_V_LEECH_SEED | FS_V_ROOTED | FS_V_CURSED | FS_V_ESCAPE_PREV | FS_V_MUD_SPORT | FS_V_WATER_SPORT);
+    a->substituteHP = subHP; a->confusionTurns = confusionTurns; a->perishTimer = perish;
+}
+
 void fs_faint(fs_state *s, int side)
 {
     fs_battler *a = &s->side[side].act;
     a->hp = 0;
+    s->side[side ^ 1].act.wrapTurns = 0;   // FaintClearSetData frees the fainted mon's wrap target
+    s->side[side ^ 1].act.vol &= ~(FS_V_ESCAPE_PREV | FS_V_INFATUATED);
     a->status1 = 0;
     fs_sync_to_party(s, side);
     a->present = 0;
@@ -545,6 +578,7 @@ static void ClearTurnFlags(fs_state *s)
         fs_battler *a = &s->side[side].act;
         a->vol &= ~(FS_V_PROTECTED | FS_V_ENDURED | FS_V_MOVED_THIS_TURN | FS_V_FLINCH);
         a->chosenMove = 0;
+        if (!a->bideTurns) a->bideDmg = 0;   // damage taken this turn (Counter / Mirror Coat / Focus Punch / Revenge) starts fresh
     }
 }
 
@@ -558,10 +592,10 @@ static void Resume(fs_state *s)
         while (s->orderPos < s->orderN)
         {
             side = s->order[s->orderPos++];
+            if (s->pending[side].type == FS_ACT_NONE)
+                continue;   // cancelled: the mon that chose it was replaced
             if (s->pending[side].type == FS_ACT_SWITCH)
-            {
-                if (fs_can_switch(s, side)) fs_switch_in(s, side, s->pending[side].slot);
-            }
+                fs_switch_in(s, side, s->pending[side].slot);   // chosen legally at the turn start; a trapper arriving first does not stop it
             else
             {
                 fs_battler *a = &s->side[side].act;
@@ -570,7 +604,7 @@ static void Resume(fs_state *s)
             fs_sync_to_party(s, 0); fs_sync_to_party(s, 1);
             if (CheckOutcome(s)) return;
             {
-                int mask = 0;
+                int mask = s->batonMask;
                 for (side = 0; side < 2; side++) if (!s->side[side].act.present) mask |= 1 << side;
                 if (mask) { s->request = FS_REQ_SWITCH; s->switchMask = mask; return; }
             }
@@ -601,15 +635,32 @@ int fs_step(fs_state *s, fs_action a0, fs_action a1)
         for (side = 0; side < 2; side++)
             if (s->switchMask & (1 << side))
             {
-                if (acts[side].type == FS_ACT_SWITCH) fs_switch_in(s, side, acts[side].slot);
+                if (acts[side].type == FS_ACT_SWITCH)
+                {
+                    if (s->batonMask & (1 << side)) fs_baton_pass(s, side, acts[side].slot);
+                    else fs_switch_in(s, side, acts[side].slot);
+                }
+                if (s->batonMask & (1 << side))
+                {
+                    // Baton Pass: only the passer's own action is done (switchineffects); the rest of the turn goes on
+                    s->batonMask &= ~(1 << side);
+                }
+                else if (s->phase == 1)
+                {
+                    // a fainted mon's replacement cancels every remaining action of the turn in singles
+                    // (BattleScript_HandleFaintedMon: cancelallactions)
+                    s->orderPos = s->orderN;
+                }
                 break;
             }
         fs_sync_to_party(s, 0); fs_sync_to_party(s, 1);
         {
-            int mask = 0;
+            int mask = s->batonMask;
             for (side = 0; side < 2; side++) if (!s->side[side].act.present) mask |= 1 << side;
             if (mask && !CheckOutcome(s)) { s->request = FS_REQ_SWITCH; s->switchMask = mask; return s->request; }
         }
+        fs_fire_pending_intimidate(s);   // HandleFaintedMonActions case 6 (ABILITYEFFECT_INTIMIDATE1) after the replacements
+        s->switchMask = 0;
         Resume(s);
         return s->request;
     }
@@ -670,6 +721,9 @@ static void Heal(fs_state *s, int side, s32 amount)
     a->hp = (a->hp + amount > a->maxHP) ? a->maxHP : a->hp + amount;
 }
 
+static int BattleOver(const fs_state *s) { return fs_alive_count(s, 0) == 0 || fs_alive_count(s, 1) == 0; }
+#define ET_NEXT() { if (BattleOver(s)) return; if (!a->present) continue; }
+
 void fs_end_turn(fs_state *s)
 {
     int side, first = fs_who_strikes_first_ignoring_moves(s), b;
@@ -687,7 +741,7 @@ void fs_end_turn(fs_state *s)
         fs_side *sd = &s->side[side];
         if (sd->wishTurns && --sd->wishTurns == 0)
         {
-            if (sd->act.present && sd->act.monIdx == sd->wishMon) Heal(s, side, sd->act.maxHP / 2);
+            if (sd->act.present && sd->act.hp) Heal(s, side, sd->act.maxHP / 2);   // heals whoever is in the slot now (wishMonId only names it)
         }
     }
     if (s->weather && s->weatherTurns != 0xFF)
@@ -705,14 +759,16 @@ void fs_end_turn(fs_state *s)
             if (s->weather == FS_WEATHER_HAIL && (a->type1 == TYPE_ICE || a->type2 == TYPE_ICE)) continue;
             if (a->vol & (FS_V_UNDERGROUND | FS_V_UNDERWATER)) continue;
             EndTurnDamage(s, side, a->maxHP / 16);
+            if (BattleOver(s)) return;
         }
     }
-    // battlers, faster first
+    // battlers, faster first; once a faint decides the battle the remaining effects never run
     for (b = 0; b < 2; b++)
     {
         side = (b == 0) ? first : first ^ 1;
         fs_battler *a = &s->side[side].act;
         int other = side ^ 1;
+        if (BattleOver(s)) return;
         if (!a->present) continue;
         if (a->vol & FS_V_ROOTED) Heal(s, side, a->maxHP / 16);
         // abilities
@@ -723,7 +779,7 @@ void fs_end_turn(fs_state *s)
         // items
         if (fs_hold_effect(a->item) == HOLD_EFFECT_LEFTOVERS) Heal(s, side, a->maxHP / 16);
         fs_end_turn_items(s, side);
-        if (!a->present) continue;
+        ET_NEXT();
         if ((a->vol & FS_V_LEECH_SEED) && s->side[other].act.present && a->hp)
         {
             s32 dmg = a->maxHP / 8;
@@ -732,30 +788,30 @@ void fs_end_turn(fs_state *s)
             EndTurnDamage(s, side, dmg);
             if (a->ability == ABILITY_LIQUID_OOZE) EndTurnDamage(s, other, dmg); else Heal(s, other, dmg);
         }
-        if (!a->present) continue;
+        ET_NEXT();
         if ((a->status1 & FS_S1_PSN) && a->hp) EndTurnDamage(s, side, a->maxHP / 8);
-        if (!a->present) continue;
+        ET_NEXT();
         if ((a->status1 & FS_S1_TOX) && a->hp)
         {
             u16 ctr = (a->status1 & FS_S1_TOXCTR) >> 8;
             if (ctr < 15) a->status1 += 0x100;
             EndTurnDamage(s, side, (a->maxHP / 16) * ((a->status1 & FS_S1_TOXCTR) >> 8));
         }
-        if (!a->present) continue;
+        ET_NEXT();
         if ((a->status1 & FS_S1_BRN) && a->hp) EndTurnDamage(s, side, a->maxHP / 8);
-        if (!a->present) continue;
+        ET_NEXT();
         if ((a->vol & FS_V_NIGHTMARE) && a->hp)
         {
             if (a->status1 & FS_S1_SLEEP) EndTurnDamage(s, side, a->maxHP / 4); else a->vol &= ~FS_V_NIGHTMARE;
         }
-        if (!a->present) continue;
+        ET_NEXT();
         if ((a->vol & FS_V_CURSED) && a->hp) EndTurnDamage(s, side, a->maxHP / 4);
-        if (!a->present) continue;
+        ET_NEXT();
         if (a->wrapTurns)
         {
             if (--a->wrapTurns) EndTurnDamage(s, side, a->maxHP / 16);
         }
-        if (!a->present) continue;
+        ET_NEXT();
         if (a->disableTimer && --a->disableTimer == 0) {}
         if (a->encoreTimer && --a->encoreTimer == 0) {}
         if (a->encoreTimer && a->pp[a->encoredPos] == 0) a->encoreTimer = 0;
@@ -768,7 +824,7 @@ void fs_end_turn(fs_state *s)
         }
         if (a->perishTimer)
         {
-            if (--a->perishTimer == 1) { a->perishTimer = 0; a->hp = 0; fs_faint(s, side); }
+            if (--a->perishTimer == 0) { a->hp = 0; fs_faint(s, side); }   // game: 3,2,1,0 then faints (stored +1 here)
         }
     }
     // future sight lands
@@ -778,6 +834,7 @@ void fs_end_turn(fs_state *s)
         if (sd->futureSightTurns && --sd->futureSightTurns == 0)
         {
             if (sd->act.present) EndTurnDamage(s, side, sd->futureSightDmg);
+            if (BattleOver(s)) return;
         }
     }
     for (side = 0; side < 2; side++)

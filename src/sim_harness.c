@@ -216,6 +216,11 @@ static void WaitChooseAction(void)
     if (a->type == B_ACTION_USE_ITEM && a->item == ITEM_NONE)
         a->type = B_ACTION_USE_MOVE;
     BtlController_EmitTwoReturnValues(BUFFER_B, a->type, 0);
+    // Mirrors sim_controller.c: when the game will not ask for the move (Struggle because every move is
+    // unusable, or an Encore lock) the move answer must not survive into the next turn.
+    if (a->type == B_ACTION_USE_MOVE
+     && (CheckMoveLimitations(gActiveBattler, 0, MOVE_LIMITATIONS_ALL) == 0xF || gDisableStructs[gActiveBattler].encoredMove != MOVE_NONE))
+        a->valid = FALSE;
     Complete();
 }
 

@@ -19,7 +19,7 @@ typedef uint8_t u8; typedef uint16_t u16; typedef uint32_t u32; typedef int8_t s
 #define FS_STAGES 8   // hp(unused) atk def spe spa spd acc eva (game order)
 
 enum { FS_SIDE_PLAYER = 0, FS_SIDE_OPP = 1 };
-enum { FS_ACT_MOVE = 0, FS_ACT_SWITCH = 2 };   // same numbering as the verbatim engine's B_ACTION_*
+enum { FS_ACT_MOVE = 0, FS_ACT_SWITCH = 2, FS_ACT_NONE = 0xFF };   // same numbering as the verbatim engine's B_ACTION_*; NONE = cancelled
 enum { FS_REQ_TURN = 1, FS_REQ_SWITCH = 2, FS_REQ_DONE = 3 };
 enum { FS_OUTCOME_NONE = 0, FS_OUTCOME_P0_WON = 1, FS_OUTCOME_P1_WON = 2, FS_OUTCOME_DRAW = 3 };
 
@@ -64,6 +64,7 @@ enum { FS_OUTCOME_NONE = 0, FS_OUTCOME_P0_WON = 1, FS_OUTCOME_P1_WON = 2, FS_OUT
 #define FS_V_MOVED_THIS_TURN (1u << 27)
 #define FS_V_FLASH_FIRE  (1u << 28)
 #define FS_V_TRUANT_LOAF (1u << 29)
+#define FS_V_INTIMIDATE_PENDING (1u << 30)   // Intimidate not yet applied (no target when it entered; STATUS3_INTIMIDATE_POKES)
 
 typedef struct
 {
@@ -110,6 +111,7 @@ typedef struct
     u8 wishTurns, wishMon, futureSightTurns;
     u16 futureSightDmg, futureSightMove;
     u8 futureSightFromSide;
+    u8 knockedOff;        // party slots whose item was knocked off (gWishFutureKnock.knockedOffMons): the party keeps the item, the battle copy loses it
 } fs_side;
 
 typedef struct { u8 type; u8 slot; } fs_action;   // FS_ACT_MOVE: move slot 0..3 (4 = Struggle); FS_ACT_SWITCH: party slot
@@ -122,6 +124,7 @@ typedef struct
     u16 turn;
     u8 request;           // FS_REQ_*
     u8 switchMask;        // FS_REQ_SWITCH: sides that must replace (bit 0 player, bit 1 opp)
+    u8 batonMask;         // FS_REQ_SWITCH: sides whose switch is a Baton Pass (the active mon is still in; stages etc. carry over)
     u8 phase;             // 0: at a turn start; 1: inside the action phase (replacements come right after a KO; later actions still run); 2: after the end-of-turn effects
     u8 orderN, orderPos;  // the turn's action order (sides) and how far it has run
     u8 order[2];

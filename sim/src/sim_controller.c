@@ -205,6 +205,12 @@ static void SimHandleChooseAction(void)
     // a player would choose anew: never reuse that answer, or the battle spins without a new request.
     if (a->type == B_ACTION_RUN || a->type == B_ACTION_USE_ITEM)
         gSim->answerValid[gActiveBattler] = FALSE;
+    // A move answer normally stays valid for the move-choice request that follows. When the game skips that
+    // request (Struggle because every move is unusable, or an Encore lock) the answer would otherwise survive
+    // into the next turn and be reused without asking, so that battler could never switch. Consume it here.
+    if (a->type == B_ACTION_USE_MOVE
+     && (CheckMoveLimitations(gActiveBattler, 0, MOVE_LIMITATIONS_ALL) == 0xF || gDisableStructs[gActiveBattler].encoredMove != MOVE_NONE))
+        gSim->answerValid[gActiveBattler] = FALSE;
     SimBufferExecCompleted();
 }
 

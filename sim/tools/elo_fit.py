@@ -92,8 +92,19 @@ def main():
     min_games = int(args[args.index('--min-games') + 1]) if '--min-games' in args else 1
     games = load(path, players)
     rows = [r for r in fit(games) if r[4] >= min_games]
+    # --anchor NAME [--anchor-value V]: shift the scale so that player NAME sits at V (default 1000); ratings are
+    # only identified up to an additive constant, so this costs nothing. Default anchor: rmplus:iters=100,samples=16.
+    anchor = args[args.index('--anchor') + 1] if '--anchor' in args else 'rmplus:iters=100,samples=16'
+    aval = float(args[args.index('--anchor-value') + 1]) if '--anchor-value' in args else 1000.0
+    ref = [r for r in rows if r[0] == anchor]
+    if ref:
+        shift = aval - ref[0][1]
+        rows = [(n, e + shift, se, w, g) for (n, e, se, w, g) in rows]
+        scale = 'anchor %s = %g' % (anchor, aval)
+    else:
+        scale = 'centred at 1000'
     rows.sort(key=lambda r: -r[1])
-    print('%d games, %d players (Bradley-Terry MLE, ELO scale, centred at 1000)' % (len(games), len(rows)))
+    print('%d games, %d players (Bradley-Terry MLE, ELO scale, %s)' % (len(games), len(rows), scale))
     for name, elo, se, w, g in rows[:top]:
         print('%7.1f +- %5.1f  %5d games  %6.1f wins  %s' % (elo, se, g, w, name))
     if '--json' in args:

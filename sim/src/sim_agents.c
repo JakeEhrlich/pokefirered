@@ -1019,6 +1019,295 @@ static void DecideMcts(struct SimAgent *ag, struct BattleSim *sim, const struct 
     else *out = root->theirs[SampleWithFloor(ag, root->sCol, root->m, ag->floor)];
 }
 
+
+// ---------------------------------------------------------------------------------------------------------
+// MCTS on the fast engine (mctsf): the same search as mcts (RM+ at every node, seed-stored outcomes per cell,
+// heuristic leaves) with fs_state nodes stepped by fs_step. Positions the fast engine cannot represent
+// (fs_import fails: an unsupported move effect / ability / item / volatile anywhere in either party) fall back
+// to the verbatim mcts for that decision.
+
+#include "fast.h"
+#define MF_MAX_ACTIONS 10          // singles: 4 moves (or Struggle) + 5 switches
+#define MF_MAX_NODES 4096
+
+struct MfNode
+{
+    fs_state state;
+    fs_action mine[MF_MAX_ACTIONS], theirs[MF_MAX_ACTIONS];
+    int n, m;
+    u8 kind;                      // FS_REQ_TURN or FS_REQ_SWITCH
+    u8 requester;                 // switch nodes: the side choosing
+    int visits;
+    float value, prior;
+    u8 terminal;
+    struct McCell cells[MF_MAX_ACTIONS * MF_MAX_ACTIONS];
+    float R1[MF_MAX_ACTIONS], R2[MF_MAX_ACTIONS], S1[MF_MAX_ACTIONS], S2[MF_MAX_ACTIONS], s1[MF_MAX_ACTIONS], s2[MF_MAX_ACTIONS];
+    int rmT;
+    float sRow[MF_MAX_ACTIONS], sCol[MF_MAX_ACTIONS];
+};
+
+struct MfTree
+{
+    struct MfNode *nodes;
+    int count;
+    int itExpanded, itDescended, depthSum, depthMax;
+    long nSims, nUnsupported, nSolve;
+    u32 fallbacks;
+    double tSim, tSolve;
+};
+static _Thread_local struct MfTree sMfTree;
+
+static float MfStep(struct SimAgent *ag, const struct MfNode *node, int a, int b, u32 seed, fs_state *out)
+{
+    float v;
+    double t0 = sMcTiming ? McNow() : 0;
+    *out = node->state;
+    fs_seed(out, seed | 1);
+    ag->simulatedTurns++;
+    sMfTree.nSims++;
+    if (node->kind == FS_REQ_SWITCH)
+    {
+        fs_action none = {FS_ACT_MOVE, 0};
+        if (node->requester == 0) fs_step(out, node->mine[a], none);
+        else fs_step(out, none, node->theirs[b]);
+    }
+    else
+        fs_step(out, node->mine[a], node->theirs[b]);
+    if (out->unsupported) sMfTree.nUnsupported++;
+    v = fs_value_basic(out, 0);
+    if (sMcTiming) sMfTree.tSim += McNow() - t0;
+    return v;
+}
+
+static int MfNewNode(struct SimAgent *ag, const fs_state *state)
+{
+    struct MfTree *t = &sMfTree;
+    struct MfNode *nd;
+    int a, b, s, idx;
+    static _Thread_local fs_state child;
+    if (t->count >= MF_MAX_NODES) return -1;
+    idx = t->count++;
+    nd = &t->nodes[idx];
+    nd->state = *state;
+    nd->visits = 0;
+    nd->rmT = 0;
+    nd->prior = nd->value = fs_value_basic(&nd->state, 0);
+    nd->terminal = state->request == FS_REQ_DONE;
+    nd->n = nd->m = 0;
+    if (nd->terminal) return idx;
+    nd->kind = state->request;
+    if (nd->kind == FS_REQ_SWITCH)
+    {
+        nd->requester = (state->switchMask & 1) ? 0 : 1;   // fs_step replaces the player side first
+        if (nd->requester == 0) { nd->n = fs_legal_actions(state, 0, nd->mine); nd->m = 1; }
+        else { nd->n = 1; nd->m = fs_legal_actions(state, 1, nd->theirs); }
+    }
+    else
+    {
+        nd->n = fs_legal_actions(state, 0, nd->mine);
+        nd->m = fs_legal_actions(state, 1, nd->theirs);
+    }
+    if (nd->n > MF_MAX_ACTIONS) nd->n = MF_MAX_ACTIONS;
+    if (nd->m > MF_MAX_ACTIONS) nd->m = MF_MAX_ACTIONS;
+    if (nd->n == 0 || nd->m == 0) { nd->terminal = 1; return idx; }
+    memset(nd->cells, 0, sizeof(nd->cells[0]) * nd->n * nd->m);
+    memset(nd->R1, 0, sizeof(nd->R1)); memset(nd->R2, 0, sizeof(nd->R2)); memset(nd->S1, 0, sizeof(nd->S1)); memset(nd->S2, 0, sizeof(nd->S2));
+    for (a = 0; a < nd->n; a++) nd->s1[a] = 1.0f / nd->n;
+    for (b = 0; b < nd->m; b++) nd->s2[b] = 1.0f / nd->m;
+    if (ag->mctsExpand != MCTS_EXPAND_LAZY)
+    {
+        int per = ag->mctsExpand == MCTS_EXPAND_EAGER ? ag->samples : 1;
+        if (per > ag->mctsKids) per = ag->mctsKids;
+        for (a = 0; a < nd->n; a++)
+            for (b = 0; b < nd->m; b++)
+            {
+                struct McCell *c = &nd->cells[a * nd->m + b];
+                for (s = 0; s < per; s++)
+                {
+                    struct McKid *kd = &c->kid[c->nKids++];
+                    kd->seed = Sim_AgentRandom(ag);
+                    kd->leaf = MfStep(ag, nd, a, b, kd->seed, &child);
+                    kd->visits = 1; kd->node = -1;
+                    ag->matrixCells++;
+                }
+            }
+    }
+    return idx;
+}
+
+static float MfCellValue(const struct MfTree *t, const struct MfNode *nd, const struct McCell *c, int *visits)
+{
+    float sum = 0.0f;
+    int n = 0, k;
+    for (k = 0; k < c->nKids; k++)
+    {
+        const struct McKid *kd = &c->kid[k];
+        sum += (kd->node >= 0 ? t->nodes[kd->node].value : kd->leaf) * kd->visits;
+        n += kd->visits;
+    }
+    *visits = n;
+    return n ? sum / n : nd->prior;
+}
+
+static void MfRegretIterate(struct MfNode *nd, const float *Mrow, const float *Mcol, int iters)
+{
+    int n = nd->n, m = nd->m, t, i, j;
+    float u1[MF_MAX_ACTIONS], u2[MF_MAX_ACTIONS];
+    for (t = 0; t < iters; t++)
+    {
+        float w = (float)(++nd->rmT), U1 = 0, U2 = 0;
+        for (i = 0; i < n; i++)
+        {
+            u1[i] = 0;
+            for (j = 0; j < m; j++) u1[i] += nd->s2[j] * Mrow[i * m + j];
+            U1 += nd->s1[i] * u1[i];
+        }
+        for (i = 0; i < n; i++) { nd->R1[i] += u1[i] - U1; if (nd->R1[i] < 0) nd->R1[i] = 0; }
+        Normalize(nd->R1, n, nd->s1);
+        for (j = 0; j < m; j++)
+        {
+            u2[j] = 0;
+            for (i = 0; i < n; i++) u2[j] += nd->s1[i] * -Mcol[i * m + j];
+            U2 += nd->s2[j] * u2[j];
+        }
+        for (j = 0; j < m; j++) { nd->R2[j] += u2[j] - U2; if (nd->R2[j] < 0) nd->R2[j] = 0; }
+        Normalize(nd->R2, m, nd->s2);
+        for (i = 0; i < n; i++) nd->S1[i] += w * nd->s1[i];
+        for (j = 0; j < m; j++) nd->S2[j] += w * nd->s2[j];
+    }
+    Normalize(nd->S1, n, nd->sRow);
+    Normalize(nd->S2, m, nd->sCol);
+}
+
+static void MfSolve(struct SimAgent *ag, struct MfNode *nd)
+{
+    float M[MF_MAX_ACTIONS * MF_MAX_ACTIONS], Mr[MF_MAX_ACTIONS * MF_MAX_ACTIONS], Mc[MF_MAX_ACTIONS * MF_MAX_ACTIONS];
+    int a, b;
+    float v = 0.0f, logN = logf((float)nd->visits + 1.0f);
+    double t0 = sMcTiming ? McNow() : 0;
+    sMfTree.nSolve++;
+    for (a = 0; a < nd->n; a++)
+        for (b = 0; b < nd->m; b++)
+        {
+            int vis;
+            float q = MfCellValue(&sMfTree, nd, &nd->cells[a * nd->m + b], &vis), bonus = 0.0f;
+            if (ag->mctsBonus > 0) bonus = ag->mctsBonus * sqrtf(logN / (vis + 1.0f));
+            M[a * nd->m + b] = q;
+            Mr[a * nd->m + b] = q + bonus;
+            Mc[a * nd->m + b] = q - bonus;
+        }
+    MfRegretIterate(nd, Mr, Mc, ag->iterations);
+    for (a = 0; a < nd->n; a++)
+        for (b = 0; b < nd->m; b++)
+            v += nd->sRow[a] * M[a * nd->m + b] * nd->sCol[b];
+    nd->value = v;
+    if (sMcTiming) sMfTree.tSolve += McNow() - t0;
+}
+
+static void MfIterate(struct SimAgent *ag)
+{
+    struct MfTree *t = &sMfTree;
+    int path[MCTS_MAX_DEPTH], depth = 0, idx = 0, k;
+    static _Thread_local fs_state child;
+    for (;;)
+    {
+        struct MfNode *nd = &t->nodes[idx];
+        struct McCell *c;
+        struct McKid *kd;
+        int a, b, ni;
+        if (nd->terminal || depth >= MCTS_MAX_DEPTH - 1) break;
+        if (nd->visits == 0) MfSolve(ag, nd);
+        a = McSample(ag, nd->sRow, nd->n, ag->epsilon);
+        b = McSample(ag, nd->sCol, nd->m, ag->epsilon);
+        path[depth++] = idx;
+        c = &nd->cells[a * nd->m + b];
+        if (c->nKids < ag->mctsKids)
+        {
+            kd = &c->kid[c->nKids++];
+            kd->seed = Sim_AgentRandom(ag);
+            kd->leaf = MfStep(ag, nd, a, b, kd->seed, &child);
+            kd->visits = 1; kd->node = -1;
+        }
+        else
+        {
+            kd = &c->kid[Sim_AgentRandom(ag) % (u32)c->nKids];
+            kd->visits++;
+            if (kd->node >= 0) { idx = kd->node; t->itDescended++; continue; }
+            MfStep(ag, nd, a, b, kd->seed, &child);
+        }
+        ni = MfNewNode(ag, &child);
+        if (ni < 0) break;
+        kd->node = ni;
+        if (!t->nodes[ni].terminal) MfSolve(ag, &t->nodes[ni]);
+        t->itExpanded++;
+        break;
+    }
+    t->depthSum += depth;
+    if (depth > t->depthMax) t->depthMax = depth;
+    for (k = depth - 1; k >= 0; k--)
+    {
+        struct MfNode *nd = &t->nodes[path[k]];
+        nd->visits++;
+        MfSolve(ag, nd);
+    }
+}
+
+// Maps the chosen fast action back to the verbatim action list of the root (both enumerate moves in slot order
+// then switches in party order, so the lists line up index by index when their sizes agree).
+static void DecideMctsFast(struct SimAgent *ag, struct BattleSim *sim, const struct BattleSim *ts, u8 battler, u8 kind, struct SimAction *out)
+{
+    struct MfTree *t = &sMfTree;
+    struct MfNode *root;
+    const struct BattleSim *rootState;
+    fs_state fs;
+    struct SimAction legal[MAX_ACTIONS];
+    int it, side = battler & BIT_SIDE, maxIt = ag->mctsNodes > 0 ? ag->mctsNodes * 20 : ag->mctsIters, nLegal, pick;
+    const float *sigma;
+    if (kind == SIM_REQ_ACTION && (ts == NULL || (ts->battleTypeFlags & BATTLE_TYPE_DOUBLE) || ts->turnCount != sim->turnCount))
+    { DecideMcts(ag, sim, ts, battler, kind, out); return; }
+    rootState = kind == SIM_REQ_ACTION ? ts : sim;
+    if (fs_import(&fs, rootState) != 0) { t->fallbacks++; DecideMcts(ag, sim, ts, battler, kind, out); return; }
+    // the verbatim legal list of the deciding battler, for the action mapping
+    if (kind == SIM_REQ_SWITCH)
+    {
+        u8 slots[PARTY_SIZE];
+        int ns = Sim_LegalSwitches(sim, battler, slots, PARTY_SIZE), k;
+        for (k = 0; k < ns; k++) { memset(&legal[k], 0, sizeof(legal[k])); legal[k].type = B_ACTION_SWITCH; legal[k].partySlot = slots[k]; }
+        nLegal = ns;
+    }
+    else
+        nLegal = Sim_LegalActions((struct BattleSim *)ts, battler, legal, MAX_ACTIONS);
+    {
+        fs_action fl[MF_MAX_ACTIONS + 8];
+        int nf = fs_legal_actions(&fs, side, fl);
+        if (nf != nLegal || nf > MF_MAX_ACTIONS || nLegal == 0) { t->fallbacks++; DecideMcts(ag, sim, ts, battler, kind, out); return; }
+    }
+    ag->decisions++;
+    if (t->nodes == NULL) t->nodes = malloc(sizeof(struct MfNode) * MF_MAX_NODES);
+    t->count = 0;
+    t->itExpanded = t->itDescended = t->depthSum = t->depthMax = 0;
+    t->nSims = t->nUnsupported = t->nSolve = 0; t->tSim = t->tSolve = 0;
+    sMcTiming = getenv("SIM_MCTS_TRACE") != NULL;
+    if (MfNewNode(ag, &fs) < 0 || t->nodes[0].terminal) { RandomLegal(ag, sim, battler, kind, out); return; }
+    root = &t->nodes[0];
+    MfSolve(ag, root);
+    for (it = 0; it < maxIt; it++)
+    {
+        if (ag->mctsNodes > 0 && t->count >= ag->mctsNodes) break;
+        MfIterate(ag);
+        if (t->count >= MF_MAX_NODES) break;
+    }
+    MfSolve(ag, root);
+    if (sMcTiming)
+        fprintf(stderr, "mctsf turn %u (%s): %d iters, nodes %d, descended %d, mean depth %.2f, max %d, sims %ld (unsupported steps %ld), root %dx%d value %.3f; sims %.1f ms (%.2f us each), RM+ solves %.1f ms (%ld, %.1f us each), fallbacks so far %u\n",
+                sim->turnCount, kind == SIM_REQ_ACTION ? "turn" : "switch", it, t->count, t->itDescended, it ? (double)t->depthSum / it : 0.0, t->depthMax,
+                t->nSims, t->nUnsupported, root->n, root->m, root->value, t->tSim * 1e3, t->nSims ? 1e6 * t->tSim / t->nSims : 0, t->tSolve * 1e3, t->nSolve, t->nSolve ? 1e6 * t->tSolve / t->nSolve : 0, t->fallbacks);
+    if (root->kind == FS_REQ_SWITCH) sigma = root->requester == 0 ? root->sRow : root->sCol;
+    else sigma = side == 0 ? root->sRow : root->sCol;
+    pick = SampleWithFloor(ag, sigma, nLegal, ag->floor);
+    *out = legal[pick];
+}
+
 int Sim_AgentFromSpec(struct SimAgent *ag, const char *spec)
 {
     char name[64], val[64];
@@ -1079,11 +1368,12 @@ int Sim_AgentFromSpec(struct SimAgent *ag, const char *spec)
         if (ag->samples == 1) ag->samples = 16; // used by the single-action fallback (mid-turn switches)
         return 0;
     }
-    if (!strcmp(name, "mcts"))
+    if (!strcmp(name, "mcts") || !strcmp(name, "mctsf"))
     {
         // mcts:nodes=<budget in tree nodes> (or iters=<tree iterations>), expand=current|eager|lazy, samples=<eager: outcomes per cell>,
         //      kids=<outcomes stored per cell (4)>, rm=<RM+ iterations per solve (30)>, eps=<uniform exploration (0.1)>, bonus=<optimism c (0)>
-        ag->decide = DecideMcts;
+        // mctsf: the same search on the fast engine (fast/), falling back to mcts on unsupported positions
+        ag->decide = !strcmp(name, "mctsf") ? DecideMctsFast : DecideMcts;
         ag->mctsIters = ag->iterations > 0 ? ag->iterations : 400;
         ag->mctsNodes = 0;
         if (OptValue(spec, "nodes", val, sizeof(val))) ag->mctsNodes = atoi(val);
