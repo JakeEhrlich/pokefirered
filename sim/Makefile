@@ -5,7 +5,7 @@ ROOT    := ..
 OPT     ?= -O2 -g
 CFLAGS  := $(OPT)
 CFLAGS  += -std=gnu11 -DFIRERED -DREVISION=0 -DENGLISH -DMODERN=1 -DSIM_BUILD=1
-CFLAGS  += -I include -I gen -I tests -I $(ROOT)/include -I $(ROOT)/src
+CFLAGS  += -I include -I gen -I tests -I fast -I $(ROOT)/include -I $(ROOT)/src
 CFLAGS  += -Wall -Wno-unused-function -Wno-unused-variable -Wno-unused-but-set-variable \
            -Wno-parentheses -Wno-switch -Wno-misleading-indentation -Wno-implicit-fallthrough \
            -Wno-unused-value -Wno-pointer-sign -Wno-int-conversion -Wno-incompatible-pointer-types-discards-qualifiers \
@@ -15,7 +15,7 @@ CFLAGS  += -Wall -Wno-unused-function -Wno-unused-variable -Wno-unused-but-set-v
            -Wno-unused-parameter -Wno-empty-body -Wno-self-assign -Wno-implicit-function-declaration -ferror-limit=300
 
 GEN_C   := gen/battle_scripts.c gen/battle_scripts_externs.c gen/string_tables.c gen/items_table.c gen/names.c gen/pokedex_hw.c
-SRC_C   := $(wildcard src/*.c)
+SRC_C   := $(wildcard src/*.c) $(wildcard fast/*.c)
 OBJS    := $(patsubst %.c,$(BUILD)/%.o,$(SRC_C) $(GEN_C))
 
 TEST_SRCS := $(filter-out tests/scenario.c tests/scenarios_main.c,$(wildcard tests/*.c))
