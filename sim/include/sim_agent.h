@@ -63,6 +63,8 @@ struct SimAgent
 // Returns 0 on success, -1 on a bad spec (with a message in ag->name).
 int Sim_AgentFromSpec(struct SimAgent *ag, const char *spec);
 u32 Sim_AgentRandom(struct SimAgent *ag);
+// The Run and Bun trainer AI (src/sim_rnb.c): move scoring with the doc's random components, plus its switch rule.
+void Sim_DecideRnB(struct SimAgent *ag, struct BattleSim *sim, const struct BattleSim *turnStart, u8 battler, u8 kind, struct SimAction *out);
 
 // Value functions.
 float Sim_ValueBasic(struct BattleSim *sim, u8 side, void *ctx);      // HP, status, stages, screens, hazards

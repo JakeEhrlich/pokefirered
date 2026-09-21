@@ -1497,6 +1497,7 @@ int Sim_AgentFromSpec(struct SimAgent *ag, const char *spec)
     if (!strcmp(name, "random")) { ag->decide = DecideRandom; return 0; }
     if (!strcmp(name, "movebias")) { ag->decide = DecideMoveBias; ag->epsilon = 0.85f; if (OptValue(spec, "moves", val, sizeof(val))) ag->epsilon = (float)atof(val); return 0; }
     if (!strcmp(name, "greedy")) { ag->decide = DecideGreedy; return 0; }
+    if (!strcmp(name, "rnb")) { ag->decide = Sim_DecideRnB; return 0; }
     if (!strcmp(name, "epsgreedy")) { ag->decide = DecideEpsGreedy; if (ag->epsilon == 0) ag->epsilon = 0.1f; return 0; }
     if (!strcmp(name, "expect")) { ag->decide = DecideExpect; return 0; }
     if (!strcmp(name, "epsexpect")) { ag->decide = DecideExpect; if (ag->epsilon == 0) ag->epsilon = 0.1f; return 0; }
