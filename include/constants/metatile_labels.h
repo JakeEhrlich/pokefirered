@@ -294,6 +294,8 @@
 // gTileset_ViridianForest
 #define METATILE_ViridianForest_HugeTreeTopMiddle_Grass  0x284
 #define METATILE_ViridianForest_HugeTreeTopMiddle_Mowed  0x281
+#define METATILE_ViridianForest_LedgeNorth_A             0x2AB
+#define METATILE_ViridianForest_LedgeNorth_B             0x2AC
 
 // Other
 #define METATILE_Fallarbor_AshGrass                      0x20A

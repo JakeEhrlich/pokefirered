@@ -103,3 +103,24 @@ ViridianForest_Text_LeavingViridianForest::
     .string "LEAVING VIRIDIAN FOREST\n"
     .string "PEWTER CITY AHEAD$"
 
+
+ViridianForest_Text_HoldBerries::
+    .string "TRAINER TIPS\n"
+    .string "BERRIES can't be used from the BAG.\p"
+    .string "Give one to a POKéMON to hold, and\n"
+    .string "it will eat it by itself in battle!$"
+
+ViridianForest_Text_CheriBush::
+    .string "The bush is heavy with CHERI BERRIES.\nThey cure paralysis.$"
+
+ViridianForest_Text_ChestoBush::
+    .string "The bush is heavy with CHESTO BERRIES.\nThey wake a sleeping POKéMON.$"
+
+ViridianForest_Text_PechaBush::
+    .string "The bush is heavy with PECHA BERRIES.\nThey cure poisoning.$"
+
+ViridianForest_Text_PersimBush::
+    .string "The bush is heavy with PERSIM BERRIES.\nThey snap a POKéMON out of confusion.$"
+
+ViridianForest_Text_OranBush::
+    .string "The bush is heavy with ORAN BERRIES.\nThey restore a little HP.$"

@@ -62,3 +62,47 @@ ViridianForest_EventScript_Charlie::
 	trainerbattle_single TRAINER_BUG_CATCHER_CHARLIE, ViridianForest_Text_CharlieIntro, ViridianForest_Text_CharlieDefeat
 	msgbox ViridianForest_Text_CharliePostBattle, MSGBOX_AUTOCLOSE
 	end
+
+ViridianForest_EventScript_TrainerTips6::
+	msgbox ViridianForest_Text_HoldBerries, MSGBOX_SIGN
+	end
+
+ViridianForest_EventScript_CheriBush::
+	lock
+	msgbox ViridianForest_Text_CheriBush
+	giveitem ITEM_CHERI_BERRY, 100
+	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
+	release
+	end
+
+ViridianForest_EventScript_ChestoBush::
+	lock
+	msgbox ViridianForest_Text_ChestoBush
+	giveitem ITEM_CHESTO_BERRY, 100
+	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
+	release
+	end
+
+ViridianForest_EventScript_PechaBush::
+	lock
+	msgbox ViridianForest_Text_PechaBush
+	giveitem ITEM_PECHA_BERRY, 100
+	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
+	release
+	end
+
+ViridianForest_EventScript_PersimBush::
+	lock
+	msgbox ViridianForest_Text_PersimBush
+	giveitem ITEM_PERSIM_BERRY, 100
+	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
+	release
+	end
+
+ViridianForest_EventScript_OranBush::
+	lock
+	msgbox ViridianForest_Text_OranBush
+	giveitem ITEM_ORAN_BERRY, 100
+	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
+	release
+	end

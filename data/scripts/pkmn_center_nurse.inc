@@ -26,6 +26,8 @@ EventScript_PkmnCenterNurse_TakeAndHealPkmn::
 	applymovement VAR_LAST_TALKED, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	special HealPlayerParty
+	special ResetAllTrainerFlags
+	special ResetHealingItems
 	return
 
 EventScript_PkmnCenterNurse_CheckTrainerTowerAndUnionRoom::

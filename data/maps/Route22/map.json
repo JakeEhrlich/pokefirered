@@ -65,6 +65,15 @@
       "y": 4,
       "elevation": 3,
       "var": "VAR_MAP_SCENE_ROUTE22",
+      "var_value": "0",
+      "script": "Route22_EventScript_EarlyRivalTriggerTop"
+    },
+    {
+      "type": "trigger",
+      "x": 33,
+      "y": 4,
+      "elevation": 3,
+      "var": "VAR_MAP_SCENE_ROUTE22",
       "var_value": "1",
       "script": "Route22_EventScript_EarlyRivalTriggerTop"
     },
@@ -74,8 +83,26 @@
       "y": 5,
       "elevation": 3,
       "var": "VAR_MAP_SCENE_ROUTE22",
+      "var_value": "0",
+      "script": "Route22_EventScript_EarlyRivalTriggerMid"
+    },
+    {
+      "type": "trigger",
+      "x": 33,
+      "y": 5,
+      "elevation": 3,
+      "var": "VAR_MAP_SCENE_ROUTE22",
       "var_value": "1",
       "script": "Route22_EventScript_EarlyRivalTriggerMid"
+    },
+    {
+      "type": "trigger",
+      "x": 33,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_MAP_SCENE_ROUTE22",
+      "var_value": "0",
+      "script": "Route22_EventScript_EarlyRivalTriggerBottom"
     },
     {
       "type": "trigger",

@@ -1,6 +1,7 @@
 #include "global.h"
 #include "gflib.h"
 #include "bg_regs.h"
+#include "game_rules.h"
 #include "cable_club.h"
 #include "credits.h"
 #include "event_data.h"
@@ -252,6 +253,7 @@ static void DoWhiteOut(void)
     RunScriptImmediately(EventScript_ResetEliteFourEnd);
     RemoveMoney(&gSaveBlock1Ptr->money, ComputeWhiteOutMoneyLoss());
     HealPlayerParty();
+    ResetAllTrainerFlags();
     Overworld_ResetStateAfterWhitingOut();
     Overworld_SetWhiteoutRespawnPoint();
     WarpIntoMap();

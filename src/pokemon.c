@@ -3,6 +3,7 @@
 #include "global.h"
 #include "gflib.h"
 #include "random.h"
+#include "game_rules.h"
 #include "text.h"
 #include "data.h"
 #include "battle.h"
@@ -3508,22 +3509,22 @@ void SetBoxMonData(struct BoxPokemon *boxMon, s32 field, const void *dataArg)
         SET8(substruct1->pp[field - MON_DATA_PP1]);
         break;
     case MON_DATA_HP_EV:
-        SET8(substruct2->hpEV);
+        substruct2->hpEV = 0; // EVs disabled
         break;
     case MON_DATA_ATK_EV:
-        SET8(substruct2->attackEV);
+        substruct2->attackEV = 0; // EVs disabled
         break;
     case MON_DATA_DEF_EV:
-        SET8(substruct2->defenseEV);
+        substruct2->defenseEV = 0; // EVs disabled
         break;
     case MON_DATA_SPEED_EV:
-        SET8(substruct2->speedEV);
+        substruct2->speedEV = 0; // EVs disabled
         break;
     case MON_DATA_SPATK_EV:
-        SET8(substruct2->spAttackEV);
+        substruct2->spAttackEV = 0; // EVs disabled
         break;
     case MON_DATA_SPDEF_EV:
-        SET8(substruct2->spDefenseEV);
+        substruct2->spDefenseEV = 0; // EVs disabled
         break;
     case MON_DATA_COOL:
         SET8(substruct2->cool);
@@ -3568,22 +3569,22 @@ void SetBoxMonData(struct BoxPokemon *boxMon, s32 field, const void *dataArg)
         SET8(substruct3->otGender);
         break;
     case MON_DATA_HP_IV:
-        SET8(substruct3->hpIV);
+        substruct3->hpIV = 0; // IVs disabled
         break;
     case MON_DATA_ATK_IV:
-        SET8(substruct3->attackIV);
+        substruct3->attackIV = 0; // IVs disabled
         break;
     case MON_DATA_DEF_IV:
-        SET8(substruct3->defenseIV);
+        substruct3->defenseIV = 0; // IVs disabled
         break;
     case MON_DATA_SPEED_IV:
-        SET8(substruct3->speedIV);
+        substruct3->speedIV = 0; // IVs disabled
         break;
     case MON_DATA_SPATK_IV:
-        SET8(substruct3->spAttackIV);
+        substruct3->spAttackIV = 0; // IVs disabled
         break;
     case MON_DATA_SPDEF_IV:
-        SET8(substruct3->spDefenseIV);
+        substruct3->spDefenseIV = 0; // IVs disabled
         break;
     case MON_DATA_IS_EGG:
         SET8(substruct3->isEgg);
@@ -3659,12 +3660,14 @@ void SetBoxMonData(struct BoxPokemon *boxMon, s32 field, const void *dataArg)
 #else
         u32 ivs = *data; // Bug: Only the HP IV and the lower 3 bits of the Attack IV are read. The rest become 0.
 #endif
-        substruct3->hpIV = ivs & MAX_IV_MASK;
-        substruct3->attackIV = (ivs >> 5) & MAX_IV_MASK;
-        substruct3->defenseIV = (ivs >> 10) & MAX_IV_MASK;
-        substruct3->speedIV = (ivs >> 15) & MAX_IV_MASK;
-        substruct3->spAttackIV = (ivs >> 20) & MAX_IV_MASK;
-        substruct3->spDefenseIV = (ivs >> 25) & MAX_IV_MASK;
+        // IVs disabled: every mon has 0 IVs regardless of what is written.
+        (void)ivs;
+        substruct3->hpIV = 0;
+        substruct3->attackIV = 0;
+        substruct3->defenseIV = 0;
+        substruct3->speedIV = 0;
+        substruct3->spAttackIV = 0;
+        substruct3->spDefenseIV = 0;
         break;
     }
     default:
@@ -4162,7 +4165,7 @@ bool8 PokemonUseItemEffects(struct Pokemon *mon, u16 item, u8 partyIndex, u8 mov
 
             // Rare Candy
             if ((itemEffect[cmdIndex] & ITEM3_LEVEL_UP)
-             && GetMonData(mon, MON_DATA_LEVEL, NULL) != MAX_LEVEL)
+             && GetMonData(mon, MON_DATA_LEVEL, NULL) < GetLevelCap())
             {
                 data = gExperienceTables[gSpeciesInfo[GetMonData(mon, MON_DATA_SPECIES, NULL)].growthRate][GetMonData(mon, MON_DATA_LEVEL, NULL) + 1];
                 SetMonData(mon, MON_DATA_EXP, &data);
@@ -4652,7 +4655,7 @@ bool8 PokemonItemUseNoEffect(struct Pokemon *mon, u16 item, u8 partyIndex, u8 mo
 
             // Rare Candy
             if ((itemEffect[cmdIndex] & ITEM3_LEVEL_UP)
-             && GetMonData(mon, MON_DATA_LEVEL, NULL) != MAX_LEVEL)
+             && GetMonData(mon, MON_DATA_LEVEL, NULL) < GetLevelCap())
                 retVal = FALSE;
 
             // Cure status
@@ -5518,6 +5521,8 @@ void MonGainEVs(struct Pokemon *mon, u16 defeatedSpecies)
     u8 holdEffect;
     int i;
 
+    return; // EVs disabled
+
     for (i = 0; i < NUM_STATS; i++)
     {
         evs[i] = GetMonData(mon, MON_DATA_HP_EV + i, NULL);
@@ -5687,9 +5692,9 @@ void PartySpreadPokerus(struct Pokemon *party)
 
 static void SetMonExpWithMaxLevelCheck(struct Pokemon *mon, int species, u8 unused, u32 data)
 {
-    if (data > gExperienceTables[gSpeciesInfo[species].growthRate][MAX_LEVEL])
+    if (data > GetLevelCapExp(species))
     {
-        data = gExperienceTables[gSpeciesInfo[species].growthRate][MAX_LEVEL];
+        data = GetLevelCapExp(species);
         SetMonData(mon, MON_DATA_EXP, &data);
     }
 }
@@ -5701,7 +5706,7 @@ bool8 TryIncrementMonLevel(struct Pokemon *mon)
     u8 newLevel = level + 1;
     u32 exp = GetMonData(mon, MON_DATA_EXP, NULL);
 
-    if (level < MAX_LEVEL)
+    if (level < GetLevelCap())
     {
         if (exp > gExperienceTables[gSpeciesInfo[species].growthRate][newLevel])
         {

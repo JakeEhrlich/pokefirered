@@ -42,6 +42,7 @@
 #include "constants/pokemon.h"
 #include "constants/songs.h"
 #include "constants/trainers.h"
+#include "game_rules.h"
 #if SIM_HARNESS
 #include "sim_harness.h"
 #endif
@@ -1639,6 +1640,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum)
                 break;
             }
             }
+            ApplyTrainerMonPreStatus(trainerNum, i, &party[i]);
         }
 
         gBattleTypeFlags |= gTrainers[trainerNum].doubleBattle;
