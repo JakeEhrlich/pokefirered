@@ -1397,6 +1397,37 @@ static void MfIterate(struct SimAgent *ag)
     }
 }
 
+// Runs the mctsf search from a fast state (a turn start or a replacement request) and returns the root's cell
+// values (n x m, side 0's view), average strategies and value. For analysis tools (tests/mvar.c).
+int Sim_MctsfSearchRoot(struct SimAgent *ag, const void *rootp, float *M, int *n, int *m, float *sRow, float *sCol, float *value)
+{
+    struct MfTree *t = &sMfTree;
+    struct MfNode *rt;
+    const fs_state *root = (const fs_state *)rootp;
+    int it, a, b, maxIt = ag->mctsNodes > 0 ? ag->mctsNodes * 20 : ag->mctsIters;
+    if (t->nodes == NULL) t->nodes = malloc(sizeof(struct MfNode) * MF_MAX_NODES);
+    t->count = 0;
+    t->itExpanded = t->itDescended = t->depthSum = t->depthMax = 0;
+    t->nSims = t->nUnsupported = t->nSolve = 0; t->tSim = t->tSolve = 0;
+    sMcTiming = 0;
+    if (MfNewNode(ag, root) < 0 || t->nodes[0].terminal) return -1;
+    rt = &t->nodes[0];
+    MfSolve(ag, rt);
+    for (it = 0; it < maxIt; it++)
+    {
+        if (ag->mctsNodes > 0 && t->count >= ag->mctsNodes) break;
+        MfIterate(ag);
+        if (t->count >= MF_MAX_NODES) break;
+    }
+    MfSolve(ag, rt);
+    *n = rt->n; *m = rt->m; *value = rt->value;
+    for (a = 0; a < rt->n; a++) sRow[a] = rt->sRow[a];
+    for (b = 0; b < rt->m; b++) sCol[b] = rt->sCol[b];
+    for (a = 0; a < rt->n; a++)
+        for (b = 0; b < rt->m; b++) { int vis; M[a * rt->m + b] = MfCellValue(t, rt, &rt->cells[a * rt->m + b], &vis); }
+    return 0;
+}
+
 // Maps the chosen fast action back to the verbatim action list of the root (both enumerate moves in slot order
 // then switches in party order, so the lists line up index by index when their sizes agree).
 static void DecideMctsFast(struct SimAgent *ag, struct BattleSim *sim, const struct BattleSim *ts, u8 battler, u8 kind, struct SimAction *out)

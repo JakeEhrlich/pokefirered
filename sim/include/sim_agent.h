@@ -62,6 +62,8 @@ struct SimAgent
 // MCTS with regret matching at every node and the value function at the leaves). Common keys: vf=basic|material, samples=N, floor=P, eps=P, seed=N.
 // Returns 0 on success, -1 on a bad spec (with a message in ag->name).
 int Sim_AgentFromSpec(struct SimAgent *ag, const char *spec);
+// mctsf search from a fast state (fast/fast.h): root cell values (n x m, side 0), strategies, value; -1 if terminal
+struct fs_state_tag; int Sim_MctsfSearchRoot(struct SimAgent *ag, const void *fsRoot, float *M, int *n, int *m, float *sRow, float *sCol, float *value);
 u32 Sim_AgentRandom(struct SimAgent *ag);
 // The Run and Bun trainer AI (src/sim_rnb.c): move scoring with the doc's random components, plus its switch rule.
 void Sim_DecideRnB(struct SimAgent *ag, struct BattleSim *sim, const struct BattleSim *turnStart, u8 battler, u8 kind, struct SimAction *out);
