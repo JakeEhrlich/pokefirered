@@ -65,6 +65,7 @@ enum { FS_OUTCOME_NONE = 0, FS_OUTCOME_P0_WON = 1, FS_OUTCOME_P1_WON = 2, FS_OUT
 #define FS_V_FLASH_FIRE  (1u << 28)
 #define FS_V_TRUANT_LOAF (1u << 29)
 #define FS_V_INTIMIDATE_PENDING (1u << 30)   // Intimidate not yet applied (no target when it entered; STATUS3_INTIMIDATE_POKES)
+#define FS_V_TRACE_ARMED (1u << 31)   // Trace has not copied an ability yet (STATUS3_TRACE)
 
 typedef struct
 {
@@ -79,6 +80,7 @@ typedef struct
     u8 hpType, hpPower;   // Hidden Power
     u8 friendship;
     u8 weightIdx;         // unused for now
+    u8 nature;            // personality % 25 (the confusion berries check the nature's disliked flavor)
 } fs_mon;
 
 typedef struct
@@ -100,7 +102,16 @@ typedef struct
     u16 lockedMove, lastMove, lastLandedMove, lastHitByType, chosenMove, bideDmg, wrapMove;
     u16 choicedMove;      // Choice Band lock (0 = none)
     u8 lastMoveTarget;
+    u8 lastHitPhysical;   // Counter / Mirror Coat category of the last hit taken this turn: Hidden Power counts as its listed Normal type (physical) in datahpupdate
     u8 hpTypeCache;
+    u8 hpPowerCache;      // Hidden Power power (from the battle copy's IVs: Transform copies them)
+    u8 mimicked;          // bitmask of move slots replaced by Mimic (their PP is not written back to the party)
+    u8 lockOn;            // Lock-On / Mind Reader turns left on this mon (the opponent's moves cannot miss it)
+    // multi-turn moves (fast_ext.c): lockedMove != 0 is the game's STATUS2_MULTIPLETURNS + gLockedMoves (no choice
+    // next turn); takenDmg is gTakenDmg (Bide); unable is WasUnableToUseMove() for this turn (Uproar / Thrash end);
+    // rage is STATUS2_RAGE
+    u16 takenDmg;
+    u8 unable, rage;
 } fs_battler;
 
 typedef struct
@@ -112,6 +123,7 @@ typedef struct
     u16 futureSightDmg, futureSightMove;
     u8 futureSightFromSide;
     u8 knockedOff;        // party slots whose item was knocked off (gWishFutureKnock.knockedOffMons): the party keeps the item, the battle copy loses it
+    u16 usedItem;         // the last held item consumed in this battler slot (gBattleStruct->usedHeldItems: Recycle)
 } fs_side;
 
 typedef struct { u8 type; u8 slot; } fs_action;   // FS_ACT_MOVE: move slot 0..3 (4 = Struggle); FS_ACT_SWITCH: party slot
@@ -163,6 +175,11 @@ int fs_step(fs_state *s, fs_action a0, fs_action a1);
 
 // ---- evaluation helpers
 float fs_value_basic(const fs_state *s, int side);   // the same heuristic as Sim_ValueBasic, on the fast state
+#define FS_TEMPO_NF 19
+int fs_tempo_features(const fs_state *s, int side, float *f);       // fast_value.c: tempo features (f[0] = fs_value_basic)
+int fs_tempo_features_sym(const fs_state *s, int side, float *f);   // antisymmetrised: (f(side) - f(opp)) / 2
+float fs_value_tempo(const fs_state *s, int side);                  // fitted linear value on the symmetric features
+float fs_value_ply1(const fs_state *s, int side);                   // analytic one-ply lookahead (closed-form joint matrix + RM+)
 
 // ---- randomness (xorshift32 on s->rng)
 static inline u32 fs_rand(fs_state *s) { u32 x = s->rng; x ^= x << 13; x ^= x >> 17; x ^= x << 5; s->rng = x; return x; }

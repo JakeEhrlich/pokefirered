@@ -415,13 +415,31 @@ static int SampleWithFloor(struct SimAgent *ag, const float *sigma, int n, float
     return n - 1;
 }
 
+// Records the exact distribution a final SampleWithFloor(sigma, n, floor) draws from (ag->policy).
+static void RecordPolicy(struct SimAgent *ag, const float *sigma, int n, float floor)
+{
+    float s = 0.0f;
+    int i;
+    if (n > SIM_AGENT_MAX_ACTIONS) { ag->policyValid = 0; return; }
+    for (i = 0; i < n; i++) { ag->policy[i] = sigma[i] < floor ? floor : sigma[i]; s += ag->policy[i]; }
+    if (s <= 0) { ag->policyValid = 0; return; }
+    for (i = 0; i < n; i++) ag->policy[i] /= s;
+    ag->policyN = n;
+    ag->policyValid = 1;
+}
+
 // ---------------------------------------------------------------------------------------------------------
 // Agents
 
 static void DecideRandom(struct SimAgent *ag, struct BattleSim *sim, const struct BattleSim *ts, u8 battler, u8 kind, struct SimAction *out)
 {
+    struct SimAction acts[MAX_ACTIONS];
+    u8 slots[PARTY_SIZE];
+    int n, i;
     ag->decisions++;
     RandomLegal(ag, sim, battler, kind, out);
+    n = kind == SIM_REQ_SWITCH ? Sim_LegalSwitches(sim, battler, slots, PARTY_SIZE) : Sim_LegalActions(sim, battler, acts, MAX_ACTIONS);
+    if (n > 0 && n <= SIM_AGENT_MAX_ACTIONS) { for (i = 0; i < n; i++) ag->policy[i] = 1.0f / n; ag->policyN = n; ag->policyValid = 1; }
 }
 
 static void DecideMoveBias(struct SimAgent *ag, struct BattleSim *sim, const struct BattleSim *ts, u8 battler, u8 kind, struct SimAction *out)
@@ -592,6 +610,7 @@ static void DecideRegret(struct SimAgent *ag, struct BattleSim *sim, const struc
     if (ag->epsilon > 0 && Frand(ag) < ag->epsilon) { RandomLegal(ag, sim, battler, kind, out); return; }
     if (!BuildMatrix(ag, sim, ts, battler, kind, mine, &n, theirs, &m, M)) { DecideBySingleEval(ag, sim, battler, kind, out); return; }
     Sim_RegretMatching(M, n, m, ag->iterations, ag->plus, ag->alternating, ag->linearAvg, sRow, sCol);
+    if (ag->epsilon <= 0) RecordPolicy(ag, sRow, n, ag->floor);
     *out = mine[SampleWithFloor(ag, sRow, n, ag->floor)];
 }
 
@@ -646,6 +665,7 @@ static void DecideRegretSampled(struct SimAgent *ag, struct BattleSim *sim, cons
         ag->matrixCells += n + m;
     }
     Normalize(S1, n, avg);
+    if (ag->epsilon <= 0) RecordPolicy(ag, avg, n, ag->floor);
     *out = mine[SampleWithFloor(ag, avg, n, ag->floor)];
 }
 
@@ -1011,12 +1031,12 @@ static void DecideMcts(struct SimAgent *ag, struct BattleSim *sim, const struct 
     }
     if (root->kind == SIM_REQ_SWITCH)
     {
-        if ((root->requester & BIT_SIDE) == 0) *out = root->mine[SampleWithFloor(ag, root->sRow, root->n, ag->floor)];
-        else *out = root->theirs[SampleWithFloor(ag, root->sCol, root->m, ag->floor)];
+        if ((root->requester & BIT_SIDE) == 0) { RecordPolicy(ag, root->sRow, root->n, ag->floor); *out = root->mine[SampleWithFloor(ag, root->sRow, root->n, ag->floor)]; }
+        else { RecordPolicy(ag, root->sCol, root->m, ag->floor); *out = root->theirs[SampleWithFloor(ag, root->sCol, root->m, ag->floor)]; }
         return;
     }
-    if (side == 0) *out = root->mine[SampleWithFloor(ag, root->sRow, root->n, ag->floor)];
-    else *out = root->theirs[SampleWithFloor(ag, root->sCol, root->m, ag->floor)];
+    if (side == 0) { RecordPolicy(ag, root->sRow, root->n, ag->floor); *out = root->mine[SampleWithFloor(ag, root->sRow, root->n, ag->floor)]; }
+    else { RecordPolicy(ag, root->sCol, root->m, ag->floor); *out = root->theirs[SampleWithFloor(ag, root->sCol, root->m, ag->floor)]; }
 }
 
 
@@ -1030,6 +1050,13 @@ static void DecideMcts(struct SimAgent *ag, struct BattleSim *sim, const struct 
 #define MF_MAX_ACTIONS 10          // singles: 4 moves (or Struggle) + 5 switches
 #define MF_MAX_NODES 4096
 
+#define MF_MAX_KIDS 16
+// A stored outcome of a joint cell. mcts scheme: one seed, `visits` descents. Bucket scheme (ag->mctsBuckets > 0):
+// one representative seed per outcome bucket `key`, `count` of the cell's samples that fell into it (its probability
+// mass is count / samples) and the sum of their leaf values.
+struct MfKid { u32 seed; u32 key; float leaf; int visits, node, count; };
+struct MfCell { struct MfKid kid[MF_MAX_KIDS]; int nKids, samples; };
+
 struct MfNode
 {
     fs_state state;
@@ -1040,7 +1067,7 @@ struct MfNode
     int visits;
     float value, prior;
     u8 terminal;
-    struct McCell cells[MF_MAX_ACTIONS * MF_MAX_ACTIONS];
+    struct MfCell cells[MF_MAX_ACTIONS * MF_MAX_ACTIONS];
     float R1[MF_MAX_ACTIONS], R2[MF_MAX_ACTIONS], S1[MF_MAX_ACTIONS], S2[MF_MAX_ACTIONS], s1[MF_MAX_ACTIONS], s2[MF_MAX_ACTIONS];
     int rmT;
     float sRow[MF_MAX_ACTIONS], sCol[MF_MAX_ACTIONS];
@@ -1056,6 +1083,54 @@ struct MfTree
     double tSim, tSolve;
 };
 static _Thread_local struct MfTree sMfTree;
+
+// Random-move playout policy: a random usable move (a random switch when only switches are legal).
+static fs_action MfPlayoutAction(fs_state *s, int side)
+{
+    fs_action acts[MF_MAX_ACTIONS + 8], out = {FS_ACT_MOVE, 0};
+    int n = fs_legal_actions(s, side, acts), moves = 0, i;
+    if (n <= 0) return out;
+    for (i = 0; i < n; i++) if (acts[i].type == FS_ACT_MOVE) moves++;
+    if (moves > 0)
+    {
+        int pick = (int)fs_roll(s, (u32)moves);
+        for (i = 0; i < n; i++) if (acts[i].type == FS_ACT_MOVE && pick-- == 0) return acts[i];
+    }
+    return acts[fs_roll(s, (u32)n)];
+}
+
+// Leaf = mean of ag->rollouts playouts of up to ag->rolloutDepth turns from `s`; a finished game scores +-1 (side 0),
+// a truncated one the heuristic on the outcome scale (tanh(3.5 atanh V), the AIVAT calibration).
+static float MfPlayout(struct SimAgent *ag, const fs_state *s)
+{
+    double sum = 0.0;
+    int r, t;
+    for (r = 0; r < ag->rollouts; r++)
+    {
+        fs_state w = *s;
+        fs_seed(&w, fs_rand(&w) ^ (u32)(r * 0x9E3779B9u) ^ 1u);
+        for (t = 0; t < ag->rolloutDepth && w.request != FS_REQ_DONE; t++)
+        {
+            fs_action a0 = MfPlayoutAction(&w, 0), a1 = MfPlayoutAction(&w, 1);
+            fs_step(&w, a0, a1);
+            ag->simulatedTurns++;
+            sMfTree.nSims++;
+        }
+        if (w.request == FS_REQ_DONE) sum += fs_value_basic(&w, 0);
+        else
+        {
+            float v = fs_value_basic(&w, 0);
+            if (v > 0.999f) v = 0.999f; else if (v < -0.999f) v = -0.999f;
+            sum += tanhf(3.5f * atanhf(v));
+        }
+    }
+    return (float)(sum / ag->rollouts);
+}
+
+static float MfValue(const struct SimAgent *ag, const fs_state *s)
+{
+    return ag->fvf == 2 ? fs_value_ply1(s, 0) : ag->fvf == 1 ? fs_value_tempo(s, 0) : fs_value_basic(s, 0);
+}
 
 static float MfStep(struct SimAgent *ag, const struct MfNode *node, int a, int b, u32 seed, fs_state *out)
 {
@@ -1074,9 +1149,26 @@ static float MfStep(struct SimAgent *ag, const struct MfNode *node, int a, int b
     else
         fs_step(out, node->mine[a], node->theirs[b]);
     if (out->unsupported) sMfTree.nUnsupported++;
-    v = fs_value_basic(out, 0);
+    v = ag->rollouts > 0 ? MfPlayout(ag, out) : MfValue(ag, out);
     if (sMcTiming) sMfTree.tSim += McNow() - t0;
     return v;
+}
+
+// Outcome bucket of a state after a step: request kind, who must switch, and per side the active mon's HP quartile,
+// whether it is down, its status and the number of mons left.
+static u32 MfBucketKey(const fs_state *s)
+{
+    u32 key = s->request | (s->switchMask << 2) | ((u32)(s->outcome & 3) << 4);
+    int side;
+    for (side = 0; side < 2; side++)
+    {
+        const fs_battler *a = &s->side[side].act;
+        u32 q = (!a->present || a->hp == 0) ? 0 : 1 + (a->hp * 4 - 1) / (a->maxHP ? a->maxHP : 1);   // 0 down, 1..4 quartile
+        u32 st = a->present && (a->status1 & FS_S1_ANY) ? 1 : 0;
+        u32 alive = fs_alive_count(s, side) & 7;
+        key |= (q | (st << 3) | (alive << 4)) << (8 + side * 8);
+    }
+    return key;
 }
 
 static int MfNewNode(struct SimAgent *ag, const fs_state *state)
@@ -1091,7 +1183,7 @@ static int MfNewNode(struct SimAgent *ag, const fs_state *state)
     nd->state = *state;
     nd->visits = 0;
     nd->rmT = 0;
-    nd->prior = nd->value = fs_value_basic(&nd->state, 0);
+    nd->prior = nd->value = MfValue(ag, &nd->state);
     nd->terminal = state->request == FS_REQ_DONE;
     nd->n = nd->m = 0;
     if (nd->terminal) return idx;
@@ -1114,20 +1206,51 @@ static int MfNewNode(struct SimAgent *ag, const fs_state *state)
     memset(nd->R1, 0, sizeof(nd->R1)); memset(nd->R2, 0, sizeof(nd->R2)); memset(nd->S1, 0, sizeof(nd->S1)); memset(nd->S2, 0, sizeof(nd->S2));
     for (a = 0; a < nd->n; a++) nd->s1[a] = 1.0f / nd->n;
     for (b = 0; b < nd->m; b++) nd->s2[b] = 1.0f / nd->m;
-    if (ag->mctsExpand != MCTS_EXPAND_LAZY)
+    if (ag->mctsBuckets > 0)
+    {
+        // every cell: mctsBuckets samples grouped by outcome bucket; each bucket keeps one seed and its mass
+        for (a = 0; a < nd->n; a++)
+            for (b = 0; b < nd->m; b++)
+            {
+                struct MfCell *c = &nd->cells[a * nd->m + b];
+                for (s = 0; s < ag->mctsBuckets; s++)
+                {
+                    u32 seed = Sim_AgentRandom(ag), key;
+                    float leaf = MfStep(ag, nd, a, b, seed, &child);
+                    int k, best = -1;
+                    key = MfBucketKey(&child);
+                    for (k = 0; k < c->nKids; k++) if (c->kid[k].key == key) { best = k; break; }
+                    if (best < 0 && c->nKids < MF_MAX_KIDS)
+                    {
+                        best = c->nKids++;
+                        c->kid[best].seed = seed; c->kid[best].key = key; c->kid[best].leaf = 0; c->kid[best].count = 0; c->kid[best].visits = 0; c->kid[best].node = -1;
+                    }
+                    if (best < 0)
+                    {
+                        // out of bucket slots: join the bucket whose mean leaf is closest
+                        float bd = 1e9f;
+                        for (k = 0; k < c->nKids; k++) { float d = fabsf(c->kid[k].leaf / c->kid[k].count - leaf); if (d < bd) { bd = d; best = k; } }
+                    }
+                    c->kid[best].leaf += leaf; c->kid[best].count++;
+                    c->samples++;
+                    ag->matrixCells++;
+                }
+            }
+    }
+    else if (ag->mctsExpand != MCTS_EXPAND_LAZY)
     {
         int per = ag->mctsExpand == MCTS_EXPAND_EAGER ? ag->samples : 1;
         if (per > ag->mctsKids) per = ag->mctsKids;
         for (a = 0; a < nd->n; a++)
             for (b = 0; b < nd->m; b++)
             {
-                struct McCell *c = &nd->cells[a * nd->m + b];
+                struct MfCell *c = &nd->cells[a * nd->m + b];
                 for (s = 0; s < per; s++)
                 {
-                    struct McKid *kd = &c->kid[c->nKids++];
+                    struct MfKid *kd = &c->kid[c->nKids++];
                     kd->seed = Sim_AgentRandom(ag);
                     kd->leaf = MfStep(ag, nd, a, b, kd->seed, &child);
-                    kd->visits = 1; kd->node = -1;
+                    kd->visits = 1; kd->node = -1; kd->count = 1;
                     ag->matrixCells++;
                 }
             }
@@ -1135,13 +1258,25 @@ static int MfNewNode(struct SimAgent *ag, const fs_state *state)
     return idx;
 }
 
-static float MfCellValue(const struct MfTree *t, const struct MfNode *nd, const struct McCell *c, int *visits)
+static float MfCellValue(const struct MfTree *t, const struct MfNode *nd, const struct MfCell *c, int *visits)
 {
     float sum = 0.0f;
     int n = 0, k;
+    if (c->samples > 0)
+    {
+        // bucket scheme: probability-weighted over the buckets (expanded buckets use their node's value)
+        for (k = 0; k < c->nKids; k++)
+        {
+            const struct MfKid *kd = &c->kid[k];
+            sum += (kd->node >= 0 ? t->nodes[kd->node].value : kd->leaf / kd->count) * kd->count;
+            n += kd->visits;
+        }
+        *visits = n;
+        return sum / c->samples;
+    }
     for (k = 0; k < c->nKids; k++)
     {
-        const struct McKid *kd = &c->kid[k];
+        const struct MfKid *kd = &c->kid[k];
         sum += (kd->node >= 0 ? t->nodes[kd->node].value : kd->leaf) * kd->visits;
         n += kd->visits;
     }
@@ -1212,8 +1347,8 @@ static void MfIterate(struct SimAgent *ag)
     for (;;)
     {
         struct MfNode *nd = &t->nodes[idx];
-        struct McCell *c;
-        struct McKid *kd;
+        struct MfCell *c;
+        struct MfKid *kd;
         int a, b, ni;
         if (nd->terminal || depth >= MCTS_MAX_DEPTH - 1) break;
         if (nd->visits == 0) MfSolve(ag, nd);
@@ -1221,7 +1356,17 @@ static void MfIterate(struct SimAgent *ag)
         b = McSample(ag, nd->sCol, nd->m, ag->epsilon);
         path[depth++] = idx;
         c = &nd->cells[a * nd->m + b];
-        if (c->nKids < ag->mctsKids)
+        if (c->samples > 0)
+        {
+            // bucket scheme: a bucket in proportion to its mass; descend if expanded, else expand its representative
+            int r = (int)(Sim_AgentRandom(ag) % (u32)c->samples), k;
+            for (k = 0; k < c->nKids - 1; k++) { r -= c->kid[k].count; if (r < 0) break; }
+            kd = &c->kid[k];
+            kd->visits++;
+            if (kd->node >= 0) { idx = kd->node; t->itDescended++; continue; }
+            MfStep(ag, nd, a, b, kd->seed, &child);
+        }
+        else if (c->nKids < ag->mctsKids)
         {
             kd = &c->kid[c->nKids++];
             kd->seed = Sim_AgentRandom(ag);
@@ -1252,6 +1397,37 @@ static void MfIterate(struct SimAgent *ag)
     }
 }
 
+// Runs the mctsf search from a fast state (a turn start or a replacement request) and returns the root's cell
+// values (n x m, side 0's view), average strategies and value. For analysis tools (tests/mvar.c).
+int Sim_MctsfSearchRoot(struct SimAgent *ag, const void *rootp, float *M, int *n, int *m, float *sRow, float *sCol, float *value)
+{
+    struct MfTree *t = &sMfTree;
+    struct MfNode *rt;
+    const fs_state *root = (const fs_state *)rootp;
+    int it, a, b, maxIt = ag->mctsNodes > 0 ? ag->mctsNodes * 20 : ag->mctsIters;
+    if (t->nodes == NULL) t->nodes = malloc(sizeof(struct MfNode) * MF_MAX_NODES);
+    t->count = 0;
+    t->itExpanded = t->itDescended = t->depthSum = t->depthMax = 0;
+    t->nSims = t->nUnsupported = t->nSolve = 0; t->tSim = t->tSolve = 0;
+    sMcTiming = 0;
+    if (MfNewNode(ag, root) < 0 || t->nodes[0].terminal) return -1;
+    rt = &t->nodes[0];
+    MfSolve(ag, rt);
+    for (it = 0; it < maxIt; it++)
+    {
+        if (ag->mctsNodes > 0 && t->count >= ag->mctsNodes) break;
+        MfIterate(ag);
+        if (t->count >= MF_MAX_NODES) break;
+    }
+    MfSolve(ag, rt);
+    *n = rt->n; *m = rt->m; *value = rt->value;
+    for (a = 0; a < rt->n; a++) sRow[a] = rt->sRow[a];
+    for (b = 0; b < rt->m; b++) sCol[b] = rt->sCol[b];
+    for (a = 0; a < rt->n; a++)
+        for (b = 0; b < rt->m; b++) { int vis; M[a * rt->m + b] = MfCellValue(t, rt, &rt->cells[a * rt->m + b], &vis); }
+    return 0;
+}
+
 // Maps the chosen fast action back to the verbatim action list of the root (both enumerate moves in slot order
 // then switches in party order, so the lists line up index by index when their sizes agree).
 static void DecideMctsFast(struct SimAgent *ag, struct BattleSim *sim, const struct BattleSim *ts, u8 battler, u8 kind, struct SimAction *out)
@@ -1266,7 +1442,7 @@ static void DecideMctsFast(struct SimAgent *ag, struct BattleSim *sim, const str
     if (kind == SIM_REQ_ACTION && (ts == NULL || (ts->battleTypeFlags & BATTLE_TYPE_DOUBLE) || ts->turnCount != sim->turnCount))
     { DecideMcts(ag, sim, ts, battler, kind, out); return; }
     rootState = kind == SIM_REQ_ACTION ? ts : sim;
-    if (fs_import(&fs, rootState) != 0) { t->fallbacks++; DecideMcts(ag, sim, ts, battler, kind, out); return; }
+    if (fs_import(&fs, rootState) != 0) { t->fallbacks++; if (getenv("SIM_MCTS_TRACE")) fprintf(stderr, "mctsf fallback: import unsupported mask %x\n", fs.unsupported); DecideMcts(ag, sim, ts, battler, kind, out); return; }
     // the verbatim legal list of the deciding battler, for the action mapping
     if (kind == SIM_REQ_SWITCH)
     {
@@ -1280,7 +1456,7 @@ static void DecideMctsFast(struct SimAgent *ag, struct BattleSim *sim, const str
     {
         fs_action fl[MF_MAX_ACTIONS + 8];
         int nf = fs_legal_actions(&fs, side, fl);
-        if (nf != nLegal || nf > MF_MAX_ACTIONS || nLegal == 0) { t->fallbacks++; DecideMcts(ag, sim, ts, battler, kind, out); return; }
+        if (nf != nLegal || nf > MF_MAX_ACTIONS || nLegal == 0) { t->fallbacks++; if (getenv("SIM_MCTS_TRACE")) fprintf(stderr, "mctsf fallback: legal actions fast %d verbatim %d\n", nf, nLegal); DecideMcts(ag, sim, ts, battler, kind, out); return; }
     }
     ag->decisions++;
     if (t->nodes == NULL) t->nodes = malloc(sizeof(struct MfNode) * MF_MAX_NODES);
@@ -1304,6 +1480,7 @@ static void DecideMctsFast(struct SimAgent *ag, struct BattleSim *sim, const str
                 t->nSims, t->nUnsupported, root->n, root->m, root->value, t->tSim * 1e3, t->nSims ? 1e6 * t->tSim / t->nSims : 0, t->tSolve * 1e3, t->nSolve, t->nSolve ? 1e6 * t->tSolve / t->nSolve : 0, t->fallbacks);
     if (root->kind == FS_REQ_SWITCH) sigma = root->requester == 0 ? root->sRow : root->sCol;
     else sigma = side == 0 ? root->sRow : root->sCol;
+    RecordPolicy(ag, sigma, nLegal, ag->floor);
     pick = SampleWithFloor(ag, sigma, nLegal, ag->floor);
     *out = legal[pick];
 }
@@ -1326,6 +1503,7 @@ int Sim_AgentFromSpec(struct SimAgent *ag, const char *spec)
     {
         if (!strcmp(val, "material")) ag->value = Sim_ValueMaterial;
         else if (!strcmp(val, "basic")) ag->value = Sim_ValueBasic;
+        else if (!strcmp(val, "ply1") || !strcmp(val, "tempo")) ag->value = Sim_ValueBasic;   // fast-state leaves (mctsf), see fvf
         else { snprintf(ag->name, sizeof(ag->name), "unknown value function %s", val); return -1; }
     }
     if (OptValue(spec, "samples", val, sizeof(val))) ag->samples = atoi(val) > 0 ? atoi(val) : 1;
@@ -1350,6 +1528,7 @@ int Sim_AgentFromSpec(struct SimAgent *ag, const char *spec)
     if (!strcmp(name, "random")) { ag->decide = DecideRandom; return 0; }
     if (!strcmp(name, "movebias")) { ag->decide = DecideMoveBias; ag->epsilon = 0.85f; if (OptValue(spec, "moves", val, sizeof(val))) ag->epsilon = (float)atof(val); return 0; }
     if (!strcmp(name, "greedy")) { ag->decide = DecideGreedy; return 0; }
+    if (!strcmp(name, "rnb")) { ag->decide = Sim_DecideRnB; return 0; }
     if (!strcmp(name, "epsgreedy")) { ag->decide = DecideEpsGreedy; if (ag->epsilon == 0) ag->epsilon = 0.1f; return 0; }
     if (!strcmp(name, "expect")) { ag->decide = DecideExpect; return 0; }
     if (!strcmp(name, "epsexpect")) { ag->decide = DecideExpect; if (ag->epsilon == 0) ag->epsilon = 0.1f; return 0; }
@@ -1388,6 +1567,13 @@ int Sim_AgentFromSpec(struct SimAgent *ag, const char *spec)
         if (OptValue(spec, "kids", val, sizeof(val))) { ag->mctsKids = atoi(val); if (ag->mctsKids < 1) ag->mctsKids = 1; if (ag->mctsKids > MCTS_MAX_KIDS) ag->mctsKids = MCTS_MAX_KIDS; }
         ag->mctsBonus = 0.0f;
         if (OptValue(spec, "bonus", val, sizeof(val))) ag->mctsBonus = (float)atof(val);
+        ag->mctsBuckets = 0;
+        if (OptValue(spec, "buckets", val, sizeof(val))) ag->mctsBuckets = atoi(val) > 0 ? atoi(val) : 0;
+        ag->fvf = 0;
+        if (OptValue(spec, "vf", val, sizeof(val))) { if (!strcmp(val, "ply1")) ag->fvf = 2; else if (!strcmp(val, "tempo")) ag->fvf = 1; }
+        ag->rollouts = 0; ag->rolloutDepth = 20;
+        if (OptValue(spec, "rollout", val, sizeof(val))) ag->rollouts = atoi(val) > 0 ? atoi(val) : 0;
+        if (OptValue(spec, "rdepth", val, sizeof(val))) ag->rolloutDepth = atoi(val) > 0 ? atoi(val) : 20;
         ag->plus = 1; ag->alternating = 1; ag->linearAvg = 1;
         return 0;
     }

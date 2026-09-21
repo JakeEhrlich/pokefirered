@@ -49,7 +49,20 @@ struct fs_hit { s32 dmg; int hit; int crit; int mult; int dbond; int hadSub; };
 int fs_ext_effect_supported(u8 effect);
 int fs_ext_ability_supported(u8 ability);
 int fs_ext_use_move(fs_state *s, int side, int slot, u16 move, u16 power, u8 type, void *hit);
-void fs_ext_switch_in_ability(fs_state *s, int side);
+void fs_ext_switch_in_ability(fs_state *s, int side);   // called for every switch-in, after the core's own switch-in abilities
+void fs_ext_field_update(fs_state *s);                   // after every action, replacement and end of turn: Trace retries, Forecast forms
+void fs_ext_before_switch(fs_state *s, int side);        // right before a chosen (not forced) switch action runs: Pursuit
+void fs_ext_on_damage(fs_state *s, int side, u16 move, const struct fs_hit *h);   // after each damaging hit by `side` (Color Change)
+void fs_ext_end_turn_item(fs_state *s, int side);        // end-of-turn-only item effects (the confusion berries)
+// multi-turn locking (Thrash / Uproar / Bide / Rollout / two-turn moves) and Rage: what the core needs from fast_ext.c
+int fs_ext_locked_slot(const fs_battler *a);                 // move slot of a->lockedMove
+void fs_ext_cancel_multi_turn(fs_battler *a);                // CancelMultiTurnMoves
+int fs_ext_uproar_active(const fs_state *s, int side);       // UproarWakeUpCheck for side's active mon (no sleep possible)
+int fs_ext_bide_turn(fs_state *s, int side);                 // CANCELLER_BIDE: 1 = the mon stores energy (move consumed)
+void fs_ext_turn_start(fs_state *s);                         // after the actions are chosen (TryClearRageStatuses)
+void fs_ext_end_turn_begin(fs_state *s);                     // before the end-turn effects (sleeping mons lose their lock)
+void fs_ext_end_turn_battler(fs_state *s, int side);         // ENDTURN_UPROAR / ENDTURN_THRASH
+void fs_ext_move_end(fs_state *s, int side, u16 move, const struct fs_hit *h);   // MOVEEND_RAGE
 // helpers exported by fast_effects.c for extensions
 int fs_change_stage(fs_state *s, int side, int stat, int delta, int byOpp, int ignoreSub);
 int fs_try_status(fs_state *s, int side, u16 status, int byOpp, int attackerSide, int isSecondary);
@@ -59,5 +72,12 @@ void fs_heal(fs_state *s, int side, s32 amount);
 // one hit of a damaging move with all the core's rules (accuracy unless noAcc, immunities, crit, STAB, type, roll,
 // Substitute / Endure / Focus Band, contact abilities, King's Rock). Returns damage dealt (0 = no hit / no damage).
 s32 fs_attack(fs_state *s, int side, u16 move, u16 power, u8 type, int noAcc, int falseSwipe, int noCrit);
+// the same with a damage multiplier applied with the crit multiplier (before STAB / type) and optionally no random roll
+s32 fs_attack_ex(fs_state *s, int side, u16 move, u16 power, u8 type, int noAcc, int falseSwipe, int noCrit, int dmgMult, int noRoll);
+// the after-hit effects alone (contact abilities, Color Change, Shell Bell, King's Rock) for damage the extension dealt itself
+void fs_after_hit(fs_state *s, int side, u16 move, s32 dmg, int hadSub);
+// the effect of `move` (slot = its slot for PP checks) without the cancellers / PP deduction / last-move update
+// (jumptocalledmove: Sleep Talk); runs the core's move tail
+void fs_execute_move(fs_state *s, int side, int slot, u16 move);
 
 #endif

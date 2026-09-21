@@ -6,6 +6,9 @@
 //         [--paired]             (games 2k and 2k+1 share agents, teams and engine seed with the sides swapped)
 //   arena --teams pool.tsv --rate-teams --agent rmplus:iters=100 --games 20000 ...   (teams are the players)
 //   --pool  = the built-in agent pool (random ... rmplus:iters=1000)
+//   --aivat K [--aivat-calib k] [--aivat-verbatim] [--aivat-lookahead K1]   AIVAT scoring (include/sim_aivat.h)
+//   --cs-decide | --cs-eps E [--cs-alpha A] [--cs-topt T] [--cs-burnin N]  anytime-valid confidence sequence on the
+//         agent-0-vs-agent-1 score stream (two agents only); the run stops when 0 is excluded / the half-width is <= E
 //
 // pool.tsv is the flat form from tools/teams.py tsv (one mon per line). Doubles teams are skipped unless
 // --doubles (the joint-action agents evaluate single actions there).
@@ -25,6 +28,7 @@
 #include "pokemon.h"
 #include "sim.h"
 #include "sim_agent.h"
+#include "sim_aivat.h"
 #include "constants/species.h"
 
 #define MAX_AGENTS 64
@@ -49,6 +53,46 @@ static _Thread_local int sRecCount;
 static pthread_mutex_t sLock = PTHREAD_MUTEX_INITIALIZER;
 static int sNextGame;
 static long sTotalTurns, sTotalDecisions;
+// --aivat K: AIVAT scoring (see include/sim_aivat.h). Per game the worker gets side 0's raw and AIVAT scores.
+static int sAivatK = 0, sAivatVerbatim = 0;
+static float sAivatCalib = 0;
+static int sAivatVf = 0, sAivatK1 = 2;
+static FILE *sAivatDump;
+static _Thread_local double sGameRaw, sGameAivat;
+static _Thread_local struct SimAivat sAv;
+static long sAvNodes, sAvFast, sAvSkipped, sAvSims;
+struct PairStat { long n; double raw, raw2, av, av2; };
+static struct PairStat sPairStat[MAX_AGENTS][MAX_AGENTS];   // [ia][ib], scores from ia's view (ia < ib)
+static double *sPairRawG, *sPairAvG; static u8 *sPairHaveG; static int *sPairIa, *sPairIb;   // --paired: per game, for pair-level SEs
+// Anytime-valid monitoring (AV-AIVAT, Li/Chen/Huang 2026, eq. 5: the asymptotic confidence sequence of Waudby-Smith et al.):
+// the per-game (per-pair when --paired) score stream of agent 0 vs agent 1 is monitored in game order; the run stops at
+// the first prefix whose half-width is <= --cs-eps, or (with --cs-decide) whose interval excludes 0. Both the raw and
+// the AIVAT stream are tracked; the primary one (AIVAT when --aivat) decides.
+static double sCsEps = 0, sCsAlpha = 0.05, sCsRho = 0; static int sCsDecide = 0, sCsTopt = 200, sCsBurnin = 30;   // the CS is asymptotic: no stop before sCsBurnin units
+static double *sStreamRaw, *sStreamAv; static u8 *sStreamHave;   // per game (or per pair): agent 0's score vs agent 1
+static volatile int sStop; static int sCsStopRaw = -1, sCsStopAv = -1; static double sCsWidthRaw, sCsWidthAv, sCsMeanRaw, sCsMeanAv;
+static double CsHalfWidth(double var, long t, double rho, double alpha)
+{
+    double r2 = rho * rho;
+    return sqrt(var * 2 * (t * r2 + 1) / (t * t * r2) * log(sqrt(t * r2 + 1) / alpha));
+}
+// returns the stopping index (1-based unit count) on the complete prefix, or -1; fills the interval at the last complete unit
+static int CsScan(const double *x, const u8 *have, int units, int stopAt, double *meanOut, double *widthOut)
+{
+    double sum = 0, sum2 = 0; long t; int stop = -1;
+    *meanOut = 0; *widthOut = 0;
+    for (t = 1; t <= units && have[t - 1]; t++)
+    {
+        double m, v, w;
+        sum += x[t - 1]; sum2 += x[t - 1] * x[t - 1];
+        m = sum / t; v = t > 1 ? (sum2 - t * m * m) / (t - 1) : 1.0;
+        if (v < 1e-12) v = 1e-12;
+        w = CsHalfWidth(v, t, sCsRho, sCsAlpha);
+        *meanOut = m; *widthOut = w;
+        if (stop < 0 && t >= sCsBurnin && ((sCsEps > 0 && w <= sCsEps) || (sCsDecide && fabs(m) > w))) { stop = (int)t; if (stopAt) break; }
+    }
+    return stop;
+}
 
 static const char *const sPool[] = {
     "game:flags=smart", "random", "movebias", "greedy", "epsgreedy:eps=0.1",
@@ -97,6 +141,9 @@ static int PlayGame(struct SimAgent *tplA, struct SimAgent *tplB, struct Team *t
 {
     struct BattleSim *sim = malloc(sizeof(*sim));
     struct BattleSim *turnStart = malloc(sizeof(*sim));
+    struct BattleSim *nodeState = sAivatK ? malloc(sizeof(*sim)) : NULL;   // --aivat: the pending decision point
+    struct SimAivatNode node;
+    int nodePending = 0;
     struct SimAgent agents[2];
     struct Team *teams[2];
     int result = -1, res, guard = 0;
@@ -128,12 +175,14 @@ static int PlayGame(struct SimAgent *tplA, struct SimAgent *tplB, struct Team *t
     if (Sim_Start(sim) != 0) { free(sim); free(turnStart); return -1; }
     turnStart->turnCount = 0xFFFF;
     sRecCount = 0;
+    if (sAivatK) { Sim_AivatBegin(&sAv, seed ^ 0x51ED270Bu, sAivatK); sAv.verbatimOnly = sAivatVerbatim; sAv.calibK = sAivatCalib; sAv.vf = sAivatVf; sAv.K1 = sAivatK1; memset(&node, 0, sizeof(node)); node.state = nodeState; }
     for (;;)
     {
         res = Sim_Run(sim);
         if (res == SIM_RUN_FINISHED)
         {
             result = sim->battleOutcome == B_OUTCOME_WON ? (sideA == 0) : sim->battleOutcome == B_OUTCOME_LOST ? (sideA == 1) : 2;
+            if (sAivatK && nodePending) { Sim_AivatNode(&sAv, &node, sim); nodePending = 0; }
             break;
         }
         if (res != SIM_RUN_REQUEST) { result = 2; break; }
@@ -144,6 +193,19 @@ static int PlayGame(struct SimAgent *tplA, struct SimAgent *tplB, struct Team *t
             struct SimAction act;
             if (kind == SIM_REQ_ACTION && b == 0)
                 memcpy(turnStart, sim, sizeof(*sim));
+            if (sAivatK)
+            {
+                // a new decision point unless this is the second action request of the pending turn
+                int sameTurn = nodePending && node.kind == SIM_REQ_ACTION && kind == SIM_REQ_ACTION && nodeState->turnCount == sim->turnCount;
+                if (!sameTurn)
+                {
+                    if (nodePending) Sim_AivatNode(&sAv, &node, sim);
+                    memcpy(nodeState, sim, sizeof(*sim));
+                    memset(&node, 0, sizeof(node)); node.state = nodeState; node.kind = kind; node.requester = b;
+                    nodePending = 1;
+                }
+            }
+            ag->policyValid = 0;
             if (getenv("ARENA_TRACE"))
                 fprintf(stderr, "T %d %d %d %u %u hp %d %d\n", sim->turnCount, b, kind, sim->rngValue, sim->rngCalls, sim->battleMons[0].hp, sim->battleMons[1].hp);
             (*decisions)++;
@@ -163,6 +225,12 @@ static int PlayGame(struct SimAgent *tplA, struct SimAgent *tplB, struct Team *t
                 if (kind == SIM_REQ_SWITCH) { n = Sim_LegalSwitches(sim, b, slots, PARTY_SIZE); act.type = B_ACTION_SWITCH; act.partySlot = n ? slots[0] : 0; }
                 else { n = Sim_LegalActions(sim, b, acts, 32); if (n) act = acts[0]; else { act.type = B_ACTION_USE_MOVE; act.target = 0xFF; } }
                 if (Sim_Answer(sim, b, &act) != 0) { result = 2; break; }
+                ag->policyValid = 0;   // the fallback action was not drawn from the agent's distribution
+            }
+            if (sAivatK && nodePending)
+            {
+                node.act[side] = act; node.haveAct[side] = 1;
+                if (ag->policyValid) { memcpy(node.policy[side], ag->policy, sizeof(node.policy[side])); node.policyN[side] = ag->policyN; node.havePolicy[side] = 1; }
             }
             if (sRecord && sRecCount < REC_MAX)
             {
@@ -174,6 +242,21 @@ static int PlayGame(struct SimAgent *tplA, struct SimAgent *tplB, struct Team *t
     }
     *turns = sim->turnCount;
     sStatsA = agents[sideA]; sStatsB = agents[sideA ^ 1];
+    if (sAivatK)
+    {
+        double z = result == 2 ? 0.0 : (result == 1) == (sideA == 0) ? 1.0 : -1.0;   // side 0's raw score
+        sGameRaw = z;
+        sGameAivat = Sim_AivatScore(&sAv, z);
+        if (sAivatDump)
+        {
+            int q;
+            pthread_mutex_lock(&sLock);
+            fprintf(sAivatDump, "GAME %.0f %.4f %d\n", z, sAv.correction, sAv.nV);
+            for (q = 0; q < sAv.nV; q++) fprintf(sAivatDump, "%.4f %.0f\n", sAv.vTrace[q], z);
+            pthread_mutex_unlock(&sLock);
+        }
+        free(nodeState);
+    }
     free(sim); free(turnStart);
     return result;
 }
@@ -188,7 +271,7 @@ static void *Worker(void *arg)
         pthread_mutex_lock(&sLock);
         g = sNextGame++;
         pthread_mutex_unlock(&sLock);
-        if (g >= sGames) break;
+        if (g >= sGames || sStop) break;
         k = sPaired ? g >> 1 : g;   // --paired: the pair index drives the draws, so games 2k and 2k+1 match
         x = sSeed * 0x9E3779B9u + (u32)k * 0x85EBCA6Bu; x ^= x >> 15; x *= 0x2C1B3C6Du; x ^= x >> 12; x *= 0x297A2D39u; x ^= x >> 15;
         seed = x;
@@ -215,6 +298,40 @@ static void *Worker(void *arg)
         sAgents[ib].decisions += sStatsB.decisions; sAgents[ib].matrixCells += sStatsB.matrixCells; sAgents[ib].simulatedTurns += sStatsB.simulatedTurns; sAgents[ib].decideSeconds += sStatsB.decideSeconds;
         if (sRateTeams) Update(ta, tb, r == 1 ? 1.0 : r == 0 ? 0.0 : 0.5);
         else Update(ia, ib, r == 1 ? 1.0 : r == 0 ? 0.0 : 0.5);
+        if (sAivatK && !sRateTeams)
+        {
+            // scores from A's (agent ia's) view; stored under the unordered pair with the lower index first
+            double raw = sideA == 0 ? sGameRaw : -sGameRaw, av = sideA == 0 ? sGameAivat : -sGameAivat;
+            int lo = ia < ib ? ia : ib, hi = ia < ib ? ib : ia;
+            struct PairStat *ps = &sPairStat[lo][hi];
+            if (lo != ia) { raw = -raw; av = -av; }
+            ps->n++; ps->raw += raw; ps->raw2 += raw * raw; ps->av += av; ps->av2 += av * av;
+            sAvNodes += sAv.nodes; sAvFast += sAv.nodesFast; sAvSkipped += sAv.nodesSkipped; sAvSims += sAv.sims;
+            if (sPaired) { sPairRawG[g] = raw; sPairAvG[g] = av; sPairHaveG[g] = 1; sPairIa[g] = lo; sPairIb[g] = hi; }
+        }
+        if (sStreamRaw && sAgentCount == 2)
+        {
+            // agent 0's score in this game; the unit is the game, or the pair mean when --paired
+            double raw = (sideA == 0 ? sGameRaw : -sGameRaw) * (ia == 0 ? 1 : -1), av = sAivatK ? (sideA == 0 ? sGameAivat : -sGameAivat) * (ia == 0 ? 1 : -1) : raw;
+            int u = sPaired ? g >> 1 : g, units = sPaired ? sGames / 2 : sGames;
+            if (sPaired)
+            {
+                if (sStreamHave[u] == 0) { sStreamRaw[u] = raw; sStreamAv[u] = av; sStreamHave[u] = 1; }
+                else { sStreamRaw[u] = (sStreamRaw[u] + raw) / 2; sStreamAv[u] = (sStreamAv[u] + av) / 2; sStreamHave[u] = 2; }
+            }
+            else { sStreamRaw[u] = raw; sStreamAv[u] = av; sStreamHave[u] = 2; }
+            if ((sCsEps > 0 || sCsDecide) && !sStop)
+            {
+                u8 *complete = malloc(units); int k2, tr, ta2;
+                for (k2 = 0; k2 < units; k2++) complete[k2] = sStreamHave[k2] == 2;
+                tr = CsScan(sStreamRaw, complete, units, 1, &sCsMeanRaw, &sCsWidthRaw);
+                ta2 = CsScan(sStreamAv, complete, units, 1, &sCsMeanAv, &sCsWidthAv);
+                if (tr > 0 && sCsStopRaw < 0) sCsStopRaw = tr;
+                if (ta2 > 0 && sCsStopAv < 0) sCsStopAv = ta2;
+                if ((sAivatK ? ta2 : tr) > 0) sStop = 1;
+                free(complete);
+            }
+        }
         sTotalTurns += turns; sTotalDecisions += decisions;
         if (sOut)
         {
@@ -271,6 +388,16 @@ int main(int argc, char **argv)
         else if (!strcmp(argv[i], "--doubles")) sAllowDoubles = 1;
         else if (!strcmp(argv[i], "--rate-teams")) sRateTeams = 1;
         else if (!strcmp(argv[i], "--paired")) sPaired = 1;
+        else if (!strcmp(argv[i], "--aivat") && i + 1 < argc) sAivatK = atoi(argv[++i]);
+        else if (!strcmp(argv[i], "--aivat-verbatim")) sAivatVerbatim = 1;
+        else if (!strcmp(argv[i], "--aivat-calib") && i + 1 < argc) sAivatCalib = (float)atof(argv[++i]);
+        else if (!strcmp(argv[i], "--aivat-lookahead") && i + 1 < argc) { sAivatVf = 1; sAivatK1 = atoi(argv[++i]); if (sAivatK1 < 1) sAivatK1 = 1; }
+        else if (!strcmp(argv[i], "--cs-eps") && i + 1 < argc) sCsEps = atof(argv[++i]);
+        else if (!strcmp(argv[i], "--cs-decide")) sCsDecide = 1;
+        else if (!strcmp(argv[i], "--cs-alpha") && i + 1 < argc) sCsAlpha = atof(argv[++i]);
+        else if (!strcmp(argv[i], "--cs-topt") && i + 1 < argc) sCsTopt = atoi(argv[++i]);
+        else if (!strcmp(argv[i], "--cs-burnin") && i + 1 < argc) sCsBurnin = atoi(argv[++i]);
+        else if (!strcmp(argv[i], "--aivat-dump") && i + 1 < argc) sAivatDump = fopen(argv[++i], "w");
         else { fprintf(stderr, "unknown option %s\n", argv[i]); return 2; }
     }
     if (!teamsPath) { fprintf(stderr, "--teams <pool.tsv> is required\n"); return 2; }
@@ -313,6 +440,14 @@ int main(int argc, char **argv)
     if (outPath) sOut = fopen(outPath, "w");
     if (recordPath) sRecord = fopen(recordPath, "w");
     if (sPaired && (sGames & 1)) { sGames++; fprintf(stderr, "--paired: rounding --games up to %d\n", sGames); }
+    if (sAgentCount == 2 && !sRateTeams)
+    {
+        int units = sPaired ? sGames / 2 : sGames;
+        sStreamRaw = calloc(units + 1, sizeof(double)); sStreamAv = calloc(units + 1, sizeof(double)); sStreamHave = calloc(units + 1, 1);
+        // rho for a target unit count (Waudby-Smith et al.): minimises the width around t_opt
+        sCsRho = sqrt((-2 * log(sCsAlpha) + log(-2 * log(sCsAlpha) + 1)) / sCsTopt);
+    }
+    if (sAivatK && sPaired) { sPairRawG = calloc(sGames, sizeof(double)); sPairAvG = calloc(sGames, sizeof(double)); sPairHaveG = calloc(sGames, 1); sPairIa = calloc(sGames, sizeof(int)); sPairIb = calloc(sGames, sizeof(int)); }
     fprintf(stderr, "arena: %d teams, %d agents, %d games%s, %d threads, seed %u\n", sTeamCount, sAgentCount, sGames, sPaired ? " (paired)" : "", sThreads, sSeed);
     t0 = clock();
     for (i = 0; i < sThreads; i++) pthread_create(&threads[i], NULL, Worker, NULL);
@@ -337,12 +472,66 @@ int main(int argc, char **argv)
         if (rf) { fprintf(rf, "]\n"); fclose(rf); }
         free(sorted);
     }
-    printf("%d games, avg %.1f turns, %.1f decisions per game, %.1fs cpu\n", sGames, (double)sTotalTurns / sGames, (double)sTotalDecisions / sGames,
-           (double)(clock() - t0) / CLOCKS_PER_SEC);
+    {
+        long played = 0;
+        for (i = 0; i < sRatedCount; i++) played += sRated[i].games;
+        played /= 2;
+        if (played < 1) played = 1;
+        printf("%ld games played, avg %.1f turns, %.1f decisions per game, %.1fs cpu\n", played, (double)sTotalTurns / played, (double)sTotalDecisions / played,
+               (double)(clock() - t0) / CLOCKS_PER_SEC);
+    }
+    if (sStreamRaw)
+    {
+        int units = sPaired ? sGames / 2 : sGames, k2, tr, ta2; double mr, wr, ma, wa;
+        u8 *complete = malloc(units);
+        for (k2 = 0; k2 < units; k2++) complete[k2] = sStreamHave[k2] == 2;
+        tr = CsScan(sStreamRaw, complete, units, 0, &mr, &wr);
+        ta2 = CsScan(sStreamAv, complete, units, 0, &ma, &wa);
+        printf("confidence sequence (alpha %.3f, rho %.3f, unit = %s, %s): raw %+.4f +- %.4f; AIVAT %+.4f +- %.4f\n", sCsAlpha, sCsRho, sPaired ? "pair" : "game",
+               sCsEps > 0 ? "stop when half-width <= eps" : sCsDecide ? "stop when 0 is excluded" : "no stopping rule", mr, wr, ma, wa);
+        if (tr > 0 || ta2 > 0) printf("  stopping unit: raw %d, AIVAT %d (-1 = not reached)%s\n", tr, ta2, sStop ? "; the run stopped early" : "");
+        free(complete);
+    }
+    if (sAivatK && !sRateTeams)
+    {
+        int a, b;
+        printf("AIVAT (K=%d, %s): %ld decision points, %ld on the fast engine, %ld skipped, %ld referee sims\n", sAivatK, sAivatVerbatim ? "verbatim" : "fast engine when possible",
+               sAvNodes, sAvFast, sAvSkipped, sAvSims);
+        for (a = 0; a < sAgentCount; a++)
+            for (b = a + 1; b < sAgentCount; b++)
+            {
+                struct PairStat *ps = &sPairStat[a][b];
+                double mr, ma, vr, va, pr, pa, er, ea, dr, da;
+                if (ps->n < 2) continue;
+                mr = ps->raw / ps->n; ma = ps->av / ps->n;
+                vr = (ps->raw2 - ps->n * mr * mr) / (ps->n - 1); va = (ps->av2 - ps->n * ma * ma) / (ps->n - 1);
+                pr = (mr + 1) / 2; pa = (ma + 1) / 2;
+                er = 400 * log10(pr / (1 - pr)); ea = 400 * log10(pa / (1 - pa));
+                dr = 400 / log(10.0) / (pr * (1 - pr)) * sqrt(vr / ps->n) / 2; da = 400 / log(10.0) / (pa * (1 - pa)) * sqrt(va / ps->n) / 2;
+                printf("  %s vs %s: %ld games\n    raw   score %+.4f +- %.4f  (ELO diff %+.0f +- %.0f)\n    AIVAT score %+.4f +- %.4f  (ELO diff %+.0f +- %.0f)   variance ratio %.1fx\n",
+                       sAgents[a].name, sAgents[b].name, ps->n, mr, sqrt(vr / ps->n), er, dr, ma, sqrt(va / ps->n), ea, da, va > 0 ? vr / va : 0.0);
+                if (sPaired)
+                {
+                    long np = 0; double sr = 0, sr2 = 0, sa = 0, sa2 = 0;
+                    int g;
+                    for (g = 0; g + 1 < sGames; g += 2)
+                        if (sPairHaveG[g] && sPairHaveG[g + 1] && sPairIa[g] == a && sPairIb[g] == b)
+                        {
+                            double r = (sPairRawG[g] + sPairRawG[g + 1]) / 2, v = (sPairAvG[g] + sPairAvG[g + 1]) / 2;
+                            np++; sr += r; sr2 += r * r; sa += v; sa2 += v * v;
+                        }
+                    if (np >= 2)
+                    {
+                        double pmr = sr / np, pma = sa / np, pvr = (sr2 - np * pmr * pmr) / (np - 1), pva = (sa2 - np * pma * pma) / (np - 1);
+                        printf("    paired (%ld pairs): raw %+.4f +- %.4f, AIVAT %+.4f +- %.4f, variance ratio %.1fx\n", np, pmr, sqrt(pvr / np), pma, sqrt(pva / np), pva > 0 ? pvr / pva : 0.0);
+                    }
+                }
+            }
+    }
     if (!sRateTeams)
         for (i = 0; i < sAgentCount; i++)
             if (!sAgents[i].isGameAI)
-                printf("  %-40s decisions %u, matrix cells %u, simulated turns %u, %.1f ms/decision, %.0fk sims/s\n", sAgents[i].name, sAgents[i].decisions, sAgents[i].matrixCells, sAgents[i].simulatedTurns,
-                       sAgents[i].decisions ? 1e3 * sAgents[i].decideSeconds / sAgents[i].decisions : 0.0, sAgents[i].decideSeconds > 0 ? sAgents[i].simulatedTurns / sAgents[i].decideSeconds / 1e3 : 0.0);
+                printf("  %-40s decisions %u, matrix cells %llu, simulated turns %llu, %.1f ms/decision, %.0fk sims/s, %.0f sims/decision\n", sAgents[i].name, sAgents[i].decisions, sAgents[i].matrixCells, sAgents[i].simulatedTurns,
+                       sAgents[i].decisions ? 1e3 * sAgents[i].decideSeconds / sAgents[i].decisions : 0.0, sAgents[i].decideSeconds > 0 ? sAgents[i].simulatedTurns / sAgents[i].decideSeconds / 1e3 : 0.0, sAgents[i].decisions ? (double)sAgents[i].simulatedTurns / sAgents[i].decisions : 0.0);
     return 0;
 }

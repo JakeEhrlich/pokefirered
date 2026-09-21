@@ -36,9 +36,22 @@ struct SimAgent
     int mctsIters, mctsNodes;  // mcts: budget in iterations, or in nodes when mctsNodes > 0
     int mctsKids;              // mcts: outcomes stored per cell
     float mctsBonus;           // mcts: optimism bonus coefficient on under-visited cells (0 = none)
+    int mctsBuckets;           // mctsf: samples per cell grouped into outcome buckets (KO / status / HP quartile per side) with their
+                               //        probability mass; 0 = the mcts scheme (up to mctsKids stored seeds, uniform)
+    int fvf;                   // mctsf: leaf value on the fast state: 0 basic, 1 tempo (fitted features), 2 ply1 (analytic one-ply)
+    int rollouts, rolloutDepth; // mctsf: leaf = mean of `rollouts` playouts of up to rolloutDepth turns (random moves; the calibrated
+                               //        heuristic scores a truncated playout); 0 = the heuristic leaf
     u32 rng;                   // the agent's own xorshift state (not the engine's RNG)
+    // the distribution the last decide() sampled its action from, over the canonical legal-action list of the
+    // deciding battler (Sim_LegalActions / Sim_LegalSwitches order). policyValid = 0 when the agent cannot say
+    // (deterministic or opaque agents). Used by the AIVAT referee (src/sim_aivat.c).
+#define SIM_AGENT_MAX_ACTIONS 32
+    float policy[SIM_AGENT_MAX_ACTIONS];
+    int policyN;
+    u8 policyValid;
     // statistics
-    u32 decisions, matrixCells, simulatedTurns;
+    u32 decisions;
+    unsigned long long matrixCells, simulatedTurns;   // 64-bit: a 1600-game run at 100k sims per decision overflows 32 bits
     double decideSeconds;      // thread CPU time spent inside decide() (arena: sims per second = simulatedTurns / decideSeconds)
 };
 
@@ -49,7 +62,11 @@ struct SimAgent
 // MCTS with regret matching at every node and the value function at the leaves). Common keys: vf=basic|material, samples=N, floor=P, eps=P, seed=N.
 // Returns 0 on success, -1 on a bad spec (with a message in ag->name).
 int Sim_AgentFromSpec(struct SimAgent *ag, const char *spec);
+// mctsf search from a fast state (fast/fast.h): root cell values (n x m, side 0), strategies, value; -1 if terminal
+struct fs_state_tag; int Sim_MctsfSearchRoot(struct SimAgent *ag, const void *fsRoot, float *M, int *n, int *m, float *sRow, float *sCol, float *value);
 u32 Sim_AgentRandom(struct SimAgent *ag);
+// The Run and Bun trainer AI (src/sim_rnb.c): move scoring with the doc's random components, plus its switch rule.
+void Sim_DecideRnB(struct SimAgent *ag, struct BattleSim *sim, const struct BattleSim *turnStart, u8 battler, u8 kind, struct SimAction *out);
 
 // Value functions.
 float Sim_ValueBasic(struct BattleSim *sim, u8 side, void *ctx);      // HP, status, stages, screens, hazards
