@@ -1127,6 +1127,11 @@ static float MfPlayout(struct SimAgent *ag, const fs_state *s)
     return (float)(sum / ag->rollouts);
 }
 
+static float MfValue(const struct SimAgent *ag, const fs_state *s)
+{
+    return ag->fvf == 2 ? fs_value_ply1(s, 0) : ag->fvf == 1 ? fs_value_tempo(s, 0) : fs_value_basic(s, 0);
+}
+
 static float MfStep(struct SimAgent *ag, const struct MfNode *node, int a, int b, u32 seed, fs_state *out)
 {
     float v;
@@ -1144,7 +1149,7 @@ static float MfStep(struct SimAgent *ag, const struct MfNode *node, int a, int b
     else
         fs_step(out, node->mine[a], node->theirs[b]);
     if (out->unsupported) sMfTree.nUnsupported++;
-    v = ag->rollouts > 0 ? MfPlayout(ag, out) : fs_value_basic(out, 0);
+    v = ag->rollouts > 0 ? MfPlayout(ag, out) : MfValue(ag, out);
     if (sMcTiming) sMfTree.tSim += McNow() - t0;
     return v;
 }
@@ -1178,7 +1183,7 @@ static int MfNewNode(struct SimAgent *ag, const fs_state *state)
     nd->state = *state;
     nd->visits = 0;
     nd->rmT = 0;
-    nd->prior = nd->value = fs_value_basic(&nd->state, 0);
+    nd->prior = nd->value = MfValue(ag, &nd->state);
     nd->terminal = state->request == FS_REQ_DONE;
     nd->n = nd->m = 0;
     if (nd->terminal) return idx;
@@ -1467,6 +1472,7 @@ int Sim_AgentFromSpec(struct SimAgent *ag, const char *spec)
     {
         if (!strcmp(val, "material")) ag->value = Sim_ValueMaterial;
         else if (!strcmp(val, "basic")) ag->value = Sim_ValueBasic;
+        else if (!strcmp(val, "ply1") || !strcmp(val, "tempo")) ag->value = Sim_ValueBasic;   // fast-state leaves (mctsf), see fvf
         else { snprintf(ag->name, sizeof(ag->name), "unknown value function %s", val); return -1; }
     }
     if (OptValue(spec, "samples", val, sizeof(val))) ag->samples = atoi(val) > 0 ? atoi(val) : 1;
@@ -1531,6 +1537,8 @@ int Sim_AgentFromSpec(struct SimAgent *ag, const char *spec)
         if (OptValue(spec, "bonus", val, sizeof(val))) ag->mctsBonus = (float)atof(val);
         ag->mctsBuckets = 0;
         if (OptValue(spec, "buckets", val, sizeof(val))) ag->mctsBuckets = atoi(val) > 0 ? atoi(val) : 0;
+        ag->fvf = 0;
+        if (OptValue(spec, "vf", val, sizeof(val))) { if (!strcmp(val, "ply1")) ag->fvf = 2; else if (!strcmp(val, "tempo")) ag->fvf = 1; }
         ag->rollouts = 0; ag->rolloutDepth = 20;
         if (OptValue(spec, "rollout", val, sizeof(val))) ag->rollouts = atoi(val) > 0 ? atoi(val) : 0;
         if (OptValue(spec, "rdepth", val, sizeof(val))) ag->rolloutDepth = atoi(val) > 0 ? atoi(val) : 20;

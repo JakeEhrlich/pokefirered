@@ -531,7 +531,7 @@ int main(int argc, char **argv)
     if (!sRateTeams)
         for (i = 0; i < sAgentCount; i++)
             if (!sAgents[i].isGameAI)
-                printf("  %-40s decisions %u, matrix cells %u, simulated turns %u, %.1f ms/decision, %.0fk sims/s\n", sAgents[i].name, sAgents[i].decisions, sAgents[i].matrixCells, sAgents[i].simulatedTurns,
-                       sAgents[i].decisions ? 1e3 * sAgents[i].decideSeconds / sAgents[i].decisions : 0.0, sAgents[i].decideSeconds > 0 ? sAgents[i].simulatedTurns / sAgents[i].decideSeconds / 1e3 : 0.0);
+                printf("  %-40s decisions %u, matrix cells %llu, simulated turns %llu, %.1f ms/decision, %.0fk sims/s, %.0f sims/decision\n", sAgents[i].name, sAgents[i].decisions, sAgents[i].matrixCells, sAgents[i].simulatedTurns,
+                       sAgents[i].decisions ? 1e3 * sAgents[i].decideSeconds / sAgents[i].decisions : 0.0, sAgents[i].decideSeconds > 0 ? sAgents[i].simulatedTurns / sAgents[i].decideSeconds / 1e3 : 0.0, sAgents[i].decisions ? (double)sAgents[i].simulatedTurns / sAgents[i].decisions : 0.0);
     return 0;
 }

@@ -175,6 +175,11 @@ int fs_step(fs_state *s, fs_action a0, fs_action a1);
 
 // ---- evaluation helpers
 float fs_value_basic(const fs_state *s, int side);   // the same heuristic as Sim_ValueBasic, on the fast state
+#define FS_TEMPO_NF 19
+int fs_tempo_features(const fs_state *s, int side, float *f);       // fast_value.c: tempo features (f[0] = fs_value_basic)
+int fs_tempo_features_sym(const fs_state *s, int side, float *f);   // antisymmetrised: (f(side) - f(opp)) / 2
+float fs_value_tempo(const fs_state *s, int side);                  // fitted linear value on the symmetric features
+float fs_value_ply1(const fs_state *s, int side);                   // analytic one-ply lookahead (closed-form joint matrix + RM+)
 
 // ---- randomness (xorshift32 on s->rng)
 static inline u32 fs_rand(fs_state *s) { u32 x = s->rng; x ^= x << 13; x ^= x >> 17; x ^= x << 5; s->rng = x; return x; }

@@ -38,6 +38,7 @@ struct SimAgent
     float mctsBonus;           // mcts: optimism bonus coefficient on under-visited cells (0 = none)
     int mctsBuckets;           // mctsf: samples per cell grouped into outcome buckets (KO / status / HP quartile per side) with their
                                //        probability mass; 0 = the mcts scheme (up to mctsKids stored seeds, uniform)
+    int fvf;                   // mctsf: leaf value on the fast state: 0 basic, 1 tempo (fitted features), 2 ply1 (analytic one-ply)
     int rollouts, rolloutDepth; // mctsf: leaf = mean of `rollouts` playouts of up to rolloutDepth turns (random moves; the calibrated
                                //        heuristic scores a truncated playout); 0 = the heuristic leaf
     u32 rng;                   // the agent's own xorshift state (not the engine's RNG)
@@ -49,7 +50,8 @@ struct SimAgent
     int policyN;
     u8 policyValid;
     // statistics
-    u32 decisions, matrixCells, simulatedTurns;
+    u32 decisions;
+    unsigned long long matrixCells, simulatedTurns;   // 64-bit: a 1600-game run at 100k sims per decision overflows 32 bits
     double decideSeconds;      // thread CPU time spent inside decide() (arena: sims per second = simulatedTurns / decideSeconds)
 };
 
